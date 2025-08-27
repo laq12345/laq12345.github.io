@@ -19,9 +19,7 @@ listing:
     image-height: 250px
     fields: [title, description, type]
     contents: 
-      - r_novice
-      - workshop_bioinf
-      - workshop_rladies_zurich
+      - "workshop_*/index.qmd"
     type: table
     grid-item-border: false
     sort-ui: false

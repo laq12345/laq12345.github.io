@@ -84,18 +84,11 @@
     "text": "https://github.com/csids/covidnor"
   },
   {
-    "objectID": "research/workshop_rladies_zurich/index.html",
-    "href": "research/workshop_rladies_zurich/index.html",
-    "title": "Zero to Quarto Workshop",
+    "objectID": "research/workshop_singlecell/index.html",
+    "href": "research/workshop_singlecell/index.html",
+    "title": "单细胞测序",
     "section": "",
-    "text": "Date: Monday 23 October 2023, 6:30PM to 8:00PM, CEST\nPlace: KO2-F-153, Rämistrasse 71, Zürich.\nEvent link\nPresenter: Chi Zhang. Feel free to reach out with comments and feedback!\nWorkshop site"
-  },
-  {
-    "objectID": "research/r_novice/index.html",
-    "href": "research/r_novice/index.html",
-    "title": "R for Reproducible Scientific Analysis",
-    "section": "",
-    "text": "I have been involved in multiple introductory R workshops at University of Oslo, sometimes as the instructor and sometimes, a helper.\nYou can check the course material for my ggplot2 lecture.\nMore information about the Carpentries at University of Oslo can be found here: Carpentries at UiO"
+    "text": "什么是单细胞测序技术？\n\n\n\n\n\n\n单细胞测序\n\n\n\n单细胞测序（Single-cell sequencing）是一种在单个细胞水平解析基因组、转录组等遗传信息的高通量测序技术。其核心目标是突破传统测序对细胞群体“平均化分析”的局限，揭示细胞间的异质性（如基因表达差异、功能状态、稀有细胞亚群等），从而更精准地理解生命活动机制和疾病进程。\n\n\n\n\n\n\n\n\n核心价值\n\n\n\n\n精准识别稀有细胞亚群（如肿瘤干细胞、免疫记忆细胞）。\n解析细胞分化轨迹（如胚胎发育、干细胞分化）。\n揭示疾病中的细胞异质性演化规律（如肿瘤微环境、免疫逃逸）。\n多组学整合分析（如转录组+表观组+蛋白组）。\n\n\n\n\n\n\n技术原理与关键环节\n\n1. 核心原理\n\n单细胞分离：将单个细胞从群体中分离，避免混合样本的平均效应。\n核酸扩增：因单细胞内DNA/RNA含量极低（皮克级），需通过全基因组扩增（WGA）或全转录组扩增（WTA）放大信号。\n文库构建与测序：将扩增产物转化为测序文库，利用高通量测序平台（如Illumina）获取数据。\n数据分析：通过生物信息学工具解析基因表达谱、细胞类型分类、功能注释等。\n\n\n\n2. 关键技术环节\n\n单细胞分离技术核酸扩增技术多组学整合\n\n\n\n显微操作法：精度高但通量低，适用于少量样本。\n流式细胞分选：基于荧光标记自动化分选，通量较高但依赖细胞状态。\n微流控芯片（主流）：利用微通道设计实现高通量、低损伤捕获（如10x Genomics Chromium系统）。\n\n\n\n\nPCR-based方法：操作简便但存在扩增偏倚。\nMDA（多重置换扩增）：覆盖度较好但一致性差。\nMALBAC（多重退火环状循环扩增）：由谢晓亮团队开发，通过环化引物降低扩增偏倚，覆盖93%的基因组，适用于检测单细胞序列变异。\n\n\n\n\n单细胞ATAC-seq：研究染色质开放性。\n表面蛋白检测：结合Feature Barcode技术（如10x Genomics）或抗体标记（如BioLegend）。\n空间转录组：如华大Stereo-cell技术，通过DNA纳米球阵列实现原位空间定位。\n\n\n\n\n\n\n\n\n实验流程\n\n样本制备：\n\n实体组织需解离为单细胞悬液（酶解或机械研磨），需优化方案以保持细胞活性。\n样品要求：细胞活率&gt;80%，浓度7×10⁵-1.2×10⁶ cells/mL，直径&lt;40μm。\n\n单细胞捕获：\n\n使用微流控芯片或微孔板技术（如10x Genomics）捕获单细胞。\n\n核酸扩增：\n\n通过GemCode技术（10x Genomics）或MALBAC技术扩增DNA/RNA。\n\n文库构建与测序：\n\n将扩增产物构建为测序文库，结合Illumina等平台进行高通量测序。\n\n数据分析：\n\n使用工具如Seurat、Scanpy进行聚类、差异基因分析、轨迹推断（如Pseudotime分析）。\n整合多组学数据（如转录组+ATAC-seq）解析调控网络。\n\n\n\n\n\n单细胞测序关键技术与方法\n\n单细胞转录组扩增技术：\n\nSmart-seq：一种全转录组扩增（WTA）方法，通过oligo-dT引物和模板转换实现全长cDNA扩增。\nSmart-seq2：改进版，提供更稳定和准确的mRNA测量。\nQuartz-Seq：通过poly(A)标记实现高灵敏度的转录组扩增。\nCEL-seq：基于体外转录的WTA方法。\nRamDa-seq：能够检测单细胞中的非poly(A)转录本，包括长非编码RNA和增强子RNA。\n\n微滴技术和微孔技术：\n\nDrop-Seq：基于微滴技术，将单个细胞/核、反应液和条形码珠子封装在油滴中，通过分子/细胞条形码进行逆转录（RT）。\nDroNc-seq：类似Drop-Seq，但专门用于单核RNA-seq。\nMicrowell-seq：基于微孔技术，将单个细胞和条形码珠子隔离在微孔中。\nNx1-seq 和 Seq-Well：便携式、低成本的微孔平台，适用于高通量单细胞分析。\n\n高通量和低成本方法：\n\nsci-RNA-seq：组合索引方法，最新版本为sci-RNA-seq3，适用于大规模单细胞分析。\n自动平台：如C1 Single-Cell Auto Prep系统（Fluidigm），可自动完成细胞分离、细胞裂解、RT和PCR扩增。\n\n测序平台：\n\n基于微滴技术：Chromium（10× Genomics）、ddSEQ（Bio-Rad/Illumina）、Nadia（Dolomite）、inDrop（1CellBio）。\n基于微孔技术：Rhapsody（BD）、ICELL8（Takara）。\n\n\n\n\n\nC1/Smart-seq平台适用于需要深入转录组信息的研究，而Chromium平台适用于高通量分析\n\n\n\nSeurat：一个综合性的R包\n\n数据过滤：去除低质量或不符合标准的细胞和基因。\n归一化：调整不同细胞的测序深度，使数据可比。\n缩放：对数据进行标准化处理，以便后续分析。\n降维：通过主成分分析（PCA）等方法减少数据维度，便于可视化和聚类。\n聚类：将具有相似转录组特征的细胞分组。\n可视化：生成如t-SNE、UMAP等可视化图表，直观展示细胞群体的分布和差异。\n\n\n\n\n\n技术局限性\n\n低覆盖度与高噪音：\n\n单细胞测序因扩增偏差和随机性，导致基因覆盖度低（仅检测部分基因），数据中存在噪音。\n\n细胞损失与偏差：\n\n分离过程中细胞丢失（捕获效率通常&lt;70%），且不同细胞类型RNA含量差异可能导致信息低估。\n\n数据处理复杂：\n\n需要复杂的生物信息学工具（如归一化、降维、聚类算法），对计算资源要求高。\n\n成本较高：\n\n相比传统测序，单细胞测序成本显著增加（如10x Genomics单细胞转录组测序成本约为传统测序的10倍）。\n\n数据解读困难：\n\n噪音和生物学意义需结合实验验证（如qPCR、FISH）进一步确认。\n\n\n\n\n\n单细胞测序技术在重症医学领域的应用\n\n1. 重症感染性疾病（如脓毒症、结核性脑膜炎）\n\n免疫图谱解析：\n通过单细胞测序（如scRNA-seq）可揭示重症感染患者体内免疫细胞（如巨噬细胞、T细胞、NK细胞）的异质性及功能状态。例如，结核性脑膜炎（TBM）研究中发现，脑脊液（CSF）中富集的微胶质样巨噬细胞（高表达TLR2/4/7和补体成分）及GZMK+CD8+效应记忆T细胞通过干扰素信号通路参与炎症反应，为靶向治疗提供了新靶点。\n病原体-宿主互作：\n单细胞技术可追踪病原体感染后宿主细胞的动态响应。例如，流感病毒研究中，单细胞测序揭示了呼吸道上皮细胞中病毒受体表达差异及免疫细胞浸润模式，为抗病毒药物筛选提供依据。\n\n\n\n2. 多器官功能障碍综合征（MODS）\n\n器官特异性细胞应激：\n在急性呼吸窘迫综合征（ARDS）或急性肾损伤（AKI）中，单细胞测序可识别受损组织中特定细胞亚群（如肺泡上皮细胞、肾小管上皮细胞）的基因表达异常。例如，Stereo-cell技术通过空间转录组分析，可定位肺部组织中炎症因子高表达区域，揭示细胞间通讯紊乱机制。\n微环境动态监测：\n结合多模态整合（转录组+蛋白组+空间定位），Stereo-cell技术可实时捕捉器官微环境中细胞状态变化（如凋亡、代谢重编程），为早期干预提供生物标志物。\n\n\n\n3. 免疫调节失衡（如脓毒症、自身免疫性重症）\n\n免疫细胞功能失调：\n脓毒症患者中，单细胞测序可发现单核/巨噬细胞向M2型极化（促炎到抗炎表型转换）及调节性T细胞（Treg）功能耗竭，揭示免疫抑制状态的分子机制。\n新型生物标志物筛选：\n通过分析重症患者外周血单细胞图谱，可识别与预后相关的特异性标志物（如CD70+白血病干细胞在AML治疗中的耐药性标志物），指导个体化治疗。\n\n\n\n4. 重症监护中的早期预警与分型\n\n动态监测疾病进展：\n单细胞测序可纵向追踪重症患者（如ICU危重病例）的细胞状态变化。例如，通过分析连续血样中的免疫细胞亚群比例及基因表达，预测器官衰竭风险或感染复发。\n精准分型与治疗选择：\n在重症肌无力或系统性红斑狼疮等疾病中，单细胞技术可识别不同免疫表型（如Th17/Treg失衡），辅助制定靶向治疗方案（如IL-6或B细胞抑制剂）。\n\n\n\n\n\n单细胞测序技术在重症医学领域的技术优势\n\n高分辨率解析细胞异质性：\n传统方法掩盖的稀有细胞亚群（如0.05%的耐药干细胞）可通过单细胞测序精准识别。\n动态功能状态分析：\n技术如Stereo-cell支持原位动态测序，实时捕捉细胞代谢、信号通路激活状态（如炎症因子释放、线粒体功能障碍）。\n空间信息整合：\n通过DNA纳米球芯片（Stereo-cell）实现空间转录组定位，解析器官内细胞的空间分布及邻近细胞间的相互作用（如肿瘤微环境中的免疫排斥区域）。\n多组学整合：\n联合转录组、表观组及蛋白组数据，揭示重症疾病中复杂的调控网络（如表观遗传修饰驱动的基因沉默）。\n\n\n\n\n重症医学领域的典型案例\n\n脓毒症免疫失衡研究：\n利用scRNA-seq发现脓毒症患者中单核细胞（CD14+）向M2型极化（高表达CD163、CD206），伴随T细胞耗竭（PD-1+、TIM-3+），提示免疫检查点抑制剂可能逆转免疫抑制状态。\nARDS肺泡上皮修复：\n单细胞测序揭示ARDS患者肺泡Ⅱ型上皮细胞（AT2）中SFTPC突变及代谢重编程（糖酵解增强），为促进肺修复的代谢干预提供靶点。\n重症新冠患者的免疫特征：\n研究显示新冠重症患者中单核细胞衍生的炎症性巨噬细胞（CD16+ CD14+）及组织驻留记忆T细胞（TRM）过度激活，导致细胞因子风暴，指导抗IL-6或JAK抑制剂的使用。"
   },
   {
     "objectID": "research/literature_kangyan_20250703/index.html",
@@ -809,7 +802,7 @@
     "href": "research/research.html#workshops",
     "title": "科研",
     "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\ntype\n\n\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\n\n\nR for Reproducible Scientific Analysis\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nZero to Quarto Workshop\n\n\nZurich R Ladies workshop\n\n\nquarto\n\n\n\n\n\n\nNo matching items"
+    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\ntype\n\n\n\n\n\n\n\n\n单细胞测序\n\n\n单细胞测序的相关知识，我觉得面试可能会问到的\n\n\nbioinformatics\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/research.html#guides-and-cheatsheets",
@@ -817,13 +810,6 @@
     "title": "科研",
     "section": "Guides and Cheatsheets",
     "text": "Guides and Cheatsheets\n\n\n\nTitle\nDescription\n\n\n\n\nggplot2\nLecture notes for ggplot2 at the Carpentries workshop, UiO\n\n\nlist of commands\nQuick reference list of R commands used in my statistics classes"
-  },
-  {
-    "objectID": "research/workshop_bioinf/index.html",
-    "href": "research/workshop_bioinf/index.html",
-    "title": "Oslo Bioinformatics Week",
-    "section": "",
-    "text": "This workshop is part of the Oslo Bioinformatics Workshop Week 2022. These workshops are open to the scientific community in Oslo and the surrounding area.\nMain instructor: Manuela Zucknick\nCo-instructor: Theophilius Asenso\nDeveloper: Chi Zhang\nCourse website and repository"
   },
   {
     "objectID": "rpkg/bayesynergy/index.html",

@@ -32,7 +32,7 @@ website:
       - text: "Talks"
         href: talks/talks.qmd
 
-      - text: "Blog/notes"
+      - text: "笔记"
         href: blog/blog.qmd
         
       - text: "About me"
