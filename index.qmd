@@ -1,6 +1,6 @@
 ---
-title: "Chi Zhang"
-image: misc/info/photo.png
+title: "刘奥奇"
+image: misc/info/favicon.jpg
 about:
   id: hero-heading
   template: trestles
@@ -8,14 +8,14 @@ about:
   image-shape: round
   links:
     - icon: mailbox
-      text: chizapoth@gmail.com
-      href: mailto:chizapoth@gmail.com
+      text: laqlkw@163.com
+      href: mailto:laqlkw@163.com
     - icon: github
-      text: chizapoth
-      href: https://github.com/chizapoth
-    - icon: linkedin
-      text: Chi Zhang
-      href: https://www.linkedin.com/in/chizapoth/
+      text: laq12345
+      href: https://github.com/laq12345
+#    - icon: linkedin
+#      text: Chi Zhang
+#      href: https://www.linkedin.com/in/chizapoth/
 ---
 
 ::: {#hero-heading}

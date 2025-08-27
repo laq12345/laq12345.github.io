@@ -27,10 +27,10 @@ listing:
     categories: true
     date-format: short
 
-  - id: technotes
+  - id: learnnotes
     fields: [title, date]
     contents: 
-      - "technotes_*/index.qmd"
+      - "learnnotes_*/index.qmd"
     type: table
     grid-item-border: false
     sort-ui: false
@@ -47,13 +47,11 @@ listing:
 :::
 
 
-### Technical notes
+### 学习笔记
 
-Most of the technical notes are in the newly built note repository, [Data Apothecary's Notes](https://chizapoth.github.io/data-apothecary-notes/). Please feel free to reach out if you found any errors!
+这是我的学习笔记，相关内容我还会发布在另外一个网站上
 
-I'd be glad if it helps you in some way.
-
-::: {#technotes}
+::: {#learnnotes}
 :::
 
 

@@ -1,0 +1,471 @@
+---
+title: "我的重症医学单词: 2025年8月27日"
+author: "刘奥奇"
+description: |
+  主要是我准备面试和笔试的各种专业单词
+date: "2025-8-27"
+categories: [Learning]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+# 单词
+
+## 疾病
+
+Shock 休克
+
+Trauma */ˈtrɔːmə/* 创伤
+
+Ventricular */venˈtrɪkjələ(r)/* Fibrillation */ˌfɪbrɪˈleɪʃən/* 室颤
+
+Acute Respiratory */rəˈspɪrət(ə)ri/* Distress Syndrome(ARDS) 急性呼吸窘迫综合征
+
+Acute Myocardial */ˌmaɪəʊˈkɑːdiəl/* Infarction */ɪnˈfɑːkʃn/*, AMI 急性心肌梗死
+
+Heart Failure, HF 心力衰竭
+
+Right ventricular */venˈtrɪkjələ(r)/* failure 右心衰竭
+
+Respiratory failure 呼吸衰竭
+
+Renal */ˈriːnl/* failure 肾衰竭
+
+Acute Kidney Injury (AKI) 急性肾损伤
+
+Encephalopathy */enˌsefəˈlɒpəθi; enˌkefəˈlɒpəθi/* 脑病
+
+Disseminated /dɪˈsemɪneɪtɪd/ Intravascular /ˌɪntrəˈvæskjʊlə(r)/ Coagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ (DIC) 弥散性血管内凝血
+
+COPD 慢性阻塞性肺疾病
+
+sepsis 脓毒症
+
+septic shock感染性休克
+
+Delirium */dɪˈlɪriəm; dɪˈlɪəriəm/* 谵妄
+
+SIRS 全身炎症反应综合征
+
+Organ dysfunction 器官功能障碍
+
+Multiple Organ Dysfunction Syndrome, MODS 多器官功能障碍综合征
+
+Deep vein thrombosis */θrɒmˈbəʊsɪs/* (DVT) 深静脉血栓
+
+drowning 淹溺
+
+electrical injury电击伤
+
+Multiple Injuries 多发性创伤
+
+Poisoning 急性中毒
+
+Compartment Syndrome 挤压综合征
+
+Heat Stroke 热射病
+
+Altitude Sickness 高原反应
+
+Hypothermia 低体温
+
+Leukocytosis */ˌluːkəʊsaɪˈtəʊsɪs/* 白细胞增多
+
+Thrombocytopenia */,θrɒmbə(ʊ),saɪtə(ʊ)'piːnɪə/* 血小板减少症
+
+hospital-acquired infection 医院获得性感染
+
+Catheter-related bloodstream infection (CRBSI) 导管相关血流感染
+
+Ventilator-associated pneumonia */njuːˈməʊniə/* (VAP) 呼吸机相关肺炎
+
+Multidrug-resistant organism (MDRO) 多重耐药菌
+
+Refractory */rɪ'frækt(ə)rɪ/* septic shock 难治性感染性休克
+
+Hypertensive emergency 高血压急症
+
+Non-ST elevation */,elɪ'veɪʃ(ə)n/* myocardial */,maɪəʊ'kɑːdɪəl/* infarction */ɪn'fɑːkʃ(ə)n/* (NSTEMI) 非ST段抬高型心肌梗死
+
+Post-ICU Syndrome, PICS ICU后综合征
+
+## 急救与复苏
+
+CPR 心肺复苏
+
+AED 自动体外除颤器
+
+ACLS 高级心血管支持
+
+## 治疗
+
+**Mechanical Ventilation */,ventɪ'leɪʃ(ə)n/* 机械通气**
+
+Non-invasive ventilation (NIV) 无创通气
+
+Prone */prəʊn/* Positioning 俯卧位通气
+
+Airway Management 气道管理
+
+High-Flow Oxygen Therapy 高流量氧疗
+
+Weaning from Mechanical Ventilation 机械通气脱机
+
+Nebulizer */'nebjulaizə/* Therapy 雾化吸入治疗
+
+Fluid Resuscitation */rɪˌsʌsɪˈteɪʃ(ə)n/* 液体复苏
+
+Quantitative resuscitation 定量复苏
+
+sedation */sɪˈdeɪʃn/* 镇静
+
+Sedation management 镇静管理
+
+analgesia */,æn(ə)l'dʒiːzɪə/* 镇痛
+
+Glucose */ˈɡluːkəʊs/* control 血糖控制
+
+Renal replacement therapy (RRT) 肾脏替代治疗
+
+Continuous Renal Replacement Therapy (CRRT) 连续性肾脏替代治疗
+
+Extracorporeal Membrane Oxygenation (ECMO) 体外膜肺氧合
+
+Intra-Aortic */eɪˈɔːtɪk/* Balloon Pump (IABP) 主动脉球囊反搏
+
+Spontaneous Awakening Trial (SAT) 自主唤醒实验
+
+Tracheostomy */,træki'ɔstəmi, ,trei-/* 气管造口术
+
+Electroencephalogram (EEG) 脑电图
+
+Thoracentesis */θɔ:rəsen'ti:sis/* 胸腔穿刺
+
+Paracentesis */ˌpærəsenˈtiːsɪs/* 腹腔穿刺术
+
+Artificial airway management 人工气道管理
+
+Pressure injury prevention 压疮预防
+
+Insulin */ˈɪnsjəlɪn/* therapy 胰岛素治疗
+
+Lung-protective ventilation 肺保护性通气策略
+
+Delayed RRT 延迟肾脏替代治疗
+
+Early enteral nutrition 早期肠内营养
+
+Anticoagulation */kəʊˌæɡjuˈleɪʃ(ə)n/* therapy 抗凝治疗
+
+Transfusion 输血
+
+Platelet */'pleɪtlɪt/* transfusion 血小板输注
+
+Component Transfusion 成分输血
+
+Antibiotic stewardship */ˈstjuːədʃɪp/* 抗生素管理
+
+Contact precautions 解除隔离措施
+
+Percutaneous */ˌpɜːkjuːˈteɪniəs/* coronary */ˈkɔːrəneri/* intervention (PCI) 经皮冠状动脉介入治疗
+
+Ultrasound-guided procedures 超声引导下操作
+
+Percutaneous endoscopic gastrostomy (PEG) 经皮内镜下胃造口术
+
+Ultrasound-guided central line placement 超声引导下中心静脉置管
+
+Sepsis Bundle */'bʌnd(ə)l/* 脓毒症集束化治疗
+
+VAP Bundle 呼吸机相关性肺炎预防集束化措施
+
+eCASH Bundle 早期舒适化镇痛镇静集束化方案
+
+Hemodynamic Optimization */,ɒptɪmaɪ'zeɪʃən/* Protocol 血流动力学优化方案
+
+Stem cell therapy for ARDS 干细胞治疗急性呼吸窘迫综合征
+
+Immunomodulatory therapy 免疫调节治疗
+
+Hypothermia therapy 亚低温治疗
+
+Critical Care Nutrition 危重症营养
+
+Palliative */ˈpæliətɪv/* care 姑息治疗
+
+Plasma Exchange, PE 血浆置换
+
+Immunoadsorption 免疫吸附
+
+Citrate Anticoagulation 枸橼酸抗凝
+
+Early Mobilization */ˌməʊbɪlaɪˈzeɪʃn/* 早期活动
+
+Goal-Directed Fluid Therapy, GDFT 目标导向的液体治疗
+
+Hypothermia Therapy 低温治疗
+
+Urinary */'jʊərɪn(ə)rɪ/* Catheter Care 导尿管护理
+
+Dressing Change 敷料更换
+
+IV Access Maintenance 静脉通路维护
+
+## 仪器设备
+
+Ventilator 呼吸机
+
+Bedside monitor 床旁监护仪
+
+Defibrillator */di'faibrileitə/* 除颤仪
+
+Hemodialysis */,hiːmədaɪ'ælɪsɪs/* machine 血液净化机
+
+Infusion pump/Microinfusion pump 输液泵/微量泵
+
+Cooling blanket 降温毯
+
+Point-of-care ultrasound 床旁超声
+
+Arterial */ɑː'tɪərɪəl/* line 动脉导管
+
+Central venous */ˈviːnəs/* catheter */'kæθɪtə/* 中心静脉导管
+
+Extracorporeal */ˌekstrəkɔːˈpɔːriəl/* Life Support (ECLS) 体外生命支持（包括ECMO）
+
+Extracorporeal Liver Support 体外肝支持
+
+Extracorporeal Membrane Oxygenation, ECMO 体外膜肺氧合
+
+Closed-loop insulin delivery system 闭环胰岛素输注系统
+
+Chest tube 胸腔闭式引流管
+
+Crash cart 急救车
+
+Swan-Ganz Catheter 右心导管
+
+Weaning */wiːn/* from ventilator 撤机
+
+## 药物
+
+antibiotics */,æntɪbaɪ'ɒtɪks/* 抗生素
+
+Ciprofloxacin */,siprəu'flɔksəsin/* 环丙沙星
+
+Metronidazole */,metrə'naɪdəzəʊl/* 甲硝唑
+
+Meropenem 美罗培南
+
+Imipenem 亚胺培南
+
+Teicoplanin 替考拉宁
+
+Vancomycin 万古霉素
+
+Inotropes 正性肌力药
+
+Corticosteroid */ˌkɔːtɪkəʊˈstɪərɔɪd/* 糖皮质激素
+
+Glucocorticoids */,glu:kəu'kɔ:ti,kɔid/* 糖皮质激素
+
+Dexamethasone */ˌdeksəˈmeθəˌsəʊn/* 地塞米松
+
+Theophylline */,θi:ə'fili:n; -in; ,θiə-; θi'ɔfilin/* 茶碱
+
+Dexmedetomidine 右美托咪定
+
+Propofol 丙泊酚
+
+Midazolam 咪达唑仑
+
+Pancuronium 泮库溴铵
+
+Naloxone */nəˈlɒksəʊn/* 纳洛酮
+
+Vasoactive */ˌveɪzəʊˈæktɪv/* Drugs 血管活性药物
+
+Vasopressors */ˌveɪzəʊˈpresə(r)/* 血管活性药物
+
+Vasopressin */ˌvæsəʊˈpresɪn/* 血管加压素
+
+Epinephrine */ˌepɪˈnefrɪn/* 肾上腺素
+
+Norepinephrine */ˌnɔːrepɪˈnefrɪn; -riːn/* 去甲肾上腺素
+
+Dobutamine */dəʊ'bjuːtəmiːn/* 多巴酚丁胺
+
+Dopamine */'dəʊpəmiːn/* 多巴胺
+
+Nitroglycerin */ˌnaɪtrəʊˈɡlɪsərɪn; ˌnaɪtrəʊˈɡlɪsəriːn/* 硝酸甘油
+
+Sodium Nitroprusside 硝普纳
+
+Furosemide */ˈfjʊərˌəʊsəˌmaɪd/* 呋塞米
+
+Sedative-analgesic */ˈsedətɪv//ˌænəlˈdʒiːzɪk/* agents 镇静镇痛药
+
+Insulin 胰岛素
+
+Albumin */ˈælbjʊmɪn/* 白蛋白
+
+Fresh frozen plasma (FFP) 新鲜冰冻血浆
+
+rhAPC 重组人活化蛋白C
+
+Hepcidin 铁调素
+
+Amiodarone */,æmiəu'dærəu/* 胺碘酮
+
+Atropine */ˈætrəpɪn/* 阿托品
+
+Sodium Bicarbonate 碳酸氢钠
+
+Calcium */ˈkælsiəm/* Gluconate */ˈɡluːkəˌneɪt/* 葡萄糖酸钙
+
+Protamine 鱼精蛋白
+
+Heparin */'hepərɪn/* 肝素
+
+Warfarin */'wɔːfərɪn/* 华法林
+
+Succinylcholine 琥珀酰胆碱
+
+## 监测
+
+Arterial */ɑːˈtɪəriəl/* blood gas，ABG 动脉血气分析
+
+Endotracheal */ˌendəʊˈtreɪkɪəl/* intubation 气管插管
+
+Vital signs monitoring 生命体征监测
+
+Hemodynamic monitoring 血流动力学监测
+
+Procalcitonin (PCT) 降钙素原
+
+Sequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估
+
+Lactic acid/lactate 乳酸
+
+Brain natriuretic peptide (BNP) 脑钠肽
+
+Glasgow */'ɡlɑ:sɡəu/* Coma */'kəʊmə/* Scale (GCS) 格拉斯哥昏迷评分
+
+Acute Physiology */,fɪzɪ'ɒlədʒɪ/* and Chronic Health Evaluation (APACHE) 急性生理慢性健康评分
+
+Simplified Acute Physiology Score (SAPS) 简化急性生理学评分
+
+Criteria */kraɪ'tɪərɪə/* 标准
+
+AKIN Criteria 急性肾损伤网络标准
+
+Lactate clearance rate 乳酸清除率
+
+Central venous pressure (CVP) 中心静脉压
+
+Cerebral */səˈriːbrəl/* perfusion pressure (CPP) 脑灌注压
+
+Systemic vascular resistance (SVR) 体循环血管阻力
+
+Pulmonary */ˈpʌlmənəri/* artery 肺动脉
+
+Coagulation profile 凝血功能检查
+
+Fluid challenge 液体冲击试验
+
+Mixed venous oxygen saturation (SvO₂) 混合静脉血氧饱和度
+
+Oxygenation index 氧合指数
+
+PaO₂/FiO₂ 氧合指数
+
+End-Tidal Carbon Dioxide, ETCO₂ 呼气末二氧化碳
+
+Neurocritical care 神经重症监护
+
+Cerebral Oxygen Monitoring 脑氧监测
+
+Colony-Stimulating Factor, CSF 集落刺激因子
+
+Intestinal */ˌɪnˈtestɪnəl/* Barrier Function Monitoring 肠屏障功能监测
+
+Continuous EEG Monitoring 连续性神经电监测
+
+Extravascular Lung Water Index, EVLWI 血管外肺水指数
+
+Cardiac index 心脏指数
+
+Enteral Nutrition Tolerance 肠内营养耐受评估
+
+Sedation Depth Monitoring 镇静深度评估
+
+Pain Assessment 疼痛评估
+
+## 常用缩写
+
+1. hx - History（病史）
+
+2. dx - Diagnosis（诊断）
+
+3. tx - Treatment（治疗）
+
+4. sx - Symptoms（症状）
+
+5. fx - Fracture（骨折）
+
+6. px - Prognosis（预后）
+
+## 科室
+
+Intensive Care Unit，ICU 重症监护室
+
+Multidisciplinary team (MDT) 多学科协作团队
+
+End-of-life care 临终关怀
+
+Ethical decision-making 伦理决策
+
+Ethics Committee Review 伦理委员会审查
+
+Patient autonomy */ɔːˈtɒnəmi/* 患者自主权
+
+Futility */fju:'tiliti/* of care 无效医疗
+
+Do-not-resuscitate (DNR) 放弃心肺复苏
+
+brain death 脑死亡
+
+Surrogate */'sʌrəgət/* decision-making 替代决策
+
+Palliative */'pælɪətɪv/* care integration 姑息治疗整合
+
+End-of-life discussions 临终讨论
+
+Trauma team activation 创伤团队启动
+
+Cardiac arrest team 心脏骤停团队
+
+Transplant ICU 抑制重症监护室
+
+Neurocritical care 神经重症
+
+## 科研
+
+Machine learning in sepsis prediction 机器学习在脓毒症预测中的应用
+
+Gut Microbiota Modulation 肠道菌群调控
+
+Gene Editing 基因编辑技术
+
+Nanomedicine Delivery 纳米药物递送
+
+Metabolomics */metæˈbɑːləmɪks/* 代谢组学
+
+Proteomics */ˌprəʊtɪˈɒmɪks/* 蛋白组学
+
+Single-Cell Sequencing 单细胞测序

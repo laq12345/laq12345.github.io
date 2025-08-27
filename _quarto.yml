@@ -4,17 +4,17 @@ project:
   
 website:
   page-navigation: true
-  title: "Hello, I'm Chi"
-  site-url: https://chizapoth.github.io
+  title: "刘奥奇的主页"
+  site-url: https://laq12345.github.io
   favicon: misc/info/favicon.png
-  repo-url: https://github.com/chizapoth/chizapoth.github.io
+  repo-url: https://github.com/laq12345/laq12345.github.io
   repo-actions: [edit, issue]
   
   page-footer: 
-    left: "&copy; Copyright 2024, Chi Zhang"
+    left: "&copy; Copyright 2024, Liu Aoqi"
     right: 
       - icon: github
-        href: https://github.com/chizapoth/chizapoth.github.io
+        href: https://github.com/laq12345/laq12345.github.io
 
   navbar: 
     background: "#A9CCE3"
