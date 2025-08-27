@@ -20,20 +20,11 @@
   {
     "listing": "/research/research.html",
     "items": [
+      "/research/literature_chengyisong_20240215/index.html",
       "/research/literature_chengyisong_20221205/index.html",
       "/research/workshop_bioinf/index.html",
       "/research/r_novice/index.html",
       "/research/workshop_rladies_zurich/index.html"
-    ]
-  },
-  {
-    "listing": "/projects/projects.html",
-    "items": [
-      "/projects/os_teaching/index.html",
-      "/projects/phuse/index.html",
-      "/projects/dan/index.html",
-      "/projects/ehr/index.html",
-      "/projects/sykdomspulsen/index.html"
     ]
   },
   {
@@ -53,6 +44,16 @@
       "/blog/readnotes_2023010x_preventable_sridhar/index.html",
       "/blog/readnotes_2023010x_pandemic_gates/index.html",
       "/blog/learnnotes_words/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/projects.html",
+    "items": [
+      "/projects/os_teaching/index.html",
+      "/projects/phuse/index.html",
+      "/projects/dan/index.html",
+      "/projects/ehr/index.html",
+      "/projects/sykdomspulsen/index.html"
     ]
   }
 ]

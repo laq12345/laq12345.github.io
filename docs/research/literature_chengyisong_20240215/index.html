@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="我的各种科研记录">
+<meta name="dcterms.date" content="2025-08-27">
+<meta name="description" content="程毅松2024年2月15发表于Artif Intell Med">
 
-<title>科研 – 刘奥奇的主页</title>
+<title>Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations – 刘奥奇的主页</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,29 +22,47 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../misc/info/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ce2ec9b3b69a802492008e7bdfb3fbb2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../misc/info/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-ce2ec9b3b69a802492008e7bdfb3fbb2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,93 +90,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-literature .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-literature'] = new List('listing-literature', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-workshop .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-workshop'] = new List('listing-workshop', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -168,7 +101,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">刘奥奇的主页</span>
     </a>
   </div>
@@ -179,27 +112,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../projects/projects.html"> 
+    <a class="nav-link" href="../../projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/research.html" aria-current="page"> 
+    <a class="nav-link" href="../../research/research.html"> 
 <span class="menu-text">科研</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../rpkg/rpkg.html"> 
+    <a class="nav-link" href="../../rpkg/rpkg.html"> 
 <span class="menu-text">R packages</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks/talks.html"> 
+    <a class="nav-link" href="../../talks/talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/blog.html"> 
+    <a class="nav-link" href="../../blog/blog.html"> 
 <span class="menu-text">Blog/notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about_me.html"> 
+    <a class="nav-link" href="../../about_me.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
 </ul>
@@ -219,12 +152,16 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">科研</h1>
-</div>
+<h1 class="title">Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">machine learning</div>
+    <div class="quarto-category">deep learning</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    <p>我的各种科研记录</p>
+    程毅松2024年2月15发表于Artif Intell Med
   </div>
 </div>
 
@@ -232,6 +169,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 27, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -241,154 +184,147 @@ window.Quarto = {
 </header>
 
 
-<p>主要是我的各种科研笔记，目前只有文献阅读</p>
-<section id="文献" class="level2">
-<h2 class="anchored" data-anchor-id="文献">文献</h2>
-<div id="listing-literature" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Title
-</th>
-
-<th>
-Description
-</th>
-
-<th>
-type
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="bWFjaGluZSUyMGxlYXJuaW5nJTJDZGVlcCUyMGxlYXJuaW5n" data-listing-date-sort="1756224000000" data-listing-file-modified-sort="1756283965442" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="280" data-listing-title-sort="Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/literature_chengyisong_20240215/index.html" class="title listing-title">Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations</a>
-</td>
-<td>
-<span class="listing-description">程毅松2024年2月15发表于Artif Intell Med</span>
-</td>
-<td>
-<span class="listing-type">clinical</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="bWFjaGluZSUyMGxlYXJuaW5n" data-listing-date-sort="1756224000000" data-listing-file-modified-sort="1756284008569" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="545" data-listing-title-sort="Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/literature_chengyisong_20221205/index.html" class="title listing-title">Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit</a>
-</td>
-<td>
-<span class="listing-description">程毅松2022年125日发表于Chin Med J (Engl)</span>
-</td>
-<td>
-<span class="listing-type">clinical</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<section id="基于临床知识引导的深度强化学习用于脓毒症抗生素用药推荐wang2024" class="level1">
+<h1>基于临床知识引导的深度强化学习用于脓毒症抗生素用药推荐<span class="citation" data-cites="wang2024">(<a href="#ref-wang2024" role="doc-biblioref">Wang et al. 2024</a>)</span></h1>
+<section id="背景" class="level2">
+<h2 class="anchored" data-anchor-id="背景">背景</h2>
+<ul>
+<li><p><strong>脓毒症</strong>是全球第三大死因，抗生素治疗对改善预后至关重要。</p></li>
+<li><p>当前抗生素的使用<strong>依赖医生经验</strong>，容易导致用药不足或过度，增加耐药风险。</p></li>
+<li><p>尽管强化学习（RL）已被用于脓毒症的液体复苏、升压药等治疗决策，但<strong>尚无研究将其用于<em>抗生素组合</em>和<em>疗程</em>的推荐</strong>。</p></li>
+<li><p>现有AI模型缺乏与临床知识的融合，可能导致决策偏离医学常识。</p></li>
+</ul>
 </section>
-<section id="workshops" class="level2">
-<h2 class="anchored" data-anchor-id="workshops">Workshops</h2>
-<div id="listing-workshop" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Title
-</th>
-
-<th>
-Description
-</th>
-
-<th>
-type
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="d29ya3Nob3AlMkNy" data-listing-date-sort="1670860800000" data-listing-file-modified-sort="1756261314359" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35" data-listing-title-sort="Oslo Bioinformatics Week" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/workshop_bioinf/index.html" class="title listing-title">Oslo Bioinformatics Week</a>
-</td>
-<td>
-<span class="listing-description">Machine Learning principles for small and noisy biomedical data</span>
-</td>
-<td>
-<span class="listing-type">bioinformatics</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="d29ya3Nob3AlMkNy" data-listing-date-sort="1666627200000" data-listing-file-modified-sort="1756261314359" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45" data-listing-title-sort="R for Reproducible Scientific Analysis" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/r_novice/index.html" class="title listing-title">R for Reproducible Scientific Analysis</a>
-</td>
-<td>
-<span class="listing-description">Software carpentry course for introductory R</span>
-</td>
-<td>
-<span class="listing-type">rstats</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-categories="d29ya3Nob3AlMkNy" data-listing-date-sort="1697990400000" data-listing-file-modified-sort="1756261314359" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Zero to Quarto Workshop" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../research/workshop_rladies_zurich/index.html" class="title listing-title">Zero to Quarto Workshop</a>
-</td>
-<td>
-<span class="listing-description">Zurich R Ladies workshop</span>
-</td>
-<td>
-<span class="listing-type">quarto</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<section id="研究目标" class="level2">
+<h2 class="anchored" data-anchor-id="研究目标"><strong>研究目标</strong></h2>
+<p>开发一个个性化、可解释、符合临床指南的<strong>抗生素用药推荐系统</strong>，解决：</p>
+<ul>
+<li><p>何时<strong><em>开始和停止</em></strong>抗生素？</p></li>
+<li><p>选择哪种<strong><em>抗生素组合</em></strong>？</p></li>
+<li><p>如何<strong><em>平衡疗效与用药时长</em></strong>？</p></li>
+</ul>
 </section>
-<section id="guides-and-cheatsheets" class="level2">
-<h2 class="anchored" data-anchor-id="guides-and-cheatsheets">Guides and Cheatsheets</h2>
+<section id="方法sai-dqn-模型" class="level2">
+<h2 class="anchored" data-anchor-id="方法sai-dqn-模型"><strong>方法：SAI-DQN 模型</strong></h2>
+<p>提出 <strong>Sepsis Anti-infection Deep Q-Network (SAI-DQN)</strong> 模型，基于深度Q网络（DQN）框架，将治疗过程建模为<strong>马尔可夫决策过程（MDP）</strong>。</p>
+<section id="关键组成部分" class="level4">
+<h4 class="anchored" data-anchor-id="关键组成部分"><strong>关键组成部分：</strong></h4>
+<ul>
+<li><p><strong>状态空间（State Space）</strong>：</p>
+<ul>
+<li><p>包括患者的人口统计学特征、37项实验室指标、15项生命体征。</p></li>
+<li><p>特别纳入<strong>微生物培养结果</strong>（共2047种细菌-抗生素敏感性组合），形成高维稀疏输入。</p></li>
+</ul></li>
+<li><p><strong>动作空间（Action Space）</strong>：</p>
+<ul>
+<li><p>动作为每日的<strong>抗生素组合选择</strong>。</p></li>
+<li><p>使用<strong>K-means聚类</strong>将历史用药序列聚为30类，作为可选动作。</p></li>
+</ul></li>
+<li><p><strong>数据来源</strong>：</p>
+<ul>
+<li><p>主数据集：MIMIC-IV（9982名脓毒症患者）。</p></li>
+<li><p>外部验证集：eICU 数据库（11,070名患者）。</p></li>
+</ul></li>
+<li><p><strong>缺失值处理</strong>：</p>
+<ul>
+<li>采用<strong>混合插补法</strong>（前向填充 + K近邻），兼顾个体趋势与临床合理性。</li>
+</ul></li>
+</ul>
+</section>
+<section id="创新点临床知识引导的奖励函数" class="level3">
+<h3 class="anchored" data-anchor-id="创新点临床知识引导的奖励函数"><strong>4. 创新点：临床知识引导的奖励函数</strong></h3>
+<p>设计了<strong>四个奖励函数</strong>，将医学知识融入强化学习训练过程，提升模型的可解释性和临床一致性：</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 31%">
+<col style="width: 53%">
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Title</th>
-<th style="text-align: center;">Description</th>
+<th>奖励函数</th>
+<th>设计目的</th>
+<th>具体设置</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><a href="https://github.com/chizapoth/chizapoth.github.io/blob/main/resources/lecture_ggplot.pdf">ggplot2</a></td>
-<td style="text-align: center;">Lecture notes for <code>ggplot2</code> at the Carpentries workshop, UiO</td>
+<td><strong>R1</strong></td>
+<td>学习患者长期预后</td>
+<td>90天存活：+100；死亡：-100</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><a href="https://ocbe-uio.github.io/teaching_mf9130e/lab/list_of_commands.html">list of commands</a></td>
-<td style="text-align: center;">Quick reference list of R commands used in my statistics classes</td>
+<td><strong>R2</strong></td>
+<td>鼓励改善病情</td>
+<td>SOFA评分下降：+10；上升：-10</td>
+</tr>
+<tr class="odd">
+<td><strong>R3</strong></td>
+<td>缩短抗生素使用时间</td>
+<td>用药 &gt;9天：-10（鼓励合理缩短疗程）</td>
+</tr>
+<tr class="even">
+<td><strong>R4</strong></td>
+<td>融合真实临床用药模式</td>
+<td>基于真实数据状态转移的Q值 × 0.1</td>
 </tr>
 </tbody>
 </table>
+<blockquote class="blockquote">
+<p>✅ <strong>这是首次在脓毒症抗生素推荐中引入“用药时长”作为优化目标之一。</strong></p>
+</blockquote>
+</section>
+</section>
+<section id="实验结果" class="level2">
+<h2 class="anchored" data-anchor-id="实验结果"><strong>实验结果</strong></h2>
+<ul>
+<li><p><strong>模型性能评估</strong>：</p>
+<ul>
+<li>使用<strong>加权重要性采样（WIS）</strong> 评估策略价值，SAI-DQN 的决策价值<strong>显著高于临床实际决策</strong>。</li>
+</ul></li>
+<li><p><strong>预测效果</strong>：</p>
+<ul>
+<li>在测试集中，模型推荐的抗生素组合可使 <strong>79.07% 的患者获得良好预后</strong>。</li>
+</ul></li>
+<li><p><strong>可解释性分析</strong>：</p>
+<ul>
+<li><p>模型推荐的用药路径符合临床实践，能根据患者状态动态调整。</p></li>
+<li><p>例如：在感染未控制时持续用药，在病情好转后及时停药。</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="主要贡献" class="level2">
+<h2 class="anchored" data-anchor-id="主要贡献"><strong>主要贡献</strong></h2>
+<ol type="1">
+<li><p><strong>首次将深度强化学习应用于脓毒症抗生素组合推荐</strong>。</p></li>
+<li><p><strong>首次关注抗生素“使用时长”问题</strong>，通过奖励函数鼓励合理缩短疗程，减少滥用。</p></li>
+<li><p><strong>将临床指南和医学知识融入奖励函数</strong>，提升模型的可解释性和临床一致性。</p></li>
+<li><p><strong>整合微生物培养数据</strong>，实现更精准的个体化推荐。</p></li>
+</ol>
+</section>
+<section id="结论" class="level2">
+<h2 class="anchored" data-anchor-id="结论"><strong>结论</strong></h2>
+<p>SAI-DQN 模型能够：</p>
+<ul>
+<li><p>生成<strong>符合临床知识</strong>的个性化抗生素用药方案；</p></li>
+<li><p>在提升患者预后的同时，<strong>减少不必要的长期用药</strong>；</p></li>
+<li><p>为临床医生提供<strong>可解释的决策支持工具</strong>，助力抗感染治疗的精准化。</p></li>
+</ul>
+<section id="潜在意义" class="level3">
+<h3 class="anchored" data-anchor-id="潜在意义"><strong>潜在意义</strong></h3>
+<p>该研究为AI在复杂临床决策中的应用提供了新范式——<strong>不仅仅是“预测最佳动作”，更要“符合医学逻辑”</strong>。未来可扩展至其他多药联合治疗场景，推动AI从“黑箱”走向“白箱”医疗决策。</p>
 
 
 
 </section>
+</section>
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-wang2024" class="csl-entry" role="listitem">
+Wang, Yuan, Anqi Liu, Jucheng Yang, Lin Wang, Ning Xiong, Yisong Cheng, and Qin Wu. 2024. <span>“Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations.”</span> <em>Artificial intelligence in medicine</em> 150 (April): 102811. <a href="https://doi.org/10.1016/j.artmed.2024.102811">https://doi.org/10.1016/j.artmed.2024.102811</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -796,7 +732,7 @@ type
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/research.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/literature_chengyisong_20240215/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

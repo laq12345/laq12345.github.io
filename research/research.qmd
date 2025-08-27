@@ -1,14 +1,14 @@
 ---
-title: "Teaching"
+title: "科研"
 description: |
   我的各种科研记录
 listing:
   - id: literature
     max-description-length: 500
     image-height: 250px
-    fields: [title, description]
+    fields: [title, description, type]
     contents: 
-      - literature_chengyisong_20221205
+      - "literature_*/index.qmd"
     type: table
     grid-item-border: false
     sort-ui: false
@@ -28,9 +28,7 @@ listing:
     filter-ui: false
 ---
 
-I started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.
-
-In my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO.
+主要是我的各种科研笔记，目前只有文献阅读
 
 
 ## 文献
