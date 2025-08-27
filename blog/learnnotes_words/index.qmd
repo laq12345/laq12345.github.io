@@ -352,6 +352,16 @@ Sequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估
 
 Lactic acid/lactate 乳酸
 
+creatinine 肌酐
+
+uric acid 尿酸
+
+serum creatinine 血清肌酐
+
+amylase 淀粉酶
+
+lipase 脂肪酶
+
 Brain natriuretic peptide (BNP) 脑钠肽
 
 Glasgow */'ɡlɑ:sɡəu/* Coma */'kəʊmə/* Scale (GCS) 格拉斯哥昏迷评分

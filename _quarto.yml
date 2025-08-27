@@ -23,8 +23,8 @@ website:
       - text: "Projects"
         href: projects/projects.qmd
       
-      - text: "Teaching"
-        href: teaching/teaching.qmd
+      - text: "科研"
+        href: research/research.qmd
         
       - text: "R packages"
         href: rpkg/rpkg.qmd

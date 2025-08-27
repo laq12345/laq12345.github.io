@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-10-23">
-<meta name="description" content="Zurich R Ladies workshop">
+<meta name="description" content="我的各种科研记录">
 
-<title>Zero to Quarto Workshop – 刘奥奇的主页</title>
+<title>Teaching – 刘奥奇的主页</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +24,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../misc/info/favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ce2ec9b3b69a802492008e7bdfb3fbb2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../misc/info/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ce2ec9b3b69a802492008e7bdfb3fbb2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +71,93 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-literature .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-literature'] = new List('listing-literature', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-workshop .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-workshop'] = new List('listing-workshop', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -81,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">刘奥奇的主页</span>
     </a>
   </div>
@@ -92,27 +179,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/projects.html"> 
+    <a class="nav-link" href="../projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching/teaching.html"> 
-<span class="menu-text">Teaching</span></a>
+    <a class="nav-link active" href="../research/research.html" aria-current="page"> 
+<span class="menu-text">科研</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../rpkg/rpkg.html"> 
+    <a class="nav-link" href="../rpkg/rpkg.html"> 
 <span class="menu-text">R packages</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks/talks.html"> 
+    <a class="nav-link" href="../talks/talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/blog.html"> 
+    <a class="nav-link" href="../blog/blog.html"> 
 <span class="menu-text">Blog/notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about_me.html"> 
+    <a class="nav-link" href="../about_me.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
 </ul>
@@ -132,16 +219,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Zero to Quarto Workshop</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">workshop</div>
-    <div class="quarto-category">r</div>
-  </div>
-  </div>
+<h1 class="title">Teaching</h1>
+</div>
 
 <div>
   <div class="description">
-    Zurich R Ladies workshop
+    <p>我的各种科研记录</p>
   </div>
 </div>
 
@@ -149,12 +232,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 23, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -164,15 +241,133 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Date: Monday 23 October 2023, 6:30PM to 8:00PM, CEST</p>
-<p>Place: KO2-F-153, Rämistrasse 71, Zürich.</p>
-<p><a href="https://www.meetup.com/rladies-zurich/events/296330423/">Event link</a></p>
-<p>Presenter: <a href="https://chizapoth.github.io">Chi Zhang</a>. Feel free to reach out with comments and feedback!</p>
-<p>Workshop <a href="https://chizapoth.github.io/workshop-02quarto/">site</a></p>
-<iframe class="slide-deck" style="width:800px; height:600px" src="https://chizapoth.github.io/slides-02quarto/">
-</iframe>
+<p>I started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.</p>
+<p>In my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO.</p>
+<section id="文献" class="level2">
+<h2 class="anchored" data-anchor-id="文献">文献</h2>
+<div id="listing-literature" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Title
+</th>
+
+<th>
+Description
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="bWFjaGluZSUyMGxlYXJuaW5n" data-listing-date-sort="1756224000000" data-listing-file-modified-sort="1756267933524" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121" data-listing-title-sort="Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../research/literature_chengyisong_20221205/index.html" class="title listing-title">Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit</a>
+</td>
+<td>
+<span class="listing-description">程毅松2022年125日发表于Chin Med J (Engl)</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="workshops" class="level2">
+<h2 class="anchored" data-anchor-id="workshops">Workshops</h2>
+<div id="listing-workshop" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Title
+</th>
+
+<th>
+Description
+</th>
+
+<th>
+type
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="d29ya3Nob3AlMkNy" data-listing-date-sort="1670860800000" data-listing-file-modified-sort="1756261314359" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35" data-listing-title-sort="Oslo Bioinformatics Week" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../research/workshop_bioinf/index.html" class="title listing-title">Oslo Bioinformatics Week</a>
+</td>
+<td>
+<span class="listing-description">Machine Learning principles for small and noisy biomedical data</span>
+</td>
+<td>
+<span class="listing-type">bioinformatics</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="d29ya3Nob3AlMkNy" data-listing-date-sort="1666627200000" data-listing-file-modified-sort="1756261314359" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45" data-listing-title-sort="R for Reproducible Scientific Analysis" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../research/r_novice/index.html" class="title listing-title">R for Reproducible Scientific Analysis</a>
+</td>
+<td>
+<span class="listing-description">Software carpentry course for introductory R</span>
+</td>
+<td>
+<span class="listing-type">rstats</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="d29ya3Nob3AlMkNy" data-listing-date-sort="1697990400000" data-listing-file-modified-sort="1756261314359" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Zero to Quarto Workshop" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../research/workshop_rladies_zurich/index.html" class="title listing-title">Zero to Quarto Workshop</a>
+</td>
+<td>
+<span class="listing-description">Zurich R Ladies workshop</span>
+</td>
+<td>
+<span class="listing-type">quarto</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="guides-and-cheatsheets" class="level2">
+<h2 class="anchored" data-anchor-id="guides-and-cheatsheets">Guides and Cheatsheets</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Title</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><a href="https://github.com/chizapoth/chizapoth.github.io/blob/main/resources/lecture_ggplot.pdf">ggplot2</a></td>
+<td style="text-align: center;">Lecture notes for <code>ggplot2</code> at the Carpentries workshop, UiO</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><a href="https://ocbe-uio.github.io/teaching_mf9130e/lab/list_of_commands.html">list of commands</a></td>
+<td style="text-align: center;">Quick reference list of R commands used in my statistics classes</td>
+</tr>
+</tbody>
+</table>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -582,7 +777,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/teaching/workshop_rladies_zurich/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/research.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

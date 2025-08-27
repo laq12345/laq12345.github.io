@@ -1,16 +1,14 @@
 ---
 title: "Teaching"
 description: |
-  These are a few things I teach or develop. For course material related to the courses, please check the description for more details.
+  我的各种科研记录
 listing:
-  - id: medstat
+  - id: literature
     max-description-length: 500
     image-height: 250px
     fields: [title, description]
     contents: 
-      - mf9130
-      - ern4110
-      - med3007
+      - literature_chengyisong_20221205
     type: table
     grid-item-border: false
     sort-ui: false
@@ -35,9 +33,9 @@ I started teaching introductory statistics at Faculty of Medicine, University of
 In my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO.
 
 
-## Statistics
+## 文献
 
-::: {#medstat}
+::: {#literature}
 :::
 
 ## Workshops

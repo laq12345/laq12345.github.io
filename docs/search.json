@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "teaching/workshop_rladies_zurich/index.html",
-    "href": "teaching/workshop_rladies_zurich/index.html",
-    "title": "Zero to Quarto Workshop",
-    "section": "",
-    "text": "Date: Monday 23 October 2023, 6:30PM to 8:00PM, CEST\nPlace: KO2-F-153, Rämistrasse 71, Zürich.\nEvent link\nPresenter: Chi Zhang. Feel free to reach out with comments and feedback!\nWorkshop site"
-  },
-  {
-    "objectID": "teaching/teaching.html",
-    "href": "teaching/teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "I started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.\nIn my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO."
-  },
-  {
-    "objectID": "teaching/teaching.html#statistics",
-    "href": "teaching/teaching.html#statistics",
-    "title": "Teaching",
-    "section": "Statistics",
-    "text": "Statistics\n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nERN4110\n\n\nStatistics for master students in nutrition\n\n\n\n\n\n\nMED3007\n\n\nStatistical Principles in Genomics\n\n\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/teaching.html#workshops",
-    "href": "teaching/teaching.html#workshops",
-    "title": "Teaching",
-    "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\ntype\n\n\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\n\n\nR for Reproducible Scientific Analysis\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nZero to Quarto Workshop\n\n\nZurich R Ladies workshop\n\n\nquarto\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/teaching.html#guides-and-cheatsheets",
-    "href": "teaching/teaching.html#guides-and-cheatsheets",
-    "title": "Teaching",
-    "section": "Guides and Cheatsheets",
-    "text": "Guides and Cheatsheets\n\n\n\nTitle\nDescription\n\n\n\n\nggplot2\nLecture notes for ggplot2 at the Carpentries workshop, UiO\n\n\nlist of commands\nQuick reference list of R commands used in my statistics classes"
-  },
-  {
-    "objectID": "teaching/mf9130/index.html",
-    "href": "teaching/mf9130/index.html",
-    "title": "MF9130/MF9130E",
-    "section": "",
-    "text": "This 8-days course is provided in both English and Norwegian. Generally,"
-  },
-  {
-    "objectID": "teaching/mf9130/index.html#mf9130e---introductory-course-in-statistics",
-    "href": "teaching/mf9130/index.html#mf9130e---introductory-course-in-statistics",
-    "title": "MF9130/MF9130E",
-    "section": "MF9130E - Introductory course in statistics",
-    "text": "MF9130E - Introductory course in statistics\nCourse site developed by instructors (I am the lead developer for this website)\nOfficial course site: MF9130E\nThe aim of the course is to make the participants acquainted with basic statistical ideas and methods. No special previous knowledge of mathematics or statistics is assumed. The statistical software R and the RStudio environment will be used in many of the exercises. Analysis of examples from biomedical research will be emphasized."
-  },
-  {
-    "objectID": "teaching/mf9130/index.html#mf9130---innføring-i-statistikk",
-    "href": "teaching/mf9130/index.html#mf9130---innføring-i-statistikk",
-    "title": "MF9130/MF9130E",
-    "section": "MF9130 - Innføring i statistikk",
-    "text": "MF9130 - Innføring i statistikk\nMF9130\nMålet for kurset er å gjøre deltagerne kjent med grunnleggende statistiske ideer og metoder. Det forutsettes ikke spesielle forkunnskaper i matematikk eller statistikk. Den statistiske programpakken STATA vil bli benyttet i mange av øvelsene. Analyse av konkrete eksempler fra medisinsk forskning vil bli vektlagt."
-  },
-  {
-    "objectID": "teaching/ern4110/index.html",
-    "href": "teaching/ern4110/index.html",
-    "title": "ERN4110",
-    "section": "",
-    "text": "ERN4110\nEmnet gir en anvendt rettet innføring i statistiske grunnbegreper og sentrale statistiske metoder. Det blir lagt vekt på konkrete eksempler fra ernæringsvitenskap og medisin. PC-øvelser med statistikkpakken Stata er en essensiell del av undervisningen."
-  },
-  {
-    "objectID": "teaching/ern4110/index.html#ern4110-statistikk-for-masterstudenter-i-ernæring",
-    "href": "teaching/ern4110/index.html#ern4110-statistikk-for-masterstudenter-i-ernæring",
-    "title": "ERN4110",
-    "section": "",
-    "text": "ERN4110\nEmnet gir en anvendt rettet innføring i statistiske grunnbegreper og sentrale statistiske metoder. Det blir lagt vekt på konkrete eksempler fra ernæringsvitenskap og medisin. PC-øvelser med statistikkpakken Stata er en essensiell del av undervisningen."
-  },
-  {
     "objectID": "talks/talks.html",
     "href": "talks/talks.html",
     "title": "Talks",
@@ -189,6 +119,48 @@
     "text": "An R package for Bayesian semi-parametric modelling of in-vitro drug combination experiments\nGitHub Link"
   },
   {
+    "objectID": "research/workshop_bioinf/index.html",
+    "href": "research/workshop_bioinf/index.html",
+    "title": "Oslo Bioinformatics Week",
+    "section": "",
+    "text": "This workshop is part of the Oslo Bioinformatics Workshop Week 2022. These workshops are open to the scientific community in Oslo and the surrounding area.\nMain instructor: Manuela Zucknick\nCo-instructor: Theophilius Asenso\nDeveloper: Chi Zhang\nCourse website and repository"
+  },
+  {
+    "objectID": "research/research.html",
+    "href": "research/research.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.\nIn my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO."
+  },
+  {
+    "objectID": "research/research.html#文献",
+    "href": "research/research.html#文献",
+    "title": "Teaching",
+    "section": "文献",
+    "text": "文献\n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nMachine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit\n\n\n程毅松2022年125日发表于Chin Med J (Engl)\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/research.html#workshops",
+    "href": "research/research.html#workshops",
+    "title": "Teaching",
+    "section": "Workshops",
+    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\ntype\n\n\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\n\n\nR for Reproducible Scientific Analysis\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nZero to Quarto Workshop\n\n\nZurich R Ladies workshop\n\n\nquarto\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/research.html#guides-and-cheatsheets",
+    "href": "research/research.html#guides-and-cheatsheets",
+    "title": "Teaching",
+    "section": "Guides and Cheatsheets",
+    "text": "Guides and Cheatsheets\n\n\n\nTitle\nDescription\n\n\n\n\nggplot2\nLecture notes for ggplot2 at the Carpentries workshop, UiO\n\n\nlist of commands\nQuick reference list of R commands used in my statistics classes"
+  },
+  {
+    "objectID": "research/cheatsheet_pkgdev/index.html",
+    "href": "research/cheatsheet_pkgdev/index.html",
+    "title": "Pkg Dev at CSIDS",
+    "section": "",
+    "text": "Rstat"
+  },
+  {
     "objectID": "projects/projects.html",
     "href": "projects/projects.html",
     "title": "Projects",
@@ -249,7 +221,7 @@
     "href": "blog/learnnotes_words/index.html",
     "title": "我的重症医学单词: 2025年8月27日",
     "section": "",
-    "text": "Shock 休克\nTrauma /ˈtrɔːmə/ 创伤\nVentricular /venˈtrɪkjələ(r)/ Fibrillation /ˌfɪbrɪˈleɪʃən/ 室颤\nAcute Respiratory /rəˈspɪrət(ə)ri/ Distress Syndrome(ARDS) 急性呼吸窘迫综合征\nAcute Myocardial /ˌmaɪəʊˈkɑːdiəl/ Infarction /ɪnˈfɑːkʃn/, AMI 急性心肌梗死\nHeart Failure, HF 心力衰竭\nRight ventricular /venˈtrɪkjələ(r)/ failure 右心衰竭\nRespiratory failure 呼吸衰竭\nRenal /ˈriːnl/ failure 肾衰竭\nAcute Kidney Injury (AKI) 急性肾损伤\nEncephalopathy /enˌsefəˈlɒpəθi; enˌkefəˈlɒpəθi/ 脑病\nDisseminated /dɪˈsemɪneɪtɪd/ Intravascular /ˌɪntrəˈvæskjʊlə(r)/ Coagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ (DIC) 弥散性血管内凝血\nCOPD 慢性阻塞性肺疾病\nsepsis 脓毒症\nseptic shock感染性休克\nDelirium /dɪˈlɪriəm; dɪˈlɪəriəm/ 谵妄\nSIRS 全身炎症反应综合征\nOrgan dysfunction 器官功能障碍\nMultiple Organ Dysfunction Syndrome, MODS 多器官功能障碍综合征\nDeep vein thrombosis /θrɒmˈbəʊsɪs/ (DVT) 深静脉血栓\ndrowning 淹溺\nelectrical injury电击伤\nMultiple Injuries 多发性创伤\nPoisoning 急性中毒\nCompartment Syndrome 挤压综合征\nHeat Stroke 热射病\nAltitude Sickness 高原反应\nHypothermia 低体温\nLeukocytosis /ˌluːkəʊsaɪˈtəʊsɪs/ 白细胞增多\nThrombocytopenia /,θrɒmbə(ʊ),saɪtə(ʊ)’piːnɪə/ 血小板减少症\nhospital-acquired infection 医院获得性感染\nCatheter-related bloodstream infection (CRBSI) 导管相关血流感染\nVentilator-associated pneumonia /njuːˈməʊniə/ (VAP) 呼吸机相关肺炎\nMultidrug-resistant organism (MDRO) 多重耐药菌\nRefractory /rɪ’frækt(ə)rɪ/ septic shock 难治性感染性休克\nHypertensive emergency 高血压急症\nNon-ST elevation /,elɪ’veɪʃ(ə)n/ myocardial /,maɪəʊ’kɑːdɪəl/ infarction /ɪn’fɑːkʃ(ə)n/ (NSTEMI) 非ST段抬高型心肌梗死\nPost-ICU Syndrome, PICS ICU后综合征\n\n\n\nCPR 心肺复苏\nAED 自动体外除颤器\nACLS 高级心血管支持\n\n\n\nMechanical Ventilation /,ventɪ’leɪʃ(ə)n/ 机械通气\nNon-invasive ventilation (NIV) 无创通气\nProne /prəʊn/ Positioning 俯卧位通气\nAirway Management 气道管理\nHigh-Flow Oxygen Therapy 高流量氧疗\nWeaning from Mechanical Ventilation 机械通气脱机\nNebulizer /’nebjulaizə/ Therapy 雾化吸入治疗\nFluid Resuscitation /rɪˌsʌsɪˈteɪʃ(ə)n/ 液体复苏\nQuantitative resuscitation 定量复苏\nsedation /sɪˈdeɪʃn/ 镇静\nSedation management 镇静管理\nanalgesia /,æn(ə)l’dʒiːzɪə/ 镇痛\nGlucose /ˈɡluːkəʊs/ control 血糖控制\nRenal replacement therapy (RRT) 肾脏替代治疗\nContinuous Renal Replacement Therapy (CRRT) 连续性肾脏替代治疗\nExtracorporeal Membrane Oxygenation (ECMO) 体外膜肺氧合\nIntra-Aortic /eɪˈɔːtɪk/ Balloon Pump (IABP) 主动脉球囊反搏\nSpontaneous Awakening Trial (SAT) 自主唤醒实验\nTracheostomy /,træki’ɔstəmi, ,trei-/ 气管造口术\nElectroencephalogram (EEG) 脑电图\nThoracentesis /θɔ:rəsen’ti:sis/ 胸腔穿刺\nParacentesis /ˌpærəsenˈtiːsɪs/ 腹腔穿刺术\nArtificial airway management 人工气道管理\nPressure injury prevention 压疮预防\nInsulin /ˈɪnsjəlɪn/ therapy 胰岛素治疗\nLung-protective ventilation 肺保护性通气策略\nDelayed RRT 延迟肾脏替代治疗\nEarly enteral nutrition 早期肠内营养\nAnticoagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ therapy 抗凝治疗\nTransfusion 输血\nPlatelet /’pleɪtlɪt/ transfusion 血小板输注\nComponent Transfusion 成分输血\nAntibiotic stewardship /ˈstjuːədʃɪp/ 抗生素管理\nContact precautions 解除隔离措施\nPercutaneous /ˌpɜːkjuːˈteɪniəs/ coronary /ˈkɔːrəneri/ intervention (PCI) 经皮冠状动脉介入治疗\nUltrasound-guided procedures 超声引导下操作\nPercutaneous endoscopic gastrostomy (PEG) 经皮内镜下胃造口术\nUltrasound-guided central line placement 超声引导下中心静脉置管\nSepsis Bundle /’bʌnd(ə)l/ 脓毒症集束化治疗\nVAP Bundle 呼吸机相关性肺炎预防集束化措施\neCASH Bundle 早期舒适化镇痛镇静集束化方案\nHemodynamic Optimization /,ɒptɪmaɪ’zeɪʃən/ Protocol 血流动力学优化方案\nStem cell therapy for ARDS 干细胞治疗急性呼吸窘迫综合征\nImmunomodulatory therapy 免疫调节治疗\nHypothermia therapy 亚低温治疗\nCritical Care Nutrition 危重症营养\nPalliative /ˈpæliətɪv/ care 姑息治疗\nPlasma Exchange, PE 血浆置换\nImmunoadsorption 免疫吸附\nCitrate Anticoagulation 枸橼酸抗凝\nEarly Mobilization /ˌməʊbɪlaɪˈzeɪʃn/ 早期活动\nGoal-Directed Fluid Therapy, GDFT 目标导向的液体治疗\nHypothermia Therapy 低温治疗\nUrinary /’jʊərɪn(ə)rɪ/ Catheter Care 导尿管护理\nDressing Change 敷料更换\nIV Access Maintenance 静脉通路维护\n\n\n\nVentilator 呼吸机\nBedside monitor 床旁监护仪\nDefibrillator /di’faibrileitə/ 除颤仪\nHemodialysis /,hiːmədaɪ’ælɪsɪs/ machine 血液净化机\nInfusion pump/Microinfusion pump 输液泵/微量泵\nCooling blanket 降温毯\nPoint-of-care ultrasound 床旁超声\nArterial /ɑː’tɪərɪəl/ line 动脉导管\nCentral venous /ˈviːnəs/ catheter /’kæθɪtə/ 中心静脉导管\nExtracorporeal /ˌekstrəkɔːˈpɔːriəl/ Life Support (ECLS) 体外生命支持（包括ECMO）\nExtracorporeal Liver Support 体外肝支持\nExtracorporeal Membrane Oxygenation, ECMO 体外膜肺氧合\nClosed-loop insulin delivery system 闭环胰岛素输注系统\nChest tube 胸腔闭式引流管\nCrash cart 急救车\nSwan-Ganz Catheter 右心导管\nWeaning /wiːn/ from ventilator 撤机\n\n\n\nantibiotics /,æntɪbaɪ’ɒtɪks/ 抗生素\nCiprofloxacin /,siprəu’flɔksəsin/ 环丙沙星\nMetronidazole /,metrə’naɪdəzəʊl/ 甲硝唑\nMeropenem 美罗培南\nImipenem 亚胺培南\nTeicoplanin 替考拉宁\nVancomycin 万古霉素\nInotropes 正性肌力药\nCorticosteroid /ˌkɔːtɪkəʊˈstɪərɔɪd/ 糖皮质激素\nGlucocorticoids /,glu:kəu’kɔ:ti,kɔid/ 糖皮质激素\nDexamethasone /ˌdeksəˈmeθəˌsəʊn/ 地塞米松\nTheophylline /,θi:ə’fili:n; -in; ,θiə-; θi’ɔfilin/ 茶碱\nDexmedetomidine 右美托咪定\nPropofol 丙泊酚\nMidazolam 咪达唑仑\nPancuronium 泮库溴铵\nNaloxone /nəˈlɒksəʊn/ 纳洛酮\nVasoactive /ˌveɪzəʊˈæktɪv/ Drugs 血管活性药物\nVasopressors /ˌveɪzəʊˈpresə(r)/ 血管活性药物\nVasopressin /ˌvæsəʊˈpresɪn/ 血管加压素\nEpinephrine /ˌepɪˈnefrɪn/ 肾上腺素\nNorepinephrine /ˌnɔːrepɪˈnefrɪn; -riːn/ 去甲肾上腺素\nDobutamine /dəʊ’bjuːtəmiːn/ 多巴酚丁胺\nDopamine /’dəʊpəmiːn/ 多巴胺\nNitroglycerin /ˌnaɪtrəʊˈɡlɪsərɪn; ˌnaɪtrəʊˈɡlɪsəriːn/ 硝酸甘油\nSodium Nitroprusside 硝普纳\nFurosemide /ˈfjʊərˌəʊsəˌmaɪd/ 呋塞米\nSedative-analgesic /ˈsedətɪv//ˌænəlˈdʒiːzɪk/ agents 镇静镇痛药\nInsulin 胰岛素\nAlbumin /ˈælbjʊmɪn/ 白蛋白\nFresh frozen plasma (FFP) 新鲜冰冻血浆\nrhAPC 重组人活化蛋白C\nHepcidin 铁调素\nAmiodarone /,æmiəu’dærəu/ 胺碘酮\nAtropine /ˈætrəpɪn/ 阿托品\nSodium Bicarbonate 碳酸氢钠\nCalcium /ˈkælsiəm/ Gluconate /ˈɡluːkəˌneɪt/ 葡萄糖酸钙\nProtamine 鱼精蛋白\nHeparin /’hepərɪn/ 肝素\nWarfarin /’wɔːfərɪn/ 华法林\nSuccinylcholine 琥珀酰胆碱\n\n\n\nArterial /ɑːˈtɪəriəl/ blood gas，ABG 动脉血气分析\nEndotracheal /ˌendəʊˈtreɪkɪəl/ intubation 气管插管\nVital signs monitoring 生命体征监测\nHemodynamic monitoring 血流动力学监测\nProcalcitonin (PCT) 降钙素原\nSequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估\nLactic acid/lactate 乳酸\nBrain natriuretic peptide (BNP) 脑钠肽\nGlasgow /’ɡlɑ:sɡəu/ Coma /’kəʊmə/ Scale (GCS) 格拉斯哥昏迷评分\nAcute Physiology /,fɪzɪ’ɒlədʒɪ/ and Chronic Health Evaluation (APACHE) 急性生理慢性健康评分\nSimplified Acute Physiology Score (SAPS) 简化急性生理学评分\nCriteria /kraɪ’tɪərɪə/ 标准\nAKIN Criteria 急性肾损伤网络标准\nLactate clearance rate 乳酸清除率\nCentral venous pressure (CVP) 中心静脉压\nCerebral /səˈriːbrəl/ perfusion pressure (CPP) 脑灌注压\nSystemic vascular resistance (SVR) 体循环血管阻力\nPulmonary /ˈpʌlmənəri/ artery 肺动脉\nCoagulation profile 凝血功能检查\nFluid challenge 液体冲击试验\nMixed venous oxygen saturation (SvO₂) 混合静脉血氧饱和度\nOxygenation index 氧合指数\nPaO₂/FiO₂ 氧合指数\nEnd-Tidal Carbon Dioxide, ETCO₂ 呼气末二氧化碳\nNeurocritical care 神经重症监护\nCerebral Oxygen Monitoring 脑氧监测\nColony-Stimulating Factor, CSF 集落刺激因子\nIntestinal /ˌɪnˈtestɪnəl/ Barrier Function Monitoring 肠屏障功能监测\nContinuous EEG Monitoring 连续性神经电监测\nExtravascular Lung Water Index, EVLWI 血管外肺水指数\nCardiac index 心脏指数\nEnteral Nutrition Tolerance 肠内营养耐受评估\nSedation Depth Monitoring 镇静深度评估\nPain Assessment 疼痛评估\n\n\n\n1. hx - History（病史）\n2. dx - Diagnosis（诊断）\n3. tx - Treatment（治疗）\n4. sx - Symptoms（症状）\n5. fx - Fracture（骨折）\n6. px - Prognosis（预后）\n\n\n\nIntensive Care Unit，ICU 重症监护室\nMultidisciplinary team (MDT) 多学科协作团队\nEnd-of-life care 临终关怀\nEthical decision-making 伦理决策\nEthics Committee Review 伦理委员会审查\nPatient autonomy /ɔːˈtɒnəmi/ 患者自主权\nFutility /fju:’tiliti/ of care 无效医疗\nDo-not-resuscitate (DNR) 放弃心肺复苏\nbrain death 脑死亡\nSurrogate /’sʌrəgət/ decision-making 替代决策\nPalliative /’pælɪətɪv/ care integration 姑息治疗整合\nEnd-of-life discussions 临终讨论\nTrauma team activation 创伤团队启动\nCardiac arrest team 心脏骤停团队\nTransplant ICU 抑制重症监护室\nNeurocritical care 神经重症\n\n\n\nMachine learning in sepsis prediction 机器学习在脓毒症预测中的应用\nGut Microbiota Modulation 肠道菌群调控\nGene Editing 基因编辑技术\nNanomedicine Delivery 纳米药物递送\nMetabolomics /metæˈbɑːləmɪks/ 代谢组学\nProteomics /ˌprəʊtɪˈɒmɪks/ 蛋白组学\nSingle-Cell Sequencing 单细胞测序"
+    "text": "Shock 休克\nTrauma /ˈtrɔːmə/ 创伤\nVentricular /venˈtrɪkjələ(r)/ Fibrillation /ˌfɪbrɪˈleɪʃən/ 室颤\nAcute Respiratory /rəˈspɪrət(ə)ri/ Distress Syndrome(ARDS) 急性呼吸窘迫综合征\nAcute Myocardial /ˌmaɪəʊˈkɑːdiəl/ Infarction /ɪnˈfɑːkʃn/, AMI 急性心肌梗死\nHeart Failure, HF 心力衰竭\nRight ventricular /venˈtrɪkjələ(r)/ failure 右心衰竭\nRespiratory failure 呼吸衰竭\nRenal /ˈriːnl/ failure 肾衰竭\nAcute Kidney Injury (AKI) 急性肾损伤\nEncephalopathy /enˌsefəˈlɒpəθi; enˌkefəˈlɒpəθi/ 脑病\nDisseminated /dɪˈsemɪneɪtɪd/ Intravascular /ˌɪntrəˈvæskjʊlə(r)/ Coagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ (DIC) 弥散性血管内凝血\nCOPD 慢性阻塞性肺疾病\nsepsis 脓毒症\nseptic shock感染性休克\nDelirium /dɪˈlɪriəm; dɪˈlɪəriəm/ 谵妄\nSIRS 全身炎症反应综合征\nOrgan dysfunction 器官功能障碍\nMultiple Organ Dysfunction Syndrome, MODS 多器官功能障碍综合征\nDeep vein thrombosis /θrɒmˈbəʊsɪs/ (DVT) 深静脉血栓\ndrowning 淹溺\nelectrical injury电击伤\nMultiple Injuries 多发性创伤\nPoisoning 急性中毒\nCompartment Syndrome 挤压综合征\nHeat Stroke 热射病\nAltitude Sickness 高原反应\nHypothermia 低体温\nLeukocytosis /ˌluːkəʊsaɪˈtəʊsɪs/ 白细胞增多\nThrombocytopenia /,θrɒmbə(ʊ),saɪtə(ʊ)’piːnɪə/ 血小板减少症\nhospital-acquired infection 医院获得性感染\nCatheter-related bloodstream infection (CRBSI) 导管相关血流感染\nVentilator-associated pneumonia /njuːˈməʊniə/ (VAP) 呼吸机相关肺炎\nMultidrug-resistant organism (MDRO) 多重耐药菌\nRefractory /rɪ’frækt(ə)rɪ/ septic shock 难治性感染性休克\nHypertensive emergency 高血压急症\nNon-ST elevation /,elɪ’veɪʃ(ə)n/ myocardial /,maɪəʊ’kɑːdɪəl/ infarction /ɪn’fɑːkʃ(ə)n/ (NSTEMI) 非ST段抬高型心肌梗死\nPost-ICU Syndrome, PICS ICU后综合征\n\n\n\nCPR 心肺复苏\nAED 自动体外除颤器\nACLS 高级心血管支持\n\n\n\nMechanical Ventilation /,ventɪ’leɪʃ(ə)n/ 机械通气\nNon-invasive ventilation (NIV) 无创通气\nProne /prəʊn/ Positioning 俯卧位通气\nAirway Management 气道管理\nHigh-Flow Oxygen Therapy 高流量氧疗\nWeaning from Mechanical Ventilation 机械通气脱机\nNebulizer /’nebjulaizə/ Therapy 雾化吸入治疗\nFluid Resuscitation /rɪˌsʌsɪˈteɪʃ(ə)n/ 液体复苏\nQuantitative resuscitation 定量复苏\nsedation /sɪˈdeɪʃn/ 镇静\nSedation management 镇静管理\nanalgesia /,æn(ə)l’dʒiːzɪə/ 镇痛\nGlucose /ˈɡluːkəʊs/ control 血糖控制\nRenal replacement therapy (RRT) 肾脏替代治疗\nContinuous Renal Replacement Therapy (CRRT) 连续性肾脏替代治疗\nExtracorporeal Membrane Oxygenation (ECMO) 体外膜肺氧合\nIntra-Aortic /eɪˈɔːtɪk/ Balloon Pump (IABP) 主动脉球囊反搏\nSpontaneous Awakening Trial (SAT) 自主唤醒实验\nTracheostomy /,træki’ɔstəmi, ,trei-/ 气管造口术\nElectroencephalogram (EEG) 脑电图\nThoracentesis /θɔ:rəsen’ti:sis/ 胸腔穿刺\nParacentesis /ˌpærəsenˈtiːsɪs/ 腹腔穿刺术\nArtificial airway management 人工气道管理\nPressure injury prevention 压疮预防\nInsulin /ˈɪnsjəlɪn/ therapy 胰岛素治疗\nLung-protective ventilation 肺保护性通气策略\nDelayed RRT 延迟肾脏替代治疗\nEarly enteral nutrition 早期肠内营养\nAnticoagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ therapy 抗凝治疗\nTransfusion 输血\nPlatelet /’pleɪtlɪt/ transfusion 血小板输注\nComponent Transfusion 成分输血\nAntibiotic stewardship /ˈstjuːədʃɪp/ 抗生素管理\nContact precautions 解除隔离措施\nPercutaneous /ˌpɜːkjuːˈteɪniəs/ coronary /ˈkɔːrəneri/ intervention (PCI) 经皮冠状动脉介入治疗\nUltrasound-guided procedures 超声引导下操作\nPercutaneous endoscopic gastrostomy (PEG) 经皮内镜下胃造口术\nUltrasound-guided central line placement 超声引导下中心静脉置管\nSepsis Bundle /’bʌnd(ə)l/ 脓毒症集束化治疗\nVAP Bundle 呼吸机相关性肺炎预防集束化措施\neCASH Bundle 早期舒适化镇痛镇静集束化方案\nHemodynamic Optimization /,ɒptɪmaɪ’zeɪʃən/ Protocol 血流动力学优化方案\nStem cell therapy for ARDS 干细胞治疗急性呼吸窘迫综合征\nImmunomodulatory therapy 免疫调节治疗\nHypothermia therapy 亚低温治疗\nCritical Care Nutrition 危重症营养\nPalliative /ˈpæliətɪv/ care 姑息治疗\nPlasma Exchange, PE 血浆置换\nImmunoadsorption 免疫吸附\nCitrate Anticoagulation 枸橼酸抗凝\nEarly Mobilization /ˌməʊbɪlaɪˈzeɪʃn/ 早期活动\nGoal-Directed Fluid Therapy, GDFT 目标导向的液体治疗\nHypothermia Therapy 低温治疗\nUrinary /’jʊərɪn(ə)rɪ/ Catheter Care 导尿管护理\nDressing Change 敷料更换\nIV Access Maintenance 静脉通路维护\n\n\n\nVentilator 呼吸机\nBedside monitor 床旁监护仪\nDefibrillator /di’faibrileitə/ 除颤仪\nHemodialysis /,hiːmədaɪ’ælɪsɪs/ machine 血液净化机\nInfusion pump/Microinfusion pump 输液泵/微量泵\nCooling blanket 降温毯\nPoint-of-care ultrasound 床旁超声\nArterial /ɑː’tɪərɪəl/ line 动脉导管\nCentral venous /ˈviːnəs/ catheter /’kæθɪtə/ 中心静脉导管\nExtracorporeal /ˌekstrəkɔːˈpɔːriəl/ Life Support (ECLS) 体外生命支持（包括ECMO）\nExtracorporeal Liver Support 体外肝支持\nExtracorporeal Membrane Oxygenation, ECMO 体外膜肺氧合\nClosed-loop insulin delivery system 闭环胰岛素输注系统\nChest tube 胸腔闭式引流管\nCrash cart 急救车\nSwan-Ganz Catheter 右心导管\nWeaning /wiːn/ from ventilator 撤机\n\n\n\nantibiotics /,æntɪbaɪ’ɒtɪks/ 抗生素\nCiprofloxacin /,siprəu’flɔksəsin/ 环丙沙星\nMetronidazole /,metrə’naɪdəzəʊl/ 甲硝唑\nMeropenem 美罗培南\nImipenem 亚胺培南\nTeicoplanin 替考拉宁\nVancomycin 万古霉素\nInotropes 正性肌力药\nCorticosteroid /ˌkɔːtɪkəʊˈstɪərɔɪd/ 糖皮质激素\nGlucocorticoids /,glu:kəu’kɔ:ti,kɔid/ 糖皮质激素\nDexamethasone /ˌdeksəˈmeθəˌsəʊn/ 地塞米松\nTheophylline /,θi:ə’fili:n; -in; ,θiə-; θi’ɔfilin/ 茶碱\nDexmedetomidine 右美托咪定\nPropofol 丙泊酚\nMidazolam 咪达唑仑\nPancuronium 泮库溴铵\nNaloxone /nəˈlɒksəʊn/ 纳洛酮\nVasoactive /ˌveɪzəʊˈæktɪv/ Drugs 血管活性药物\nVasopressors /ˌveɪzəʊˈpresə(r)/ 血管活性药物\nVasopressin /ˌvæsəʊˈpresɪn/ 血管加压素\nEpinephrine /ˌepɪˈnefrɪn/ 肾上腺素\nNorepinephrine /ˌnɔːrepɪˈnefrɪn; -riːn/ 去甲肾上腺素\nDobutamine /dəʊ’bjuːtəmiːn/ 多巴酚丁胺\nDopamine /’dəʊpəmiːn/ 多巴胺\nNitroglycerin /ˌnaɪtrəʊˈɡlɪsərɪn; ˌnaɪtrəʊˈɡlɪsəriːn/ 硝酸甘油\nSodium Nitroprusside 硝普纳\nFurosemide /ˈfjʊərˌəʊsəˌmaɪd/ 呋塞米\nSedative-analgesic /ˈsedətɪv//ˌænəlˈdʒiːzɪk/ agents 镇静镇痛药\nInsulin 胰岛素\nAlbumin /ˈælbjʊmɪn/ 白蛋白\nFresh frozen plasma (FFP) 新鲜冰冻血浆\nrhAPC 重组人活化蛋白C\nHepcidin 铁调素\nAmiodarone /,æmiəu’dærəu/ 胺碘酮\nAtropine /ˈætrəpɪn/ 阿托品\nSodium Bicarbonate 碳酸氢钠\nCalcium /ˈkælsiəm/ Gluconate /ˈɡluːkəˌneɪt/ 葡萄糖酸钙\nProtamine 鱼精蛋白\nHeparin /’hepərɪn/ 肝素\nWarfarin /’wɔːfərɪn/ 华法林\nSuccinylcholine 琥珀酰胆碱\n\n\n\nArterial /ɑːˈtɪəriəl/ blood gas，ABG 动脉血气分析\nEndotracheal /ˌendəʊˈtreɪkɪəl/ intubation 气管插管\nVital signs monitoring 生命体征监测\nHemodynamic monitoring 血流动力学监测\nProcalcitonin (PCT) 降钙素原\nSequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估\nLactic acid/lactate 乳酸\ncreatinine 肌酐\nuric acid 尿酸\nserum creatinine 血清肌酐\namylase 淀粉酶\nlipase 脂肪酶\nBrain natriuretic peptide (BNP) 脑钠肽\nGlasgow /’ɡlɑ:sɡəu/ Coma /’kəʊmə/ Scale (GCS) 格拉斯哥昏迷评分\nAcute Physiology /,fɪzɪ’ɒlədʒɪ/ and Chronic Health Evaluation (APACHE) 急性生理慢性健康评分\nSimplified Acute Physiology Score (SAPS) 简化急性生理学评分\nCriteria /kraɪ’tɪərɪə/ 标准\nAKIN Criteria 急性肾损伤网络标准\nLactate clearance rate 乳酸清除率\nCentral venous pressure (CVP) 中心静脉压\nCerebral /səˈriːbrəl/ perfusion pressure (CPP) 脑灌注压\nSystemic vascular resistance (SVR) 体循环血管阻力\nPulmonary /ˈpʌlmənəri/ artery 肺动脉\nCoagulation profile 凝血功能检查\nFluid challenge 液体冲击试验\nMixed venous oxygen saturation (SvO₂) 混合静脉血氧饱和度\nOxygenation index 氧合指数\nPaO₂/FiO₂ 氧合指数\nEnd-Tidal Carbon Dioxide, ETCO₂ 呼气末二氧化碳\nNeurocritical care 神经重症监护\nCerebral Oxygen Monitoring 脑氧监测\nColony-Stimulating Factor, CSF 集落刺激因子\nIntestinal /ˌɪnˈtestɪnəl/ Barrier Function Monitoring 肠屏障功能监测\nContinuous EEG Monitoring 连续性神经电监测\nExtravascular Lung Water Index, EVLWI 血管外肺水指数\nCardiac index 心脏指数\nEnteral Nutrition Tolerance 肠内营养耐受评估\nSedation Depth Monitoring 镇静深度评估\nPain Assessment 疼痛评估\n\n\n\n1. hx - History（病史）\n2. dx - Diagnosis（诊断）\n3. tx - Treatment（治疗）\n4. sx - Symptoms（症状）\n5. fx - Fracture（骨折）\n6. px - Prognosis（预后）\n\n\n\nIntensive Care Unit，ICU 重症监护室\nMultidisciplinary team (MDT) 多学科协作团队\nEnd-of-life care 临终关怀\nEthical decision-making 伦理决策\nEthics Committee Review 伦理委员会审查\nPatient autonomy /ɔːˈtɒnəmi/ 患者自主权\nFutility /fju:’tiliti/ of care 无效医疗\nDo-not-resuscitate (DNR) 放弃心肺复苏\nbrain death 脑死亡\nSurrogate /’sʌrəgət/ decision-making 替代决策\nPalliative /’pælɪətɪv/ care integration 姑息治疗整合\nEnd-of-life discussions 临终讨论\nTrauma team activation 创伤团队启动\nCardiac arrest team 心脏骤停团队\nTransplant ICU 抑制重症监护室\nNeurocritical care 神经重症\n\n\n\nMachine learning in sepsis prediction 机器学习在脓毒症预测中的应用\nGut Microbiota Modulation 肠道菌群调控\nGene Editing 基因编辑技术\nNanomedicine Delivery 纳米药物递送\nMetabolomics /metæˈbɑːləmɪks/ 代谢组学\nProteomics /ˌprəʊtɪˈɒmɪks/ 蛋白组学\nSingle-Cell Sequencing 单细胞测序"
   },
   {
     "objectID": "blog/learnnotes_words/index.html#疾病",
@@ -291,7 +263,7 @@
     "href": "blog/learnnotes_words/index.html#监测",
     "title": "我的重症医学单词: 2025年8月27日",
     "section": "",
-    "text": "Arterial /ɑːˈtɪəriəl/ blood gas，ABG 动脉血气分析\nEndotracheal /ˌendəʊˈtreɪkɪəl/ intubation 气管插管\nVital signs monitoring 生命体征监测\nHemodynamic monitoring 血流动力学监测\nProcalcitonin (PCT) 降钙素原\nSequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估\nLactic acid/lactate 乳酸\nBrain natriuretic peptide (BNP) 脑钠肽\nGlasgow /’ɡlɑ:sɡəu/ Coma /’kəʊmə/ Scale (GCS) 格拉斯哥昏迷评分\nAcute Physiology /,fɪzɪ’ɒlədʒɪ/ and Chronic Health Evaluation (APACHE) 急性生理慢性健康评分\nSimplified Acute Physiology Score (SAPS) 简化急性生理学评分\nCriteria /kraɪ’tɪərɪə/ 标准\nAKIN Criteria 急性肾损伤网络标准\nLactate clearance rate 乳酸清除率\nCentral venous pressure (CVP) 中心静脉压\nCerebral /səˈriːbrəl/ perfusion pressure (CPP) 脑灌注压\nSystemic vascular resistance (SVR) 体循环血管阻力\nPulmonary /ˈpʌlmənəri/ artery 肺动脉\nCoagulation profile 凝血功能检查\nFluid challenge 液体冲击试验\nMixed venous oxygen saturation (SvO₂) 混合静脉血氧饱和度\nOxygenation index 氧合指数\nPaO₂/FiO₂ 氧合指数\nEnd-Tidal Carbon Dioxide, ETCO₂ 呼气末二氧化碳\nNeurocritical care 神经重症监护\nCerebral Oxygen Monitoring 脑氧监测\nColony-Stimulating Factor, CSF 集落刺激因子\nIntestinal /ˌɪnˈtestɪnəl/ Barrier Function Monitoring 肠屏障功能监测\nContinuous EEG Monitoring 连续性神经电监测\nExtravascular Lung Water Index, EVLWI 血管外肺水指数\nCardiac index 心脏指数\nEnteral Nutrition Tolerance 肠内营养耐受评估\nSedation Depth Monitoring 镇静深度评估\nPain Assessment 疼痛评估"
+    "text": "Arterial /ɑːˈtɪəriəl/ blood gas，ABG 动脉血气分析\nEndotracheal /ˌendəʊˈtreɪkɪəl/ intubation 气管插管\nVital signs monitoring 生命体征监测\nHemodynamic monitoring 血流动力学监测\nProcalcitonin (PCT) 降钙素原\nSequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估\nLactic acid/lactate 乳酸\ncreatinine 肌酐\nuric acid 尿酸\nserum creatinine 血清肌酐\namylase 淀粉酶\nlipase 脂肪酶\nBrain natriuretic peptide (BNP) 脑钠肽\nGlasgow /’ɡlɑ:sɡəu/ Coma /’kəʊmə/ Scale (GCS) 格拉斯哥昏迷评分\nAcute Physiology /,fɪzɪ’ɒlədʒɪ/ and Chronic Health Evaluation (APACHE) 急性生理慢性健康评分\nSimplified Acute Physiology Score (SAPS) 简化急性生理学评分\nCriteria /kraɪ’tɪərɪə/ 标准\nAKIN Criteria 急性肾损伤网络标准\nLactate clearance rate 乳酸清除率\nCentral venous pressure (CVP) 中心静脉压\nCerebral /səˈriːbrəl/ perfusion pressure (CPP) 脑灌注压\nSystemic vascular resistance (SVR) 体循环血管阻力\nPulmonary /ˈpʌlmənəri/ artery 肺动脉\nCoagulation profile 凝血功能检查\nFluid challenge 液体冲击试验\nMixed venous oxygen saturation (SvO₂) 混合静脉血氧饱和度\nOxygenation index 氧合指数\nPaO₂/FiO₂ 氧合指数\nEnd-Tidal Carbon Dioxide, ETCO₂ 呼气末二氧化碳\nNeurocritical care 神经重症监护\nCerebral Oxygen Monitoring 脑氧监测\nColony-Stimulating Factor, CSF 集落刺激因子\nIntestinal /ˌɪnˈtestɪnəl/ Barrier Function Monitoring 肠屏障功能监测\nContinuous EEG Monitoring 连续性神经电监测\nExtravascular Lung Water Index, EVLWI 血管外肺水指数\nCardiac index 心脏指数\nEnteral Nutrition Tolerance 肠内营养耐受评估\nSedation Depth Monitoring 镇静深度评估\nPain Assessment 疼痛评估"
   },
   {
     "objectID": "blog/learnnotes_words/index.html#常用缩写",
@@ -686,6 +658,41 @@
     "text": "CSIDS: the Consortium for Statistics in Disease Surveillance (previously Sykdomspulsen) is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\n\n\ncsverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\n\n\n\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\n\n\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
   },
   {
+    "objectID": "research/literature_chengyisong_20221205/index.html",
+    "href": "research/literature_chengyisong_20221205/index.html",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "",
+    "text": "Genomic data analysis is increasingly important both in medical research and in the clinical practice. In this course, you will learn the basic principles and concepts in the statistical analysis of genomic data. The course will focus on the three main tasks that are frequently involved in genomics: data visualisation, data screening and pre-processing, data modelling (prediction and classification). You will get a practical introduction to RStudio, the best statistical software for analysing genomic data, thus enabling you to perform basic programming tasks, to visualise and analyse genomic data, and to interpret the results."
+  },
+  {
+    "objectID": "research/literature_chengyisong_20221205/index.html#course-overview-med3007-at-uio",
+    "href": "research/literature_chengyisong_20221205/index.html#course-overview-med3007-at-uio",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "",
+    "text": "Genomic data analysis is increasingly important both in medical research and in the clinical practice. In this course, you will learn the basic principles and concepts in the statistical analysis of genomic data. The course will focus on the three main tasks that are frequently involved in genomics: data visualisation, data screening and pre-processing, data modelling (prediction and classification). You will get a practical introduction to RStudio, the best statistical software for analysing genomic data, thus enabling you to perform basic programming tasks, to visualise and analyse genomic data, and to interpret the results."
+  },
+  {
+    "objectID": "research/literature_chengyisong_20221205/index.html#course-website-in-quarto",
+    "href": "research/literature_chengyisong_20221205/index.html#course-website-in-quarto",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "Course website in Quarto",
+    "text": "Course website in Quarto\nWe developed the course website in Quarto for lecture notes and R lab material. See website here.\nThe associated Github repository is also freely available."
+  },
+  {
+    "objectID": "research/r_novice/index.html",
+    "href": "research/r_novice/index.html",
+    "title": "R for Reproducible Scientific Analysis",
+    "section": "",
+    "text": "I have been involved in multiple introductory R workshops at University of Oslo, sometimes as the instructor and sometimes, a helper.\nYou can check the course material for my ggplot2 lecture.\nMore information about the Carpentries at University of Oslo can be found here: Carpentries at UiO"
+  },
+  {
+    "objectID": "research/workshop_rladies_zurich/index.html",
+    "href": "research/workshop_rladies_zurich/index.html",
+    "title": "Zero to Quarto Workshop",
+    "section": "",
+    "text": "Date: Monday 23 October 2023, 6:30PM to 8:00PM, CEST\nPlace: KO2-F-153, Rämistrasse 71, Zürich.\nEvent link\nPresenter: Chi Zhang. Feel free to reach out with comments and feedback!\nWorkshop site"
+  },
+  {
     "objectID": "rpkg/covidnor/index.html",
     "href": "rpkg/covidnor/index.html",
     "title": "covidnor",
@@ -768,47 +775,5 @@
     "title": "A one year recap on teaching statistcis to medical students: how can R and Quarto help?",
     "section": "About the topic",
     "text": "About the topic\nThe Department of Biostatistics at University of Oslo offer statistics courses at different levels for medical students and PhD candidates with clinical backgrounds. The courses were traditionally taught with a focus on theory instead of data analysis, where SPSS and STATA were the tools of choice.\nSince 2023 spring semester, we have been gradually transforming some of our statistics courses into R, using Quarto course websites and Carpentries style live-coding instruction. With new Quarto tools (such as WebR) we also added interactivity in the code blocks. So far we have transformed two courses with over 100 students who have almost no programming experience. We have observed impressive progress in the skill development, and received significantly more positive feedback when it comes to statistics education.\nIn this talk, I would like to share our experience on the successes and challenges throughout the process. Looking back, is it cost-effective? Definitely. Can we do better in the future? Almost surely. If you are also planning to adopt new technology in your teaching activities, join us to learn more about what you can do to make the transition happen!\nCourse website can be accessed here"
-  },
-  {
-    "objectID": "teaching/cheatsheet_pkgdev/index.html",
-    "href": "teaching/cheatsheet_pkgdev/index.html",
-    "title": "Pkg Dev at CSIDS",
-    "section": "",
-    "text": "Rstat"
-  },
-  {
-    "objectID": "teaching/med3007/index.html",
-    "href": "teaching/med3007/index.html",
-    "title": "MED3007",
-    "section": "",
-    "text": "Genomic data analysis is increasingly important both in medical research and in the clinical practice. In this course, you will learn the basic principles and concepts in the statistical analysis of genomic data. The course will focus on the three main tasks that are frequently involved in genomics: data visualisation, data screening and pre-processing, data modelling (prediction and classification). You will get a practical introduction to RStudio, the best statistical software for analysing genomic data, thus enabling you to perform basic programming tasks, to visualise and analyse genomic data, and to interpret the results."
-  },
-  {
-    "objectID": "teaching/med3007/index.html#course-overview-med3007-at-uio",
-    "href": "teaching/med3007/index.html#course-overview-med3007-at-uio",
-    "title": "MED3007",
-    "section": "",
-    "text": "Genomic data analysis is increasingly important both in medical research and in the clinical practice. In this course, you will learn the basic principles and concepts in the statistical analysis of genomic data. The course will focus on the three main tasks that are frequently involved in genomics: data visualisation, data screening and pre-processing, data modelling (prediction and classification). You will get a practical introduction to RStudio, the best statistical software for analysing genomic data, thus enabling you to perform basic programming tasks, to visualise and analyse genomic data, and to interpret the results."
-  },
-  {
-    "objectID": "teaching/med3007/index.html#course-website-in-quarto",
-    "href": "teaching/med3007/index.html#course-website-in-quarto",
-    "title": "MED3007",
-    "section": "Course website in Quarto",
-    "text": "Course website in Quarto\nWe developed the course website in Quarto for lecture notes and R lab material. See website here.\nThe associated Github repository is also freely available."
-  },
-  {
-    "objectID": "teaching/r_novice/index.html",
-    "href": "teaching/r_novice/index.html",
-    "title": "R for Reproducible Scientific Analysis",
-    "section": "",
-    "text": "I have been involved in multiple introductory R workshops at University of Oslo, sometimes as the instructor and sometimes, a helper.\nYou can check the course material for my ggplot2 lecture.\nMore information about the Carpentries at University of Oslo can be found here: Carpentries at UiO"
-  },
-  {
-    "objectID": "teaching/workshop_bioinf/index.html",
-    "href": "teaching/workshop_bioinf/index.html",
-    "title": "Oslo Bioinformatics Week",
-    "section": "",
-    "text": "This workshop is part of the Oslo Bioinformatics Workshop Week 2022. These workshops are open to the scientific community in Oslo and the surrounding area.\nMain instructor: Manuela Zucknick\nCo-instructor: Theophilius Asenso\nDeveloper: Chi Zhang\nCourse website and repository"
   }
 ]

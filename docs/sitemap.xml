@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://laq12345.github.io/teaching/workshop_rladies_zurich/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.359Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/teaching/teaching.html</loc>
-    <lastmod>2025-08-27T02:21:54.359Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/teaching/mf9130/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.351Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/teaching/ern4110/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.351Z</lastmod>
-  </url>
-  <url>
     <loc>https://laq12345.github.io/talks/talks.html</loc>
     <lastmod>2025-08-27T02:21:54.342Z</lastmod>
   </url>
@@ -69,6 +53,18 @@
     <lastmod>2025-08-27T02:21:54.185Z</lastmod>
   </url>
   <url>
+    <loc>https://laq12345.github.io/research/workshop_bioinf/index.html</loc>
+    <lastmod>2025-08-27T02:21:54.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/research/research.html</loc>
+    <lastmod>2025-08-27T04:05:23.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/research/cheatsheet_pkgdev/index.html</loc>
+    <lastmod>2025-08-27T02:21:54.351Z</lastmod>
+  </url>
+  <url>
     <loc>https://laq12345.github.io/projects/projects.html</loc>
     <lastmod>2025-08-27T02:21:54.126Z</lastmod>
   </url>
@@ -86,7 +82,7 @@
   </url>
   <url>
     <loc>https://laq12345.github.io/index.html</loc>
-    <lastmod>2025-08-27T02:55:32.798Z</lastmod>
+    <lastmod>2025-08-27T04:10:00.345Z</lastmod>
   </url>
   <url>
     <loc>https://laq12345.github.io/blog/readnotes_20240606_bad_pharma/index.html</loc>
@@ -98,7 +94,7 @@
   </url>
   <url>
     <loc>https://laq12345.github.io/blog/learnnotes_words/index.html</loc>
-    <lastmod>2025-08-27T02:49:54.520Z</lastmod>
+    <lastmod>2025-08-27T03:45:12.756Z</lastmod>
   </url>
   <url>
     <loc>https://laq12345.github.io/blog/blog_20240923_quartofriends/index.html</loc>
@@ -177,6 +173,18 @@
     <lastmod>2025-08-27T02:21:54.159Z</lastmod>
   </url>
   <url>
+    <loc>https://laq12345.github.io/research/literature_chengyisong_20221205/index.html</loc>
+    <lastmod>2025-08-27T04:12:13.524Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/research/r_novice/index.html</loc>
+    <lastmod>2025-08-27T02:21:54.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/research/workshop_rladies_zurich/index.html</loc>
+    <lastmod>2025-08-27T02:21:54.359Z</lastmod>
+  </url>
+  <url>
     <loc>https://laq12345.github.io/rpkg/covidnor/index.html</loc>
     <lastmod>2025-08-27T02:21:54.185Z</lastmod>
   </url>
@@ -223,21 +231,5 @@
   <url>
     <loc>https://laq12345.github.io/talks/rstats_20240613_teaching/index.html</loc>
     <lastmod>2025-08-27T02:21:54.342Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/teaching/cheatsheet_pkgdev/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.351Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/teaching/med3007/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.351Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/teaching/r_novice/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.359Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/teaching/workshop_bioinf/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.359Z</lastmod>
   </url>
 </urlset>

@@ -1,9 +1,9 @@
 ---
-title: "MED3007"
-description: "Statistical Principles in Genomics"
-date: "2024-03-15"
-categories: [course, statistics]
-type: statistics
+title: "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit"
+date: "2025-08-27"
+description: "程毅松2022年125日发表于Chin Med J (Engl)"
+categories: [machine learning]
+type: article
 ---
 
 ## Course overview: MED3007 at UiO
