@@ -1,30 +1,12 @@
 [
   {
-    "listing": "/talks/talks.html",
+    "listing": "/projects/projects.html",
     "items": [
-      "/talks/community_20240921_quartofriends/index.html",
-      "/talks/ehr_20240918_betterehr/index.html",
-      "/talks/community_20240710_camis/index.html",
-      "/talks/rstats_20240613_teaching/index.html",
-      "/talks/rstats_20230721_teaching/index.html",
-      "/talks/ph_20220616_splverse/index.html"
-    ]
-  },
-  {
-    "listing": "/rpkg/rpkg.html",
-    "items": [
-      "/rpkg/ggehr/index.html",
-      "/rpkg/qtwAcademic/index.html"
-    ]
-  },
-  {
-    "listing": "/research/research.html",
-    "items": [
-      "/research/literature_chengyisong_20240215/index.html",
-      "/research/literature_chengyisong_20221205/index.html",
-      "/research/workshop_bioinf/index.html",
-      "/research/r_novice/index.html",
-      "/research/workshop_rladies_zurich/index.html"
+      "/projects/os_teaching/index.html",
+      "/projects/phuse/index.html",
+      "/projects/dan/index.html",
+      "/projects/ehr/index.html",
+      "/projects/sykdomspulsen/index.html"
     ]
   },
   {
@@ -47,13 +29,33 @@
     ]
   },
   {
-    "listing": "/projects/projects.html",
+    "listing": "/research/research.html",
     "items": [
-      "/projects/os_teaching/index.html",
-      "/projects/phuse/index.html",
-      "/projects/dan/index.html",
-      "/projects/ehr/index.html",
-      "/projects/sykdomspulsen/index.html"
+      "/research/literature_chengyisong_20240215/index.html",
+      "/research/literature_kangyan_20240330/index.html",
+      "/research/literature_chengyisong_20221205/index.html",
+      "/research/literature_kangyan_20250703/index.html",
+      "/research/workshop_bioinf/index.html",
+      "/research/r_novice/index.html",
+      "/research/workshop_rladies_zurich/index.html"
+    ]
+  },
+  {
+    "listing": "/rpkg/rpkg.html",
+    "items": [
+      "/rpkg/ggehr/index.html",
+      "/rpkg/qtwAcademic/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/talks.html",
+    "items": [
+      "/talks/community_20240921_quartofriends/index.html",
+      "/talks/ehr_20240918_betterehr/index.html",
+      "/talks/community_20240710_camis/index.html",
+      "/talks/rstats_20240613_teaching/index.html",
+      "/talks/rstats_20230721_teaching/index.html",
+      "/talks/ph_20220616_splverse/index.html"
     ]
   }
 ]

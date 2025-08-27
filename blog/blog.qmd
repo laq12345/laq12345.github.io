@@ -1,5 +1,5 @@
 ---
-title: "Blog and notes"
+title: "笔记"
 description: |
   A place to store learnings and thoughts on public health, data science and open source development 
 listing:
