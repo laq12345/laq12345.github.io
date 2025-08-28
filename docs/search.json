@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "talks/rstats_20240613_teaching/index.html",
-    "href": "talks/rstats_20240613_teaching/index.html",
-    "title": "A one year recap on teaching statistcis to medical students: how can R and Quarto help?",
-    "section": "",
-    "text": "Time and place: June 13 2024. Online\nSlides for this talk can be accessed here."
-  },
-  {
-    "objectID": "talks/rstats_20240613_teaching/index.html#about-the-topic",
-    "href": "talks/rstats_20240613_teaching/index.html#about-the-topic",
-    "title": "A one year recap on teaching statistcis to medical students: how can R and Quarto help?",
-    "section": "About the topic",
-    "text": "About the topic\nThe Department of Biostatistics at University of Oslo offer statistics courses at different levels for medical students and PhD candidates with clinical backgrounds. The courses were traditionally taught with a focus on theory instead of data analysis, where SPSS and STATA were the tools of choice.\nSince 2023 spring semester, we have been gradually transforming some of our statistics courses into R, using Quarto course websites and Carpentries style live-coding instruction. With new Quarto tools (such as WebR) we also added interactivity in the code blocks. So far we have transformed two courses with over 100 students who have almost no programming experience. We have observed impressive progress in the skill development, and received significantly more positive feedback when it comes to statistics education.\nIn this talk, I would like to share our experience on the successes and challenges throughout the process. Looking back, is it cost-effective? Definitely. Can we do better in the future? Almost surely. If you are also planning to adopt new technology in your teaching activities, join us to learn more about what you can do to make the transition happen!\nCourse website can be accessed here"
-  },
-  {
-    "objectID": "talks/rstats_20190402_blogdown/index.html",
-    "href": "talks/rstats_20190402_blogdown/index.html",
-    "title": "Building Website in R: Step by Step Introduction to blogdown",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "talks/ph_20220616_splverse/index.html",
-    "href": "talks/ph_20220616_splverse/index.html",
-    "title": "Sykdomspulsen: An automated public health surveillance platform",
-    "section": "",
-    "text": "About the talk\nWatch the talk on YouTube\nSykdomspulsen is a real-time analysis and disease surveillance system designed at developed at the Norwegian Institute of Public Health (FHI). Sykdomspulsen processes new data collected from 15 data sources (e.g., covid-19 cases), runs 1000.000+ statistical analysis automatically for all locations (nation, county, municipality) in Norway, produces 1000+ reports and alerts for public health authorities and shares data to the public on GitHub.\nSykdomspulsen runs on a collection of R packages, the {splverse}. {splverse} is an ecosystem for infectious disease surveillance, from analysis planning, statistical analysis to reporting via visualization, shiny website and Rmarkdown generated reports. In this talk, Chi will present how Sykdomspulsen does public health real-time surveillance during the pandemic using R. Chi will introduce some of the core packages and illustrate how they work together, with an example using real surveillance data published daily on GitHub.\n\n\nAbout the speaker\nChi is currently working at the Sykdomspulsen team as a researcher and R developer, at the Norwegian Institute of Public Health. Before she joined Sykdomspulsen in the middle of the pandemic (2020), she was a PhD student at the Department of Biostatistics at University of Oslo (OCBE), working on hospital EHR data."
-  },
-  {
-    "objectID": "talks/ehr_20221013_ml_icu/index.html",
-    "href": "talks/ehr_20221013_ml_icu/index.html",
-    "title": "Machine Learning in Intensive Care Units",
-    "section": "",
-    "text": "A 45 minutes trial lecture to fulfill the requirement of my PhD degree."
-  },
-  {
-    "objectID": "talks/community_20240710_camis/index.html",
-    "href": "talks/community_20240710_camis/index.html",
-    "title": "CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations",
-    "section": "",
-    "text": "2024.7.8-11, Salzburg, Austria. Conference link: UseR!\nStatisticians using multiple softwares (SAS, R, Python) will have found differences in analysis results that warrant further justification. Whilst some industries may accept results not being the same as long as they are “close”, the highly regulated pharmaceutical industry would require an identical match in results. Yet, discrepancies might still occur, and knowing the reasons (different methods, options, algorithms etc) is critical to the modern statistician and subsequent regulatory submissions.\nIn this talk I will introduce CAMIS: Comparing Analysis Method Implementations in Software. https://psiaims.github.io/CAMIS/ It is a joint-project between PHUSE, the R Validation Hub, PSI AIMS, R consortium and openstatsware. The aim of CAMIS is to investigate and document differences and similarities between different statistical softwares such as SAS and R. We use Quarto and Github to document methods, algorithms and comparisons between softwares through small case studies, and all articles are contributed by the community. In the transition from proprietary to open source technology in the industry, CAMIS can serve as a guidebook to navigate this process.\n\nkeywords: cross industry collaboration, multi-lingua, open-source, quarto"
-  },
-  {
     "objectID": "rpkg/qtwAcademic/index.html",
     "href": "rpkg/qtwAcademic/index.html",
     "title": "qtwAcademic",
@@ -315,11 +273,137 @@
     "text": "AB stewardship (not so relevant)\nRenggli 2021: consumption of anti-meticillin resistant staphylococcus aureus antibiotics in Swiss hospitals is associateed with antibiotic stewardship measures\nVaughn 2021: AB overuse and stewardship at hospital discharge\nGraber 2019: electronic tools to decrease AB use"
   },
   {
-    "objectID": "dev/short_bio.html",
-    "href": "dev/short_bio.html",
-    "title": "笑面狐",
+    "objectID": "icu/icu_shock/index.html",
+    "href": "icu/icu_shock/index.html",
+    "title": "休克",
     "section": "",
-    "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
+    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#分类",
+    "href": "icu/icu_shock/index.html#分类",
+    "title": "休克",
+    "section": "",
+    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#监测",
+    "href": "icu/icu_shock/index.html#监测",
+    "title": "休克",
+    "section": "监测",
+    "text": "监测\n\n一般监测\n\n精神状态\n皮肤粘膜温度和色泽\n血压\n脉率\n尿量\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#治疗",
+    "href": "icu/icu_shock/index.html#治疗",
+    "title": "休克",
+    "section": "治疗",
+    "text": "治疗\n\n紧急治疗\n补充血容量\n积极处理原发疾病\n纠正酸碱平衡失调\n血管活性药物\n治疗DIC改善微循环\n糖皮质激素与其他药物的使用"
+  },
+  {
+    "objectID": "icu/icu_COPD/index.html",
+    "href": "icu/icu_COPD/index.html",
+    "title": "COPD急性加重",
+    "section": "",
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+  },
+  {
+    "objectID": "icu/icu_COPD/index.html#治疗",
+    "href": "icu/icu_COPD/index.html#治疗",
+    "title": "COPD急性加重",
+    "section": "",
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html",
+    "href": "icu/icu_ARDS/index.html",
+    "title": "ARDS",
+    "section": "",
+    "text": "ARDS"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html#定义",
+    "href": "icu/icu_ARDS/index.html#定义",
+    "title": "ARDS",
+    "section": "",
+    "text": "ARDS"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html#诊断",
+    "href": "icu/icu_ARDS/index.html#诊断",
+    "title": "ARDS",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\nARDS的柏林诊断标准"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html#治疗",
+    "href": "icu/icu_ARDS/index.html#治疗",
+    "title": "ARDS",
+    "section": "治疗",
+    "text": "治疗\n\n病因治疗\n\n\n肺保护性通气策略\n\n小潮气量通气\n控制平台压\nPEEP\n\n\n\n挽救性治疗\n\n肺复张实施\n肌松药使用\n俯卧位通气\n高频通气\nECMO\n\n\n\n液体管理\n\n\n营养支持与监护\n\n\n其他治疗"
+  },
+  {
+    "objectID": "icu/icu.html",
+    "href": "icu/icu.html",
+    "title": "ICU",
+    "section": "",
+    "text": "这是ICU专业知识."
+  },
+  {
+    "objectID": "icu/icu.html#upcoming",
+    "href": "icu/icu.html#upcoming",
+    "title": "ICU",
+    "section": "",
+    "text": "这是ICU专业知识."
+  },
+  {
+    "objectID": "icu/icu.html#选择先前的笔记",
+    "href": "icu/icu.html#选择先前的笔记",
+    "title": "ICU",
+    "section": "选择先前的笔记",
+    "text": "选择先前的笔记\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/readnotes_20240606_bad_pharma/index.html",
+    "href": "blog/readnotes_20240606_bad_pharma/index.html",
+    "title": "Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre",
+    "section": "",
+    "text": "Industry funded trials were twenty times more likely to give results that are favoring the test drug\n\nOn the need for meta-analysis\n\nPeople would write long review articles surveying the literature - in which they would cite the trial data they come across in a completely unsystematic fashion, often reflecting their own prejudice and values.\n\nOn trials\n\n… mild torture economy: you’re not being paid to do a job, you’re being paid to endure.\n\nOn regulators\n\nfree movement of staff between regulators and drug companies… a fifth of those surveyed said they had been pressured to approve a drug despite reservation about efficacy and safety\n\n\napplication from large companies, which have greater experience with the regulatory process, pass through to approval faster than those from smaller companies\n\nOn surrogate outcomes\n\nthey are approved for showing a benefit on surrogate outcomes, such as blood test, that is only weakly or theoretically associated with the real suffering and death we’re trying to avoid. Sometimes drugs which work well to change surrogate outcomes simply don’t make any difference to the real outcome.\n\nOn comparative effectiveness research\n\nit is a vitally important filed, in many cases the value of finding out what works best among the drugs we already have would hugely exceed the value of developing entirely new ones.\n\nOn safety and efficacy for approved drugs\n\n39 percent patients believe that FDA only approves ‘extremely effective’ drugs, and 25 percent that it only approves drugs without serious side effect. However regulators frequently approve drugs that are only vaguely effective, with serious side effects, on the off-chance that they might be useful to someone, somewhere, when other interventions aren’t an option.\n\nOn drug reviewing\n\nRegulators that have approved a drug are often reluctant to take it off the market, in case it is seen as an admissio of their failure to spot problems in the first place\n\nOn trial patients\n\nthe ‘ideal’ patients are likely to get better, they exaggerate the benefits of drugs, and help expensive new medicines appear to be more cost effective than they really are. ‘External validity’: trial patient being unrepresentative\n\nOn comparison drugs\n\nit is common to see trials where a new drug is compared to a competitor that is known to be useless; or with a good competitor at a stupidly low (or high) dose\n\nOn random variation in the data\n\nearly stopping because you peeked in the results. should set up stopping rules, specified before the trial begins\nneed a large trial to detect a small difference between two treatments, and a very large trial to be confident that two drugs are equally effective\n(multiple testing, sub-group analysis): measuring lots of things, some will be statistically significant, simply from the natural random variation in all trial data.\n\nOn presenting the results\n\npercent reduction in the risk of heart attack (risk difference)\nrelative risk reduction\npresenting the results as relative risk reduction overstates the benefits\n\nWays trials go wrong\n\nunrepresentative patients\ntoo brief\nmeasure the wrong outcomes\ngo missing, if the result is unflattering\nanalysed wrongly\n\nOn ‘simple trial’ using EHR\n\nat present trials are very expensive. Many struggle to recruit enough patients, many struggle to recruit everyday doctors who don’t want to get involved in the mess of filing out patient report forms, calling patients back for extra appointments, doing extra measurements and so on\nsimple trials have disadvantage of being not blinded - patients know what drug they’ve received\npragmatic trials are cheap\nthese trials run forever and follow-up data are easy to get\n\nOn marketing\n\nSome have estimated that the pharmaceutical industry overall spends twice as much on marketing and promotion as it does on research and developments\n\n\nDrugs are advertised more when the number of potential patients, rather than the current patients, is large."
+  },
+  {
+    "objectID": "blog/readnotes_20240606_bad_pharma/index.html#notes-from-the-book",
+    "href": "blog/readnotes_20240606_bad_pharma/index.html#notes-from-the-book",
+    "title": "Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre",
+    "section": "",
+    "text": "Industry funded trials were twenty times more likely to give results that are favoring the test drug\n\nOn the need for meta-analysis\n\nPeople would write long review articles surveying the literature - in which they would cite the trial data they come across in a completely unsystematic fashion, often reflecting their own prejudice and values.\n\nOn trials\n\n… mild torture economy: you’re not being paid to do a job, you’re being paid to endure.\n\nOn regulators\n\nfree movement of staff between regulators and drug companies… a fifth of those surveyed said they had been pressured to approve a drug despite reservation about efficacy and safety\n\n\napplication from large companies, which have greater experience with the regulatory process, pass through to approval faster than those from smaller companies\n\nOn surrogate outcomes\n\nthey are approved for showing a benefit on surrogate outcomes, such as blood test, that is only weakly or theoretically associated with the real suffering and death we’re trying to avoid. Sometimes drugs which work well to change surrogate outcomes simply don’t make any difference to the real outcome.\n\nOn comparative effectiveness research\n\nit is a vitally important filed, in many cases the value of finding out what works best among the drugs we already have would hugely exceed the value of developing entirely new ones.\n\nOn safety and efficacy for approved drugs\n\n39 percent patients believe that FDA only approves ‘extremely effective’ drugs, and 25 percent that it only approves drugs without serious side effect. However regulators frequently approve drugs that are only vaguely effective, with serious side effects, on the off-chance that they might be useful to someone, somewhere, when other interventions aren’t an option.\n\nOn drug reviewing\n\nRegulators that have approved a drug are often reluctant to take it off the market, in case it is seen as an admissio of their failure to spot problems in the first place\n\nOn trial patients\n\nthe ‘ideal’ patients are likely to get better, they exaggerate the benefits of drugs, and help expensive new medicines appear to be more cost effective than they really are. ‘External validity’: trial patient being unrepresentative\n\nOn comparison drugs\n\nit is common to see trials where a new drug is compared to a competitor that is known to be useless; or with a good competitor at a stupidly low (or high) dose\n\nOn random variation in the data\n\nearly stopping because you peeked in the results. should set up stopping rules, specified before the trial begins\nneed a large trial to detect a small difference between two treatments, and a very large trial to be confident that two drugs are equally effective\n(multiple testing, sub-group analysis): measuring lots of things, some will be statistically significant, simply from the natural random variation in all trial data.\n\nOn presenting the results\n\npercent reduction in the risk of heart attack (risk difference)\nrelative risk reduction\npresenting the results as relative risk reduction overstates the benefits\n\nWays trials go wrong\n\nunrepresentative patients\ntoo brief\nmeasure the wrong outcomes\ngo missing, if the result is unflattering\nanalysed wrongly\n\nOn ‘simple trial’ using EHR\n\nat present trials are very expensive. Many struggle to recruit enough patients, many struggle to recruit everyday doctors who don’t want to get involved in the mess of filing out patient report forms, calling patients back for extra appointments, doing extra measurements and so on\nsimple trials have disadvantage of being not blinded - patients know what drug they’ve received\npragmatic trials are cheap\nthese trials run forever and follow-up data are easy to get\n\nOn marketing\n\nSome have estimated that the pharmaceutical industry overall spends twice as much on marketing and promotion as it does on research and developments\n\n\nDrugs are advertised more when the number of potential patients, rather than the current patients, is large."
+  },
+  {
+    "objectID": "blog/blog_interview_non_professional/index.html",
+    "href": "blog/blog_interview_non_professional/index.html",
+    "title": "面试——非专业问题",
+    "section": "",
+    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+  },
+  {
+    "objectID": "blog/blog_interview_non_professional/index.html#关于自己",
+    "href": "blog/blog_interview_non_professional/index.html#关于自己",
+    "title": "面试——非专业问题",
+    "section": "",
+    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+  },
+  {
+    "objectID": "about_me.html",
+    "href": "about_me.html",
+    "title": "刘奥奇",
+    "section": "",
+    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
+  },
+  {
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "笔记",
+    "section": "",
+    "text": "日志\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\n面试——非专业问题\n\n\n11/5/24\n\n\n\n\n\n\nNo matching items\n\n\n\n学习笔记\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\n我的重症医学单词: 2025年8月27日\n\n\n8/27/25\n\n\n\n\n\n\nNo matching items\n\n\n\n阅读\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre\n\n\n6/6/24\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/learnnotes_words/index.html",
@@ -399,46 +483,74 @@
     "text": "deviate /ˈdiːvieɪt/ 偏离\noptimal 最优的\ncomply [kəmˈplaɪ] 遵从，服从\nfungal 真菌的\nregimen 方案、疗程\nanesthetic [ˌænəsˈθetɪk] 麻醉剂、麻醉的"
   },
   {
-    "objectID": "blog/blog.html",
-    "href": "blog/blog.html",
-    "title": "笔记",
+    "objectID": "dev/short_bio.html",
+    "href": "dev/short_bio.html",
+    "title": "笑面狐",
     "section": "",
-    "text": "日志\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\n面试——非专业问题\n\n\n11/5/24\n\n\n\n\n\n\nNo matching items\n\n\n\n学习笔记\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\n我的重症医学单词: 2025年8月27日\n\n\n8/27/25\n\n\n\n\n\n\nNo matching items\n\n\n\n阅读\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre\n\n\n6/6/24\n\n\n\n\n\n\nNo matching items"
+    "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
   },
   {
-    "objectID": "about_me.html",
-    "href": "about_me.html",
-    "title": "刘奥奇",
+    "objectID": "icu/icu_AKI/index.html",
+    "href": "icu/icu_AKI/index.html",
+    "title": "急性肾损伤",
     "section": "",
-    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
+    "text": "定义\n\n\n\n\n\n\n\n诊断\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\nAKIN诊断标准"
   },
   {
-    "objectID": "blog/blog_interview_non_professional/index.html",
-    "href": "blog/blog_interview_non_professional/index.html",
-    "title": "面试——非专业问题",
+    "objectID": "icu/icu_AKI/index.html#诊断",
+    "href": "icu/icu_AKI/index.html#诊断",
+    "title": "急性肾损伤",
     "section": "",
-    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+    "text": "定义\n\n\n\n\n\n\n\n诊断\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\nAKIN诊断标准"
   },
   {
-    "objectID": "blog/blog_interview_non_professional/index.html#关于自己",
-    "href": "blog/blog_interview_non_professional/index.html#关于自己",
-    "title": "面试——非专业问题",
-    "section": "",
-    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+    "objectID": "icu/icu_AKI/index.html#治疗",
+    "href": "icu/icu_AKI/index.html#治疗",
+    "title": "急性肾损伤",
+    "section": "治疗",
+    "text": "治疗\n\n早期病因干预治疗\n\n肾前性\n肾性\n肾后性\n\n营养支持治疗\n并发症治疗\n\n高钾血症\n代谢性酸中毒\n感染\n\n肾脏替代治疗\n\n严重的代谢性酸中毒\n高钾血症\n严重肺水肿\n严重的尿毒症症状\n\n恢复期治疗"
   },
   {
-    "objectID": "blog/readnotes_20240606_bad_pharma/index.html",
-    "href": "blog/readnotes_20240606_bad_pharma/index.html",
-    "title": "Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre",
+    "objectID": "icu/icu_asthma/index.html",
+    "href": "icu/icu_asthma/index.html",
+    "title": "COPD急性发作",
     "section": "",
-    "text": "Industry funded trials were twenty times more likely to give results that are favoring the test drug\n\nOn the need for meta-analysis\n\nPeople would write long review articles surveying the literature - in which they would cite the trial data they come across in a completely unsystematic fashion, often reflecting their own prejudice and values.\n\nOn trials\n\n… mild torture economy: you’re not being paid to do a job, you’re being paid to endure.\n\nOn regulators\n\nfree movement of staff between regulators and drug companies… a fifth of those surveyed said they had been pressured to approve a drug despite reservation about efficacy and safety\n\n\napplication from large companies, which have greater experience with the regulatory process, pass through to approval faster than those from smaller companies\n\nOn surrogate outcomes\n\nthey are approved for showing a benefit on surrogate outcomes, such as blood test, that is only weakly or theoretically associated with the real suffering and death we’re trying to avoid. Sometimes drugs which work well to change surrogate outcomes simply don’t make any difference to the real outcome.\n\nOn comparative effectiveness research\n\nit is a vitally important filed, in many cases the value of finding out what works best among the drugs we already have would hugely exceed the value of developing entirely new ones.\n\nOn safety and efficacy for approved drugs\n\n39 percent patients believe that FDA only approves ‘extremely effective’ drugs, and 25 percent that it only approves drugs without serious side effect. However regulators frequently approve drugs that are only vaguely effective, with serious side effects, on the off-chance that they might be useful to someone, somewhere, when other interventions aren’t an option.\n\nOn drug reviewing\n\nRegulators that have approved a drug are often reluctant to take it off the market, in case it is seen as an admissio of their failure to spot problems in the first place\n\nOn trial patients\n\nthe ‘ideal’ patients are likely to get better, they exaggerate the benefits of drugs, and help expensive new medicines appear to be more cost effective than they really are. ‘External validity’: trial patient being unrepresentative\n\nOn comparison drugs\n\nit is common to see trials where a new drug is compared to a competitor that is known to be useless; or with a good competitor at a stupidly low (or high) dose\n\nOn random variation in the data\n\nearly stopping because you peeked in the results. should set up stopping rules, specified before the trial begins\nneed a large trial to detect a small difference between two treatments, and a very large trial to be confident that two drugs are equally effective\n(multiple testing, sub-group analysis): measuring lots of things, some will be statistically significant, simply from the natural random variation in all trial data.\n\nOn presenting the results\n\npercent reduction in the risk of heart attack (risk difference)\nrelative risk reduction\npresenting the results as relative risk reduction overstates the benefits\n\nWays trials go wrong\n\nunrepresentative patients\ntoo brief\nmeasure the wrong outcomes\ngo missing, if the result is unflattering\nanalysed wrongly\n\nOn ‘simple trial’ using EHR\n\nat present trials are very expensive. Many struggle to recruit enough patients, many struggle to recruit everyday doctors who don’t want to get involved in the mess of filing out patient report forms, calling patients back for extra appointments, doing extra measurements and so on\nsimple trials have disadvantage of being not blinded - patients know what drug they’ve received\npragmatic trials are cheap\nthese trials run forever and follow-up data are easy to get\n\nOn marketing\n\nSome have estimated that the pharmaceutical industry overall spends twice as much on marketing and promotion as it does on research and developments\n\n\nDrugs are advertised more when the number of potential patients, rather than the current patients, is large."
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
   },
   {
-    "objectID": "blog/readnotes_20240606_bad_pharma/index.html#notes-from-the-book",
-    "href": "blog/readnotes_20240606_bad_pharma/index.html#notes-from-the-book",
-    "title": "Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre",
+    "objectID": "icu/icu_asthma/index.html#治疗",
+    "href": "icu/icu_asthma/index.html#治疗",
+    "title": "COPD急性发作",
     "section": "",
-    "text": "Industry funded trials were twenty times more likely to give results that are favoring the test drug\n\nOn the need for meta-analysis\n\nPeople would write long review articles surveying the literature - in which they would cite the trial data they come across in a completely unsystematic fashion, often reflecting their own prejudice and values.\n\nOn trials\n\n… mild torture economy: you’re not being paid to do a job, you’re being paid to endure.\n\nOn regulators\n\nfree movement of staff between regulators and drug companies… a fifth of those surveyed said they had been pressured to approve a drug despite reservation about efficacy and safety\n\n\napplication from large companies, which have greater experience with the regulatory process, pass through to approval faster than those from smaller companies\n\nOn surrogate outcomes\n\nthey are approved for showing a benefit on surrogate outcomes, such as blood test, that is only weakly or theoretically associated with the real suffering and death we’re trying to avoid. Sometimes drugs which work well to change surrogate outcomes simply don’t make any difference to the real outcome.\n\nOn comparative effectiveness research\n\nit is a vitally important filed, in many cases the value of finding out what works best among the drugs we already have would hugely exceed the value of developing entirely new ones.\n\nOn safety and efficacy for approved drugs\n\n39 percent patients believe that FDA only approves ‘extremely effective’ drugs, and 25 percent that it only approves drugs without serious side effect. However regulators frequently approve drugs that are only vaguely effective, with serious side effects, on the off-chance that they might be useful to someone, somewhere, when other interventions aren’t an option.\n\nOn drug reviewing\n\nRegulators that have approved a drug are often reluctant to take it off the market, in case it is seen as an admissio of their failure to spot problems in the first place\n\nOn trial patients\n\nthe ‘ideal’ patients are likely to get better, they exaggerate the benefits of drugs, and help expensive new medicines appear to be more cost effective than they really are. ‘External validity’: trial patient being unrepresentative\n\nOn comparison drugs\n\nit is common to see trials where a new drug is compared to a competitor that is known to be useless; or with a good competitor at a stupidly low (or high) dose\n\nOn random variation in the data\n\nearly stopping because you peeked in the results. should set up stopping rules, specified before the trial begins\nneed a large trial to detect a small difference between two treatments, and a very large trial to be confident that two drugs are equally effective\n(multiple testing, sub-group analysis): measuring lots of things, some will be statistically significant, simply from the natural random variation in all trial data.\n\nOn presenting the results\n\npercent reduction in the risk of heart attack (risk difference)\nrelative risk reduction\npresenting the results as relative risk reduction overstates the benefits\n\nWays trials go wrong\n\nunrepresentative patients\ntoo brief\nmeasure the wrong outcomes\ngo missing, if the result is unflattering\nanalysed wrongly\n\nOn ‘simple trial’ using EHR\n\nat present trials are very expensive. Many struggle to recruit enough patients, many struggle to recruit everyday doctors who don’t want to get involved in the mess of filing out patient report forms, calling patients back for extra appointments, doing extra measurements and so on\nsimple trials have disadvantage of being not blinded - patients know what drug they’ve received\npragmatic trials are cheap\nthese trials run forever and follow-up data are easy to get\n\nOn marketing\n\nSome have estimated that the pharmaceutical industry overall spends twice as much on marketing and promotion as it does on research and developments\n\n\nDrugs are advertised more when the number of potential patients, rather than the current patients, is large."
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html",
+    "href": "icu/icu_sepsis/index.html",
+    "title": "脓毒症与感染性休克",
+    "section": "",
+    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html#定义",
+    "href": "icu/icu_sepsis/index.html#定义",
+    "title": "脓毒症与感染性休克",
+    "section": "",
+    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html#诊断",
+    "href": "icu/icu_sepsis/index.html#诊断",
+    "title": "脓毒症与感染性休克",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\n\n脓毒症诊断\n\n\n\n怀疑感染+序贯器官衰竭评分（SOFA）大于等于2\n\n\n\n\n\n\n\n\n脓毒症休克诊断\n\n\n\n在脓毒症的基础上出现了经充分的液体复苏后仍需使用血管活性药物治疗，和/或发生低血压（MAP≤65mmHg）和/或高乳酸血症（乳酸值&gt;2mmHg）\n\n\n\nSIRS：\n出现下列两种或两种以上情况，确诊SIRS：\n\n体温&gt;38℃或&lt;36℃\n心率&gt;90次/min\n呼吸频率&gt;20次/min，或PCO2&lt;32mmHg\nWBC&gt;12x109或&lt;4x109，或未成熟中性粒细胞&gt;0.10"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html#治疗",
+    "href": "icu/icu_sepsis/index.html#治疗",
+    "title": "脓毒症与感染性休克",
+    "section": "治疗",
+    "text": "治疗\n\n初始液体复苏\n\n容量状态评估\n\n传统监测\n\n\n血流动力学监测\n\n\n\n初始复苏策略\n\n早期目标导向治疗\n\n\n脓毒症相关低血压治疗\n\n\n\n复苏液体选择\n\n\n\n血管活性药物\n\n\n休克复苏集束化策略\n\n测定血乳酸浓度\n\n\n抗生素\n\n\n静脉补液\n\n\n升压药\n\n\n\n辅助治疗"
   },
   {
     "objectID": "index.html",
@@ -628,75 +740,5 @@
     "title": "R packages",
     "section": "",
     "text": "ggehr\n\n\nggplot2 extension to EHR data\n\n\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\nNo matching items\n\n\nPublic health\n\n\n\nPackage\nDescription\n\n\n\n\nnoreden\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\nmedicode\nMetadata for medical classification and clinical coding\n\n\ncsdata\nPre-formatted structured data for Norway\n\n\ncsmaps\nPre-formatted map data for Norway"
-  },
-  {
-    "objectID": "talks/community_20240921_quartofriends/index.html",
-    "href": "talks/community_20240921_quartofriends/index.html",
-    "title": "Use Quarto, Make Friends",
-    "section": "",
-    "text": "It has been two years since Quarto became the most popular reproducible publication tool in data science and R community. However Quarto is so much more than just a publication tool! I started using it since late 2022, and it has helped me become more organized, productive and connected with people in the data science community.\nIn this talk I will not focus on the technical aspects on ‘how’ to use this tool. In the first part of the talk, I would like to report the latest news and trends seen in the useR conference and Posit conf, the two biggest global R events. In the second part, I will share my own experience in using Quarto for my career: from learning new skills, collaborating with co-workers, teaching university courses to networking and building a community (CAMIS collaboration). It is a powerful tool to share your work, and make new connections - both for work and for fun! I hope this talk will provide you with some new ideas on how to use this fantastic technology to fulfill your goals."
-  },
-  {
-    "objectID": "talks/ehr_20210218_biday/index.html",
-    "href": "talks/ehr_20210218_biday/index.html",
-    "title": "Network Analysis of Hospital EHR data",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "talks/ehr_20240918_betterehr/index.html",
-    "href": "talks/ehr_20240918_betterehr/index.html",
-    "title": "One step closer to better Electronic Health Records data",
-    "section": "",
-    "text": "Real-World Data (RWD) like Electronic Health Records (EHR) is crucial for understanding drug usage and various treatments and generating Real-World Evidence (RWE). Risk prediction has been a major application where EHR is used, and there is now a shift towards causal inference, which requires data of even higher quality. Patients undergo treatments (drugs, procedures) at various times during their hospital stays, yet the data being recorded are messy and error-prone for various reasons. Analysts spend significant amount of time to sit together with clinicians to identify and understand abnormal records, and unfortunately this process is challenging to automate.\nThis talk will use an example on antibiotics prescription and use at a Nordic hospital to illustrate how some EHR systems can improve for better clinical decision-making and better data for research. I will also introduce a pilot R package (ggehr) that facilitates visual exploration of EHR data, and how it can help reconstruct patient journeys and enable analysts to perform effective quality control."
-  },
-  {
-    "objectID": "talks/ph_20230330_sp/index.html",
-    "href": "talks/ph_20230330_sp/index.html",
-    "title": "Public health surveillance and reporting",
-    "section": "",
-    "text": "Time and place: Mar. 30, 2023 12:00 PM–1:00 PM\nHybrid: Georg Sverdrups hus and Zoom\nEvent page"
-  },
-  {
-    "objectID": "talks/ph_20230330_sp/index.html#about-the-topic",
-    "href": "talks/ph_20230330_sp/index.html#about-the-topic",
-    "title": "Public health surveillance and reporting",
-    "section": "About the topic",
-    "text": "About the topic\nSituational awareness is key to fast response during a public health emergency, such as COVID-19 pandemic. However, making disease surveillance reports that cover different geographical units for various metrics and data registries is both resource intensive and time consuming. Open source tools such as R packages, GitHub and Airflow can make this process automatic, reproducible and scalable.\nEvery day during the pandemic, Sykdomspulsen team at the Norwegian Institute of Public Health (FHI/NIPH) fetched data from more than 15 data sources, cleaned, censored datasets and carried out a wide range of statistical analyses. Over 1000 situational reports containing automated graphs and tables were produced before breakfast time.\nGrab you matpakke and join us for a presentation from Chi Zhang about how Sykdomspulsen team used and developed open source software to make public health surveillance and reporting more efficient, followed up by a discussion on the benefits and concerns of making these data public. We will end with an open Q&A session as usual!"
-  },
-  {
-    "objectID": "talks/rstats_20230721_teaching/index.html",
-    "href": "talks/rstats_20230721_teaching/index.html",
-    "title": "Transforming medical statistics classroom with R and Quarto",
-    "section": "",
-    "text": "Time and place: July 21, 2023 10AM. Roche office, Basel, Switzerland\nSlides for this talk can be accessed here."
-  },
-  {
-    "objectID": "talks/rstats_20230721_teaching/index.html#about-the-topic",
-    "href": "talks/rstats_20230721_teaching/index.html#about-the-topic",
-    "title": "Transforming medical statistics classroom with R and Quarto",
-    "section": "About the topic",
-    "text": "About the topic\nThe 8 day introductory statistics course (MF9130) at the Faculty of Medicine, University of Oslo is designed for PhD students in medicine, biology, psychology and other health related fields. Similar to other conventional teaching methods, the course has been focusing largely on theory and hand calculation. The software has been Stata and SPSS, and data analysis was mostly left for the students to figure out on their own.\nThis year, we made an attempt to transform the course with R, and aimed to teach more practical data analysis skills. We added one session per day where the instructor guide students on R and project management, importing data , basic manipulation and statistical methods. The IT skills of the students vary greatly, and therefore we used the ‘sticky notes’ help system borrowed from the Carpentries to make sure everyone could get help in the first days. We have created a course website using Quarto, where all the material and R exercises (with rendered solution) are available for self-study. We have witnessed amazing progress - by the end of the first week, students with the least computer / data skills were able to work on dataframes, make basic plots and do a chi-squared test. This helps build students confidence in data and statistics, and as a result, they can start to work on their own datasets using the skills immediately."
-  },
-  {
-    "objectID": "talks/talks.html",
-    "href": "talks/talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "There is not any talk scheduled."
-  },
-  {
-    "objectID": "talks/talks.html#upcoming",
-    "href": "talks/talks.html#upcoming",
-    "title": "Talks",
-    "section": "",
-    "text": "There is not any talk scheduled."
-  },
-  {
-    "objectID": "talks/talks.html#selected-previous-talks",
-    "href": "talks/talks.html#selected-previous-talks",
-    "title": "Talks",
-    "section": "Selected previous talks",
-    "text": "Selected previous talks\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nDate\n\n\n\n\n\n\n\n\nUse Quarto, Make Friends\n\n\nKolkata UseR meetup\n\n\n2024-09-21\n\n\n\n\n\n\nOne step closer to better Electronic Health Records data\n\n\nPHUSE Single Day Event Basel\n\n\n2024-09-18\n\n\n\n\n\n\nCAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n\n\nUseR! 2024 Salzburg\n\n\n2024-07-10\n\n\n\n\n\n\nA one year recap on teaching statistcis to medical students: how can R and Quarto help?\n\n\nR/Medicine 2024 - Online\n\n\n2024-06-13\n\n\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nBasel R meeting\n\n\n2023-07-21\n\n\n\n\n\n\nSykdomspulsen: An automated public health surveillance platform\n\n\nOslo UseR meetup \n\n\n2022-06-16\n\n\n\n\n\n\nNo matching items"
   }
 ]

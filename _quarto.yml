@@ -29,8 +29,8 @@ website:
       - text: "R packages"
         href: rpkg/rpkg.qmd
            
-      - text: "Talks"
-        href: talks/talks.qmd
+      - text: "ICU"
+        href: icu/icu.qmd
 
       - text: "笔记"
         href: blog/blog.qmd

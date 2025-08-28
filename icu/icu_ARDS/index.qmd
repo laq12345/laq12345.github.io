@@ -1,0 +1,53 @@
+---
+title: "ARDS"
+description: "急性呼吸窘迫综合征的诊断与治疗"
+date: "2025-08-28"
+categories: [diagnosis, therapy]
+priority: 1
+---
+
+## 定义
+
+::: {.callout-note icon="false"}
+## ARDS
+
+![](images/paste-2.png)
+:::
+
+## 诊断
+
+::: {.callout-important icon="false"}
+## ARDS的柏林诊断标准
+
+![](images/paste-1.png)
+:::
+
+## 治疗
+
+### 病因治疗
+
+### 肺保护性通气策略
+
+1.  小潮气量通气
+
+2.  控制平台压
+
+3.  PEEP
+
+### 挽救性治疗
+
+1.  肺复张实施
+
+2.  肌松药使用
+
+3.  俯卧位通气
+
+4.  高频通气
+
+5.  ECMO
+
+### 液体管理
+
+### 营养支持与监护
+
+### 其他治疗

@@ -1,0 +1,29 @@
+---
+title: "ICU"
+description: |
+listing:
+  - id: past
+    max-description-length: 500
+    image-height: 130px
+    categories: true
+    date-format: iso
+    fields: [title, date]
+    contents: 
+      - "icu_*/index.qmd"
+    type: table
+    sort: "date desc"
+    grid-item-border: false
+    sort-ui: true
+    filter-ui: true
+---
+
+## Upcoming
+
+这是ICU专业知识.
+
+## 选择先前的笔记
+
+
+::: {#past}
+:::
+

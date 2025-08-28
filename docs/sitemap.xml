@@ -5,30 +5,6 @@
     <lastmod>2025-08-27T12:19:11.761Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/talks/rstats_20240613_teaching/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.342Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/rstats_20190402_blogdown/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.336Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/ph_20220616_splverse/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.302Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/ehr_20221013_ml_icu/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.269Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/ehr_20191028_rladies/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.251Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/community_20240710_camis/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.225Z</lastmod>
-  </url>
-  <url>
     <loc>https://laq12345.github.io/rpkg/qtwAcademic/index.html</loc>
     <lastmod>2025-08-27T02:21:54.217Z</lastmod>
   </url>
@@ -89,28 +65,56 @@
     <lastmod>2025-08-27T02:21:54.092Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/dev/short_bio.html</loc>
-    <lastmod>2025-08-27T02:21:53.470Z</lastmod>
+    <loc>https://laq12345.github.io/icu/icu_shock/index.html</loc>
+    <lastmod>2025-08-28T11:26:13.849Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/blog/learnnotes_words/index.html</loc>
-    <lastmod>2025-08-27T07:58:20.560Z</lastmod>
+    <loc>https://laq12345.github.io/icu/icu_COPD/index.html</loc>
+    <lastmod>2025-08-28T12:44:05.968Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/blog/blog.html</loc>
-    <lastmod>2025-08-28T02:10:57.186Z</lastmod>
+    <loc>https://laq12345.github.io/icu/icu_ARDS/index.html</loc>
+    <lastmod>2025-08-28T12:36:29.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/icu/icu.html</loc>
+    <lastmod>2025-08-28T12:39:54.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/blog/readnotes_20240606_bad_pharma/index.html</loc>
+    <lastmod>2025-08-27T02:21:53.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/blog/blog_interview_non_professional/index.html</loc>
+    <lastmod>2025-08-28T10:24:34.159Z</lastmod>
   </url>
   <url>
     <loc>https://laq12345.github.io/about_me.html</loc>
     <lastmod>2025-08-27T14:46:06.886Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/blog/blog_interview_non_professional/index.html</loc>
-    <lastmod>2025-08-28T10:01:28.892Z</lastmod>
+    <loc>https://laq12345.github.io/blog/blog.html</loc>
+    <lastmod>2025-08-28T02:10:57.186Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/blog/readnotes_20240606_bad_pharma/index.html</loc>
-    <lastmod>2025-08-27T02:21:53.426Z</lastmod>
+    <loc>https://laq12345.github.io/blog/learnnotes_words/index.html</loc>
+    <lastmod>2025-08-27T07:58:20.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/dev/short_bio.html</loc>
+    <lastmod>2025-08-27T02:21:53.470Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/icu/icu_AKI/index.html</loc>
+    <lastmod>2025-08-28T14:03:45.453Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/icu/icu_asthma/index.html</loc>
+    <lastmod>2025-08-28T12:50:22.684Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.github.io/icu/icu_sepsis/index.html</loc>
+    <lastmod>2025-08-28T12:24:41.946Z</lastmod>
   </url>
   <url>
     <loc>https://laq12345.github.io/index.html</loc>
@@ -175,29 +179,5 @@
   <url>
     <loc>https://laq12345.github.io/rpkg/rpkg.html</loc>
     <lastmod>2025-08-27T02:21:54.217Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/community_20240921_quartofriends/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.236Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/ehr_20210218_biday/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.269Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/ehr_20240918_betterehr/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.302Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/ph_20230330_sp/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.318Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/rstats_20230721_teaching/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.342Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/talks/talks.html</loc>
-    <lastmod>2025-08-27T02:21:54.342Z</lastmod>
   </url>
 </urlset>
