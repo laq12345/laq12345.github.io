@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../misc/info/favicon.png" rel="icon" type="image/png">
+<link href="../misc/info/favicon.jpg" rel="icon" type="image/jpeg">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-type','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -161,7 +161,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -213,7 +213,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="YmlvaW5mb3JtYXRpY3M=">bioinformatics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGVlcCUyMGxlYXJuaW5n">deep learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXhwZXJpbWVudA==">experiment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW5mZWN0aW9u">infection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmFub3BhcnRpY2xl">nanoparticle <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2luZ2xlLWNlbGw=">single-cell <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmVudGlsYXRvcg==">ventilator <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -261,6 +263,10 @@ Description
 type
 </th>
 
+<th>
+Date
+</th>
+
 </tr>
 </thead>
 <tbody class="list">
@@ -275,6 +281,9 @@ type
 <td>
 <span class="listing-type">clinical</span>
 </td>
+<td>
+<span class="listing-date">8/27/25</span>
+</td>
 
 </tr>
 
@@ -287,6 +296,9 @@ type
 </td>
 <td>
 <span class="listing-type">basic</span>
+</td>
+<td>
+<span class="listing-date">8/27/25</span>
 </td>
 
 </tr>
@@ -301,6 +313,9 @@ type
 <td>
 <span class="listing-type">clinical</span>
 </td>
+<td>
+<span class="listing-date">8/27/25</span>
+</td>
 
 </tr>
 
@@ -313,6 +328,9 @@ type
 </td>
 <td>
 <span class="listing-type">clinical</span>
+</td>
+<td>
+<span class="listing-date">8/27/25</span>
 </td>
 
 </tr>
@@ -345,7 +363,20 @@ type
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="YmlvaW5mb3JtYXRpY3MlMkNzaW5nbGUtY2VsbA==" data-listing-date-sort="1756224000000" data-listing-file-modified-sort="1756310259844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="415" data-listing-title-sort="单细胞测序" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="ZXhwZXJpbWVudA==" data-listing-date-sort="1756310400000" data-listing-file-modified-sort="1756372263216" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1003" data-listing-title-sort="Western Blot" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../research/workshop_WB/index.html" class="title listing-title">Western Blot</a>
+</td>
+<td>
+<span class="listing-description">WB的相关知识，我觉得面试可能会问到的</span>
+</td>
+<td>
+<span class="listing-type">experiment</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="YmlvaW5mb3JtYXRpY3MlMkNzaW5nbGUtY2VsbA==" data-listing-date-sort="1756224000000" data-listing-file-modified-sort="1756310259844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="415" data-listing-title-sort="单细胞测序" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../research/workshop_singlecell/index.html" class="title listing-title">单细胞测序</a>
 </td>

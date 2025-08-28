@@ -41,7 +41,7 @@ listing:
 
 ---
 
-### Blog
+### 日志
 
 ::: {#blog}
 :::
@@ -49,15 +49,13 @@ listing:
 
 ### 学习笔记
 
-这是我的学习笔记，相关内容我还会发布在另外一个网站上
-
 ::: {#learnnotes}
 :::
 
 
 
 
-### Reading notes
+### 阅读
 
 This section is constantly being updated.
 

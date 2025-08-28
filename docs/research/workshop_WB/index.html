@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Chi Zhang">
-<meta name="dcterms.date" content="2023-09-21">
-<meta name="description" content="Curation of content to check out when I’ve got time">
+<meta name="dcterms.date" content="2025-08-28">
+<meta name="description" content="WB的相关知识，我觉得面试可能会问到的">
 
-<title>Personal Highlights: Positconf 2023 – 笑面狐</title>
+<title>Western Blot – 笑面狐</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../misc/info/favicon.png" rel="icon" type="image/png">
+<link href="../../misc/info/favicon.jpg" rel="icon" type="image/jpeg">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -75,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -127,49 +126,32 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#make-interactive-things" id="toc-make-interactive-things" class="nav-link active" data-scroll-target="#make-interactive-things">Make interactive things</a></li>
-  <li><a href="#make-pretty-things" id="toc-make-pretty-things" class="nav-link" data-scroll-target="#make-pretty-things">Make pretty things</a></li>
-  <li><a href="#quarto-updates" id="toc-quarto-updates" class="nav-link" data-scroll-target="#quarto-updates">Quarto updates</a></li>
-  <li><a href="#a-few-other-things-to-check-out" id="toc-a-few-other-things-to-check-out" class="nav-link" data-scroll-target="#a-few-other-things-to-check-out">A few other things to check out</a></li>
-  </ul>
-<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/blog/blog_20230921_positconf2023/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Personal Highlights: Positconf 2023</h1>
+<h1 class="title">Western Blot</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Data science</div>
+    <div class="quarto-category">experiment</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Curation of content to check out when I’ve got time</p>
+    WB的相关知识，我觉得面试可能会问到的
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Chi Zhang </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 21, 2023</p>
+      <p class="date">August 28, 2025</p>
     </div>
   </div>
   
@@ -181,56 +163,427 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The yearly party of Positconf (formerly Rstudio conf) has come to an end. I joined the virtual experience at home, it is of course not the same as attending in-person, yet the atmosphere in discord was still great!</p>
-<p>It’s hard to choose which talks to watch since multiple were scheduled at the same time, so one has to prioritize. I definitely will re-visit some of the talks at a later point, so this blog acts as a placeholder for links so that I can find them in the future.</p>
-<section id="make-interactive-things" class="level2">
-<h2 class="anchored" data-anchor-id="make-interactive-things">Make interactive things</h2>
-<p>WebDev is definitely a big thing at this year’s positconf. If I’m learning one thing from the conference, I’d check out <strong>webR</strong>.</p>
-<p>I still remember when R was mainly for statistical analysis and computing back when I learned it. Now it’s become much more fun! Strictly speaking, <code>webR</code>and <code>quarto</code> are not R per se. However, they’ve become the gateway drugs for R programmers to dabble in WebDev. With <strong>web assembly (wasm)</strong>, now one can execute R code in a browser and even run shiny app.</p>
-<p><em>Unlock the power of dataViz animation and interactivity in quarto</em> by Deepsha Menghani used a super fun example (F-bomb) to demonstrate how to add interactivity to your barplot (or other plots) with <a href="https://rstudio.github.io/crosstalk/">Crosstalk</a>. Check out the talk <a href="https://github.com/deepshamenghani/posit_plotly_crosstalk">here</a>. The presentation was as interactive as the quarto slides, good job Deepsha!</p>
-<p><em>Running shiny without a server</em> by Joe Cheng (<a href="https://github.com/jcheng5/posit-conf-2023-shinylive">repo</a>): this was a big announcement. I used shiny at work, but for my own projects or smaller teaching projects I tried to stay away from shiny - I was concerned about the fee. This looks like a promising thing to try out once it’s stable, although I’d probably do <strong>webR</strong> first.</p>
-</section>
-<section id="make-pretty-things" class="level2">
-<h2 class="anchored" data-anchor-id="make-pretty-things">Make pretty things</h2>
-<p>It is fascinating to see so many organizations and individual R developers make their own themes for better branding, recognition and storytelling. More and more peple have realized that making beautiful plots is important, and totally possible as well. Work on <strong>layout, color, font and sizes</strong>!</p>
-<section id="themes" class="level3">
-<h3 class="anchored" data-anchor-id="themes">Themes</h3>
-<p><em>Adding a touch of glitr: Developing a package of themes on top of ggplot</em> by Aaron Chafetz, Karishma Srikanth and colleagues at USAID. <a href="https://github.com/USAID-OHA-SI/glitr">repo</a></p>
-</section>
-<section id="tables" class="level3">
-<h3 class="anchored" data-anchor-id="tables">Tables</h3>
-<p>Making tables with <code>gt</code> has been on my to-do list for a while now. It is very inspiring to see so many cool tables that makes you wonder, “is it really JUST a table?” For example, check out this <a href="https://community.rstudio.com/c/table-gallery/64">gallery</a> by Posit community.</p>
-<p>The book <a href="https://gt.albert-rapp.de">Creating beautiful tables in R with <code>gt</code></a> by Albert Rapp would be a good place to learn how to make nice tables. Actually the reason why I wanted to use <code>gt</code> is that it seems to be the mainsteam in clinical reporting in pharma. I bumped into this <a href="https://posit.co/blog/the-many-reasons-that-pharmas-love-gt/">blog post</a> some time ago, and this would be my starting point.</p>
-</section>
-<section id="quarto" class="level3">
-<h3 class="anchored" data-anchor-id="quarto">Quarto</h3>
-<p>If you want to go one step further and start making your quarto project pretty, there are a few things to try out.</p>
-<p>Albert Rapp in his talk <em>HTML and CSS for R Users</em> stated that quarto is a gateway drug to WebDev. It reminds me of my very first presentation at my local R users community (2019) was about building a website with <code>blogdown</code>, and when I really spent a lot of time to make my markdown documentation colorful with <code>span style</code> - and that was about everything I knew.</p>
-<p>Now I want more. Learning HTML and CSS can make your dataviz, tables, slides and dashboards look not only professional but also special. I’m going to check out the <em>scss variables</em> in quarto which defines the theme, <code>theme_file.scss</code>. Emil Hvitfeldt (<em>Styling and templating quarto documents</em>) showed us how to make really pretty and animated (!) quarto sldies themes, and shared this template with us, <a href="https://emilhvitfeldt.github.io/quarto-revealjs-earth/#/theme-title1">quarto-revealjs-earth</a>. I really like how revealjs slides look like, just that the MacOS Keynote (or MS ppt) drag-and-drop seems more flexible to me (?) Guess it’s something I should get used to over time.</p>
-<p>Richard Iannone (<em>Extending quarto</em>) introduced quarto <strong>shortcode extensions</strong> to add a bunch of fancy-looking icons to quarto files. To create extensions in general: https://quarto.org/docs/extensions/creating. This is for more pro-users since you needs to learn lua.</p>
-</section>
-</section>
-<section id="quarto-updates" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-updates">Quarto updates</h2>
-<p>Quarto is definitely one of the most discussed topics in the year 2022-2023 in the R community. For good reasons. I need to catch up the the latest developments annd use-cases:</p>
+<section id="western-blot蛋白质免疫印迹" class="level2">
+<h2 class="anchored" data-anchor-id="western-blot蛋白质免疫印迹">Western Blot（蛋白质免疫印迹）</h2>
+<hr>
+<section id="原理" class="level3">
+<h3 class="anchored" data-anchor-id="原理"><strong>原理</strong></h3>
+<p>Western Blot是一种基于<strong>抗原-抗体特异性结合</strong>的分子生物学技术，用于检测特定蛋白质的存在、相对丰度及分子量。其核心原理包括以下三部分：</p>
+<ol type="1">
+<li><p><strong>SDS-PAGE电泳分离</strong></p>
 <ul>
-<li><a href="https://cwickham.github.io/whats-new-in-quarto/#/title-slide">What’s new in quarto?</a> by Charlotte Wickham</li>
-<li><a href="https://mine.quarto.pub/manuscripts-conf23/#/title-slide">Reproducible manuscripts with Quarto</a> by Mine Çetinkaya-Rundel</li>
-<li><a href="https://rawcdn.githack.com/WA-Department-of-Agriculture/soils/944448976992604a12dafbf47258327be0e5ab98/inst/example_reports/example_producer_report.html">Parametrized quarto reports improves understanding of soil health</a> by Jadey Ryan</li>
-</ul>
-<p>and so many more. I couldn’t follow all the talks and I’m sure there are lots of great examples of how quarto is better than traditional ways of reporting.</p>
-</section>
-<section id="a-few-other-things-to-check-out" class="level2">
-<h2 class="anchored" data-anchor-id="a-few-other-things-to-check-out">A few other things to check out</h2>
-<p>Beyond the web and quarto topics, I think there are some existing and new tools that can be useful for my work. For example,</p>
+<li><strong>SDS（十二烷基硫酸钠）</strong>：破坏蛋白质的非共价键，使蛋白质变性为线性结构，并均匀包裹负电荷（电荷与质量比相同）。</li>
+<li><strong>PAGE（聚丙烯酰胺凝胶电泳）</strong>：利用凝胶的孔径筛作用，根据蛋白质分子量大小进行分离（小分子迁移快，大分子迁移慢）。</li>
+</ul></li>
+<li><p><strong>蛋白质转移至固相膜</strong></p>
 <ul>
-<li>I should review Hadley and Jenny’s R package book (2e).</li>
-<li>this package <code>targets</code> for pipeline automation and management look like something that can be used for my analysis</li>
-<li>…</li>
+<li>通过电转移（湿转或半干转）将凝胶中的蛋白质转移到<strong>PVDF膜或NC膜</strong>上，固定蛋白质以供后续检测。</li>
+</ul></li>
+<li><p><strong>抗体识别与显色/发光</strong></p>
+<ul>
+<li><strong>一抗</strong>：特异性识别目标蛋白。</li>
+<li><strong>二抗</strong>：标记有HRP（辣根过氧化物酶）或荧光素，与一抗结合后通过化学发光、显色或荧光成像显示目标蛋白位置。</li>
+</ul></li>
+</ol>
+</section>
+<section id="二实验步骤" class="level3">
+<h3 class="anchored" data-anchor-id="二实验步骤"><strong>二、实验步骤</strong></h3>
+<hr>
+<section id="样本制备" class="level4">
+<h4 class="anchored" data-anchor-id="样本制备"><strong>1. 样本制备</strong></h4>
+<ul>
+<li><strong>细胞/组织裂解</strong>
+<ul>
+<li><strong>裂解液选择</strong>：
+<ul>
+<li>普通细胞：RIPA裂解液（含1% PMSF）。</li>
+<li>难溶蛋白：加入1% SDS或NP-40。</li>
+<li>磷酸化蛋白：需添加磷酸酶抑制剂（如Na₃VO₄、NaF）。</li>
+</ul></li>
+<li><strong>裂解条件</strong>：
+<ul>
+<li>动物组织：30分钟内处理，切块冻存（-80℃）。</li>
+<li>植物样本：液氮研磨，保留健康组织。</li>
+<li>裂解后离心（4℃，<strong>12000</strong>-15000 rpm，10-15 min）取上清。</li>
+</ul></li>
+</ul></li>
+<li><strong>蛋白定量</strong>
+<ul>
+<li><strong>BCA法</strong>：标准品复孔，样品稀释5-10倍，37℃孵育30 min，562 nm读数（R²&gt;0.99）。</li>
+<li><strong>Bradford法</strong>：适用于可溶蛋白，但可能受不可溶蛋白干扰。</li>
+</ul></li>
+<li><strong>变性处理</strong>
+<ul>
+<li>加入5×loading buffer（比例1:4），100℃煮沸10-20 min，使蛋白完全变性。</li>
+</ul></li>
 </ul>
-<p>It will take a while to digest the latest developments. But little by little, we’ll get there! People in the R community are doing great things.</p>
+<hr>
+</section>
+<section id="sds-page电泳" class="level4">
+<h4 class="anchored" data-anchor-id="sds-page电泳"><strong>2. SDS-PAGE电泳</strong></h4>
+<ul>
+<li><strong>凝胶制备</strong>
+<ul>
+<li><strong>分离胶浓度选择</strong>：
+<ul>
+<li>小分子量蛋白（&lt;30 kDa）：12-15%胶。</li>
+<li>中等分子量（30-70 kDa）：8-12%胶。</li>
+<li>大分子量（&gt;70 kDa）：6-8%胶。</li>
+</ul></li>
+<li><strong>灌胶步骤</strong>：
+<ul>
+<li>分离胶灌注后加水封胶，凝固后吸去水层。</li>
+<li>浓缩胶（5%）灌注并插入梳子，凝固后拔除梳子形成上样孔。</li>
+</ul></li>
+</ul></li>
+<li><strong>电泳条件</strong>
+<ul>
+<li><strong>浓缩胶</strong>：80 V，<strong>30</strong>-40 min（使样品压缩成线）。</li>
+<li><strong>分离胶</strong>：120 V，<strong>1</strong>-1.5 h（根据蛋白大小调整时间）。</li>
+<li><strong>注意事项</strong>：电泳缓冲液需预冷，避免高温导致“微笑条带”。</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="蛋白质转膜" class="level4">
+<h4 class="anchored" data-anchor-id="蛋白质转膜"><strong>3. 蛋白质转膜</strong></h4>
+<ul>
+<li><strong>膜选择</strong>
+<ul>
+<li><strong>PVDF膜</strong>：机械强度高，适合多次剥脱，<strong>需甲醇活化</strong>。</li>
+<li><strong>NC膜</strong>：信噪比高，无需甲醇预处理，但不适合含SDS的转膜缓冲液。</li>
+</ul></li>
+<li><strong>转膜步骤</strong>
+<ul>
+<li><strong>转膜缓冲液</strong>：含甲醇（20%），预冷至4℃。</li>
+<li><strong>转膜装置</strong>：组装“三明治”（<code>-</code>海绵→滤纸→凝胶→膜→滤纸→海绵<code>+</code>），确保无气泡。</li>
+<li><strong>转膜参数</strong>：
+<ul>
+<li>30 kDa以下：<strong>30</strong> min，220 mA。</li>
+<li>30-70 kDa：<strong>60</strong>-90 min，220 mA。</li>
+<li>70-150 kDa：<strong>90</strong>-180 min，220 mA。</li>
+</ul></li>
+<li><strong>验证转膜</strong>：丽春红染色或考马斯亮蓝染色观察蛋白转移效果。</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="封闭与抗体孵育" class="level4">
+<h4 class="anchored" data-anchor-id="封闭与抗体孵育"><strong>4. 封闭与抗体孵育</strong></h4>
+<ul>
+<li><strong>封闭</strong>
+<ul>
+<li><strong>5%脱脂牛奶/TBST</strong>：室温1 h，阻断非特异性结合位点。</li>
+<li><strong>快速封闭液</strong>：可缩短封闭时间（如10 min）。</li>
+</ul></li>
+<li><strong>一抗孵育</strong>
+<ul>
+<li><strong>稀释比例</strong>：根据抗体说明书（如<strong>1:1000</strong>）。</li>
+<li><strong>孵育条件</strong>：室温1 h或<strong>4℃过夜</strong>（需覆盖膜防止干燥）。</li>
+</ul></li>
+<li><strong>二抗孵育</strong>
+<ul>
+<li><strong>HRP标记二抗</strong>：稀释比例<strong>1:5000</strong>，室温1 h避光孵育。</li>
+<li><strong>荧光标记二抗</strong>：适用于多色检测，需配合成像系统。</li>
+</ul></li>
+<li><strong>洗涤</strong>
+<ul>
+<li><strong>TBST/PBST</strong>：室温摇洗3次，每次10 min，去除未结合抗体。</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="显色与成像" class="level4">
+<h4 class="anchored" data-anchor-id="显色与成像"><strong>5. 显色与成像</strong></h4>
+<ul>
+<li><strong>化学发光法（ECL）</strong>
+<ul>
+<li><strong>显色时间</strong>：常规底物1 min，高性能底物（如SuperSignal）5 min。</li>
+<li><strong>成像</strong>：使用X光胶片或化学发光成像仪（推荐后者，灵敏度更高）。</li>
+</ul></li>
+<li><strong>显色法（DAB）</strong>
+<ul>
+<li>适用于低丰度蛋白，但可能产生背景干扰。</li>
+</ul></li>
+<li><strong>荧光法</strong>
+<ul>
+<li>多色检测时需使用兼容的荧光成像系统。</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="三关键注意事项" class="level3">
+<h3 class="anchored" data-anchor-id="三关键注意事项"><strong>三、关键注意事项</strong></h3>
+<ol type="1">
+<li><strong>样本处理</strong>
+<ul>
+<li><strong>新鲜样本优先</strong>：动物组织30分钟内处理，植物样本去除枯黄部分。</li>
+<li><strong>冻存规范</strong>：分装≤1 g，加入RNAlater防降解，标记清晰。</li>
+</ul></li>
+<li><strong>裂解液与抑制剂</strong>
+<ul>
+<li><strong>现用现加抑制剂</strong>：蛋白酶/磷酸酶抑制剂需在使用前加入裂解液。</li>
+<li><strong>裂解时间控制</strong>：细胞裂解30 min，组织匀浆2 h（4℃）。</li>
+</ul></li>
+<li><strong>电泳与转膜优化</strong>
+<ul>
+<li><strong>凝胶选择</strong>：根据蛋白分子量选择梯度胶或均一胶。</li>
+<li><strong>转膜效率</strong>：避免高电压导致膜破损，必要时使用预染Marker监控转膜。</li>
+</ul></li>
+<li><strong>抗体使用</strong>
+<ul>
+<li><strong>稀释比例</strong>：根据抗体说明书调整，避免过高浓度过高背景。</li>
+<li><strong>对照设置</strong>：阳性/阴性对照（如内参蛋白GAPDH、β-Actin）确保特异性。</li>
+</ul></li>
+<li><strong>背景控制</strong>
+<ul>
+<li><strong>封闭充分</strong>：避免非特异性结合。</li>
+<li><strong>内源IgG干扰</strong>：使用TidyBlot试剂（仅结合完整IgG）减少背景。</li>
+</ul></li>
+<li><strong>定量与重复</strong>
+<ul>
+<li><strong>BCA/Braford</strong>：确保上样量一致（20-40 μg总蛋白）。</li>
+<li><strong>重复实验</strong>：至少3次独立实验验证结果可靠性。</li>
+</ul></li>
+<li><strong>设备与耗材</strong>
+<ul>
+<li><strong>低温操作</strong>：离心机、电泳槽提前预冷，防止蛋白降解。</li>
+<li><strong>膜保存</strong>：未使用的膜密封于-20℃，避免潮解。</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="四常见问题与解决方案" class="level3">
+<h3 class="anchored" data-anchor-id="四常见问题与解决方案"><strong>四、常见问题与解决方案</strong></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 36%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>问题</strong></th>
+<th><strong>可能原因</strong></th>
+<th><strong>解决方案</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>条带模糊或无信号</td>
+<td>蛋白变性不完全、转膜失败</td>
+<td>延长煮样时间，优化转膜参数</td>
+</tr>
+<tr class="even">
+<td>高背景信号</td>
+<td>封闭不充分、抗体浓度过高</td>
+<td>增加封闭时间，降低抗体稀释比例</td>
+</tr>
+<tr class="odd">
+<td>条带位置异常</td>
+<td>蛋白修饰（如磷酸化）、凝胶孔径不适</td>
+<td>使用非还原条件，调整凝胶浓度</td>
+</tr>
+<tr class="even">
+<td>转膜不均</td>
+<td>凝胶与膜之间有气泡</td>
+<td>重新组装转膜装置，排除气泡</td>
+</tr>
+<tr class="odd">
+<td>内参蛋白信号弱</td>
+<td>上样量不足、内参抗体失效</td>
+<td>增加上样量，验证内参抗体有效性</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="五总结" class="level3">
+<h3 class="anchored" data-anchor-id="五总结"><strong>五、总结</strong></h3>
+<p>Western Blot是蛋白分析的“金标准”，其成功依赖于<strong>严谨的样本处理、精确的电泳与转膜条件</strong>以及<strong>特异性抗体的合理使用</strong>。通过优化每一步骤（如裂解液配制、定量方法、抗体稀释），可显著提高实验重复性和数据可靠性。对于复杂样本（如组织裂解物），需特别注意内源干扰和背景控制。掌握这些细节，才能高效完成高质量的Western Blot实验。</p>
+</section>
+</section>
+<section id="western-blot样本制备的原理与方法步骤" class="level2">
+<h2 class="anchored" data-anchor-id="western-blot样本制备的原理与方法步骤">Western Blot样本制备的原理与方法步骤</h2>
+<hr>
+<section id="一原理" class="level3">
+<h3 class="anchored" data-anchor-id="一原理"><strong>一、原理</strong></h3>
+<p>Western Blot样本制备的核心目标是<strong>高效释放细胞或组织中的蛋白质</strong>，同时保持其完整性和活性，以便后续的电泳分离和检测。具体原理包括：</p>
+<ol type="1">
+<li><strong>裂解细胞/组织</strong>
+<ul>
+<li>通过裂解液破坏细胞膜和细胞器，释放蛋白质。裂解液通常含去垢剂（如SDS、Triton X-100）和盐类，以溶解膜结构。</li>
+</ul></li>
+<li><strong>抑制蛋白降解</strong>
+<ul>
+<li>添加<strong>蛋白酶抑制剂</strong>（如PMSF、EDTA）和磷酸酶抑制剂（如Na₃VO₄），防止蛋白酶或磷酸酶在裂解过程中降解目标蛋白或修饰其活性。</li>
+</ul></li>
+<li><strong>定量与变性处理</strong>
+<ul>
+<li>通过蛋白定量（如BCA法）确定样品浓度，确保上样量一致；加入SDS-PAGE上样缓冲液使蛋白质变性，便于电泳分离。</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="二方法步骤" class="level3">
+<h3 class="anchored" data-anchor-id="二方法步骤"><strong>二、方法步骤</strong></h3>
+<section id="细胞裂解" class="level4">
+<h4 class="anchored" data-anchor-id="细胞裂解"><strong>1. 细胞裂解</strong></h4>
+<p><strong>（1）悬浮细胞</strong></p>
+<ul>
+<li><strong>步骤</strong>：
+<ol type="1">
+<li>离心收集细胞（1000-1500 rpm，5 min）。</li>
+<li>用PBS洗涤1-2次，去除培养液中的血清和杂质。</li>
+<li>加入裂解液（如<strong>RIPA裂解液，含蛋白酶/磷酸酶抑制剂</strong>），冰上<strong>裂解30 min</strong>。</li>
+<li>若裂解不充分，可冰浴超声辅助裂解。</li>
+<li>离心（4℃，<strong>12000</strong>-15000 rpm，<strong>10</strong>-15 min），取上清液用于后续实验。</li>
+</ol></li>
+</ul>
+<p><strong>（2）贴壁细胞</strong></p>
+<ul>
+<li><strong>步骤</strong>：
+<ol type="1">
+<li>吸净培养液，用PBS洗涤1-2次。</li>
+<li>加入裂解液直接裂解（或胰酶消化后按悬浮细胞处理，但需注意胰酶可能降解某些蛋白）。</li>
+<li>冰上裂解30 min，离心后取上清。</li>
+</ol></li>
+</ul>
+<p><strong>（3）裂解液选择</strong></p>
+<ul>
+<li><strong>常规裂解液</strong>：RIPA（含1% Triton X-100、0.1% SDS）。</li>
+<li><strong>难溶蛋白</strong>：添加1% SDS或NP-40。</li>
+<li><strong>磷酸化蛋白</strong>：需额外添加磷酸酶抑制剂（如Na₃VO₄、NaF）。</li>
+</ul>
+<hr>
+</section>
+<section id="组织裂解" class="level4">
+<h4 class="anchored" data-anchor-id="组织裂解"><strong>2. 组织裂解</strong></h4>
+<p><strong>（1）预处理</strong></p>
+<ul>
+<li><strong>去除非目标成分</strong>：洗净血液、脂肪等（尤其对脾脏、心脏等富含IgG的组织）。</li>
+<li><strong>灌流处理</strong>：实验动物可通过心脏灌注生理盐水（含PMSF），使组织颜色变白后再采集。</li>
+</ul>
+<p><strong>（2）破碎方法</strong></p>
+<ul>
+<li><strong>匀浆法</strong>：
+<ol type="1">
+<li>按比例加入裂解液（如1:5组织重量:裂解液体积）。</li>
+<li>使用玻璃匀浆器或电动匀浆器匀浆至无明显组织块。</li>
+</ol></li>
+<li><strong>研磨法</strong>：
+<ol type="1">
+<li>液氮冷冻组织后，在研钵中研磨成粉末。</li>
+<li>加入裂解液裂解，混合均匀。</li>
+</ol></li>
+</ul>
+<p><strong>（3）离心与上清收集</strong></p>
+<ul>
+<li>4℃离心（<strong>12000</strong>-15000 rpm，10-15 min），取上清液。</li>
+</ul>
+<hr>
+</section>
+<section id="蛋白定量" class="level4">
+<h4 class="anchored" data-anchor-id="蛋白定量"><strong>3. 蛋白定量</strong></h4>
+<p><strong>（1）BCA法</strong></p>
+<ul>
+<li><strong>原理</strong>：蛋白质在碱性条件下将Cu²⁺还原为Cu⁺，与BCA试剂反应生成紫色复合物，562 nm比色。</li>
+<li><strong>步骤</strong>：
+<ol type="1">
+<li>制作标准曲线（BSA梯度稀释）。</li>
+<li>样品稀释5-10倍，与BCA工作液混合，37℃孵育30 min。</li>
+<li>测定吸光度（R²&gt;0.99时可靠）。</li>
+</ol></li>
+</ul>
+<p><strong>（2）Bradford法</strong></p>
+<ul>
+<li><strong>原理</strong>：考马斯亮蓝G-250染料与蛋白质结合后发生颜色变化（465-595 nm）。</li>
+<li><strong>优点</strong>：快速、灵敏，适合可溶蛋白；但易受不可溶蛋白干扰。</li>
+</ul>
+<hr>
+</section>
+<section id="变性处理" class="level4">
+<h4 class="anchored" data-anchor-id="变性处理"><strong>4. 变性处理</strong></h4>
+<ul>
+<li><p><strong>目的</strong>：使蛋白质完全变性，消除空间结构对电泳的影响。</p></li>
+<li><p><strong>步骤</strong>：</p>
+<ol type="1">
+<li>加入5×SDS-PAGE上样缓冲液（1:4体积比）。</li>
+<li>100℃<strong>煮沸10-20 min</strong>，或55℃加热30 min（避免高温降解敏感蛋白）。</li>
+<li>冰浴冷却后进行电泳。</li>
+</ol></li>
+</ul>
+<hr>
+</section>
+<section id="三关键注意事项-1" class="level4">
+<h4 class="anchored" data-anchor-id="三关键注意事项-1"><strong>三、关键注意事项</strong></h4>
+<ol type="1">
+<li><strong>防止蛋白降解</strong>
+<ul>
+<li>全程低温操作（冰上裂解、4℃离心）。</li>
+<li>裂解液中必须现加蛋白酶/磷酸酶抑制剂。</li>
+</ul></li>
+<li><strong>分装与保存</strong>
+<ul>
+<li>裂解液和样品避免反复冻融，分装后-80℃保存。</li>
+</ul></li>
+<li><strong>组织处理技巧</strong>
+<ul>
+<li>富含IgG的组织（如脾脏）需充分洗涤，避免内源抗体干扰。</li>
+<li>液氮研磨适用于难裂解组织，但需注意研磨均匀性。</li>
+</ul></li>
+<li><strong>裂解效率优化</strong>
+<ul>
+<li>难裂解细胞可尝试超声破碎或增加裂解液浓度。</li>
+<li>胰酶消化可能导致蛋白片段化，需根据实验需求权衡。</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="四常见问题与解决方案-1" class="level4">
+<h4 class="anchored" data-anchor-id="四常见问题与解决方案-1"><strong>四、常见问题与解决方案</strong></h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 37%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>问题</strong></th>
+<th><strong>可能原因</strong></th>
+<th><strong>解决方案</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>蛋白浓度偏低</td>
+<td>裂解不充分、组织未破碎完全</td>
+<td>增加裂解时间，改用液氮研磨</td>
+</tr>
+<tr class="even">
+<td>高背景信号</td>
+<td>内源IgG干扰（如脾脏组织）</td>
+<td>充分洗涤组织，使用低IgG裂解液</td>
+</tr>
+<tr class="odd">
+<td>蛋白降解</td>
+<td>蛋白酶抑制剂失效或操作过热</td>
+<td>现加抑制剂，全程低温操作</td>
+</tr>
+<tr class="even">
+<td>上样量不一致</td>
+<td>定量误差</td>
+<td>重复BCA/Bradford测定，取平均值</td>
+</tr>
+</tbody>
+</table>
+<hr>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -641,7 +994,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/blog/blog_20230921_positconf2023/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/workshop_WB/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

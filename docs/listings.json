@@ -1,5 +1,24 @@
 [
   {
+    "listing": "/research/research.html",
+    "items": [
+      "/research/literature_chengyisong_20240215/index.html",
+      "/research/literature_kangyan_20240330/index.html",
+      "/research/literature_chengyisong_20221205/index.html",
+      "/research/literature_kangyan_20250703/index.html",
+      "/research/workshop_WB/index.html",
+      "/research/workshop_singlecell/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/blog.html",
+    "items": [
+      "/blog/blog_interview_non_professional/index.html",
+      "/blog/readnotes_20240606_bad_pharma/index.html",
+      "/blog/learnnotes_words/index.html"
+    ]
+  },
+  {
     "listing": "/projects/projects.html",
     "items": [
       "/projects/os_teaching/index.html",
@@ -7,35 +26,6 @@
       "/projects/dan/index.html",
       "/projects/ehr/index.html",
       "/projects/sykdomspulsen/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/blog.html",
-    "items": [
-      "/blog/blog_20241105_positconf2024/index.html",
-      "/blog/blog_20240923_quartofriends/index.html",
-      "/blog/blog_20230921_positconf2023/index.html",
-      "/blog/blog_20230904_cen2023/index.html",
-      "/blog/blog_20230717_teaching/index.html",
-      "/blog/blog_20230301_ds_clinreport/index.html",
-      "/blog/blog_20230112_roche_opensource/index.html",
-      "/blog/blog_20230104_qtwAcademic/index.html",
-      "/blog/blog_20230103_blogdown2quarto/index.html",
-      "/blog/readnotes_20240606_bad_pharma/index.html",
-      "/blog/readnotes_20240218_open_source/index.html",
-      "/blog/readnotes_2023010x_preventable_sridhar/index.html",
-      "/blog/readnotes_2023010x_pandemic_gates/index.html",
-      "/blog/learnnotes_words/index.html"
-    ]
-  },
-  {
-    "listing": "/research/research.html",
-    "items": [
-      "/research/literature_chengyisong_20240215/index.html",
-      "/research/literature_kangyan_20240330/index.html",
-      "/research/literature_chengyisong_20221205/index.html",
-      "/research/literature_kangyan_20250703/index.html",
-      "/research/workshop_singlecell/index.html"
     ]
   },
   {

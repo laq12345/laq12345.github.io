@@ -6,13 +6,15 @@ listing:
   - id: literature
     max-description-length: 500
     image-height: 250px
-    fields: [title, description, type]
+    fields: [title, description, type, date]
     contents: 
       - "literature_*/index.qmd"
     type: table
     grid-item-border: false
     sort-ui: false
     filter-ui: false
+    categories: true
+    date-format: short
     
   - id: workshop
     max-description-length: 500
