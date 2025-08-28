@@ -1,13 +1,27 @@
 [
   {
-    "listing": "/research/research.html",
+    "listing": "/projects/projects.html",
     "items": [
-      "/research/literature_chengyisong_20240215/index.html",
-      "/research/literature_kangyan_20240330/index.html",
-      "/research/literature_chengyisong_20221205/index.html",
-      "/research/literature_kangyan_20250703/index.html",
-      "/research/workshop_WB/index.html",
-      "/research/workshop_singlecell/index.html"
+      "/projects/os_teaching/index.html",
+      "/projects/phuse/index.html",
+      "/projects/dan/index.html",
+      "/projects/ehr/index.html",
+      "/projects/sykdomspulsen/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/blog.html",
+    "items": [
+      "/blog/blog_interview_non_professional/index.html",
+      "/blog/readnotes_20240606_bad_pharma/index.html",
+      "/blog/learnnotes_words/index.html"
+    ]
+  },
+  {
+    "listing": "/code/code.html",
+    "items": [
+      "/code/ggehr/index.html",
+      "/code/qtwAcademic/index.html"
     ]
   },
   {
@@ -22,28 +36,14 @@
     ]
   },
   {
-    "listing": "/blog/blog.html",
+    "listing": "/research/research.html",
     "items": [
-      "/blog/blog_interview_non_professional/index.html",
-      "/blog/readnotes_20240606_bad_pharma/index.html",
-      "/blog/learnnotes_words/index.html"
-    ]
-  },
-  {
-    "listing": "/projects/projects.html",
-    "items": [
-      "/projects/os_teaching/index.html",
-      "/projects/phuse/index.html",
-      "/projects/dan/index.html",
-      "/projects/ehr/index.html",
-      "/projects/sykdomspulsen/index.html"
-    ]
-  },
-  {
-    "listing": "/rpkg/rpkg.html",
-    "items": [
-      "/rpkg/ggehr/index.html",
-      "/rpkg/qtwAcademic/index.html"
+      "/research/literature_chengyisong_20240215/index.html",
+      "/research/literature_kangyan_20240330/index.html",
+      "/research/literature_chengyisong_20221205/index.html",
+      "/research/literature_kangyan_20250703/index.html",
+      "/research/workshop_WB/index.html",
+      "/research/workshop_singlecell/index.html"
     ]
   }
 ]

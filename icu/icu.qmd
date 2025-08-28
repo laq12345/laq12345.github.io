@@ -1,5 +1,6 @@
 ---
 title: "ICU"
+lang: zh
 description: "我的学习资料"
 listing:
   - id: icu

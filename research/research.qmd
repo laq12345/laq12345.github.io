@@ -1,5 +1,6 @@
 ---
 title: "科研"
+lang: zh
 description: |
   我的各种科研记录
 listing:

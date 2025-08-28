@@ -1,5 +1,6 @@
 ---
-title: "R packages"
+title: "代码"
+lang: zh
 listing:
   - id: pkg
     max-description-length: 80

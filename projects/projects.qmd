@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+lang: zh
 listing:
   - id: opensource
     max-description-length: 500

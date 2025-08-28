@@ -26,8 +26,8 @@ website:
       - text: "科研"
         href: research/research.qmd
         
-      - text: "R packages"
-        href: rpkg/rpkg.qmd
+      - text: "代码"
+        href: code/code.qmd
            
       - text: "ICU"
         href: icu/icu.qmd

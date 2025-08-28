@@ -1,5 +1,6 @@
 ---
 title: "刘奥奇"
+lang: zh
 image: misc/info/favicon.jpg
 page-layout: article
 format: 
