@@ -1,13 +1,13 @@
 ---
 title: "ICU"
-description: |
+description: "我的学习资料"
 listing:
   - id: icu
     max-description-length: 500
     image-height: 130px
     categories: true
     date-format: iso
-    fields: [title, date]
+    fields: [title, description, date]
     contents: 
       - "icu_*/index.qmd"
     type: table

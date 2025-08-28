@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="我的学习资料">
 
 <title>ICU – 笑面狐</title>
 <style>
@@ -80,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -195,6 +196,11 @@ window.Quarto = {
 <h1 class="title">ICU</h1>
 </div>
 
+<div>
+  <div class="description">
+    我的学习资料
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -247,6 +253,10 @@ window.Quarto = {
 </th>
 
 <th>
+Description
+</th>
+
+<th>
 <a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
 </th>
 
@@ -259,6 +269,9 @@ window.Quarto = {
 <a href="../icu/icu_AKI/index.html" class="title listing-title">急性肾损伤</a>
 </td>
 <td>
+<span class="listing-description">急性肾损伤的诊断和治疗</span>
+</td>
+<td>
 <span class="listing-date">2025-08-28</span>
 </td>
 
@@ -267,6 +280,9 @@ window.Quarto = {
 <tr data-index="1" data-categories="ZGlhZ25vc2lzJTJDdGhlcmFweQ==" data-listing-date-sort="1756310400000" data-listing-file-modified-sort="1756395543019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="ARDS" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../icu/icu_ARDS/index.html" class="title listing-title">ARDS</a>
+</td>
+<td>
+<span class="listing-description">急性呼吸窘迫综合征的诊断与治疗</span>
 </td>
 <td>
 <span class="listing-date">2025-08-28</span>
@@ -279,6 +295,9 @@ window.Quarto = {
 <a href="../icu/icu_COPD/index.html" class="title listing-title">COPD急性加重</a>
 </td>
 <td>
+<span class="listing-description">慢性阻塞性肺疾病的治疗</span>
+</td>
+<td>
 <span class="listing-date">2025-08-28</span>
 </td>
 
@@ -287,6 +306,9 @@ window.Quarto = {
 <tr data-index="3" data-categories="dGhlcmFweQ==" data-listing-date-sort="1756310400000" data-listing-file-modified-sort="1756385422684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10" data-listing-title-sort="COPD急性发作" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../icu/icu_asthma/index.html" class="title listing-title">COPD急性发作</a>
+</td>
+<td>
+<span class="listing-description">治疗</span>
 </td>
 <td>
 <span class="listing-date">2025-08-28</span>
@@ -299,6 +321,9 @@ window.Quarto = {
 <a href="../icu/icu_sepsis/index.html" class="title listing-title">脓毒症与感染性休克</a>
 </td>
 <td>
+<span class="listing-description">脓毒症的定义、诊断和治疗</span>
+</td>
+<td>
 <span class="listing-date">2025-08-28</span>
 </td>
 
@@ -307,6 +332,9 @@ window.Quarto = {
 <tr data-index="5" data-categories="ZGlhZ25vc2lzJTJDdGhlcmFweQ==" data-listing-date-sort="1756310400000" data-listing-file-modified-sort="1756395449416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="339" data-listing-title-sort="休克" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../icu/icu_shock/index.html" class="title listing-title">休克</a>
+</td>
+<td>
+<span class="listing-description">休克的分类、监测以及治疗</span>
 </td>
 <td>
 <span class="listing-date">2025-08-28</span>
