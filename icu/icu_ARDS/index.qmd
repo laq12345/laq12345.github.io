@@ -19,7 +19,7 @@ priority: 1
 ::: {.callout-important icon="false"}
 ## ARDS的柏林诊断标准
 
-![](images/paste-1.png)
+![](images/paste-1.png){width="869"}
 :::
 
 ## 治疗

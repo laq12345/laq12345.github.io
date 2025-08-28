@@ -1,6 +1,6 @@
 ---
 title: "休克"
-description: "休克的分类、监测和治疗"
+description: "休克的分类、监测以及治疗"
 date: "2025-08-28"
 categories: [diagnosis, therapy]
 priority: 1

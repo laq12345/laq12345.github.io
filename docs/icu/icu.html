@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-past .list');
+    const listingTargetEl = window.document.querySelector('#listing-icu .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-past'] = new List('listing-past', options);
+    window['quarto-listings']['listing-icu'] = new List('listing-icu', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -209,17 +209,17 @@ window.Quarto = {
 </header>
 
 
-<section id="upcoming" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming">Upcoming</h2>
+<section id="前言" class="level2">
+<h2 class="anchored" data-anchor-id="前言">前言</h2>
 <p>这是ICU专业知识.</p>
 </section>
 <section id="选择先前的笔记" class="level2">
 <h2 class="anchored" data-anchor-id="选择先前的笔记">选择先前的笔记</h2>
-<div id="listing-past" class="quarto-listing quarto-listing-container-table">
+<div id="listing-icu" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-past-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-past'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+    <select id="listing-icu-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-icu'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
       <option value="listing-date-sort" data-direction="asc">
@@ -264,7 +264,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="1" data-categories="ZGlhZ25vc2lzJTJDdGhlcmFweQ==" data-listing-date-sort="1756310400000" data-listing-file-modified-sort="1756384589261" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="ARDS" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-categories="ZGlhZ25vc2lzJTJDdGhlcmFweQ==" data-listing-date-sort="1756310400000" data-listing-file-modified-sort="1756395543019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="ARDS" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../icu/icu_ARDS/index.html" class="title listing-title">ARDS</a>
 </td>
@@ -304,7 +304,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="5" data-categories="ZGlhZ25vc2lzJTJDdGhlcmFweQ==" data-listing-date-sort="1756310400000" data-listing-file-modified-sort="1756380373849" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="339" data-listing-title-sort="休克" data-listing-filename-sort="index.qmd">
+<tr data-index="5" data-categories="ZGlhZ25vc2lzJTJDdGhlcmFweQ==" data-listing-date-sort="1756310400000" data-listing-file-modified-sort="1756395449416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="339" data-listing-title-sort="休克" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../icu/icu_shock/index.html" class="title listing-title">休克</a>
 </td>

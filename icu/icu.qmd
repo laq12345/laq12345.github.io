@@ -2,7 +2,7 @@
 title: "ICU"
 description: |
 listing:
-  - id: past
+  - id: icu
     max-description-length: 500
     image-height: 130px
     categories: true
@@ -17,13 +17,13 @@ listing:
     filter-ui: true
 ---
 
-## Upcoming
+## 前言
 
 这是ICU专业知识.
 
 ## 选择先前的笔记
 
 
-::: {#past}
+::: {#icu}
 :::
 
