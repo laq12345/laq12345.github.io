@@ -1,0 +1,17 @@
+---
+title: "垂体危象"
+lang: zh
+description: ""
+date: "2025-08-30"
+categories: [therapy]
+priority: 3
+lightbox: true
+---
+
+## 治疗
+
+1.  纠正低血糖：50%葡萄糖溶液静注，继以5%葡萄糖氯化钠溶液静滴
+2.  大剂量肾上腺皮质激素应用
+3.  纠正水电解质紊乱
+4.  纠正休克
+5.  去除诱因：抗感染等

@@ -1,0 +1,43 @@
+---
+title: "糖尿病酮症酸中毒与高渗高血糖综合征"
+lang: zh
+description: ""
+date: "2025-08-30"
+categories: [diagnosis, therapy]
+priority: 2
+lightbox: true
+---
+
+## 诊断
+
+::: panel-tabset
+## 糖尿病酮症酸中毒
+
+![](images/paste-1.png)
+
+## 高渗高血糖综合征
+
+![](images/paste-2.png)
+:::
+
+### 实验室检查
+
+![DKA与HHS的实验室检查](images/paste-3.png)
+
+### 鉴别诊断
+
+![糖尿病酮症酸中毒、低血糖昏迷、高渗高血糖综合征和乳酸酸中毒的鉴别诊断](images/paste-4.png)
+
+## 治疗
+
+::: panel-tabset
+## DKA
+
+![](images/paste-5.png)
+
+## HHS
+
+![](images/paste-6.png)
+
+![](images/paste-7.png)
+:::

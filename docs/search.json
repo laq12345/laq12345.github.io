@@ -231,6 +231,20 @@
     "text": "治疗"
   },
   {
+    "objectID": "icu/icu_pituitary_crisis/index.html",
+    "href": "icu/icu_pituitary_crisis/index.html",
+    "title": "垂体危象",
+    "section": "",
+    "text": "纠正低血糖：50%葡萄糖溶液静注，继以5%葡萄糖氯化钠溶液静滴\n大剂量肾上腺皮质激素应用\n纠正水电解质紊乱\n纠正休克\n去除诱因：抗感染等"
+  },
+  {
+    "objectID": "icu/icu_pituitary_crisis/index.html#治疗",
+    "href": "icu/icu_pituitary_crisis/index.html#治疗",
+    "title": "垂体危象",
+    "section": "",
+    "text": "纠正低血糖：50%葡萄糖溶液静注，继以5%葡萄糖氯化钠溶液静滴\n大剂量肾上腺皮质激素应用\n纠正水电解质紊乱\n纠正休克\n去除诱因：抗感染等"
+  },
+  {
     "objectID": "icu/icu_MODS/index.html",
     "href": "icu/icu_MODS/index.html",
     "title": "多器官功能障碍综合症（MODS）",
@@ -245,130 +259,158 @@
     "text": "早期目标导向治疗：6h内达到复苏目标\n\nCVP≥8~12mmHg\nMAP&gt;65mmHg\n尿量&gt;0.5ml/(kg·h)\nScvO2&gt;70%\n\n\n\n\n机械通气：纠正低氧血症\n\n\n\n连续性静脉-静脉血液滤过（CVVH）或人工肝治疗\n\n\n\n凝血功能障碍：补充凝血因子和血小板\nDIC：肝素抗凝\n\n\n\n\n\n\n清除坏死组织、修复或切除受损器官、引流感染病灶或积液\n\n\n\n1h内开始抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗"
   },
   {
-    "objectID": "icu/icu_HAP/index.html",
-    "href": "icu/icu_HAP/index.html",
-    "title": "医院获得性肺炎（HAP）",
+    "objectID": "icu/icu_ICP/index.html",
+    "href": "icu/icu_ICP/index.html",
+    "title": "颅内压增高",
     "section": "",
-    "text": "医院获得性肺炎（HAP）"
+    "text": "正常颅内压范围70~200mmHg"
   },
   {
-    "objectID": "icu/icu_HAP/index.html#定义",
-    "href": "icu/icu_HAP/index.html#定义",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "",
-    "text": "医院获得性肺炎（HAP）"
-  },
-  {
-    "objectID": "icu/icu_HAP/index.html#诊断",
-    "href": "icu/icu_HAP/index.html#诊断",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n医院获得性肺炎的诊断标准"
-  },
-  {
-    "objectID": "icu/icu_HAP/index.html#治疗",
-    "href": "icu/icu_HAP/index.html#治疗",
-    "title": "医院获得性肺炎（HAP）",
+    "objectID": "icu/icu_ICP/index.html#治疗",
+    "href": "icu/icu_ICP/index.html#治疗",
+    "title": "颅内压增高",
     "section": "治疗",
-    "text": "治疗\n\n一、核心治疗：抗感染治疗\n需根据患者是否存在多重耐药菌（MDR）感染风险，选择初始经验性用药，后续根据细菌培养+药敏结果调整为目标性用药。\n\n无MDR感染风险患者（初始经验性用药）\n覆盖常见敏感菌（如肺炎克雷伯菌、大肠埃希菌、流感嗜血杆菌等），推荐药物：\n\n头孢菌素类：如头孢他啶、头孢吡肟；\n青霉素类复方制剂：如哌拉西林-他唑巴坦；\n氟喹诺酮类：如左氧氟沙星、莫西沙星（需注意药物敏感性及患者基础疾病禁忌）。\n\n\n\n有MDR感染风险患者（初始经验性用药）\n需额外覆盖MDR菌（如耐甲氧西林金黄色葡萄球菌MRSA、产超广谱β-内酰胺酶ESBLs菌、铜绿假单胞菌等），推荐联合用药方案：\n\n抗MRSA药物：如万古霉素、利奈唑胺；\n抗铜绿假单胞菌药物（选1种）：如头孢他啶、头孢吡肟、哌拉西林-他唑巴坦、碳青霉烯类（亚胺培南、美罗培南）；\n必要时加用氨基糖苷类（如阿米卡星）或氟喹诺酮类，增强抗铜绿假单胞菌效果。\n\n\n\n目标性用药\n待痰培养、支气管肺泡灌洗液培养等病原学结果回报后，根据“药敏试验”选择敏感抗生素，避免广谱用药，减少耐药性及药物不良反应。\n\n\n用药疗程\n\n常规HAP：疗程通常为7天；\n抗感染治疗48~72h对治疗效果进行评估。\n合并MDR菌感染、免疫功能低下、治疗反应差者：可延长至10-14天，需结合临床症状（发热、咳嗽咳痰）、影像学（胸片/CT）、炎症指标（血常规、CRP、PCT）动态评估，避免过度治疗。\n\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症"
+    "text": "治疗\n\n一般治疗\n\n观察监测：神志、瞳孔、血压、呼吸、脉搏、体温变化\n频繁呕吐：禁食防吸入性肺炎，适度补液\n轻泻剂：严禁高位灌肠\n气管切开：昏迷、咳痰困难，应行气管切开\n\n\n\n病因治疗\n紧急抢救或手术\n\n\n药物治疗降低颅内压\n\n口服药物：氢氯噻嗪、乙酰唑胺\n静脉注射：20%甘露醇、呋塞米\n\n\n\n糖皮质激素\n减轻脑水肿\n\n\n脑脊液体外引流\n\n\n巴比妥治疗\n降低脑代谢，减少氧耗\n\n\n过度换气\nPCO2每下降1mmHg，脑血流递减2%\n\n\n对症治疗\n镇痛、镇静、抗癫痫"
   },
   {
-    "objectID": "icu/icu_HAP/index.html#预防",
-    "href": "icu/icu_HAP/index.html#预防",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "预防",
-    "text": "预防\n\n预防误吸：半卧位，合理喂食\n减少上呼吸道和消化道病原菌定植：氯己定护理\n积极治疗基础疾病\n加强患者管理：对免疫抑制患者进行保护性隔离；耐药菌感染患者进行接触隔离措施；加强医务人员手卫生和无菌操作"
-  },
-  {
-    "objectID": "icu/icu_delirium/index.html",
-    "href": "icu/icu_delirium/index.html",
-    "title": "谵妄",
+    "objectID": "icu/icu_hypertensive_emergency/index.html",
+    "href": "icu/icu_hypertensive_emergency/index.html",
+    "title": "高血压急症",
     "section": "",
-    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
+    "text": "高血压急症是指原发性或继发性高血压病人，在某些诱因作用下，血压突然明显升高(一般超过180/120mmHg),伴有进行性心、脑、肾等重要靶器官功能不全的表现。\n高血压亚急症是指虽然血压明显升高，但不伴进行性靶器官损害"
   },
   {
-    "objectID": "icu/icu_delirium/index.html#预防",
-    "href": "icu/icu_delirium/index.html#预防",
-    "title": "谵妄",
+    "objectID": "icu/icu_hypertensive_emergency/index.html#定义",
+    "href": "icu/icu_hypertensive_emergency/index.html#定义",
+    "title": "高血压急症",
     "section": "",
-    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
+    "text": "高血压急症是指原发性或继发性高血压病人，在某些诱因作用下，血压突然明显升高(一般超过180/120mmHg),伴有进行性心、脑、肾等重要靶器官功能不全的表现。\n高血压亚急症是指虽然血压明显升高，但不伴进行性靶器官损害"
   },
   {
-    "objectID": "icu/icu_delirium/index.html#治疗",
-    "href": "icu/icu_delirium/index.html#治疗",
-    "title": "谵妄",
+    "objectID": "icu/icu_hypertensive_emergency/index.html#治疗",
+    "href": "icu/icu_hypertensive_emergency/index.html#治疗",
+    "title": "高血压急症",
     "section": "治疗",
-    "text": "治疗\n\n非药物治疗\n药物治疗\n\n抗精神病药：氟哌啶醇、齐哌西酮\n右美托咪定\n苯二氮卓类：乙醇或苯二氮卓戒断首选"
+    "text": "治疗"
   },
   {
-    "objectID": "icu/icu_COPD/index.html",
-    "href": "icu/icu_COPD/index.html",
-    "title": "COPD急性加重",
+    "objectID": "icu/icu_DIC/index.html",
+    "href": "icu/icu_DIC/index.html",
+    "title": "弥散性血管内凝血",
     "section": "",
-    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
   },
   {
-    "objectID": "icu/icu_COPD/index.html#治疗",
-    "href": "icu/icu_COPD/index.html#治疗",
-    "title": "COPD急性加重",
+    "objectID": "icu/icu_DIC/index.html#发病机制",
+    "href": "icu/icu_DIC/index.html#发病机制",
+    "title": "弥散性血管内凝血",
     "section": "",
-    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
   },
   {
-    "objectID": "icu/icu_CAP/index.html",
-    "href": "icu/icu_CAP/index.html",
-    "title": "重症社区获得性肺炎（CAP）",
-    "section": "",
-    "text": "社区获得性肺炎（CAP）"
+    "objectID": "icu/icu_DIC/index.html#分期",
+    "href": "icu/icu_DIC/index.html#分期",
+    "title": "弥散性血管内凝血",
+    "section": "分期",
+    "text": "分期\n\n临床前期：前DIC\n早期DIC：初发性高凝期\n中期DIC：消耗性低凝期\n晚期DIC：继发性纤溶亢进期"
   },
   {
-    "objectID": "icu/icu_CAP/index.html#定义",
-    "href": "icu/icu_CAP/index.html#定义",
-    "title": "重症社区获得性肺炎（CAP）",
-    "section": "",
-    "text": "社区获得性肺炎（CAP）"
-  },
-  {
-    "objectID": "icu/icu_CAP/index.html#诊断",
-    "href": "icu/icu_CAP/index.html#诊断",
-    "title": "重症社区获得性肺炎（CAP）",
-    "section": "诊断",
-    "text": "诊断\n\nCAP诊断标准重症CAP诊断标准"
-  },
-  {
-    "objectID": "icu/icu_CAP/index.html#治疗",
-    "href": "icu/icu_CAP/index.html#治疗",
-    "title": "重症社区获得性肺炎（CAP）",
+    "objectID": "icu/icu_DIC/index.html#治疗",
+    "href": "icu/icu_DIC/index.html#治疗",
+    "title": "弥散性血管内凝血",
     "section": "治疗",
-    "text": "治疗\n\n经验性抗菌药物治疗\n\n无铜绿假单胞菌感染因素：\n单用β内酰胺类或联合大环内酯类或氟喹诺酮类\n\n\n有铜绿假单胞菌感染因素\n抗铜绿假单胞菌的β内酰胺类、光谱青霉素/β内酰胺酶抑制剂、碳青霉烯类的一种联合呼吸氟喹诺酮类或氨基糖苷类\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症\n\n\n\n治疗效果评估\n抗感染治疗48~72h对治疗效果进行评估。"
+    "text": "治疗\n\n病因治疗\n控制感染，治疗肿瘤等\n\n\n抗凝治疗\n肝素、重组人血栓调节蛋白\n\n\n替代治疗\n血小板和凝血因子\n有明显出血且血小板&lt;50x109/L，输注血小板\n无出血倾向者血小板&lt;20x109/L，输注血小板\n\n\n抗纤溶治疗\n纤溶明显时，氨甲环酸\n\n\n支持治疗"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html",
-    "href": "icu/icu_ARDS/index.html",
-    "title": "ARDS",
+    "objectID": "icu/icu_CPR/index.html",
+    "href": "icu/icu_CPR/index.html",
+    "title": "心肺复苏",
     "section": "",
-    "text": "ARDS"
+    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#定义",
-    "href": "icu/icu_ARDS/index.html#定义",
-    "title": "ARDS",
+    "objectID": "icu/icu_CPR/index.html#基本生命支持bls",
+    "href": "icu/icu_CPR/index.html#基本生命支持bls",
+    "title": "心肺复苏",
     "section": "",
-    "text": "ARDS"
+    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#诊断",
-    "href": "icu/icu_ARDS/index.html#诊断",
-    "title": "ARDS",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n\n\n\nARDS的柏林诊断标准"
+    "objectID": "icu/icu_CPR/index.html#高级生命支持",
+    "href": "icu/icu_CPR/index.html#高级生命支持",
+    "title": "心肺复苏",
+    "section": "高级生命支持",
+    "text": "高级生命支持\n\n呼吸支持：人工气道，首选气管插管\n恢复和维持自主循环：高质量CPR+电除颤或肾上腺素\nCPR期间的监测：心电图、呼气末CO2，冠状动脉灌注压、ScvO2\n药物治疗\n\n缩血管药物：肾上腺素、血管加压素\n抗心律失常药：胺碘酮、利多卡因、硫酸镁"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#治疗",
-    "href": "icu/icu_ARDS/index.html#治疗",
-    "title": "ARDS",
+    "objectID": "icu/icu_CPR/index.html#复苏后治疗",
+    "href": "icu/icu_CPR/index.html#复苏后治疗",
+    "title": "心肺复苏",
+    "section": "复苏后治疗",
+    "text": "复苏后治疗\n\n优化通气氧合\n维持血流动力学稳定\n脑复苏：\n\n低温治疗\n改善脑血流灌注：脱水、低温、肾上腺皮质激素\n药物治疗：激素"
+  },
+  {
+    "objectID": "icu/icu_CGS/index.html",
+    "href": "icu/icu_CGS/index.html",
+    "title": "心源性休克",
+    "section": "",
+    "text": "心源性休克诊断标准"
+  },
+  {
+    "objectID": "icu/icu_CGS/index.html#诊断",
+    "href": "icu/icu_CGS/index.html#诊断",
+    "title": "心源性休克",
+    "section": "",
+    "text": "心源性休克诊断标准"
+  },
+  {
+    "objectID": "icu/icu_CGS/index.html#治疗",
+    "href": "icu/icu_CGS/index.html#治疗",
+    "title": "心源性休克",
     "section": "治疗",
-    "text": "治疗\n\n病因治疗\n\n\n肺保护性通气策略\n\n小潮气量通气\n控制平台压\nPEEP\n\n\n\n挽救性治疗\n\n肺复张实施\n肌松药使用\n俯卧位通气\n高频通气\nECMO\n\n\n\n液体管理\n\n\n营养支持与监护\n\n\n其他治疗"
+    "text": "治疗\n\n原发病紧急治疗\n\n溶栓\n无法行PCI的AMI3h内，最晚12h溶栓\n\n\n经皮冠状动脉介入术（PCI）\nSTEMI若适宜尽可能做\n\n\n冠状动脉旁路移植术（CABG）\n\n\n\n\n药物治疗\n\n正性肌力药\n一线策略：多巴酚丁胺和去甲肾上腺素\n二线策略：左西孟旦\n\n多巴酚丁胺\n多巴胺\n地高辛\n异丙肾上腺素\n去甲肾上腺素\n肾上腺素\n磷酸二酯酶抑制剂\n钙增敏剂：左西孟旦\n\n\n\n血管舒张药\n\n硝普纳\n硝酸甘油\n\n\n\n机械循环支持\n\n主动脉内球囊反搏（IABG）\n体外膜肺氧合（ECMO）\n经皮左心室辅助装置（PL-VAD）"
+  },
+  {
+    "objectID": "icu/icu_asthma/index.html",
+    "href": "icu/icu_asthma/index.html",
+    "title": "COPD急性发作",
+    "section": "",
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
+  },
+  {
+    "objectID": "icu/icu_asthma/index.html#治疗",
+    "href": "icu/icu_asthma/index.html#治疗",
+    "title": "COPD急性发作",
+    "section": "",
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html",
+    "href": "icu/icu_AP/index.html",
+    "title": "重症急性胰腺炎",
+    "section": "",
+    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html#诊断",
+    "href": "icu/icu_AP/index.html#诊断",
+    "title": "重症急性胰腺炎",
+    "section": "",
+    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html#并发症",
+    "href": "icu/icu_AP/index.html#并发症",
+    "title": "重症急性胰腺炎",
+    "section": "并发症",
+    "text": "并发症\n\n急性胰腺炎局部并发症\n\n急性胰周液体积聚\n胰腺假性囊肿\n急性坏死物积聚\n包裹性坏死\n感染性胰腺坏死"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html#治疗",
+    "href": "icu/icu_AP/index.html#治疗",
+    "title": "重症急性胰腺炎",
+    "section": "治疗",
+    "text": "治疗\n\n两大任务：\n\n寻找并去除病因\n控制炎症\n\n\n监护\nAPACHE II评分评估病情，APACHE II≥8为SAP高危人群\n\n\n器官支持\n\n液体复苏\n\n\n呼吸功能\n吸氧，正压机械通气\n\n\n肠功能维护\n导泻及口服抗生素\n\n\n连续性血液净化\n\n\n\n减少胰液分泌\n\n禁食\n\n\n生长抑素\n\n\n\n控制炎症\n\n液体复苏\n\n\n生长抑素\n\n\n早期肠内营养\n\n\n\n镇痛\n哌替啶\n\n\n急诊内镜去除病因\n\n\n预防和抗感染\n\n\n早期肠内营养\n\n\n择期内镜、腹腔镜去除病因\n\n\n胰腺局部并发症\n\n胰腺假性囊肿\n\n&lt;4cm囊肿，自行吸收\n\n&gt;6cm或多发囊肿，观察6~8周后，无缩小和吸收趋势，则需引流\n\n\n胰腺脓肿处理"
   },
   {
     "objectID": "icu/icu_ALF/index.html",
@@ -424,7 +466,7 @@
     "href": "icu/icu.html#选择先前的笔记",
     "title": "ICU",
     "section": "选择先前的笔记",
-    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n腹腔间隔室综合征\n\n\n2025-08-30\n\n\n\n\n\n\n急性心衰\n\n\n2025-08-30\n\n\n\n\n\n\n心源性休克\n\n\n2025-08-30\n\n\n\n\n\n\n心肺复苏\n\n\n2025-08-30\n\n\n\n\n\n\n多器官功能障碍综合症（MODS）\n\n\n2025-08-30\n\n\n\n\n\n\n呼吸衰竭\n\n\n2025-08-30\n\n\n\n\n\n\n谵妄\n\n\n2025-08-30\n\n\n\n\n\n\n重症监测（外总）\n\n\n2025-08-30\n\n\n\n\n\n\n镇痛与镇静\n\n\n2025-08-30\n\n\n\n\n\n\n甲亢危象\n\n\n2025-08-30\n\n\n\n\n\n\n机械通气\n\n\n2025-08-30\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
+    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n腹腔间隔室综合征（ACS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性心衰\n\n\n2025-08-30\n\n\n\n\n\n\n心源性休克\n\n\n2025-08-30\n\n\n\n\n\n\n心肺复苏\n\n\n2025-08-30\n\n\n\n\n\n\n多器官功能障碍综合症（MODS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性肺血栓栓塞\n\n\n2025-08-30\n\n\n\n\n\n\n呼吸衰竭\n\n\n2025-08-30\n\n\n\n\n\n\n过敏性休克\n\n\n2025-08-30\n\n\n\n\n\n\n谵妄\n\n\n2025-08-30\n\n\n\n\n\n\n高血压急症\n\n\n2025-08-30\n\n\n\n\n\n\n低钾血症和高钾血症\n\n\n2025-08-30\n\n\n\n\n\n\n糖尿病酮症酸中毒与高渗高血糖综合征\n\n\n2025-08-30\n\n\n\n\n\n\n重症监测（外总）\n\n\n2025-08-30\n\n\n\n\n\n\n垂体危象\n\n\n2025-08-30\n\n\n\n\n\n\n镇痛与镇静\n\n\n2025-08-30\n\n\n\n\n\n\n甲亢危象\n\n\n2025-08-30\n\n\n\n\n\n\n机械通气\n\n\n2025-08-30\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "code/qtwAcademic/index.html",
@@ -574,6 +616,27 @@
     "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
   },
   {
+    "objectID": "icu/icu_ACS/index.html",
+    "href": "icu/icu_ACS/index.html",
+    "title": "腹腔间隔室综合征（ACS）",
+    "section": "",
+    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
+  },
+  {
+    "objectID": "icu/icu_ACS/index.html#定义",
+    "href": "icu/icu_ACS/index.html#定义",
+    "title": "腹腔间隔室综合征（ACS）",
+    "section": "",
+    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
+  },
+  {
+    "objectID": "icu/icu_ACS/index.html#治疗",
+    "href": "icu/icu_ACS/index.html#治疗",
+    "title": "腹腔间隔室综合征（ACS）",
+    "section": "治疗",
+    "text": "治疗\n\n\n非手术治疗\n\n排空腔内容物：\n胃肠减压、新斯的明等促胃肠动力药，灌肠导泻，纤维结肠镜\n\n\n排除腹腔内游离液体\n积极引流\n\n\n改善腹壁顺应性\n镇静、镇痛、肌松，适当体位\n\n\n优化液体治疗\n防止血容量不足的同时，避免过度液体复苏的发生\n内环境相对稳定时，应移除体内过多液体，可适当应用利尿剂维持液体零平衡或负平衡，当腹腔高压合并肾功能损害时应用持续肾脏替代治疗（CRRT）\n\n\n优化全身及局部灌注\n监测SvO2，ScvO2，血乳酸、PvaCO2等\n\n\n\n腹腔减压术\n当以上非手术治疗方法应用后腹腔压力仍大于20mmHg，同时伴随新发的脏器功能障碍，即应考虑行腹腔开放减压术"
+  },
+  {
     "objectID": "icu/icu_AKI/index.html",
     "href": "icu/icu_AKI/index.html",
     "title": "急性肾损伤",
@@ -595,137 +658,186 @@
     "text": "治疗\n\n早期病因干预治疗\n\n肾前性\n肾性\n肾后性\n\n营养支持治疗\n并发症治疗\n\n高钾血症\n代谢性酸中毒\n感染\n\n肾脏替代治疗\n\n严重的代谢性酸中毒\n高钾血症\n严重肺水肿\n严重的尿毒症症状\n\n恢复期治疗"
   },
   {
-    "objectID": "icu/icu_AP/index.html",
-    "href": "icu/icu_AP/index.html",
-    "title": "重症急性胰腺炎",
+    "objectID": "icu/icu_allergic_shock/index.html",
+    "href": "icu/icu_allergic_shock/index.html",
+    "title": "过敏性休克",
     "section": "",
-    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
   },
   {
-    "objectID": "icu/icu_AP/index.html#诊断",
-    "href": "icu/icu_AP/index.html#诊断",
-    "title": "重症急性胰腺炎",
+    "objectID": "icu/icu_allergic_shock/index.html#治疗",
+    "href": "icu/icu_allergic_shock/index.html#治疗",
+    "title": "过敏性休克",
     "section": "",
-    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
   },
   {
-    "objectID": "icu/icu_AP/index.html#并发症",
-    "href": "icu/icu_AP/index.html#并发症",
-    "title": "重症急性胰腺炎",
-    "section": "并发症",
-    "text": "并发症\n\n急性胰腺炎局部并发症\n\n急性胰周液体积聚\n胰腺假性囊肿\n急性坏死物积聚\n包裹性坏死\n感染性胰腺坏死"
+    "objectID": "icu/icu_ARDS/index.html",
+    "href": "icu/icu_ARDS/index.html",
+    "title": "ARDS",
+    "section": "",
+    "text": "ARDS"
   },
   {
-    "objectID": "icu/icu_AP/index.html#治疗",
-    "href": "icu/icu_AP/index.html#治疗",
-    "title": "重症急性胰腺炎",
+    "objectID": "icu/icu_ARDS/index.html#定义",
+    "href": "icu/icu_ARDS/index.html#定义",
+    "title": "ARDS",
+    "section": "",
+    "text": "ARDS"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html#诊断",
+    "href": "icu/icu_ARDS/index.html#诊断",
+    "title": "ARDS",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\nARDS的柏林诊断标准"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html#治疗",
+    "href": "icu/icu_ARDS/index.html#治疗",
+    "title": "ARDS",
     "section": "治疗",
-    "text": "治疗\n\n两大任务：\n\n寻找并去除病因\n控制炎症\n\n\n监护\nAPACHE II评分评估病情，APACHE II≥8为SAP高危人群\n\n\n器官支持\n\n液体复苏\n\n\n呼吸功能\n吸氧，正压机械通气\n\n\n肠功能维护\n导泻及口服抗生素\n\n\n连续性血液净化\n\n\n\n减少胰液分泌\n\n禁食\n\n\n生长抑素\n\n\n\n控制炎症\n\n液体复苏\n\n\n生长抑素\n\n\n早期肠内营养\n\n\n\n镇痛\n哌替啶\n\n\n急诊内镜去除病因\n\n\n预防和抗感染\n\n\n早期肠内营养\n\n\n择期内镜、腹腔镜去除病因\n\n\n胰腺局部并发症\n\n胰腺假性囊肿\n\n&lt;4cm囊肿，自行吸收\n\n&gt;6cm或多发囊肿，观察6~8周后，无缩小和吸收趋势，则需引流\n\n\n胰腺脓肿处理"
+    "text": "治疗\n\n病因治疗\n\n\n肺保护性通气策略\n\n小潮气量通气\n控制平台压\nPEEP\n\n\n\n挽救性治疗\n\n肺复张实施\n肌松药使用\n俯卧位通气\n高频通气\nECMO\n\n\n\n液体管理\n\n\n营养支持与监护\n\n\n其他治疗"
   },
   {
-    "objectID": "icu/icu_asthma/index.html",
-    "href": "icu/icu_asthma/index.html",
-    "title": "COPD急性发作",
+    "objectID": "icu/icu_CAP/index.html",
+    "href": "icu/icu_CAP/index.html",
+    "title": "重症社区获得性肺炎（CAP）",
     "section": "",
-    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
+    "text": "社区获得性肺炎（CAP）"
   },
   {
-    "objectID": "icu/icu_asthma/index.html#治疗",
-    "href": "icu/icu_asthma/index.html#治疗",
-    "title": "COPD急性发作",
+    "objectID": "icu/icu_CAP/index.html#定义",
+    "href": "icu/icu_CAP/index.html#定义",
+    "title": "重症社区获得性肺炎（CAP）",
     "section": "",
-    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
+    "text": "社区获得性肺炎（CAP）"
   },
   {
-    "objectID": "icu/icu_CGS/index.html",
-    "href": "icu/icu_CGS/index.html",
-    "title": "心源性休克",
-    "section": "",
-    "text": "心源性休克诊断标准"
+    "objectID": "icu/icu_CAP/index.html#诊断",
+    "href": "icu/icu_CAP/index.html#诊断",
+    "title": "重症社区获得性肺炎（CAP）",
+    "section": "诊断",
+    "text": "诊断\n\nCAP诊断标准重症CAP诊断标准"
   },
   {
-    "objectID": "icu/icu_CGS/index.html#诊断",
-    "href": "icu/icu_CGS/index.html#诊断",
-    "title": "心源性休克",
-    "section": "",
-    "text": "心源性休克诊断标准"
-  },
-  {
-    "objectID": "icu/icu_CGS/index.html#治疗",
-    "href": "icu/icu_CGS/index.html#治疗",
-    "title": "心源性休克",
+    "objectID": "icu/icu_CAP/index.html#治疗",
+    "href": "icu/icu_CAP/index.html#治疗",
+    "title": "重症社区获得性肺炎（CAP）",
     "section": "治疗",
-    "text": "治疗\n\n原发病紧急治疗\n\n溶栓\n无法行PCI的AMI3h内，最晚12h溶栓\n\n\n经皮冠状动脉介入术（PCI）\nSTEMI若适宜尽可能做\n\n\n冠状动脉旁路移植术（CABG）\n\n\n\n\n药物治疗\n\n正性肌力药\n一线策略：多巴酚丁胺和去甲肾上腺素\n二线策略：左西孟旦\n\n多巴酚丁胺\n多巴胺\n地高辛\n异丙肾上腺素\n去甲肾上腺素\n肾上腺素\n磷酸二酯酶抑制剂\n钙增敏剂：左西孟旦\n\n\n\n血管舒张药\n\n硝普纳\n硝酸甘油\n\n\n\n机械循环支持\n\n主动脉内球囊反搏（IABG）\n体外膜肺氧合（ECMO）\n经皮左心室辅助装置（PL-VAD）"
+    "text": "治疗\n\n经验性抗菌药物治疗\n\n无铜绿假单胞菌感染因素：\n单用β内酰胺类或联合大环内酯类或氟喹诺酮类\n\n\n有铜绿假单胞菌感染因素\n抗铜绿假单胞菌的β内酰胺类、光谱青霉素/β内酰胺酶抑制剂、碳青霉烯类的一种联合呼吸氟喹诺酮类或氨基糖苷类\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症\n\n\n\n治疗效果评估\n抗感染治疗48~72h对治疗效果进行评估。"
   },
   {
-    "objectID": "icu/icu_CPR/index.html",
-    "href": "icu/icu_CPR/index.html",
-    "title": "心肺复苏",
+    "objectID": "icu/icu_COPD/index.html",
+    "href": "icu/icu_COPD/index.html",
+    "title": "COPD急性加重",
     "section": "",
-    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
   },
   {
-    "objectID": "icu/icu_CPR/index.html#基本生命支持bls",
-    "href": "icu/icu_CPR/index.html#基本生命支持bls",
-    "title": "心肺复苏",
+    "objectID": "icu/icu_COPD/index.html#治疗",
+    "href": "icu/icu_COPD/index.html#治疗",
+    "title": "COPD急性加重",
     "section": "",
-    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
   },
   {
-    "objectID": "icu/icu_CPR/index.html#高级生命支持",
-    "href": "icu/icu_CPR/index.html#高级生命支持",
-    "title": "心肺复苏",
-    "section": "高级生命支持",
-    "text": "高级生命支持\n\n呼吸支持：人工气道，首选气管插管\n恢复和维持自主循环：高质量CPR+电除颤或肾上腺素\nCPR期间的监测：心电图、呼气末CO2，冠状动脉灌注压、ScvO2\n药物治疗\n\n缩血管药物：肾上腺素、血管加压素\n抗心律失常药：胺碘酮、利多卡因、硫酸镁"
-  },
-  {
-    "objectID": "icu/icu_CPR/index.html#复苏后治疗",
-    "href": "icu/icu_CPR/index.html#复苏后治疗",
-    "title": "心肺复苏",
-    "section": "复苏后治疗",
-    "text": "复苏后治疗\n\n优化通气氧合\n维持血流动力学稳定\n脑复苏：\n\n低温治疗\n改善脑血流灌注：脱水、低温、肾上腺皮质激素\n药物治疗：激素"
-  },
-  {
-    "objectID": "icu/icu_DIC/index.html",
-    "href": "icu/icu_DIC/index.html",
-    "title": "弥散性血管内凝血",
+    "objectID": "icu/icu_delirium/index.html",
+    "href": "icu/icu_delirium/index.html",
+    "title": "谵妄",
     "section": "",
-    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
+    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
   },
   {
-    "objectID": "icu/icu_DIC/index.html#发病机制",
-    "href": "icu/icu_DIC/index.html#发病机制",
-    "title": "弥散性血管内凝血",
+    "objectID": "icu/icu_delirium/index.html#预防",
+    "href": "icu/icu_delirium/index.html#预防",
+    "title": "谵妄",
     "section": "",
-    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
+    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
   },
   {
-    "objectID": "icu/icu_DIC/index.html#分期",
-    "href": "icu/icu_DIC/index.html#分期",
-    "title": "弥散性血管内凝血",
-    "section": "分期",
-    "text": "分期\n\n临床前期：前DIC\n早期DIC：初发性高凝期\n中期DIC：消耗性低凝期\n晚期DIC：继发性纤溶亢进期"
-  },
-  {
-    "objectID": "icu/icu_DIC/index.html#治疗",
-    "href": "icu/icu_DIC/index.html#治疗",
-    "title": "弥散性血管内凝血",
+    "objectID": "icu/icu_delirium/index.html#治疗",
+    "href": "icu/icu_delirium/index.html#治疗",
+    "title": "谵妄",
     "section": "治疗",
-    "text": "治疗\n\n病因治疗\n控制感染，治疗肿瘤等\n\n\n抗凝治疗\n肝素、重组人血栓调节蛋白\n\n\n替代治疗\n血小板和凝血因子\n有明显出血且血小板&lt;50x109/L，输注血小板\n无出血倾向者血小板&lt;20x109/L，输注血小板\n\n\n抗纤溶治疗\n纤溶明显时，氨甲环酸\n\n\n支持治疗"
+    "text": "治疗\n\n非药物治疗\n药物治疗\n\n抗精神病药：氟哌啶醇、齐哌西酮\n右美托咪定\n苯二氮卓类：乙醇或苯二氮卓戒断首选"
   },
   {
-    "objectID": "icu/icu_ICP/index.html",
-    "href": "icu/icu_ICP/index.html",
-    "title": "颅内压增高",
+    "objectID": "icu/icu_HAP/index.html",
+    "href": "icu/icu_HAP/index.html",
+    "title": "医院获得性肺炎（HAP）",
     "section": "",
-    "text": "正常颅内压范围70~200mmHg"
+    "text": "医院获得性肺炎（HAP）"
   },
   {
-    "objectID": "icu/icu_ICP/index.html#治疗",
-    "href": "icu/icu_ICP/index.html#治疗",
-    "title": "颅内压增高",
+    "objectID": "icu/icu_HAP/index.html#定义",
+    "href": "icu/icu_HAP/index.html#定义",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "",
+    "text": "医院获得性肺炎（HAP）"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#诊断",
+    "href": "icu/icu_HAP/index.html#诊断",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n医院获得性肺炎的诊断标准"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#治疗",
+    "href": "icu/icu_HAP/index.html#治疗",
+    "title": "医院获得性肺炎（HAP）",
     "section": "治疗",
-    "text": "治疗\n\n一般治疗\n\n观察监测：神志、瞳孔、血压、呼吸、脉搏、体温变化\n频繁呕吐：禁食防吸入性肺炎，适度补液\n轻泻剂：严禁高位灌肠\n气管切开：昏迷、咳痰困难，应行气管切开\n\n\n\n病因治疗\n紧急抢救或手术\n\n\n药物治疗降低颅内压\n\n口服药物：氢氯噻嗪、乙酰唑胺\n静脉注射：20%甘露醇、呋塞米\n\n\n\n糖皮质激素\n减轻脑水肿\n\n\n脑脊液体外引流\n\n\n巴比妥治疗\n降低脑代谢，减少氧耗\n\n\n过度换气\nPCO2每下降1mmHg，脑血流递减2%\n\n\n对症治疗\n镇痛、镇静、抗癫痫"
+    "text": "治疗\n\n一、核心治疗：抗感染治疗\n需根据患者是否存在多重耐药菌（MDR）感染风险，选择初始经验性用药，后续根据细菌培养+药敏结果调整为目标性用药。\n\n无MDR感染风险患者（初始经验性用药）\n覆盖常见敏感菌（如肺炎克雷伯菌、大肠埃希菌、流感嗜血杆菌等），推荐药物：\n\n头孢菌素类：如头孢他啶、头孢吡肟；\n青霉素类复方制剂：如哌拉西林-他唑巴坦；\n氟喹诺酮类：如左氧氟沙星、莫西沙星（需注意药物敏感性及患者基础疾病禁忌）。\n\n\n\n有MDR感染风险患者（初始经验性用药）\n需额外覆盖MDR菌（如耐甲氧西林金黄色葡萄球菌MRSA、产超广谱β-内酰胺酶ESBLs菌、铜绿假单胞菌等），推荐联合用药方案：\n\n抗MRSA药物：如万古霉素、利奈唑胺；\n抗铜绿假单胞菌药物（选1种）：如头孢他啶、头孢吡肟、哌拉西林-他唑巴坦、碳青霉烯类（亚胺培南、美罗培南）；\n必要时加用氨基糖苷类（如阿米卡星）或氟喹诺酮类，增强抗铜绿假单胞菌效果。\n\n\n\n目标性用药\n待痰培养、支气管肺泡灌洗液培养等病原学结果回报后，根据“药敏试验”选择敏感抗生素，避免广谱用药，减少耐药性及药物不良反应。\n\n\n用药疗程\n\n常规HAP：疗程通常为7天；\n抗感染治疗48~72h对治疗效果进行评估。\n合并MDR菌感染、免疫功能低下、治疗反应差者：可延长至10-14天，需结合临床症状（发热、咳嗽咳痰）、影像学（胸片/CT）、炎症指标（血常规、CRP、PCT）动态评估，避免过度治疗。\n\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#预防",
+    "href": "icu/icu_HAP/index.html#预防",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "预防",
+    "text": "预防\n\n预防误吸：半卧位，合理喂食\n减少上呼吸道和消化道病原菌定植：氯己定护理\n积极治疗基础疾病\n加强患者管理：对免疫抑制患者进行保护性隔离；耐药菌感染患者进行接触隔离措施；加强医务人员手卫生和无菌操作"
+  },
+  {
+    "objectID": "icu/icu_hypokalemia_hyperkalemia/index.html",
+    "href": "icu/icu_hypokalemia_hyperkalemia/index.html",
+    "title": "低钾血症和高钾血症",
+    "section": "",
+    "text": "口服补钾\n\n\n\n每天补钾3~6g（40~80mmol）。\n补钾浓度不超过3g/L（40mmol/L），补钾速度不超过20mmol/h。\n伴有休克的病人，应先恢复血容量，待尿量超过40ml/h再静脉补钾"
+  },
+  {
+    "objectID": "icu/icu_hypokalemia_hyperkalemia/index.html#低钾血症",
+    "href": "icu/icu_hypokalemia_hyperkalemia/index.html#低钾血症",
+    "title": "低钾血症和高钾血症",
+    "section": "",
+    "text": "口服补钾\n\n\n\n每天补钾3~6g（40~80mmol）。\n补钾浓度不超过3g/L（40mmol/L），补钾速度不超过20mmol/h。\n伴有休克的病人，应先恢复血容量，待尿量超过40ml/h再静脉补钾"
+  },
+  {
+    "objectID": "icu/icu_hypokalemia_hyperkalemia/index.html#高钾血症",
+    "href": "icu/icu_hypokalemia_hyperkalemia/index.html#高钾血症",
+    "title": "低钾血症和高钾血症",
+    "section": "高钾血症",
+    "text": "高钾血症\n\n停用一切含钾药物和食物\n对抗K+心肌毒性作用：10%葡萄糖酸钙静注\n促进K+转入细胞内：10%葡萄糖+胰岛素\n纠酸：5%NaCO3静注\n促进K+从肾排出：呋塞米，噻嗪类\n促进K+从消化道排出：口服阳离子交换树脂\n透析"
+  },
+  {
+    "objectID": "icu/icu_ketoacidosis/index.html",
+    "href": "icu/icu_ketoacidosis/index.html",
+    "title": "糖尿病酮症酸中毒与高渗高血糖综合征",
+    "section": "",
+    "text": "糖尿病酮症酸中毒高渗高血糖综合征\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDKA与HHS的实验室检查\n\n\n\n\n\n\n\n\n糖尿病酮症酸中毒、低血糖昏迷、高渗高血糖综合征和乳酸酸中毒的鉴别诊断"
+  },
+  {
+    "objectID": "icu/icu_ketoacidosis/index.html#诊断",
+    "href": "icu/icu_ketoacidosis/index.html#诊断",
+    "title": "糖尿病酮症酸中毒与高渗高血糖综合征",
+    "section": "",
+    "text": "糖尿病酮症酸中毒高渗高血糖综合征\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDKA与HHS的实验室检查\n\n\n\n\n\n\n\n\n糖尿病酮症酸中毒、低血糖昏迷、高渗高血糖综合征和乳酸酸中毒的鉴别诊断"
+  },
+  {
+    "objectID": "icu/icu_ketoacidosis/index.html#治疗",
+    "href": "icu/icu_ketoacidosis/index.html#治疗",
+    "title": "糖尿病酮症酸中毒与高渗高血糖综合征",
+    "section": "治疗",
+    "text": "治疗\n\nDKAHHS"
   },
   {
     "objectID": "icu/icu_monitor/index.html",
@@ -747,6 +859,27 @@
     "title": "重症监测（外总）",
     "section": "呼吸监测",
     "text": "呼吸监测\n\n\n\n呼吸监测"
+  },
+  {
+    "objectID": "icu/icu_PTE/index.html",
+    "href": "icu/icu_PTE/index.html",
+    "title": "急性肺血栓栓塞",
+    "section": "",
+    "text": "疑诊和确诊"
+  },
+  {
+    "objectID": "icu/icu_PTE/index.html#诊断",
+    "href": "icu/icu_PTE/index.html#诊断",
+    "title": "急性肺血栓栓塞",
+    "section": "",
+    "text": "疑诊和确诊"
+  },
+  {
+    "objectID": "icu/icu_PTE/index.html#治疗",
+    "href": "icu/icu_PTE/index.html#治疗",
+    "title": "急性肺血栓栓塞",
+    "section": "治疗",
+    "text": "治疗"
   },
   {
     "objectID": "icu/icu_sedation_analgesia/index.html",

@@ -1,0 +1,19 @@
+---
+title: "急性肺血栓栓塞"
+lang: zh
+description: ""
+date: "2025-08-30"
+categories: [therapy]
+priority: 3
+lightbox: true
+---
+
+## 诊断
+
+![疑诊和确诊](images/paste-1.png)
+
+## 治疗
+
+![](images/paste-2.png)
+
+![](images/paste-3.png){width="844"}

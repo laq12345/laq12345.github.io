@@ -1,211 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://laq12345.github.io/try.html</loc>
+    <loc>https://laq12345.netlify.app/try.html</loc>
     <lastmod>2025-08-29T13:37:11.335Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/research/workshop_singlecell/index.html</loc>
+    <loc>https://laq12345.netlify.app/research/workshop_singlecell/index.html</loc>
     <lastmod>2025-08-27T15:57:39.844Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/research/literature_kangyan_20250703/index.html</loc>
+    <loc>https://laq12345.netlify.app/research/literature_kangyan_20250703/index.html</loc>
     <lastmod>2025-08-27T12:09:29.374Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/research/literature_chengyisong_20240215/index.html</loc>
+    <loc>https://laq12345.netlify.app/research/literature_chengyisong_20240215/index.html</loc>
     <lastmod>2025-08-27T08:39:25.442Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/research/cheatsheet_pkgdev/index.html</loc>
+    <loc>https://laq12345.netlify.app/research/cheatsheet_pkgdev/index.html</loc>
     <lastmod>2025-08-27T02:21:54.351Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/projects/projects.html</loc>
+    <loc>https://laq12345.netlify.app/projects/projects.html</loc>
     <lastmod>2025-08-29T17:10:46.925Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/projects/os_teaching/index.html</loc>
+    <loc>https://laq12345.netlify.app/projects/os_teaching/index.html</loc>
     <lastmod>2025-08-27T02:21:54.126Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/projects/noreden/index.html</loc>
+    <loc>https://laq12345.netlify.app/projects/noreden/index.html</loc>
     <lastmod>2025-08-27T02:21:54.118Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/projects/dan/index.html</loc>
+    <loc>https://laq12345.netlify.app/projects/dan/index.html</loc>
     <lastmod>2025-08-27T02:21:54.092Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/index.html</loc>
+    <loc>https://laq12345.netlify.app/index.html</loc>
     <lastmod>2025-08-29T18:00:03.647Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/icu/icu_thyroid_crisis/index.html</loc>
+    <loc>https://laq12345.netlify.app/icu/icu_thyroid_crisis/index.html</loc>
     <lastmod>2025-08-30T03:10:27.732Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/icu/icu_sepsis/index.html</loc>
+    <loc>https://laq12345.netlify.app/icu/icu_sepsis/index.html</loc>
     <lastmod>2025-08-28T12:24:41.946Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/icu/icu_RF/index.html</loc>
+    <loc>https://laq12345.netlify.app/icu/icu_RF/index.html</loc>
     <lastmod>2025-08-30T05:13:58.633Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/icu/icu_MODS/index.html</loc>
+    <loc>https://laq12345.netlify.app/icu/icu_pituitary_crisis/index.html</loc>
+    <lastmod>2025-08-30T13:23:59.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_MODS/index.html</loc>
     <lastmod>2025-08-30T07:40:07.243Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/icu/icu_HAP/index.html</loc>
-    <lastmod>2025-08-29T13:47:54.152Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_delirium/index.html</loc>
-    <lastmod>2025-08-30T08:53:25.602Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_COPD/index.html</loc>
-    <lastmod>2025-08-28T12:44:05.968Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_CAP/index.html</loc>
-    <lastmod>2025-08-29T12:54:03.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_ARDS/index.html</loc>
-    <lastmod>2025-08-28T16:33:21.468Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_ALF/index.html</loc>
-    <lastmod>2025-08-29T10:31:31.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_AHF/index.html</loc>
-    <lastmod>2025-08-30T05:21:39.913Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu.html</loc>
-    <lastmod>2025-08-29T01:23:19.529Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/code/qtwAcademic/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.217Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/code/code.html</loc>
-    <lastmod>2025-08-29T01:27:09.173Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/blog/learnnotes_words/index.html</loc>
-    <lastmod>2025-08-27T07:58:20.560Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/blog/blog.html</loc>
-    <lastmod>2025-08-28T17:29:39.955Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/about_me.html</loc>
-    <lastmod>2025-08-29T18:00:23.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/blog/blog_interview_non_professional/index.html</loc>
-    <lastmod>2025-08-28T10:24:34.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/blog/readnotes_20240606_bad_pharma/index.html</loc>
-    <lastmod>2025-08-27T02:21:53.426Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/code/ggehr/index.html</loc>
-    <lastmod>2025-08-27T02:21:54.202Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/dev/short_bio.html</loc>
-    <lastmod>2025-08-27T02:21:53.470Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_ACS/index.html</loc>
-    <lastmod>2025-08-30T08:57:11.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_AKI/index.html</loc>
-    <lastmod>2025-08-29T02:01:10.647Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_AP/index.html</loc>
-    <lastmod>2025-08-29T01:53:28.553Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_asthma/index.html</loc>
-    <lastmod>2025-08-28T12:50:22.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_CGS/index.html</loc>
-    <lastmod>2025-08-30T05:45:20.595Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_CPR/index.html</loc>
-    <lastmod>2025-08-30T08:37:50.349Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_DIC/index.html</loc>
-    <lastmod>2025-08-29T12:01:47.485Z</lastmod>
-  </url>
-  <url>
-    <loc>https://laq12345.github.io/icu/icu_ICP/index.html</loc>
+    <loc>https://laq12345.netlify.app/icu/icu_ICP/index.html</loc>
     <lastmod>2025-08-29T14:09:14.411Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/icu/icu_monitor/index.html</loc>
+    <loc>https://laq12345.netlify.app/icu/icu_hypertensive_emergency/index.html</loc>
+    <lastmod>2025-08-30T12:50:45.108Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_DIC/index.html</loc>
+    <lastmod>2025-08-29T12:01:47.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_CPR/index.html</loc>
+    <lastmod>2025-08-30T08:37:50.349Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_CGS/index.html</loc>
+    <lastmod>2025-08-30T05:45:20.595Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_asthma/index.html</loc>
+    <lastmod>2025-08-28T12:50:22.684Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_AP/index.html</loc>
+    <lastmod>2025-08-29T01:53:28.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_ALF/index.html</loc>
+    <lastmod>2025-08-29T10:31:31.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_AHF/index.html</loc>
+    <lastmod>2025-08-30T05:21:39.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu.html</loc>
+    <lastmod>2025-08-29T01:23:19.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/code/qtwAcademic/index.html</loc>
+    <lastmod>2025-08-27T02:21:54.217Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/code/code.html</loc>
+    <lastmod>2025-08-29T01:27:09.173Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/blog/learnnotes_words/index.html</loc>
+    <lastmod>2025-08-27T07:58:20.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/blog/blog.html</loc>
+    <lastmod>2025-08-28T17:29:39.955Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/about_me.html</loc>
+    <lastmod>2025-08-29T18:00:23.729Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/blog/blog_interview_non_professional/index.html</loc>
+    <lastmod>2025-08-28T10:24:34.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/blog/readnotes_20240606_bad_pharma/index.html</loc>
+    <lastmod>2025-08-27T02:21:53.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/code/ggehr/index.html</loc>
+    <lastmod>2025-08-27T02:21:54.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/dev/short_bio.html</loc>
+    <lastmod>2025-08-27T02:21:53.470Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_ACS/index.html</loc>
+    <lastmod>2025-08-30T11:13:54.286Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_AKI/index.html</loc>
+    <lastmod>2025-08-29T02:01:10.647Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_allergic_shock/index.html</loc>
+    <lastmod>2025-08-30T11:46:56.891Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_ARDS/index.html</loc>
+    <lastmod>2025-08-28T16:33:21.468Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_CAP/index.html</loc>
+    <lastmod>2025-08-29T12:54:03.759Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_COPD/index.html</loc>
+    <lastmod>2025-08-28T12:44:05.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_delirium/index.html</loc>
+    <lastmod>2025-08-30T11:14:20.038Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_HAP/index.html</loc>
+    <lastmod>2025-08-29T13:47:54.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_hypokalemia_hyperkalemia/index.html</loc>
+    <lastmod>2025-08-30T11:37:48.428Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_ketoacidosis/index.html</loc>
+    <lastmod>2025-08-30T13:18:39.262Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_monitor/index.html</loc>
     <lastmod>2025-08-30T08:21:20.625Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/icu/icu_sedation_analgesia/index.html</loc>
+    <loc>https://laq12345.netlify.app/icu/icu_PTE/index.html</loc>
+    <lastmod>2025-08-30T12:56:40.467Z</lastmod>
+  </url>
+  <url>
+    <loc>https://laq12345.netlify.app/icu/icu_sedation_analgesia/index.html</loc>
     <lastmod>2025-08-30T02:50:57.836Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/icu/icu_shock/index.html</loc>
+    <loc>https://laq12345.netlify.app/icu/icu_shock/index.html</loc>
     <lastmod>2025-08-28T15:37:29.416Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/icu/icu_ventilation/index.html</loc>
+    <loc>https://laq12345.netlify.app/icu/icu_ventilation/index.html</loc>
     <lastmod>2025-08-30T08:13:37.770Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/misc/literature.html</loc>
+    <loc>https://laq12345.netlify.app/misc/literature.html</loc>
     <lastmod>2025-08-27T02:21:54.092Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/projects/ehr/index.html</loc>
+    <loc>https://laq12345.netlify.app/projects/ehr/index.html</loc>
     <lastmod>2025-08-27T02:21:54.102Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/projects/nor_mortality/index.html</loc>
+    <loc>https://laq12345.netlify.app/projects/nor_mortality/index.html</loc>
     <lastmod>2025-08-27T02:21:54.102Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/projects/phuse/index.html</loc>
+    <loc>https://laq12345.netlify.app/projects/phuse/index.html</loc>
     <lastmod>2025-08-27T02:21:54.126Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/projects/sykdomspulsen/index.html</loc>
+    <loc>https://laq12345.netlify.app/projects/sykdomspulsen/index.html</loc>
     <lastmod>2025-08-27T02:21:54.159Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/research/literature_chengyisong_20221205/index.html</loc>
+    <loc>https://laq12345.netlify.app/research/literature_chengyisong_20221205/index.html</loc>
     <lastmod>2025-08-27T08:40:08.569Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/research/literature_kangyan_20240330/index.html</loc>
+    <loc>https://laq12345.netlify.app/research/literature_kangyan_20240330/index.html</loc>
     <lastmod>2025-08-27T11:32:21.766Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/research/research.html</loc>
+    <loc>https://laq12345.netlify.app/research/research.html</loc>
     <lastmod>2025-08-29T18:14:09.844Z</lastmod>
   </url>
   <url>
-    <loc>https://laq12345.github.io/research/workshop_WB/index.html</loc>
+    <loc>https://laq12345.netlify.app/research/workshop_WB/index.html</loc>
     <lastmod>2025-08-28T09:11:03.216Z</lastmod>
   </url>
 </urlset>
