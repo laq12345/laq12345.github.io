@@ -1,0 +1,17 @@
+---
+title: "重症监测（外总）"
+lang: zh
+description: ""
+date: "2025-08-30"
+categories: [therapy]
+priority: 2
+lightbox: true
+---
+
+## 循环监测
+
+![循环监测](images/paste-1.png)
+
+## 呼吸监测
+
+![呼吸监测](images/paste-2.png)

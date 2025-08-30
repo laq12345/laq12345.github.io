@@ -1,0 +1,21 @@
+---
+title: "呼吸衰竭"
+lang: zh
+description: ""
+date: "2025-08-30"
+categories: [therapy]
+priority: 2
+lightbox: true
+---
+
+## 定义
+
+在海平面、静息状态下、呼吸空气的条件下，PaO~2~\<60mmHg，伴或不伴PaCO~2~\>50mmHg。
+
+## 分类
+
+![呼吸衰竭的分类](images/paste-1.png){fig-align="center"}
+
+## 治疗
+
+![](images/paste-2.png)

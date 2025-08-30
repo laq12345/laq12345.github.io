@@ -1,0 +1,13 @@
+---
+title: "急性心衰"
+lang: zh
+description: ""
+date: "2025-08-30"
+categories: [therapy]
+priority: 2
+lightbox: true
+---
+
+## 治疗
+
+![](images/paste-1.png)

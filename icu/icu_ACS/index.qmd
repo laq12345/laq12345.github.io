@@ -1,0 +1,10 @@
+---
+title: "腹腔间隔室综合征"
+lang: zh
+description: ""
+date: "2025-08-30"
+categories: [diagnosis, therapy]
+priority: 2
+lightbox: true
+---
+
