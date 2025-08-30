@@ -20,6 +20,7 @@ about:
 #    - icon: linkedin
 #      text: Chi Zhang
 #      href: https://www.linkedin.com/in/chizapoth/
+fig-align: center
 ---
 
 ::: {#hero-heading}

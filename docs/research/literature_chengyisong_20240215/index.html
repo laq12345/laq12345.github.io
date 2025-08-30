@@ -62,7 +62,7 @@ div.csl-indent {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ce2ec9b3b69a802492008e7bdfb3fbb2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-697f85932ebbc297d1513306f70c8937.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -94,7 +94,7 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -110,7 +110,7 @@ div.csl-indent {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
@@ -133,7 +133,24 @@ div.csl-indent {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about_me.html"> 
-<span class="menu-text">About me</span></a>
+<span class="menu-text">关于</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../misc/info/resume.pdf" target="_blank"> <i class="bi bi-journal-richtext" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/drganghe" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:laqlkw@163.com"> <i class="bi bi-mailbox2-flag" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -146,7 +163,29 @@ div.csl-indent {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#基于临床知识引导的深度强化学习用于脓毒症抗生素用药推荐wang2024" id="toc-基于临床知识引导的深度强化学习用于脓毒症抗生素用药推荐wang2024" class="nav-link active" data-scroll-target="#基于临床知识引导的深度强化学习用于脓毒症抗生素用药推荐wang2024">基于临床知识引导的深度强化学习用于脓毒症抗生素用药推荐<span class="citation" data-cites="wang2024">(Wang et al. 2024)</span></a>
+  <ul class="collapse">
+  <li><a href="#背景" id="toc-背景" class="nav-link" data-scroll-target="#背景">背景</a></li>
+  <li><a href="#研究目标" id="toc-研究目标" class="nav-link" data-scroll-target="#研究目标"><strong>研究目标</strong></a></li>
+  <li><a href="#方法sai-dqn-模型" id="toc-方法sai-dqn-模型" class="nav-link" data-scroll-target="#方法sai-dqn-模型"><strong>方法：SAI-DQN 模型</strong></a>
+  <ul class="collapse">
+  <li><a href="#创新点临床知识引导的奖励函数" id="toc-创新点临床知识引导的奖励函数" class="nav-link" data-scroll-target="#创新点临床知识引导的奖励函数"><strong>4. 创新点：临床知识引导的奖励函数</strong></a></li>
+  </ul></li>
+  <li><a href="#实验结果" id="toc-实验结果" class="nav-link" data-scroll-target="#实验结果"><strong>实验结果</strong></a></li>
+  <li><a href="#主要贡献" id="toc-主要贡献" class="nav-link" data-scroll-target="#主要贡献"><strong>主要贡献</strong></a></li>
+  <li><a href="#结论" id="toc-结论" class="nav-link" data-scroll-target="#结论"><strong>结论</strong></a>
+  <ul class="collapse">
+  <li><a href="#潜在意义" id="toc-潜在意义" class="nav-link" data-scroll-target="#潜在意义"><strong>潜在意义</strong></a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/literature_chengyisong_20240215/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -397,7 +436,7 @@ Wang, Yuan, Anqi Liu, Jucheng Yang, Lin Wang, Ning Xiong, Yisong Cheng, and Qin 
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/laq12345\.github\.io");
+        var filterRegex = new RegExp("https:\/\/laq12345\.netlify\.app");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -732,7 +771,7 @@ Wang, Yuan, Anqi Liu, Jucheng Yang, Lin Wang, Ning Xiong, Yisong Cheng, and Qin 
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/literature_chengyisong_20240215/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/literature_chengyisong_20240215/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

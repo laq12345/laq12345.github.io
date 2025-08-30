@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "try.html",
+    "href": "try.html",
+    "title": "笑面狐",
+    "section": "",
+    "text": "医院获得性肺炎（HAP）治疗需遵循“尽早启动、精准用药、动态调整”原则，核心是抗感染治疗结合支持治疗，具体如下：\n一、核心治疗：抗感染治疗\n需根据患者是否存在多重耐药菌（MDR）感染风险，选择初始经验性用药，后续根据细菌培养+药敏结果调整为目标性用药。\n\n无MDR感染风险患者（初始经验性用药）\n\n覆盖常见敏感菌（如肺炎克雷伯菌、大肠埃希菌、流感嗜血杆菌等），推荐药物：\n\n头孢菌素类：如头孢他啶、头孢吡肟；\n青霉素类复方制剂：如哌拉西林-他唑巴坦；\n氟喹诺酮类：如左氧氟沙星、莫西沙星（需注意药物敏感性及患者基础疾病禁忌）。\n\n\n有MDR感染风险患者（初始经验性用药）\n\n需额外覆盖MDR菌（如耐甲氧西林金黄色葡萄球菌MRSA、产超广谱β-内酰胺酶ESBLs菌、铜绿假单胞菌等），推荐联合用药方案：\n\n抗MRSA药物：如万古霉素、利奈唑胺；\n抗铜绿假单胞菌药物（选1种）：如头孢他啶、头孢吡肟、哌拉西林-他唑巴坦、碳青霉烯类（亚胺培南、美罗培南）；\n必要时加用氨基糖苷类（如阿米卡星）或氟喹诺酮类，增强抗铜绿假单胞菌效果。\n\n\n目标性用药\n\n待痰培养、支气管肺泡灌洗液培养等病原学结果回报后，根据“药敏试验”选择敏感抗生素，避免广谱用药，减少耐药性及药物不良反应。\n\n用药疗程\n\n\n常规HAP：疗程通常为7-8天；\n合并MDR菌感染、免疫功能低下、治疗反应差者：可延长至10-14天，需结合临床症状（发热、咳嗽咳痰）、影像学（胸片/CT）、炎症指标（血常规、CRP、PCT）动态评估，避免过度治疗。\n\n二、支持治疗与并发症管理\n1. 呼吸支持：存在低氧血症（血氧饱和度＜92%）时，给予鼻导管或面罩吸氧；严重呼吸衰竭者需机械通气，同时注意气道湿化、分泌物引流（如翻身拍背、雾化吸入）。 2. 对症治疗：止咳（如右美沙芬，干咳为主）、化痰（如氨溴索、乙酰半胱氨酸，痰多黏稠者）、退热（如对乙酰氨基酚，体温＞38.5℃时）。 3. 基础病管理：控制血糖（糖尿病患者）、维持水盐电解质平衡，避免因基础病加重肺炎病情。 4. 营养支持：无法经口进食者，给予肠内营养（如鼻饲）或肠外营养，增强机体免疫力，促进恢复。\n三、治疗监测与调整\n治疗期间需定期评估疗效，若出现以下情况，需及时调整方案：\n\n症状无改善/加重：发热持续、咳嗽咳痰加剧、呼吸困难加重；\n炎症指标无下降：血常规（白细胞、中性粒细胞）、CRP、PCT仍升高；\n影像学进展：胸片/CT显示肺炎病灶扩大。\n\n此时需重新评估病原学（如再次留取痰标本培养），排查是否存在MDR菌、真菌（如念珠菌、曲霉菌）或病毒感染，调整抗感染药物种类或剂量。"
+  },
+  {
     "objectID": "research/workshop_singlecell/index.html",
     "href": "research/workshop_singlecell/index.html",
     "title": "单细胞测序",
@@ -133,130 +140,235 @@
     "text": "(This is my own note-taking system using quarto)\n\nAbout the notes\nData Apothecary’s Notes is a note-taking repository for modern data science skills with a focus on drug development and clinical trials. Content will be gradually added while I learn the topics. Therefore, it is by no means a complete guide by the time you read it!\nI try to organize the content in a modular way. I think these should cover the important aspects in which a data scientist / modern statistician should know.\n\nstudy design\ninference\nmodels\nreporting\nprogramming\n\n\n\nWhy quarto\nIn short, quarto has the advantage of making a very well structured website with code chunks easy. No more worry about scattered notes in different folders - put them together, render it so you can find your notes quickly!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "刘奥奇",
-    "section": "",
-    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n  \n  \n欢迎来到我的个人主页。我的主页很无聊，随意看看吧！"
-  },
-  {
-    "objectID": "icu/icu_sepsis/index.html",
-    "href": "icu/icu_sepsis/index.html",
-    "title": "脓毒症与感染性休克",
-    "section": "",
-    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
-  },
-  {
-    "objectID": "icu/icu_sepsis/index.html#定义",
-    "href": "icu/icu_sepsis/index.html#定义",
-    "title": "脓毒症与感染性休克",
-    "section": "",
-    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
-  },
-  {
-    "objectID": "icu/icu_sepsis/index.html#诊断",
-    "href": "icu/icu_sepsis/index.html#诊断",
-    "title": "脓毒症与感染性休克",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n\n\n\n\n脓毒症诊断\n\n\n\n怀疑感染+序贯器官衰竭评分（SOFA）大于等于2\n\n\n\n\n\n\n\n\n脓毒症休克诊断\n\n\n\n在脓毒症的基础上出现了经充分的液体复苏后仍需使用血管活性药物治疗，和/或发生低血压（MAP≤65mmHg）和/或高乳酸血症（乳酸值&gt;2mmHg）\n\n\n\nSIRS：\n出现下列两种或两种以上情况，确诊SIRS：\n\n体温&gt;38℃或&lt;36℃\n心率&gt;90次/min\n呼吸频率&gt;20次/min，或PCO2&lt;32mmHg\nWBC&gt;12x109或&lt;4x109，或未成熟中性粒细胞&gt;0.10"
-  },
-  {
-    "objectID": "icu/icu_sepsis/index.html#治疗",
-    "href": "icu/icu_sepsis/index.html#治疗",
-    "title": "脓毒症与感染性休克",
-    "section": "治疗",
-    "text": "治疗\n\n初始液体复苏\n\n容量状态评估\n\n传统监测\n\n\n血流动力学监测\n\n\n\n初始复苏策略\n\n早期目标导向治疗\n\n\n脓毒症相关低血压治疗\n\n\n\n复苏液体选择\n\n\n\n血管活性药物\n\n\n休克复苏集束化策略\n\n测定血乳酸浓度\n\n\n抗生素\n\n\n静脉补液\n\n\n升压药\n\n\n\n辅助治疗"
-  },
-  {
-    "objectID": "icu/icu_asthma/index.html",
-    "href": "icu/icu_asthma/index.html",
-    "title": "COPD急性发作",
-    "section": "",
-    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
-  },
-  {
-    "objectID": "icu/icu_asthma/index.html#治疗",
-    "href": "icu/icu_asthma/index.html#治疗",
-    "title": "COPD急性发作",
-    "section": "",
-    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
-  },
-  {
-    "objectID": "icu/icu_AKI/index.html",
-    "href": "icu/icu_AKI/index.html",
-    "title": "急性肾损伤",
-    "section": "",
-    "text": "定义\n\n\n\n\n\n\n\n诊断\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\nAKIN诊断标准"
-  },
-  {
-    "objectID": "icu/icu_AKI/index.html#诊断",
-    "href": "icu/icu_AKI/index.html#诊断",
-    "title": "急性肾损伤",
-    "section": "",
-    "text": "定义\n\n\n\n\n\n\n\n诊断\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\nAKIN诊断标准"
-  },
-  {
-    "objectID": "icu/icu_AKI/index.html#治疗",
-    "href": "icu/icu_AKI/index.html#治疗",
-    "title": "急性肾损伤",
-    "section": "治疗",
-    "text": "治疗\n\n早期病因干预治疗\n\n肾前性\n肾性\n肾后性\n\n营养支持治疗\n并发症治疗\n\n高钾血症\n代谢性酸中毒\n感染\n\n肾脏替代治疗\n\n严重的代谢性酸中毒\n高钾血症\n严重肺水肿\n严重的尿毒症症状\n\n恢复期治疗"
-  },
-  {
-    "objectID": "dev/short_bio.html",
-    "href": "dev/short_bio.html",
+    "objectID": "misc/literature.html",
+    "href": "misc/literature.html",
     "title": "笑面狐",
     "section": "",
-    "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
+    "text": "antibiotics stewardship\ninfections (community, hospital)\nelectronic health records\nquality assurance: prescripton and use"
   },
   {
-    "objectID": "code/ggehr/index.html",
-    "href": "code/ggehr/index.html",
-    "title": "ggehr",
-    "section": "",
-    "text": "ggehr (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.\nggehr package helps you make visualize EHR data, so that you can\n\nhave an overview of the mixed type information related to a patient;\nvisually identify the errors in data recording.\n\nLearn more about ggehr"
+    "objectID": "misc/literature.html#ab-x-ehr",
+    "href": "misc/literature.html#ab-x-ehr",
+    "title": "笑面狐",
+    "section": "AB x EHR",
+    "text": "AB x EHR\nMoehring 2021, EHR identify AB use among hospitalized patients\nReenggli 2021: assess EHR conversion into AB stewardship indicators\nCairns 2021: integrate AB stewardship with EHR in australia\nJenkins 2022: AB stewardship using electornic prescribing systems, review of intervention and outcome measures\nKuijpers 2024, excessive length of AB duration for HAI, support AB stewardship high relevance"
   },
   {
-    "objectID": "blog/readnotes_20240606_bad_pharma/index.html",
-    "href": "blog/readnotes_20240606_bad_pharma/index.html",
-    "title": "Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre",
-    "section": "",
-    "text": "Industry funded trials were twenty times more likely to give results that are favoring the test drug\n\nOn the need for meta-analysis\n\nPeople would write long review articles surveying the literature - in which they would cite the trial data they come across in a completely unsystematic fashion, often reflecting their own prejudice and values.\n\nOn trials\n\n… mild torture economy: you’re not being paid to do a job, you’re being paid to endure.\n\nOn regulators\n\nfree movement of staff between regulators and drug companies… a fifth of those surveyed said they had been pressured to approve a drug despite reservation about efficacy and safety\n\n\napplication from large companies, which have greater experience with the regulatory process, pass through to approval faster than those from smaller companies\n\nOn surrogate outcomes\n\nthey are approved for showing a benefit on surrogate outcomes, such as blood test, that is only weakly or theoretically associated with the real suffering and death we’re trying to avoid. Sometimes drugs which work well to change surrogate outcomes simply don’t make any difference to the real outcome.\n\nOn comparative effectiveness research\n\nit is a vitally important filed, in many cases the value of finding out what works best among the drugs we already have would hugely exceed the value of developing entirely new ones.\n\nOn safety and efficacy for approved drugs\n\n39 percent patients believe that FDA only approves ‘extremely effective’ drugs, and 25 percent that it only approves drugs without serious side effect. However regulators frequently approve drugs that are only vaguely effective, with serious side effects, on the off-chance that they might be useful to someone, somewhere, when other interventions aren’t an option.\n\nOn drug reviewing\n\nRegulators that have approved a drug are often reluctant to take it off the market, in case it is seen as an admissio of their failure to spot problems in the first place\n\nOn trial patients\n\nthe ‘ideal’ patients are likely to get better, they exaggerate the benefits of drugs, and help expensive new medicines appear to be more cost effective than they really are. ‘External validity’: trial patient being unrepresentative\n\nOn comparison drugs\n\nit is common to see trials where a new drug is compared to a competitor that is known to be useless; or with a good competitor at a stupidly low (or high) dose\n\nOn random variation in the data\n\nearly stopping because you peeked in the results. should set up stopping rules, specified before the trial begins\nneed a large trial to detect a small difference between two treatments, and a very large trial to be confident that two drugs are equally effective\n(multiple testing, sub-group analysis): measuring lots of things, some will be statistically significant, simply from the natural random variation in all trial data.\n\nOn presenting the results\n\npercent reduction in the risk of heart attack (risk difference)\nrelative risk reduction\npresenting the results as relative risk reduction overstates the benefits\n\nWays trials go wrong\n\nunrepresentative patients\ntoo brief\nmeasure the wrong outcomes\ngo missing, if the result is unflattering\nanalysed wrongly\n\nOn ‘simple trial’ using EHR\n\nat present trials are very expensive. Many struggle to recruit enough patients, many struggle to recruit everyday doctors who don’t want to get involved in the mess of filing out patient report forms, calling patients back for extra appointments, doing extra measurements and so on\nsimple trials have disadvantage of being not blinded - patients know what drug they’ve received\npragmatic trials are cheap\nthese trials run forever and follow-up data are easy to get\n\nOn marketing\n\nSome have estimated that the pharmaceutical industry overall spends twice as much on marketing and promotion as it does on research and developments\n\n\nDrugs are advertised more when the number of potential patients, rather than the current patients, is large."
+    "objectID": "misc/literature.html#ehr-doctor-experience-system-design",
+    "href": "misc/literature.html#ehr-doctor-experience-system-design",
+    "title": "笑面狐",
+    "section": "EHR doctor experience, system design",
+    "text": "EHR doctor experience, system design\nOstrer 2023, real time benefit tools must be designed to serve both clinicians and patients. mentions burden\nKawamoto 2019 Association of EHR add-on app for neonatal bilirubin management, physician efficiency and care quality. Good system and add-on can save clinician time and improve patient care.\nTsai 2020, EHR implementation, barriers to adoption and use high relevance\nOverhage 2020, time spent using EHR\n\nburnout\nTajirian 2020, influence of EHR on physician burnout high relevance\nKhairat 2020, EHR use with physician fatigue and efficiency\nKroth 2019, factors of EHR design and use for physician stress and burnout high relevance\nMelnick 2020, EHR usability, task load and burnout high relevance\nHilliard 2020, factors associated with burnout\nMore on this topic\nhttps://www.sciencedirect.com/science/article/abs/pii/S0897189718301356\nhttps://journals.sagepub.com/doi/full/10.1177/20552076231220241\nhttps://jamanetwork.com/journals/jamanetworkopen/article-abstract/2778909\n\n\nDesign\nGascon 2013 the process of designing a EHR lab request module\nTorres 2017, effect of EHR design on documentation and compliance high relevance"
   },
   {
-    "objectID": "blog/readnotes_20240606_bad_pharma/index.html#notes-from-the-book",
-    "href": "blog/readnotes_20240606_bad_pharma/index.html#notes-from-the-book",
-    "title": "Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre",
-    "section": "",
-    "text": "Industry funded trials were twenty times more likely to give results that are favoring the test drug\n\nOn the need for meta-analysis\n\nPeople would write long review articles surveying the literature - in which they would cite the trial data they come across in a completely unsystematic fashion, often reflecting their own prejudice and values.\n\nOn trials\n\n… mild torture economy: you’re not being paid to do a job, you’re being paid to endure.\n\nOn regulators\n\nfree movement of staff between regulators and drug companies… a fifth of those surveyed said they had been pressured to approve a drug despite reservation about efficacy and safety\n\n\napplication from large companies, which have greater experience with the regulatory process, pass through to approval faster than those from smaller companies\n\nOn surrogate outcomes\n\nthey are approved for showing a benefit on surrogate outcomes, such as blood test, that is only weakly or theoretically associated with the real suffering and death we’re trying to avoid. Sometimes drugs which work well to change surrogate outcomes simply don’t make any difference to the real outcome.\n\nOn comparative effectiveness research\n\nit is a vitally important filed, in many cases the value of finding out what works best among the drugs we already have would hugely exceed the value of developing entirely new ones.\n\nOn safety and efficacy for approved drugs\n\n39 percent patients believe that FDA only approves ‘extremely effective’ drugs, and 25 percent that it only approves drugs without serious side effect. However regulators frequently approve drugs that are only vaguely effective, with serious side effects, on the off-chance that they might be useful to someone, somewhere, when other interventions aren’t an option.\n\nOn drug reviewing\n\nRegulators that have approved a drug are often reluctant to take it off the market, in case it is seen as an admissio of their failure to spot problems in the first place\n\nOn trial patients\n\nthe ‘ideal’ patients are likely to get better, they exaggerate the benefits of drugs, and help expensive new medicines appear to be more cost effective than they really are. ‘External validity’: trial patient being unrepresentative\n\nOn comparison drugs\n\nit is common to see trials where a new drug is compared to a competitor that is known to be useless; or with a good competitor at a stupidly low (or high) dose\n\nOn random variation in the data\n\nearly stopping because you peeked in the results. should set up stopping rules, specified before the trial begins\nneed a large trial to detect a small difference between two treatments, and a very large trial to be confident that two drugs are equally effective\n(multiple testing, sub-group analysis): measuring lots of things, some will be statistically significant, simply from the natural random variation in all trial data.\n\nOn presenting the results\n\npercent reduction in the risk of heart attack (risk difference)\nrelative risk reduction\npresenting the results as relative risk reduction overstates the benefits\n\nWays trials go wrong\n\nunrepresentative patients\ntoo brief\nmeasure the wrong outcomes\ngo missing, if the result is unflattering\nanalysed wrongly\n\nOn ‘simple trial’ using EHR\n\nat present trials are very expensive. Many struggle to recruit enough patients, many struggle to recruit everyday doctors who don’t want to get involved in the mess of filing out patient report forms, calling patients back for extra appointments, doing extra measurements and so on\nsimple trials have disadvantage of being not blinded - patients know what drug they’ve received\npragmatic trials are cheap\nthese trials run forever and follow-up data are easy to get\n\nOn marketing\n\nSome have estimated that the pharmaceutical industry overall spends twice as much on marketing and promotion as it does on research and developments\n\n\nDrugs are advertised more when the number of potential patients, rather than the current patients, is large."
+    "objectID": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
+    "href": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
+    "title": "笑面狐",
+    "section": "EHR data quality, use for prediction model development",
+    "text": "EHR data quality, use for prediction model development\n\nerror\nbell 2020\nhttps://www.sciencedirect.com/science/article/abs/pii/S2213076420300439\nLi 2024, comparison of error reporting systems. 82% undetected, 90% had no corresponding incident report, some errors not reported at all\nWestbrook 2020, changes in medication administration error rates, associated with EHR\nGildon 2019, impact of EHR on prescribing errors in pediatric clinics. introduction is relevant for pointing out the need for well designed system\nGinzburg 2018, use clinical decision support within EHR to reduce incorrect prescribing for acute sinusitis. shows prompt for physicians to fill in reason for why AB is required high relevance\n\n\nbias\nGianfrancesco 2018, potential biases in ML algorithms using EHR data. Existing EHR disparities should not be amplified by thoughtless or excess reliance on machines.\nAgniel 2018, biases in EHR due to process within the healthcare system. healthcare processes must be addressed in the analysis of observational health data, context is important. high relevance\nBower, biases in EHR based surveillance of cardiovascular disease risk\nHarding2024, addressing common sources of bias in type 2 diabetes following covid, using EHR\nBica 2020, current and future methods to address underlying challenges from EHR to treatment effects mid relevance to manuscript, but important to myself\nDesai 2020, prediction using admin EHR, hear failure"
   },
   {
-    "objectID": "blog/blog_interview_non_professional/index.html",
-    "href": "blog/blog_interview_non_professional/index.html",
-    "title": "面试——非专业问题",
-    "section": "",
-    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+    "objectID": "misc/literature.html#ab-stewardship-not-so-relevant",
+    "href": "misc/literature.html#ab-stewardship-not-so-relevant",
+    "title": "笑面狐",
+    "section": "AB stewardship (not so relevant)",
+    "text": "AB stewardship (not so relevant)\nRenggli 2021: consumption of anti-meticillin resistant staphylococcus aureus antibiotics in Swiss hospitals is associateed with antibiotic stewardship measures\nVaughn 2021: AB overuse and stewardship at hospital discharge\nGraber 2019: electronic tools to decrease AB use"
   },
   {
-    "objectID": "blog/blog_interview_non_professional/index.html#关于自己",
-    "href": "blog/blog_interview_non_professional/index.html#关于自己",
-    "title": "面试——非专业问题",
+    "objectID": "icu/icu_shock/index.html",
+    "href": "icu/icu_shock/index.html",
+    "title": "休克",
     "section": "",
-    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
   },
   {
-    "objectID": "about_me.html",
-    "href": "about_me.html",
-    "title": "刘奥奇",
+    "objectID": "icu/icu_shock/index.html#分类",
+    "href": "icu/icu_shock/index.html#分类",
+    "title": "休克",
     "section": "",
-    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
+    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
   },
   {
-    "objectID": "blog/blog.html",
-    "href": "blog/blog.html",
-    "title": "笔记",
+    "objectID": "icu/icu_shock/index.html#监测",
+    "href": "icu/icu_shock/index.html#监测",
+    "title": "休克",
+    "section": "监测",
+    "text": "监测\n\n一般监测\n\n精神状态\n皮肤粘膜温度和色泽\n血压\n脉率\n尿量\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#治疗",
+    "href": "icu/icu_shock/index.html#治疗",
+    "title": "休克",
+    "section": "治疗",
+    "text": "治疗\n\n紧急治疗\n补充血容量\n积极处理原发疾病\n纠正酸碱平衡失调\n血管活性药物\n治疗DIC改善微循环\n糖皮质激素与其他药物的使用"
+  },
+  {
+    "objectID": "icu/icu_ICP/index.html",
+    "href": "icu/icu_ICP/index.html",
+    "title": "颅内压增高",
     "section": "",
-    "text": "日志\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n面试——非专业问题\n\n\n2024/11/5\n\n\n\n\n\n\n无匹配项\n\n\n\n学习笔记\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n我的重症医学单词: 2025年8月27日\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项\n\n\n\n阅读\nThis section is constantly being updated.\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\nBad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre\n\n\n2024/6/6\n\n\n\n\n\n\n无匹配项"
+    "text": "正常颅内压范围70~200mmHg"
+  },
+  {
+    "objectID": "icu/icu_ICP/index.html#治疗",
+    "href": "icu/icu_ICP/index.html#治疗",
+    "title": "颅内压增高",
+    "section": "治疗",
+    "text": "治疗\n\n一般治疗\n\n观察监测：神志、瞳孔、血压、呼吸、脉搏、体温变化\n频繁呕吐：禁食防吸入性肺炎，适度补液\n轻泻剂：严禁高位灌肠\n气管切开：昏迷、咳痰困难，应行气管切开\n\n\n\n病因治疗\n紧急抢救或手术\n\n\n药物治疗降低颅内压\n\n口服药物：氢氯噻嗪、乙酰唑胺\n静脉注射：20%甘露醇、呋塞米\n\n\n\n糖皮质激素\n减轻脑水肿\n\n\n脑脊液体外引流\n\n\n巴比妥治疗\n降低脑代谢，减少氧耗\n\n\n过度换气\nPCO2每下降1mmHg，脑血流递减2%\n\n\n对症治疗\n镇痛、镇静、抗癫痫"
+  },
+  {
+    "objectID": "icu/icu_DIC/index.html",
+    "href": "icu/icu_DIC/index.html",
+    "title": "弥散性血管内凝血",
+    "section": "",
+    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
+  },
+  {
+    "objectID": "icu/icu_DIC/index.html#发病机制",
+    "href": "icu/icu_DIC/index.html#发病机制",
+    "title": "弥散性血管内凝血",
+    "section": "",
+    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
+  },
+  {
+    "objectID": "icu/icu_DIC/index.html#分期",
+    "href": "icu/icu_DIC/index.html#分期",
+    "title": "弥散性血管内凝血",
+    "section": "分期",
+    "text": "分期\n\n临床前期：前DIC\n早期DIC：初发性高凝期\n中期DIC：消耗性低凝期\n晚期DIC：继发性纤溶亢进期"
+  },
+  {
+    "objectID": "icu/icu_DIC/index.html#治疗",
+    "href": "icu/icu_DIC/index.html#治疗",
+    "title": "弥散性血管内凝血",
+    "section": "治疗",
+    "text": "治疗\n\n病因治疗\n控制感染，治疗肿瘤等\n\n\n抗凝治疗\n肝素、重组人血栓调节蛋白\n\n\n替代治疗\n血小板和凝血因子\n有明显出血且血小板&lt;50x109/L，输注血小板\n无出血倾向者血小板&lt;20x109/L，输注血小板\n\n\n抗纤溶治疗\n纤溶明显时，氨甲环酸\n\n\n支持治疗"
+  },
+  {
+    "objectID": "icu/icu_CAP/index.html",
+    "href": "icu/icu_CAP/index.html",
+    "title": "重症社区获得性肺炎（CAP）",
+    "section": "",
+    "text": "社区获得性肺炎（CAP）"
+  },
+  {
+    "objectID": "icu/icu_CAP/index.html#定义",
+    "href": "icu/icu_CAP/index.html#定义",
+    "title": "重症社区获得性肺炎（CAP）",
+    "section": "",
+    "text": "社区获得性肺炎（CAP）"
+  },
+  {
+    "objectID": "icu/icu_CAP/index.html#诊断",
+    "href": "icu/icu_CAP/index.html#诊断",
+    "title": "重症社区获得性肺炎（CAP）",
+    "section": "诊断",
+    "text": "诊断\n\nCAP诊断标准重症CAP诊断标准"
+  },
+  {
+    "objectID": "icu/icu_CAP/index.html#治疗",
+    "href": "icu/icu_CAP/index.html#治疗",
+    "title": "重症社区获得性肺炎（CAP）",
+    "section": "治疗",
+    "text": "治疗\n\n经验性抗菌药物治疗\n\n无铜绿假单胞菌感染因素：\n单用β内酰胺类或联合大环内酯类或氟喹诺酮类\n\n\n有铜绿假单胞菌感染因素\n抗铜绿假单胞菌的β内酰胺类、光谱青霉素/β内酰胺酶抑制剂、碳青霉烯类的一种联合呼吸氟喹诺酮类或氨基糖苷类\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症\n\n\n\n治疗效果评估\n抗感染治疗48~72h对治疗效果进行评估。"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html",
+    "href": "icu/icu_ARDS/index.html",
+    "title": "ARDS",
+    "section": "",
+    "text": "ARDS"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html#定义",
+    "href": "icu/icu_ARDS/index.html#定义",
+    "title": "ARDS",
+    "section": "",
+    "text": "ARDS"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html#诊断",
+    "href": "icu/icu_ARDS/index.html#诊断",
+    "title": "ARDS",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\nARDS的柏林诊断标准"
+  },
+  {
+    "objectID": "icu/icu_ARDS/index.html#治疗",
+    "href": "icu/icu_ARDS/index.html#治疗",
+    "title": "ARDS",
+    "section": "治疗",
+    "text": "治疗\n\n病因治疗\n\n\n肺保护性通气策略\n\n小潮气量通气\n控制平台压\nPEEP\n\n\n\n挽救性治疗\n\n肺复张实施\n肌松药使用\n俯卧位通气\n高频通气\nECMO\n\n\n\n液体管理\n\n\n营养支持与监护\n\n\n其他治疗"
+  },
+  {
+    "objectID": "icu/icu_ALF/index.html",
+    "href": "icu/icu_ALF/index.html",
+    "title": "急性肝衰竭",
+    "section": "",
+    "text": "肝衰竭的定义与分类"
+  },
+  {
+    "objectID": "icu/icu_ALF/index.html#分类",
+    "href": "icu/icu_ALF/index.html#分类",
+    "title": "急性肝衰竭",
+    "section": "",
+    "text": "肝衰竭的定义与分类"
+  },
+  {
+    "objectID": "icu/icu_ALF/index.html#分期",
+    "href": "icu/icu_ALF/index.html#分期",
+    "title": "急性肝衰竭",
+    "section": "分期",
+    "text": "分期\n\n早期\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n黄疸进行性加深（TB&gt;171μmmol/L或每日上升≥17.1μmmol/L）\n有出血倾向，凝血酶原活动度（PTA）为30%~40%\n未出现肝性脑病和明显腹水\n\n\n\n中期\n\n出现II度以下肝性脑病和明显腹水\n出血倾向明显，PTA为20%~30%\n\n\n\n晚期\n\n有难治性并发症，如肝肾综合征、上消化道大出血、严重感染和难以纠正的电解质紊乱\n出现II度以上肝性脑病\n有严重出血倾向，PTA&lt;20%"
+  },
+  {
+    "objectID": "icu/icu_ALF/index.html#临床诊断",
+    "href": "icu/icu_ALF/index.html#临床诊断",
+    "title": "急性肝衰竭",
+    "section": "临床诊断",
+    "text": "临床诊断\n\n急性肝衰竭\n\n急性起病2周内出现II度及以上肝性脑病并有以下表现者：\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n短期内黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n肝脏进行性缩小\n\n\n\n\n亚急性肝衰竭\n\n起病较急，15天~26周出现以下表现者：\n\n极度乏力，有明显消化道症状\n黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n\n\n\n\n慢加急性肝衰竭\n\n在慢性肝病的基础上，短期内发生急性肝功能失代偿的主要临床表现\n\n\n\n慢性肝衰竭\n\n在肝硬化基础上，肝功能进行性减退和失代偿\n\n有腹水或其他门脉高压表现\n可有肝性脑病\n血清总胆红素升高，白蛋白明显降低\n有凝血功能障碍，PTA&lt;40%"
+  },
+  {
+    "objectID": "icu/icu_ALF/index.html#治疗",
+    "href": "icu/icu_ALF/index.html#治疗",
+    "title": "急性肝衰竭",
+    "section": "治疗",
+    "text": "治疗\n\n一般处理原则\n\n卧床休息、清淡饮食\n加强病情监护\n\n\n\n内科综合治疗\n\n病因治疗\n\n抗病毒治疗\n\n\n对乙酰氨基酚：活性炭，N-NAC\n\n\n毒蕈中毒：洗胃，活性炭，N-NAC\n\n\n威尔逊病：降低血铜、减少溶血、白蛋白透析和血浆置换\n\n\n自身免疫性肝炎：糖皮质激素\n\n\n妊娠期急性脂肪肝：尽早结束妊娠\n\n\n\n保肝治疗\n甘草酸苷类，还原性谷胱甘肽\n\n\n免疫调节与抗感染治疗\n自免肝、乙醇中毒：肾上腺皮质激素\n\n\n并发症处理与器官支持\n\n循环支持：去甲肾上腺素维持MAP&gt;65mmHg，存在心功能不全给予多巴酚丁胺等正性肌力药\n\n\n呼吸支持：III度以上肝性脑病给予气管插管，防止误吸\n\n\n肝性脑病与脑水肿：\n\nII度以上肝性脑病转入ICU监测与治疗\nIII度以上肝性脑病需气管插管和机械通气\n甘露醇降低颅压\n巴比妥镇静→减少氧耗，预防癫痫\n\n\n\n急性肾损伤和肝肾综合征：\n\n尽量避免肾毒性药物和非甾体抗炎药\n尽早CRRT\n\n\n\n凝血功能障碍和出血：\n\n适当补充血小板和凝血因子\n质子泵抑制剂预防应激性溃疡\n\n\n\n防止低血糖和营养支持\n\n\n防治感染"
+  },
+  {
+    "objectID": "icu/icu.html",
+    "href": "icu/icu.html",
+    "title": "ICU",
+    "section": "",
+    "text": "这是ICU专业知识."
+  },
+  {
+    "objectID": "icu/icu.html#前言",
+    "href": "icu/icu.html#前言",
+    "title": "ICU",
+    "section": "",
+    "text": "这是ICU专业知识."
+  },
+  {
+    "objectID": "icu/icu.html#选择先前的笔记",
+    "href": "icu/icu.html#选择先前的笔记",
+    "title": "ICU",
+    "section": "选择先前的笔记",
+    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
+  },
+  {
+    "objectID": "code/qtwAcademic/index.html",
+    "href": "code/qtwAcademic/index.html",
+    "title": "qtwAcademic",
+    "section": "",
+    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
+  },
+  {
+    "objectID": "code/code.html",
+    "href": "code/code.html",
+    "title": "代码",
+    "section": "",
+    "text": "ggehr\n\n\nggplot2 extension to EHR data\n\n\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "blog/learnnotes_words/index.html",
@@ -336,67 +448,123 @@
     "text": "deviate /ˈdiːvieɪt/ 偏离\noptimal 最优的\ncomply [kəmˈplaɪ] 遵从，服从\nfungal 真菌的\nregimen 方案、疗程\nanesthetic [ˌænəsˈθetɪk] 麻醉剂、麻醉的"
   },
   {
-    "objectID": "code/code.html",
-    "href": "code/code.html",
-    "title": "代码",
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "笔记",
     "section": "",
-    "text": "ggehr\n\n\nggplot2 extension to EHR data\n\n\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n无匹配项\n\n\nPublic health\n\n\n\nPackage\nDescription\n\n\n\n\nnoreden\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\nmedicode\nMetadata for medical classification and clinical coding\n\n\ncsdata\nPre-formatted structured data for Norway\n\n\ncsmaps\nPre-formatted map data for Norway"
+    "text": "日志\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n面试——非专业问题\n\n\n2024/11/5\n\n\n\n\n\n\n无匹配项\n\n\n\n学习笔记\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n我的重症医学单词: 2025年8月27日\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项\n\n\n\n阅读\nThis section is constantly being updated.\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\nBad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre\n\n\n2024/6/6\n\n\n\n\n\n\n无匹配项"
   },
   {
-    "objectID": "code/qtwAcademic/index.html",
-    "href": "code/qtwAcademic/index.html",
-    "title": "qtwAcademic",
+    "objectID": "about_me.html",
+    "href": "about_me.html",
+    "title": "刘奥奇",
     "section": "",
-    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
+    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
   },
   {
-    "objectID": "icu/icu.html",
-    "href": "icu/icu.html",
-    "title": "ICU",
+    "objectID": "blog/blog_interview_non_professional/index.html",
+    "href": "blog/blog_interview_non_professional/index.html",
+    "title": "面试——非专业问题",
     "section": "",
-    "text": "这是ICU专业知识."
+    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
   },
   {
-    "objectID": "icu/icu.html#前言",
-    "href": "icu/icu.html#前言",
-    "title": "ICU",
+    "objectID": "blog/blog_interview_non_professional/index.html#关于自己",
+    "href": "blog/blog_interview_non_professional/index.html#关于自己",
+    "title": "面试——非专业问题",
     "section": "",
-    "text": "这是ICU专业知识."
+    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
   },
   {
-    "objectID": "icu/icu.html#选择先前的笔记",
-    "href": "icu/icu.html#选择先前的笔记",
-    "title": "ICU",
-    "section": "选择先前的笔记",
-    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n描述\n\n\n\n日期\n\n\n\n\n\n\n\n\n急性肾损伤\n\n\n急性肾损伤的诊断和治疗\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n急性呼吸窘迫综合征的诊断与治疗\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n慢性阻塞性肺疾病的治疗\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性发作\n\n\n治疗\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n脓毒症的定义、诊断和治疗\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n休克的分类、监测以及治疗\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
-  },
-  {
-    "objectID": "icu/icu_ARDS/index.html",
-    "href": "icu/icu_ARDS/index.html",
-    "title": "ARDS",
+    "objectID": "blog/readnotes_20240606_bad_pharma/index.html",
+    "href": "blog/readnotes_20240606_bad_pharma/index.html",
+    "title": "Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre",
     "section": "",
-    "text": "ARDS"
+    "text": "Industry funded trials were twenty times more likely to give results that are favoring the test drug\n\nOn the need for meta-analysis\n\nPeople would write long review articles surveying the literature - in which they would cite the trial data they come across in a completely unsystematic fashion, often reflecting their own prejudice and values.\n\nOn trials\n\n… mild torture economy: you’re not being paid to do a job, you’re being paid to endure.\n\nOn regulators\n\nfree movement of staff between regulators and drug companies… a fifth of those surveyed said they had been pressured to approve a drug despite reservation about efficacy and safety\n\n\napplication from large companies, which have greater experience with the regulatory process, pass through to approval faster than those from smaller companies\n\nOn surrogate outcomes\n\nthey are approved for showing a benefit on surrogate outcomes, such as blood test, that is only weakly or theoretically associated with the real suffering and death we’re trying to avoid. Sometimes drugs which work well to change surrogate outcomes simply don’t make any difference to the real outcome.\n\nOn comparative effectiveness research\n\nit is a vitally important filed, in many cases the value of finding out what works best among the drugs we already have would hugely exceed the value of developing entirely new ones.\n\nOn safety and efficacy for approved drugs\n\n39 percent patients believe that FDA only approves ‘extremely effective’ drugs, and 25 percent that it only approves drugs without serious side effect. However regulators frequently approve drugs that are only vaguely effective, with serious side effects, on the off-chance that they might be useful to someone, somewhere, when other interventions aren’t an option.\n\nOn drug reviewing\n\nRegulators that have approved a drug are often reluctant to take it off the market, in case it is seen as an admissio of their failure to spot problems in the first place\n\nOn trial patients\n\nthe ‘ideal’ patients are likely to get better, they exaggerate the benefits of drugs, and help expensive new medicines appear to be more cost effective than they really are. ‘External validity’: trial patient being unrepresentative\n\nOn comparison drugs\n\nit is common to see trials where a new drug is compared to a competitor that is known to be useless; or with a good competitor at a stupidly low (or high) dose\n\nOn random variation in the data\n\nearly stopping because you peeked in the results. should set up stopping rules, specified before the trial begins\nneed a large trial to detect a small difference between two treatments, and a very large trial to be confident that two drugs are equally effective\n(multiple testing, sub-group analysis): measuring lots of things, some will be statistically significant, simply from the natural random variation in all trial data.\n\nOn presenting the results\n\npercent reduction in the risk of heart attack (risk difference)\nrelative risk reduction\npresenting the results as relative risk reduction overstates the benefits\n\nWays trials go wrong\n\nunrepresentative patients\ntoo brief\nmeasure the wrong outcomes\ngo missing, if the result is unflattering\nanalysed wrongly\n\nOn ‘simple trial’ using EHR\n\nat present trials are very expensive. Many struggle to recruit enough patients, many struggle to recruit everyday doctors who don’t want to get involved in the mess of filing out patient report forms, calling patients back for extra appointments, doing extra measurements and so on\nsimple trials have disadvantage of being not blinded - patients know what drug they’ve received\npragmatic trials are cheap\nthese trials run forever and follow-up data are easy to get\n\nOn marketing\n\nSome have estimated that the pharmaceutical industry overall spends twice as much on marketing and promotion as it does on research and developments\n\n\nDrugs are advertised more when the number of potential patients, rather than the current patients, is large."
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#定义",
-    "href": "icu/icu_ARDS/index.html#定义",
-    "title": "ARDS",
+    "objectID": "blog/readnotes_20240606_bad_pharma/index.html#notes-from-the-book",
+    "href": "blog/readnotes_20240606_bad_pharma/index.html#notes-from-the-book",
+    "title": "Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre",
     "section": "",
-    "text": "ARDS"
+    "text": "Industry funded trials were twenty times more likely to give results that are favoring the test drug\n\nOn the need for meta-analysis\n\nPeople would write long review articles surveying the literature - in which they would cite the trial data they come across in a completely unsystematic fashion, often reflecting their own prejudice and values.\n\nOn trials\n\n… mild torture economy: you’re not being paid to do a job, you’re being paid to endure.\n\nOn regulators\n\nfree movement of staff between regulators and drug companies… a fifth of those surveyed said they had been pressured to approve a drug despite reservation about efficacy and safety\n\n\napplication from large companies, which have greater experience with the regulatory process, pass through to approval faster than those from smaller companies\n\nOn surrogate outcomes\n\nthey are approved for showing a benefit on surrogate outcomes, such as blood test, that is only weakly or theoretically associated with the real suffering and death we’re trying to avoid. Sometimes drugs which work well to change surrogate outcomes simply don’t make any difference to the real outcome.\n\nOn comparative effectiveness research\n\nit is a vitally important filed, in many cases the value of finding out what works best among the drugs we already have would hugely exceed the value of developing entirely new ones.\n\nOn safety and efficacy for approved drugs\n\n39 percent patients believe that FDA only approves ‘extremely effective’ drugs, and 25 percent that it only approves drugs without serious side effect. However regulators frequently approve drugs that are only vaguely effective, with serious side effects, on the off-chance that they might be useful to someone, somewhere, when other interventions aren’t an option.\n\nOn drug reviewing\n\nRegulators that have approved a drug are often reluctant to take it off the market, in case it is seen as an admissio of their failure to spot problems in the first place\n\nOn trial patients\n\nthe ‘ideal’ patients are likely to get better, they exaggerate the benefits of drugs, and help expensive new medicines appear to be more cost effective than they really are. ‘External validity’: trial patient being unrepresentative\n\nOn comparison drugs\n\nit is common to see trials where a new drug is compared to a competitor that is known to be useless; or with a good competitor at a stupidly low (or high) dose\n\nOn random variation in the data\n\nearly stopping because you peeked in the results. should set up stopping rules, specified before the trial begins\nneed a large trial to detect a small difference between two treatments, and a very large trial to be confident that two drugs are equally effective\n(multiple testing, sub-group analysis): measuring lots of things, some will be statistically significant, simply from the natural random variation in all trial data.\n\nOn presenting the results\n\npercent reduction in the risk of heart attack (risk difference)\nrelative risk reduction\npresenting the results as relative risk reduction overstates the benefits\n\nWays trials go wrong\n\nunrepresentative patients\ntoo brief\nmeasure the wrong outcomes\ngo missing, if the result is unflattering\nanalysed wrongly\n\nOn ‘simple trial’ using EHR\n\nat present trials are very expensive. Many struggle to recruit enough patients, many struggle to recruit everyday doctors who don’t want to get involved in the mess of filing out patient report forms, calling patients back for extra appointments, doing extra measurements and so on\nsimple trials have disadvantage of being not blinded - patients know what drug they’ve received\npragmatic trials are cheap\nthese trials run forever and follow-up data are easy to get\n\nOn marketing\n\nSome have estimated that the pharmaceutical industry overall spends twice as much on marketing and promotion as it does on research and developments\n\n\nDrugs are advertised more when the number of potential patients, rather than the current patients, is large."
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#诊断",
-    "href": "icu/icu_ARDS/index.html#诊断",
-    "title": "ARDS",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n\n\n\nARDS的柏林诊断标准"
+    "objectID": "code/ggehr/index.html",
+    "href": "code/ggehr/index.html",
+    "title": "ggehr",
+    "section": "",
+    "text": "ggehr (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.\nggehr package helps you make visualize EHR data, so that you can\n\nhave an overview of the mixed type information related to a patient;\nvisually identify the errors in data recording.\n\nLearn more about ggehr"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#治疗",
-    "href": "icu/icu_ARDS/index.html#治疗",
-    "title": "ARDS",
+    "objectID": "dev/short_bio.html",
+    "href": "dev/short_bio.html",
+    "title": "笑面狐",
+    "section": "",
+    "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
+  },
+  {
+    "objectID": "icu/icu_AKI/index.html",
+    "href": "icu/icu_AKI/index.html",
+    "title": "急性肾损伤",
+    "section": "",
+    "text": "定义\n\n\n\n\n\n\n\n诊断\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\nAKIN诊断标准"
+  },
+  {
+    "objectID": "icu/icu_AKI/index.html#诊断",
+    "href": "icu/icu_AKI/index.html#诊断",
+    "title": "急性肾损伤",
+    "section": "",
+    "text": "定义\n\n\n\n\n\n\n\n诊断\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\nAKIN诊断标准"
+  },
+  {
+    "objectID": "icu/icu_AKI/index.html#治疗",
+    "href": "icu/icu_AKI/index.html#治疗",
+    "title": "急性肾损伤",
     "section": "治疗",
-    "text": "治疗\n\n病因治疗\n\n\n肺保护性通气策略\n\n小潮气量通气\n控制平台压\nPEEP\n\n\n\n挽救性治疗\n\n肺复张实施\n肌松药使用\n俯卧位通气\n高频通气\nECMO\n\n\n\n液体管理\n\n\n营养支持与监护\n\n\n其他治疗"
+    "text": "治疗\n\n早期病因干预治疗\n\n肾前性\n肾性\n肾后性\n\n营养支持治疗\n并发症治疗\n\n高钾血症\n代谢性酸中毒\n感染\n\n肾脏替代治疗\n\n严重的代谢性酸中毒\n高钾血症\n严重肺水肿\n严重的尿毒症症状\n\n恢复期治疗"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html",
+    "href": "icu/icu_AP/index.html",
+    "title": "重症急性胰腺炎",
+    "section": "",
+    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html#诊断",
+    "href": "icu/icu_AP/index.html#诊断",
+    "title": "重症急性胰腺炎",
+    "section": "",
+    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html#并发症",
+    "href": "icu/icu_AP/index.html#并发症",
+    "title": "重症急性胰腺炎",
+    "section": "并发症",
+    "text": "并发症\n\n急性胰腺炎局部并发症\n\n急性胰周液体积聚\n胰腺假性囊肿\n急性坏死物积聚\n包裹性坏死\n感染性胰腺坏死"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html#治疗",
+    "href": "icu/icu_AP/index.html#治疗",
+    "title": "重症急性胰腺炎",
+    "section": "治疗",
+    "text": "治疗\n\n两大任务：\n\n寻找并去除病因\n控制炎症\n\n\n监护\nAPACHE II评分评估病情，APACHE II≥8为SAP高危人群\n\n\n器官支持\n\n液体复苏\n\n\n呼吸功能\n吸氧，正压机械通气\n\n\n肠功能维护\n导泻及口服抗生素\n\n\n连续性血液净化\n\n\n\n减少胰液分泌\n\n禁食\n\n\n生长抑素\n\n\n\n控制炎症\n\n液体复苏\n\n\n生长抑素\n\n\n早期肠内营养\n\n\n\n镇痛\n哌替啶\n\n\n急诊内镜去除病因\n\n\n预防和抗感染\n\n\n早期肠内营养\n\n\n择期内镜、腹腔镜去除病因\n\n\n胰腺局部并发症\n\n胰腺假性囊肿\n\n&lt;4cm囊肿，自行吸收\n\n&gt;6cm或多发囊肿，观察6~8周后，无缩小和吸收趋势，则需引流\n\n\n胰腺脓肿处理"
+  },
+  {
+    "objectID": "icu/icu_asthma/index.html",
+    "href": "icu/icu_asthma/index.html",
+    "title": "COPD急性发作",
+    "section": "",
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
+  },
+  {
+    "objectID": "icu/icu_asthma/index.html#治疗",
+    "href": "icu/icu_asthma/index.html#治疗",
+    "title": "COPD急性发作",
+    "section": "",
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
   },
   {
     "objectID": "icu/icu_COPD/index.html",
@@ -413,67 +581,74 @@
     "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
   },
   {
-    "objectID": "icu/icu_shock/index.html",
-    "href": "icu/icu_shock/index.html",
-    "title": "休克",
+    "objectID": "icu/icu_HAP/index.html",
+    "href": "icu/icu_HAP/index.html",
+    "title": "医院获得性肺炎（HAP）",
     "section": "",
-    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+    "text": "医院获得性肺炎（HAP）"
   },
   {
-    "objectID": "icu/icu_shock/index.html#分类",
-    "href": "icu/icu_shock/index.html#分类",
-    "title": "休克",
+    "objectID": "icu/icu_HAP/index.html#定义",
+    "href": "icu/icu_HAP/index.html#定义",
+    "title": "医院获得性肺炎（HAP）",
     "section": "",
-    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+    "text": "医院获得性肺炎（HAP）"
   },
   {
-    "objectID": "icu/icu_shock/index.html#监测",
-    "href": "icu/icu_shock/index.html#监测",
-    "title": "休克",
-    "section": "监测",
-    "text": "监测\n\n一般监测\n\n精神状态\n皮肤粘膜温度和色泽\n血压\n脉率\n尿量\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪"
+    "objectID": "icu/icu_HAP/index.html#诊断",
+    "href": "icu/icu_HAP/index.html#诊断",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n医院获得性肺炎的诊断标准"
   },
   {
-    "objectID": "icu/icu_shock/index.html#治疗",
-    "href": "icu/icu_shock/index.html#治疗",
-    "title": "休克",
+    "objectID": "icu/icu_HAP/index.html#治疗",
+    "href": "icu/icu_HAP/index.html#治疗",
+    "title": "医院获得性肺炎（HAP）",
     "section": "治疗",
-    "text": "治疗\n\n紧急治疗\n补充血容量\n积极处理原发疾病\n纠正酸碱平衡失调\n血管活性药物\n治疗DIC改善微循环\n糖皮质激素与其他药物的使用"
+    "text": "治疗\n\n一、核心治疗：抗感染治疗\n需根据患者是否存在多重耐药菌（MDR）感染风险，选择初始经验性用药，后续根据细菌培养+药敏结果调整为目标性用药。\n\n无MDR感染风险患者（初始经验性用药）\n覆盖常见敏感菌（如肺炎克雷伯菌、大肠埃希菌、流感嗜血杆菌等），推荐药物：\n\n头孢菌素类：如头孢他啶、头孢吡肟；\n青霉素类复方制剂：如哌拉西林-他唑巴坦；\n氟喹诺酮类：如左氧氟沙星、莫西沙星（需注意药物敏感性及患者基础疾病禁忌）。\n\n\n\n有MDR感染风险患者（初始经验性用药）\n需额外覆盖MDR菌（如耐甲氧西林金黄色葡萄球菌MRSA、产超广谱β-内酰胺酶ESBLs菌、铜绿假单胞菌等），推荐联合用药方案：\n\n抗MRSA药物：如万古霉素、利奈唑胺；\n抗铜绿假单胞菌药物（选1种）：如头孢他啶、头孢吡肟、哌拉西林-他唑巴坦、碳青霉烯类（亚胺培南、美罗培南）；\n必要时加用氨基糖苷类（如阿米卡星）或氟喹诺酮类，增强抗铜绿假单胞菌效果。\n\n\n\n目标性用药\n待痰培养、支气管肺泡灌洗液培养等病原学结果回报后，根据“药敏试验”选择敏感抗生素，避免广谱用药，减少耐药性及药物不良反应。\n\n\n用药疗程\n\n常规HAP：疗程通常为7天；\n抗感染治疗48~72h对治疗效果进行评估。\n合并MDR菌感染、免疫功能低下、治疗反应差者：可延长至10-14天，需结合临床症状（发热、咳嗽咳痰）、影像学（胸片/CT）、炎症指标（血常规、CRP、PCT）动态评估，避免过度治疗。\n\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症"
   },
   {
-    "objectID": "misc/literature.html",
-    "href": "misc/literature.html",
+    "objectID": "icu/icu_HAP/index.html#预防",
+    "href": "icu/icu_HAP/index.html#预防",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "预防",
+    "text": "预防\n\n预防误吸：半卧位，合理喂食\n减少上呼吸道和消化道病原菌定植：氯己定护理\n积极治疗基础疾病\n加强患者管理：对免疫抑制患者进行保护性隔离；耐药菌感染患者进行接触隔离措施；加强医务人员手卫生和无菌操作"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html",
+    "href": "icu/icu_sepsis/index.html",
+    "title": "脓毒症与感染性休克",
+    "section": "",
+    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html#定义",
+    "href": "icu/icu_sepsis/index.html#定义",
+    "title": "脓毒症与感染性休克",
+    "section": "",
+    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html#诊断",
+    "href": "icu/icu_sepsis/index.html#诊断",
+    "title": "脓毒症与感染性休克",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\n\n脓毒症诊断\n\n\n\n怀疑感染+序贯器官衰竭评分（SOFA）大于等于2\n\n\n\n\n\n\n\n\n脓毒症休克诊断\n\n\n\n在脓毒症的基础上出现了经充分的液体复苏后仍需使用血管活性药物治疗，和/或发生低血压（MAP≤65mmHg）和/或高乳酸血症（乳酸值&gt;2mmHg）\n\n\n\nSIRS：\n出现下列两种或两种以上情况，确诊SIRS：\n\n体温&gt;38℃或&lt;36℃\n心率&gt;90次/min\n呼吸频率&gt;20次/min，或PCO2&lt;32mmHg\nWBC&gt;12x109或&lt;4x109，或未成熟中性粒细胞&gt;0.10"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html#治疗",
+    "href": "icu/icu_sepsis/index.html#治疗",
+    "title": "脓毒症与感染性休克",
+    "section": "治疗",
+    "text": "治疗\n\n初始液体复苏\n\n容量状态评估\n\n传统监测\n\n\n血流动力学监测\n\n\n\n初始复苏策略\n\n早期目标导向治疗\n\n\n脓毒症相关低血压治疗\n\n\n\n复苏液体选择\n\n\n\n血管活性药物\n\n\n休克复苏集束化策略\n\n测定血乳酸浓度\n\n\n抗生素\n\n\n静脉补液\n\n\n升压药\n\n\n\n辅助治疗"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "笑面狐",
     "section": "",
-    "text": "antibiotics stewardship\ninfections (community, hospital)\nelectronic health records\nquality assurance: prescripton and use"
-  },
-  {
-    "objectID": "misc/literature.html#ab-x-ehr",
-    "href": "misc/literature.html#ab-x-ehr",
-    "title": "笑面狐",
-    "section": "AB x EHR",
-    "text": "AB x EHR\nMoehring 2021, EHR identify AB use among hospitalized patients\nReenggli 2021: assess EHR conversion into AB stewardship indicators\nCairns 2021: integrate AB stewardship with EHR in australia\nJenkins 2022: AB stewardship using electornic prescribing systems, review of intervention and outcome measures\nKuijpers 2024, excessive length of AB duration for HAI, support AB stewardship high relevance"
-  },
-  {
-    "objectID": "misc/literature.html#ehr-doctor-experience-system-design",
-    "href": "misc/literature.html#ehr-doctor-experience-system-design",
-    "title": "笑面狐",
-    "section": "EHR doctor experience, system design",
-    "text": "EHR doctor experience, system design\nOstrer 2023, real time benefit tools must be designed to serve both clinicians and patients. mentions burden\nKawamoto 2019 Association of EHR add-on app for neonatal bilirubin management, physician efficiency and care quality. Good system and add-on can save clinician time and improve patient care.\nTsai 2020, EHR implementation, barriers to adoption and use high relevance\nOverhage 2020, time spent using EHR\n\nburnout\nTajirian 2020, influence of EHR on physician burnout high relevance\nKhairat 2020, EHR use with physician fatigue and efficiency\nKroth 2019, factors of EHR design and use for physician stress and burnout high relevance\nMelnick 2020, EHR usability, task load and burnout high relevance\nHilliard 2020, factors associated with burnout\nMore on this topic\nhttps://www.sciencedirect.com/science/article/abs/pii/S0897189718301356\nhttps://journals.sagepub.com/doi/full/10.1177/20552076231220241\nhttps://jamanetwork.com/journals/jamanetworkopen/article-abstract/2778909\n\n\nDesign\nGascon 2013 the process of designing a EHR lab request module\nTorres 2017, effect of EHR design on documentation and compliance high relevance"
-  },
-  {
-    "objectID": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
-    "href": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
-    "title": "笑面狐",
-    "section": "EHR data quality, use for prediction model development",
-    "text": "EHR data quality, use for prediction model development\n\nerror\nbell 2020\nhttps://www.sciencedirect.com/science/article/abs/pii/S2213076420300439\nLi 2024, comparison of error reporting systems. 82% undetected, 90% had no corresponding incident report, some errors not reported at all\nWestbrook 2020, changes in medication administration error rates, associated with EHR\nGildon 2019, impact of EHR on prescribing errors in pediatric clinics. introduction is relevant for pointing out the need for well designed system\nGinzburg 2018, use clinical decision support within EHR to reduce incorrect prescribing for acute sinusitis. shows prompt for physicians to fill in reason for why AB is required high relevance\n\n\nbias\nGianfrancesco 2018, potential biases in ML algorithms using EHR data. Existing EHR disparities should not be amplified by thoughtless or excess reliance on machines.\nAgniel 2018, biases in EHR due to process within the healthcare system. healthcare processes must be addressed in the analysis of observational health data, context is important. high relevance\nBower, biases in EHR based surveillance of cardiovascular disease risk\nHarding2024, addressing common sources of bias in type 2 diabetes following covid, using EHR\nBica 2020, current and future methods to address underlying challenges from EHR to treatment effects mid relevance to manuscript, but important to myself\nDesai 2020, prediction using admin EHR, hear failure"
-  },
-  {
-    "objectID": "misc/literature.html#ab-stewardship-not-so-relevant",
-    "href": "misc/literature.html#ab-stewardship-not-so-relevant",
-    "title": "笑面狐",
-    "section": "AB stewardship (not so relevant)",
-    "text": "AB stewardship (not so relevant)\nRenggli 2021: consumption of anti-meticillin resistant staphylococcus aureus antibiotics in Swiss hospitals is associateed with antibiotic stewardship measures\nVaughn 2021: AB overuse and stewardship at hospital discharge\nGraber 2019: electronic tools to decrease AB use"
+    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n  \n  \n欢迎来到我的个人主页。我的主页很无聊，随意看看吧！"
   },
   {
     "objectID": "projects/ehr/index.html",
@@ -634,21 +809,14 @@
     "href": "research/research.html#文献",
     "title": "科研",
     "section": "文献",
-    "text": "文献\n\n\n\n\n\n\n标题\n\n\n\n描述\n\n\n\ntype\n\n\n\n日期\n\n\n\n\n\n\n\n\nClinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations\n\n\n程毅松2024年2月15发表于Artif Intell Med\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\nDual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii\n\n\n康焰2024年3月30发表于J Nanobiotechnology\n\n\nbasic\n\n\n2025/8/27\n\n\n\n\n\n\nMachine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit\n\n\n程毅松2022年125日发表于Chin Med J (Engl)\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\nRespiratory effort monitoring: a novel, bedside, non-invasive, real-time method.\n\n\n康焰2025年7月3日发表于Critical care (London, England)\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项"
+    "text": "文献\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n描述\n\n\n\ntype\n\n\n\n日期\n\n\n\n\n\n\n\n\nClinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations\n\n\n程毅松2024年2月15发表于Artif Intell Med\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\nDual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii\n\n\n康焰2024年3月30发表于J Nanobiotechnology\n\n\nbasic\n\n\n2025/8/27\n\n\n\n\n\n\nMachine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit\n\n\n程毅松2022年125日发表于Chin Med J (Engl)\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\nRespiratory effort monitoring: a novel, bedside, non-invasive, real-time method.\n\n\n康焰2025年7月3日发表于Critical care (London, England)\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "research/research.html#workshops",
     "href": "research/research.html#workshops",
     "title": "科研",
     "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\n\n标题\n\n\n\n描述\n\n\n\ntype\n\n\n\n\n\n\n\n\nWestern Blot\n\n\nWB的相关知识，我觉得面试可能会问到的\n\n\nexperiment\n\n\n\n\n\n\n单细胞测序\n\n\n单细胞测序的相关知识，我觉得面试可能会问到的\n\n\nbioinformatics\n\n\n\n\n\n\n无匹配项"
-  },
-  {
-    "objectID": "research/research.html#guides-and-cheatsheets",
-    "href": "research/research.html#guides-and-cheatsheets",
-    "title": "科研",
-    "section": "Guides and Cheatsheets",
-    "text": "Guides and Cheatsheets\n\n\n\nTitle\nDescription\n\n\n\n\nggplot2\nLecture notes for ggplot2 at the Carpentries workshop, UiO\n\n\nlist of commands\nQuick reference list of R commands used in my statistics classes"
+    "text": "Workshops\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n描述\n\n\n\ntype\n\n\n\n\n\n\n\n\nWestern Blot\n\n\nWB的相关知识，我觉得面试可能会问到的\n\n\nexperiment\n\n\n\n\n\n\n单细胞测序\n\n\n单细胞测序的相关知识，我觉得面试可能会问到的\n\n\nbioinformatics\n\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "research/workshop_WB/index.html",

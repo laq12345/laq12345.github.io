@@ -8,7 +8,7 @@ listing:
     image-height: 130px
     categories: true
     date-format: iso
-    fields: [title, description, date]
+    fields: [title, date]
     contents: 
       - "icu_*/index.qmd"
     type: table

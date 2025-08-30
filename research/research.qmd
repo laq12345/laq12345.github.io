@@ -12,8 +12,8 @@ listing:
       - "literature_*/index.qmd"
     type: table
     grid-item-border: false
-    sort-ui: false
-    filter-ui: false
+    sort-ui: true
+    filter-ui: true
     categories: true
     date-format: short
     
@@ -25,8 +25,8 @@ listing:
       - "workshop_*/index.qmd"
     type: table
     grid-item-border: false
-    sort-ui: false
-    filter-ui: false
+    sort-ui: true
+    filter-ui: true
 ---
 
 主要是我的各种科研笔记，目前只有文献阅读
@@ -42,9 +42,3 @@ listing:
 ::: {#workshop}
 :::
 
-## Guides and Cheatsheets
-
-| Title |   Description            |
-|:-----:|:------------------------:|
-| [ggplot2](https://github.com/chizapoth/chizapoth.github.io/blob/main/resources/lecture_ggplot.pdf) | Lecture notes for `ggplot2` at the Carpentries workshop, UiO|
-| [list of commands](https://ocbe-uio.github.io/teaching_mf9130e/lab/list_of_commands.html) | Quick reference list of R commands used in my statistics classes |

@@ -3,7 +3,8 @@ title: "急性肾损伤"
 description: "急性肾损伤的诊断和治疗"
 date: "2025-08-28"
 categories: [diagnosis, therapy]
-priority: 2
+priority: 1
+lightbox: true
 ---
 
 ## 诊断

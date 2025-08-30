@@ -19,7 +19,7 @@ website:
   navbar: 
     background: "#A9CCE3"
     search: true
-    right: 
+    left: 
       - text: "Projects"
         href: projects/projects.qmd
       
@@ -35,15 +35,39 @@ website:
       - text: "笔记"
         href: blog/blog.qmd
         
-      - text: "About me"
+      - text: "关于"
         href: about_me.qmd
         
       #- text: "CV"
       #  href: misc/info/CV-CZ-2407.pdf
 
 
+    right: 
+      - icon: journal-richtext
+        href: misc/info/resume.pdf
+        target: _blank 
+      - icon: github
+        href: https://github.com/drganghe
+        target: _blank
+#      - text: "{{< fa brands bluesky >}}"
+#        href: https://bsky.app/profile/hegang.bsky.social
+#        target: _blank
+#      - icon: twitter-x 
+#        href: https://twitter.com/DrGangHe
+#        target: _blank        
+      - icon: mailbox2-flag
+        href: mailto:laqlkw@163.com
+
+
 format:
   html:
     theme: styles.scss
+    toc: true
+    footnotes-hover: true
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    fig-align: center
+
 
 

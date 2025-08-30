@@ -1,5 +1,5 @@
 ---
-title: "刘奥奇"
+title: "笑面狐"
 lang: zh
 image: misc/info/favicon.jpg
 about:
@@ -17,6 +17,7 @@ about:
 #    - icon: linkedin
 #      text: Chi Zhang
 #      href: https://www.linkedin.com/in/chizapoth/
+fig-align: center
 ---
 
 ::: {#hero-heading}
