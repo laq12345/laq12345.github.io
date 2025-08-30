@@ -140,109 +140,179 @@
     "text": "(This is my own note-taking system using quarto)\n\nAbout the notes\nData Apothecary’s Notes is a note-taking repository for modern data science skills with a focus on drug development and clinical trials. Content will be gradually added while I learn the topics. Therefore, it is by no means a complete guide by the time you read it!\nI try to organize the content in a modular way. I think these should cover the important aspects in which a data scientist / modern statistician should know.\n\nstudy design\ninference\nmodels\nreporting\nprogramming\n\n\n\nWhy quarto\nIn short, quarto has the advantage of making a very well structured website with code chunks easy. No more worry about scattered notes in different folders - put them together, render it so you can find your notes quickly!"
   },
   {
-    "objectID": "misc/literature.html",
-    "href": "misc/literature.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "笑面狐",
     "section": "",
-    "text": "antibiotics stewardship\ninfections (community, hospital)\nelectronic health records\nquality assurance: prescripton and use"
+    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n  \n  \n欢迎来到我的个人主页。我的主页很无聊，随意看看吧！"
   },
   {
-    "objectID": "misc/literature.html#ab-x-ehr",
-    "href": "misc/literature.html#ab-x-ehr",
-    "title": "笑面狐",
-    "section": "AB x EHR",
-    "text": "AB x EHR\nMoehring 2021, EHR identify AB use among hospitalized patients\nReenggli 2021: assess EHR conversion into AB stewardship indicators\nCairns 2021: integrate AB stewardship with EHR in australia\nJenkins 2022: AB stewardship using electornic prescribing systems, review of intervention and outcome measures\nKuijpers 2024, excessive length of AB duration for HAI, support AB stewardship high relevance"
-  },
-  {
-    "objectID": "misc/literature.html#ehr-doctor-experience-system-design",
-    "href": "misc/literature.html#ehr-doctor-experience-system-design",
-    "title": "笑面狐",
-    "section": "EHR doctor experience, system design",
-    "text": "EHR doctor experience, system design\nOstrer 2023, real time benefit tools must be designed to serve both clinicians and patients. mentions burden\nKawamoto 2019 Association of EHR add-on app for neonatal bilirubin management, physician efficiency and care quality. Good system and add-on can save clinician time and improve patient care.\nTsai 2020, EHR implementation, barriers to adoption and use high relevance\nOverhage 2020, time spent using EHR\n\nburnout\nTajirian 2020, influence of EHR on physician burnout high relevance\nKhairat 2020, EHR use with physician fatigue and efficiency\nKroth 2019, factors of EHR design and use for physician stress and burnout high relevance\nMelnick 2020, EHR usability, task load and burnout high relevance\nHilliard 2020, factors associated with burnout\nMore on this topic\nhttps://www.sciencedirect.com/science/article/abs/pii/S0897189718301356\nhttps://journals.sagepub.com/doi/full/10.1177/20552076231220241\nhttps://jamanetwork.com/journals/jamanetworkopen/article-abstract/2778909\n\n\nDesign\nGascon 2013 the process of designing a EHR lab request module\nTorres 2017, effect of EHR design on documentation and compliance high relevance"
-  },
-  {
-    "objectID": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
-    "href": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
-    "title": "笑面狐",
-    "section": "EHR data quality, use for prediction model development",
-    "text": "EHR data quality, use for prediction model development\n\nerror\nbell 2020\nhttps://www.sciencedirect.com/science/article/abs/pii/S2213076420300439\nLi 2024, comparison of error reporting systems. 82% undetected, 90% had no corresponding incident report, some errors not reported at all\nWestbrook 2020, changes in medication administration error rates, associated with EHR\nGildon 2019, impact of EHR on prescribing errors in pediatric clinics. introduction is relevant for pointing out the need for well designed system\nGinzburg 2018, use clinical decision support within EHR to reduce incorrect prescribing for acute sinusitis. shows prompt for physicians to fill in reason for why AB is required high relevance\n\n\nbias\nGianfrancesco 2018, potential biases in ML algorithms using EHR data. Existing EHR disparities should not be amplified by thoughtless or excess reliance on machines.\nAgniel 2018, biases in EHR due to process within the healthcare system. healthcare processes must be addressed in the analysis of observational health data, context is important. high relevance\nBower, biases in EHR based surveillance of cardiovascular disease risk\nHarding2024, addressing common sources of bias in type 2 diabetes following covid, using EHR\nBica 2020, current and future methods to address underlying challenges from EHR to treatment effects mid relevance to manuscript, but important to myself\nDesai 2020, prediction using admin EHR, hear failure"
-  },
-  {
-    "objectID": "misc/literature.html#ab-stewardship-not-so-relevant",
-    "href": "misc/literature.html#ab-stewardship-not-so-relevant",
-    "title": "笑面狐",
-    "section": "AB stewardship (not so relevant)",
-    "text": "AB stewardship (not so relevant)\nRenggli 2021: consumption of anti-meticillin resistant staphylococcus aureus antibiotics in Swiss hospitals is associateed with antibiotic stewardship measures\nVaughn 2021: AB overuse and stewardship at hospital discharge\nGraber 2019: electronic tools to decrease AB use"
-  },
-  {
-    "objectID": "icu/icu_shock/index.html",
-    "href": "icu/icu_shock/index.html",
-    "title": "休克",
+    "objectID": "icu/icu_thyroid_crisis/index.html",
+    "href": "icu/icu_thyroid_crisis/index.html",
+    "title": "甲亢危象",
     "section": "",
-    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+    "text": "感染\n应激\n不适当停用含碘药物\n甲亢未被控制而行手术"
   },
   {
-    "objectID": "icu/icu_shock/index.html#分类",
-    "href": "icu/icu_shock/index.html#分类",
-    "title": "休克",
+    "objectID": "icu/icu_thyroid_crisis/index.html#诱因",
+    "href": "icu/icu_thyroid_crisis/index.html#诱因",
+    "title": "甲亢危象",
     "section": "",
-    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+    "text": "感染\n应激\n不适当停用含碘药物\n甲亢未被控制而行手术"
   },
   {
-    "objectID": "icu/icu_shock/index.html#监测",
-    "href": "icu/icu_shock/index.html#监测",
-    "title": "休克",
-    "section": "监测",
-    "text": "监测\n\n一般监测\n\n精神状态\n皮肤粘膜温度和色泽\n血压\n脉率\n尿量\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪"
+    "objectID": "icu/icu_thyroid_crisis/index.html#临床表现",
+    "href": "icu/icu_thyroid_crisis/index.html#临床表现",
+    "title": "甲亢危象",
+    "section": "临床表现",
+    "text": "临床表现\n上吐下泻、高热大汗、谵妄昏迷"
   },
   {
-    "objectID": "icu/icu_shock/index.html#治疗",
-    "href": "icu/icu_shock/index.html#治疗",
-    "title": "休克",
+    "objectID": "icu/icu_thyroid_crisis/index.html#治疗",
+    "href": "icu/icu_thyroid_crisis/index.html#治疗",
+    "title": "甲亢危象",
     "section": "治疗",
-    "text": "治疗\n\n紧急治疗\n补充血容量\n积极处理原发疾病\n纠正酸碱平衡失调\n血管活性药物\n治疗DIC改善微循环\n糖皮质激素与其他药物的使用"
+    "text": "治疗\n\n针对诱因治疗\n抗甲状腺药物：丙硫氧嘧啶\n碘剂\nβ2受体阻断剂\n糖皮质激素\n腹膜透析、血液透析、血浆置换\n降温：物理降温"
   },
   {
-    "objectID": "icu/icu_ICP/index.html",
-    "href": "icu/icu_ICP/index.html",
-    "title": "颅内压增高",
+    "objectID": "icu/icu_sepsis/index.html",
+    "href": "icu/icu_sepsis/index.html",
+    "title": "脓毒症与感染性休克",
     "section": "",
-    "text": "正常颅内压范围70~200mmHg"
+    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
   },
   {
-    "objectID": "icu/icu_ICP/index.html#治疗",
-    "href": "icu/icu_ICP/index.html#治疗",
-    "title": "颅内压增高",
+    "objectID": "icu/icu_sepsis/index.html#定义",
+    "href": "icu/icu_sepsis/index.html#定义",
+    "title": "脓毒症与感染性休克",
+    "section": "",
+    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html#诊断",
+    "href": "icu/icu_sepsis/index.html#诊断",
+    "title": "脓毒症与感染性休克",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\n\n脓毒症诊断\n\n\n\n怀疑感染+序贯器官衰竭评分（SOFA）大于等于2\n\n\n\n\n\n\n\n\n脓毒症休克诊断\n\n\n\n在脓毒症的基础上出现了经充分的液体复苏后仍需使用血管活性药物治疗，和/或发生低血压（MAP≤65mmHg）和/或高乳酸血症（乳酸值&gt;2mmHg）\n\n\n\nSIRS：\n出现下列两种或两种以上情况，确诊SIRS：\n\n体温&gt;38℃或&lt;36℃\n心率&gt;90次/min\n呼吸频率&gt;20次/min，或PCO2&lt;32mmHg\nWBC&gt;12x109或&lt;4x109，或未成熟中性粒细胞&gt;0.10"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html#治疗",
+    "href": "icu/icu_sepsis/index.html#治疗",
+    "title": "脓毒症与感染性休克",
     "section": "治疗",
-    "text": "治疗\n\n一般治疗\n\n观察监测：神志、瞳孔、血压、呼吸、脉搏、体温变化\n频繁呕吐：禁食防吸入性肺炎，适度补液\n轻泻剂：严禁高位灌肠\n气管切开：昏迷、咳痰困难，应行气管切开\n\n\n\n病因治疗\n紧急抢救或手术\n\n\n药物治疗降低颅内压\n\n口服药物：氢氯噻嗪、乙酰唑胺\n静脉注射：20%甘露醇、呋塞米\n\n\n\n糖皮质激素\n减轻脑水肿\n\n\n脑脊液体外引流\n\n\n巴比妥治疗\n降低脑代谢，减少氧耗\n\n\n过度换气\nPCO2每下降1mmHg，脑血流递减2%\n\n\n对症治疗\n镇痛、镇静、抗癫痫"
+    "text": "治疗\n\n初始液体复苏\n\n容量状态评估\n\n传统监测\n\n\n血流动力学监测\n\n\n\n初始复苏策略\n\n早期目标导向治疗\n\n\n脓毒症相关低血压治疗\n\n\n\n复苏液体选择\n\n\n\n血管活性药物\n\n\n休克复苏集束化策略\n\n测定血乳酸浓度\n\n\n抗生素\n\n\n静脉补液\n\n\n升压药\n\n\n\n辅助治疗"
   },
   {
-    "objectID": "icu/icu_DIC/index.html",
-    "href": "icu/icu_DIC/index.html",
-    "title": "弥散性血管内凝血",
+    "objectID": "icu/icu_RF/index.html",
+    "href": "icu/icu_RF/index.html",
+    "title": "呼吸衰竭",
     "section": "",
-    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
+    "text": "在海平面、静息状态下、呼吸空气的条件下，PaO2&lt;60mmHg，伴或不伴PaCO2&gt;50mmHg。"
   },
   {
-    "objectID": "icu/icu_DIC/index.html#发病机制",
-    "href": "icu/icu_DIC/index.html#发病机制",
-    "title": "弥散性血管内凝血",
+    "objectID": "icu/icu_RF/index.html#定义",
+    "href": "icu/icu_RF/index.html#定义",
+    "title": "呼吸衰竭",
     "section": "",
-    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
+    "text": "在海平面、静息状态下、呼吸空气的条件下，PaO2&lt;60mmHg，伴或不伴PaCO2&gt;50mmHg。"
   },
   {
-    "objectID": "icu/icu_DIC/index.html#分期",
-    "href": "icu/icu_DIC/index.html#分期",
-    "title": "弥散性血管内凝血",
-    "section": "分期",
-    "text": "分期\n\n临床前期：前DIC\n早期DIC：初发性高凝期\n中期DIC：消耗性低凝期\n晚期DIC：继发性纤溶亢进期"
+    "objectID": "icu/icu_RF/index.html#分类",
+    "href": "icu/icu_RF/index.html#分类",
+    "title": "呼吸衰竭",
+    "section": "分类",
+    "text": "分类\n\n\n\n\n\n\n\n呼吸衰竭的分类"
   },
   {
-    "objectID": "icu/icu_DIC/index.html#治疗",
-    "href": "icu/icu_DIC/index.html#治疗",
-    "title": "弥散性血管内凝血",
+    "objectID": "icu/icu_RF/index.html#治疗",
+    "href": "icu/icu_RF/index.html#治疗",
+    "title": "呼吸衰竭",
     "section": "治疗",
-    "text": "治疗\n\n病因治疗\n控制感染，治疗肿瘤等\n\n\n抗凝治疗\n肝素、重组人血栓调节蛋白\n\n\n替代治疗\n血小板和凝血因子\n有明显出血且血小板&lt;50x109/L，输注血小板\n无出血倾向者血小板&lt;20x109/L，输注血小板\n\n\n抗纤溶治疗\n纤溶明显时，氨甲环酸\n\n\n支持治疗"
+    "text": "治疗"
+  },
+  {
+    "objectID": "icu/icu_MODS/index.html",
+    "href": "icu/icu_MODS/index.html",
+    "title": "多器官功能障碍综合症（MODS）",
+    "section": "",
+    "text": "早期目标导向治疗：6h内达到复苏目标\n\nCVP≥8~12mmHg\nMAP&gt;65mmHg\n尿量&gt;0.5ml/(kg·h)\nScvO2&gt;70%\n\n\n\n\n机械通气：纠正低氧血症\n\n\n\n连续性静脉-静脉血液滤过（CVVH）或人工肝治疗\n\n\n\n凝血功能障碍：补充凝血因子和血小板\nDIC：肝素抗凝\n\n\n\n\n\n\n清除坏死组织、修复或切除受损器官、引流感染病灶或积液\n\n\n\n1h内开始抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗"
+  },
+  {
+    "objectID": "icu/icu_MODS/index.html#治疗",
+    "href": "icu/icu_MODS/index.html#治疗",
+    "title": "多器官功能障碍综合症（MODS）",
+    "section": "",
+    "text": "早期目标导向治疗：6h内达到复苏目标\n\nCVP≥8~12mmHg\nMAP&gt;65mmHg\n尿量&gt;0.5ml/(kg·h)\nScvO2&gt;70%\n\n\n\n\n机械通气：纠正低氧血症\n\n\n\n连续性静脉-静脉血液滤过（CVVH）或人工肝治疗\n\n\n\n凝血功能障碍：补充凝血因子和血小板\nDIC：肝素抗凝\n\n\n\n\n\n\n清除坏死组织、修复或切除受损器官、引流感染病灶或积液\n\n\n\n1h内开始抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html",
+    "href": "icu/icu_HAP/index.html",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "",
+    "text": "医院获得性肺炎（HAP）"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#定义",
+    "href": "icu/icu_HAP/index.html#定义",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "",
+    "text": "医院获得性肺炎（HAP）"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#诊断",
+    "href": "icu/icu_HAP/index.html#诊断",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n医院获得性肺炎的诊断标准"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#治疗",
+    "href": "icu/icu_HAP/index.html#治疗",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "治疗",
+    "text": "治疗\n\n一、核心治疗：抗感染治疗\n需根据患者是否存在多重耐药菌（MDR）感染风险，选择初始经验性用药，后续根据细菌培养+药敏结果调整为目标性用药。\n\n无MDR感染风险患者（初始经验性用药）\n覆盖常见敏感菌（如肺炎克雷伯菌、大肠埃希菌、流感嗜血杆菌等），推荐药物：\n\n头孢菌素类：如头孢他啶、头孢吡肟；\n青霉素类复方制剂：如哌拉西林-他唑巴坦；\n氟喹诺酮类：如左氧氟沙星、莫西沙星（需注意药物敏感性及患者基础疾病禁忌）。\n\n\n\n有MDR感染风险患者（初始经验性用药）\n需额外覆盖MDR菌（如耐甲氧西林金黄色葡萄球菌MRSA、产超广谱β-内酰胺酶ESBLs菌、铜绿假单胞菌等），推荐联合用药方案：\n\n抗MRSA药物：如万古霉素、利奈唑胺；\n抗铜绿假单胞菌药物（选1种）：如头孢他啶、头孢吡肟、哌拉西林-他唑巴坦、碳青霉烯类（亚胺培南、美罗培南）；\n必要时加用氨基糖苷类（如阿米卡星）或氟喹诺酮类，增强抗铜绿假单胞菌效果。\n\n\n\n目标性用药\n待痰培养、支气管肺泡灌洗液培养等病原学结果回报后，根据“药敏试验”选择敏感抗生素，避免广谱用药，减少耐药性及药物不良反应。\n\n\n用药疗程\n\n常规HAP：疗程通常为7天；\n抗感染治疗48~72h对治疗效果进行评估。\n合并MDR菌感染、免疫功能低下、治疗反应差者：可延长至10-14天，需结合临床症状（发热、咳嗽咳痰）、影像学（胸片/CT）、炎症指标（血常规、CRP、PCT）动态评估，避免过度治疗。\n\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#预防",
+    "href": "icu/icu_HAP/index.html#预防",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "预防",
+    "text": "预防\n\n预防误吸：半卧位，合理喂食\n减少上呼吸道和消化道病原菌定植：氯己定护理\n积极治疗基础疾病\n加强患者管理：对免疫抑制患者进行保护性隔离；耐药菌感染患者进行接触隔离措施；加强医务人员手卫生和无菌操作"
+  },
+  {
+    "objectID": "icu/icu_delirium/index.html",
+    "href": "icu/icu_delirium/index.html",
+    "title": "谵妄",
+    "section": "",
+    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
+  },
+  {
+    "objectID": "icu/icu_delirium/index.html#预防",
+    "href": "icu/icu_delirium/index.html#预防",
+    "title": "谵妄",
+    "section": "",
+    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
+  },
+  {
+    "objectID": "icu/icu_delirium/index.html#治疗",
+    "href": "icu/icu_delirium/index.html#治疗",
+    "title": "谵妄",
+    "section": "治疗",
+    "text": "治疗\n\n非药物治疗\n药物治疗\n\n抗精神病药：氟哌啶醇、齐哌西酮\n右美托咪定\n苯二氮卓类：乙醇或苯二氮卓戒断首选"
+  },
+  {
+    "objectID": "icu/icu_COPD/index.html",
+    "href": "icu/icu_COPD/index.html",
+    "title": "COPD急性加重",
+    "section": "",
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+  },
+  {
+    "objectID": "icu/icu_COPD/index.html#治疗",
+    "href": "icu/icu_COPD/index.html#治疗",
+    "title": "COPD急性加重",
+    "section": "",
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
   },
   {
     "objectID": "icu/icu_CAP/index.html",
@@ -354,7 +424,7 @@
     "href": "icu/icu.html#选择先前的笔记",
     "title": "ICU",
     "section": "选择先前的笔记",
-    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
+    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n腹腔间隔室综合征\n\n\n2025-08-30\n\n\n\n\n\n\n急性心衰\n\n\n2025-08-30\n\n\n\n\n\n\n心源性休克\n\n\n2025-08-30\n\n\n\n\n\n\n心肺复苏\n\n\n2025-08-30\n\n\n\n\n\n\n多器官功能障碍综合症（MODS）\n\n\n2025-08-30\n\n\n\n\n\n\n呼吸衰竭\n\n\n2025-08-30\n\n\n\n\n\n\n谵妄\n\n\n2025-08-30\n\n\n\n\n\n\n重症监测（外总）\n\n\n2025-08-30\n\n\n\n\n\n\n镇痛与镇静\n\n\n2025-08-30\n\n\n\n\n\n\n甲亢危象\n\n\n2025-08-30\n\n\n\n\n\n\n机械通气\n\n\n2025-08-30\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "code/qtwAcademic/index.html",
@@ -567,88 +637,235 @@
     "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
   },
   {
-    "objectID": "icu/icu_COPD/index.html",
-    "href": "icu/icu_COPD/index.html",
-    "title": "COPD急性加重",
+    "objectID": "icu/icu_CGS/index.html",
+    "href": "icu/icu_CGS/index.html",
+    "title": "心源性休克",
     "section": "",
-    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+    "text": "心源性休克诊断标准"
   },
   {
-    "objectID": "icu/icu_COPD/index.html#治疗",
-    "href": "icu/icu_COPD/index.html#治疗",
-    "title": "COPD急性加重",
+    "objectID": "icu/icu_CGS/index.html#诊断",
+    "href": "icu/icu_CGS/index.html#诊断",
+    "title": "心源性休克",
     "section": "",
-    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+    "text": "心源性休克诊断标准"
   },
   {
-    "objectID": "icu/icu_HAP/index.html",
-    "href": "icu/icu_HAP/index.html",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "",
-    "text": "医院获得性肺炎（HAP）"
-  },
-  {
-    "objectID": "icu/icu_HAP/index.html#定义",
-    "href": "icu/icu_HAP/index.html#定义",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "",
-    "text": "医院获得性肺炎（HAP）"
-  },
-  {
-    "objectID": "icu/icu_HAP/index.html#诊断",
-    "href": "icu/icu_HAP/index.html#诊断",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n医院获得性肺炎的诊断标准"
-  },
-  {
-    "objectID": "icu/icu_HAP/index.html#治疗",
-    "href": "icu/icu_HAP/index.html#治疗",
-    "title": "医院获得性肺炎（HAP）",
+    "objectID": "icu/icu_CGS/index.html#治疗",
+    "href": "icu/icu_CGS/index.html#治疗",
+    "title": "心源性休克",
     "section": "治疗",
-    "text": "治疗\n\n一、核心治疗：抗感染治疗\n需根据患者是否存在多重耐药菌（MDR）感染风险，选择初始经验性用药，后续根据细菌培养+药敏结果调整为目标性用药。\n\n无MDR感染风险患者（初始经验性用药）\n覆盖常见敏感菌（如肺炎克雷伯菌、大肠埃希菌、流感嗜血杆菌等），推荐药物：\n\n头孢菌素类：如头孢他啶、头孢吡肟；\n青霉素类复方制剂：如哌拉西林-他唑巴坦；\n氟喹诺酮类：如左氧氟沙星、莫西沙星（需注意药物敏感性及患者基础疾病禁忌）。\n\n\n\n有MDR感染风险患者（初始经验性用药）\n需额外覆盖MDR菌（如耐甲氧西林金黄色葡萄球菌MRSA、产超广谱β-内酰胺酶ESBLs菌、铜绿假单胞菌等），推荐联合用药方案：\n\n抗MRSA药物：如万古霉素、利奈唑胺；\n抗铜绿假单胞菌药物（选1种）：如头孢他啶、头孢吡肟、哌拉西林-他唑巴坦、碳青霉烯类（亚胺培南、美罗培南）；\n必要时加用氨基糖苷类（如阿米卡星）或氟喹诺酮类，增强抗铜绿假单胞菌效果。\n\n\n\n目标性用药\n待痰培养、支气管肺泡灌洗液培养等病原学结果回报后，根据“药敏试验”选择敏感抗生素，避免广谱用药，减少耐药性及药物不良反应。\n\n\n用药疗程\n\n常规HAP：疗程通常为7天；\n抗感染治疗48~72h对治疗效果进行评估。\n合并MDR菌感染、免疫功能低下、治疗反应差者：可延长至10-14天，需结合临床症状（发热、咳嗽咳痰）、影像学（胸片/CT）、炎症指标（血常规、CRP、PCT）动态评估，避免过度治疗。\n\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症"
+    "text": "治疗\n\n原发病紧急治疗\n\n溶栓\n无法行PCI的AMI3h内，最晚12h溶栓\n\n\n经皮冠状动脉介入术（PCI）\nSTEMI若适宜尽可能做\n\n\n冠状动脉旁路移植术（CABG）\n\n\n\n\n药物治疗\n\n正性肌力药\n一线策略：多巴酚丁胺和去甲肾上腺素\n二线策略：左西孟旦\n\n多巴酚丁胺\n多巴胺\n地高辛\n异丙肾上腺素\n去甲肾上腺素\n肾上腺素\n磷酸二酯酶抑制剂\n钙增敏剂：左西孟旦\n\n\n\n血管舒张药\n\n硝普纳\n硝酸甘油\n\n\n\n机械循环支持\n\n主动脉内球囊反搏（IABG）\n体外膜肺氧合（ECMO）\n经皮左心室辅助装置（PL-VAD）"
   },
   {
-    "objectID": "icu/icu_HAP/index.html#预防",
-    "href": "icu/icu_HAP/index.html#预防",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "预防",
-    "text": "预防\n\n预防误吸：半卧位，合理喂食\n减少上呼吸道和消化道病原菌定植：氯己定护理\n积极治疗基础疾病\n加强患者管理：对免疫抑制患者进行保护性隔离；耐药菌感染患者进行接触隔离措施；加强医务人员手卫生和无菌操作"
-  },
-  {
-    "objectID": "icu/icu_sepsis/index.html",
-    "href": "icu/icu_sepsis/index.html",
-    "title": "脓毒症与感染性休克",
+    "objectID": "icu/icu_CPR/index.html",
+    "href": "icu/icu_CPR/index.html",
+    "title": "心肺复苏",
     "section": "",
-    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
+    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
   },
   {
-    "objectID": "icu/icu_sepsis/index.html#定义",
-    "href": "icu/icu_sepsis/index.html#定义",
-    "title": "脓毒症与感染性休克",
+    "objectID": "icu/icu_CPR/index.html#基本生命支持bls",
+    "href": "icu/icu_CPR/index.html#基本生命支持bls",
+    "title": "心肺复苏",
     "section": "",
-    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
+    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
   },
   {
-    "objectID": "icu/icu_sepsis/index.html#诊断",
-    "href": "icu/icu_sepsis/index.html#诊断",
-    "title": "脓毒症与感染性休克",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n\n\n\n\n脓毒症诊断\n\n\n\n怀疑感染+序贯器官衰竭评分（SOFA）大于等于2\n\n\n\n\n\n\n\n\n脓毒症休克诊断\n\n\n\n在脓毒症的基础上出现了经充分的液体复苏后仍需使用血管活性药物治疗，和/或发生低血压（MAP≤65mmHg）和/或高乳酸血症（乳酸值&gt;2mmHg）\n\n\n\nSIRS：\n出现下列两种或两种以上情况，确诊SIRS：\n\n体温&gt;38℃或&lt;36℃\n心率&gt;90次/min\n呼吸频率&gt;20次/min，或PCO2&lt;32mmHg\nWBC&gt;12x109或&lt;4x109，或未成熟中性粒细胞&gt;0.10"
+    "objectID": "icu/icu_CPR/index.html#高级生命支持",
+    "href": "icu/icu_CPR/index.html#高级生命支持",
+    "title": "心肺复苏",
+    "section": "高级生命支持",
+    "text": "高级生命支持\n\n呼吸支持：人工气道，首选气管插管\n恢复和维持自主循环：高质量CPR+电除颤或肾上腺素\nCPR期间的监测：心电图、呼气末CO2，冠状动脉灌注压、ScvO2\n药物治疗\n\n缩血管药物：肾上腺素、血管加压素\n抗心律失常药：胺碘酮、利多卡因、硫酸镁"
   },
   {
-    "objectID": "icu/icu_sepsis/index.html#治疗",
-    "href": "icu/icu_sepsis/index.html#治疗",
-    "title": "脓毒症与感染性休克",
+    "objectID": "icu/icu_CPR/index.html#复苏后治疗",
+    "href": "icu/icu_CPR/index.html#复苏后治疗",
+    "title": "心肺复苏",
+    "section": "复苏后治疗",
+    "text": "复苏后治疗\n\n优化通气氧合\n维持血流动力学稳定\n脑复苏：\n\n低温治疗\n改善脑血流灌注：脱水、低温、肾上腺皮质激素\n药物治疗：激素"
+  },
+  {
+    "objectID": "icu/icu_DIC/index.html",
+    "href": "icu/icu_DIC/index.html",
+    "title": "弥散性血管内凝血",
+    "section": "",
+    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
+  },
+  {
+    "objectID": "icu/icu_DIC/index.html#发病机制",
+    "href": "icu/icu_DIC/index.html#发病机制",
+    "title": "弥散性血管内凝血",
+    "section": "",
+    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
+  },
+  {
+    "objectID": "icu/icu_DIC/index.html#分期",
+    "href": "icu/icu_DIC/index.html#分期",
+    "title": "弥散性血管内凝血",
+    "section": "分期",
+    "text": "分期\n\n临床前期：前DIC\n早期DIC：初发性高凝期\n中期DIC：消耗性低凝期\n晚期DIC：继发性纤溶亢进期"
+  },
+  {
+    "objectID": "icu/icu_DIC/index.html#治疗",
+    "href": "icu/icu_DIC/index.html#治疗",
+    "title": "弥散性血管内凝血",
     "section": "治疗",
-    "text": "治疗\n\n初始液体复苏\n\n容量状态评估\n\n传统监测\n\n\n血流动力学监测\n\n\n\n初始复苏策略\n\n早期目标导向治疗\n\n\n脓毒症相关低血压治疗\n\n\n\n复苏液体选择\n\n\n\n血管活性药物\n\n\n休克复苏集束化策略\n\n测定血乳酸浓度\n\n\n抗生素\n\n\n静脉补液\n\n\n升压药\n\n\n\n辅助治疗"
+    "text": "治疗\n\n病因治疗\n控制感染，治疗肿瘤等\n\n\n抗凝治疗\n肝素、重组人血栓调节蛋白\n\n\n替代治疗\n血小板和凝血因子\n有明显出血且血小板&lt;50x109/L，输注血小板\n无出血倾向者血小板&lt;20x109/L，输注血小板\n\n\n抗纤溶治疗\n纤溶明显时，氨甲环酸\n\n\n支持治疗"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "icu/icu_ICP/index.html",
+    "href": "icu/icu_ICP/index.html",
+    "title": "颅内压增高",
+    "section": "",
+    "text": "正常颅内压范围70~200mmHg"
+  },
+  {
+    "objectID": "icu/icu_ICP/index.html#治疗",
+    "href": "icu/icu_ICP/index.html#治疗",
+    "title": "颅内压增高",
+    "section": "治疗",
+    "text": "治疗\n\n一般治疗\n\n观察监测：神志、瞳孔、血压、呼吸、脉搏、体温变化\n频繁呕吐：禁食防吸入性肺炎，适度补液\n轻泻剂：严禁高位灌肠\n气管切开：昏迷、咳痰困难，应行气管切开\n\n\n\n病因治疗\n紧急抢救或手术\n\n\n药物治疗降低颅内压\n\n口服药物：氢氯噻嗪、乙酰唑胺\n静脉注射：20%甘露醇、呋塞米\n\n\n\n糖皮质激素\n减轻脑水肿\n\n\n脑脊液体外引流\n\n\n巴比妥治疗\n降低脑代谢，减少氧耗\n\n\n过度换气\nPCO2每下降1mmHg，脑血流递减2%\n\n\n对症治疗\n镇痛、镇静、抗癫痫"
+  },
+  {
+    "objectID": "icu/icu_monitor/index.html",
+    "href": "icu/icu_monitor/index.html",
+    "title": "重症监测（外总）",
+    "section": "",
+    "text": "循环监测"
+  },
+  {
+    "objectID": "icu/icu_monitor/index.html#循环监测",
+    "href": "icu/icu_monitor/index.html#循环监测",
+    "title": "重症监测（外总）",
+    "section": "",
+    "text": "循环监测"
+  },
+  {
+    "objectID": "icu/icu_monitor/index.html#呼吸监测",
+    "href": "icu/icu_monitor/index.html#呼吸监测",
+    "title": "重症监测（外总）",
+    "section": "呼吸监测",
+    "text": "呼吸监测\n\n\n\n呼吸监测"
+  },
+  {
+    "objectID": "icu/icu_sedation_analgesia/index.html",
+    "href": "icu/icu_sedation_analgesia/index.html",
+    "title": "镇痛与镇静",
+    "section": "",
+    "text": "减轻疼痛和不适\n改善睡眠、诱导遗忘\n减轻焦虑、躁动和谵妄\n降低代谢、氧耗"
+  },
+  {
+    "objectID": "icu/icu_sedation_analgesia/index.html#目的",
+    "href": "icu/icu_sedation_analgesia/index.html#目的",
+    "title": "镇痛与镇静",
+    "section": "",
+    "text": "减轻疼痛和不适\n改善睡眠、诱导遗忘\n减轻焦虑、躁动和谵妄\n降低代谢、氧耗"
+  },
+  {
+    "objectID": "icu/icu_sedation_analgesia/index.html#治疗",
+    "href": "icu/icu_sedation_analgesia/index.html#治疗",
+    "title": "镇痛与镇静",
+    "section": "治疗",
+    "text": "治疗\n\n非药物治疗\n\n适宜的体位、环境\n\n\n寻找诱因、纠正紊乱的生理状况\n\n\n\n镇痛治疗\n\n阿片类：吗啡、芬太尼、瑞芬太尼、舒芬太尼\n\n\n局麻药：丁哌卡因、罗哌卡因\n\n\n其他镇痛药：曲马多、NSAIDs\n\n\n\n镇静治疗\n\n苯二氮卓类：咪达唑仑、地西泮、劳拉西泮\n\n\n丙泊酚\n\n\nα2受体激动剂：右美托咪定"
+  },
+  {
+    "objectID": "icu/icu_sedation_analgesia/index.html#监测",
+    "href": "icu/icu_sedation_analgesia/index.html#监测",
+    "title": "镇痛与镇静",
+    "section": "监测",
+    "text": "监测\n\n呼吸功能\n\n血氧饱和度、PaO2、PaCO2等\n\n\n\n循环功能\n\n监测低血压\n\n\n\n谵妄\n\n氟哌啶醇和右美托咪定治疗"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html",
+    "href": "icu/icu_shock/index.html",
+    "title": "休克",
+    "section": "",
+    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#分类",
+    "href": "icu/icu_shock/index.html#分类",
+    "title": "休克",
+    "section": "",
+    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#监测",
+    "href": "icu/icu_shock/index.html#监测",
+    "title": "休克",
+    "section": "监测",
+    "text": "监测\n\n一般监测\n\n精神状态\n皮肤粘膜温度和色泽\n血压\n脉率\n尿量\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#治疗",
+    "href": "icu/icu_shock/index.html#治疗",
+    "title": "休克",
+    "section": "治疗",
+    "text": "治疗\n\n紧急治疗\n补充血容量\n积极处理原发疾病\n纠正酸碱平衡失调\n血管活性药物\n治疗DIC改善微循环\n糖皮质激素与其他药物的使用"
+  },
+  {
+    "objectID": "icu/icu_ventilation/index.html",
+    "href": "icu/icu_ventilation/index.html",
+    "title": "机械通气",
+    "section": "",
+    "text": "控制通气（CMV）\n辅助控制通气（AV）\n间歇指令通气（IMV）\n同步间歇指令通气（SIMV）\n压力控制通气（PCV）\n压力支持通气（PSV）\n持续气道正压通气（CPAP）"
+  },
+  {
+    "objectID": "icu/icu_ventilation/index.html#分类",
+    "href": "icu/icu_ventilation/index.html#分类",
+    "title": "机械通气",
+    "section": "",
+    "text": "控制通气（CMV）\n辅助控制通气（AV）\n间歇指令通气（IMV）\n同步间歇指令通气（SIMV）\n压力控制通气（PCV）\n压力支持通气（PSV）\n持续气道正压通气（CPAP）"
+  },
+  {
+    "objectID": "icu/icu_ventilation/index.html#并发症",
+    "href": "icu/icu_ventilation/index.html#并发症",
+    "title": "机械通气",
+    "section": "并发症",
+    "text": "并发症\n\n通气不足\n过度通气\n人机不协调\n呼吸及相关肺损伤\n呼吸及相关肺炎"
+  },
+  {
+    "objectID": "icu/icu_ventilation/index.html#撤机",
+    "href": "icu/icu_ventilation/index.html#撤机",
+    "title": "机械通气",
+    "section": "撤机",
+    "text": "撤机\n\n机械通气撤机前评估\n\n导致呼吸衰竭的因素是否去除\n患者全身情况是否好转\n患者呼吸功能改善状况\n\n\n\n自主呼吸实验（SBT）\nT管法：保持FiO2不变，患者处于完全自主呼吸状态\n低水平PSV法：通气模式改为PSV，压力支持水平维持在510cmH2O，FiO2~不变\n低水平CPAP法：通气模式改为CPAP，保持PEEP为5cmH2O，FiO2维持不变\n\n\n影响撤机的原因\n\n自主呼吸能力下降\n通气需求增加\n心功能不全\n其他因素：电解质紊乱、营养不良、贫血\n\n\n\n人工气道去除\n\n气道通畅程度\n气道保护能力\n气道分泌物"
+  },
+  {
+    "objectID": "misc/literature.html",
+    "href": "misc/literature.html",
     "title": "笑面狐",
     "section": "",
-    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n  \n  \n欢迎来到我的个人主页。我的主页很无聊，随意看看吧！"
+    "text": "antibiotics stewardship\ninfections (community, hospital)\nelectronic health records\nquality assurance: prescripton and use"
+  },
+  {
+    "objectID": "misc/literature.html#ab-x-ehr",
+    "href": "misc/literature.html#ab-x-ehr",
+    "title": "笑面狐",
+    "section": "AB x EHR",
+    "text": "AB x EHR\nMoehring 2021, EHR identify AB use among hospitalized patients\nReenggli 2021: assess EHR conversion into AB stewardship indicators\nCairns 2021: integrate AB stewardship with EHR in australia\nJenkins 2022: AB stewardship using electornic prescribing systems, review of intervention and outcome measures\nKuijpers 2024, excessive length of AB duration for HAI, support AB stewardship high relevance"
+  },
+  {
+    "objectID": "misc/literature.html#ehr-doctor-experience-system-design",
+    "href": "misc/literature.html#ehr-doctor-experience-system-design",
+    "title": "笑面狐",
+    "section": "EHR doctor experience, system design",
+    "text": "EHR doctor experience, system design\nOstrer 2023, real time benefit tools must be designed to serve both clinicians and patients. mentions burden\nKawamoto 2019 Association of EHR add-on app for neonatal bilirubin management, physician efficiency and care quality. Good system and add-on can save clinician time and improve patient care.\nTsai 2020, EHR implementation, barriers to adoption and use high relevance\nOverhage 2020, time spent using EHR\n\nburnout\nTajirian 2020, influence of EHR on physician burnout high relevance\nKhairat 2020, EHR use with physician fatigue and efficiency\nKroth 2019, factors of EHR design and use for physician stress and burnout high relevance\nMelnick 2020, EHR usability, task load and burnout high relevance\nHilliard 2020, factors associated with burnout\nMore on this topic\nhttps://www.sciencedirect.com/science/article/abs/pii/S0897189718301356\nhttps://journals.sagepub.com/doi/full/10.1177/20552076231220241\nhttps://jamanetwork.com/journals/jamanetworkopen/article-abstract/2778909\n\n\nDesign\nGascon 2013 the process of designing a EHR lab request module\nTorres 2017, effect of EHR design on documentation and compliance high relevance"
+  },
+  {
+    "objectID": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
+    "href": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
+    "title": "笑面狐",
+    "section": "EHR data quality, use for prediction model development",
+    "text": "EHR data quality, use for prediction model development\n\nerror\nbell 2020\nhttps://www.sciencedirect.com/science/article/abs/pii/S2213076420300439\nLi 2024, comparison of error reporting systems. 82% undetected, 90% had no corresponding incident report, some errors not reported at all\nWestbrook 2020, changes in medication administration error rates, associated with EHR\nGildon 2019, impact of EHR on prescribing errors in pediatric clinics. introduction is relevant for pointing out the need for well designed system\nGinzburg 2018, use clinical decision support within EHR to reduce incorrect prescribing for acute sinusitis. shows prompt for physicians to fill in reason for why AB is required high relevance\n\n\nbias\nGianfrancesco 2018, potential biases in ML algorithms using EHR data. Existing EHR disparities should not be amplified by thoughtless or excess reliance on machines.\nAgniel 2018, biases in EHR due to process within the healthcare system. healthcare processes must be addressed in the analysis of observational health data, context is important. high relevance\nBower, biases in EHR based surveillance of cardiovascular disease risk\nHarding2024, addressing common sources of bias in type 2 diabetes following covid, using EHR\nBica 2020, current and future methods to address underlying challenges from EHR to treatment effects mid relevance to manuscript, but important to myself\nDesai 2020, prediction using admin EHR, hear failure"
+  },
+  {
+    "objectID": "misc/literature.html#ab-stewardship-not-so-relevant",
+    "href": "misc/literature.html#ab-stewardship-not-so-relevant",
+    "title": "笑面狐",
+    "section": "AB stewardship (not so relevant)",
+    "text": "AB stewardship (not so relevant)\nRenggli 2021: consumption of anti-meticillin resistant staphylococcus aureus antibiotics in Swiss hospitals is associateed with antibiotic stewardship measures\nVaughn 2021: AB overuse and stewardship at hospital discharge\nGraber 2019: electronic tools to decrease AB use"
   },
   {
     "objectID": "projects/ehr/index.html",

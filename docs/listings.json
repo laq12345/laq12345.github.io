@@ -12,6 +12,17 @@
   {
     "listing": "/icu/icu.html",
     "items": [
+      "/icu/icu_ACS/index.html",
+      "/icu/icu_AHF/index.html",
+      "/icu/icu_CGS/index.html",
+      "/icu/icu_CPR/index.html",
+      "/icu/icu_MODS/index.html",
+      "/icu/icu_RF/index.html",
+      "/icu/icu_delirium/index.html",
+      "/icu/icu_monitor/index.html",
+      "/icu/icu_sedation_analgesia/index.html",
+      "/icu/icu_thyroid_crisis/index.html",
+      "/icu/icu_ventilation/index.html",
       "/icu/icu_ALF/index.html",
       "/icu/icu_AP/index.html",
       "/icu/icu_CAP/index.html",
