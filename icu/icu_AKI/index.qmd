@@ -1,5 +1,6 @@
 ---
 title: "急性肾损伤"
+lang: zh
 description: "急性肾损伤的诊断和治疗"
 date: "2025-08-28"
 categories: [diagnosis, therapy]
@@ -7,41 +8,47 @@ priority: 1
 lightbox: true
 ---
 
+## 分类
+
+![](images/paste-9.png)
+
+## 临床表现
+
+![](images/paste-10.png)
+
+![](images/paste-11.png)
+
 ## 诊断
 
-::: {#fig-aki layout-ncol="2"}
+::: {layout="[[1], [1,1]]"}
 ![定义](images/paste-1.png)
 
-![诊断](images/paste-2.png)
+![AKIN诊断标准](images/paste-2.png)
+
+![KDIGO诊断标准](images/paste-4.png)
 :::
 
 ::: callout-note
-## AKIN诊断标准
+## 诊断标准与分期
 
-![](images/paste-3.png)
+![AKIN诊断标准](images/paste-3.png)
+
+![KDIGO诊断标准](images/paste-5.png)
 :::
 
 ## 治疗
 
-1.  **早期病因干预治疗**
+1.  **早期病因干预治疗**![](images/paste-6.png)
 
-    1.  肾前性
-    2.  肾性
-    3.  肾后性
+2.  **营养支持治疗：**优先肠内营养，酌情限制水分、钠盐、钾盐摄入
 
-2.  **营养支持治疗**
-
-3.  **并发症治疗**
-
-    1.  高钾血症
-    2.  代谢性酸中毒
-    3.  感染
+3.  **并发症治疗**![](images/paste-7.png)
 
 4.  **肾脏替代治疗**
 
-    1.  严重的代谢性酸中毒
-    2.  高钾血症
-    3.  严重肺水肿
-    4.  严重的尿毒症症状
+    1.  严重的代谢性酸中毒（pH＜7.2）
+    2.  高钾血症（K^+^＞6.5mmol/L或出现严重心律失常）
+    3.  严重肺水肿（利尿剂无效）
+    4.  严重的尿毒症症状（脑病、心包炎、癫痫发作）
 
-5.  **恢复期治疗**
+5.  **恢复期治疗：**维持水电解质酸碱平衡、控制氮质血症

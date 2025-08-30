@@ -4,7 +4,7 @@ lang: zh
 description: ""
 date: "2025-08-29"
 categories: [diagnosis, therapy]
-priority: 1
+priority: 2
 lightbox: true
 ---
 

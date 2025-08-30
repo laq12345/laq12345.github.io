@@ -1,5 +1,5 @@
 ---
-title: "COPD急性发作"
+title: "哮喘急性发作"
 description: "治疗"
 date: "2025-08-28"
 categories: [therapy]

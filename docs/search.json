@@ -200,7 +200,7 @@
     "href": "icu/icu_sepsis/index.html#治疗",
     "title": "脓毒症与感染性休克",
     "section": "治疗",
-    "text": "治疗\n\n初始液体复苏\n\n容量状态评估\n\n传统监测\n\n\n血流动力学监测\n\n\n\n初始复苏策略\n\n早期目标导向治疗\n\n\n脓毒症相关低血压治疗\n\n\n\n复苏液体选择\n\n\n\n血管活性药物\n\n\n休克复苏集束化策略\n\n测定血乳酸浓度\n\n\n抗生素\n\n\n静脉补液\n\n\n升压药\n\n\n\n辅助治疗"
+    "text": "治疗\n\n初始液体复苏\n\n容量状态评估\n\n传统监测\n\n精神状态：脑组织灌注和全身情况\n皮肤粘膜温度和色泽：体表灌注情况\n血压：收缩压&lt;90mmHg，脉压＜20mmHg，休克存在\n脉率\n\n早期：脉率加快，血压正常\n失代偿期：脉率加快，血压下降\n好转：脉率恢复，血压正常或低于正常\n\\(\\text{休克指数} = \\frac{\\text{脉率}}{\\text{收缩压}}\\) 休克指数≈0.5无休克，＞1.0~1.5有休克，＞2.0严重休克\n\n尿量：休克早期尿量＜25ml/h，&gt;30ml/h表示休克已好转\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪\n\n\n\n\n\n\n初始复苏策略\n\n早期目标导向治疗（EDGT）：\n\n在6h内达到复苏目标：\n\nCVP≥8~12cmH2O\nMAP＞65mmHg\n尿量＞0.5ml/(kg·h)\nScvO2＞70%\n\n\n\n\n脓毒症相关低血压治疗\n脓毒症相关低血压患者在最初3h内给予30ml/kg的晶体液输注的液体复苏\n\n\n\n复苏液体选择\n不推荐人工胶体，晶体液和白蛋白是推荐常用液体\n\n\n\n血管活性药物\n去甲肾上腺素，肾上腺素，血管加压素\n\n\n休克复苏集束化策略\n\n测定血乳酸浓度\n乳酸水平&gt;2mmol/L，应在2~4h内再次测量，将乳酸降至正常水平\n\n\n抗生素\n\n1h内启动静脉抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗\n\n\n\n感染源控制\n\n及时控制感染源\n静脉导管感染→拔除导管\n\n\n\n静脉补液\n\n\n\n升压药\n初始液体复苏后血压仍未恢复，应在1h内使用升压药物使MAP&gt;65mmHg\n\n\n\n辅助治疗\n\n血流动力学不稳定，静脉给予氢化可的松\nHb＜70g/L，输血\n高血糖→胰岛素→血糖上限＜10mmol/L\n肝素预防血栓\nPPI预防应激性溃疡\n肠内营养\n机械通气患者采用肺保护性通气策略"
   },
   {
     "objectID": "icu/icu_RF/index.html",
@@ -373,14 +373,14 @@
   {
     "objectID": "icu/icu_asthma/index.html",
     "href": "icu/icu_asthma/index.html",
-    "title": "COPD急性发作",
+    "title": "哮喘急性发作",
     "section": "",
     "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
   },
   {
     "objectID": "icu/icu_asthma/index.html#治疗",
     "href": "icu/icu_asthma/index.html#治疗",
-    "title": "COPD急性发作",
+    "title": "哮喘急性发作",
     "section": "",
     "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
   },
@@ -466,7 +466,7 @@
     "href": "icu/icu.html#选择先前的笔记",
     "title": "ICU",
     "section": "选择先前的笔记",
-    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n腹腔间隔室综合征（ACS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性心衰\n\n\n2025-08-30\n\n\n\n\n\n\n心源性休克\n\n\n2025-08-30\n\n\n\n\n\n\n心肺复苏\n\n\n2025-08-30\n\n\n\n\n\n\n多器官功能障碍综合症（MODS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性肺血栓栓塞\n\n\n2025-08-30\n\n\n\n\n\n\n呼吸衰竭\n\n\n2025-08-30\n\n\n\n\n\n\n过敏性休克\n\n\n2025-08-30\n\n\n\n\n\n\n谵妄\n\n\n2025-08-30\n\n\n\n\n\n\n高血压急症\n\n\n2025-08-30\n\n\n\n\n\n\n低钾血症和高钾血症\n\n\n2025-08-30\n\n\n\n\n\n\n糖尿病酮症酸中毒与高渗高血糖综合征\n\n\n2025-08-30\n\n\n\n\n\n\n重症监测（外总）\n\n\n2025-08-30\n\n\n\n\n\n\n垂体危象\n\n\n2025-08-30\n\n\n\n\n\n\n镇痛与镇静\n\n\n2025-08-30\n\n\n\n\n\n\n甲亢危象\n\n\n2025-08-30\n\n\n\n\n\n\n机械通气\n\n\n2025-08-30\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
+    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n腹腔间隔室综合征（ACS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性心衰\n\n\n2025-08-30\n\n\n\n\n\n\n心源性休克\n\n\n2025-08-30\n\n\n\n\n\n\n心肺复苏\n\n\n2025-08-30\n\n\n\n\n\n\n多器官功能障碍综合症（MODS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性肺血栓栓塞\n\n\n2025-08-30\n\n\n\n\n\n\n呼吸衰竭\n\n\n2025-08-30\n\n\n\n\n\n\n过敏性休克\n\n\n2025-08-30\n\n\n\n\n\n\n谵妄\n\n\n2025-08-30\n\n\n\n\n\n\n高血压急症\n\n\n2025-08-30\n\n\n\n\n\n\n低钾血症和高钾血症\n\n\n2025-08-30\n\n\n\n\n\n\n糖尿病酮症酸中毒与高渗高血糖综合征\n\n\n2025-08-30\n\n\n\n\n\n\n重症监测（外总）\n\n\n2025-08-30\n\n\n\n\n\n\n垂体危象\n\n\n2025-08-30\n\n\n\n\n\n\n镇痛与镇静\n\n\n2025-08-30\n\n\n\n\n\n\n甲亢危象\n\n\n2025-08-30\n\n\n\n\n\n\n机械通气\n\n\n2025-08-30\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\n哮喘急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "code/qtwAcademic/index.html",
@@ -637,25 +637,25 @@
     "text": "治疗\n\n\n非手术治疗\n\n排空腔内容物：\n胃肠减压、新斯的明等促胃肠动力药，灌肠导泻，纤维结肠镜\n\n\n排除腹腔内游离液体\n积极引流\n\n\n改善腹壁顺应性\n镇静、镇痛、肌松，适当体位\n\n\n优化液体治疗\n防止血容量不足的同时，避免过度液体复苏的发生\n内环境相对稳定时，应移除体内过多液体，可适当应用利尿剂维持液体零平衡或负平衡，当腹腔高压合并肾功能损害时应用持续肾脏替代治疗（CRRT）\n\n\n优化全身及局部灌注\n监测SvO2，ScvO2，血乳酸、PvaCO2等\n\n\n\n腹腔减压术\n当以上非手术治疗方法应用后腹腔压力仍大于20mmHg，同时伴随新发的脏器功能障碍，即应考虑行腹腔开放减压术"
   },
   {
-    "objectID": "icu/icu_AKI/index.html",
-    "href": "icu/icu_AKI/index.html",
+    "objectID": "icu/icu_AKI/index.html#临床表现",
+    "href": "icu/icu_AKI/index.html#临床表现",
     "title": "急性肾损伤",
-    "section": "",
-    "text": "定义\n\n\n\n\n\n\n\n诊断\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\nAKIN诊断标准"
+    "section": "临床表现",
+    "text": "临床表现"
   },
   {
     "objectID": "icu/icu_AKI/index.html#诊断",
     "href": "icu/icu_AKI/index.html#诊断",
     "title": "急性肾损伤",
-    "section": "",
-    "text": "定义\n\n\n\n\n\n\n\n诊断\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\nAKIN诊断标准"
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\n定义\n\n\n\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\n\n\nKDIGO诊断标准\n\n\n\n\n\n\n\n\n\n\n\n诊断标准与分期\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\nKDIGO诊断标准"
   },
   {
     "objectID": "icu/icu_AKI/index.html#治疗",
     "href": "icu/icu_AKI/index.html#治疗",
     "title": "急性肾损伤",
     "section": "治疗",
-    "text": "治疗\n\n早期病因干预治疗\n\n肾前性\n肾性\n肾后性\n\n营养支持治疗\n并发症治疗\n\n高钾血症\n代谢性酸中毒\n感染\n\n肾脏替代治疗\n\n严重的代谢性酸中毒\n高钾血症\n严重肺水肿\n严重的尿毒症症状\n\n恢复期治疗"
+    "text": "治疗\n\n早期病因干预治疗\n营养支持治疗：优先肠内营养，酌情限制水分、钠盐、钾盐摄入\n并发症治疗\n肾脏替代治疗\n\n严重的代谢性酸中毒（pH＜7.2）\n高钾血症（K+＞6.5mmol/L或出现严重心律失常）\n严重肺水肿（利尿剂无效）\n严重的尿毒症症状（脑病、心包炎、癫痫发作）\n\n恢复期治疗：维持水电解质酸碱平衡、控制氮质血症"
   },
   {
     "objectID": "icu/icu_allergic_shock/index.html",
@@ -690,14 +690,14 @@
     "href": "icu/icu_ARDS/index.html#诊断",
     "title": "ARDS",
     "section": "诊断",
-    "text": "诊断\n\n\n\n\n\n\nARDS的柏林诊断标准"
+    "text": "诊断\n病理特征：肺水肿和透明膜形成\n病理生理学特征：肺容积减少、肺顺应性降低、严重的通气/血流比例失衡\n分期：渗出期、增生期、纤维化期\n临床表现：呼吸窘迫、难治性低氧血症\n影像学表现：双肺弥漫渗出性改变\n\n\n\n\n\n\nARDS的柏林诊断标准"
   },
   {
     "objectID": "icu/icu_ARDS/index.html#治疗",
     "href": "icu/icu_ARDS/index.html#治疗",
     "title": "ARDS",
     "section": "治疗",
-    "text": "治疗\n\n病因治疗\n\n\n肺保护性通气策略\n\n小潮气量通气\n控制平台压\nPEEP\n\n\n\n挽救性治疗\n\n肺复张实施\n肌松药使用\n俯卧位通气\n高频通气\nECMO\n\n\n\n液体管理\n\n\n营养支持与监护\n\n\n其他治疗"
+    "text": "治疗\n\n病因治疗\n纠正感染等\n\n\n肺保护性通气策略\n\n小潮气量通气：6~8ml/kg\n控制平台压：不超过30~35cmH2O，必要时，允许性高碳酸血症\nPEEP：应用防止肺泡塌陷的最低PEEP，从5cmH2O逐渐增加至合适水平，维持PaO2＞60mmHg，FiO2＜0.6。一般PEEP水平为8~18cmH2。\n\n\n\n挽救性治疗\n\n肺复张实施：纠正低氧血症，保证PEEP\n肌松药使用：中重度ARDS，减轻肺损伤\n俯卧位通气：改善通气-血流比例失衡\n高频通气：保持肺泡开放，改善氧合\nECMO\n\n\n\n\nECMO治疗指征\n\n\n\n\n液体管理\n限制液体入量，保持肺脏处于相对干的状态，即液体出入量维持轻度负平衡\n\n\n营养支持与监护\n补充足够的营养\n\n\n其他治疗\n糖皮质激素"
   },
   {
     "objectID": "icu/icu_CAP/index.html",
@@ -924,18 +924,32 @@
     "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
   },
   {
+    "objectID": "icu/icu_shock/index.html#临床表现",
+    "href": "icu/icu_shock/index.html#临床表现",
+    "title": "休克",
+    "section": "临床表现",
+    "text": "临床表现"
+  },
+  {
     "objectID": "icu/icu_shock/index.html#监测",
     "href": "icu/icu_shock/index.html#监测",
     "title": "休克",
     "section": "监测",
-    "text": "监测\n\n一般监测\n\n精神状态\n皮肤粘膜温度和色泽\n血压\n脉率\n尿量\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪"
+    "text": "监测\n\n一般监测\n\n精神状态：脑组织灌注和全身情况\n皮肤粘膜温度和色泽：体表灌注情况\n血压：收缩压&lt;90mmHg，脉压＜20mmHg，休克存在\n脉率\n\n早期：脉率加快，血压正常\n失代偿期：脉率加快，血压下降\n好转：脉率恢复，血压正常或低于正常\n\\(\\text{休克指数} = \\frac{\\text{脉率}}{\\text{收缩压}}\\) 休克指数≈0.5无休克，＞1.0~1.5有休克，＞2.0严重休克\n\n尿量：休克早期尿量＜25ml/h，&gt;30ml/h表示休克已好转"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#特殊监测外总",
+    "href": "icu/icu_shock/index.html#特殊监测外总",
+    "title": "休克",
+    "section": "特殊监测（外总）",
+    "text": "特殊监测（外总）\n\n\n\n休克的特殊监测（外总）\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪"
   },
   {
     "objectID": "icu/icu_shock/index.html#治疗",
     "href": "icu/icu_shock/index.html#治疗",
     "title": "休克",
     "section": "治疗",
-    "text": "治疗\n\n紧急治疗\n补充血容量\n积极处理原发疾病\n纠正酸碱平衡失调\n血管活性药物\n治疗DIC改善微循环\n糖皮质激素与其他药物的使用"
+    "text": "治疗\n\n紧急治疗\n\n处理原发伤病\n体位：头和躯干抬高20°~30°，下肢抬高15°~20°\n\n补充血容量：首选晶体液，大量液体复苏联合胶体液，必要时成分输血（Hb＜70g/L）\n积极处理原发疾病：及时施行手术\n纠正酸碱平衡失调：宁酸毋碱\n血管活性药物\n\n血管收缩剂：多巴胺、去甲肾上腺素、间羟胺\n血管扩张剂：\n\nα受体拮抗剂：酚妥拉明，酚苄明\n抗胆碱药：阿托品，东莨菪碱，山莨菪碱\n\n强心药：多巴胺、多巴酚丁胺、强心苷类\n\n治疗DIC改善微循环：肝素抗凝\n糖皮质激素与其他药物的使用：感染性休克或其他严重休克，大剂量短期应用"
   },
   {
     "objectID": "icu/icu_ventilation/index.html",
