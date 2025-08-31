@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="刘奥奇">
-<meta name="dcterms.date" content="2025-08-27">
-<meta name="description" content="主要是我准备面试和笔试的各种专业单词">
+<meta name="description" content="单细胞测序的相关知识，我觉得面试可能会问到的">
 
-<title>我的重症医学单词: 2025年8月27日 – 笑面狐</title>
+<title>PCR – 笑面狐</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,17 +56,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
   }
 }</script>
 
@@ -86,8 +84,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">笑面狐</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="搜索"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="展开或折叠导航栏" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -146,56 +144,40 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">该页面内容</h2>
    
-  <ul class="collapse">
-  <li><a href="#单词" id="toc-单词" class="nav-link active" data-scroll-target="#单词">单词</a>
-  <ul class="collapse">
-  <li><a href="#疾病" id="toc-疾病" class="nav-link" data-scroll-target="#疾病">疾病</a></li>
-  <li><a href="#急救与复苏" id="toc-急救与复苏" class="nav-link" data-scroll-target="#急救与复苏">急救与复苏</a></li>
-  <li><a href="#治疗" id="toc-治疗" class="nav-link" data-scroll-target="#治疗">治疗</a></li>
-  <li><a href="#仪器设备" id="toc-仪器设备" class="nav-link" data-scroll-target="#仪器设备">仪器设备</a></li>
-  <li><a href="#药物" id="toc-药物" class="nav-link" data-scroll-target="#药物">药物</a></li>
-  <li><a href="#监测" id="toc-监测" class="nav-link" data-scroll-target="#监测">监测</a></li>
-  <li><a href="#常用缩写" id="toc-常用缩写" class="nav-link" data-scroll-target="#常用缩写">常用缩写</a></li>
-  <li><a href="#科室" id="toc-科室" class="nav-link" data-scroll-target="#科室">科室</a></li>
-  <li><a href="#科研" id="toc-科研" class="nav-link" data-scroll-target="#科研">科研</a></li>
-  <li><a href="#基础单词" id="toc-基础单词" class="nav-link" data-scroll-target="#基础单词">基础单词</a></li>
-  </ul></li>
+  <ul>
+  <li><a href="#一pcr原理" id="toc-一pcr原理" class="nav-link active" data-scroll-target="#一pcr原理"><strong>一、PCR原理</strong></a></li>
+  <li><a href="#二pcr方法步骤" id="toc-二pcr方法步骤" class="nav-link" data-scroll-target="#二pcr方法步骤"><strong>二、PCR方法步骤</strong></a></li>
+  <li><a href="#三pcr注意事项" id="toc-三pcr注意事项" class="nav-link" data-scroll-target="#三pcr注意事项"><strong>三、PCR注意事项</strong></a></li>
   </ul>
-<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/blog/learnnotes_words/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/workshop_PCR/index.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">我的重症医学单词: 2025年8月27日</h1>
+<h1 class="title">PCR</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Learning</div>
+    <div class="quarto-category">experiment</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>主要是我准备面试和笔试的各种专业单词</p>
+    单细胞测序的相关知识，我觉得面试可能会问到的
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>刘奥奇 </p>
-          </div>
-  </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">发布于</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 27, 2025</p>
+      <p class="date">2025年8月27日</p>
     </div>
   </div>
   
@@ -207,269 +189,138 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="单词" class="level1">
-<h1>单词</h1>
-<section id="疾病" class="level2">
-<h2 class="anchored" data-anchor-id="疾病">疾病</h2>
-<p>Shock 休克</p>
-<p>Trauma <em>/ˈtrɔːmə/</em> 创伤</p>
-<p>Ventricular <em>/venˈtrɪkjələ(r)/</em> Fibrillation <em>/ˌfɪbrɪˈleɪʃən/</em> 室颤</p>
-<p>Acute Respiratory <em>/rəˈspɪrət(ə)ri/</em> Distress Syndrome(ARDS) 急性呼吸窘迫综合征</p>
-<p>Acute Myocardial <em>/ˌmaɪəʊˈkɑːdiəl/</em> Infarction <em>/ɪnˈfɑːkʃn/</em>, AMI 急性心肌梗死</p>
-<p>Heart Failure, HF 心力衰竭</p>
-<p>Right ventricular <em>/venˈtrɪkjələ(r)/</em> failure 右心衰竭</p>
-<p>Respiratory failure 呼吸衰竭</p>
-<p>Renal <em>/ˈriːnl/</em> failure 肾衰竭</p>
-<p>Acute Kidney Injury (AKI) 急性肾损伤</p>
-<p>Encephalopathy <em>/enˌsefəˈlɒpəθi; enˌkefəˈlɒpəθi/</em> 脑病</p>
-<p>Disseminated /dɪˈsemɪneɪtɪd/ Intravascular /ˌɪntrəˈvæskjʊlə(r)/ Coagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ (DIC) 弥散性血管内凝血</p>
-<p>COPD 慢性阻塞性肺疾病</p>
-<p>sepsis 脓毒症</p>
-<p>septic shock感染性休克</p>
-<p>Delirium <em>/dɪˈlɪriəm; dɪˈlɪəriəm/</em> 谵妄</p>
-<p>SIRS 全身炎症反应综合征</p>
-<p>Organ dysfunction 器官功能障碍</p>
-<p>Multiple Organ Dysfunction Syndrome, MODS 多器官功能障碍综合征</p>
-<p>Deep vein thrombosis <em>/θrɒmˈbəʊsɪs/</em> (DVT) 深静脉血栓</p>
-<p>drowning 淹溺</p>
-<p>electrical injury电击伤</p>
-<p>Multiple Injuries 多发性创伤</p>
-<p>Poisoning 急性中毒</p>
-<p>Compartment Syndrome 挤压综合征</p>
-<p>Heat Stroke 热射病</p>
-<p>Altitude Sickness 高原反应</p>
-<p>Hypothermia 低体温</p>
-<p>Leukocytosis <em>/ˌluːkəʊsaɪˈtəʊsɪs/</em> 白细胞增多</p>
-<p>Thrombocytopenia <em>/,θrɒmbə(ʊ),saɪtə(ʊ)’piːnɪə/</em> 血小板减少症</p>
-<p>hospital-acquired infection 医院获得性感染</p>
-<p>Catheter-related bloodstream infection (CRBSI) 导管相关血流感染</p>
-<p>Ventilator-associated pneumonia <em>/njuːˈməʊniə/</em> (VAP) 呼吸机相关肺炎</p>
-<p>Multidrug-resistant organism (MDRO) 多重耐药菌</p>
-<p>Refractory <em>/rɪ’frækt(ə)rɪ/</em> septic shock 难治性感染性休克</p>
-<p>Hypertensive emergency 高血压急症</p>
-<p>Non-ST elevation <em>/,elɪ’veɪʃ(ə)n/</em> myocardial <em>/,maɪəʊ’kɑːdɪəl/</em> infarction <em>/ɪn’fɑːkʃ(ə)n/</em> (NSTEMI) 非ST段抬高型心肌梗死</p>
-<p>Post-ICU Syndrome, PICS ICU后综合征</p>
+<section id="一pcr原理" class="level2">
+<h2 class="anchored" data-anchor-id="一pcr原理"><strong>一、PCR原理</strong></h2>
+<ol type="1">
+<li><strong>基本原理</strong><br>
+PCR是一种基于DNA半保留复制的体外扩增技术，通过反复的高温变性、低温退火和中温延伸三步循环，实现目标DNA片段的指数级扩增。
+<ul>
+<li><strong>变性</strong>：高温（通常95℃）使双链DNA解链为单链模板。<br>
+</li>
+<li><strong>退火</strong>：降温（通常55-65℃）使引物与互补序列结合。<br>
+</li>
+<li><strong>延伸</strong>：中温（通常72℃）下，Taq DNA聚合酶以dNTP为原料合成新链。</li>
+</ul></li>
+<li><strong>关键要素</strong>
+<ul>
+<li><strong>引物</strong>：与目标DNA两端互补的短单链DNA片段，决定扩增特异性。<br>
+</li>
+<li><strong>耐热DNA聚合酶</strong>（如Taq酶）：耐高温，可在变性步骤后直接进行延伸。<br>
+</li>
+<li><strong>dNTP</strong>：脱氧核苷三磷酸，作为合成新链的原料。<br>
+</li>
+<li><strong>缓冲液</strong>：提供适宜的pH和离子环境（如Mg²+）。</li>
+</ul></li>
+<li><strong>指数扩增特性</strong><br>
+每个循环使目标DNA数量翻倍，30-35次循环后可扩增约10⁹倍。</li>
+</ol>
+<hr>
 </section>
-<section id="急救与复苏" class="level2">
-<h2 class="anchored" data-anchor-id="急救与复苏">急救与复苏</h2>
-<p>CPR 心肺复苏</p>
-<p>AED 自动体外除颤器</p>
-<p>ACLS 高级心血管支持</p>
+<section id="二pcr方法步骤" class="level2">
+<h2 class="anchored" data-anchor-id="二pcr方法步骤"><strong>二、PCR方法步骤</strong></h2>
+<ol type="1">
+<li><strong>反应体系配置</strong>
+<ul>
+<li><strong>模板DNA</strong>：0.1-2 μg，需高纯度且不含抑制剂。<br>
+</li>
+<li><strong>引物</strong>：浓度5-20 μmol/L，需避免错配和二级结构。<br>
+</li>
+<li><strong>dNTP</strong>：终浓度100-250 μmol/L，四者浓度需均衡。<br>
+</li>
+<li><strong>Taq酶</strong>：5-10 U/反应，浓度过高易导致非特异性扩增。<br>
+</li>
+<li><strong>缓冲液</strong>：包含HEPES/MOPS缓冲体系、K⁺/NH₄⁺、Mg²+（1-3 mmol/L）及辅助成分（如DMSO）。</li>
+</ul></li>
+<li><strong>热循环程序</strong>
+<ul>
+<li><strong>预变性</strong>：95℃ 2-5分钟（激活Taq酶，完全变性模板）。<br>
+</li>
+<li><strong>循环步骤</strong>（通常25-35次）：
+<ul>
+<li><strong>变性</strong>：95℃ 30秒（单链模板形成）。<br>
+</li>
+<li><strong>退火</strong>：55-65℃ 30秒（引物结合模板）。<br>
+</li>
+<li><strong>延伸</strong>：72℃ 1分钟/kb（合成新链）。<br>
+</li>
+</ul></li>
+<li><strong>最后延伸</strong>：72℃ 7-10分钟（确保引物完全延伸）。<br>
+</li>
+<li><strong>保存</strong>：4℃或冷却至16℃。</li>
+</ul></li>
+<li><strong>扩增产物检测</strong>
+<ul>
+<li><strong>普通PCR</strong>：琼脂糖凝胶电泳（1.5-2%），溴化乙锭染色后紫外观察。<br>
+</li>
+<li><strong>实时荧光定量PCR（qPCR）</strong>：通过荧光信号（如SYBR Green或探针）实时监测扩增，计算Ct值（阈值循环数）。</li>
+</ul></li>
+</ol>
+<hr>
 </section>
-<section id="治疗" class="level2">
-<h2 class="anchored" data-anchor-id="治疗">治疗</h2>
-<p><strong>Mechanical Ventilation <em>/,ventɪ’leɪʃ(ə)n/</em> 机械通气</strong></p>
-<p>Non-invasive ventilation (NIV) 无创通气</p>
-<p>Prone <em>/prəʊn/</em> Positioning 俯卧位通气</p>
-<p>Airway Management 气道管理</p>
-<p>High-Flow Oxygen Therapy 高流量氧疗</p>
-<p>Weaning from Mechanical Ventilation 机械通气脱机</p>
-<p>Nebulizer <em>/’nebjulaizə/</em> Therapy 雾化吸入治疗</p>
-<p>Fluid Resuscitation <em>/rɪˌsʌsɪˈteɪʃ(ə)n/</em> 液体复苏</p>
-<p>Quantitative resuscitation 定量复苏</p>
-<p>sedation <em>/sɪˈdeɪʃn/</em> 镇静</p>
-<p>Sedation management 镇静管理</p>
-<p>analgesia <em>/,æn(ə)l’dʒiːzɪə/</em> 镇痛</p>
-<p>Glucose <em>/ˈɡluːkəʊs/</em> control 血糖控制</p>
-<p>Renal replacement therapy (RRT) 肾脏替代治疗</p>
-<p>Continuous Renal Replacement Therapy (CRRT) 连续性肾脏替代治疗</p>
-<p>Extracorporeal Membrane Oxygenation (ECMO) 体外膜肺氧合</p>
-<p>Intra-Aortic <em>/eɪˈɔːtɪk/</em> Balloon Pump (IABP) 主动脉球囊反搏</p>
-<p>Spontaneous Awakening Trial (SAT) 自主唤醒实验</p>
-<p>Tracheostomy <em>/,træki’ɔstəmi, ,trei-/</em> 气管造口术</p>
-<p>Electroencephalogram (EEG) 脑电图</p>
-<p>Thoracentesis <em>/θɔ:rəsen’ti:sis/</em> 胸腔穿刺</p>
-<p>Paracentesis <em>/ˌpærəsenˈtiːsɪs/</em> 腹腔穿刺术</p>
-<p>Artificial airway management 人工气道管理</p>
-<p>Pressure injury prevention 压疮预防</p>
-<p>Insulin <em>/ˈɪnsjəlɪn/</em> therapy 胰岛素治疗</p>
-<p>Lung-protective ventilation 肺保护性通气策略</p>
-<p>Delayed RRT 延迟肾脏替代治疗</p>
-<p>Early enteral nutrition 早期肠内营养</p>
-<p>Anticoagulation <em>/kəʊˌæɡjuˈleɪʃ(ə)n/</em> therapy 抗凝治疗</p>
-<p>Transfusion 输血</p>
-<p>Platelet <em>/’pleɪtlɪt/</em> transfusion 血小板输注</p>
-<p>Component Transfusion 成分输血</p>
-<p>Antibiotic stewardship <em>/ˈstjuːədʃɪp/</em> 抗生素管理</p>
-<p>Contact precautions 解除隔离措施</p>
-<p>Percutaneous <em>/ˌpɜːkjuːˈteɪniəs/</em> coronary <em>/ˈkɔːrəneri/</em> intervention (PCI) 经皮冠状动脉介入治疗</p>
-<p>Ultrasound-guided procedures 超声引导下操作</p>
-<p>Percutaneous endoscopic gastrostomy (PEG) 经皮内镜下胃造口术</p>
-<p>Ultrasound-guided central line placement 超声引导下中心静脉置管</p>
-<p>Sepsis Bundle <em>/’bʌnd(ə)l/</em> 脓毒症集束化治疗</p>
-<p>VAP Bundle 呼吸机相关性肺炎预防集束化措施</p>
-<p>eCASH Bundle 早期舒适化镇痛镇静集束化方案</p>
-<p>Hemodynamic Optimization <em>/,ɒptɪmaɪ’zeɪʃən/</em> Protocol 血流动力学优化方案</p>
-<p>Stem cell therapy for ARDS 干细胞治疗急性呼吸窘迫综合征</p>
-<p>Immunomodulatory therapy 免疫调节治疗</p>
-<p>Hypothermia therapy 亚低温治疗</p>
-<p>Critical Care Nutrition 危重症营养</p>
-<p>Palliative <em>/ˈpæliətɪv/</em> care 姑息治疗</p>
-<p>Plasma Exchange, PE 血浆置换</p>
-<p>Immunoadsorption 免疫吸附</p>
-<p>Citrate Anticoagulation 枸橼酸抗凝</p>
-<p>Early Mobilization <em>/ˌməʊbɪlaɪˈzeɪʃn/</em> 早期活动</p>
-<p>Goal-Directed Fluid Therapy, GDFT 目标导向的液体治疗</p>
-<p>Hypothermia Therapy 低温治疗</p>
-<p>Urinary <em>/’jʊərɪn(ə)rɪ/</em> Catheter Care 导尿管护理</p>
-<p>Dressing Change 敷料更换</p>
-<p>IV Access Maintenance 静脉通路维护</p>
-</section>
-<section id="仪器设备" class="level2">
-<h2 class="anchored" data-anchor-id="仪器设备">仪器设备</h2>
-<p>Ventilator 呼吸机</p>
-<p>Bedside monitor 床旁监护仪</p>
-<p>Defibrillator <em>/di’faibrileitə/</em> 除颤仪</p>
-<p>Hemodialysis <em>/,hiːmədaɪ’ælɪsɪs/</em> machine 血液净化机</p>
-<p>Infusion pump/Microinfusion pump 输液泵/微量泵</p>
-<p>Cooling blanket 降温毯</p>
-<p>Point-of-care ultrasound 床旁超声</p>
-<p>Arterial <em>/ɑː’tɪərɪəl/</em> line 动脉导管</p>
-<p>Central venous <em>/ˈviːnəs/</em> catheter <em>/’kæθɪtə/</em> 中心静脉导管</p>
-<p>Extracorporeal <em>/ˌekstrəkɔːˈpɔːriəl/</em> Life Support (ECLS) 体外生命支持（包括ECMO）</p>
-<p>Extracorporeal Liver Support 体外肝支持</p>
-<p>Extracorporeal Membrane Oxygenation, ECMO 体外膜肺氧合</p>
-<p>Closed-loop insulin delivery system 闭环胰岛素输注系统</p>
-<p>Chest tube 胸腔闭式引流管</p>
-<p>Crash cart 急救车</p>
-<p>Swan-Ganz Catheter 右心导管</p>
-<p>Weaning <em>/wiːn/</em> from ventilator 撤机</p>
-</section>
-<section id="药物" class="level2">
-<h2 class="anchored" data-anchor-id="药物">药物</h2>
-<p>antibiotics <em>/,æntɪbaɪ’ɒtɪks/</em> 抗生素</p>
-<p>Ciprofloxacin <em>/,siprəu’flɔksəsin/</em> 环丙沙星</p>
-<p>Metronidazole <em>/,metrə’naɪdəzəʊl/</em> 甲硝唑</p>
-<p>Meropenem 美罗培南</p>
-<p>Imipenem 亚胺培南</p>
-<p>Teicoplanin 替考拉宁</p>
-<p>Vancomycin 万古霉素</p>
-<p>Inotropes 正性肌力药</p>
-<p>Corticosteroid <em>/ˌkɔːtɪkəʊˈstɪərɔɪd/</em> 糖皮质激素</p>
-<p>Glucocorticoids <em>/,glu:kəu’kɔ:ti,kɔid/</em> 糖皮质激素</p>
-<p>Dexamethasone <em>/ˌdeksəˈmeθəˌsəʊn/</em> 地塞米松</p>
-<p>Theophylline <em>/,θi:ə’fili:n; -in; ,θiə-; θi’ɔfilin/</em> 茶碱</p>
-<p>Dexmedetomidine 右美托咪定</p>
-<p>Propofol 丙泊酚</p>
-<p>Midazolam 咪达唑仑</p>
-<p>Pancuronium 泮库溴铵</p>
-<p>Naloxone <em>/nəˈlɒksəʊn/</em> 纳洛酮</p>
-<p>Vasoactive <em>/ˌveɪzəʊˈæktɪv/</em> Drugs 血管活性药物</p>
-<p>Vasopressors <em>/ˌveɪzəʊˈpresə(r)/</em> 血管活性药物</p>
-<p>Vasopressin <em>/ˌvæsəʊˈpresɪn/</em> 血管加压素</p>
-<p>Epinephrine <em>/ˌepɪˈnefrɪn/</em> 肾上腺素</p>
-<p>Norepinephrine <em>/ˌnɔːrepɪˈnefrɪn; -riːn/</em> 去甲肾上腺素</p>
-<p>Dobutamine <em>/dəʊ’bjuːtəmiːn/</em> 多巴酚丁胺</p>
-<p>Dopamine <em>/’dəʊpəmiːn/</em> 多巴胺</p>
-<p>Nitroglycerin <em>/ˌnaɪtrəʊˈɡlɪsərɪn; ˌnaɪtrəʊˈɡlɪsəriːn/</em> 硝酸甘油</p>
-<p>Sodium Nitroprusside 硝普纳</p>
-<p>Furosemide <em>/ˈfjʊərˌəʊsəˌmaɪd/</em> 呋塞米</p>
-<p>Sedative-analgesic <em>/ˈsedətɪv//ˌænəlˈdʒiːzɪk/</em> agents 镇静镇痛药</p>
-<p>Insulin 胰岛素</p>
-<p>Albumin <em>/ˈælbjʊmɪn/</em> 白蛋白</p>
-<p>Fresh frozen plasma (FFP) 新鲜冰冻血浆</p>
-<p>rhAPC 重组人活化蛋白C</p>
-<p>Hepcidin 铁调素</p>
-<p>Amiodarone <em>/,æmiəu’dærəu/</em> 胺碘酮</p>
-<p>Atropine <em>/ˈætrəpɪn/</em> 阿托品</p>
-<p>Sodium Bicarbonate 碳酸氢钠</p>
-<p>Calcium <em>/ˈkælsiəm/</em> Gluconate <em>/ˈɡluːkəˌneɪt/</em> 葡萄糖酸钙</p>
-<p>Protamine 鱼精蛋白</p>
-<p>Heparin <em>/’hepərɪn/</em> 肝素</p>
-<p>Warfarin <em>/’wɔːfərɪn/</em> 华法林</p>
-<p>Succinylcholine 琥珀酰胆碱</p>
-</section>
-<section id="监测" class="level2">
-<h2 class="anchored" data-anchor-id="监测">监测</h2>
-<p>Arterial <em>/ɑːˈtɪəriəl/</em> blood gas，ABG 动脉血气分析</p>
-<p>Endotracheal <em>/ˌendəʊˈtreɪkɪəl/</em> intubation 气管插管</p>
-<p>Vital signs monitoring 生命体征监测</p>
-<p>Hemodynamic monitoring 血流动力学监测</p>
-<p>Procalcitonin (PCT) 降钙素原</p>
-<p>Sequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估</p>
-<p>Lactic acid/lactate 乳酸</p>
-<p>creatinine 肌酐</p>
-<p>uric acid 尿酸</p>
-<p>serum creatinine 血清肌酐</p>
-<p>amylase 淀粉酶</p>
-<p>lipase 脂肪酶</p>
-<p>Brain natriuretic peptide (BNP) 脑钠肽</p>
-<p>Glasgow <em>/’ɡlɑ:sɡəu/</em> Coma <em>/’kəʊmə/</em> Scale (GCS) 格拉斯哥昏迷评分</p>
-<p>Acute Physiology <em>/,fɪzɪ’ɒlədʒɪ/</em> and Chronic Health Evaluation (APACHE) 急性生理慢性健康评分</p>
-<p>Simplified Acute Physiology Score (SAPS) 简化急性生理学评分</p>
-<p>Criteria <em>/kraɪ’tɪərɪə/</em> 标准</p>
-<p>AKIN Criteria 急性肾损伤网络标准</p>
-<p>Lactate clearance rate 乳酸清除率</p>
-<p>Central venous pressure (CVP) 中心静脉压</p>
-<p>Cerebral <em>/səˈriːbrəl/</em> perfusion pressure (CPP) 脑灌注压</p>
-<p>Systemic vascular resistance (SVR) 体循环血管阻力</p>
-<p>Pulmonary <em>/ˈpʌlmənəri/</em> artery 肺动脉</p>
-<p>Coagulation profile 凝血功能检查</p>
-<p>Fluid challenge 液体冲击试验</p>
-<p>Mixed venous oxygen saturation (SvO₂) 混合静脉血氧饱和度</p>
-<p>Oxygenation index 氧合指数</p>
-<p>PaO₂/FiO₂ 氧合指数</p>
-<p>End-Tidal Carbon Dioxide, ETCO₂ 呼气末二氧化碳</p>
-<p>Neurocritical care 神经重症监护</p>
-<p>Cerebral Oxygen Monitoring 脑氧监测</p>
-<p>Colony-Stimulating Factor, CSF 集落刺激因子</p>
-<p>Intestinal <em>/ˌɪnˈtestɪnəl/</em> Barrier Function Monitoring 肠屏障功能监测</p>
-<p>Continuous EEG Monitoring 连续性神经电监测</p>
-<p>Extravascular Lung Water Index, EVLWI 血管外肺水指数</p>
-<p>Cardiac index 心脏指数</p>
-<p>Enteral Nutrition Tolerance 肠内营养耐受评估</p>
-<p>Sedation Depth Monitoring 镇静深度评估</p>
-<p>Pain Assessment 疼痛评估</p>
-</section>
-<section id="常用缩写" class="level2">
-<h2 class="anchored" data-anchor-id="常用缩写">常用缩写</h2>
-<p>1.&nbsp;hx - History（病史）</p>
-<p>2.&nbsp;dx - Diagnosis（诊断）</p>
-<p>3.&nbsp;tx - Treatment（治疗）</p>
-<p>4.&nbsp;sx - Symptoms（症状）</p>
-<p>5.&nbsp;fx - Fracture（骨折）</p>
-<p>6.&nbsp;px - Prognosis（预后）</p>
-</section>
-<section id="科室" class="level2">
-<h2 class="anchored" data-anchor-id="科室">科室</h2>
-<p>Intensive Care Unit，ICU 重症监护室</p>
-<p>Multidisciplinary team (MDT) 多学科协作团队</p>
-<p>End-of-life care 临终关怀</p>
-<p>Ethical decision-making 伦理决策</p>
-<p>Ethics Committee Review 伦理委员会审查</p>
-<p>Patient autonomy <em>/ɔːˈtɒnəmi/</em> 患者自主权</p>
-<p>Futility <em>/fju:’tiliti/</em> of care 无效医疗</p>
-<p>Do-not-resuscitate (DNR) 放弃心肺复苏</p>
-<p>brain death 脑死亡</p>
-<p>Surrogate <em>/’sʌrəgət/</em> decision-making 替代决策</p>
-<p>Palliative <em>/’pælɪətɪv/</em> care integration 姑息治疗整合</p>
-<p>End-of-life discussions 临终讨论</p>
-<p>Trauma team activation 创伤团队启动</p>
-<p>Cardiac arrest team 心脏骤停团队</p>
-<p>Transplant ICU 抑制重症监护室</p>
-<p>Neurocritical care 神经重症</p>
-</section>
-<section id="科研" class="level2">
-<h2 class="anchored" data-anchor-id="科研">科研</h2>
-<p>Machine learning in sepsis prediction 机器学习在脓毒症预测中的应用</p>
-<p>Gut Microbiota Modulation 肠道菌群调控</p>
-<p>Gene Editing 基因编辑技术</p>
-<p>Nanomedicine Delivery 纳米药物递送</p>
-<p>Metabolomics <em>/metæˈbɑːləmɪks/</em> 代谢组学</p>
-<p>Proteomics <em>/ˌprəʊtɪˈɒmɪks/</em> 蛋白组学</p>
-<p>Single-Cell Sequencing 单细胞测序</p>
-</section>
-<section id="基础单词" class="level2">
-<h2 class="anchored" data-anchor-id="基础单词">基础单词</h2>
-<p>deviate <em>/ˈdiːvieɪt/</em> 偏离</p>
-<p>optimal 最优的</p>
-<p>comply [kəmˈplaɪ] 遵从，服从</p>
-<p>fungal 真菌的</p>
-<p>regimen 方案、疗程</p>
-<p>anesthetic [ˌænəsˈθetɪk] 麻醉剂、麻醉的</p>
+<section id="三pcr注意事项" class="level2">
+<h2 class="anchored" data-anchor-id="三pcr注意事项"><strong>三、PCR注意事项</strong></h2>
+<ol type="1">
+<li><strong>实验设计与操作规范</strong>
+<ul>
+<li><strong>引物设计</strong>：
+<ul>
+<li>长度18-25 bp，GC含量40-60%，避免连续5个以上相同碱基。<br>
+</li>
+<li>退火温度（Tm值）需匹配，退火温度通常比Tm低3-5℃。<br>
+</li>
+</ul></li>
+<li><strong>模板处理</strong>：
+<ul>
+<li>避免蛋白、酚、乙醇等抑制剂污染，浓度不宜过高。<br>
+</li>
+</ul></li>
+<li><strong>试剂管理</strong>：
+<ul>
+<li>dNTP、引物等分装保存，避免反复冻融；Taq酶最后加入。</li>
+</ul></li>
+</ul></li>
+<li><strong>污染防控</strong>
+<ul>
+<li><strong>实验分区</strong>：严格划分试剂准备区、样本处理区、扩增区和产物分析区，防止气溶胶污染。<br>
+</li>
+<li><strong>耗材处理</strong>：使用无菌、无酶的耗材（如PCR管、枪头），避免交叉污染。<br>
+</li>
+<li><strong>操作规范</strong>：戴手套、勤更换；吸样时缓慢匀速，避免液体溅出或气溶胶形成。</li>
+</ul></li>
+<li><strong>实验验证与优化</strong>
+<ul>
+<li><strong>对照设置</strong>：
+<ul>
+<li>阳性对照（验证体系有效性）、阴性对照（排除污染）、空白对照（仅含反应体系）。<br>
+</li>
+</ul></li>
+<li><strong>参数调整</strong>：
+<ul>
+<li>退火温度可通过梯度PCR优化；循环次数过多可能导致非特异性扩增。<br>
+</li>
+</ul></li>
+<li><strong>结果验证</strong>：
+<ul>
+<li>电泳检测需在48小时内完成，避免条带消失；qPCR需校准标准曲线。</li>
+</ul></li>
+</ul></li>
+<li><strong>常见问题及解决</strong>
+<ul>
+<li><strong>假阴性</strong>：模板降解、引物设计不当、Taq酶失活。<br>
+</li>
+<li><strong>非特异性扩增</strong>：退火温度过低、引物错配、Mg²+浓度过高。<br>
+</li>
+<li><strong>假阳性</strong>：污染（如试剂、气溶胶）、引物二聚体形成。</li>
+</ul></li>
+<li><strong>设备与仪器要求</strong>
+<ul>
+<li><strong>PCR仪</strong>：具备精确控温功能（均一性≤±0.2℃）。<br>
+</li>
+<li><strong>qPCR仪</strong>：支持多通道荧光检测（如FAM、HEX），可实时监测扩增过程。</li>
+</ul></li>
+</ol>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -498,12 +349,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "已复制");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "已复制");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -545,7 +396,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/laq12345\.netlify\.app");
+        var filterRegex = new RegExp("https:\/\/laq12345\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -880,7 +731,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/blog/learnnotes_words/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/workshop_PCR/index.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

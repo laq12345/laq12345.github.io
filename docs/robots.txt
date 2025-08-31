@@ -1,1 +1,1 @@
-Sitemap: https://laq12345.netlify.app/sitemap.xml
+Sitemap: https://laq12345.github.io/sitemap.xml

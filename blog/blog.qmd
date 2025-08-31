@@ -19,7 +19,7 @@ listing:
   - id: readnotes
     fields: [title, date]
     contents: 
-      - "readnotes_*/index.qmd"
+      - "readnote_*/index.qmd"
     type: table
     grid-item-border: false
     sort-ui: false
@@ -31,7 +31,7 @@ listing:
   - id: learnnotes
     fields: [title, date]
     contents: 
-      - "learnnotes_*/index.qmd"
+      - "learnnote_*/index.qmd"
     type: table
     grid-item-border: false
     sort-ui: false
@@ -57,8 +57,6 @@ listing:
 
 
 ### 阅读
-
-This section is constantly being updated.
 
 ::: {#readnotes}
 :::

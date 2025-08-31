@@ -27,6 +27,8 @@ listing:
     grid-item-border: false
     sort-ui: true
     filter-ui: true
+    categories: true
+    date-format: short
 ---
 
 主要是我的各种科研笔记，目前只有文献阅读
@@ -37,7 +39,7 @@ listing:
 ::: {#literature}
 :::
 
-## Workshops
+## 资料
 
 ::: {#workshop}
 :::
