@@ -21,7 +21,7 @@ website:
     search: true
     left: 
       - text: "资料"
-        href: projects/projects.qmd
+        href: information/information.qmd
       
       - text: "科研"
         href: research/research.qmd

@@ -126,20 +126,6 @@
     "text": "单中心回顾性研究，样本量相对较小（n=488），可能影响模型泛化能力。\n缺乏外部验证数据集，限制了模型的普适性。\n部分重要临床变量缺失，如：\n\n尿量动态变化\n合并症\n慢性用药情况\n治疗干预信息\n\n仅使用入ICU时的数据进行预测，未考虑时间序列变化；\n\n且未明确AKI诊断的具体时间，因此无法评估“提前预测”的时间窗口。"
   },
   {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
-    "title": "资料",
-    "section": "",
-    "text": "消息\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        标题\n      \n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTeach in R and Quarto\n\n\nTransform biostatistics classroom into R and quarto\n\n\n\n\n\n2025年8月30日\n\n\n\n\n\n\n\n\n\n\n\n\nPHUSE - CAMIS\n\n\nContributor to the Global Healthcare Data Science Community\n\n\n\n\n\n2025年8月30日\n\n\n\n\n\n\n\n\n\n\n\n\nData Apothecary’s Notes\n\n\nMy own note-taking system for a modern health data scientist\n\n\n\n\n\n\n\n\n无匹配项"
-  },
-  {
-    "objectID": "projects/os_teaching/index.html",
-    "href": "projects/os_teaching/index.html",
-    "title": "Teach in R and Quarto",
-    "section": "",
-    "text": "MF9130E - Introductory course in statistics\n8-day intensive course on introductory statistics. April 2023 we made it with R rather than propriety software, coupled with live-coding sessions to enhance understanding of basic concepts such as distribution and hypothesis tests.\nRepository\nCourse website\nRead more about the experience in\n\nblogpost\npresentation"
-  },
-  {
     "objectID": "misc/literature.html",
     "href": "misc/literature.html",
     "title": "笑面狐",
@@ -173,6 +159,13 @@
     "title": "笑面狐",
     "section": "AB stewardship (not so relevant)",
     "text": "AB stewardship (not so relevant)\nRenggli 2021: consumption of anti-meticillin resistant staphylococcus aureus antibiotics in Swiss hospitals is associateed with antibiotic stewardship measures\nVaughn 2021: AB overuse and stewardship at hospital discharge\nGraber 2019: electronic tools to decrease AB use"
+  },
+  {
+    "objectID": "information/information.html",
+    "href": "information/information.html",
+    "title": "资料",
+    "section": "",
+    "text": "资料\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        标题\n      \n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n免费的编程中文书籍\n\n\nfree-programming-books-zh_CN，是一个很全的编程教程库\n\n\n\n\n\n2025年8月31日\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "icu/icu_ventilation/index.html",
@@ -1022,18 +1015,11 @@
     "text": "邮箱\n  \n  \n    \n     laq12345\n  \n\n  \n  \n欢迎来到我的个人主页。我的主页很无聊，随意看看吧！"
   },
   {
-    "objectID": "projects/dan/index.html",
-    "href": "projects/dan/index.html",
-    "title": "Data Apothecary’s Notes",
+    "objectID": "information/in_zh/index.html",
+    "href": "information/in_zh/index.html",
+    "title": "免费的编程中文书籍",
     "section": "",
-    "text": "(This is my own note-taking system using quarto)\n\nAbout the notes\nData Apothecary’s Notes is a note-taking repository for modern data science skills with a focus on drug development and clinical trials. Content will be gradually added while I learn the topics. Therefore, it is by no means a complete guide by the time you read it!\nI try to organize the content in a modular way. I think these should cover the important aspects in which a data scientist / modern statistician should know.\n\nstudy design\ninference\nmodels\nreporting\nprogramming\n\n\n\nWhy quarto\nIn short, quarto has the advantage of making a very well structured website with code chunks easy. No more worry about scattered notes in different folders - put them together, render it so you can find your notes quickly!"
-  },
-  {
-    "objectID": "projects/phuse/index.html",
-    "href": "projects/phuse/index.html",
-    "title": "PHUSE - CAMIS",
-    "section": "",
-    "text": "I am contributing to two working groups at PHUSE: CAMIS, and RWD - Real World Data Guideline (early stage).\n\nCAMIS: Comparing Analysis Method Implementations in Software\nCAMIS is a cross-industry group formed of members from PHUSE, PSI and ASA.\nSeveral discrepancies have been discovered in statistical analysis results between different programming languages, even in fully qualified statistical computing environments. Observing differences across languages can reduce the analyst’s confidence in reliability and, by understanding the source of any discrepancies, one can reinstate confidence in reliability.\nThe goal of this project is to demystify conflict when doing QC and to help ease the transitions to new languages and techniques with comparison and comprehensive explanations.\n\n\nRWD Working Group\nThis is a newly formed working group, working on statistical programming guidelines while working on RWD (read world data)."
+    "text": "一个很全的编程教程大全\n包括了各种语言以及软件的教程，Python和R也在内，我还看到了李东风教授的R语言教程，膜拜\n国外程序员在stackoverflow 推荐的程序员必读书籍，中文版。 stackoverflow上的程序员应该阅读的非编程类书籍有哪些？ 中文版 github上的一个流行的编程书籍索引中文版"
   },
   {
     "objectID": "research/cheatsheet_pkgdev/index.html",

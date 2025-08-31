@@ -1,0 +1,18 @@
+---
+title: "免费的编程中文书籍"
+lang: zh
+date: "2025-08-31"
+description: "free-programming-books-zh_CN，是一个很全的编程教程库"
+image: "logo_zh.png"
+---
+
+### [一个很全的编程教程大全](https://github.com/justjavac/free-programming-books-zh_CN)
+
+包括了各种语言以及软件的教程，Python和R也在内，我还看到了李东风教授的R语言教程，膜拜
+
+
+
+国外程序员在[stackoverflow](https://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read) 推荐的程序员必读书籍，[中文版](https://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html)。
+[stackoverflow](https://stackoverflow.com/questions/38210/what-non-programming-books-should-programmers-read)上的程序员应该阅读的非编程类书籍有哪些？ [中文版](https://github.com/justjavac/free-programming-books-zh_CN/blob/main/what-non-programming-books-should-programmers-read.md)
+[github](https://github.com/EbookFoundation/free-programming-books)上的一个流行的编程书籍索引[中文版](https://github.com/EbookFoundation/free-programming-books/blob/main/free-programming-books-zh.md)
+

@@ -12,11 +12,9 @@
     ]
   },
   {
-    "listing": "/projects/projects.html",
+    "listing": "/information/information.html",
     "items": [
-      "/projects/os_teaching/index.html",
-      "/projects/phuse/index.html",
-      "/projects/dan/index.html"
+      "/information/in_zh/index.html"
     ]
   },
   {

@@ -4,22 +4,18 @@ lang: zh
 listing:
   - id: opensource
     max-description-length: 800
-    image-height: 150px
+    image-height: 200px
     image-align: right
     fields: [date, image, title, description]
     contents:
-      - os_teaching
-      - phuse
-      - dan
+      - "in_*/index.qmd"
     type: default
     sort: false
     sort-ui: true
     filter-ui: true
 ---
 
-
-### 消息
-
+### 资料
 
 ::: {#opensource}
 :::

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>多器官功能障碍综合症（MODS） – 笑面狐</title>
+<title>资料 – 笑面狐</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../misc/info/favicon.jpg" rel="icon" type="image/jpeg">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-697f85932ebbc297d1513306f70c8937.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../misc/info/favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-697f85932ebbc297d1513306f70c8937.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +70,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "搜索"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-opensource .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-opensource'] = new List('listing-opensource', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -79,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">笑面狐</span>
     </a>
   </div>
@@ -90,33 +150,33 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../information/information.html"> 
+    <a class="nav-link active" href="../information/information.html" aria-current="page"> 
 <span class="menu-text">资料</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research/research.html"> 
+    <a class="nav-link" href="../research/research.html"> 
 <span class="menu-text">科研</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../code/code.html"> 
+    <a class="nav-link" href="../code/code.html"> 
 <span class="menu-text">代码</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../icu/icu.html"> 
+    <a class="nav-link" href="../icu/icu.html"> 
 <span class="menu-text">ICU</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/blog.html"> 
+    <a class="nav-link" href="../blog/blog.html"> 
 <span class="menu-text">笔记</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about_me.html"> 
+    <a class="nav-link" href="../about_me.html"> 
 <span class="menu-text">关于</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../../misc/info/resume.pdf" target="_blank"> <i class="bi bi-journal-richtext" role="img">
+    <a class="nav-link" href="../misc/info/resume.pdf" target="_blank"> <i class="bi bi-journal-richtext" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -146,36 +206,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">该页面内容</h2>
    
   <ul>
-  <li><a href="#治疗" id="toc-治疗" class="nav-link active" data-scroll-target="#治疗">治疗</a>
-  <ul class="collapse">
-  <li><a href="#支持治疗" id="toc-支持治疗" class="nav-link" data-scroll-target="#支持治疗">支持治疗</a></li>
-  <li><a href="#预防治疗" id="toc-预防治疗" class="nav-link" data-scroll-target="#预防治疗">预防治疗</a></li>
-  </ul></li>
+  <li><a href="#资料" id="toc-资料" class="nav-link active" data-scroll-target="#资料">资料</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/icu/icu_MODS/index.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/information/information.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">多器官功能障碍综合症（MODS）</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">therapy</div>
-  </div>
-  </div>
+<h1 class="title">资料</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">发布于</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2025年8月30日</p>
-    </div>
-  </div>
   
     
   </div>
@@ -185,49 +232,60 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="治疗" class="level2">
-<h2 class="anchored" data-anchor-id="治疗">治疗</h2>
-<section id="支持治疗" class="level3">
-<h3 class="anchored" data-anchor-id="支持治疗">支持治疗</h3>
-<section id="循环支持" class="level4">
-<h4 class="anchored" data-anchor-id="循环支持">循环支持</h4>
-<p>早期目标导向治疗：6h内达到复苏目标</p>
-<ol type="1">
-<li>CVP≥8~12mmHg</li>
-<li>MAP&gt;65mmHg</li>
-<li>尿量&gt;0.5ml/(kg·h)</li>
-<li>ScvO<sub>2</sub>&gt;70%</li>
-</ol>
-</section>
-<section id="呼吸支持" class="level4">
-<h4 class="anchored" data-anchor-id="呼吸支持">呼吸支持</h4>
-<p>机械通气：纠正低氧血症</p>
-</section>
-<section id="血液净化" class="level4">
-<h4 class="anchored" data-anchor-id="血液净化">血液净化</h4>
-<p>连续性静脉-静脉血液滤过（CVVH）或人工肝治疗</p>
-</section>
-<section id="纠正出凝血功能" class="level4">
-<h4 class="anchored" data-anchor-id="纠正出凝血功能">纠正出凝血功能</h4>
-<p>凝血功能障碍：补充凝血因子和血小板</p>
-<p>DIC：肝素抗凝</p>
-</section>
-</section>
-<section id="预防治疗" class="level3">
-<h3 class="anchored" data-anchor-id="预防治疗">预防治疗</h3>
-<section id="病灶处理" class="level4">
-<h4 class="anchored" data-anchor-id="病灶处理">病灶处理</h4>
-<p>清除坏死组织、修复或切除受损器官、引流感染病灶或积液</p>
-</section>
-<section id="抗感染治疗" class="level4">
-<h4 class="anchored" data-anchor-id="抗感染治疗">抗感染治疗</h4>
-<p>1h内开始抗生素治疗</p>
-<p>早期经验性广谱抗生素治疗</p>
-<p>致病菌和药敏结果明确→针对性抗生素治疗</p>
+<section id="资料" class="level3">
+<h3 class="anchored" data-anchor-id="资料">资料</h3>
+<div id="listing-opensource" class="quarto-listing quarto-listing-container-default">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-opensource-sort" class="form-select" aria-label="排序方式" onchange="window['quarto-listings']['listing-opensource'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">排序方式</option>
+      <option value="index" data-direction="asc">默认</option>
+      <option value="listing-title" data-direction="asc">
+        标题
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        日期 - 日期升序
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        日期 - 日期降序
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="筛选">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1756569600000" data-listing-file-modified-sort="1756653806953" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="thumbnail"><a href="../information/in_zh/index.html" class="no-external">
+
+<img loading="lazy" src="../information/in_zh/logo_zh.png" class="thumbnail-image" style="height: 200px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../information/in_zh/index.html" class="no-external">免费的编程中文书籍</a>
+</h3>
+<div class="delink listing-description"><a href="../information/in_zh/index.html" class="no-external">
+<p>free-programming-books-zh_CN，是一个很全的编程教程库</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../information/in_zh/index.html" class="no-external">
+<div class="listing-date">
+2025年8月31日
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">无匹配项</div>
+</div>
 
 
-</section>
-</section>
+
 </section>
 
 </main> <!-- /main -->
@@ -638,7 +696,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/icu/icu_MODS/index.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/information/information.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
