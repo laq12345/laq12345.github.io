@@ -14,7 +14,9 @@ format:
     code-tools: false
 ---
 
-### 5min英文[PPT](resource/郑州大学_刘奥奇_自我介绍PPT.pptx)
+### 5min英文PPT
+
+<a href="https://github.com/laq12345/laq12345.github.io/tree/main/resource/introduction.pptx" download="自我介绍.pptx" class="btn btn-outline-primary">下载PPT </a>
 
 Good morning, professors.
 
@@ -22,10 +24,10 @@ My name is **Liu Aoqi**, and I am currently studying Clinical Medicine at Zhengz
 
 I’d like to share my story in six parts.
 
-**First, some basic information.** \
+**First, some basic information.**\
 I’m Han Chinese, born on **October 1, 2002**, in **Zhoukou, Henan Province.**
 
-**Second, my academic performance.** \
+**Second, my academic performance.**\
 I have consistently achieved high academic results with an average GPA of 3.8 out of 4.0, ranking 12th out of 572 students in my major, which places me in the top 2.09%. I’ve excelled in 38 core courses such as Pathophysiology /ˈpæθəʊfɪzɪˈɒlədʒi/, Pharmacology /ˌfɑːməˈkɒlədʒi/, and Internal Medicine.
 
 **Third, my English ability.**\

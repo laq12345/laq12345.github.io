@@ -14,7 +14,9 @@ format:
     code-tools: false
 ---
 
-### 5min中文[PPT](resource/郑州大学_刘奥奇_自我介绍PPT.pptx)
+### 5min中文PPT
+
+<a href="https://github.com/laq12345/laq12345.github.io/tree/main/resource/introduction.pptx" download="自我介绍.pptx" class="btn btn-outline-primary">下载PPT </a>
 
 各位老师好，我是郑州大学临床医学专业的学生刘奥奇。华西一直是我心向往之的医学殿堂，能参加这次预推免并向各位老师介绍自己，我倍感荣幸。
 
