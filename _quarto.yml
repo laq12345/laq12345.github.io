@@ -20,7 +20,7 @@ website:
     background: "#A9CCE3"
     search: true
     left: 
-      - text: "Projects"
+      - text: "资料"
         href: projects/projects.qmd
       
       - text: "科研"
@@ -47,7 +47,7 @@ website:
         href: misc/info/resume.pdf
         target: _blank 
       - icon: github
-        href: https://github.com/drganghe
+        href: https://github.com/laq12345
         target: _blank
 #      - text: "{{< fa brands bluesky >}}"
 #        href: https://bsky.app/profile/hegang.bsky.social
@@ -56,7 +56,7 @@ website:
 #        href: https://twitter.com/DrGangHe
 #        target: _blank        
       - icon: mailbox2-flag
-        href: mailto:laqlkw@163.com
+        href: mailto:2713874272@qq.com
 
 
 format:

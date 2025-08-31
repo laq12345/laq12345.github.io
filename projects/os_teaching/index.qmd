@@ -2,6 +2,7 @@
 title: "Teach in R and Quarto"
 description: "Transform biostatistics classroom into R and quarto"
 image: "image_os_teaching.png"
+date: "2025-08-30"
 ---
 
 ### MF9130E - Introductory course in statistics

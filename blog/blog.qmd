@@ -2,7 +2,7 @@
 title: "笔记"
 lang: zh
 description: |
-  A place to store learnings and thoughts on public health, data science and open source development 
+  记录我的生活、学习和阅读 
 listing:
   - id: blog
     fields: [title, date]

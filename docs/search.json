@@ -126,60 +126,18 @@
     "text": "单中心回顾性研究，样本量相对较小（n=488），可能影响模型泛化能力。\n缺乏外部验证数据集，限制了模型的普适性。\n部分重要临床变量缺失，如：\n\n尿量动态变化\n合并症\n慢性用药情况\n治疗干预信息\n\n仅使用入ICU时的数据进行预测，未考虑时间序列变化；\n\n且未明确AKI诊断的具体时间，因此无法评估“提前预测”的时间窗口。"
   },
   {
-    "objectID": "projects/sykdomspulsen/index.html",
-    "href": "projects/sykdomspulsen/index.html",
-    "title": "CSIDS",
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "资料",
     "section": "",
-    "text": "CSIDS: the Consortium for Statistics in Disease Surveillance (previously Sykdomspulsen) is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\n\n\ncsverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\n\n\n\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\n\n\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
+    "text": "消息\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        标题\n      \n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTeach in R and Quarto\n\n\nTransform biostatistics classroom into R and quarto\n\n\n\n\n\n2025年8月30日\n\n\n\n\n\n\n\n\n\n\n\n\nPHUSE - CAMIS\n\n\nContributor to the Global Healthcare Data Science Community\n\n\n\n\n\n2025年8月30日\n\n\n\n\n\n\n\n\n\n\n\n\nData Apothecary’s Notes\n\n\nMy own note-taking system for a modern health data scientist\n\n\n\n\n\n\n\n\n无匹配项"
   },
   {
-    "objectID": "projects/sykdomspulsen/index.html#overview",
-    "href": "projects/sykdomspulsen/index.html#overview",
-    "title": "CSIDS",
+    "objectID": "projects/os_teaching/index.html",
+    "href": "projects/os_teaching/index.html",
+    "title": "Teach in R and Quarto",
     "section": "",
-    "text": "CSIDS: the Consortium for Statistics in Disease Surveillance (previously Sykdomspulsen) is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\n\n\ncsverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\n\n\n\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\n\n\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
-  },
-  {
-    "objectID": "projects/phuse/index.html",
-    "href": "projects/phuse/index.html",
-    "title": "PHUSE - CAMIS",
-    "section": "",
-    "text": "I am contributing to two working groups at PHUSE: CAMIS, and RWD - Real World Data Guideline (early stage).\n\nCAMIS: Comparing Analysis Method Implementations in Software\nCAMIS is a cross-industry group formed of members from PHUSE, PSI and ASA.\nSeveral discrepancies have been discovered in statistical analysis results between different programming languages, even in fully qualified statistical computing environments. Observing differences across languages can reduce the analyst’s confidence in reliability and, by understanding the source of any discrepancies, one can reinstate confidence in reliability.\nThe goal of this project is to demystify conflict when doing QC and to help ease the transitions to new languages and techniques with comparison and comprehensive explanations.\n\n\nRWD Working Group\nThis is a newly formed working group, working on statistical programming guidelines while working on RWD (read world data)."
-  },
-  {
-    "objectID": "projects/nor_mortality/index.html",
-    "href": "projects/nor_mortality/index.html",
-    "title": "Mortality Surveillance in Norway",
-    "section": "",
-    "text": "NorMOMO"
-  },
-  {
-    "objectID": "projects/nor_mortality/index.html#norwegian-surveillance-system-for-excess-mortality",
-    "href": "projects/nor_mortality/index.html#norwegian-surveillance-system-for-excess-mortality",
-    "title": "Mortality Surveillance in Norway",
-    "section": "",
-    "text": "NorMOMO"
-  },
-  {
-    "objectID": "projects/nor_mortality/index.html#r-packages-for-mortality-surveillance",
-    "href": "projects/nor_mortality/index.html#r-packages-for-mortality-surveillance",
-    "title": "Mortality Surveillance in Norway",
-    "section": "R packages for mortality surveillance",
-    "text": "R packages for mortality surveillance\n(continue…)\n\nnowcast\nsplalert\nmortanor"
-  },
-  {
-    "objectID": "projects/nor_mortality/index.html#collaboration-with-cause-of-death-registry",
-    "href": "projects/nor_mortality/index.html#collaboration-with-cause-of-death-registry",
-    "title": "Mortality Surveillance in Norway",
-    "section": "Collaboration with Cause of Death Registry",
-    "text": "Collaboration with Cause of Death Registry"
-  },
-  {
-    "objectID": "projects/ehr/index.html",
-    "href": "projects/ehr/index.html",
-    "title": "ggehr",
-    "section": "",
-    "text": "ggehr (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.\nggehr package helps you make visualize EHR data, so that you can\n\nhave an overview of the mixed type information related to a patient;\nvisually identify the errors in data recording.\n\nLearn more about ggehr"
+    "text": "MF9130E - Introductory course in statistics\n8-day intensive course on introductory statistics. April 2023 we made it with R rather than propriety software, coupled with live-coding sessions to enhance understanding of basic concepts such as distribution and hypothesis tests.\nRepository\nCourse website\nRead more about the experience in\n\nblogpost\npresentation"
   },
   {
     "objectID": "misc/literature.html",
@@ -595,8 +553,8 @@
     "text": "ggehr (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.\nggehr package helps you make visualize EHR data, so that you can\n\nhave an overview of the mixed type information related to a patient;\nvisually identify the errors in data recording.\n\nLearn more about ggehr"
   },
   {
-    "objectID": "blog/readnote_20250830/index.html",
-    "href": "blog/readnote_20250830/index.html",
+    "objectID": "blog/readnote_20240606_bad_pharma/index.html",
+    "href": "blog/readnote_20240606_bad_pharma/index.html",
     "title": "行为对态度的影响",
     "section": "",
     "text": "一、 行为影响态度的证据\n文章开篇通过几个生动的案例（如催眠、大脑电极刺激、裂脑患者实验）引出核心观点：人们会为自己的行为寻找合理的解释，从而改变自己的态度。随后，文章列举了多种行为影响态度的具体表现：\n\n角色扮演 (Role-Playing):\n\n当人们扮演一个新角色（如狱卒、囚犯、奴隶主、教师）时，最初可能感觉虚假，但随着时间推移，行为会逐渐内化，态度也随之改变。\n斯坦福监狱实验是经典例证：大学生在扮演狱卒和囚犯几天后，就完全进入了角色，表现出与角色相符的残酷或崩溃行为，说明环境和角色对个体态度的强大塑造力。\n奴隶制对奴隶主的影响：弗雷德里克·道格拉斯的回忆揭示了，长期扮演“主人”角色会腐蚀一个人的善良本性，使其变得残暴。\n\n言语变成信念 (Saying Becomes Believing):\n\n当人们为了取悦听众而说出与自己真实想法不符的观点时，如果缺乏外部借口（如被迫或受贿），他们往往会开始相信自己所说的话。\n海曼的例子：他最初不相信手相术，但为了赚钱而假装相信，最终自己也信了。\n实验证明，调整言语以迎合听众后，人们会更喜欢听众喜欢的人或事，并扭曲记忆以符合自己的言论。\n\n登门槛现象 (Foot-in-the-Door Phenomenon):\n\n先提出一个微不足道的请求（小要求），待对方答应后，再提出一个更大的请求，成功率会大大提高。\n经典实验：先让居民在窗前放一个“安全驾驶”的小标志，两周后再请求在院子里放一个大而丑陋的标志，同意率远高于直接提出大请求。\n原因是：一旦人们做出（即使是微小的）承诺，为了保持行为的一致性，他们会调整自己的态度，认为自己是一个“乐于助人”或“支持安全驾驶”的人，从而更愿意答应后续的更大请求。\n\n邪恶行为与道德行为的塑造作用:\n\n邪恶行为：一个微小的恶行（如说一个小谎）可能会引发更大的恶行，因为人们需要为自己的行为辩护，从而调整态度，认为自己的行为是正确的，甚至贬低受害者（“我们不仅伤害我们不喜欢的人，也变得不喜欢我们伤害的人”）。这解释了种族灭绝、战争暴行等如何逐步升级。\n道德行为：相反，主动的、非强制的道德行为也会塑造积极态度。例如，帮助他人会增强对受助者的好感；为恋人祈祷会增加对恋人的承诺；本杰明·富兰克林通过让对手帮一个小忙，成功将其转化为朋友。\n\n种族间的行为与态度:\n\n立法强制的种族融合行为（如废除学校种族隔离）虽然最初可能不被所有人接受，但长期来看，这些行为会改变人们的种族态度，使支持率上升，歧视减少。这证明了“你无法为道德立法”的假设是错误的，行为可以间接影响态度。\n\n\n\n\n二、 行为影响态度的原因：三种理论解释\n文章接着探讨了行为为何能影响态度，介绍了三种主要理论：\n\n自我表露理论 (Self-Presentation Theory):\n\n人们为了在他人面前维持一致、正面的形象，会调整自己的态度以匹配自己的行为。这是一种印象管理策略，有时可能只是“假装”态度改变了。\n\n认知失调理论 (Cognitive Dissonance Theory):\n\n当我们的行为与态度不一致时，会产生一种心理上的不适感（失调）。为了减少这种不适，我们会改变态度来合理化自己的行为。\n理由不足效应 (Insufficient Justification): 当行为缺乏强有力的外部理由（如高额报酬）时，失调感更强，因此人们更需要通过改变内在态度来为自己辩护。例如，在费斯廷格的实验中，只得到1美元报酬而说谎的学生，比得到20美元的学生更倾向于相信自己说的内容是真实的，因为他们缺乏“为钱说谎”这样的外部借口。\n该理论强调了责任和选择的重要性：当人们认为行为是自愿且自己负责时，失调感最强，态度改变也最显著。\n\n自我知觉理论 (Self-Perception Theory):\n\n当我们的态度不明确时，我们会像观察他人一样观察自己的行为，并据此推断自己的真实态度。例如，如果我发现自己经常微笑，我可能会推断“我一定是个快乐的人”。\n该理论能解释过度合理化效应 (Overjustification Effect)：当为一项本身有趣的事情提供外部报酬时，人们会将自己的行为归因于报酬（外在动机），从而削弱了原有的兴趣（内在动机）。例如，给喜欢画画的孩子报酬后，他们可能将画画视为换取报酬的工作，而非乐趣。\n\n\n\n\n三、 理论比较与结论\n\n认知失调理论更适用于解释当行为与已有的、明确的态度发生冲突时，人们为减少心理不适而进行的自我辩解。\n自我知觉理论更适用于解释当态度本身模糊或尚未形成时，人们如何通过观察自己的行为来形成态度。\n自我表露理论则解释了人们为了社会形象而进行的表面态度调整。\n\n\n\n\n四、 后记与启示\n文章最后强调，理解“行为影响态度”这一原理具有重要的实践意义。它告诉我们，改变自己并不总是从“想通”开始，而是可以从“行动”开始。通过主动采取期望的行为（如假装写作、强迫自己微笑、做出承诺），我们可以在不知不觉中改变自己的内在态度和习惯，实现自我成长。正如斯多噶派哲学家埃皮克提图所言：“要想养成某种习惯，那就去付诸行动。”"
@@ -620,7 +578,7 @@
     "href": "about_me.html",
     "title": "刘奥奇",
     "section": "",
-    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
+    "text": "邮箱\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
   },
   {
     "objectID": "blog/blog.html",
@@ -1047,7 +1005,7 @@
     "href": "index.html",
     "title": "笑面狐",
     "section": "",
-    "text": "laqlkw@163.com\n  \n  \n    \n     laq12345\n  \n\n  \n  \n欢迎来到我的个人主页。我的主页很无聊，随意看看吧！"
+    "text": "邮箱\n  \n  \n    \n     laq12345\n  \n\n  \n  \n欢迎来到我的个人主页。我的主页很无聊，随意看看吧！"
   },
   {
     "objectID": "projects/dan/index.html",
@@ -1057,25 +1015,11 @@
     "text": "(This is my own note-taking system using quarto)\n\nAbout the notes\nData Apothecary’s Notes is a note-taking repository for modern data science skills with a focus on drug development and clinical trials. Content will be gradually added while I learn the topics. Therefore, it is by no means a complete guide by the time you read it!\nI try to organize the content in a modular way. I think these should cover the important aspects in which a data scientist / modern statistician should know.\n\nstudy design\ninference\nmodels\nreporting\nprogramming\n\n\n\nWhy quarto\nIn short, quarto has the advantage of making a very well structured website with code chunks easy. No more worry about scattered notes in different folders - put them together, render it so you can find your notes quickly!"
   },
   {
-    "objectID": "projects/noreden/index.html",
-    "href": "projects/noreden/index.html",
-    "title": "Noreden",
+    "objectID": "projects/phuse/index.html",
+    "href": "projects/phuse/index.html",
+    "title": "PHUSE - CAMIS",
     "section": "",
-    "text": "Noreden"
-  },
-  {
-    "objectID": "projects/os_teaching/index.html",
-    "href": "projects/os_teaching/index.html",
-    "title": "Teach in R and Quarto",
-    "section": "",
-    "text": "MF9130E - Introductory course in statistics\n8-day intensive course on introductory statistics. April 2023 we made it with R rather than propriety software, coupled with live-coding sessions to enhance understanding of basic concepts such as distribution and hypothesis tests.\nRepository\nCourse website\nRead more about the experience in\n\nblogpost\npresentation"
-  },
-  {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Real World Data and Public health\nMy main research interest is hospital Electronic Health Records and large health registry data. My PhD (completed in 2022) focused on representation and utilization of hospital EHR data. I am currently working on quality assurance of the prescription and use of antibiotics in a hospital setting, and an R package ggehr to facilitate the exploration of EHR data.\nIn 2020-2022, I worked at Norwegian Institute of Public Health during Covid-19 pandemic. I helped develop Sykdomspulsen (now CSIDS), a real-time infectious disease surveillance and real-time large scale reporting with open source technology.\nSince 2023, I joined NOR-Eden and Norkost projects at University of Oslo. I help develop a set of R tools to facilitate sustainable diet design, noreden.\n\n\n\n\n\n\n\n\n\n\nggehr\n\n\nggplot2 extension to EHR data\n\n\n\n\n\n\n\n\n\n\n\n\nCSIDS\n\n\nConsortium for Statistics in Disease Surveillance\n\n\n\n\n\n无匹配项\n\n\n\nOpen source data science in healthcare\nI work on open source data science projects with healthcare applications. I am the developer of MF9310E quarto website, leading the transition of teaching university biostatistics courses using R and Quarto. I’m also a co-lead of the PHUSE CAMIS project.\n\n\n\n\n\n\n\n\n\n\nTeach in R and Quarto\n\n\nTransform biostatistics classroom into R and quarto\n\n\n\n\n\n\n\n\n\n\n\n\nPHUSE - CAMIS\n\n\nContributor to the Global Healthcare Data Science Community\n\n\n\n\n\n\n\n\n\n\n\n\nData Apothecary’s Notes\n\n\nMy own note-taking system for a modern health data scientist\n\n\n\n\n\n无匹配项"
+    "text": "I am contributing to two working groups at PHUSE: CAMIS, and RWD - Real World Data Guideline (early stage).\n\nCAMIS: Comparing Analysis Method Implementations in Software\nCAMIS is a cross-industry group formed of members from PHUSE, PSI and ASA.\nSeveral discrepancies have been discovered in statistical analysis results between different programming languages, even in fully qualified statistical computing environments. Observing differences across languages can reduce the analyst’s confidence in reliability and, by understanding the source of any discrepancies, one can reinstate confidence in reliability.\nThe goal of this project is to demystify conflict when doing QC and to help ease the transitions to new languages and techniques with comparison and comprehensive explanations.\n\n\nRWD Working Group\nThis is a newly formed working group, working on statistical programming guidelines while working on RWD (read world data)."
   },
   {
     "objectID": "research/cheatsheet_pkgdev/index.html",

@@ -9,8 +9,8 @@ about:
   image-shape: round
   links:
     - icon: mailbox
-      text: laqlkw@163.com
-      href: mailto:laqlkw@163.com
+      text: 邮箱
+      href: mailto:2713874272@qq.com
     - icon: github
       text: laq12345
       href: https://github.com/laq12345

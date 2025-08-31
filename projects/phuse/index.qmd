@@ -2,6 +2,7 @@
 title: "PHUSE - CAMIS"
 description: "Contributor to the Global Healthcare Data Science Community"
 image: "phuse_logo.png"
+date: "2025-08-30"
 ---
 
 I am contributing to two working groups at PHUSE: [CAMIS](https://psiaims.github.io/CAMIS/), and RWD - Real World Data Guideline (early stage).
