@@ -3,7 +3,7 @@ title: "面试——非专业问题"
 author: "刘奥奇"
 description: |
   各种面试的非专业问题
-date: "2024-11-05"
+date: "2025-08-31"
 categories: [interview]
 title-block-banner: false
 format: 
