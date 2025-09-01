@@ -336,165 +336,228 @@
     "text": "治疗\n\n病因治疗\n控制感染，治疗肿瘤等\n\n\n抗凝治疗\n肝素、重组人血栓调节蛋白\n\n\n替代治疗\n血小板和凝血因子\n有明显出血且血小板&lt;50x109/L，输注血小板\n无出血倾向者血小板&lt;20x109/L，输注血小板\n\n\n抗纤溶治疗\n纤溶明显时，氨甲环酸\n\n\n支持治疗"
   },
   {
-    "objectID": "icu/icu_CPR/index.html",
-    "href": "icu/icu_CPR/index.html",
-    "title": "心肺复苏",
+    "objectID": "icu/icu_CRBSI/index.html",
+    "href": "icu/icu_CRBSI/index.html",
+    "title": "导管相关血流感染（CRBSI）",
     "section": "",
-    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
+    "text": "导管相关血流感染"
   },
   {
-    "objectID": "icu/icu_CPR/index.html#基本生命支持bls",
-    "href": "icu/icu_CPR/index.html#基本生命支持bls",
-    "title": "心肺复苏",
+    "objectID": "icu/icu_CRBSI/index.html#定义",
+    "href": "icu/icu_CRBSI/index.html#定义",
+    "title": "导管相关血流感染（CRBSI）",
     "section": "",
-    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
+    "text": "导管相关血流感染"
   },
   {
-    "objectID": "icu/icu_CPR/index.html#高级生命支持",
-    "href": "icu/icu_CPR/index.html#高级生命支持",
-    "title": "心肺复苏",
-    "section": "高级生命支持",
-    "text": "高级生命支持\n\n呼吸支持：人工气道，首选气管插管\n恢复和维持自主循环：高质量CPR+电除颤或肾上腺素\nCPR期间的监测：心电图、呼气末CO2，冠状动脉灌注压、ScvO2\n药物治疗\n\n缩血管药物：肾上腺素、血管加压素\n抗心律失常药：胺碘酮、利多卡因、硫酸镁"
+    "objectID": "icu/icu_CRBSI/index.html#感染途径",
+    "href": "icu/icu_CRBSI/index.html#感染途径",
+    "title": "导管相关血流感染（CRBSI）",
+    "section": "感染途径",
+    "text": "感染途径"
   },
   {
-    "objectID": "icu/icu_CPR/index.html#复苏后治疗",
-    "href": "icu/icu_CPR/index.html#复苏后治疗",
-    "title": "心肺复苏",
-    "section": "复苏后治疗",
-    "text": "复苏后治疗\n\n优化通气氧合\n维持血流动力学稳定\n脑复苏：\n\n低温治疗\n改善脑血流灌注：脱水、低温、肾上腺皮质激素\n药物治疗：激素"
+    "objectID": "icu/icu_CRBSI/index.html#诊断",
+    "href": "icu/icu_CRBSI/index.html#诊断",
+    "title": "导管相关血流感染（CRBSI）",
+    "section": "诊断",
+    "text": "诊断\n\n符合以下任意一条即可确诊CRBSI\n\n从导管尖端及至少一份外周血培养培养出同一种微生物\n至少两份血培养结果（一份来自于导管腔，一份来自于外周静脉）培养出同一种微生物，且满足定量血培养或差异报警时间的标准\n\n\n定量血培养时，导管血培养结果是静脉血培养结果的三倍或三倍以上可以确诊CRBSI\n差异报警时间（DTP）是指导管血培养阳性报警事件比静脉血液培养阳性报警时间早2h或以上"
   },
   {
-    "objectID": "icu/icu_CGS/index.html",
-    "href": "icu/icu_CGS/index.html",
-    "title": "心源性休克",
-    "section": "",
-    "text": "心源性休克诊断标准"
-  },
-  {
-    "objectID": "icu/icu_CGS/index.html#诊断",
-    "href": "icu/icu_CGS/index.html#诊断",
-    "title": "心源性休克",
-    "section": "",
-    "text": "心源性休克诊断标准"
-  },
-  {
-    "objectID": "icu/icu_CGS/index.html#治疗",
-    "href": "icu/icu_CGS/index.html#治疗",
-    "title": "心源性休克",
+    "objectID": "icu/icu_CRBSI/index.html#治疗",
+    "href": "icu/icu_CRBSI/index.html#治疗",
+    "title": "导管相关血流感染（CRBSI）",
     "section": "治疗",
-    "text": "治疗\n\n原发病紧急治疗\n\n溶栓\n无法行PCI的AMI3h内，最晚12h溶栓\n\n\n经皮冠状动脉介入术（PCI）\nSTEMI若适宜尽可能做\n\n\n冠状动脉旁路移植术（CABG）\n\n\n\n\n药物治疗\n\n正性肌力药\n一线策略：多巴酚丁胺和去甲肾上腺素\n二线策略：左西孟旦\n\n多巴酚丁胺\n多巴胺\n地高辛\n异丙肾上腺素\n去甲肾上腺素\n肾上腺素\n磷酸二酯酶抑制剂\n钙增敏剂：左西孟旦\n\n\n\n血管舒张药\n\n硝普纳\n硝酸甘油\n\n\n\n机械循环支持\n\n主动脉内球囊反搏（IABG）\n体外膜肺氧合（ECMO）\n经皮左心室辅助装置（PL-VAD）"
+    "text": "治疗\n\n导管处理\n\n首先考虑拔除导管，以下情况必须拔除导管：\n\n脓毒症\n血流动力学不稳定\n心内膜炎或存在转移性感染的证据\n化脓性血栓性静脉炎引起的红斑或渗出物\n使用敏感抗生素治疗72h后，菌血症仍持续存在\n\n病原体性质：\n\n\n\n抗菌药物\n\n经验性抗菌药物应用\n致病菌和药敏结果明确→针对性抗菌药物治疗\n疗程通常10-14天，近期人工瓣膜植入、拔管72h后仍菌血症者，抗生素治疗至少4-6周\n\n\n\n局部感染治疗"
   },
   {
-    "objectID": "icu/icu_asthma/index.html",
-    "href": "icu/icu_asthma/index.html",
-    "title": "哮喘急性发作",
+    "objectID": "icu/icu_COPD/index.html",
+    "href": "icu/icu_COPD/index.html",
+    "title": "COPD急性加重",
     "section": "",
-    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
   },
   {
-    "objectID": "icu/icu_asthma/index.html#治疗",
-    "href": "icu/icu_asthma/index.html#治疗",
-    "title": "哮喘急性发作",
+    "objectID": "icu/icu_COPD/index.html#治疗",
+    "href": "icu/icu_COPD/index.html#治疗",
+    "title": "COPD急性加重",
     "section": "",
-    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
   },
   {
-    "objectID": "icu/icu_AP/index.html",
-    "href": "icu/icu_AP/index.html",
-    "title": "重症急性胰腺炎",
+    "objectID": "icu/icu_CAP/index.html",
+    "href": "icu/icu_CAP/index.html",
+    "title": "重症社区获得性肺炎（CAP）",
     "section": "",
-    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+    "text": "社区获得性肺炎（CAP）"
   },
   {
-    "objectID": "icu/icu_AP/index.html#诊断",
-    "href": "icu/icu_AP/index.html#诊断",
-    "title": "重症急性胰腺炎",
+    "objectID": "icu/icu_CAP/index.html#定义",
+    "href": "icu/icu_CAP/index.html#定义",
+    "title": "重症社区获得性肺炎（CAP）",
     "section": "",
-    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+    "text": "社区获得性肺炎（CAP）"
   },
   {
-    "objectID": "icu/icu_AP/index.html#并发症",
-    "href": "icu/icu_AP/index.html#并发症",
-    "title": "重症急性胰腺炎",
-    "section": "并发症",
-    "text": "并发症\n\n急性胰腺炎局部并发症\n\n急性胰周液体积聚\n胰腺假性囊肿\n急性坏死物积聚\n包裹性坏死\n感染性胰腺坏死"
+    "objectID": "icu/icu_CAP/index.html#诊断",
+    "href": "icu/icu_CAP/index.html#诊断",
+    "title": "重症社区获得性肺炎（CAP）",
+    "section": "诊断",
+    "text": "诊断\n\nCAP诊断标准重症CAP诊断标准"
   },
   {
-    "objectID": "icu/icu_AP/index.html#治疗",
-    "href": "icu/icu_AP/index.html#治疗",
-    "title": "重症急性胰腺炎",
+    "objectID": "icu/icu_CAP/index.html#治疗",
+    "href": "icu/icu_CAP/index.html#治疗",
+    "title": "重症社区获得性肺炎（CAP）",
     "section": "治疗",
-    "text": "治疗\n\n两大任务：\n\n寻找并去除病因\n控制炎症\n\n\n监护\nAPACHE II评分评估病情，APACHE II≥8为SAP高危人群\n\n\n器官支持\n\n液体复苏\n迅速纠正组织缺氧，维持水电解质酸碱平衡\n\n\n呼吸功能\n吸氧，正压机械通气\n\n\n肠功能维护\n导泻及口服抗生素\n\n\n连续性血液净化\n\n\n\n减少胰液分泌\n\n禁食\n\n\n生长抑素\n\n\n\n控制炎症\n\n液体复苏\n\n\n生长抑素\n\n\n早期肠内营养\n\n\n\n镇痛\n哌替啶。吗啡、阿托品不宜使用。\n\n\n急诊内镜去除病因\n\n\n预防和抗感染\n\n\n早期肠内营养\n\n\n择期内镜、腹腔镜去除病因\n\n\n胰腺局部并发症\n\n胰腺假性囊肿\n\n&lt;4cm囊肿，自行吸收\n\n&gt;6cm或多发囊肿，观察6~8周后，无缩小和吸收趋势，则需引流\n\n\n胰腺脓肿处理"
+    "text": "治疗\n\n经验性抗菌药物治疗\n\n无铜绿假单胞菌感染因素：\n单用β内酰胺类或联合大环内酯类或氟喹诺酮类\n\n\n有铜绿假单胞菌感染因素\n抗铜绿假单胞菌的β内酰胺类、光谱青霉素/β内酰胺酶抑制剂、碳青霉烯类的一种联合呼吸氟喹诺酮类或氨基糖苷类\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症\n\n\n\n治疗效果评估\n抗感染治疗48~72h对治疗效果进行评估。"
   },
   {
-    "objectID": "icu/icu_ALF/index.html",
-    "href": "icu/icu_ALF/index.html",
-    "title": "急性肝衰竭",
+    "objectID": "icu/icu_ARDS/index.html",
+    "href": "icu/icu_ARDS/index.html",
+    "title": "ARDS",
     "section": "",
-    "text": "肝衰竭的定义与分类"
+    "text": "ARDS"
   },
   {
-    "objectID": "icu/icu_ALF/index.html#分类",
-    "href": "icu/icu_ALF/index.html#分类",
-    "title": "急性肝衰竭",
+    "objectID": "icu/icu_ARDS/index.html#定义",
+    "href": "icu/icu_ARDS/index.html#定义",
+    "title": "ARDS",
     "section": "",
-    "text": "肝衰竭的定义与分类"
+    "text": "ARDS"
   },
   {
-    "objectID": "icu/icu_ALF/index.html#分期",
-    "href": "icu/icu_ALF/index.html#分期",
-    "title": "急性肝衰竭",
-    "section": "分期",
-    "text": "分期\n\n早期\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n黄疸进行性加深（TB&gt;171μmmol/L或每日上升≥17.1μmmol/L）\n有出血倾向，凝血酶原活动度（PTA）为30%~40%\n未出现肝性脑病和明显腹水\n\n\n\n中期\n\n出现II度以下肝性脑病和明显腹水\n出血倾向明显，PTA为20%~30%\n\n\n\n晚期\n\n有难治性并发症，如肝肾综合征、上消化道大出血、严重感染和难以纠正的电解质紊乱\n出现II度以上肝性脑病\n有严重出血倾向，PTA&lt;20%"
+    "objectID": "icu/icu_ARDS/index.html#诊断",
+    "href": "icu/icu_ARDS/index.html#诊断",
+    "title": "ARDS",
+    "section": "诊断",
+    "text": "诊断\n病理特征：肺水肿和透明膜形成\n病理生理学特征：肺容积减少、肺顺应性降低、严重的通气/血流比例失衡\n分期：渗出期、增生期、纤维化期\n临床表现：呼吸窘迫、难治性低氧血症\n影像学表现：双肺弥漫渗出性改变\n\n\n\n\n\n\nARDS的柏林诊断标准"
   },
   {
-    "objectID": "icu/icu_ALF/index.html#临床诊断",
-    "href": "icu/icu_ALF/index.html#临床诊断",
-    "title": "急性肝衰竭",
-    "section": "临床诊断",
-    "text": "临床诊断\n\n急性肝衰竭\n\n急性起病2周内出现II度及以上肝性脑病并有以下表现者：\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n短期内黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n肝脏进行性缩小\n\n\n\n\n亚急性肝衰竭\n\n起病较急，15天~26周出现以下表现者：\n\n极度乏力，有明显消化道症状\n黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n\n\n\n\n慢加急性肝衰竭\n\n在慢性肝病的基础上，短期内发生急性肝功能失代偿的主要临床表现\n\n\n\n慢性肝衰竭\n\n在肝硬化基础上，肝功能进行性减退和失代偿\n\n有腹水或其他门脉高压表现\n可有肝性脑病\n血清总胆红素升高，白蛋白明显降低\n有凝血功能障碍，PTA&lt;40%"
-  },
-  {
-    "objectID": "icu/icu_ALF/index.html#治疗",
-    "href": "icu/icu_ALF/index.html#治疗",
-    "title": "急性肝衰竭",
+    "objectID": "icu/icu_ARDS/index.html#治疗",
+    "href": "icu/icu_ARDS/index.html#治疗",
+    "title": "ARDS",
     "section": "治疗",
-    "text": "治疗\n\n一般处理原则\n\n卧床休息、清淡饮食\n加强病情监护\n\n\n\n内科综合治疗\n\n病因治疗\n\n抗病毒治疗\n\n\n对乙酰氨基酚：活性炭，N-NAC\n\n\n毒蕈中毒：洗胃，活性炭，N-NAC\n\n\n威尔逊病：降低血铜、减少溶血、白蛋白透析和血浆置换\n\n\n自身免疫性肝炎：糖皮质激素\n\n\n妊娠期急性脂肪肝：尽早结束妊娠\n\n\n\n保肝治疗\n甘草酸苷类，还原性谷胱甘肽\n\n\n免疫调节与抗感染治疗\n自免肝、乙醇中毒：肾上腺皮质激素\n\n\n并发症处理与器官支持\n\n循环支持：去甲肾上腺素维持MAP&gt;65mmHg，存在心功能不全给予多巴酚丁胺等正性肌力药\n\n\n呼吸支持：III度以上肝性脑病给予气管插管，防止误吸\n\n\n肝性脑病与脑水肿：\n\nII度以上肝性脑病转入ICU监测与治疗\nIII度以上肝性脑病需气管插管和机械通气\n甘露醇降低颅压\n巴比妥镇静→减少氧耗，预防癫痫\n\n\n\n急性肾损伤和肝肾综合征：\n\n尽量避免肾毒性药物和非甾体抗炎药\n尽早CRRT\n\n\n\n凝血功能障碍和出血：\n\n适当补充血小板和凝血因子\n质子泵抑制剂预防应激性溃疡\n\n\n\n防止低血糖和营养支持\n\n\n防治感染"
+    "text": "治疗\n\n病因治疗\n纠正感染等\n\n\n肺保护性通气策略\n\n小潮气量通气：6~8ml/kg\n控制平台压：不超过30~35cmH2O，必要时，允许性高碳酸血症\nPEEP：应用防止肺泡塌陷的最低PEEP，从5cmH2O逐渐增加至合适水平，维持PaO2＞60mmHg，FiO2＜0.6。一般PEEP水平为8~18cmH2。\n\n\n\n挽救性治疗\n\n肺复张实施：纠正低氧血症，保证PEEP\n肌松药使用：中重度ARDS，减轻肺损伤\n俯卧位通气：改善通气-血流比例失衡\n高频通气：保持肺泡开放，改善氧合\nECMO\n\n\n\n\nECMO治疗指征\n\n\n\n\n液体管理\n限制液体入量，保持肺脏处于相对干的状态，即液体出入量维持轻度负平衡\n\n\n营养支持与监护\n补充足够的营养\n\n\n其他治疗\n糖皮质激素"
   },
   {
-    "objectID": "icu/icu.html",
-    "href": "icu/icu.html",
-    "title": "ICU",
+    "objectID": "icu/icu_allergic_shock/index.html",
+    "href": "icu/icu_allergic_shock/index.html",
+    "title": "过敏性休克",
     "section": "",
-    "text": "这是ICU专业知识."
+    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
   },
   {
-    "objectID": "icu/icu.html#前言",
-    "href": "icu/icu.html#前言",
-    "title": "ICU",
+    "objectID": "icu/icu_allergic_shock/index.html#治疗",
+    "href": "icu/icu_allergic_shock/index.html#治疗",
+    "title": "过敏性休克",
     "section": "",
-    "text": "这是ICU专业知识."
+    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
   },
   {
-    "objectID": "icu/icu.html#选择先前的笔记",
-    "href": "icu/icu.html#选择先前的笔记",
-    "title": "ICU",
-    "section": "选择先前的笔记",
-    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n腹腔间隔室综合征（ACS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性心衰\n\n\n2025-08-30\n\n\n\n\n\n\n心源性休克\n\n\n2025-08-30\n\n\n\n\n\n\n心肺复苏\n\n\n2025-08-30\n\n\n\n\n\n\n多器官功能障碍综合症（MODS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性肺血栓栓塞\n\n\n2025-08-30\n\n\n\n\n\n\n呼吸衰竭\n\n\n2025-08-30\n\n\n\n\n\n\n过敏性休克\n\n\n2025-08-30\n\n\n\n\n\n\n谵妄\n\n\n2025-08-30\n\n\n\n\n\n\n高血压急症\n\n\n2025-08-30\n\n\n\n\n\n\n低钾血症和高钾血症\n\n\n2025-08-30\n\n\n\n\n\n\n糖尿病酮症酸中毒与高渗高血糖综合征\n\n\n2025-08-30\n\n\n\n\n\n\n重症监测（外总）\n\n\n2025-08-30\n\n\n\n\n\n\n垂体危象\n\n\n2025-08-30\n\n\n\n\n\n\n镇痛与镇静\n\n\n2025-08-30\n\n\n\n\n\n\n甲亢危象\n\n\n2025-08-30\n\n\n\n\n\n\n机械通气\n\n\n2025-08-30\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\n哮喘急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
+    "objectID": "icu/icu_AKI/index.html#临床表现",
+    "href": "icu/icu_AKI/index.html#临床表现",
+    "title": "急性肾损伤",
+    "section": "临床表现",
+    "text": "临床表现"
   },
   {
-    "objectID": "code/qtwAcademic/index.html",
-    "href": "code/qtwAcademic/index.html",
-    "title": "qtwAcademic",
+    "objectID": "icu/icu_AKI/index.html#诊断",
+    "href": "icu/icu_AKI/index.html#诊断",
+    "title": "急性肾损伤",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\n定义\n\n\n\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\n\n\nKDIGO诊断标准\n\n\n\n\n\n\n\n\n\n\n\n诊断标准与分期\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\nKDIGO诊断标准"
+  },
+  {
+    "objectID": "icu/icu_AKI/index.html#治疗",
+    "href": "icu/icu_AKI/index.html#治疗",
+    "title": "急性肾损伤",
+    "section": "治疗",
+    "text": "治疗\n\n早期病因干预治疗\n营养支持治疗：优先肠内营养，酌情限制水分、钠盐、钾盐摄入\n并发症治疗\n肾脏替代治疗\n\n严重的代谢性酸中毒（pH＜7.2）\n高钾血症（K+＞6.5mmol/L或出现严重心律失常）\n严重肺水肿（利尿剂无效）\n严重的尿毒症症状（脑病、心包炎、癫痫发作）\n\n恢复期治疗：维持水电解质酸碱平衡、控制氮质血症"
+  },
+  {
+    "objectID": "icu/icu_ACS/index.html",
+    "href": "icu/icu_ACS/index.html",
+    "title": "腹腔间隔室综合征（ACS）",
     "section": "",
-    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
+    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
   },
   {
-    "objectID": "code/code.html",
-    "href": "code/code.html",
-    "title": "代码",
+    "objectID": "icu/icu_ACS/index.html#定义",
+    "href": "icu/icu_ACS/index.html#定义",
+    "title": "腹腔间隔室综合征（ACS）",
     "section": "",
-    "text": "ggehr\n\n\nggplot2 extension to EHR data\n\n\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n无匹配项"
+    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
+  },
+  {
+    "objectID": "icu/icu_ACS/index.html#治疗",
+    "href": "icu/icu_ACS/index.html#治疗",
+    "title": "腹腔间隔室综合征（ACS）",
+    "section": "治疗",
+    "text": "治疗\n\n\n非手术治疗\n\n排空腔内容物：\n胃肠减压、新斯的明等促胃肠动力药，灌肠导泻，纤维结肠镜\n\n\n排除腹腔内游离液体\n积极引流\n\n\n改善腹壁顺应性\n镇静、镇痛、肌松，适当体位\n\n\n优化液体治疗\n防止血容量不足的同时，避免过度液体复苏的发生\n内环境相对稳定时，应移除体内过多液体，可适当应用利尿剂维持液体零平衡或负平衡，当腹腔高压合并肾功能损害时应用持续肾脏替代治疗（CRRT）\n\n\n优化全身及局部灌注\n监测SvO2，ScvO2，血乳酸、PvaCO2等\n\n\n\n腹腔减压术\n当以上非手术治疗方法应用后腹腔压力仍大于20mmHg，同时伴随新发的脏器功能障碍，即应考虑行腹腔开放减压术"
+  },
+  {
+    "objectID": "dev/short_bio.html",
+    "href": "dev/short_bio.html",
+    "title": "笑面狐",
+    "section": "",
+    "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
+  },
+  {
+    "objectID": "code/ggehr/index.html",
+    "href": "code/ggehr/index.html",
+    "title": "ggehr",
+    "section": "",
+    "text": "ggehr (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.\nggehr package helps you make visualize EHR data, so that you can\n\nhave an overview of the mixed type information related to a patient;\nvisually identify the errors in data recording.\n\nLearn more about ggehr"
+  },
+  {
+    "objectID": "blog/readnote_20240606_bad_pharma/index.html",
+    "href": "blog/readnote_20240606_bad_pharma/index.html",
+    "title": "行为对态度的影响",
+    "section": "",
+    "text": "一、 行为影响态度的证据\n文章开篇通过几个生动的案例（如催眠、大脑电极刺激、裂脑患者实验）引出核心观点：人们会为自己的行为寻找合理的解释，从而改变自己的态度。随后，文章列举了多种行为影响态度的具体表现：\n\n角色扮演 (Role-Playing):\n\n当人们扮演一个新角色（如狱卒、囚犯、奴隶主、教师）时，最初可能感觉虚假，但随着时间推移，行为会逐渐内化，态度也随之改变。\n斯坦福监狱实验是经典例证：大学生在扮演狱卒和囚犯几天后，就完全进入了角色，表现出与角色相符的残酷或崩溃行为，说明环境和角色对个体态度的强大塑造力。\n奴隶制对奴隶主的影响：弗雷德里克·道格拉斯的回忆揭示了，长期扮演“主人”角色会腐蚀一个人的善良本性，使其变得残暴。\n\n言语变成信念 (Saying Becomes Believing):\n\n当人们为了取悦听众而说出与自己真实想法不符的观点时，如果缺乏外部借口（如被迫或受贿），他们往往会开始相信自己所说的话。\n海曼的例子：他最初不相信手相术，但为了赚钱而假装相信，最终自己也信了。\n实验证明，调整言语以迎合听众后，人们会更喜欢听众喜欢的人或事，并扭曲记忆以符合自己的言论。\n\n登门槛现象 (Foot-in-the-Door Phenomenon):\n\n先提出一个微不足道的请求（小要求），待对方答应后，再提出一个更大的请求，成功率会大大提高。\n经典实验：先让居民在窗前放一个“安全驾驶”的小标志，两周后再请求在院子里放一个大而丑陋的标志，同意率远高于直接提出大请求。\n原因是：一旦人们做出（即使是微小的）承诺，为了保持行为的一致性，他们会调整自己的态度，认为自己是一个“乐于助人”或“支持安全驾驶”的人，从而更愿意答应后续的更大请求。\n\n邪恶行为与道德行为的塑造作用:\n\n邪恶行为：一个微小的恶行（如说一个小谎）可能会引发更大的恶行，因为人们需要为自己的行为辩护，从而调整态度，认为自己的行为是正确的，甚至贬低受害者（“我们不仅伤害我们不喜欢的人，也变得不喜欢我们伤害的人”）。这解释了种族灭绝、战争暴行等如何逐步升级。\n道德行为：相反，主动的、非强制的道德行为也会塑造积极态度。例如，帮助他人会增强对受助者的好感；为恋人祈祷会增加对恋人的承诺；本杰明·富兰克林通过让对手帮一个小忙，成功将其转化为朋友。\n\n种族间的行为与态度:\n\n立法强制的种族融合行为（如废除学校种族隔离）虽然最初可能不被所有人接受，但长期来看，这些行为会改变人们的种族态度，使支持率上升，歧视减少。这证明了“你无法为道德立法”的假设是错误的，行为可以间接影响态度。\n\n\n\n\n二、 行为影响态度的原因：三种理论解释\n文章接着探讨了行为为何能影响态度，介绍了三种主要理论：\n\n自我表露理论 (Self-Presentation Theory):\n\n人们为了在他人面前维持一致、正面的形象，会调整自己的态度以匹配自己的行为。这是一种印象管理策略，有时可能只是“假装”态度改变了。\n\n认知失调理论 (Cognitive Dissonance Theory):\n\n当我们的行为与态度不一致时，会产生一种心理上的不适感（失调）。为了减少这种不适，我们会改变态度来合理化自己的行为。\n理由不足效应 (Insufficient Justification): 当行为缺乏强有力的外部理由（如高额报酬）时，失调感更强，因此人们更需要通过改变内在态度来为自己辩护。例如，在费斯廷格的实验中，只得到1美元报酬而说谎的学生，比得到20美元的学生更倾向于相信自己说的内容是真实的，因为他们缺乏“为钱说谎”这样的外部借口。\n该理论强调了责任和选择的重要性：当人们认为行为是自愿且自己负责时，失调感最强，态度改变也最显著。\n\n自我知觉理论 (Self-Perception Theory):\n\n当我们的态度不明确时，我们会像观察他人一样观察自己的行为，并据此推断自己的真实态度。例如，如果我发现自己经常微笑，我可能会推断“我一定是个快乐的人”。\n该理论能解释过度合理化效应 (Overjustification Effect)：当为一项本身有趣的事情提供外部报酬时，人们会将自己的行为归因于报酬（外在动机），从而削弱了原有的兴趣（内在动机）。例如，给喜欢画画的孩子报酬后，他们可能将画画视为换取报酬的工作，而非乐趣。\n\n\n\n\n三、 理论比较与结论\n\n认知失调理论更适用于解释当行为与已有的、明确的态度发生冲突时，人们为减少心理不适而进行的自我辩解。\n自我知觉理论更适用于解释当态度本身模糊或尚未形成时，人们如何通过观察自己的行为来形成态度。\n自我表露理论则解释了人们为了社会形象而进行的表面态度调整。\n\n\n\n\n四、 后记与启示\n文章最后强调，理解“行为影响态度”这一原理具有重要的实践意义。它告诉我们，改变自己并不总是从“想通”开始，而是可以从“行动”开始。通过主动采取期望的行为（如假装写作、强迫自己微笑、做出承诺），我们可以在不知不觉中改变自己的内在态度和习惯，实现自我成长。正如斯多噶派哲学家埃皮克提图所言：“要想养成某种习惯，那就去付诸行动。”"
+  },
+  {
+    "objectID": "blog/blog_introduction_zh/index.html",
+    "href": "blog/blog_introduction_zh/index.html",
+    "title": "5min中文自我介绍（PPT）",
+    "section": "",
+    "text": "5min中文PPT\n下载PPT \n各位老师好，我是郑州大学临床医学专业的学生刘奥奇。华西一直是我心向往之的医学殿堂，能参加这次预推免并向各位老师介绍自己，我倍感荣幸。\n接下来我将从以下六个方面进行介绍。\n首先是基本信息。我是汉族，2002年10月1日出生于河南省周口市，目前就读于郑州大学临床医学专业。\n学业成绩是我本科阶段的突出亮点。本科前8个学期，我的平均绩点为3.8（满绩4.0），在专业572人中排名第12，占比约2.09%。38门核心课程成绩在90分以上，其中15门更是达到95分以上，像病理生理学、药理学及内科学等重要核心课均取得了高分。\n英语能力方面，我的四级总分565分，六级总分520分。\n入学至今，我连续两年获评郑州大学三好学生称号，国家励志奖学金、郑州大学一等奖学金等。\n科研竞赛方面。我参与过大学生创新创业训练计划项目、北京脑举行的暑期培训营、挑战杯、中国国际大学生创新大赛以及大学生医学创新大赛等多个项目。\n大二时，我加入了一项大创项目，主要研究小鼠中哮喘的调控机制，在此期间我熟练掌握了PCR、Western Blot等实验技术。\n由于对科学研究很感兴趣，我报名参加了北京脑神经与认知科学暑期培训班，聆听了许多大佬的讲座，了解到了很多前沿的科学知识，并且我们小组最终在文献汇报比赛中拿到了一等奖。\n之后，我借助公共数据库，研究了AARS1作为乳酰基转移酶在肿瘤的临床相关性、肿瘤特征及乳酸代谢中的作用，发现AARS1在肿瘤中广泛高表达，且与乳酸代谢增强密切相关，影响患者生存。最后我们通过Western Blot和qPCR对结果进行了验证。\n我还参与了一项“中国国际大学生创新大赛”项目，我们项目名称为“智绘·好孕”，是一款植入前胚胎植入潜能检测试剂盒。我的主要工作是负责项目的单细胞数据分析流程的构建，包括整合RNA-seq、ATAC-seq和CNV数据，同时利用获取的特征基因构建随机森林模型，用于预测胚胎细胞的植入潜能。目前，相关内容已申请两项软著，我也在此过程中掌握了单细胞数据分析的基本流程。\n我参加了全国大学生医学创新大赛，并获全国总决赛银奖。\n实践经历方面，实习期间我跟随临床老师学到了不少知识，还在郑大一附院老师的带领下参观了ICU病房，这让我对重症医学领域产生了浓厚兴趣。此外，我参加过校运会仪仗队，和队员们一起夺得一等奖。\n技能上，我已经熟练地掌握了使用R语言和Python数据分析，我从老师那里借了服务器账号练习Linux技能，现已足够熟悉Linux服务器的基本操作方法。\n另外，我还比较熟练地掌握了CPR、换药术和四大穿刺等临床技能。未来我会继续努力，将这些技能熟练应用到临床和科研工作中。\n关于未来，我希望能在华西医院深造，并且制定了详细的计划。入学前，学习上要继续巩固临床知识、提升专业英语水平、研读文献、学习重症医学教材及生信和实验知识；技能上要熟练掌握各类临床技能，精进编程能力；生活上要保持健康习惯，坚持锻炼，阅读课外书等。\n我目前比较感兴趣的研究方向为脓毒症与感染性休克的调节机制及治疗策略。计划在大五期间，每周阅读3篇高质量文献，用Zotero建立文献管理库，总结高分文章的研究思路与方法，确定研究方向，再从公共数据库下载合适的数据集进行分析，然后整理、优化并验证结果，最后得出结论并撰写论文。若有机会，还会尝试开展循证医学研究。\n入学后的计划也已制定：研一要取得优异的学业成绩，争取奖学金，继续备考六级，争取考到600分以上；积极阅读文献、参与科研并发表论文；努力学习临床知识，掌握临床技能。研二继续学习专业知识，磨练临床技能，考取执业医师证书，同时尝试发表更具创新性的论文。研三要在ICU学习中向各位老师请教，掌握临床技能并考取相关证书，同时准备申博材料，争取读博机会。若能顺利读博，希望能独立开展课题，发表更高水平的论文。最终，我希望能在三甲医院的重症医学科就业，若有机会，非常渴望能留在华西医院工作。\n以上就是我的个人介绍，感谢老师们的聆听！"
+  },
+  {
+    "objectID": "blog/blog_interview_non_professional/index.html",
+    "href": "blog/blog_interview_non_professional/index.html",
+    "title": "面试——非专业问题",
+    "section": "",
+    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+  },
+  {
+    "objectID": "blog/blog_interview_non_professional/index.html#关于自己",
+    "href": "blog/blog_interview_non_professional/index.html#关于自己",
+    "title": "面试——非专业问题",
+    "section": "",
+    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+  },
+  {
+    "objectID": "about_me.html",
+    "href": "about_me.html",
+    "title": "刘奥奇",
+    "section": "",
+    "text": "邮箱\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
+  },
+  {
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "笔记",
+    "section": "",
+    "text": "日志\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n面试——非专业问题\n\n\n2025/8/31\n\n\n\n\n\n\n5min英文自我介绍（PPT）\n\n\n2025/8/31\n\n\n\n\n\n\n5min中文自我介绍（PPT）\n\n\n2025/8/31\n\n\n\n\n\n\n无匹配项\n\n\n\n学习笔记\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n我的重症医学单词: 2025年8月27日\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项\n\n\n\n阅读\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n行为对态度的影响\n\n\n2025/8/30\n\n\n\n\n\n\n无匹配项"
+  },
+  {
+    "objectID": "blog/blog_introduction_en/index.html",
+    "href": "blog/blog_introduction_en/index.html",
+    "title": "5min英文自我介绍（PPT）",
+    "section": "",
+    "text": "5min英文PPT\n下载PPT \nGood morning, professors.\nMy name is Liu Aoqi, and I am currently studying Clinical Medicine at Zhengzhou University. It is a great honor to be here.\nI’d like to share my story in six parts.\nFirst, some basic information.\nI’m Han Chinese, born on October 1, 2002, in Zhoukou, Henan Province.\nSecond, my academic performance.\nI have consistently achieved high academic results with an average GPA of 3.8 out of 4.0, ranking 12th out of 572 students in my major, which places me in the top 2.09%. I’ve excelled in 38 core courses such as Pathophysiology /ˈpæθəʊfɪzɪˈɒlədʒi/, Pharmacology /ˌfɑːməˈkɒlədʒi/, and Internal Medicine.\nThird, my English ability.\nI scored 565 on the CET-4 and 520 on the CET-6.\nIn addition, I have received several awards, including the National Inspirational Scholarship, first-class scholarship and the “merit student” title for two years.\nFourth, my research and competition experience.\nI’ve taken part in several projects, including the Undergraduate Innovation and Entrepreneurship Training Program, the “Challenge Cup”, the China International College Students Innovation Competition, and the National Medical Innovation Competition.\nOne of my projects was about investigating asthma regulation in mice and I learned experimental techniques such as PCR and Western Blot.\nI was especially excited to join a summer training class, where I listened to lectures from top scientists, and our group won first prize in a literature presentation competition.\nWe know lactate plays a critical role in tumors, and a new modification called protein lactylation is important — but the enzyme /ˈenzaɪm/ that adds it wasn’t clear. Recently, some studies suggested AARS1 might be that enzyme. So, I analyzed data to see how AARS1 is related to clinical relevance, hallmarks and lactate metabolism. I found that AARS1 is highly expressed in many cancers, linked to higher lactate levels, and affects the survival of patients. Finally, We also used qPCR and Western Blot to confirm our findings.\nI also worked on a project called “ZhiHui·HaoYun” — a test kit to predict embryo implantation potential. My main job was to build the single-cell data analysis pipeline. I combined data from RNA-seq, ATAC-seq, and CNV, and used the results to train a random forest model to predict embryo quality, which has currently been granted two software copyrights, and I’ve learned the basic workflow of single-cell data analysis.\nI also participated in a national university student medical innovation competition and won the silver award in the national finals.\nFifth, my practical experiences.\nDuring my clinical internship, I also visited the ICU at the First Affiliated /əˈfɪlieɪtɪd/ Hospital of Zhengzhou University, which really sparked my interest in critical care medicine.\nSixth, my skills.\nI’m good at using R for data cleaning, analysis, and visualization. And I am also familiar with Python for data analysis and the basic operations of Linux servers.\nClinically, I’ve mastered CPR, wound dressing, and four major puncture techniques. I’ll keep improving these skills for both clinical work and research.\nFinally, my future goals.\nMy dream is to study at Union Hospital. Before starting graduate school, I plan to:\n\nReview clinical knowledge, improve my medical English, and read more papers,\nLearn more about bioinformatics, experimental techniques, and improve programming abilities\nkeep a healthy lifestyle\n\nI’m particularly interested in studying the mechanisms and therapies for sepsis and septic shock. In my fifth year, I plan to read 3 papers per week and learn from their methods. Then download and analyze the data. Finally, verify the results and publish the paper.\nHere’s my study plan after enrollment:\n\nYear 1: Get good grades, improve my CET-6 (target: 600+), read papers, and start research.\nYear 2: prepare for the Medical Licensing Exam, and publish innovative papers.\nYear 3: prepare for PhD applications.\nIf I get the chance to do a PhD, I hope to lead my own project and publish high-impact papers.\n\nIn the long run, I want to work in the ICU of a three-A hospital. And if possible, I hope to work at West China Hospital.\nThat’s all for my introduction."
   },
   {
     "objectID": "blog/learnnote_words/index.html",
@@ -574,193 +637,165 @@
     "text": "deviate /ˈdiːvieɪt/ 偏离\noptimal 最优的\ncomply [kəmˈplaɪ] 遵从，服从\nfungal 真菌的\nregimen 方案、疗程\nanesthetic [ˌænəsˈθetɪk] 麻醉剂、麻醉的"
   },
   {
-    "objectID": "blog/blog_introduction_en/index.html",
-    "href": "blog/blog_introduction_en/index.html",
-    "title": "5min英文自我介绍（PPT）",
+    "objectID": "code/code.html",
+    "href": "code/code.html",
+    "title": "代码",
     "section": "",
-    "text": "5min英文PPT\n下载PPT \nGood morning, professors.\nMy name is Liu Aoqi, and I am currently studying Clinical Medicine at Zhengzhou University. It is a great honor to be here.\nI’d like to share my story in six parts.\nFirst, some basic information.\nI’m Han Chinese, born on October 1, 2002, in Zhoukou, Henan Province.\nSecond, my academic performance.\nI have consistently achieved high academic results with an average GPA of 3.8 out of 4.0, ranking 12th out of 572 students in my major, which places me in the top 2.09%. I’ve excelled in 38 core courses such as Pathophysiology /ˈpæθəʊfɪzɪˈɒlədʒi/, Pharmacology /ˌfɑːməˈkɒlədʒi/, and Internal Medicine.\nThird, my English ability.\nI scored 565 on the CET-4 and 520 on the CET-6.\nIn addition, I have received several awards, including the National Inspirational Scholarship, first-class scholarship and the “merit student” title for two years.\nFourth, my research and competition experience.\nI’ve taken part in several projects, including the Undergraduate Innovation and Entrepreneurship Training Program, the “Challenge Cup”, the China International College Students Innovation Competition, and the National Medical Innovation Competition.\nOne of my projects was about investigating asthma regulation in mice and I learned experimental techniques such as PCR and Western Blot.\nI was especially excited to join a summer training class, where I listened to lectures from top scientists, and our group won first prize in a literature presentation competition.\nWe know lactate plays a critical role in tumors, and a new modification called protein lactylation is important — but the enzyme /ˈenzaɪm/ that adds it wasn’t clear. Recently, some studies suggested AARS1 might be that enzyme. So, I analyzed data to see how AARS1 is related to clinical relevance, hallmarks and lactate metabolism. I found that AARS1 is highly expressed in many cancers, linked to higher lactate levels, and affects the survival of patients. Finally, We also used qPCR and Western Blot to confirm our findings.\nI also worked on a project called “ZhiHui·HaoYun” — a test kit to predict embryo implantation potential. My main job was to build the single-cell data analysis pipeline. I combined data from RNA-seq, ATAC-seq, and CNV, and used the results to train a random forest model to predict embryo quality, which has currently been granted two software copyrights, and I’ve learned the basic workflow of single-cell data analysis.\nI also participated in a national university student medical innovation competition and won the silver award in the national finals.\nFifth, my practical experiences.\nDuring my clinical internship, I also visited the ICU at the First Affiliated /əˈfɪlieɪtɪd/ Hospital of Zhengzhou University, which really sparked my interest in critical care medicine.\nSixth, my skills.\nI’m good at using R for data cleaning, analysis, and visualization. And I am also familiar with Python for data analysis and the basic operations of Linux servers.\nClinically, I’ve mastered CPR, wound dressing, and four major puncture techniques. I’ll keep improving these skills for both clinical work and research.\nFinally, my future goals.\nMy dream is to study at Union Hospital. Before starting graduate school, I plan to:\n\nReview clinical knowledge, improve my medical English, and read more papers,\nLearn more about bioinformatics, experimental techniques, and improve programming abilities\nkeep a healthy lifestyle\n\nI’m particularly interested in studying the mechanisms and therapies for sepsis and septic shock. In my fifth year, I plan to read 3 papers per week and learn from their methods. Then download and analyze the data. Finally, verify the results and publish the paper.\nHere’s my study plan after enrollment:\n\nYear 1: Get good grades, improve my CET-6 (target: 600+), read papers, and start research.\nYear 2: prepare for the Medical Licensing Exam, and publish innovative papers.\nYear 3: prepare for PhD applications.\nIf I get the chance to do a PhD, I hope to lead my own project and publish high-impact papers.\n\nIn the long run, I want to work in the ICU of a three-A hospital. And if possible, I hope to work at West China Hospital.\nThat’s all for my introduction."
+    "text": "ggehr\n\n\nggplot2 extension to EHR data\n\n\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n无匹配项"
   },
   {
-    "objectID": "blog/blog.html",
-    "href": "blog/blog.html",
-    "title": "笔记",
+    "objectID": "code/qtwAcademic/index.html",
+    "href": "code/qtwAcademic/index.html",
+    "title": "qtwAcademic",
     "section": "",
-    "text": "日志\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n面试——非专业问题\n\n\n2025/8/31\n\n\n\n\n\n\n5min英文自我介绍（PPT）\n\n\n2025/8/31\n\n\n\n\n\n\n5min中文自我介绍（PPT）\n\n\n2025/8/31\n\n\n\n\n\n\n无匹配项\n\n\n\n学习笔记\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n我的重症医学单词: 2025年8月27日\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项\n\n\n\n阅读\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n行为对态度的影响\n\n\n2025/8/30\n\n\n\n\n\n\n无匹配项"
+    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
   },
   {
-    "objectID": "about_me.html",
-    "href": "about_me.html",
-    "title": "刘奥奇",
+    "objectID": "icu/icu.html",
+    "href": "icu/icu.html",
+    "title": "ICU",
     "section": "",
-    "text": "邮箱\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
+    "text": "这是ICU专业知识."
   },
   {
-    "objectID": "blog/blog_interview_non_professional/index.html",
-    "href": "blog/blog_interview_non_professional/index.html",
-    "title": "面试——非专业问题",
+    "objectID": "icu/icu.html#前言",
+    "href": "icu/icu.html#前言",
+    "title": "ICU",
     "section": "",
-    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+    "text": "这是ICU专业知识."
   },
   {
-    "objectID": "blog/blog_interview_non_professional/index.html#关于自己",
-    "href": "blog/blog_interview_non_professional/index.html#关于自己",
-    "title": "面试——非专业问题",
-    "section": "",
-    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
+    "objectID": "icu/icu.html#选择先前的笔记",
+    "href": "icu/icu.html#选择先前的笔记",
+    "title": "ICU",
+    "section": "选择先前的笔记",
+    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n导管相关血流感染（CRBSI）\n\n\n2025-09-01\n\n\n\n\n\n\n腹腔间隔室综合征（ACS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性心衰\n\n\n2025-08-30\n\n\n\n\n\n\n心源性休克\n\n\n2025-08-30\n\n\n\n\n\n\n心肺复苏\n\n\n2025-08-30\n\n\n\n\n\n\n多器官功能障碍综合症（MODS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性肺血栓栓塞\n\n\n2025-08-30\n\n\n\n\n\n\n呼吸衰竭\n\n\n2025-08-30\n\n\n\n\n\n\n过敏性休克\n\n\n2025-08-30\n\n\n\n\n\n\n谵妄\n\n\n2025-08-30\n\n\n\n\n\n\n高血压急症\n\n\n2025-08-30\n\n\n\n\n\n\n低钾血症和高钾血症\n\n\n2025-08-30\n\n\n\n\n\n\n糖尿病酮症酸中毒与高渗高血糖综合征\n\n\n2025-08-30\n\n\n\n\n\n\n重症监测（外总）\n\n\n2025-08-30\n\n\n\n\n\n\n垂体危象\n\n\n2025-08-30\n\n\n\n\n\n\n镇痛与镇静\n\n\n2025-08-30\n\n\n\n\n\n\n甲亢危象\n\n\n2025-08-30\n\n\n\n\n\n\n机械通气\n\n\n2025-08-30\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\n哮喘急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
   },
   {
-    "objectID": "blog/blog_introduction_zh/index.html",
-    "href": "blog/blog_introduction_zh/index.html",
-    "title": "5min中文自我介绍（PPT）",
+    "objectID": "icu/icu_ALF/index.html",
+    "href": "icu/icu_ALF/index.html",
+    "title": "急性肝衰竭",
     "section": "",
-    "text": "5min中文PPT\n下载PPT \n各位老师好，我是郑州大学临床医学专业的学生刘奥奇。华西一直是我心向往之的医学殿堂，能参加这次预推免并向各位老师介绍自己，我倍感荣幸。\n接下来我将从以下六个方面进行介绍。\n首先是基本信息。我是汉族，2002年10月1日出生于河南省周口市，目前就读于郑州大学临床医学专业。\n学业成绩是我本科阶段的突出亮点。本科前8个学期，我的平均绩点为3.8（满绩4.0），在专业572人中排名第12，占比约2.09%。38门核心课程成绩在90分以上，其中15门更是达到95分以上，像病理生理学、药理学及内科学等重要核心课均取得了高分。\n英语能力方面，我的四级总分565分，六级总分520分。\n入学至今，我连续两年获评郑州大学三好学生称号，国家励志奖学金、郑州大学一等奖学金等。\n科研竞赛方面。我参与过大学生创新创业训练计划项目、北京脑举行的暑期培训营、挑战杯、中国国际大学生创新大赛以及大学生医学创新大赛等多个项目。\n大二时，我加入了一项大创项目，主要研究小鼠中哮喘的调控机制，在此期间我熟练掌握了PCR、Western Blot等实验技术。\n由于对科学研究很感兴趣，我报名参加了北京脑神经与认知科学暑期培训班，聆听了许多大佬的讲座，了解到了很多前沿的科学知识，并且我们小组最终在文献汇报比赛中拿到了一等奖。\n之后，我借助公共数据库，研究了AARS1作为乳酰基转移酶在肿瘤的临床相关性、肿瘤特征及乳酸代谢中的作用，发现AARS1在肿瘤中广泛高表达，且与乳酸代谢增强密切相关，影响患者生存。最后我们通过Western Blot和qPCR对结果进行了验证。\n我还参与了一项“中国国际大学生创新大赛”项目，我们项目名称为“智绘·好孕”，是一款植入前胚胎植入潜能检测试剂盒。我的主要工作是负责项目的单细胞数据分析流程的构建，包括整合RNA-seq、ATAC-seq和CNV数据，同时利用获取的特征基因构建随机森林模型，用于预测胚胎细胞的植入潜能。目前，相关内容已申请两项软著，我也在此过程中掌握了单细胞数据分析的基本流程。\n我参加了全国大学生医学创新大赛，并获全国总决赛银奖。\n实践经历方面，实习期间我跟随临床老师学到了不少知识，还在郑大一附院老师的带领下参观了ICU病房，这让我对重症医学领域产生了浓厚兴趣。此外，我参加过校运会仪仗队，和队员们一起夺得一等奖。\n技能上，我已经熟练地掌握了使用R语言和Python数据分析，我从老师那里借了服务器账号练习Linux技能，现已足够熟悉Linux服务器的基本操作方法。\n另外，我还比较熟练地掌握了CPR、换药术和四大穿刺等临床技能。未来我会继续努力，将这些技能熟练应用到临床和科研工作中。\n关于未来，我希望能在华西医院深造，并且制定了详细的计划。入学前，学习上要继续巩固临床知识、提升专业英语水平、研读文献、学习重症医学教材及生信和实验知识；技能上要熟练掌握各类临床技能，精进编程能力；生活上要保持健康习惯，坚持锻炼，阅读课外书等。\n我目前比较感兴趣的研究方向为脓毒症与感染性休克的调节机制及治疗策略。计划在大五期间，每周阅读3篇高质量文献，用Zotero建立文献管理库，总结高分文章的研究思路与方法，确定研究方向，再从公共数据库下载合适的数据集进行分析，然后整理、优化并验证结果，最后得出结论并撰写论文。若有机会，还会尝试开展循证医学研究。\n入学后的计划也已制定：研一要取得优异的学业成绩，争取奖学金，继续备考六级，争取考到600分以上；积极阅读文献、参与科研并发表论文；努力学习临床知识，掌握临床技能。研二继续学习专业知识，磨练临床技能，考取执业医师证书，同时尝试发表更具创新性的论文。研三要在ICU学习中向各位老师请教，掌握临床技能并考取相关证书，同时准备申博材料，争取读博机会。若能顺利读博，希望能独立开展课题，发表更高水平的论文。最终，我希望能在三甲医院的重症医学科就业，若有机会，非常渴望能留在华西医院工作。\n以上就是我的个人介绍，感谢老师们的聆听！"
+    "text": "肝衰竭的定义与分类"
   },
   {
-    "objectID": "blog/readnote_20240606_bad_pharma/index.html",
-    "href": "blog/readnote_20240606_bad_pharma/index.html",
-    "title": "行为对态度的影响",
+    "objectID": "icu/icu_ALF/index.html#分类",
+    "href": "icu/icu_ALF/index.html#分类",
+    "title": "急性肝衰竭",
     "section": "",
-    "text": "一、 行为影响态度的证据\n文章开篇通过几个生动的案例（如催眠、大脑电极刺激、裂脑患者实验）引出核心观点：人们会为自己的行为寻找合理的解释，从而改变自己的态度。随后，文章列举了多种行为影响态度的具体表现：\n\n角色扮演 (Role-Playing):\n\n当人们扮演一个新角色（如狱卒、囚犯、奴隶主、教师）时，最初可能感觉虚假，但随着时间推移，行为会逐渐内化，态度也随之改变。\n斯坦福监狱实验是经典例证：大学生在扮演狱卒和囚犯几天后，就完全进入了角色，表现出与角色相符的残酷或崩溃行为，说明环境和角色对个体态度的强大塑造力。\n奴隶制对奴隶主的影响：弗雷德里克·道格拉斯的回忆揭示了，长期扮演“主人”角色会腐蚀一个人的善良本性，使其变得残暴。\n\n言语变成信念 (Saying Becomes Believing):\n\n当人们为了取悦听众而说出与自己真实想法不符的观点时，如果缺乏外部借口（如被迫或受贿），他们往往会开始相信自己所说的话。\n海曼的例子：他最初不相信手相术，但为了赚钱而假装相信，最终自己也信了。\n实验证明，调整言语以迎合听众后，人们会更喜欢听众喜欢的人或事，并扭曲记忆以符合自己的言论。\n\n登门槛现象 (Foot-in-the-Door Phenomenon):\n\n先提出一个微不足道的请求（小要求），待对方答应后，再提出一个更大的请求，成功率会大大提高。\n经典实验：先让居民在窗前放一个“安全驾驶”的小标志，两周后再请求在院子里放一个大而丑陋的标志，同意率远高于直接提出大请求。\n原因是：一旦人们做出（即使是微小的）承诺，为了保持行为的一致性，他们会调整自己的态度，认为自己是一个“乐于助人”或“支持安全驾驶”的人，从而更愿意答应后续的更大请求。\n\n邪恶行为与道德行为的塑造作用:\n\n邪恶行为：一个微小的恶行（如说一个小谎）可能会引发更大的恶行，因为人们需要为自己的行为辩护，从而调整态度，认为自己的行为是正确的，甚至贬低受害者（“我们不仅伤害我们不喜欢的人，也变得不喜欢我们伤害的人”）。这解释了种族灭绝、战争暴行等如何逐步升级。\n道德行为：相反，主动的、非强制的道德行为也会塑造积极态度。例如，帮助他人会增强对受助者的好感；为恋人祈祷会增加对恋人的承诺；本杰明·富兰克林通过让对手帮一个小忙，成功将其转化为朋友。\n\n种族间的行为与态度:\n\n立法强制的种族融合行为（如废除学校种族隔离）虽然最初可能不被所有人接受，但长期来看，这些行为会改变人们的种族态度，使支持率上升，歧视减少。这证明了“你无法为道德立法”的假设是错误的，行为可以间接影响态度。\n\n\n\n\n二、 行为影响态度的原因：三种理论解释\n文章接着探讨了行为为何能影响态度，介绍了三种主要理论：\n\n自我表露理论 (Self-Presentation Theory):\n\n人们为了在他人面前维持一致、正面的形象，会调整自己的态度以匹配自己的行为。这是一种印象管理策略，有时可能只是“假装”态度改变了。\n\n认知失调理论 (Cognitive Dissonance Theory):\n\n当我们的行为与态度不一致时，会产生一种心理上的不适感（失调）。为了减少这种不适，我们会改变态度来合理化自己的行为。\n理由不足效应 (Insufficient Justification): 当行为缺乏强有力的外部理由（如高额报酬）时，失调感更强，因此人们更需要通过改变内在态度来为自己辩护。例如，在费斯廷格的实验中，只得到1美元报酬而说谎的学生，比得到20美元的学生更倾向于相信自己说的内容是真实的，因为他们缺乏“为钱说谎”这样的外部借口。\n该理论强调了责任和选择的重要性：当人们认为行为是自愿且自己负责时，失调感最强，态度改变也最显著。\n\n自我知觉理论 (Self-Perception Theory):\n\n当我们的态度不明确时，我们会像观察他人一样观察自己的行为，并据此推断自己的真实态度。例如，如果我发现自己经常微笑，我可能会推断“我一定是个快乐的人”。\n该理论能解释过度合理化效应 (Overjustification Effect)：当为一项本身有趣的事情提供外部报酬时，人们会将自己的行为归因于报酬（外在动机），从而削弱了原有的兴趣（内在动机）。例如，给喜欢画画的孩子报酬后，他们可能将画画视为换取报酬的工作，而非乐趣。\n\n\n\n\n三、 理论比较与结论\n\n认知失调理论更适用于解释当行为与已有的、明确的态度发生冲突时，人们为减少心理不适而进行的自我辩解。\n自我知觉理论更适用于解释当态度本身模糊或尚未形成时，人们如何通过观察自己的行为来形成态度。\n自我表露理论则解释了人们为了社会形象而进行的表面态度调整。\n\n\n\n\n四、 后记与启示\n文章最后强调，理解“行为影响态度”这一原理具有重要的实践意义。它告诉我们，改变自己并不总是从“想通”开始，而是可以从“行动”开始。通过主动采取期望的行为（如假装写作、强迫自己微笑、做出承诺），我们可以在不知不觉中改变自己的内在态度和习惯，实现自我成长。正如斯多噶派哲学家埃皮克提图所言：“要想养成某种习惯，那就去付诸行动。”"
+    "text": "肝衰竭的定义与分类"
   },
   {
-    "objectID": "code/ggehr/index.html",
-    "href": "code/ggehr/index.html",
-    "title": "ggehr",
-    "section": "",
-    "text": "ggehr (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.\nggehr package helps you make visualize EHR data, so that you can\n\nhave an overview of the mixed type information related to a patient;\nvisually identify the errors in data recording.\n\nLearn more about ggehr"
+    "objectID": "icu/icu_ALF/index.html#分期",
+    "href": "icu/icu_ALF/index.html#分期",
+    "title": "急性肝衰竭",
+    "section": "分期",
+    "text": "分期\n\n早期\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n黄疸进行性加深（TB&gt;171μmmol/L或每日上升≥17.1μmmol/L）\n有出血倾向，凝血酶原活动度（PTA）为30%~40%\n未出现肝性脑病和明显腹水\n\n\n\n中期\n\n出现II度以下肝性脑病和明显腹水\n出血倾向明显，PTA为20%~30%\n\n\n\n晚期\n\n有难治性并发症，如肝肾综合征、上消化道大出血、严重感染和难以纠正的电解质紊乱\n出现II度以上肝性脑病\n有严重出血倾向，PTA&lt;20%"
   },
   {
-    "objectID": "dev/short_bio.html",
-    "href": "dev/short_bio.html",
-    "title": "笑面狐",
-    "section": "",
-    "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
+    "objectID": "icu/icu_ALF/index.html#临床诊断",
+    "href": "icu/icu_ALF/index.html#临床诊断",
+    "title": "急性肝衰竭",
+    "section": "临床诊断",
+    "text": "临床诊断\n\n急性肝衰竭\n\n急性起病2周内出现II度及以上肝性脑病并有以下表现者：\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n短期内黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n肝脏进行性缩小\n\n\n\n\n亚急性肝衰竭\n\n起病较急，15天~26周出现以下表现者：\n\n极度乏力，有明显消化道症状\n黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n\n\n\n\n慢加急性肝衰竭\n\n在慢性肝病的基础上，短期内发生急性肝功能失代偿的主要临床表现\n\n\n\n慢性肝衰竭\n\n在肝硬化基础上，肝功能进行性减退和失代偿\n\n有腹水或其他门脉高压表现\n可有肝性脑病\n血清总胆红素升高，白蛋白明显降低\n有凝血功能障碍，PTA&lt;40%"
   },
   {
-    "objectID": "icu/icu_ACS/index.html",
-    "href": "icu/icu_ACS/index.html",
-    "title": "腹腔间隔室综合征（ACS）",
-    "section": "",
-    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
-  },
-  {
-    "objectID": "icu/icu_ACS/index.html#定义",
-    "href": "icu/icu_ACS/index.html#定义",
-    "title": "腹腔间隔室综合征（ACS）",
-    "section": "",
-    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
-  },
-  {
-    "objectID": "icu/icu_ACS/index.html#治疗",
-    "href": "icu/icu_ACS/index.html#治疗",
-    "title": "腹腔间隔室综合征（ACS）",
+    "objectID": "icu/icu_ALF/index.html#治疗",
+    "href": "icu/icu_ALF/index.html#治疗",
+    "title": "急性肝衰竭",
     "section": "治疗",
-    "text": "治疗\n\n\n非手术治疗\n\n排空腔内容物：\n胃肠减压、新斯的明等促胃肠动力药，灌肠导泻，纤维结肠镜\n\n\n排除腹腔内游离液体\n积极引流\n\n\n改善腹壁顺应性\n镇静、镇痛、肌松，适当体位\n\n\n优化液体治疗\n防止血容量不足的同时，避免过度液体复苏的发生\n内环境相对稳定时，应移除体内过多液体，可适当应用利尿剂维持液体零平衡或负平衡，当腹腔高压合并肾功能损害时应用持续肾脏替代治疗（CRRT）\n\n\n优化全身及局部灌注\n监测SvO2，ScvO2，血乳酸、PvaCO2等\n\n\n\n腹腔减压术\n当以上非手术治疗方法应用后腹腔压力仍大于20mmHg，同时伴随新发的脏器功能障碍，即应考虑行腹腔开放减压术"
+    "text": "治疗\n\n一般处理原则\n\n卧床休息、清淡饮食\n加强病情监护\n\n\n\n内科综合治疗\n\n病因治疗\n\n抗病毒治疗\n\n\n对乙酰氨基酚：活性炭，N-NAC\n\n\n毒蕈中毒：洗胃，活性炭，N-NAC\n\n\n威尔逊病：降低血铜、减少溶血、白蛋白透析和血浆置换\n\n\n自身免疫性肝炎：糖皮质激素\n\n\n妊娠期急性脂肪肝：尽早结束妊娠\n\n\n\n保肝治疗\n甘草酸苷类，还原性谷胱甘肽\n\n\n免疫调节与抗感染治疗\n自免肝、乙醇中毒：肾上腺皮质激素\n\n\n并发症处理与器官支持\n\n循环支持：去甲肾上腺素维持MAP&gt;65mmHg，存在心功能不全给予多巴酚丁胺等正性肌力药\n\n\n呼吸支持：III度以上肝性脑病给予气管插管，防止误吸\n\n\n肝性脑病与脑水肿：\n\nII度以上肝性脑病转入ICU监测与治疗\nIII度以上肝性脑病需气管插管和机械通气\n甘露醇降低颅压\n巴比妥镇静→减少氧耗，预防癫痫\n\n\n\n急性肾损伤和肝肾综合征：\n\n尽量避免肾毒性药物和非甾体抗炎药\n尽早CRRT\n\n\n\n凝血功能障碍和出血：\n\n适当补充血小板和凝血因子\n质子泵抑制剂预防应激性溃疡\n\n\n\n防止低血糖和营养支持\n\n\n防治感染"
   },
   {
-    "objectID": "icu/icu_AKI/index.html#临床表现",
-    "href": "icu/icu_AKI/index.html#临床表现",
-    "title": "急性肾损伤",
-    "section": "临床表现",
-    "text": "临床表现"
+    "objectID": "icu/icu_AP/index.html",
+    "href": "icu/icu_AP/index.html",
+    "title": "重症急性胰腺炎",
+    "section": "",
+    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
   },
   {
-    "objectID": "icu/icu_AKI/index.html#诊断",
-    "href": "icu/icu_AKI/index.html#诊断",
-    "title": "急性肾损伤",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n\n\n\n定义\n\n\n\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\n\n\nKDIGO诊断标准\n\n\n\n\n\n\n\n\n\n\n\n诊断标准与分期\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\nKDIGO诊断标准"
+    "objectID": "icu/icu_AP/index.html#诊断",
+    "href": "icu/icu_AP/index.html#诊断",
+    "title": "重症急性胰腺炎",
+    "section": "",
+    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
   },
   {
-    "objectID": "icu/icu_AKI/index.html#治疗",
-    "href": "icu/icu_AKI/index.html#治疗",
-    "title": "急性肾损伤",
+    "objectID": "icu/icu_AP/index.html#并发症",
+    "href": "icu/icu_AP/index.html#并发症",
+    "title": "重症急性胰腺炎",
+    "section": "并发症",
+    "text": "并发症\n\n急性胰腺炎局部并发症\n\n急性胰周液体积聚\n胰腺假性囊肿\n急性坏死物积聚\n包裹性坏死\n感染性胰腺坏死"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html#治疗",
+    "href": "icu/icu_AP/index.html#治疗",
+    "title": "重症急性胰腺炎",
     "section": "治疗",
-    "text": "治疗\n\n早期病因干预治疗\n营养支持治疗：优先肠内营养，酌情限制水分、钠盐、钾盐摄入\n并发症治疗\n肾脏替代治疗\n\n严重的代谢性酸中毒（pH＜7.2）\n高钾血症（K+＞6.5mmol/L或出现严重心律失常）\n严重肺水肿（利尿剂无效）\n严重的尿毒症症状（脑病、心包炎、癫痫发作）\n\n恢复期治疗：维持水电解质酸碱平衡、控制氮质血症"
+    "text": "治疗\n\n两大任务：\n\n寻找并去除病因\n控制炎症\n\n\n监护\nAPACHE II评分评估病情，APACHE II≥8为SAP高危人群\n\n\n器官支持\n\n液体复苏\n迅速纠正组织缺氧，维持水电解质酸碱平衡\n\n\n呼吸功能\n吸氧，正压机械通气\n\n\n肠功能维护\n导泻及口服抗生素\n\n\n连续性血液净化\n\n\n\n减少胰液分泌\n\n禁食\n\n\n生长抑素\n\n\n\n控制炎症\n\n液体复苏\n\n\n生长抑素\n\n\n早期肠内营养\n\n\n\n镇痛\n哌替啶。吗啡、阿托品不宜使用。\n\n\n急诊内镜去除病因\n\n\n预防和抗感染\n\n\n早期肠内营养\n\n\n择期内镜、腹腔镜去除病因\n\n\n胰腺局部并发症\n\n胰腺假性囊肿\n\n&lt;4cm囊肿，自行吸收\n\n&gt;6cm或多发囊肿，观察6~8周后，无缩小和吸收趋势，则需引流\n\n\n胰腺脓肿处理"
   },
   {
-    "objectID": "icu/icu_allergic_shock/index.html",
-    "href": "icu/icu_allergic_shock/index.html",
-    "title": "过敏性休克",
+    "objectID": "icu/icu_asthma/index.html",
+    "href": "icu/icu_asthma/index.html",
+    "title": "哮喘急性发作",
     "section": "",
-    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
   },
   {
-    "objectID": "icu/icu_allergic_shock/index.html#治疗",
-    "href": "icu/icu_allergic_shock/index.html#治疗",
-    "title": "过敏性休克",
+    "objectID": "icu/icu_asthma/index.html#治疗",
+    "href": "icu/icu_asthma/index.html#治疗",
+    "title": "哮喘急性发作",
     "section": "",
-    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html",
-    "href": "icu/icu_ARDS/index.html",
-    "title": "ARDS",
+    "objectID": "icu/icu_CGS/index.html",
+    "href": "icu/icu_CGS/index.html",
+    "title": "心源性休克",
     "section": "",
-    "text": "ARDS"
+    "text": "心源性休克诊断标准"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#定义",
-    "href": "icu/icu_ARDS/index.html#定义",
-    "title": "ARDS",
+    "objectID": "icu/icu_CGS/index.html#诊断",
+    "href": "icu/icu_CGS/index.html#诊断",
+    "title": "心源性休克",
     "section": "",
-    "text": "ARDS"
+    "text": "心源性休克诊断标准"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#诊断",
-    "href": "icu/icu_ARDS/index.html#诊断",
-    "title": "ARDS",
-    "section": "诊断",
-    "text": "诊断\n病理特征：肺水肿和透明膜形成\n病理生理学特征：肺容积减少、肺顺应性降低、严重的通气/血流比例失衡\n分期：渗出期、增生期、纤维化期\n临床表现：呼吸窘迫、难治性低氧血症\n影像学表现：双肺弥漫渗出性改变\n\n\n\n\n\n\nARDS的柏林诊断标准"
-  },
-  {
-    "objectID": "icu/icu_ARDS/index.html#治疗",
-    "href": "icu/icu_ARDS/index.html#治疗",
-    "title": "ARDS",
+    "objectID": "icu/icu_CGS/index.html#治疗",
+    "href": "icu/icu_CGS/index.html#治疗",
+    "title": "心源性休克",
     "section": "治疗",
-    "text": "治疗\n\n病因治疗\n纠正感染等\n\n\n肺保护性通气策略\n\n小潮气量通气：6~8ml/kg\n控制平台压：不超过30~35cmH2O，必要时，允许性高碳酸血症\nPEEP：应用防止肺泡塌陷的最低PEEP，从5cmH2O逐渐增加至合适水平，维持PaO2＞60mmHg，FiO2＜0.6。一般PEEP水平为8~18cmH2。\n\n\n\n挽救性治疗\n\n肺复张实施：纠正低氧血症，保证PEEP\n肌松药使用：中重度ARDS，减轻肺损伤\n俯卧位通气：改善通气-血流比例失衡\n高频通气：保持肺泡开放，改善氧合\nECMO\n\n\n\n\nECMO治疗指征\n\n\n\n\n液体管理\n限制液体入量，保持肺脏处于相对干的状态，即液体出入量维持轻度负平衡\n\n\n营养支持与监护\n补充足够的营养\n\n\n其他治疗\n糖皮质激素"
+    "text": "治疗\n\n原发病紧急治疗\n\n溶栓\n无法行PCI的AMI3h内，最晚12h溶栓\n\n\n经皮冠状动脉介入术（PCI）\nSTEMI若适宜尽可能做\n\n\n冠状动脉旁路移植术（CABG）\n\n\n\n\n药物治疗\n\n正性肌力药\n一线策略：多巴酚丁胺和去甲肾上腺素\n二线策略：左西孟旦\n\n多巴酚丁胺\n多巴胺\n地高辛\n异丙肾上腺素\n去甲肾上腺素\n肾上腺素\n磷酸二酯酶抑制剂\n钙增敏剂：左西孟旦\n\n\n\n血管舒张药\n\n硝普纳\n硝酸甘油\n\n\n\n机械循环支持\n\n主动脉内球囊反搏（IABG）\n体外膜肺氧合（ECMO）\n经皮左心室辅助装置（PL-VAD）"
   },
   {
-    "objectID": "icu/icu_CAP/index.html",
-    "href": "icu/icu_CAP/index.html",
-    "title": "重症社区获得性肺炎（CAP）",
+    "objectID": "icu/icu_CPR/index.html",
+    "href": "icu/icu_CPR/index.html",
+    "title": "心肺复苏",
     "section": "",
-    "text": "社区获得性肺炎（CAP）"
+    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
   },
   {
-    "objectID": "icu/icu_CAP/index.html#定义",
-    "href": "icu/icu_CAP/index.html#定义",
-    "title": "重症社区获得性肺炎（CAP）",
+    "objectID": "icu/icu_CPR/index.html#基本生命支持bls",
+    "href": "icu/icu_CPR/index.html#基本生命支持bls",
+    "title": "心肺复苏",
     "section": "",
-    "text": "社区获得性肺炎（CAP）"
+    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
   },
   {
-    "objectID": "icu/icu_CAP/index.html#诊断",
-    "href": "icu/icu_CAP/index.html#诊断",
-    "title": "重症社区获得性肺炎（CAP）",
-    "section": "诊断",
-    "text": "诊断\n\nCAP诊断标准重症CAP诊断标准"
+    "objectID": "icu/icu_CPR/index.html#高级生命支持",
+    "href": "icu/icu_CPR/index.html#高级生命支持",
+    "title": "心肺复苏",
+    "section": "高级生命支持",
+    "text": "高级生命支持\n\n呼吸支持：人工气道，首选气管插管\n恢复和维持自主循环：高质量CPR+电除颤或肾上腺素\nCPR期间的监测：心电图、呼气末CO2，冠状动脉灌注压、ScvO2\n药物治疗\n\n缩血管药物：肾上腺素、血管加压素\n抗心律失常药：胺碘酮、利多卡因、硫酸镁"
   },
   {
-    "objectID": "icu/icu_CAP/index.html#治疗",
-    "href": "icu/icu_CAP/index.html#治疗",
-    "title": "重症社区获得性肺炎（CAP）",
-    "section": "治疗",
-    "text": "治疗\n\n经验性抗菌药物治疗\n\n无铜绿假单胞菌感染因素：\n单用β内酰胺类或联合大环内酯类或氟喹诺酮类\n\n\n有铜绿假单胞菌感染因素\n抗铜绿假单胞菌的β内酰胺类、光谱青霉素/β内酰胺酶抑制剂、碳青霉烯类的一种联合呼吸氟喹诺酮类或氨基糖苷类\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症\n\n\n\n治疗效果评估\n抗感染治疗48~72h对治疗效果进行评估。"
-  },
-  {
-    "objectID": "icu/icu_COPD/index.html",
-    "href": "icu/icu_COPD/index.html",
-    "title": "COPD急性加重",
-    "section": "",
-    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
-  },
-  {
-    "objectID": "icu/icu_COPD/index.html#治疗",
-    "href": "icu/icu_COPD/index.html#治疗",
-    "title": "COPD急性加重",
-    "section": "",
-    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+    "objectID": "icu/icu_CPR/index.html#复苏后治疗",
+    "href": "icu/icu_CPR/index.html#复苏后治疗",
+    "title": "心肺复苏",
+    "section": "复苏后治疗",
+    "text": "复苏后治疗\n\n优化通气氧合\n维持血流动力学稳定\n脑复苏：\n\n低温治疗\n改善脑血流灌注：脱水、低温、肾上腺皮质激素\n药物治疗：激素"
   },
   {
     "objectID": "icu/icu_delirium/index.html",

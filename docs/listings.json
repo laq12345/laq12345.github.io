@@ -15,8 +15,26 @@
     ]
   },
   {
+    "listing": "/blog/blog.html",
+    "items": [
+      "/blog/blog_interview_non_professional/index.html",
+      "/blog/blog_introduction_en/index.html",
+      "/blog/blog_introduction_zh/index.html",
+      "/blog/readnote_20240606_bad_pharma/index.html",
+      "/blog/learnnote_words/index.html"
+    ]
+  },
+  {
+    "listing": "/code/code.html",
+    "items": [
+      "/code/ggehr/index.html",
+      "/code/qtwAcademic/index.html"
+    ]
+  },
+  {
     "listing": "/icu/icu.html",
     "items": [
+      "/icu/icu_CRBSI/index.html",
       "/icu/icu_ACS/index.html",
       "/icu/icu_AHF/index.html",
       "/icu/icu_CGS/index.html",
@@ -46,23 +64,6 @@
       "/icu/icu_asthma/index.html",
       "/icu/icu_sepsis/index.html",
       "/icu/icu_shock/index.html"
-    ]
-  },
-  {
-    "listing": "/code/code.html",
-    "items": [
-      "/code/ggehr/index.html",
-      "/code/qtwAcademic/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/blog.html",
-    "items": [
-      "/blog/blog_interview_non_professional/index.html",
-      "/blog/blog_introduction_en/index.html",
-      "/blog/blog_introduction_zh/index.html",
-      "/blog/readnote_20240606_bad_pharma/index.html",
-      "/blog/learnnote_words/index.html"
     ]
   },
   {
