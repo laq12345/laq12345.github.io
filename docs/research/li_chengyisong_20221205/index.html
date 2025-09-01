@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-08-27">
+<meta name="description" content="程毅松2022年125日发表于Chin Med J (Engl)">
 
-<title>笑面狐</title>
+<title>Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit – 笑面狐</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +22,47 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./misc/info/favicon.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-697f85932ebbc297d1513306f70c8937.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../misc/info/favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-697f85932ebbc297d1513306f70c8937.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -54,68 +77,68 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "没有结果",
-    "search-matching-documents-text": "匹配的文档",
-    "search-copy-link-title": "复制搜索链接",
-    "search-hide-matches-text": "隐藏其它匹配结果",
-    "search-more-match-text": "更多匹配结果",
-    "search-more-matches-text": "更多匹配结果",
-    "search-clear-button-title": "清除",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "取消",
-    "search-submit-button-title": "提交",
-    "search-label": "搜索"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">笑面狐</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="搜索"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="展开或折叠导航栏" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./information/information.html"> 
+    <a class="nav-link" href="../../information/information.html"> 
 <span class="menu-text">资料</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/research.html"> 
+    <a class="nav-link" href="../../research/research.html"> 
 <span class="menu-text">科研</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./code/code.html"> 
+    <a class="nav-link" href="../../code/code.html"> 
 <span class="menu-text">代码</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./icu/icu.html"> 
+    <a class="nav-link" href="../../icu/icu.html"> 
 <span class="menu-text">ICU</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/blog.html"> 
+    <a class="nav-link" href="../../blog/blog.html"> 
 <span class="menu-text">笔记</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about_me.html"> 
+    <a class="nav-link" href="../../about_me.html"> 
 <span class="menu-text">关于</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="./misc/info/resume.pdf" target="_blank"> <i class="bi bi-journal-richtext" role="img">
+    <a class="nav-link" href="../../misc/info/resume.pdf" target="_blank"> <i class="bi bi-journal-richtext" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -140,47 +163,234 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#机器学习预测重症监护病房中急性胰腺炎患者急性肾损伤cheng2022" id="toc-机器学习预测重症监护病房中急性胰腺炎患者急性肾损伤cheng2022" class="nav-link active" data-scroll-target="#机器学习预测重症监护病房中急性胰腺炎患者急性肾损伤cheng2022">机器学习预测重症监护病房中急性胰腺炎患者急性肾损伤<span class="citation" data-cites="cheng2022">(Cheng et al. 2022)</span></a>
+  <ul class="collapse">
+  <li><a href="#背景" id="toc-背景" class="nav-link" data-scroll-target="#背景">背景</a></li>
+  <li><a href="#目的" id="toc-目的" class="nav-link" data-scroll-target="#目的">目的</a></li>
+  <li><a href="#研究方法" id="toc-研究方法" class="nav-link" data-scroll-target="#研究方法">研究方法</a></li>
+  <li><a href="#结果" id="toc-结果" class="nav-link" data-scroll-target="#结果">结果</a></li>
+  <li><a href="#结论" id="toc-结论" class="nav-link" data-scroll-target="#结论">结论</a></li>
+  <li><a href="#局限性" id="toc-局限性" class="nav-link" data-scroll-target="#局限性">局限性</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/li_chengyisong_20221205/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="misc/info/favicon.jpg" class="about-image
-  round " style="height: 12em; width: 12em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">笑面狐</h1>
+<h1 class="title">Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">machine learning</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    程毅松2022年125日发表于Chin Med J (Engl)
+  </div>
 </div>
+
+
 <div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 27, 2025</p>
+    </div>
   </div>
+  
+    
+  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="mailto:2713874272@qq.com" class="about-link" rel="" target="">
-    <i class="bi bi-mailbox"></i>
-     <span class="about-link-text">邮箱</span>
-  </a>
-  <a href="https://github.com/laq12345" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">laq12345</span>
-  </a>
+
+
+<section id="机器学习预测重症监护病房中急性胰腺炎患者急性肾损伤cheng2022" class="level1">
+<h1>机器学习预测重症监护病房中急性胰腺炎患者急性肾损伤<span class="citation" data-cites="cheng2022">(<a href="#ref-cheng2022" role="doc-biblioref">Cheng et al. 2022</a>)</span></h1>
+<section id="背景" class="level2">
+<h2 class="anchored" data-anchor-id="背景">背景</h2>
+<ul>
+<li><p>急性肾损伤（AKI）是急性胰腺炎患者在重症监护病房（ICU）中常见的严重并发症。</p></li>
+<li><p>发生AKI的急性胰腺炎患者死亡率显著<strong>高于</strong>未发生者。</p></li>
+<li><p>目前AKI的诊断依赖<strong>血清肌酐升高或尿量减少</strong>，但这些指标出现时肾脏损害已发生，<strong>缺乏早期预警能力</strong>。</p></li>
+</ul>
+</section>
+<section id="目的" class="level2">
+<h2 class="anchored" data-anchor-id="目的">目的</h2>
+<ul>
+<li><p>建立基于<strong>机器学习算法</strong>和<strong>传统逻辑回归（LR）模型</strong>的预测模型，仅使用患者进入ICU时常规采集的临床变量，预测其后续是否会发生AKI。</p></li>
+<li><p>比较不同模型的预测性能，评估机器学习在该场景下的优势。</p></li>
+</ul>
+</section>
+<section id="研究方法" class="level2">
+<h2 class="anchored" data-anchor-id="研究方法">研究方法</h2>
+<ol type="1">
+<li><p><strong>研究设计与数据来源</strong>：</p>
+<ul>
+<li><p>回顾性队列研究，数据来自四川大学华西医院ICU 2015年12月至2019年12月收治的急性胰腺炎患者。</p></li>
+<li><p>纳入标准：确诊为急性胰腺炎、年龄≥18岁、入住ICU。</p></li>
+<li><p>排除标准：</p>
+<ul>
+<li><p>入ICU时已诊断AKI；</p></li>
+<li><p>有慢性肾病史；</p></li>
+<li><p>胰腺肿瘤、外伤或慢性胰腺炎；</p></li>
+<li><p>年龄&lt;18岁。</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>诊断标准</strong>：</p>
+<ul>
+<li><p><strong>急性胰腺炎</strong>：符合以下三项中至少两项：</p>
+<ol type="1">
+<li><p>典型腹痛；</p></li>
+<li><p>淀粉酶或脂肪酶升高至正常上限3倍以上；</p></li>
+<li><p>影像学支持。</p></li>
+</ol></li>
+<li><p><strong>AKI</strong>：依据KDIGO指南，基于血清肌酐变化或尿量定义。</p></li>
+</ul></li>
+<li><p><strong>数据划分与模型训练</strong>：</p>
+<ul>
+<li><p>将数据按7:3比例分为<strong>训练集</strong>（70%）和<strong>测试集</strong>（30%），避免样本重复使用。</p></li>
+<li><p>采用<strong>10折交叉验证</strong>优化模型稳定性。</p></li>
+<li><p>使用<strong>网格搜索</strong>（Grid Search）进行超参数调优。</p></li>
+</ul></li>
+<li><p><strong>建模方法</strong>：</p>
+<ul>
+<li><p><strong>传统模型</strong>：逻辑回归（Logistic Regression, LR）</p>
+<ul>
+<li><p>先进行单变量分析筛选P&lt;0.05的变量；</p></li>
+<li><p>再进行多变量逐步回归（forward stepwise），构建最终LR模型；</p></li>
+<li><p>建立预测列线图（Nomogram）。</p></li>
+</ul></li>
+<li><p><strong>机器学习模型</strong>：</p>
+<ul>
+<li><p>选择三种集成学习算法：<strong>梯度提升（GB）</strong>、<strong>随机森林（RF）</strong>、<strong>极端梯度提升（XGB）</strong>。</p></li>
+<li><p>这些模型<strong>具有较高预测精度且具备一定可解释性</strong>。</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>模型评估指标</strong>：</p>
+<ul>
+<li><p>主要指标：<strong>AUC（曲线下面积）</strong></p></li>
+<li><p>其他指标：</p>
+<ul>
+<li><p>净重分类改善指数（NRI）</p></li>
+<li><p>综合判别改善指数（IDI）</p></li>
+<li><p>决策曲线分析（DCA）——评估临床实用性</p></li>
+</ul></li>
+</ul></li>
+</ol>
+</section>
+<section id="结果" class="level2">
+<h2 class="anchored" data-anchor-id="结果">结果</h2>
+<ul>
+<li><p><strong>患者基本情况</strong>：</p>
+<ul>
+<li><p>共纳入488例患者，其中<strong>151例（30.9%）发生AKI</strong>。</p></li>
+<li><p>AKI组患者白细胞、中性粒细胞、肌酐、尿酸、BNP、D-二聚体、PCT、CRP等炎症和器官功能指标更高，ICU住院时间更长，28天死亡率更高。</p></li>
+</ul></li>
+<li><p><strong>多变量分析结果（LR模型）</strong>：</p>
+<ul>
+<li><p>独立预测因子包括：</p>
+<ul>
+<li><p><strong>血清肌酐</strong>（OR=1.004, P&lt;0.001）</p></li>
+<li><p><strong>前降钙素（PCT）</strong>（OR=1.024, P=0.004）</p></li>
+<li><p><strong>自然对数转换的BNP（Ln BNP）</strong>（OR=1.010, P=0.013）</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>模型性能比较（AUC）</strong>：</p>
+<ul>
+<li><p>逻辑回归（LR）：<strong>0.763</strong></p></li>
+<li><p>梯度提升（GB）：<strong>0.828</strong></p></li>
+<li><p>随机森林（RF）：<strong>0.812</strong></p></li>
+<li><p>极端梯度提升（XGB）：<strong>0.809</strong></p></li>
+<li><p>所有机器学习模型AUC均高于LR，但差异<strong>未达到统计学显著性（P&gt;0.05）</strong></p></li>
+</ul></li>
+<li><p><strong>其他评估指标</strong>：</p>
+<ul>
+<li><p><strong>NRI 和 IDI</strong>：所有机器学习模型均表现出显著的净重分类和判别能力提升（P&lt;0.05）。</p></li>
+<li><p><strong>决策曲线分析（DCA）</strong>：</p>
+<ul>
+<li><p>当阈值概率低于约0.4时，机器学习模型的<strong>净收益</strong>明显优于LR模型。</p></li>
+<li><p>表明在临床决策中，机器学习模型能更准确识别高风险患者。</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-1.png" class="img-fluid figure-img"></p>
+<figcaption>决策曲线</figcaption>
+</figure>
 </div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>欢迎来到我的个人主页。我的主页很无聊，随意看看吧！</p>
-</div></div>
+<ul>
+<li><p><strong>特征重要性分析（以GB模型为例）</strong>：</p>
+<ul>
+<li><p>SHAP值分析显示最重要的前5个预测变量为：</p>
+<ol type="1">
+<li><p><strong>血清肌酐</strong></p></li>
+<li><p><strong>尿酸</strong></p></li>
+<li><p><strong>前降钙素（PCT）</strong></p></li>
+<li><p><strong>凝血酶时间（TT）</strong></p></li>
+<li><p><strong>BNP</strong></p></li>
+</ol></li>
+<li><p>提示这些指标在预测AKI中具有关键作用。</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="结论" class="level2">
+<h2 class="anchored" data-anchor-id="结论">结论</h2>
+<ul>
+<li><p>本研究成功构建了三种机器学习模型（GB、RF、XGB）和一个传统逻辑回归模型，用于预测急性胰腺炎患者入住ICU后发生AKI的风险。</p></li>
+<li><p>尽管机器学习模型在AUC上的提升未达统计学显著性，但在<strong>净重分类（NRI/IDI）和临床净收益（DCA）方面显著优于传统LR模型</strong>。</p></li>
+<li><p>因此，<strong>机器学习方法整体上优于传统建模方式</strong>，具备更强的临床应用潜力。</p></li>
+</ul>
+</section>
+<section id="局限性" class="level2">
+<h2 class="anchored" data-anchor-id="局限性">局限性</h2>
+<ol type="1">
+<li><p><strong>单中心回顾性研究</strong>，<strong>样本量相对较小</strong>（n=488），可能影响模型泛化能力。</p></li>
+<li><p><strong>缺乏外部验证数据集</strong>，限制了模型的普适性。</p></li>
+<li><p>部分重要临床变量缺失，如：</p>
+<ul>
+<li><p>尿量动态变化</p></li>
+<li><p>合并症</p></li>
+<li><p>慢性用药情况</p></li>
+<li><p>治疗干预信息</p></li>
+</ul></li>
+<li><p>仅使用入ICU时的数据进行预测，未考虑时间序列变化；</p>
+<ul>
+<li>且<strong>未明确AKI诊断的具体时间</strong>，因此无法评估“提前预测”的时间窗口。</li>
+</ul></li>
+</ol>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-cheng2022" class="csl-entry" role="listitem">
+Cheng, Yisong, Jie Yang, Qin Wu, Lili Cao, Bo Wang, Xiaodong Jin, Yan Kang, Zhongwei Zhang, and Min He. 2022. <span>“Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit.”</span> <em>Chinese medical journal</em> 135 (23): 2886–87. <a href="https://doi.org/10.1097/CM9.0000000000002531">https://doi.org/10.1097/CM9.0000000000002531</a>.
 </div>
-
-
-
-
-
-</main> <!-- /main -->
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -197,12 +407,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "已复制");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "已复制");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -579,7 +789,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/research/li_chengyisong_20221205/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

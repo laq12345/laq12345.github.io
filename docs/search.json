@@ -25,7 +25,7 @@
     "href": "research/research.html#文献",
     "title": "科研",
     "section": "文献",
-    "text": "文献\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n描述\n\n\n\ntype\n\n\n\n日期\n\n\n\n\n\n\n\n\nClinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations\n\n\n程毅松2024年2月15发表于Artif Intell Med\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\nDual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii\n\n\n康焰2024年3月30发表于J Nanobiotechnology\n\n\nbasic\n\n\n2025/8/27\n\n\n\n\n\n\nMachine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit\n\n\n程毅松2022年125日发表于Chin Med J (Engl)\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\nRespiratory effort monitoring: a novel, bedside, non-invasive, real-time method.\n\n\n康焰2025年7月3日发表于Critical care (London, England)\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项"
+    "text": "文献\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n描述\n\n\n\ntype\n\n\n\n日期\n\n\n\n\n\n\n\n\nAssociation of copeptin levels with patient prognosis and survival in sepsis syndromes: a meta-analysis.\n\n\nBhattarai Abhinav2024-04-01发表于Int J Surg，和肽素水平与败血症综合征患者预后和生存的关系：一项荟萃分析，doi：10.1097/JS9.0000000000001069\n\n\nmeta-analysis\n\n\n2025/9/1\n\n\n\n\n\n\nClinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations\n\n\n程毅松2024年2月15发表于Artif Intell Med\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\nDual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii\n\n\n康焰2024年3月30发表于J Nanobiotechnology\n\n\nbasic\n\n\n2025/8/27\n\n\n\n\n\n\nHow Effective Is the Early Management Bundle for Severe Sepsis/Septic Shock?\n\n\nMoreira2020年5月1日发表于JAMA Intern Med, 早期严重脓毒症/脓毒性休克集束化治疗的有效性如何？\n\n\nCommentary\n\n\n2025/9/1\n\n\n\n\n\n\nMachine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit\n\n\n程毅松2022年125日发表于Chin Med J (Engl)\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\nMachine learning for the prediction of sepsis: a systematic review and meta-analysis of diagnostic test accuracy\n\n\nFleuren Lucas M.2020年3月发表于Intensive Care Med，机器学习在脓毒症预测中的应用的系统性综述和诊断试验准确性荟萃分析\n\n\nmeta-analysis\n\n\n2025/9/1\n\n\n\n\n\n\nRespiratory effort monitoring: a novel, bedside, non-invasive, real-time method.\n\n\n康焰2025年7月3日发表于Critical care (London, England)\n\n\nclinical\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "research/research.html#资料",
@@ -35,571 +35,473 @@
     "text": "资料\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n描述\n\n\n\ntype\n\n\n\n\n\n\n\n\nPCR\n\n\n单细胞测序的相关知识，我觉得面试可能会问到的\n\n\nexperiment\n\n\n\n\n\n\nWestern Blot\n\n\nWB的相关知识，我觉得面试可能会问到的\n\n\nexperiment\n\n\n\n\n\n\n单细胞测序\n\n\n单细胞测序的相关知识，我觉得面试可能会问到的\n\n\nbioinformatics\n\n\n\n\n\n\n无匹配项"
   },
   {
-    "objectID": "research/literature_kangyan_20240330/index.html",
-    "href": "research/literature_kangyan_20240330/index.html",
-    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "objectID": "research/li_kangyan_20250703/index.html",
+    "href": "research/li_kangyan_20250703/index.html",
+    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
     "section": "",
-    "text": "多重耐药鲍曼不动杆菌（MDR Acinetobacter baumannii）是神经外科术后颅内感染的主要致病菌，其高死亡率（高达71%）和传统抗生素（如替加环素，TGC）的血脑屏障（BBB）渗透性差，限制了治疗效果。\n因此，开发一种能高效递送抗生素至脑部的靶向递送系统至关重要。\n\n\n\n\n双靶向纳米载体设计：\n\n开发了一种核-壳结构纳米颗粒（Aβ11/T80@CSs），通过Aβ11肽（靶向血脑屏障的低密度脂蛋白受体相关蛋白1，LRP1）和Tween 80（增强纳米颗粒在脑内皮细胞的积累）双重修饰，提高药物在脑部的靶向性。\n使用mPEG-PLGA/PLGA材料包裹水溶性替加环素（TGC），解决其半衰期短和血脑屏障渗透性差的问题。\n\n\n\n\n\n\n\n\n核-壳结构纳米颗粒（Aβ11/T80@CSs）\n\n\n\n\n\n\n核心成分：mPEG-PLGA/PLGA包裹水溶性替加环素（TGC），解决其半衰期短和血脑屏障渗透性差的问题。\n壳层修饰：\n\nAβ11肽：靶向血脑屏障上的低密度脂蛋白受体相关蛋白1（LRP1），促进纳米颗粒跨膜转运。\nTween 80：表面活性剂，通过改变纳米颗粒表面电荷和疏水性，增强其在脑内皮细胞的积累。\n\n优势：双靶向策略显著提高药物在脑部的富集效率。\n\n\n\n\n\n关键性能验证：\n\n体外实验：\n\n纳米颗粒粒径约158 nm，包封效率达84.2%，并能通过透析法实现持续药物释放（12小时内释放80%以上）。\n在bEnd.3脑内皮细胞模型中，Aβ11/T80@CSs的细胞摄取率比单靶向或未修饰组高3.9倍，且跨膜转运能力显著增强。\n\n体内实验：\n\n在MDR鲍曼不动杆菌颅内感染大鼠模型中，Aβ11/T80@CSs-TGC组的脑脊液（CSF）抗菌率高达90%，显著优于游离TGC组（抗菌率不足50%）。\n药代动力学分析显示，纳米颗粒可延长TGC的血浆半衰期（AUC_0-8h为游离TGC的2.5倍），并降低其清除率（CL降低2.76倍）。\n\n\n安全性评估：\n\n溶血率：&lt;5%（与阳性对照相比），表明纳米颗粒对红细胞无显著毒性。\n细胞毒性和组织病理学：bEnd.3细胞存活率&gt;80%，且对心、肝、脾、肺、肾等器官无明显病理损伤，证明其生物相容性良好。\n\n\n\n\n\n\n解决临床难题：\n\n首次提出Aβ11/T80双靶向策略，成功克服血脑屏障，为颅内感染治疗提供新思路。\n纳米颗粒的高效递送使TGC在脑部达到有效浓度，显著抑制MDR鲍曼不动杆菌的生长。\n\n技术突破：\n\n核-壳纳米颗粒的稳定性和可控释放特性（12小时内持续释放80%药物）为水溶性抗生素的脑靶向递送提供了可行方案。\n\n临床转化潜力：\n\n研究为脑靶向纳米载体系统在颅内感染及其他中枢神经系统疾病中的应用奠定了基础，未来可通过优化靶向配体或联合其他抗生素进一步开发。\n\n\n\n\n\n\n局限性：\n\n目前仅在动物模型中验证，需进一步开展临床试验评估人体安全性和疗效。\n纳米颗粒的长期毒性及在复杂病理环境下的稳定性需深入研究。\n\n未来方向：\n\n探索Aβ11/T80双靶向系统在其他耐药菌（如铜绿假单胞菌、耐药革兰氏阳性菌）颅内感染中的应用。\n结合基因治疗或免疫调节策略，开发多功能纳米药物递送平台。\n\n\n\n\n\n本研究通过双靶向纳米颗粒设计，成功解决了替加环素在颅内感染治疗中的血脑屏障难题，显著提升了药物疗效和安全性。这一成果为耐药菌引起的中枢神经系统感染提供了创新的治疗策略，并推动了纳米医学在临床转化中的应用。"
+    "text": "机械通气的挑战\n\n机械通气是治疗呼吸衰竭的关键手段，但辅助过度可能导致呼吸机诱导的膈肌功能障碍（Ventilator-Induced Diaphragm Dysfunction, VIDD），辅助不足引起膈肌过度用力损伤。\n过强通气：过度辅助导致膈肌萎缩和无力；过弱通气：患者需过度努力呼吸，引发肺部高应激、肺泡过度扩张或异步性呼吸。\n\n现有监测方法的局限性\n\n直接方法：如食管压（Pes）、跨膈压（Pdi）需侵入性操作，存在操作风险，操作复杂。\n间接方法：如呼气末阻断法（PMI）、膈肌超声等依赖专业人员操作，且在复杂病理状态下（如ARDS、COPD）准确性受限。\n需求：开发一种非侵入性、实时、床旁可用的呼吸努力监测技术（N-Pmus），以优化机械通气参数，预防肺和膈肌损伤。\n\n\n\n\n\n\n\n1. 算法开发：基于呼吸系统运动方程，构建无创实时呼吸肌压力监测算法（N-Pmus），通过生理合理的三次多项式函数建模呼吸肌压力（Pmus）波形，减少未知变量，采用迭代最小二乘法求解超定方程组。 2. 实验设置：使用 ASL5000 呼吸模拟器与 SV800 呼吸机，模拟 3 类临床场景（正常、限制性、阻塞性），涵盖不同呼吸肌压力强度（3-30 cmH₂O）、上升/释放相位，共 270 个场景，对比 N-Pmus 与 ASL5000 设定的 Pmus（ASL5000-Pmus）。\n\n\n\n1. 研究设计：单中心前瞻性观察研究，于 2023 年在四川大学华西医院 ICU 开展，纳入 23 例机械通气患者（8 例 ARDS、8 例 COPD、7 例其他呼吸衰竭）。 2. 监测与对比：患者经鼻插入食道气囊导管监测食道压，计算食道压衍生的 Pmus（Pmusₑₛₒ），同时记录 N-Pmus，对比二者相关性与一致性；此外还分析呼吸肌压力时间乘积（N-PTPmus 与 PTPmusₑₛₒ）的关联。 3. 统计方法：采用线性混合效应模型分析相关性（计算边际 R² 和条件 R²），通过 Bland-Altman 分析评估一致性（计算偏差与 95%一致性界限）， subgroups 分析涵盖疾病类型、通气模式、呼吸努力强度。\n\n\n\n\n\n\nN-Pmus 与 ASL5000-Pmus 相关性极高：\n\n边际 R²=0.993，条件 R²=0.997；\n偏差为-0.23 cmH₂O，95%一致性界限为-1.51 至 1.04 cmH₂O；\n限制性、阻塞性亚组均保持高相关性（边际 R²&gt;0.988，条件 R²&gt;0.992）。\n\n\n\n\n\nN-Pmus 与 Pmusₑₛₒ 对比\n\n聚合数据（每患者 2-4 个稳定呼吸段，每段 20 个呼吸周期）：边际 R²=0.97，条件 R²=0.971，偏差-0.2 cmH₂O，95%一致性界限-2.22 至 1.83 cmH₂O；\n单周期数据：边际 R²=0.884，条件 R²=0.952，偏差-0.23 cmH₂O，95%一致性界限-2.33 至 1.88 cmH₂O。\n\nN-PTPmus 与 PTPmusₑₛₒ 对比：边际 R²=0.861，条件 R²=0.907，偏差-0.18 cmH₂O·s，95%一致性界限-2.45 至 2.08 cmH₂O·s。\n亚组分析结果\n\n疾病类型：ARDS 亚组相关性最高（边际 R²=0.955），COPD 亚组（边际 R²=0.822）、其他疾病亚组（边际 R²=0.876）稍低；\n通气模式：容量辅助控制通气（V-A/C）相关性最高（边际 R²=0.978），压力辅助控制（P-A/C）、压力支持（PSV）、同步间歇指令通气（SIMV）均保持良好一致性；\n呼吸努力强度：高努力组（Pmusₑₛₒ&gt;10 cmH₂O）相关性最高（边际 R²=0.895），低努力组（&lt;4 cmH₂O，边际 R²=0.611）、正常努力组（4-10 cmH₂O，边际 R²=0.628）稍低。\n\n\n\n\n\n\n1. 核心结论：N-Pmus 作为新型无创实时呼吸努力监测方法，与模拟实验金标准（ASL5000-Pmus）及临床金标准（Pmusₑₛₒ）均具有高相关性与良好一致性，且在不同疾病类型、通气模式、呼吸努力强度下均稳定有效。\n2. 临床意义：解决了现有监测方法的有创性、复杂性问题，可实现床旁实时监测，为机械通气参数精准调整提供依据，有望减少呼吸机相关肺损伤（P-SILI）与膈肌功能障碍（VIDD），改善患者预后。\n\n\n\n1. 食道压虽为胸膜压的近似指标，但在某些病理状态下可能无法完全反映真实胸腔内压力，且胸壁顺应性可能受通气模式影响；\n2. 研究为单中心、小样本（23 例）、短期观察，缺乏健康人群及特殊人群（如腹腔高压）数据；\n3. 未评估跨膈肌压力（Pdi），需后续多中心、大样本、长期研究进一步验证。"
   },
   {
-    "objectID": "research/literature_kangyan_20240330/index.html#背景",
-    "href": "research/literature_kangyan_20240330/index.html#背景",
-    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "objectID": "research/li_kangyan_20250703/index.html#背景",
+    "href": "research/li_kangyan_20250703/index.html#背景",
+    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
     "section": "",
-    "text": "多重耐药鲍曼不动杆菌（MDR Acinetobacter baumannii）是神经外科术后颅内感染的主要致病菌，其高死亡率（高达71%）和传统抗生素（如替加环素，TGC）的血脑屏障（BBB）渗透性差，限制了治疗效果。\n因此，开发一种能高效递送抗生素至脑部的靶向递送系统至关重要。"
+    "text": "机械通气的挑战\n\n机械通气是治疗呼吸衰竭的关键手段，但辅助过度可能导致呼吸机诱导的膈肌功能障碍（Ventilator-Induced Diaphragm Dysfunction, VIDD），辅助不足引起膈肌过度用力损伤。\n过强通气：过度辅助导致膈肌萎缩和无力；过弱通气：患者需过度努力呼吸，引发肺部高应激、肺泡过度扩张或异步性呼吸。\n\n现有监测方法的局限性\n\n直接方法：如食管压（Pes）、跨膈压（Pdi）需侵入性操作，存在操作风险，操作复杂。\n间接方法：如呼气末阻断法（PMI）、膈肌超声等依赖专业人员操作，且在复杂病理状态下（如ARDS、COPD）准确性受限。\n需求：开发一种非侵入性、实时、床旁可用的呼吸努力监测技术（N-Pmus），以优化机械通气参数，预防肺和膈肌损伤。"
   },
   {
-    "objectID": "research/literature_kangyan_20240330/index.html#研究创新点",
-    "href": "research/literature_kangyan_20240330/index.html#研究创新点",
-    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "objectID": "research/li_kangyan_20250703/index.html#方法",
+    "href": "research/li_kangyan_20250703/index.html#方法",
+    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
     "section": "",
-    "text": "双靶向纳米载体设计：\n\n开发了一种核-壳结构纳米颗粒（Aβ11/T80@CSs），通过Aβ11肽（靶向血脑屏障的低密度脂蛋白受体相关蛋白1，LRP1）和Tween 80（增强纳米颗粒在脑内皮细胞的积累）双重修饰，提高药物在脑部的靶向性。\n使用mPEG-PLGA/PLGA材料包裹水溶性替加环素（TGC），解决其半衰期短和血脑屏障渗透性差的问题。\n\n\n\n\n\n\n\n\n核-壳结构纳米颗粒（Aβ11/T80@CSs）\n\n\n\n\n\n\n核心成分：mPEG-PLGA/PLGA包裹水溶性替加环素（TGC），解决其半衰期短和血脑屏障渗透性差的问题。\n壳层修饰：\n\nAβ11肽：靶向血脑屏障上的低密度脂蛋白受体相关蛋白1（LRP1），促进纳米颗粒跨膜转运。\nTween 80：表面活性剂，通过改变纳米颗粒表面电荷和疏水性，增强其在脑内皮细胞的积累。\n\n优势：双靶向策略显著提高药物在脑部的富集效率。\n\n\n\n\n\n关键性能验证：\n\n体外实验：\n\n纳米颗粒粒径约158 nm，包封效率达84.2%，并能通过透析法实现持续药物释放（12小时内释放80%以上）。\n在bEnd.3脑内皮细胞模型中，Aβ11/T80@CSs的细胞摄取率比单靶向或未修饰组高3.9倍，且跨膜转运能力显著增强。\n\n体内实验：\n\n在MDR鲍曼不动杆菌颅内感染大鼠模型中，Aβ11/T80@CSs-TGC组的脑脊液（CSF）抗菌率高达90%，显著优于游离TGC组（抗菌率不足50%）。\n药代动力学分析显示，纳米颗粒可延长TGC的血浆半衰期（AUC_0-8h为游离TGC的2.5倍），并降低其清除率（CL降低2.76倍）。\n\n\n安全性评估：\n\n溶血率：&lt;5%（与阳性对照相比），表明纳米颗粒对红细胞无显著毒性。\n细胞毒性和组织病理学：bEnd.3细胞存活率&gt;80%，且对心、肝、脾、肺、肾等器官无明显病理损伤，证明其生物相容性良好。"
+    "text": "1. 算法开发：基于呼吸系统运动方程，构建无创实时呼吸肌压力监测算法（N-Pmus），通过生理合理的三次多项式函数建模呼吸肌压力（Pmus）波形，减少未知变量，采用迭代最小二乘法求解超定方程组。 2. 实验设置：使用 ASL5000 呼吸模拟器与 SV800 呼吸机，模拟 3 类临床场景（正常、限制性、阻塞性），涵盖不同呼吸肌压力强度（3-30 cmH₂O）、上升/释放相位，共 270 个场景，对比 N-Pmus 与 ASL5000 设定的 Pmus（ASL5000-Pmus）。\n\n\n\n1. 研究设计：单中心前瞻性观察研究，于 2023 年在四川大学华西医院 ICU 开展，纳入 23 例机械通气患者（8 例 ARDS、8 例 COPD、7 例其他呼吸衰竭）。 2. 监测与对比：患者经鼻插入食道气囊导管监测食道压，计算食道压衍生的 Pmus（Pmusₑₛₒ），同时记录 N-Pmus，对比二者相关性与一致性；此外还分析呼吸肌压力时间乘积（N-PTPmus 与 PTPmusₑₛₒ）的关联。 3. 统计方法：采用线性混合效应模型分析相关性（计算边际 R² 和条件 R²），通过 Bland-Altman 分析评估一致性（计算偏差与 95%一致性界限）， subgroups 分析涵盖疾病类型、通气模式、呼吸努力强度。"
   },
   {
-    "objectID": "research/literature_kangyan_20240330/index.html#研究意义与贡献",
-    "href": "research/literature_kangyan_20240330/index.html#研究意义与贡献",
-    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "objectID": "research/li_kangyan_20250703/index.html#结果",
+    "href": "research/li_kangyan_20250703/index.html#结果",
+    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
     "section": "",
-    "text": "解决临床难题：\n\n首次提出Aβ11/T80双靶向策略，成功克服血脑屏障，为颅内感染治疗提供新思路。\n纳米颗粒的高效递送使TGC在脑部达到有效浓度，显著抑制MDR鲍曼不动杆菌的生长。\n\n技术突破：\n\n核-壳纳米颗粒的稳定性和可控释放特性（12小时内持续释放80%药物）为水溶性抗生素的脑靶向递送提供了可行方案。\n\n临床转化潜力：\n\n研究为脑靶向纳米载体系统在颅内感染及其他中枢神经系统疾病中的应用奠定了基础，未来可通过优化靶向配体或联合其他抗生素进一步开发。"
+    "text": "N-Pmus 与 ASL5000-Pmus 相关性极高：\n\n边际 R²=0.993，条件 R²=0.997；\n偏差为-0.23 cmH₂O，95%一致性界限为-1.51 至 1.04 cmH₂O；\n限制性、阻塞性亚组均保持高相关性（边际 R²&gt;0.988，条件 R²&gt;0.992）。\n\n\n\n\n\nN-Pmus 与 Pmusₑₛₒ 对比\n\n聚合数据（每患者 2-4 个稳定呼吸段，每段 20 个呼吸周期）：边际 R²=0.97，条件 R²=0.971，偏差-0.2 cmH₂O，95%一致性界限-2.22 至 1.83 cmH₂O；\n单周期数据：边际 R²=0.884，条件 R²=0.952，偏差-0.23 cmH₂O，95%一致性界限-2.33 至 1.88 cmH₂O。\n\nN-PTPmus 与 PTPmusₑₛₒ 对比：边际 R²=0.861，条件 R²=0.907，偏差-0.18 cmH₂O·s，95%一致性界限-2.45 至 2.08 cmH₂O·s。\n亚组分析结果\n\n疾病类型：ARDS 亚组相关性最高（边际 R²=0.955），COPD 亚组（边际 R²=0.822）、其他疾病亚组（边际 R²=0.876）稍低；\n通气模式：容量辅助控制通气（V-A/C）相关性最高（边际 R²=0.978），压力辅助控制（P-A/C）、压力支持（PSV）、同步间歇指令通气（SIMV）均保持良好一致性；\n呼吸努力强度：高努力组（Pmusₑₛₒ&gt;10 cmH₂O）相关性最高（边际 R²=0.895），低努力组（&lt;4 cmH₂O，边际 R²=0.611）、正常努力组（4-10 cmH₂O，边际 R²=0.628）稍低。"
   },
   {
-    "objectID": "research/literature_kangyan_20240330/index.html#局限性与展望",
-    "href": "research/literature_kangyan_20240330/index.html#局限性与展望",
-    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "objectID": "research/li_kangyan_20250703/index.html#结论与意义",
+    "href": "research/li_kangyan_20250703/index.html#结论与意义",
+    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
     "section": "",
-    "text": "局限性：\n\n目前仅在动物模型中验证，需进一步开展临床试验评估人体安全性和疗效。\n纳米颗粒的长期毒性及在复杂病理环境下的稳定性需深入研究。\n\n未来方向：\n\n探索Aβ11/T80双靶向系统在其他耐药菌（如铜绿假单胞菌、耐药革兰氏阳性菌）颅内感染中的应用。\n结合基因治疗或免疫调节策略，开发多功能纳米药物递送平台。"
+    "text": "1. 核心结论：N-Pmus 作为新型无创实时呼吸努力监测方法，与模拟实验金标准（ASL5000-Pmus）及临床金标准（Pmusₑₛₒ）均具有高相关性与良好一致性，且在不同疾病类型、通气模式、呼吸努力强度下均稳定有效。\n2. 临床意义：解决了现有监测方法的有创性、复杂性问题，可实现床旁实时监测，为机械通气参数精准调整提供依据，有望减少呼吸机相关肺损伤（P-SILI）与膈肌功能障碍（VIDD），改善患者预后。"
   },
   {
-    "objectID": "research/literature_kangyan_20240330/index.html#结论",
-    "href": "research/literature_kangyan_20240330/index.html#结论",
-    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "objectID": "research/li_kangyan_20250703/index.html#局限性",
+    "href": "research/li_kangyan_20250703/index.html#局限性",
+    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
     "section": "",
-    "text": "本研究通过双靶向纳米颗粒设计，成功解决了替加环素在颅内感染治疗中的血脑屏障难题，显著提升了药物疗效和安全性。这一成果为耐药菌引起的中枢神经系统感染提供了创新的治疗策略，并推动了纳米医学在临床转化中的应用。"
+    "text": "1. 食道压虽为胸膜压的近似指标，但在某些病理状态下可能无法完全反映真实胸腔内压力，且胸壁顺应性可能受通气模式影响；\n2. 研究为单中心、小样本（23 例）、短期观察，缺乏健康人群及特殊人群（如腹腔高压）数据；\n3. 未评估跨膈肌压力（Pdi），需后续多中心、大样本、长期研究进一步验证。"
   },
   {
-    "objectID": "research/literature_chengyisong_20221205/index.html",
-    "href": "research/literature_chengyisong_20221205/index.html",
-    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "objectID": "research/li_chengyisong_20240215/index.html",
+    "href": "research/li_chengyisong_20240215/index.html",
+    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
     "section": "",
-    "text": "急性肾损伤（AKI）是急性胰腺炎患者在重症监护病房（ICU）中常见的严重并发症。\n发生AKI的急性胰腺炎患者死亡率显著高于未发生者。\n目前AKI的诊断依赖血清肌酐升高或尿量减少，但这些指标出现时肾脏损害已发生，缺乏早期预警能力。\n\n\n\n\n\n建立基于机器学习算法和传统逻辑回归（LR）模型的预测模型，仅使用患者进入ICU时常规采集的临床变量，预测其后续是否会发生AKI。\n比较不同模型的预测性能，评估机器学习在该场景下的优势。\n\n\n\n\n\n研究设计与数据来源：\n\n回顾性队列研究，数据来自四川大学华西医院ICU 2015年12月至2019年12月收治的急性胰腺炎患者。\n纳入标准：确诊为急性胰腺炎、年龄≥18岁、入住ICU。\n排除标准：\n\n入ICU时已诊断AKI；\n有慢性肾病史；\n胰腺肿瘤、外伤或慢性胰腺炎；\n年龄&lt;18岁。\n\n\n诊断标准：\n\n急性胰腺炎：符合以下三项中至少两项：\n\n典型腹痛；\n淀粉酶或脂肪酶升高至正常上限3倍以上；\n影像学支持。\n\nAKI：依据KDIGO指南，基于血清肌酐变化或尿量定义。\n\n数据划分与模型训练：\n\n将数据按7:3比例分为训练集（70%）和测试集（30%），避免样本重复使用。\n采用10折交叉验证优化模型稳定性。\n使用网格搜索（Grid Search）进行超参数调优。\n\n建模方法：\n\n传统模型：逻辑回归（Logistic Regression, LR）\n\n先进行单变量分析筛选P&lt;0.05的变量；\n再进行多变量逐步回归（forward stepwise），构建最终LR模型；\n建立预测列线图（Nomogram）。\n\n机器学习模型：\n\n选择三种集成学习算法：梯度提升（GB）、随机森林（RF）、极端梯度提升（XGB）。\n这些模型具有较高预测精度且具备一定可解释性。\n\n\n模型评估指标：\n\n主要指标：AUC（曲线下面积）\n其他指标：\n\n净重分类改善指数（NRI）\n综合判别改善指数（IDI）\n决策曲线分析（DCA）——评估临床实用性\n\n\n\n\n\n\n\n患者基本情况：\n\n共纳入488例患者，其中151例（30.9%）发生AKI。\nAKI组患者白细胞、中性粒细胞、肌酐、尿酸、BNP、D-二聚体、PCT、CRP等炎症和器官功能指标更高，ICU住院时间更长，28天死亡率更高。\n\n多变量分析结果（LR模型）：\n\n独立预测因子包括：\n\n血清肌酐（OR=1.004, P&lt;0.001）\n前降钙素（PCT）（OR=1.024, P=0.004）\n自然对数转换的BNP（Ln BNP）（OR=1.010, P=0.013）\n\n\n模型性能比较（AUC）：\n\n逻辑回归（LR）：0.763\n梯度提升（GB）：0.828\n随机森林（RF）：0.812\n极端梯度提升（XGB）：0.809\n所有机器学习模型AUC均高于LR，但差异未达到统计学显著性（P&gt;0.05）\n\n其他评估指标：\n\nNRI 和 IDI：所有机器学习模型均表现出显著的净重分类和判别能力提升（P&lt;0.05）。\n决策曲线分析（DCA）：\n\n当阈值概率低于约0.4时，机器学习模型的净收益明显优于LR模型。\n表明在临床决策中，机器学习模型能更准确识别高风险患者。\n\n\n\n\n\n\n决策曲线\n\n\n\n特征重要性分析（以GB模型为例）：\n\nSHAP值分析显示最重要的前5个预测变量为：\n\n血清肌酐\n尿酸\n前降钙素（PCT）\n凝血酶时间（TT）\nBNP\n\n提示这些指标在预测AKI中具有关键作用。\n\n\n\n\n\n\n本研究成功构建了三种机器学习模型（GB、RF、XGB）和一个传统逻辑回归模型，用于预测急性胰腺炎患者入住ICU后发生AKI的风险。\n尽管机器学习模型在AUC上的提升未达统计学显著性，但在净重分类（NRI/IDI）和临床净收益（DCA）方面显著优于传统LR模型。\n因此，机器学习方法整体上优于传统建模方式，具备更强的临床应用潜力。\n\n\n\n\n\n单中心回顾性研究，样本量相对较小（n=488），可能影响模型泛化能力。\n缺乏外部验证数据集，限制了模型的普适性。\n部分重要临床变量缺失，如：\n\n尿量动态变化\n合并症\n慢性用药情况\n治疗干预信息\n\n仅使用入ICU时的数据进行预测，未考虑时间序列变化；\n\n且未明确AKI诊断的具体时间，因此无法评估“提前预测”的时间窗口。"
+    "text": "脓毒症是全球第三大死因，抗生素治疗对改善预后至关重要。\n当前抗生素的使用依赖医生经验，容易导致用药不足或过度，增加耐药风险。\n尽管强化学习（RL）已被用于脓毒症的液体复苏、升压药等治疗决策，但尚无研究将其用于抗生素组合和疗程的推荐。\n现有AI模型缺乏与临床知识的融合，可能导致决策偏离医学常识。\n\n\n\n\n开发一个个性化、可解释、符合临床指南的抗生素用药推荐系统，解决：\n\n何时开始和停止抗生素？\n选择哪种抗生素组合？\n如何平衡疗效与用药时长？\n\n\n\n\n提出 Sepsis Anti-infection Deep Q-Network (SAI-DQN) 模型，基于深度Q网络（DQN）框架，将治疗过程建模为马尔可夫决策过程（MDP）。\n\n\n\n状态空间（State Space）：\n\n包括患者的人口统计学特征、37项实验室指标、15项生命体征。\n特别纳入微生物培养结果（共2047种细菌-抗生素敏感性组合），形成高维稀疏输入。\n\n动作空间（Action Space）：\n\n动作为每日的抗生素组合选择。\n使用K-means聚类将历史用药序列聚为30类，作为可选动作。\n\n数据来源：\n\n主数据集：MIMIC-IV（9982名脓毒症患者）。\n外部验证集：eICU 数据库（11,070名患者）。\n\n缺失值处理：\n\n采用混合插补法（前向填充 + K近邻），兼顾个体趋势与临床合理性。\n\n\n\n\n\n设计了四个奖励函数，将医学知识融入强化学习训练过程，提升模型的可解释性和临床一致性：\n\n\n\n\n\n\n\n\n奖励函数\n设计目的\n具体设置\n\n\n\n\nR1\n学习患者长期预后\n90天存活：+100；死亡：-100\n\n\nR2\n鼓励改善病情\nSOFA评分下降：+10；上升：-10\n\n\nR3\n缩短抗生素使用时间\n用药 &gt;9天：-10（鼓励合理缩短疗程）\n\n\nR4\n融合真实临床用药模式\n基于真实数据状态转移的Q值 × 0.1\n\n\n\n\n✅ 这是首次在脓毒症抗生素推荐中引入“用药时长”作为优化目标之一。\n\n\n\n\n\n\n模型性能评估：\n\n使用加权重要性采样（WIS） 评估策略价值，SAI-DQN 的决策价值显著高于临床实际决策。\n\n预测效果：\n\n在测试集中，模型推荐的抗生素组合可使 79.07% 的患者获得良好预后。\n\n可解释性分析：\n\n模型推荐的用药路径符合临床实践，能根据患者状态动态调整。\n例如：在感染未控制时持续用药，在病情好转后及时停药。\n\n\n\n\n\n\n首次将深度强化学习应用于脓毒症抗生素组合推荐。\n首次关注抗生素“使用时长”问题，通过奖励函数鼓励合理缩短疗程，减少滥用。\n将临床指南和医学知识融入奖励函数，提升模型的可解释性和临床一致性。\n整合微生物培养数据，实现更精准的个体化推荐。\n\n\n\n\nSAI-DQN 模型能够：\n\n生成符合临床知识的个性化抗生素用药方案；\n在提升患者预后的同时，减少不必要的长期用药；\n为临床医生提供可解释的决策支持工具，助力抗感染治疗的精准化。\n\n\n\n该研究为AI在复杂临床决策中的应用提供了新范式——不仅仅是“预测最佳动作”，更要“符合医学逻辑”。未来可扩展至其他多药联合治疗场景，推动AI从“黑箱”走向“白箱”医疗决策。"
   },
   {
-    "objectID": "research/literature_chengyisong_20221205/index.html#背景",
-    "href": "research/literature_chengyisong_20221205/index.html#背景",
-    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "objectID": "research/li_chengyisong_20240215/index.html#背景",
+    "href": "research/li_chengyisong_20240215/index.html#背景",
+    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
     "section": "",
-    "text": "急性肾损伤（AKI）是急性胰腺炎患者在重症监护病房（ICU）中常见的严重并发症。\n发生AKI的急性胰腺炎患者死亡率显著高于未发生者。\n目前AKI的诊断依赖血清肌酐升高或尿量减少，但这些指标出现时肾脏损害已发生，缺乏早期预警能力。"
+    "text": "脓毒症是全球第三大死因，抗生素治疗对改善预后至关重要。\n当前抗生素的使用依赖医生经验，容易导致用药不足或过度，增加耐药风险。\n尽管强化学习（RL）已被用于脓毒症的液体复苏、升压药等治疗决策，但尚无研究将其用于抗生素组合和疗程的推荐。\n现有AI模型缺乏与临床知识的融合，可能导致决策偏离医学常识。"
   },
   {
-    "objectID": "research/literature_chengyisong_20221205/index.html#目的",
-    "href": "research/literature_chengyisong_20221205/index.html#目的",
-    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "objectID": "research/li_chengyisong_20240215/index.html#研究目标",
+    "href": "research/li_chengyisong_20240215/index.html#研究目标",
+    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
     "section": "",
-    "text": "建立基于机器学习算法和传统逻辑回归（LR）模型的预测模型，仅使用患者进入ICU时常规采集的临床变量，预测其后续是否会发生AKI。\n比较不同模型的预测性能，评估机器学习在该场景下的优势。"
+    "text": "开发一个个性化、可解释、符合临床指南的抗生素用药推荐系统，解决：\n\n何时开始和停止抗生素？\n选择哪种抗生素组合？\n如何平衡疗效与用药时长？"
   },
   {
-    "objectID": "research/literature_chengyisong_20221205/index.html#研究方法",
-    "href": "research/literature_chengyisong_20221205/index.html#研究方法",
-    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "objectID": "research/li_chengyisong_20240215/index.html#方法sai-dqn-模型",
+    "href": "research/li_chengyisong_20240215/index.html#方法sai-dqn-模型",
+    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
     "section": "",
-    "text": "研究设计与数据来源：\n\n回顾性队列研究，数据来自四川大学华西医院ICU 2015年12月至2019年12月收治的急性胰腺炎患者。\n纳入标准：确诊为急性胰腺炎、年龄≥18岁、入住ICU。\n排除标准：\n\n入ICU时已诊断AKI；\n有慢性肾病史；\n胰腺肿瘤、外伤或慢性胰腺炎；\n年龄&lt;18岁。\n\n\n诊断标准：\n\n急性胰腺炎：符合以下三项中至少两项：\n\n典型腹痛；\n淀粉酶或脂肪酶升高至正常上限3倍以上；\n影像学支持。\n\nAKI：依据KDIGO指南，基于血清肌酐变化或尿量定义。\n\n数据划分与模型训练：\n\n将数据按7:3比例分为训练集（70%）和测试集（30%），避免样本重复使用。\n采用10折交叉验证优化模型稳定性。\n使用网格搜索（Grid Search）进行超参数调优。\n\n建模方法：\n\n传统模型：逻辑回归（Logistic Regression, LR）\n\n先进行单变量分析筛选P&lt;0.05的变量；\n再进行多变量逐步回归（forward stepwise），构建最终LR模型；\n建立预测列线图（Nomogram）。\n\n机器学习模型：\n\n选择三种集成学习算法：梯度提升（GB）、随机森林（RF）、极端梯度提升（XGB）。\n这些模型具有较高预测精度且具备一定可解释性。\n\n\n模型评估指标：\n\n主要指标：AUC（曲线下面积）\n其他指标：\n\n净重分类改善指数（NRI）\n综合判别改善指数（IDI）\n决策曲线分析（DCA）——评估临床实用性"
+    "text": "提出 Sepsis Anti-infection Deep Q-Network (SAI-DQN) 模型，基于深度Q网络（DQN）框架，将治疗过程建模为马尔可夫决策过程（MDP）。\n\n\n\n状态空间（State Space）：\n\n包括患者的人口统计学特征、37项实验室指标、15项生命体征。\n特别纳入微生物培养结果（共2047种细菌-抗生素敏感性组合），形成高维稀疏输入。\n\n动作空间（Action Space）：\n\n动作为每日的抗生素组合选择。\n使用K-means聚类将历史用药序列聚为30类，作为可选动作。\n\n数据来源：\n\n主数据集：MIMIC-IV（9982名脓毒症患者）。\n外部验证集：eICU 数据库（11,070名患者）。\n\n缺失值处理：\n\n采用混合插补法（前向填充 + K近邻），兼顾个体趋势与临床合理性。\n\n\n\n\n\n设计了四个奖励函数，将医学知识融入强化学习训练过程，提升模型的可解释性和临床一致性：\n\n\n\n\n\n\n\n\n奖励函数\n设计目的\n具体设置\n\n\n\n\nR1\n学习患者长期预后\n90天存活：+100；死亡：-100\n\n\nR2\n鼓励改善病情\nSOFA评分下降：+10；上升：-10\n\n\nR3\n缩短抗生素使用时间\n用药 &gt;9天：-10（鼓励合理缩短疗程）\n\n\nR4\n融合真实临床用药模式\n基于真实数据状态转移的Q值 × 0.1\n\n\n\n\n✅ 这是首次在脓毒症抗生素推荐中引入“用药时长”作为优化目标之一。"
   },
   {
-    "objectID": "research/literature_chengyisong_20221205/index.html#结果",
-    "href": "research/literature_chengyisong_20221205/index.html#结果",
-    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "objectID": "research/li_chengyisong_20240215/index.html#实验结果",
+    "href": "research/li_chengyisong_20240215/index.html#实验结果",
+    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
     "section": "",
-    "text": "患者基本情况：\n\n共纳入488例患者，其中151例（30.9%）发生AKI。\nAKI组患者白细胞、中性粒细胞、肌酐、尿酸、BNP、D-二聚体、PCT、CRP等炎症和器官功能指标更高，ICU住院时间更长，28天死亡率更高。\n\n多变量分析结果（LR模型）：\n\n独立预测因子包括：\n\n血清肌酐（OR=1.004, P&lt;0.001）\n前降钙素（PCT）（OR=1.024, P=0.004）\n自然对数转换的BNP（Ln BNP）（OR=1.010, P=0.013）\n\n\n模型性能比较（AUC）：\n\n逻辑回归（LR）：0.763\n梯度提升（GB）：0.828\n随机森林（RF）：0.812\n极端梯度提升（XGB）：0.809\n所有机器学习模型AUC均高于LR，但差异未达到统计学显著性（P&gt;0.05）\n\n其他评估指标：\n\nNRI 和 IDI：所有机器学习模型均表现出显著的净重分类和判别能力提升（P&lt;0.05）。\n决策曲线分析（DCA）：\n\n当阈值概率低于约0.4时，机器学习模型的净收益明显优于LR模型。\n表明在临床决策中，机器学习模型能更准确识别高风险患者。\n\n\n\n\n\n\n决策曲线\n\n\n\n特征重要性分析（以GB模型为例）：\n\nSHAP值分析显示最重要的前5个预测变量为：\n\n血清肌酐\n尿酸\n前降钙素（PCT）\n凝血酶时间（TT）\nBNP\n\n提示这些指标在预测AKI中具有关键作用。"
+    "text": "模型性能评估：\n\n使用加权重要性采样（WIS） 评估策略价值，SAI-DQN 的决策价值显著高于临床实际决策。\n\n预测效果：\n\n在测试集中，模型推荐的抗生素组合可使 79.07% 的患者获得良好预后。\n\n可解释性分析：\n\n模型推荐的用药路径符合临床实践，能根据患者状态动态调整。\n例如：在感染未控制时持续用药，在病情好转后及时停药。"
   },
   {
-    "objectID": "research/literature_chengyisong_20221205/index.html#结论",
-    "href": "research/literature_chengyisong_20221205/index.html#结论",
-    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "objectID": "research/li_chengyisong_20240215/index.html#主要贡献",
+    "href": "research/li_chengyisong_20240215/index.html#主要贡献",
+    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
     "section": "",
-    "text": "本研究成功构建了三种机器学习模型（GB、RF、XGB）和一个传统逻辑回归模型，用于预测急性胰腺炎患者入住ICU后发生AKI的风险。\n尽管机器学习模型在AUC上的提升未达统计学显著性，但在净重分类（NRI/IDI）和临床净收益（DCA）方面显著优于传统LR模型。\n因此，机器学习方法整体上优于传统建模方式，具备更强的临床应用潜力。"
+    "text": "首次将深度强化学习应用于脓毒症抗生素组合推荐。\n首次关注抗生素“使用时长”问题，通过奖励函数鼓励合理缩短疗程，减少滥用。\n将临床指南和医学知识融入奖励函数，提升模型的可解释性和临床一致性。\n整合微生物培养数据，实现更精准的个体化推荐。"
   },
   {
-    "objectID": "research/literature_chengyisong_20221205/index.html#局限性",
-    "href": "research/literature_chengyisong_20221205/index.html#局限性",
-    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "objectID": "research/li_chengyisong_20240215/index.html#结论",
+    "href": "research/li_chengyisong_20240215/index.html#结论",
+    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
     "section": "",
-    "text": "单中心回顾性研究，样本量相对较小（n=488），可能影响模型泛化能力。\n缺乏外部验证数据集，限制了模型的普适性。\n部分重要临床变量缺失，如：\n\n尿量动态变化\n合并症\n慢性用药情况\n治疗干预信息\n\n仅使用入ICU时的数据进行预测，未考虑时间序列变化；\n\n且未明确AKI诊断的具体时间，因此无法评估“提前预测”的时间窗口。"
+    "text": "SAI-DQN 模型能够：\n\n生成符合临床知识的个性化抗生素用药方案；\n在提升患者预后的同时，减少不必要的长期用药；\n为临床医生提供可解释的决策支持工具，助力抗感染治疗的精准化。\n\n\n\n该研究为AI在复杂临床决策中的应用提供了新范式——不仅仅是“预测最佳动作”，更要“符合医学逻辑”。未来可扩展至其他多药联合治疗场景，推动AI从“黑箱”走向“白箱”医疗决策。"
   },
   {
-    "objectID": "misc/literature.html",
-    "href": "misc/literature.html",
+    "objectID": "research/li_Bhattarai_20250901/index.html",
+    "href": "research/li_Bhattarai_20250901/index.html",
+    "title": "Association of copeptin levels with patient prognosis and survival in sepsis syndromes: a meta-analysis.",
+    "section": "",
+    "text": "好的，这篇文章是一篇关于脓毒症患者中copeptin水平与其预后和生存率关系的荟萃分析。以下是其主要内容的总结：\n\n\n\n脓毒症是重症监护病房（ICU）中的主要负担，死亡率极高。\n血管加压素（Vasopressin） 和 copeptin 在低血容量等应激状态下会释放。Copeptin是血管加压素基因的翻译后产物，与血管加压素等摩尔释放，但比血管加压素更稳定（半衰期长、体外稳定），因此更适合作为生物标志物进行检测。\n\n\n\n\n\n调查脓毒症患者中copeptin的水平。\n评估copeptin水平与患者预后（如生存率）和死亡率的关系。\n\n\n\n\n\n文献检索：检索了PubMed、Scopus、Web of Science和Embase四个数据库，时间从建库至2022年11月8日。\n纳入标准：原始研究，测量了脓毒症患者的copeptin水平并与对照组（无感染症状者）进行了比较。\n数据分析：提取研究特征、copeptin水平等数据，使用随机效应模型计算标准化均数差（SMD）来汇总和比较各组间的copeptin水平。\n\n\n\n\n\ncopeptin水平显著升高：\n\n与对照组相比，脓毒症、重度脓毒症和脓毒性休克患者的copeptin水平均显著更高。\n其中，脓毒性休克患者的copeptin水平最高。\n\ncopeptin与预后相关：\n\n住院时的copeptin水平在存活者中显著低于非存活者。这表明入院时copeptin水平越高，预后越差。\n\ncopeptin的预测价值：\n\n测量入院时的copeptin水平对预测1个月内的死亡率具有极好的预测能力（AUC值高达0.826-0.951）。\n不同研究提出了不同的预测死亡率的copeptin临界值（cut-off值），例如58.1 pmol/L、23.2 pmol/L等。\n\n\n\n\n\n\ncopeptin在脓毒症、重度脓毒症和脓毒性休克中显著升高，且严重程度越高，水平越高。\n存活患者的入院copeptin水平显著更低。\ncopeptin是预测1个月死亡率的优秀生物标志物。\n临床医生测量脓毒症患者的copeptin水平，有助于预见患者的预后，对临床决策有重要价值。\n\n简单来说，这篇文章通过综合分析多项研究得出结论：脓毒症患者的copeptin水平会急剧升高，且升高的程度与病情严重程度和死亡风险直接相关。因此，检测copeptin水平可以作为判断脓毒症患者病情轻重和预测其生存可能性的一个有力工具。"
+  },
+  {
+    "objectID": "research/li_Bhattarai_20250901/index.html#和肽素水平与败血症综合征患者预后和生存的关系一项荟萃分析bhattarai2024",
+    "href": "research/li_Bhattarai_20250901/index.html#和肽素水平与败血症综合征患者预后和生存的关系一项荟萃分析bhattarai2024",
+    "title": "Association of copeptin levels with patient prognosis and survival in sepsis syndromes: a meta-analysis.",
+    "section": "",
+    "text": "好的，这篇文章是一篇关于脓毒症患者中copeptin水平与其预后和生存率关系的荟萃分析。以下是其主要内容的总结：\n\n\n\n脓毒症是重症监护病房（ICU）中的主要负担，死亡率极高。\n血管加压素（Vasopressin） 和 copeptin 在低血容量等应激状态下会释放。Copeptin是血管加压素基因的翻译后产物，与血管加压素等摩尔释放，但比血管加压素更稳定（半衰期长、体外稳定），因此更适合作为生物标志物进行检测。\n\n\n\n\n\n调查脓毒症患者中copeptin的水平。\n评估copeptin水平与患者预后（如生存率）和死亡率的关系。\n\n\n\n\n\n文献检索：检索了PubMed、Scopus、Web of Science和Embase四个数据库，时间从建库至2022年11月8日。\n纳入标准：原始研究，测量了脓毒症患者的copeptin水平并与对照组（无感染症状者）进行了比较。\n数据分析：提取研究特征、copeptin水平等数据，使用随机效应模型计算标准化均数差（SMD）来汇总和比较各组间的copeptin水平。\n\n\n\n\n\ncopeptin水平显著升高：\n\n与对照组相比，脓毒症、重度脓毒症和脓毒性休克患者的copeptin水平均显著更高。\n其中，脓毒性休克患者的copeptin水平最高。\n\ncopeptin与预后相关：\n\n住院时的copeptin水平在存活者中显著低于非存活者。这表明入院时copeptin水平越高，预后越差。\n\ncopeptin的预测价值：\n\n测量入院时的copeptin水平对预测1个月内的死亡率具有极好的预测能力（AUC值高达0.826-0.951）。\n不同研究提出了不同的预测死亡率的copeptin临界值（cut-off值），例如58.1 pmol/L、23.2 pmol/L等。\n\n\n\n\n\n\ncopeptin在脓毒症、重度脓毒症和脓毒性休克中显著升高，且严重程度越高，水平越高。\n存活患者的入院copeptin水平显著更低。\ncopeptin是预测1个月死亡率的优秀生物标志物。\n临床医生测量脓毒症患者的copeptin水平，有助于预见患者的预后，对临床决策有重要价值。\n\n简单来说，这篇文章通过综合分析多项研究得出结论：脓毒症患者的copeptin水平会急剧升高，且升高的程度与病情严重程度和死亡风险直接相关。因此，检测copeptin水平可以作为判断脓毒症患者病情轻重和预测其生存可能性的一个有力工具。"
+  },
+  {
+    "objectID": "research/cheatsheet_pkgdev/index.html",
+    "href": "research/cheatsheet_pkgdev/index.html",
+    "title": "Pkg Dev at CSIDS",
+    "section": "",
+    "text": "Rstat"
+  },
+  {
+    "objectID": "information/in_zh/index.html",
+    "href": "information/in_zh/index.html",
+    "title": "免费的编程中文书籍",
+    "section": "",
+    "text": "一个很全的编程教程大全\n包括了各种语言以及软件的教程，Python和R也在内，我还看到了李东风教授的R语言教程，膜拜\n国外程序员在stackoverflow 推荐的程序员必读书籍，中文版。 stackoverflow上的程序员应该阅读的非编程类书籍有哪些？ 中文版 github上的一个流行的编程书籍索引中文版"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "笑面狐",
     "section": "",
-    "text": "antibiotics stewardship\ninfections (community, hospital)\nelectronic health records\nquality assurance: prescripton and use"
+    "text": "邮箱\n  \n  \n    \n     laq12345\n  \n\n  \n  \n欢迎来到我的个人主页。我的主页很无聊，随意看看吧！"
   },
   {
-    "objectID": "misc/literature.html#ab-x-ehr",
-    "href": "misc/literature.html#ab-x-ehr",
-    "title": "笑面狐",
-    "section": "AB x EHR",
-    "text": "AB x EHR\nMoehring 2021, EHR identify AB use among hospitalized patients\nReenggli 2021: assess EHR conversion into AB stewardship indicators\nCairns 2021: integrate AB stewardship with EHR in australia\nJenkins 2022: AB stewardship using electornic prescribing systems, review of intervention and outcome measures\nKuijpers 2024, excessive length of AB duration for HAI, support AB stewardship high relevance"
-  },
-  {
-    "objectID": "misc/literature.html#ehr-doctor-experience-system-design",
-    "href": "misc/literature.html#ehr-doctor-experience-system-design",
-    "title": "笑面狐",
-    "section": "EHR doctor experience, system design",
-    "text": "EHR doctor experience, system design\nOstrer 2023, real time benefit tools must be designed to serve both clinicians and patients. mentions burden\nKawamoto 2019 Association of EHR add-on app for neonatal bilirubin management, physician efficiency and care quality. Good system and add-on can save clinician time and improve patient care.\nTsai 2020, EHR implementation, barriers to adoption and use high relevance\nOverhage 2020, time spent using EHR\n\nburnout\nTajirian 2020, influence of EHR on physician burnout high relevance\nKhairat 2020, EHR use with physician fatigue and efficiency\nKroth 2019, factors of EHR design and use for physician stress and burnout high relevance\nMelnick 2020, EHR usability, task load and burnout high relevance\nHilliard 2020, factors associated with burnout\nMore on this topic\nhttps://www.sciencedirect.com/science/article/abs/pii/S0897189718301356\nhttps://journals.sagepub.com/doi/full/10.1177/20552076231220241\nhttps://jamanetwork.com/journals/jamanetworkopen/article-abstract/2778909\n\n\nDesign\nGascon 2013 the process of designing a EHR lab request module\nTorres 2017, effect of EHR design on documentation and compliance high relevance"
-  },
-  {
-    "objectID": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
-    "href": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
-    "title": "笑面狐",
-    "section": "EHR data quality, use for prediction model development",
-    "text": "EHR data quality, use for prediction model development\n\nerror\nbell 2020\nhttps://www.sciencedirect.com/science/article/abs/pii/S2213076420300439\nLi 2024, comparison of error reporting systems. 82% undetected, 90% had no corresponding incident report, some errors not reported at all\nWestbrook 2020, changes in medication administration error rates, associated with EHR\nGildon 2019, impact of EHR on prescribing errors in pediatric clinics. introduction is relevant for pointing out the need for well designed system\nGinzburg 2018, use clinical decision support within EHR to reduce incorrect prescribing for acute sinusitis. shows prompt for physicians to fill in reason for why AB is required high relevance\n\n\nbias\nGianfrancesco 2018, potential biases in ML algorithms using EHR data. Existing EHR disparities should not be amplified by thoughtless or excess reliance on machines.\nAgniel 2018, biases in EHR due to process within the healthcare system. healthcare processes must be addressed in the analysis of observational health data, context is important. high relevance\nBower, biases in EHR based surveillance of cardiovascular disease risk\nHarding2024, addressing common sources of bias in type 2 diabetes following covid, using EHR\nBica 2020, current and future methods to address underlying challenges from EHR to treatment effects mid relevance to manuscript, but important to myself\nDesai 2020, prediction using admin EHR, hear failure"
-  },
-  {
-    "objectID": "misc/literature.html#ab-stewardship-not-so-relevant",
-    "href": "misc/literature.html#ab-stewardship-not-so-relevant",
-    "title": "笑面狐",
-    "section": "AB stewardship (not so relevant)",
-    "text": "AB stewardship (not so relevant)\nRenggli 2021: consumption of anti-meticillin resistant staphylococcus aureus antibiotics in Swiss hospitals is associateed with antibiotic stewardship measures\nVaughn 2021: AB overuse and stewardship at hospital discharge\nGraber 2019: electronic tools to decrease AB use"
-  },
-  {
-    "objectID": "information/information.html",
-    "href": "information/information.html",
-    "title": "资料",
+    "objectID": "icu/icu_thyroid_crisis/index.html",
+    "href": "icu/icu_thyroid_crisis/index.html",
+    "title": "甲亢危象",
     "section": "",
-    "text": "资料\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        标题\n      \n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n免费的编程中文书籍\n\n\nfree-programming-books-zh_CN，是一个很全的编程教程库\n\n\n\n\n\n2025年8月31日\n\n\n\n\n\n无匹配项"
+    "text": "感染\n应激\n不适当停用含碘药物\n甲亢未被控制而行手术"
   },
   {
-    "objectID": "icu/icu_ventilation/index.html",
-    "href": "icu/icu_ventilation/index.html",
-    "title": "机械通气",
+    "objectID": "icu/icu_thyroid_crisis/index.html#诱因",
+    "href": "icu/icu_thyroid_crisis/index.html#诱因",
+    "title": "甲亢危象",
     "section": "",
-    "text": "控制通气（CMV）\n辅助控制通气（AV）\n间歇指令通气（IMV）\n同步间歇指令通气（SIMV）\n压力控制通气（PCV）\n压力支持通气（PSV）\n持续气道正压通气（CPAP）"
+    "text": "感染\n应激\n不适当停用含碘药物\n甲亢未被控制而行手术"
   },
   {
-    "objectID": "icu/icu_ventilation/index.html#分类",
-    "href": "icu/icu_ventilation/index.html#分类",
-    "title": "机械通气",
-    "section": "",
-    "text": "控制通气（CMV）\n辅助控制通气（AV）\n间歇指令通气（IMV）\n同步间歇指令通气（SIMV）\n压力控制通气（PCV）\n压力支持通气（PSV）\n持续气道正压通气（CPAP）"
-  },
-  {
-    "objectID": "icu/icu_ventilation/index.html#并发症",
-    "href": "icu/icu_ventilation/index.html#并发症",
-    "title": "机械通气",
-    "section": "并发症",
-    "text": "并发症\n\n通气不足\n过度通气\n人机不协调\n呼吸及相关肺损伤\n呼吸及相关肺炎"
-  },
-  {
-    "objectID": "icu/icu_ventilation/index.html#撤机",
-    "href": "icu/icu_ventilation/index.html#撤机",
-    "title": "机械通气",
-    "section": "撤机",
-    "text": "撤机\n\n机械通气撤机前评估\n\n导致呼吸衰竭的因素是否去除\n患者全身情况是否好转\n患者呼吸功能改善状况\n\n\n\n自主呼吸实验（SBT）\nT管法：保持FiO2不变，患者处于完全自主呼吸状态\n低水平PSV法：通气模式改为PSV，压力支持水平维持在510cmH2O，FiO2~不变\n低水平CPAP法：通气模式改为CPAP，保持PEEP为5cmH2O，FiO2维持不变\n\n\n影响撤机的原因\n\n自主呼吸能力下降\n通气需求增加\n心功能不全\n其他因素：电解质紊乱、营养不良、贫血\n\n\n\n人工气道去除\n\n气道通畅程度\n气道保护能力\n气道分泌物"
-  },
-  {
-    "objectID": "icu/icu_shock/index.html",
-    "href": "icu/icu_shock/index.html",
-    "title": "休克",
-    "section": "",
-    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
-  },
-  {
-    "objectID": "icu/icu_shock/index.html#分类",
-    "href": "icu/icu_shock/index.html#分类",
-    "title": "休克",
-    "section": "",
-    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
-  },
-  {
-    "objectID": "icu/icu_shock/index.html#临床表现",
-    "href": "icu/icu_shock/index.html#临床表现",
-    "title": "休克",
+    "objectID": "icu/icu_thyroid_crisis/index.html#临床表现",
+    "href": "icu/icu_thyroid_crisis/index.html#临床表现",
+    "title": "甲亢危象",
     "section": "临床表现",
-    "text": "临床表现"
+    "text": "临床表现\n上吐下泻、高热大汗、谵妄昏迷"
   },
   {
-    "objectID": "icu/icu_shock/index.html#监测",
-    "href": "icu/icu_shock/index.html#监测",
-    "title": "休克",
-    "section": "监测",
-    "text": "监测\n\n一般监测\n\n精神状态：脑组织灌注和全身情况\n皮肤粘膜温度和色泽：体表灌注情况\n血压：收缩压&lt;90mmHg，脉压＜20mmHg，休克存在\n脉率\n\n早期：脉率加快，血压正常\n失代偿期：脉率加快，血压下降\n好转：脉率恢复，血压正常或低于正常\n\\(\\text{休克指数} = \\frac{\\text{脉率}}{\\text{收缩压}}\\) 休克指数≈0.5无休克，＞1.0~1.5有休克，＞2.0严重休克\n\n尿量：休克早期尿量＜25ml/h，&gt;30ml/h表示休克已好转"
-  },
-  {
-    "objectID": "icu/icu_shock/index.html#特殊监测外总",
-    "href": "icu/icu_shock/index.html#特殊监测外总",
-    "title": "休克",
-    "section": "特殊监测（外总）",
-    "text": "特殊监测（外总）\n\n\n\n休克的特殊监测（外总）\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪"
-  },
-  {
-    "objectID": "icu/icu_shock/index.html#治疗",
-    "href": "icu/icu_shock/index.html#治疗",
-    "title": "休克",
+    "objectID": "icu/icu_thyroid_crisis/index.html#治疗",
+    "href": "icu/icu_thyroid_crisis/index.html#治疗",
+    "title": "甲亢危象",
     "section": "治疗",
-    "text": "治疗\n\n紧急治疗\n\n处理原发伤病\n体位：头和躯干抬高20°~30°，下肢抬高15°~20°\n\n补充血容量：首选晶体液，大量液体复苏联合胶体液，必要时成分输血（Hb＜70g/L）\n积极处理原发疾病：及时施行手术\n纠正酸碱平衡失调：宁酸毋碱\n血管活性药物\n\n血管收缩剂：多巴胺、去甲肾上腺素、间羟胺\n血管扩张剂：\n\nα受体拮抗剂：酚妥拉明，酚苄明\n抗胆碱药：阿托品，东莨菪碱，山莨菪碱\n\n强心药：多巴胺、多巴酚丁胺、强心苷类\n\n治疗DIC改善微循环：肝素抗凝\n糖皮质激素与其他药物的使用：感染性休克或其他严重休克，大剂量短期应用"
+    "text": "治疗\n\n针对诱因治疗\n抗甲状腺药物：丙硫氧嘧啶\n碘剂\nβ2受体阻断剂\n糖皮质激素\n腹膜透析、血液透析、血浆置换\n降温：物理降温"
   },
   {
-    "objectID": "icu/icu_sedation_analgesia/index.html",
-    "href": "icu/icu_sedation_analgesia/index.html",
-    "title": "镇痛与镇静",
+    "objectID": "icu/icu_sepsis/index.html",
+    "href": "icu/icu_sepsis/index.html",
+    "title": "脓毒症与感染性休克",
     "section": "",
-    "text": "减轻疼痛和不适\n改善睡眠、诱导遗忘\n减轻焦虑、躁动和谵妄\n降低代谢、氧耗"
+    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
   },
   {
-    "objectID": "icu/icu_sedation_analgesia/index.html#目的",
-    "href": "icu/icu_sedation_analgesia/index.html#目的",
-    "title": "镇痛与镇静",
+    "objectID": "icu/icu_sepsis/index.html#定义",
+    "href": "icu/icu_sepsis/index.html#定义",
+    "title": "脓毒症与感染性休克",
     "section": "",
-    "text": "减轻疼痛和不适\n改善睡眠、诱导遗忘\n减轻焦虑、躁动和谵妄\n降低代谢、氧耗"
+    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
   },
   {
-    "objectID": "icu/icu_sedation_analgesia/index.html#治疗",
-    "href": "icu/icu_sedation_analgesia/index.html#治疗",
-    "title": "镇痛与镇静",
+    "objectID": "icu/icu_sepsis/index.html#诊断",
+    "href": "icu/icu_sepsis/index.html#诊断",
+    "title": "脓毒症与感染性休克",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\n\n脓毒症诊断\n\n\n\n怀疑感染+序贯器官衰竭评分（SOFA）大于等于2\n\n\n\n\n\n\n\n\n脓毒症休克诊断\n\n\n\n在脓毒症的基础上出现了经充分的液体复苏后仍需使用血管活性药物治疗，和/或发生低血压（MAP≤65mmHg）和/或高乳酸血症（乳酸值&gt;2mmHg）\n\n\n\nSIRS：\n出现下列两种或两种以上情况，确诊SIRS：\n\n体温&gt;38℃或&lt;36℃\n心率&gt;90次/min\n呼吸频率&gt;20次/min，或PCO2&lt;32mmHg\nWBC&gt;12x109或&lt;4x109，或未成熟中性粒细胞&gt;0.10"
+  },
+  {
+    "objectID": "icu/icu_sepsis/index.html#治疗",
+    "href": "icu/icu_sepsis/index.html#治疗",
+    "title": "脓毒症与感染性休克",
     "section": "治疗",
-    "text": "治疗\n\n非药物治疗\n\n适宜的体位、环境\n\n\n寻找诱因、纠正紊乱的生理状况\n\n\n\n镇痛治疗\n\n阿片类：吗啡、芬太尼、瑞芬太尼、舒芬太尼\n\n\n局麻药：丁哌卡因、罗哌卡因\n\n\n其他镇痛药：曲马多、NSAIDs\n\n\n\n镇静治疗\n\n苯二氮卓类：咪达唑仑、地西泮、劳拉西泮\n\n\n丙泊酚\n\n\nα2受体激动剂：右美托咪定"
+    "text": "治疗\n\n初始液体复苏\n\n容量状态评估\n\n传统监测\n\n精神状态：脑组织灌注和全身情况\n皮肤粘膜温度和色泽：体表灌注情况\n血压：收缩压&lt;90mmHg，脉压＜20mmHg，休克存在\n脉率\n\n早期：脉率加快，血压正常\n失代偿期：脉率加快，血压下降\n好转：脉率恢复，血压正常或低于正常\n\\(\\text{休克指数} = \\frac{\\text{脉率}}{\\text{收缩压}}\\) 休克指数≈0.5无休克，＞1.0~1.5有休克，＞2.0严重休克\n\n尿量：休克早期尿量＜25ml/h，&gt;30ml/h表示休克已好转\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪\n\n\n\n\n\n\n初始复苏策略\n\n早期目标导向治疗（EDGT）：\n\n在6h内达到复苏目标：\n\nCVP≥8~12cmH2O\nMAP＞65mmHg\n尿量＞0.5ml/(kg·h)\nScvO2＞70%\n\n\n\n\n脓毒症相关低血压治疗\n脓毒症相关低血压患者在最初3h内给予30ml/kg的晶体液输注的液体复苏\n\n\n\n复苏液体选择\n不推荐人工胶体，晶体液和白蛋白是推荐常用液体\n\n\n\n血管活性药物\n去甲肾上腺素，肾上腺素，血管加压素\n\n\n休克复苏集束化策略\n\n测定血乳酸浓度\n乳酸水平&gt;2mmol/L，应在2~4h内再次测量，将乳酸降至正常水平\n\n\n抗生素\n\n1h内启动静脉抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗\n\n\n\n感染源控制\n\n及时控制感染源\n静脉导管感染→拔除导管\n\n\n\n静脉补液\n\n\n\n升压药\n初始液体复苏后血压仍未恢复，应在1h内使用升压药物使MAP&gt;65mmHg\n\n\n\n辅助治疗\n\n血流动力学不稳定，静脉给予氢化可的松\nHb＜70g/L，输血\n高血糖→胰岛素→血糖上限＜10mmol/L\n肝素预防血栓\nPPI预防应激性溃疡\n肠内营养\n机械通气患者采用肺保护性通气策略"
   },
   {
-    "objectID": "icu/icu_sedation_analgesia/index.html#监测",
-    "href": "icu/icu_sedation_analgesia/index.html#监测",
-    "title": "镇痛与镇静",
-    "section": "监测",
-    "text": "监测\n\n呼吸功能\n\n血氧饱和度、PaO2、PaCO2等\n\n\n\n循环功能\n\n监测低血压\n\n\n\n谵妄\n\n氟哌啶醇和右美托咪定治疗"
-  },
-  {
-    "objectID": "icu/icu_PTE/index.html",
-    "href": "icu/icu_PTE/index.html",
-    "title": "急性肺血栓栓塞",
+    "objectID": "icu/icu_RF/index.html",
+    "href": "icu/icu_RF/index.html",
+    "title": "呼吸衰竭",
     "section": "",
-    "text": "疑诊和确诊"
+    "text": "在海平面、静息状态下、呼吸空气的条件下，PaO2&lt;60mmHg，伴或不伴PaCO2&gt;50mmHg。"
   },
   {
-    "objectID": "icu/icu_PTE/index.html#诊断",
-    "href": "icu/icu_PTE/index.html#诊断",
-    "title": "急性肺血栓栓塞",
+    "objectID": "icu/icu_RF/index.html#定义",
+    "href": "icu/icu_RF/index.html#定义",
+    "title": "呼吸衰竭",
     "section": "",
-    "text": "疑诊和确诊"
+    "text": "在海平面、静息状态下、呼吸空气的条件下，PaO2&lt;60mmHg，伴或不伴PaCO2&gt;50mmHg。"
   },
   {
-    "objectID": "icu/icu_PTE/index.html#治疗",
-    "href": "icu/icu_PTE/index.html#治疗",
-    "title": "急性肺血栓栓塞",
+    "objectID": "icu/icu_RF/index.html#分类",
+    "href": "icu/icu_RF/index.html#分类",
+    "title": "呼吸衰竭",
+    "section": "分类",
+    "text": "分类\n\n\n\n\n\n\n\n呼吸衰竭的分类"
+  },
+  {
+    "objectID": "icu/icu_RF/index.html#治疗",
+    "href": "icu/icu_RF/index.html#治疗",
+    "title": "呼吸衰竭",
     "section": "治疗",
     "text": "治疗"
   },
   {
-    "objectID": "icu/icu_monitor/index.html",
-    "href": "icu/icu_monitor/index.html",
-    "title": "重症监测（外总）",
+    "objectID": "icu/icu_pituitary_crisis/index.html",
+    "href": "icu/icu_pituitary_crisis/index.html",
+    "title": "垂体危象",
     "section": "",
-    "text": "循环监测"
+    "text": "纠正低血糖：50%葡萄糖溶液静注，继以5%葡萄糖氯化钠溶液静滴\n大剂量肾上腺皮质激素应用\n纠正水电解质紊乱\n纠正休克\n去除诱因：抗感染等"
   },
   {
-    "objectID": "icu/icu_monitor/index.html#循环监测",
-    "href": "icu/icu_monitor/index.html#循环监测",
-    "title": "重症监测（外总）",
+    "objectID": "icu/icu_pituitary_crisis/index.html#治疗",
+    "href": "icu/icu_pituitary_crisis/index.html#治疗",
+    "title": "垂体危象",
     "section": "",
-    "text": "循环监测"
+    "text": "纠正低血糖：50%葡萄糖溶液静注，继以5%葡萄糖氯化钠溶液静滴\n大剂量肾上腺皮质激素应用\n纠正水电解质紊乱\n纠正休克\n去除诱因：抗感染等"
   },
   {
-    "objectID": "icu/icu_monitor/index.html#呼吸监测",
-    "href": "icu/icu_monitor/index.html#呼吸监测",
-    "title": "重症监测（外总）",
-    "section": "呼吸监测",
-    "text": "呼吸监测\n\n\n\n呼吸监测"
-  },
-  {
-    "objectID": "icu/icu_ketoacidosis/index.html",
-    "href": "icu/icu_ketoacidosis/index.html",
-    "title": "糖尿病酮症酸中毒与高渗高血糖综合征",
+    "objectID": "icu/icu_MODS/index.html",
+    "href": "icu/icu_MODS/index.html",
+    "title": "多器官功能障碍综合症（MODS）",
     "section": "",
-    "text": "糖尿病酮症酸中毒高渗高血糖综合征\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDKA与HHS的实验室检查\n\n\n\n\n\n\n\n\n糖尿病酮症酸中毒、低血糖昏迷、高渗高血糖综合征和乳酸酸中毒的鉴别诊断"
+    "text": "早期目标导向治疗：6h内达到复苏目标\n\nCVP≥8~12mmHg\nMAP&gt;65mmHg\n尿量&gt;0.5ml/(kg·h)\nScvO2&gt;70%\n\n\n\n\n机械通气：纠正低氧血症\n\n\n\n连续性静脉-静脉血液滤过（CVVH）或人工肝治疗\n\n\n\n凝血功能障碍：补充凝血因子和血小板\nDIC：肝素抗凝\n\n\n\n\n\n\n清除坏死组织、修复或切除受损器官、引流感染病灶或积液\n\n\n\n1h内开始抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗"
   },
   {
-    "objectID": "icu/icu_ketoacidosis/index.html#诊断",
-    "href": "icu/icu_ketoacidosis/index.html#诊断",
-    "title": "糖尿病酮症酸中毒与高渗高血糖综合征",
+    "objectID": "icu/icu_MODS/index.html#治疗",
+    "href": "icu/icu_MODS/index.html#治疗",
+    "title": "多器官功能障碍综合症（MODS）",
     "section": "",
-    "text": "糖尿病酮症酸中毒高渗高血糖综合征\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDKA与HHS的实验室检查\n\n\n\n\n\n\n\n\n糖尿病酮症酸中毒、低血糖昏迷、高渗高血糖综合征和乳酸酸中毒的鉴别诊断"
+    "text": "早期目标导向治疗：6h内达到复苏目标\n\nCVP≥8~12mmHg\nMAP&gt;65mmHg\n尿量&gt;0.5ml/(kg·h)\nScvO2&gt;70%\n\n\n\n\n机械通气：纠正低氧血症\n\n\n\n连续性静脉-静脉血液滤过（CVVH）或人工肝治疗\n\n\n\n凝血功能障碍：补充凝血因子和血小板\nDIC：肝素抗凝\n\n\n\n\n\n\n清除坏死组织、修复或切除受损器官、引流感染病灶或积液\n\n\n\n1h内开始抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗"
   },
   {
-    "objectID": "icu/icu_ketoacidosis/index.html#治疗",
-    "href": "icu/icu_ketoacidosis/index.html#治疗",
-    "title": "糖尿病酮症酸中毒与高渗高血糖综合征",
+    "objectID": "icu/icu_ICP/index.html",
+    "href": "icu/icu_ICP/index.html",
+    "title": "颅内压增高",
+    "section": "",
+    "text": "正常颅内压范围70~200mmHg"
+  },
+  {
+    "objectID": "icu/icu_ICP/index.html#治疗",
+    "href": "icu/icu_ICP/index.html#治疗",
+    "title": "颅内压增高",
     "section": "治疗",
-    "text": "治疗\n\nDKAHHS"
+    "text": "治疗\n\n一般治疗\n\n观察监测：神志、瞳孔、血压、呼吸、脉搏、体温变化\n频繁呕吐：禁食防吸入性肺炎，适度补液\n轻泻剂：严禁高位灌肠\n气管切开：昏迷、咳痰困难，应行气管切开\n\n\n\n病因治疗\n紧急抢救或手术\n\n\n药物治疗降低颅内压\n\n口服药物：氢氯噻嗪、乙酰唑胺\n静脉注射：20%甘露醇、呋塞米\n\n\n\n糖皮质激素\n减轻脑水肿\n\n\n脑脊液体外引流\n\n\n巴比妥治疗\n降低脑代谢，减少氧耗\n\n\n过度换气\nPCO2每下降1mmHg，脑血流递减2%\n\n\n对症治疗\n镇痛、镇静、抗癫痫"
   },
   {
-    "objectID": "icu/icu_hypokalemia_hyperkalemia/index.html",
-    "href": "icu/icu_hypokalemia_hyperkalemia/index.html",
-    "title": "低钾血症和高钾血症",
+    "objectID": "icu/icu_hypertensive_emergency/index.html",
+    "href": "icu/icu_hypertensive_emergency/index.html",
+    "title": "高血压急症",
     "section": "",
-    "text": "口服补钾\n\n\n\n每天补钾3~6g（40~80mmol）。\n补钾浓度不超过3g/L（40mmol/L），补钾速度不超过20mmol/h。\n伴有休克的病人，应先恢复血容量，待尿量超过40ml/h再静脉补钾"
+    "text": "高血压急症是指原发性或继发性高血压病人，在某些诱因作用下，血压突然明显升高(一般超过180/120mmHg),伴有进行性心、脑、肾等重要靶器官功能不全的表现。\n高血压亚急症是指虽然血压明显升高，但不伴进行性靶器官损害"
   },
   {
-    "objectID": "icu/icu_hypokalemia_hyperkalemia/index.html#低钾血症",
-    "href": "icu/icu_hypokalemia_hyperkalemia/index.html#低钾血症",
-    "title": "低钾血症和高钾血症",
+    "objectID": "icu/icu_hypertensive_emergency/index.html#定义",
+    "href": "icu/icu_hypertensive_emergency/index.html#定义",
+    "title": "高血压急症",
     "section": "",
-    "text": "口服补钾\n\n\n\n每天补钾3~6g（40~80mmol）。\n补钾浓度不超过3g/L（40mmol/L），补钾速度不超过20mmol/h。\n伴有休克的病人，应先恢复血容量，待尿量超过40ml/h再静脉补钾"
+    "text": "高血压急症是指原发性或继发性高血压病人，在某些诱因作用下，血压突然明显升高(一般超过180/120mmHg),伴有进行性心、脑、肾等重要靶器官功能不全的表现。\n高血压亚急症是指虽然血压明显升高，但不伴进行性靶器官损害"
   },
   {
-    "objectID": "icu/icu_hypokalemia_hyperkalemia/index.html#高钾血症",
-    "href": "icu/icu_hypokalemia_hyperkalemia/index.html#高钾血症",
-    "title": "低钾血症和高钾血症",
-    "section": "高钾血症",
-    "text": "高钾血症\n\n停用一切含钾药物和食物\n对抗K+心肌毒性作用：10%葡萄糖酸钙静注\n促进K+转入细胞内：10%葡萄糖+胰岛素\n纠酸：5%NaCO3静注\n促进K+从肾排出：呋塞米，噻嗪类\n促进K+从消化道排出：口服阳离子交换树脂\n透析"
-  },
-  {
-    "objectID": "icu/icu_HAP/index.html",
-    "href": "icu/icu_HAP/index.html",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "",
-    "text": "医院获得性肺炎（HAP）"
-  },
-  {
-    "objectID": "icu/icu_HAP/index.html#定义",
-    "href": "icu/icu_HAP/index.html#定义",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "",
-    "text": "医院获得性肺炎（HAP）"
-  },
-  {
-    "objectID": "icu/icu_HAP/index.html#诊断",
-    "href": "icu/icu_HAP/index.html#诊断",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n医院获得性肺炎的诊断标准"
-  },
-  {
-    "objectID": "icu/icu_HAP/index.html#治疗",
-    "href": "icu/icu_HAP/index.html#治疗",
-    "title": "医院获得性肺炎（HAP）",
+    "objectID": "icu/icu_hypertensive_emergency/index.html#治疗",
+    "href": "icu/icu_hypertensive_emergency/index.html#治疗",
+    "title": "高血压急症",
     "section": "治疗",
-    "text": "治疗\n\n一、核心治疗：抗感染治疗\n需根据患者是否存在多重耐药菌（MDR）感染风险，选择初始经验性用药，后续根据细菌培养+药敏结果调整为目标性用药。\n\n无MDR感染风险患者（初始经验性用药）\n覆盖常见敏感菌（如肺炎克雷伯菌、大肠埃希菌、流感嗜血杆菌等），推荐药物：\n\n头孢菌素类：如头孢他啶、头孢吡肟；\n青霉素类复方制剂：如哌拉西林-他唑巴坦；\n氟喹诺酮类：如左氧氟沙星、莫西沙星（需注意药物敏感性及患者基础疾病禁忌）。\n\n\n\n有MDR感染风险患者（初始经验性用药）\n需额外覆盖MDR菌（如耐甲氧西林金黄色葡萄球菌MRSA、产超广谱β-内酰胺酶ESBLs菌、铜绿假单胞菌等），推荐联合用药方案：\n\n抗MRSA药物：如万古霉素、利奈唑胺；\n抗铜绿假单胞菌药物（选1种）：如头孢他啶、头孢吡肟、哌拉西林-他唑巴坦、碳青霉烯类（亚胺培南、美罗培南）；\n必要时加用氨基糖苷类（如阿米卡星）或氟喹诺酮类，增强抗铜绿假单胞菌效果。\n\n\n\n目标性用药\n待痰培养、支气管肺泡灌洗液培养等病原学结果回报后，根据“药敏试验”选择敏感抗生素，避免广谱用药，减少耐药性及药物不良反应。\n\n\n用药疗程\n\n常规HAP：疗程通常为7天；\n抗感染治疗48~72h对治疗效果进行评估。\n合并MDR菌感染、免疫功能低下、治疗反应差者：可延长至10-14天，需结合临床症状（发热、咳嗽咳痰）、影像学（胸片/CT）、炎症指标（血常规、CRP、PCT）动态评估，避免过度治疗。\n\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症"
+    "text": "治疗"
   },
   {
-    "objectID": "icu/icu_HAP/index.html#预防",
-    "href": "icu/icu_HAP/index.html#预防",
-    "title": "医院获得性肺炎（HAP）",
-    "section": "预防",
-    "text": "预防\n\n预防误吸：半卧位，合理喂食\n减少上呼吸道和消化道病原菌定植：氯己定护理\n积极治疗基础疾病\n加强患者管理：对免疫抑制患者进行保护性隔离；耐药菌感染患者进行接触隔离措施；加强医务人员手卫生和无菌操作"
-  },
-  {
-    "objectID": "icu/icu_delirium/index.html",
-    "href": "icu/icu_delirium/index.html",
-    "title": "谵妄",
+    "objectID": "icu/icu_DIC/index.html",
+    "href": "icu/icu_DIC/index.html",
+    "title": "弥散性血管内凝血",
     "section": "",
-    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
+    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
   },
   {
-    "objectID": "icu/icu_delirium/index.html#预防",
-    "href": "icu/icu_delirium/index.html#预防",
-    "title": "谵妄",
+    "objectID": "icu/icu_DIC/index.html#发病机制",
+    "href": "icu/icu_DIC/index.html#发病机制",
+    "title": "弥散性血管内凝血",
     "section": "",
-    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
+    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
   },
   {
-    "objectID": "icu/icu_delirium/index.html#治疗",
-    "href": "icu/icu_delirium/index.html#治疗",
-    "title": "谵妄",
+    "objectID": "icu/icu_DIC/index.html#分期",
+    "href": "icu/icu_DIC/index.html#分期",
+    "title": "弥散性血管内凝血",
+    "section": "分期",
+    "text": "分期\n\n临床前期：前DIC\n早期DIC：初发性高凝期\n中期DIC：消耗性低凝期\n晚期DIC：继发性纤溶亢进期"
+  },
+  {
+    "objectID": "icu/icu_DIC/index.html#治疗",
+    "href": "icu/icu_DIC/index.html#治疗",
+    "title": "弥散性血管内凝血",
     "section": "治疗",
-    "text": "治疗\n\n非药物治疗\n药物治疗\n\n抗精神病药：氟哌啶醇、齐哌西酮\n右美托咪定\n苯二氮卓类：乙醇或苯二氮卓戒断首选"
+    "text": "治疗\n\n病因治疗\n控制感染，治疗肿瘤等\n\n\n抗凝治疗\n肝素、重组人血栓调节蛋白\n\n\n替代治疗\n血小板和凝血因子\n有明显出血且血小板&lt;50x109/L，输注血小板\n无出血倾向者血小板&lt;20x109/L，输注血小板\n\n\n抗纤溶治疗\n纤溶明显时，氨甲环酸\n\n\n支持治疗"
   },
   {
-    "objectID": "icu/icu_COPD/index.html",
-    "href": "icu/icu_COPD/index.html",
-    "title": "COPD急性加重",
+    "objectID": "icu/icu_CPR/index.html",
+    "href": "icu/icu_CPR/index.html",
+    "title": "心肺复苏",
     "section": "",
-    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
   },
   {
-    "objectID": "icu/icu_COPD/index.html#治疗",
-    "href": "icu/icu_COPD/index.html#治疗",
-    "title": "COPD急性加重",
+    "objectID": "icu/icu_CPR/index.html#基本生命支持bls",
+    "href": "icu/icu_CPR/index.html#基本生命支持bls",
+    "title": "心肺复苏",
     "section": "",
-    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
   },
   {
-    "objectID": "icu/icu_CAP/index.html",
-    "href": "icu/icu_CAP/index.html",
-    "title": "重症社区获得性肺炎（CAP）",
+    "objectID": "icu/icu_CPR/index.html#高级生命支持",
+    "href": "icu/icu_CPR/index.html#高级生命支持",
+    "title": "心肺复苏",
+    "section": "高级生命支持",
+    "text": "高级生命支持\n\n呼吸支持：人工气道，首选气管插管\n恢复和维持自主循环：高质量CPR+电除颤或肾上腺素\nCPR期间的监测：心电图、呼气末CO2，冠状动脉灌注压、ScvO2\n药物治疗\n\n缩血管药物：肾上腺素、血管加压素\n抗心律失常药：胺碘酮、利多卡因、硫酸镁"
+  },
+  {
+    "objectID": "icu/icu_CPR/index.html#复苏后治疗",
+    "href": "icu/icu_CPR/index.html#复苏后治疗",
+    "title": "心肺复苏",
+    "section": "复苏后治疗",
+    "text": "复苏后治疗\n\n优化通气氧合\n维持血流动力学稳定\n脑复苏：\n\n低温治疗\n改善脑血流灌注：脱水、低温、肾上腺皮质激素\n药物治疗：激素"
+  },
+  {
+    "objectID": "icu/icu_CGS/index.html",
+    "href": "icu/icu_CGS/index.html",
+    "title": "心源性休克",
     "section": "",
-    "text": "社区获得性肺炎（CAP）"
+    "text": "心源性休克诊断标准"
   },
   {
-    "objectID": "icu/icu_CAP/index.html#定义",
-    "href": "icu/icu_CAP/index.html#定义",
-    "title": "重症社区获得性肺炎（CAP）",
+    "objectID": "icu/icu_CGS/index.html#诊断",
+    "href": "icu/icu_CGS/index.html#诊断",
+    "title": "心源性休克",
     "section": "",
-    "text": "社区获得性肺炎（CAP）"
+    "text": "心源性休克诊断标准"
   },
   {
-    "objectID": "icu/icu_CAP/index.html#诊断",
-    "href": "icu/icu_CAP/index.html#诊断",
-    "title": "重症社区获得性肺炎（CAP）",
-    "section": "诊断",
-    "text": "诊断\n\nCAP诊断标准重症CAP诊断标准"
-  },
-  {
-    "objectID": "icu/icu_CAP/index.html#治疗",
-    "href": "icu/icu_CAP/index.html#治疗",
-    "title": "重症社区获得性肺炎（CAP）",
+    "objectID": "icu/icu_CGS/index.html#治疗",
+    "href": "icu/icu_CGS/index.html#治疗",
+    "title": "心源性休克",
     "section": "治疗",
-    "text": "治疗\n\n经验性抗菌药物治疗\n\n无铜绿假单胞菌感染因素：\n单用β内酰胺类或联合大环内酯类或氟喹诺酮类\n\n\n有铜绿假单胞菌感染因素\n抗铜绿假单胞菌的β内酰胺类、光谱青霉素/β内酰胺酶抑制剂、碳青霉烯类的一种联合呼吸氟喹诺酮类或氨基糖苷类\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症\n\n\n\n治疗效果评估\n抗感染治疗48~72h对治疗效果进行评估。"
+    "text": "治疗\n\n原发病紧急治疗\n\n溶栓\n无法行PCI的AMI3h内，最晚12h溶栓\n\n\n经皮冠状动脉介入术（PCI）\nSTEMI若适宜尽可能做\n\n\n冠状动脉旁路移植术（CABG）\n\n\n\n\n药物治疗\n\n正性肌力药\n一线策略：多巴酚丁胺和去甲肾上腺素\n二线策略：左西孟旦\n\n多巴酚丁胺\n多巴胺\n地高辛\n异丙肾上腺素\n去甲肾上腺素\n肾上腺素\n磷酸二酯酶抑制剂\n钙增敏剂：左西孟旦\n\n\n\n血管舒张药\n\n硝普纳\n硝酸甘油\n\n\n\n机械循环支持\n\n主动脉内球囊反搏（IABG）\n体外膜肺氧合（ECMO）\n经皮左心室辅助装置（PL-VAD）"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html",
-    "href": "icu/icu_ARDS/index.html",
-    "title": "ARDS",
+    "objectID": "icu/icu_asthma/index.html",
+    "href": "icu/icu_asthma/index.html",
+    "title": "哮喘急性发作",
     "section": "",
-    "text": "ARDS"
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#定义",
-    "href": "icu/icu_ARDS/index.html#定义",
-    "title": "ARDS",
+    "objectID": "icu/icu_asthma/index.html#治疗",
+    "href": "icu/icu_asthma/index.html#治疗",
+    "title": "哮喘急性发作",
     "section": "",
-    "text": "ARDS"
+    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#诊断",
-    "href": "icu/icu_ARDS/index.html#诊断",
-    "title": "ARDS",
-    "section": "诊断",
-    "text": "诊断\n病理特征：肺水肿和透明膜形成\n病理生理学特征：肺容积减少、肺顺应性降低、严重的通气/血流比例失衡\n分期：渗出期、增生期、纤维化期\n临床表现：呼吸窘迫、难治性低氧血症\n影像学表现：双肺弥漫渗出性改变\n\n\n\n\n\n\nARDS的柏林诊断标准"
+    "objectID": "icu/icu_AP/index.html",
+    "href": "icu/icu_AP/index.html",
+    "title": "重症急性胰腺炎",
+    "section": "",
+    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
   },
   {
-    "objectID": "icu/icu_ARDS/index.html#治疗",
-    "href": "icu/icu_ARDS/index.html#治疗",
-    "title": "ARDS",
+    "objectID": "icu/icu_AP/index.html#诊断",
+    "href": "icu/icu_AP/index.html#诊断",
+    "title": "重症急性胰腺炎",
+    "section": "",
+    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html#并发症",
+    "href": "icu/icu_AP/index.html#并发症",
+    "title": "重症急性胰腺炎",
+    "section": "并发症",
+    "text": "并发症\n\n急性胰腺炎局部并发症\n\n急性胰周液体积聚\n胰腺假性囊肿\n急性坏死物积聚\n包裹性坏死\n感染性胰腺坏死"
+  },
+  {
+    "objectID": "icu/icu_AP/index.html#治疗",
+    "href": "icu/icu_AP/index.html#治疗",
+    "title": "重症急性胰腺炎",
     "section": "治疗",
-    "text": "治疗\n\n病因治疗\n纠正感染等\n\n\n肺保护性通气策略\n\n小潮气量通气：6~8ml/kg\n控制平台压：不超过30~35cmH2O，必要时，允许性高碳酸血症\nPEEP：应用防止肺泡塌陷的最低PEEP，从5cmH2O逐渐增加至合适水平，维持PaO2＞60mmHg，FiO2＜0.6。一般PEEP水平为8~18cmH2。\n\n\n\n挽救性治疗\n\n肺复张实施：纠正低氧血症，保证PEEP\n肌松药使用：中重度ARDS，减轻肺损伤\n俯卧位通气：改善通气-血流比例失衡\n高频通气：保持肺泡开放，改善氧合\nECMO\n\n\n\n\nECMO治疗指征\n\n\n\n\n液体管理\n限制液体入量，保持肺脏处于相对干的状态，即液体出入量维持轻度负平衡\n\n\n营养支持与监护\n补充足够的营养\n\n\n其他治疗\n糖皮质激素"
+    "text": "治疗\n\n两大任务：\n\n寻找并去除病因\n控制炎症\n\n\n监护\nAPACHE II评分评估病情，APACHE II≥8为SAP高危人群\n\n\n器官支持\n\n液体复苏\n迅速纠正组织缺氧，维持水电解质酸碱平衡\n\n\n呼吸功能\n吸氧，正压机械通气\n\n\n肠功能维护\n导泻及口服抗生素\n\n\n连续性血液净化\n\n\n\n减少胰液分泌\n\n禁食\n\n\n生长抑素\n\n\n\n控制炎症\n\n液体复苏\n\n\n生长抑素\n\n\n早期肠内营养\n\n\n\n镇痛\n哌替啶。吗啡、阿托品不宜使用。\n\n\n急诊内镜去除病因\n\n\n预防和抗感染\n\n\n早期肠内营养\n\n\n择期内镜、腹腔镜去除病因\n\n\n胰腺局部并发症\n\n胰腺假性囊肿\n\n&lt;4cm囊肿，自行吸收\n\n&gt;6cm或多发囊肿，观察6~8周后，无缩小和吸收趋势，则需引流\n\n\n胰腺脓肿处理"
   },
   {
-    "objectID": "icu/icu_allergic_shock/index.html",
-    "href": "icu/icu_allergic_shock/index.html",
-    "title": "过敏性休克",
+    "objectID": "icu/icu_ALF/index.html",
+    "href": "icu/icu_ALF/index.html",
+    "title": "急性肝衰竭",
     "section": "",
-    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
+    "text": "肝衰竭的定义与分类"
   },
   {
-    "objectID": "icu/icu_allergic_shock/index.html#治疗",
-    "href": "icu/icu_allergic_shock/index.html#治疗",
-    "title": "过敏性休克",
+    "objectID": "icu/icu_ALF/index.html#分类",
+    "href": "icu/icu_ALF/index.html#分类",
+    "title": "急性肝衰竭",
     "section": "",
-    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
+    "text": "肝衰竭的定义与分类"
   },
   {
-    "objectID": "icu/icu_AKI/index.html#临床表现",
-    "href": "icu/icu_AKI/index.html#临床表现",
-    "title": "急性肾损伤",
-    "section": "临床表现",
-    "text": "临床表现"
+    "objectID": "icu/icu_ALF/index.html#分期",
+    "href": "icu/icu_ALF/index.html#分期",
+    "title": "急性肝衰竭",
+    "section": "分期",
+    "text": "分期\n\n早期\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n黄疸进行性加深（TB&gt;171μmmol/L或每日上升≥17.1μmmol/L）\n有出血倾向，凝血酶原活动度（PTA）为30%~40%\n未出现肝性脑病和明显腹水\n\n\n\n中期\n\n出现II度以下肝性脑病和明显腹水\n出血倾向明显，PTA为20%~30%\n\n\n\n晚期\n\n有难治性并发症，如肝肾综合征、上消化道大出血、严重感染和难以纠正的电解质紊乱\n出现II度以上肝性脑病\n有严重出血倾向，PTA&lt;20%"
   },
   {
-    "objectID": "icu/icu_AKI/index.html#诊断",
-    "href": "icu/icu_AKI/index.html#诊断",
-    "title": "急性肾损伤",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n\n\n\n定义\n\n\n\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\n\n\nKDIGO诊断标准\n\n\n\n\n\n\n\n\n\n\n\n诊断标准与分期\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\nKDIGO诊断标准"
+    "objectID": "icu/icu_ALF/index.html#临床诊断",
+    "href": "icu/icu_ALF/index.html#临床诊断",
+    "title": "急性肝衰竭",
+    "section": "临床诊断",
+    "text": "临床诊断\n\n急性肝衰竭\n\n急性起病2周内出现II度及以上肝性脑病并有以下表现者：\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n短期内黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n肝脏进行性缩小\n\n\n\n\n亚急性肝衰竭\n\n起病较急，15天~26周出现以下表现者：\n\n极度乏力，有明显消化道症状\n黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n\n\n\n\n慢加急性肝衰竭\n\n在慢性肝病的基础上，短期内发生急性肝功能失代偿的主要临床表现\n\n\n\n慢性肝衰竭\n\n在肝硬化基础上，肝功能进行性减退和失代偿\n\n有腹水或其他门脉高压表现\n可有肝性脑病\n血清总胆红素升高，白蛋白明显降低\n有凝血功能障碍，PTA&lt;40%"
   },
   {
-    "objectID": "icu/icu_AKI/index.html#治疗",
-    "href": "icu/icu_AKI/index.html#治疗",
-    "title": "急性肾损伤",
+    "objectID": "icu/icu_ALF/index.html#治疗",
+    "href": "icu/icu_ALF/index.html#治疗",
+    "title": "急性肝衰竭",
     "section": "治疗",
-    "text": "治疗\n\n早期病因干预治疗\n营养支持治疗：优先肠内营养，酌情限制水分、钠盐、钾盐摄入\n并发症治疗\n肾脏替代治疗\n\n严重的代谢性酸中毒（pH＜7.2）\n高钾血症（K+＞6.5mmol/L或出现严重心律失常）\n严重肺水肿（利尿剂无效）\n严重的尿毒症症状（脑病、心包炎、癫痫发作）\n\n恢复期治疗：维持水电解质酸碱平衡、控制氮质血症"
+    "text": "治疗\n\n一般处理原则\n\n卧床休息、清淡饮食\n加强病情监护\n\n\n\n内科综合治疗\n\n病因治疗\n\n抗病毒治疗\n\n\n对乙酰氨基酚：活性炭，N-NAC\n\n\n毒蕈中毒：洗胃，活性炭，N-NAC\n\n\n威尔逊病：降低血铜、减少溶血、白蛋白透析和血浆置换\n\n\n自身免疫性肝炎：糖皮质激素\n\n\n妊娠期急性脂肪肝：尽早结束妊娠\n\n\n\n保肝治疗\n甘草酸苷类，还原性谷胱甘肽\n\n\n免疫调节与抗感染治疗\n自免肝、乙醇中毒：肾上腺皮质激素\n\n\n并发症处理与器官支持\n\n循环支持：去甲肾上腺素维持MAP&gt;65mmHg，存在心功能不全给予多巴酚丁胺等正性肌力药\n\n\n呼吸支持：III度以上肝性脑病给予气管插管，防止误吸\n\n\n肝性脑病与脑水肿：\n\nII度以上肝性脑病转入ICU监测与治疗\nIII度以上肝性脑病需气管插管和机械通气\n甘露醇降低颅压\n巴比妥镇静→减少氧耗，预防癫痫\n\n\n\n急性肾损伤和肝肾综合征：\n\n尽量避免肾毒性药物和非甾体抗炎药\n尽早CRRT\n\n\n\n凝血功能障碍和出血：\n\n适当补充血小板和凝血因子\n质子泵抑制剂预防应激性溃疡\n\n\n\n防止低血糖和营养支持\n\n\n防治感染"
   },
   {
-    "objectID": "icu/icu_ACS/index.html",
-    "href": "icu/icu_ACS/index.html",
-    "title": "腹腔间隔室综合征（ACS）",
+    "objectID": "icu/icu.html",
+    "href": "icu/icu.html",
+    "title": "ICU",
     "section": "",
-    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
+    "text": "这是ICU专业知识."
   },
   {
-    "objectID": "icu/icu_ACS/index.html#定义",
-    "href": "icu/icu_ACS/index.html#定义",
-    "title": "腹腔间隔室综合征（ACS）",
+    "objectID": "icu/icu.html#前言",
+    "href": "icu/icu.html#前言",
+    "title": "ICU",
     "section": "",
-    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
+    "text": "这是ICU专业知识."
   },
   {
-    "objectID": "icu/icu_ACS/index.html#治疗",
-    "href": "icu/icu_ACS/index.html#治疗",
-    "title": "腹腔间隔室综合征（ACS）",
-    "section": "治疗",
-    "text": "治疗\n\n\n非手术治疗\n\n排空腔内容物：\n胃肠减压、新斯的明等促胃肠动力药，灌肠导泻，纤维结肠镜\n\n\n排除腹腔内游离液体\n积极引流\n\n\n改善腹壁顺应性\n镇静、镇痛、肌松，适当体位\n\n\n优化液体治疗\n防止血容量不足的同时，避免过度液体复苏的发生\n内环境相对稳定时，应移除体内过多液体，可适当应用利尿剂维持液体零平衡或负平衡，当腹腔高压合并肾功能损害时应用持续肾脏替代治疗（CRRT）\n\n\n优化全身及局部灌注\n监测SvO2，ScvO2，血乳酸、PvaCO2等\n\n\n\n腹腔减压术\n当以上非手术治疗方法应用后腹腔压力仍大于20mmHg，同时伴随新发的脏器功能障碍，即应考虑行腹腔开放减压术"
+    "objectID": "icu/icu.html#选择先前的笔记",
+    "href": "icu/icu.html#选择先前的笔记",
+    "title": "ICU",
+    "section": "选择先前的笔记",
+    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n腹腔间隔室综合征（ACS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性心衰\n\n\n2025-08-30\n\n\n\n\n\n\n心源性休克\n\n\n2025-08-30\n\n\n\n\n\n\n心肺复苏\n\n\n2025-08-30\n\n\n\n\n\n\n多器官功能障碍综合症（MODS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性肺血栓栓塞\n\n\n2025-08-30\n\n\n\n\n\n\n呼吸衰竭\n\n\n2025-08-30\n\n\n\n\n\n\n过敏性休克\n\n\n2025-08-30\n\n\n\n\n\n\n谵妄\n\n\n2025-08-30\n\n\n\n\n\n\n高血压急症\n\n\n2025-08-30\n\n\n\n\n\n\n低钾血症和高钾血症\n\n\n2025-08-30\n\n\n\n\n\n\n糖尿病酮症酸中毒与高渗高血糖综合征\n\n\n2025-08-30\n\n\n\n\n\n\n重症监测（外总）\n\n\n2025-08-30\n\n\n\n\n\n\n垂体危象\n\n\n2025-08-30\n\n\n\n\n\n\n镇痛与镇静\n\n\n2025-08-30\n\n\n\n\n\n\n甲亢危象\n\n\n2025-08-30\n\n\n\n\n\n\n机械通气\n\n\n2025-08-30\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\n哮喘急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
   },
   {
-    "objectID": "dev/short_bio.html",
-    "href": "dev/short_bio.html",
-    "title": "笑面狐",
+    "objectID": "code/qtwAcademic/index.html",
+    "href": "code/qtwAcademic/index.html",
+    "title": "qtwAcademic",
     "section": "",
-    "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
+    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
   },
   {
-    "objectID": "code/ggehr/index.html",
-    "href": "code/ggehr/index.html",
-    "title": "ggehr",
+    "objectID": "code/code.html",
+    "href": "code/code.html",
+    "title": "代码",
     "section": "",
-    "text": "ggehr (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.\nggehr package helps you make visualize EHR data, so that you can\n\nhave an overview of the mixed type information related to a patient;\nvisually identify the errors in data recording.\n\nLearn more about ggehr"
-  },
-  {
-    "objectID": "blog/readnote_20240606_bad_pharma/index.html",
-    "href": "blog/readnote_20240606_bad_pharma/index.html",
-    "title": "行为对态度的影响",
-    "section": "",
-    "text": "一、 行为影响态度的证据\n文章开篇通过几个生动的案例（如催眠、大脑电极刺激、裂脑患者实验）引出核心观点：人们会为自己的行为寻找合理的解释，从而改变自己的态度。随后，文章列举了多种行为影响态度的具体表现：\n\n角色扮演 (Role-Playing):\n\n当人们扮演一个新角色（如狱卒、囚犯、奴隶主、教师）时，最初可能感觉虚假，但随着时间推移，行为会逐渐内化，态度也随之改变。\n斯坦福监狱实验是经典例证：大学生在扮演狱卒和囚犯几天后，就完全进入了角色，表现出与角色相符的残酷或崩溃行为，说明环境和角色对个体态度的强大塑造力。\n奴隶制对奴隶主的影响：弗雷德里克·道格拉斯的回忆揭示了，长期扮演“主人”角色会腐蚀一个人的善良本性，使其变得残暴。\n\n言语变成信念 (Saying Becomes Believing):\n\n当人们为了取悦听众而说出与自己真实想法不符的观点时，如果缺乏外部借口（如被迫或受贿），他们往往会开始相信自己所说的话。\n海曼的例子：他最初不相信手相术，但为了赚钱而假装相信，最终自己也信了。\n实验证明，调整言语以迎合听众后，人们会更喜欢听众喜欢的人或事，并扭曲记忆以符合自己的言论。\n\n登门槛现象 (Foot-in-the-Door Phenomenon):\n\n先提出一个微不足道的请求（小要求），待对方答应后，再提出一个更大的请求，成功率会大大提高。\n经典实验：先让居民在窗前放一个“安全驾驶”的小标志，两周后再请求在院子里放一个大而丑陋的标志，同意率远高于直接提出大请求。\n原因是：一旦人们做出（即使是微小的）承诺，为了保持行为的一致性，他们会调整自己的态度，认为自己是一个“乐于助人”或“支持安全驾驶”的人，从而更愿意答应后续的更大请求。\n\n邪恶行为与道德行为的塑造作用:\n\n邪恶行为：一个微小的恶行（如说一个小谎）可能会引发更大的恶行，因为人们需要为自己的行为辩护，从而调整态度，认为自己的行为是正确的，甚至贬低受害者（“我们不仅伤害我们不喜欢的人，也变得不喜欢我们伤害的人”）。这解释了种族灭绝、战争暴行等如何逐步升级。\n道德行为：相反，主动的、非强制的道德行为也会塑造积极态度。例如，帮助他人会增强对受助者的好感；为恋人祈祷会增加对恋人的承诺；本杰明·富兰克林通过让对手帮一个小忙，成功将其转化为朋友。\n\n种族间的行为与态度:\n\n立法强制的种族融合行为（如废除学校种族隔离）虽然最初可能不被所有人接受，但长期来看，这些行为会改变人们的种族态度，使支持率上升，歧视减少。这证明了“你无法为道德立法”的假设是错误的，行为可以间接影响态度。\n\n\n\n\n二、 行为影响态度的原因：三种理论解释\n文章接着探讨了行为为何能影响态度，介绍了三种主要理论：\n\n自我表露理论 (Self-Presentation Theory):\n\n人们为了在他人面前维持一致、正面的形象，会调整自己的态度以匹配自己的行为。这是一种印象管理策略，有时可能只是“假装”态度改变了。\n\n认知失调理论 (Cognitive Dissonance Theory):\n\n当我们的行为与态度不一致时，会产生一种心理上的不适感（失调）。为了减少这种不适，我们会改变态度来合理化自己的行为。\n理由不足效应 (Insufficient Justification): 当行为缺乏强有力的外部理由（如高额报酬）时，失调感更强，因此人们更需要通过改变内在态度来为自己辩护。例如，在费斯廷格的实验中，只得到1美元报酬而说谎的学生，比得到20美元的学生更倾向于相信自己说的内容是真实的，因为他们缺乏“为钱说谎”这样的外部借口。\n该理论强调了责任和选择的重要性：当人们认为行为是自愿且自己负责时，失调感最强，态度改变也最显著。\n\n自我知觉理论 (Self-Perception Theory):\n\n当我们的态度不明确时，我们会像观察他人一样观察自己的行为，并据此推断自己的真实态度。例如，如果我发现自己经常微笑，我可能会推断“我一定是个快乐的人”。\n该理论能解释过度合理化效应 (Overjustification Effect)：当为一项本身有趣的事情提供外部报酬时，人们会将自己的行为归因于报酬（外在动机），从而削弱了原有的兴趣（内在动机）。例如，给喜欢画画的孩子报酬后，他们可能将画画视为换取报酬的工作，而非乐趣。\n\n\n\n\n三、 理论比较与结论\n\n认知失调理论更适用于解释当行为与已有的、明确的态度发生冲突时，人们为减少心理不适而进行的自我辩解。\n自我知觉理论更适用于解释当态度本身模糊或尚未形成时，人们如何通过观察自己的行为来形成态度。\n自我表露理论则解释了人们为了社会形象而进行的表面态度调整。\n\n\n\n\n四、 后记与启示\n文章最后强调，理解“行为影响态度”这一原理具有重要的实践意义。它告诉我们，改变自己并不总是从“想通”开始，而是可以从“行动”开始。通过主动采取期望的行为（如假装写作、强迫自己微笑、做出承诺），我们可以在不知不觉中改变自己的内在态度和习惯，实现自我成长。正如斯多噶派哲学家埃皮克提图所言：“要想养成某种习惯，那就去付诸行动。”"
-  },
-  {
-    "objectID": "blog/blog_introduction_zh/index.html",
-    "href": "blog/blog_introduction_zh/index.html",
-    "title": "5min中文自我介绍（PPT）",
-    "section": "",
-    "text": "5min中文PPT\n下载PPT \n各位老师好，我是郑州大学临床医学专业的学生刘奥奇。华西一直是我心向往之的医学殿堂，能参加这次预推免并向各位老师介绍自己，我倍感荣幸。\n接下来我将从以下六个方面进行介绍。\n首先是基本信息。我是汉族，2002年10月1日出生于河南省周口市，目前就读于郑州大学临床医学专业。\n学业成绩是我本科阶段的突出亮点。本科前8个学期，我的平均绩点为3.8（满绩4.0），在专业572人中排名第12，占比约2.09%。38门核心课程成绩在90分以上，其中15门更是达到95分以上，像病理生理学、药理学及内科学等重要核心课均取得了高分。\n英语能力方面，我的四级总分565分，六级总分520分。\n入学至今，我连续两年获评郑州大学三好学生称号，国家励志奖学金、郑州大学一等奖学金等。\n科研竞赛方面。我参与过大学生创新创业训练计划项目、北京脑举行的暑期培训营、挑战杯、中国国际大学生创新大赛以及大学生医学创新大赛等多个项目。\n大二时，我加入了一项大创项目，主要研究小鼠中哮喘的调控机制，在此期间我熟练掌握了PCR、Western Blot等实验技术。\n由于对科学研究很感兴趣，我报名参加了北京脑神经与认知科学暑期培训班，聆听了许多大佬的讲座，了解到了很多前沿的科学知识，并且我们小组最终在文献汇报比赛中拿到了一等奖。\n之后，我借助公共数据库，研究了AARS1作为乳酰基转移酶在肿瘤的临床相关性、肿瘤特征及乳酸代谢中的作用，发现AARS1在肿瘤中广泛高表达，且与乳酸代谢增强密切相关，影响患者生存。最后我们通过Western Blot和qPCR对结果进行了验证。\n我还参与了一项“中国国际大学生创新大赛”项目，我们项目名称为“智绘·好孕”，是一款植入前胚胎植入潜能检测试剂盒。我的主要工作是负责项目的单细胞数据分析流程的构建，包括整合RNA-seq、ATAC-seq和CNV数据，同时利用获取的特征基因构建随机森林模型，用于预测胚胎细胞的植入潜能。目前，相关内容已申请两项软著，我也在此过程中掌握了单细胞数据分析的基本流程。\n我参加了全国大学生医学创新大赛，并获全国总决赛银奖。\n实践经历方面，实习期间我跟随临床老师学到了不少知识，还在郑大一附院老师的带领下参观了ICU病房，这让我对重症医学领域产生了浓厚兴趣。此外，我参加过校运会仪仗队，和队员们一起夺得一等奖。\n技能上，我已经熟练地掌握了使用R语言和Python数据分析，我从老师那里借了服务器账号练习Linux技能，现已足够熟悉Linux服务器的基本操作方法。\n另外，我还比较熟练地掌握了CPR、换药术和四大穿刺等临床技能。未来我会继续努力，将这些技能熟练应用到临床和科研工作中。\n关于未来，我希望能在华西医院深造，并且制定了详细的计划。入学前，学习上要继续巩固临床知识、提升专业英语水平、研读文献、学习重症医学教材及生信和实验知识；技能上要熟练掌握各类临床技能，精进编程能力；生活上要保持健康习惯，坚持锻炼，阅读课外书等。\n我目前比较感兴趣的研究方向为脓毒症与感染性休克的调节机制及治疗策略。计划在大五期间，每周阅读3篇高质量文献，用Zotero建立文献管理库，总结高分文章的研究思路与方法，确定研究方向，再从公共数据库下载合适的数据集进行分析，然后整理、优化并验证结果，最后得出结论并撰写论文。若有机会，还会尝试开展循证医学研究。\n入学后的计划也已制定：研一要取得优异的学业成绩，争取奖学金，继续备考六级，争取考到600分以上；积极阅读文献、参与科研并发表论文；努力学习临床知识，掌握临床技能。研二继续学习专业知识，磨练临床技能，考取执业医师证书，同时尝试发表更具创新性的论文。研三要在ICU学习中向各位老师请教，掌握临床技能并考取相关证书，同时准备申博材料，争取读博机会。若能顺利读博，希望能独立开展课题，发表更高水平的论文。最终，我希望能在三甲医院的重症医学科就业，若有机会，非常渴望能留在华西医院工作。\n以上就是我的个人介绍，感谢老师们的聆听！"
-  },
-  {
-    "objectID": "blog/blog_interview_non_professional/index.html",
-    "href": "blog/blog_interview_non_professional/index.html",
-    "title": "面试——非专业问题",
-    "section": "",
-    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
-  },
-  {
-    "objectID": "blog/blog_interview_non_professional/index.html#关于自己",
-    "href": "blog/blog_interview_non_professional/index.html#关于自己",
-    "title": "面试——非专业问题",
-    "section": "",
-    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
-  },
-  {
-    "objectID": "about_me.html",
-    "href": "about_me.html",
-    "title": "刘奥奇",
-    "section": "",
-    "text": "邮箱\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
-  },
-  {
-    "objectID": "blog/blog.html",
-    "href": "blog/blog.html",
-    "title": "笔记",
-    "section": "",
-    "text": "日志\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n面试——非专业问题\n\n\n2025/8/31\n\n\n\n\n\n\n5min英文自我介绍（PPT）\n\n\n2025/8/31\n\n\n\n\n\n\n5min中文自我介绍（PPT）\n\n\n2025/8/31\n\n\n\n\n\n\n无匹配项\n\n\n\n学习笔记\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n我的重症医学单词: 2025年8月27日\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项\n\n\n\n阅读\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n行为对态度的影响\n\n\n2025/8/30\n\n\n\n\n\n\n无匹配项"
-  },
-  {
-    "objectID": "blog/blog_introduction_en/index.html",
-    "href": "blog/blog_introduction_en/index.html",
-    "title": "5min英文自我介绍（PPT）",
-    "section": "",
-    "text": "5min英文PPT\n下载PPT \nGood morning, professors.\nMy name is Liu Aoqi, and I am currently studying Clinical Medicine at Zhengzhou University. It is a great honor to be here.\nI’d like to share my story in six parts.\nFirst, some basic information.\nI’m Han Chinese, born on October 1, 2002, in Zhoukou, Henan Province.\nSecond, my academic performance.\nI have consistently achieved high academic results with an average GPA of 3.8 out of 4.0, ranking 12th out of 572 students in my major, which places me in the top 2.09%. I’ve excelled in 38 core courses such as Pathophysiology /ˈpæθəʊfɪzɪˈɒlədʒi/, Pharmacology /ˌfɑːməˈkɒlədʒi/, and Internal Medicine.\nThird, my English ability.\nI scored 565 on the CET-4 and 520 on the CET-6.\nIn addition, I have received several awards, including the National Inspirational Scholarship, first-class scholarship and the “merit student” title for two years.\nFourth, my research and competition experience.\nI’ve taken part in several projects, including the Undergraduate Innovation and Entrepreneurship Training Program, the “Challenge Cup”, the China International College Students Innovation Competition, and the National Medical Innovation Competition.\nOne of my projects was about investigating asthma regulation in mice and I learned experimental techniques such as PCR and Western Blot.\nI was especially excited to join a summer training class, where I listened to lectures from top scientists, and our group won first prize in a literature presentation competition.\nWe know lactate plays a critical role in tumors, and a new modification called protein lactylation is important — but the enzyme /ˈenzaɪm/ that adds it wasn’t clear. Recently, some studies suggested AARS1 might be that enzyme. So, I analyzed data to see how AARS1 is related to clinical relevance, hallmarks and lactate metabolism. I found that AARS1 is highly expressed in many cancers, linked to higher lactate levels, and affects the survival of patients. Finally, We also used qPCR and Western Blot to confirm our findings.\nI also worked on a project called “ZhiHui·HaoYun” — a test kit to predict embryo implantation potential. My main job was to build the single-cell data analysis pipeline. I combined data from RNA-seq, ATAC-seq, and CNV, and used the results to train a random forest model to predict embryo quality, which has currently been granted two software copyrights, and I’ve learned the basic workflow of single-cell data analysis.\nI also participated in a national university student medical innovation competition and won the silver award in the national finals.\nFifth, my practical experiences.\nDuring my clinical internship, I also visited the ICU at the First Affiliated /əˈfɪlieɪtɪd/ Hospital of Zhengzhou University, which really sparked my interest in critical care medicine.\nSixth, my skills.\nI’m good at using R for data cleaning, analysis, and visualization. And I am also familiar with Python for data analysis and the basic operations of Linux servers.\nClinically, I’ve mastered CPR, wound dressing, and four major puncture techniques. I’ll keep improving these skills for both clinical work and research.\nFinally, my future goals.\nMy dream is to study at Union Hospital. Before starting graduate school, I plan to:\n\nReview clinical knowledge, improve my medical English, and read more papers,\nLearn more about bioinformatics, experimental techniques, and improve programming abilities\nkeep a healthy lifestyle\n\nI’m particularly interested in studying the mechanisms and therapies for sepsis and septic shock. In my fifth year, I plan to read 3 papers per week and learn from their methods. Then download and analyze the data. Finally, verify the results and publish the paper.\nHere’s my study plan after enrollment:\n\nYear 1: Get good grades, improve my CET-6 (target: 600+), read papers, and start research.\nYear 2: prepare for the Medical Licensing Exam, and publish innovative papers.\nYear 3: prepare for PhD applications.\nIf I get the chance to do a PhD, I hope to lead my own project and publish high-impact papers.\n\nIn the long run, I want to work in the ICU of a three-A hospital. And if possible, I hope to work at West China Hospital.\nThat’s all for my introduction."
+    "text": "ggehr\n\n\nggplot2 extension to EHR data\n\n\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "blog/learnnote_words/index.html",
     "href": "blog/learnnote_words/index.html",
     "title": "我的重症医学单词: 2025年8月27日",
     "section": "",
-    "text": "Shock 休克\nTrauma /ˈtrɔːmə/ 创伤\nVentricular /venˈtrɪkjələ(r)/ Fibrillation /ˌfɪbrɪˈleɪʃən/ 室颤\nAcute Respiratory /rəˈspɪrət(ə)ri/ Distress Syndrome(ARDS) 急性呼吸窘迫综合征\nAcute Myocardial /ˌmaɪəʊˈkɑːdiəl/ Infarction /ɪnˈfɑːkʃn/, AMI 急性心肌梗死\nHeart Failure, HF 心力衰竭\nRight ventricular /venˈtrɪkjələ(r)/ failure 右心衰竭\nRespiratory failure 呼吸衰竭\nRenal /ˈriːnl/ failure 肾衰竭\nAcute Kidney Injury (AKI) 急性肾损伤\nEncephalopathy /enˌsefəˈlɒpəθi; enˌkefəˈlɒpəθi/ 脑病\nDisseminated /dɪˈsemɪneɪtɪd/ Intravascular /ˌɪntrəˈvæskjʊlə(r)/ Coagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ (DIC) 弥散性血管内凝血\nCOPD 慢性阻塞性肺疾病\nsepsis 脓毒症\nseptic shock感染性休克\nDelirium /dɪˈlɪriəm; dɪˈlɪəriəm/ 谵妄\nSIRS 全身炎症反应综合征\nOrgan dysfunction 器官功能障碍\nMultiple Organ Dysfunction Syndrome, MODS 多器官功能障碍综合征\nDeep vein thrombosis /θrɒmˈbəʊsɪs/ (DVT) 深静脉血栓\ndrowning 淹溺\nelectrical injury电击伤\nMultiple Injuries 多发性创伤\nPoisoning 急性中毒\nCompartment Syndrome 挤压综合征\nHeat Stroke 热射病\nAltitude Sickness 高原反应\nHypothermia 低体温\nLeukocytosis /ˌluːkəʊsaɪˈtəʊsɪs/ 白细胞增多\nThrombocytopenia /,θrɒmbə(ʊ),saɪtə(ʊ)’piːnɪə/ 血小板减少症\nhospital-acquired infection 医院获得性感染\nCatheter-related bloodstream infection (CRBSI) 导管相关血流感染\nVentilator-associated pneumonia /njuːˈməʊniə/ (VAP) 呼吸机相关肺炎\nMultidrug-resistant organism (MDRO) 多重耐药菌\nRefractory /rɪ’frækt(ə)rɪ/ septic shock 难治性感染性休克\nHypertensive emergency 高血压急症\nNon-ST elevation /,elɪ’veɪʃ(ə)n/ myocardial /,maɪəʊ’kɑːdɪəl/ infarction /ɪn’fɑːkʃ(ə)n/ (NSTEMI) 非ST段抬高型心肌梗死\nPost-ICU Syndrome, PICS ICU后综合征\n\n\n\nCPR 心肺复苏\nAED 自动体外除颤器\nACLS 高级心血管支持\n\n\n\nMechanical Ventilation /,ventɪ’leɪʃ(ə)n/ 机械通气\nNon-invasive ventilation (NIV) 无创通气\nProne /prəʊn/ Positioning 俯卧位通气\nAirway Management 气道管理\nHigh-Flow Oxygen Therapy 高流量氧疗\nWeaning from Mechanical Ventilation 机械通气脱机\nNebulizer /’nebjulaizə/ Therapy 雾化吸入治疗\nFluid Resuscitation /rɪˌsʌsɪˈteɪʃ(ə)n/ 液体复苏\nQuantitative resuscitation 定量复苏\nsedation /sɪˈdeɪʃn/ 镇静\nSedation management 镇静管理\nanalgesia /,æn(ə)l’dʒiːzɪə/ 镇痛\nGlucose /ˈɡluːkəʊs/ control 血糖控制\nRenal replacement therapy (RRT) 肾脏替代治疗\nContinuous Renal Replacement Therapy (CRRT) 连续性肾脏替代治疗\nExtracorporeal Membrane Oxygenation (ECMO) 体外膜肺氧合\nIntra-Aortic /eɪˈɔːtɪk/ Balloon Pump (IABP) 主动脉球囊反搏\nSpontaneous Awakening Trial (SAT) 自主唤醒实验\nTracheostomy /,træki’ɔstəmi, ,trei-/ 气管造口术\nElectroencephalogram (EEG) 脑电图\nThoracentesis /θɔ:rəsen’ti:sis/ 胸腔穿刺\nParacentesis /ˌpærəsenˈtiːsɪs/ 腹腔穿刺术\nArtificial airway management 人工气道管理\nPressure injury prevention 压疮预防\nInsulin /ˈɪnsjəlɪn/ therapy 胰岛素治疗\nLung-protective ventilation 肺保护性通气策略\nDelayed RRT 延迟肾脏替代治疗\nEarly enteral nutrition 早期肠内营养\nAnticoagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ therapy 抗凝治疗\nTransfusion 输血\nPlatelet /’pleɪtlɪt/ transfusion 血小板输注\nComponent Transfusion 成分输血\nAntibiotic stewardship /ˈstjuːədʃɪp/ 抗生素管理\nContact precautions 解除隔离措施\nPercutaneous /ˌpɜːkjuːˈteɪniəs/ coronary /ˈkɔːrəneri/ intervention (PCI) 经皮冠状动脉介入治疗\nUltrasound-guided procedures 超声引导下操作\nPercutaneous endoscopic gastrostomy (PEG) 经皮内镜下胃造口术\nUltrasound-guided central line placement 超声引导下中心静脉置管\nSepsis Bundle /’bʌnd(ə)l/ 脓毒症集束化治疗\nVAP Bundle 呼吸机相关性肺炎预防集束化措施\neCASH Bundle 早期舒适化镇痛镇静集束化方案\nHemodynamic Optimization /,ɒptɪmaɪ’zeɪʃən/ Protocol 血流动力学优化方案\nStem cell therapy for ARDS 干细胞治疗急性呼吸窘迫综合征\nImmunomodulatory therapy 免疫调节治疗\nHypothermia therapy 亚低温治疗\nCritical Care Nutrition 危重症营养\nPalliative /ˈpæliətɪv/ care 姑息治疗\nPlasma Exchange, PE 血浆置换\nImmunoadsorption 免疫吸附\nCitrate Anticoagulation 枸橼酸抗凝\nEarly Mobilization /ˌməʊbɪlaɪˈzeɪʃn/ 早期活动\nGoal-Directed Fluid Therapy, GDFT 目标导向的液体治疗\nHypothermia Therapy 低温治疗\nUrinary /’jʊərɪn(ə)rɪ/ Catheter Care 导尿管护理\nDressing Change 敷料更换\nIV Access Maintenance 静脉通路维护\n\n\n\nVentilator 呼吸机\nBedside monitor 床旁监护仪\nDefibrillator /di’faibrileitə/ 除颤仪\nHemodialysis /,hiːmədaɪ’ælɪsɪs/ machine 血液净化机\nInfusion pump/Microinfusion pump 输液泵/微量泵\nCooling blanket 降温毯\nPoint-of-care ultrasound 床旁超声\nArterial /ɑː’tɪərɪəl/ line 动脉导管\nCentral venous /ˈviːnəs/ catheter /’kæθɪtə/ 中心静脉导管\nExtracorporeal /ˌekstrəkɔːˈpɔːriəl/ Life Support (ECLS) 体外生命支持（包括ECMO）\nExtracorporeal Liver Support 体外肝支持\nExtracorporeal Membrane Oxygenation, ECMO 体外膜肺氧合\nClosed-loop insulin delivery system 闭环胰岛素输注系统\nChest tube 胸腔闭式引流管\nCrash cart 急救车\nSwan-Ganz Catheter 右心导管\nWeaning /wiːn/ from ventilator 撤机\n\n\n\nantibiotics /,æntɪbaɪ’ɒtɪks/ 抗生素\nCiprofloxacin /,siprəu’flɔksəsin/ 环丙沙星\nMetronidazole /,metrə’naɪdəzəʊl/ 甲硝唑\nMeropenem 美罗培南\nImipenem 亚胺培南\nTeicoplanin 替考拉宁\nVancomycin 万古霉素\nInotropes 正性肌力药\nCorticosteroid /ˌkɔːtɪkəʊˈstɪərɔɪd/ 糖皮质激素\nGlucocorticoids /,glu:kəu’kɔ:ti,kɔid/ 糖皮质激素\nDexamethasone /ˌdeksəˈmeθəˌsəʊn/ 地塞米松\nTheophylline /,θi:ə’fili:n; -in; ,θiə-; θi’ɔfilin/ 茶碱\nDexmedetomidine 右美托咪定\nPropofol 丙泊酚\nMidazolam 咪达唑仑\nPancuronium 泮库溴铵\nNaloxone /nəˈlɒksəʊn/ 纳洛酮\nVasoactive /ˌveɪzəʊˈæktɪv/ Drugs 血管活性药物\nVasopressors /ˌveɪzəʊˈpresə(r)/ 血管活性药物\nVasopressin /ˌvæsəʊˈpresɪn/ 血管加压素\nEpinephrine /ˌepɪˈnefrɪn/ 肾上腺素\nNorepinephrine /ˌnɔːrepɪˈnefrɪn; -riːn/ 去甲肾上腺素\nDobutamine /dəʊ’bjuːtəmiːn/ 多巴酚丁胺\nDopamine /’dəʊpəmiːn/ 多巴胺\nNitroglycerin /ˌnaɪtrəʊˈɡlɪsərɪn; ˌnaɪtrəʊˈɡlɪsəriːn/ 硝酸甘油\nSodium Nitroprusside 硝普纳\nFurosemide /ˈfjʊərˌəʊsəˌmaɪd/ 呋塞米\nSedative-analgesic /ˈsedətɪv//ˌænəlˈdʒiːzɪk/ agents 镇静镇痛药\nInsulin 胰岛素\nAlbumin /ˈælbjʊmɪn/ 白蛋白\nFresh frozen plasma (FFP) 新鲜冰冻血浆\nrhAPC 重组人活化蛋白C\nHepcidin 铁调素\nAmiodarone /,æmiəu’dærəu/ 胺碘酮\nAtropine /ˈætrəpɪn/ 阿托品\nSodium Bicarbonate 碳酸氢钠\nCalcium /ˈkælsiəm/ Gluconate /ˈɡluːkəˌneɪt/ 葡萄糖酸钙\nProtamine 鱼精蛋白\nHeparin /’hepərɪn/ 肝素\nWarfarin /’wɔːfərɪn/ 华法林\nSuccinylcholine 琥珀酰胆碱\n\n\n\nArterial /ɑːˈtɪəriəl/ blood gas，ABG 动脉血气分析\nEndotracheal /ˌendəʊˈtreɪkɪəl/ intubation 气管插管\nVital signs monitoring 生命体征监测\nHemodynamic monitoring 血流动力学监测\nProcalcitonin (PCT) 降钙素原\nSequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估\nLactic acid/lactate 乳酸\ncreatinine 肌酐\nuric acid 尿酸\nserum creatinine 血清肌酐\namylase 淀粉酶\nlipase 脂肪酶\nBrain natriuretic peptide (BNP) 脑钠肽\nGlasgow /’ɡlɑ:sɡəu/ Coma /’kəʊmə/ Scale (GCS) 格拉斯哥昏迷评分\nAcute Physiology /,fɪzɪ’ɒlədʒɪ/ and Chronic Health Evaluation (APACHE) 急性生理慢性健康评分\nSimplified Acute Physiology Score (SAPS) 简化急性生理学评分\nCriteria /kraɪ’tɪərɪə/ 标准\nAKIN Criteria 急性肾损伤网络标准\nLactate clearance rate 乳酸清除率\nCentral venous pressure (CVP) 中心静脉压\nCerebral /səˈriːbrəl/ perfusion pressure (CPP) 脑灌注压\nSystemic vascular resistance (SVR) 体循环血管阻力\nPulmonary /ˈpʌlmənəri/ artery 肺动脉\nCoagulation profile 凝血功能检查\nFluid challenge 液体冲击试验\nMixed venous oxygen saturation (SvO₂) 混合静脉血氧饱和度\nOxygenation index 氧合指数\nPaO₂/FiO₂ 氧合指数\nEnd-Tidal Carbon Dioxide, ETCO₂ 呼气末二氧化碳\nNeurocritical care 神经重症监护\nCerebral Oxygen Monitoring 脑氧监测\nColony-Stimulating Factor, CSF 集落刺激因子\nIntestinal /ˌɪnˈtestɪnəl/ Barrier Function Monitoring 肠屏障功能监测\nContinuous EEG Monitoring 连续性神经电监测\nExtravascular Lung Water Index, EVLWI 血管外肺水指数\nCardiac index 心脏指数\nEnteral Nutrition Tolerance 肠内营养耐受评估\nSedation Depth Monitoring 镇静深度评估\nPain Assessment 疼痛评估\n\n\n\n1. hx - History（病史）\n2. dx - Diagnosis（诊断）\n3. tx - Treatment（治疗）\n4. sx - Symptoms（症状）\n5. fx - Fracture（骨折）\n6. px - Prognosis（预后）\n\n\n\nIntensive Care Unit，ICU 重症监护室\nMultidisciplinary team (MDT) 多学科协作团队\nEnd-of-life care 临终关怀\nEthical decision-making 伦理决策\nEthics Committee Review 伦理委员会审查\nPatient autonomy /ɔːˈtɒnəmi/ 患者自主权\nFutility /fju:’tiliti/ of care 无效医疗\nDo-not-resuscitate (DNR) 放弃心肺复苏\nbrain death 脑死亡\nSurrogate /’sʌrəgət/ decision-making 替代决策\nPalliative /’pælɪətɪv/ care integration 姑息治疗整合\nEnd-of-life discussions 临终讨论\nTrauma team activation 创伤团队启动\nCardiac arrest team 心脏骤停团队\nTransplant ICU 抑制重症监护室\nNeurocritical care 神经重症\n\n\n\nMachine learning in sepsis prediction 机器学习在脓毒症预测中的应用\nGut Microbiota Modulation 肠道菌群调控\nGene Editing 基因编辑技术\nNanomedicine Delivery 纳米药物递送\nMetabolomics /metæˈbɑːləmɪks/ 代谢组学\nProteomics /ˌprəʊtɪˈɒmɪks/ 蛋白组学\nSingle-Cell Sequencing 单细胞测序\n\n\n\ndeviate /ˈdiːvieɪt/ 偏离\noptimal 最优的\ncomply [kəmˈplaɪ] 遵从，服从\nfungal 真菌的\nregimen 方案、疗程\nanesthetic [ˌænəsˈθetɪk] 麻醉剂、麻醉的"
+    "text": "Shock 休克\nTrauma /ˈtrɔːmə/ 创伤\nVentricular /venˈtrɪkjələ(r)/ Fibrillation /ˌfɪbrɪˈleɪʃən/ 室颤\nAcute Respiratory /rəˈspɪrət(ə)ri/ Distress Syndrome(ARDS) 急性呼吸窘迫综合征\nAcute Myocardial /ˌmaɪəʊˈkɑːdiəl/ Infarction /ɪnˈfɑːkʃn/, AMI 急性心肌梗死\nHeart Failure, HF 心力衰竭\nRight ventricular /venˈtrɪkjələ(r)/ failure 右心衰竭\nRespiratory failure 呼吸衰竭\nRenal /ˈriːnl/ failure 肾衰竭\nAcute Kidney Injury (AKI) 急性肾损伤\nEncephalopathy /enˌsefəˈlɒpəθi; enˌkefəˈlɒpəθi/ 脑病\nDisseminated /dɪˈsemɪneɪtɪd/ Intravascular /ˌɪntrəˈvæskjʊlə(r)/ Coagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ (DIC) 弥散性血管内凝血\nCOPD 慢性阻塞性肺疾病\nsepsis 脓毒症\nseptic shock感染性休克\nDelirium /dɪˈlɪriəm; dɪˈlɪəriəm/ 谵妄\nSIRS 全身炎症反应综合征\nOrgan dysfunction 器官功能障碍\nMultiple Organ Dysfunction Syndrome, MODS 多器官功能障碍综合征\nDeep vein thrombosis /θrɒmˈbəʊsɪs/ (DVT) 深静脉血栓\ndrowning 淹溺\nelectrical injury电击伤\nMultiple Injuries 多发性创伤\nPoisoning 急性中毒\nCompartment Syndrome 挤压综合征\nHeat Stroke 热射病\nAltitude Sickness 高原反应\nHypothermia 低体温\nLeukocytosis /ˌluːkəʊsaɪˈtəʊsɪs/ 白细胞增多\nThrombocytopenia /,θrɒmbə(ʊ),saɪtə(ʊ)’piːnɪə/ 血小板减少症\nhospital-acquired infection 医院获得性感染\nCatheter-related bloodstream infection (CRBSI) 导管相关血流感染\nVentilator-associated pneumonia /njuːˈməʊniə/ (VAP) 呼吸机相关肺炎\nMultidrug-resistant organism (MDRO) 多重耐药菌\nRefractory /rɪ’frækt(ə)rɪ/ septic shock 难治性感染性休克\nHypertensive emergency 高血压急症\nNon-ST elevation /,elɪ’veɪʃ(ə)n/ myocardial /,maɪəʊ’kɑːdɪəl/ infarction /ɪn’fɑːkʃ(ə)n/ (NSTEMI) 非ST段抬高型心肌梗死\nPost-ICU Syndrome, PICS ICU后综合征\n\n\n\nCPR 心肺复苏\nAED 自动体外除颤器\nACLS 高级心血管支持\n\n\n\nMechanical Ventilation /,ventɪ’leɪʃ(ə)n/ 机械通气\nNon-invasive ventilation (NIV) 无创通气\nProne /prəʊn/ Positioning 俯卧位通气\nAirway Management 气道管理\nHigh-Flow Oxygen Therapy 高流量氧疗\nWeaning from Mechanical Ventilation 机械通气脱机\nNebulizer /’nebjulaizə/ Therapy 雾化吸入治疗\nFluid Resuscitation /rɪˌsʌsɪˈteɪʃ(ə)n/ 液体复苏\nQuantitative resuscitation 定量复苏\nsedation /sɪˈdeɪʃn/ 镇静\nSedation management 镇静管理\nanalgesia /,æn(ə)l’dʒiːzɪə/ 镇痛\nGlucose /ˈɡluːkəʊs/ control 血糖控制\nRenal replacement therapy (RRT) 肾脏替代治疗\nContinuous Renal Replacement Therapy (CRRT) 连续性肾脏替代治疗\nExtracorporeal Membrane Oxygenation (ECMO) 体外膜肺氧合\nIntra-Aortic /eɪˈɔːtɪk/ Balloon Pump (IABP) 主动脉球囊反搏\nSpontaneous Awakening Trial (SAT) 自主唤醒实验\nTracheostomy /,træki’ɔstəmi, ,trei-/ 气管造口术\nElectroencephalogram (EEG) 脑电图\nThoracentesis /θɔ:rəsen’ti:sis/ 胸腔穿刺\nParacentesis /ˌpærəsenˈtiːsɪs/ 腹腔穿刺术\nArtificial airway management 人工气道管理\nPressure injury prevention 压疮预防\nInsulin /ˈɪnsjəlɪn/ therapy 胰岛素治疗\nLung-protective ventilation 肺保护性通气策略\nDelayed RRT 延迟肾脏替代治疗\nEarly enteral nutrition 早期肠内营养\nAnticoagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ therapy 抗凝治疗\nTransfusion 输血\nPlatelet /’pleɪtlɪt/ transfusion 血小板输注\nComponent Transfusion 成分输血\nAntibiotic stewardship /ˈstjuːədʃɪp/ 抗生素管理\nContact precautions 解除隔离措施\nPercutaneous /ˌpɜːkjuːˈteɪniəs/ coronary /ˈkɔːrəneri/ intervention (PCI) 经皮冠状动脉介入治疗\nUltrasound-guided procedures 超声引导下操作\nPercutaneous endoscopic gastrostomy (PEG) 经皮内镜下胃造口术\nUltrasound-guided central line placement 超声引导下中心静脉置管\nSepsis Bundle /’bʌnd(ə)l/ 脓毒症集束化治疗\nVAP Bundle 呼吸机相关性肺炎预防集束化措施\neCASH Bundle 早期舒适化镇痛镇静集束化方案\nHemodynamic Optimization /,ɒptɪmaɪ’zeɪʃən/ Protocol 血流动力学优化方案\nStem cell therapy for ARDS 干细胞治疗急性呼吸窘迫综合征\nImmunomodulatory therapy 免疫调节治疗\nHypothermia therapy 亚低温治疗\nCritical Care Nutrition 危重症营养\nPalliative /ˈpæliətɪv/ care 姑息治疗\nPlasma Exchange, PE 血浆置换\nImmunoadsorption 免疫吸附\nCitrate Anticoagulation 枸橼酸抗凝\nEarly Mobilization /ˌməʊbɪlaɪˈzeɪʃn/ 早期活动\nGoal-Directed Fluid Therapy, GDFT 目标导向的液体治疗\nHypothermia Therapy 低温治疗\nUrinary /’jʊərɪn(ə)rɪ/ Catheter Care 导尿管护理\nDressing Change 敷料更换\nIV Access Maintenance 静脉通路维护\n\n\n\nVentilator 呼吸机\nBedside monitor 床旁监护仪\nDefibrillator /di’faibrileitə/ 除颤仪\nHemodialysis /,hiːmədaɪ’ælɪsɪs/ machine 血液净化机\nInfusion pump/Microinfusion pump 输液泵/微量泵\nCooling blanket 降温毯\nPoint-of-care ultrasound 床旁超声\nArterial /ɑː’tɪərɪəl/ line 动脉导管\nCentral venous /ˈviːnəs/ catheter /’kæθɪtə/ 中心静脉导管\nExtracorporeal /ˌekstrəkɔːˈpɔːriəl/ Life Support (ECLS) 体外生命支持（包括ECMO）\nExtracorporeal Liver Support 体外肝支持\nExtracorporeal Membrane Oxygenation, ECMO 体外膜肺氧合\nClosed-loop insulin delivery system 闭环胰岛素输注系统\nChest tube 胸腔闭式引流管\nCrash cart 急救车\nSwan-Ganz Catheter 右心导管\nWeaning /wiːn/ from ventilator 撤机\n\n\n\nantibiotics /,æntɪbaɪ’ɒtɪks/ 抗生素\nCiprofloxacin /,siprəu’flɔksəsin/ 环丙沙星\nMetronidazole /,metrə’naɪdəzəʊl/ 甲硝唑\nMeropenem 美罗培南\nImipenem 亚胺培南\nTeicoplanin 替考拉宁\nVancomycin 万古霉素\nInotropes 正性肌力药\nCorticosteroid /ˌkɔːtɪkəʊˈstɪərɔɪd/ 糖皮质激素\nGlucocorticoids /,glu:kəu’kɔ:ti,kɔid/ 糖皮质激素\nDexamethasone /ˌdeksəˈmeθəˌsəʊn/ 地塞米松\nTheophylline /,θi:ə’fili:n; -in; ,θiə-; θi’ɔfilin/ 茶碱\nDexmedetomidine 右美托咪定\nPropofol 丙泊酚\nMidazolam 咪达唑仑\nPancuronium 泮库溴铵\nNaloxone /nəˈlɒksəʊn/ 纳洛酮\nVasoactive /ˌveɪzəʊˈæktɪv/ Drugs 血管活性药物\nVasopressors /ˌveɪzəʊˈpresə(r)/ 血管活性药物\nVasopressin /ˌvæsəʊˈpresɪn/ 血管加压素\nEpinephrine /ˌepɪˈnefrɪn/ 肾上腺素\nNorepinephrine /ˌnɔːrepɪˈnefrɪn; -riːn/ 去甲肾上腺素\nDobutamine /dəʊ’bjuːtəmiːn/ 多巴酚丁胺\nDopamine /’dəʊpəmiːn/ 多巴胺\nNitroglycerin /ˌnaɪtrəʊˈɡlɪsərɪn; ˌnaɪtrəʊˈɡlɪsəriːn/ 硝酸甘油\nSodium Nitroprusside 硝普纳\nFurosemide /ˈfjʊərˌəʊsəˌmaɪd/ 呋塞米\nSedative-analgesic /ˈsedətɪv//ˌænəlˈdʒiːzɪk/ agents 镇静镇痛药\nInsulin 胰岛素\nAlbumin /ˈælbjʊmɪn/ 白蛋白\nFresh frozen plasma (FFP) 新鲜冰冻血浆\nrhAPC 重组人活化蛋白C\nHepcidin 铁调素\nAmiodarone /,æmiəu’dærəu/ 胺碘酮\nAtropine /ˈætrəpɪn/ 阿托品\nSodium Bicarbonate 碳酸氢钠\nCalcium /ˈkælsiəm/ Gluconate /ˈɡluːkəˌneɪt/ 葡萄糖酸钙\nProtamine 鱼精蛋白\nHeparin /’hepərɪn/ 肝素\nWarfarin /’wɔːfərɪn/ 华法林\nSuccinylcholine 琥珀酰胆碱\n\n\n\nArterial /ɑːˈtɪəriəl/ blood gas，ABG 动脉血气分析\nEndotracheal /ˌendəʊˈtreɪkɪəl/ intubation 气管插管\nVital signs monitoring 生命体征监测\nHemodynamic monitoring 血流动力学监测\nProcalcitonin (PCT) 降钙素原\nSequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估\nLactic acid/lactate 乳酸\ncreatinine 肌酐\nuric acid 尿酸\nserum creatinine 血清肌酐\namylase 淀粉酶\nlipase 脂肪酶\nBrain natriuretic peptide (BNP) 脑钠肽\nGlasgow /’ɡlɑ:sɡəu/ Coma /’kəʊmə/ Scale (GCS) 格拉斯哥昏迷评分\nAcute Physiology /,fɪzɪ’ɒlədʒɪ/ and Chronic Health Evaluation (APACHE) 急性生理慢性健康评分\nSimplified Acute Physiology Score (SAPS) 简化急性生理学评分\nCriteria /kraɪ’tɪərɪə/ 标准\nAKIN Criteria 急性肾损伤网络标准\nLactate clearance rate 乳酸清除率\nCentral venous pressure (CVP) 中心静脉压\nCerebral /səˈriːbrəl/ perfusion pressure (CPP) 脑灌注压\nSystemic vascular resistance (SVR) 体循环血管阻力\nPulmonary /ˈpʌlmənəri/ artery 肺动脉\nCoagulation profile 凝血功能检查\nFluid challenge 液体冲击试验\nMixed venous oxygen saturation (SvO₂) 混合静脉血氧饱和度\nOxygenation index 氧合指数\nPaO₂/FiO₂ 氧合指数\nEnd-Tidal Carbon Dioxide, ETCO₂ 呼气末二氧化碳\nNeurocritical care 神经重症监护\nCerebral Oxygen Monitoring 脑氧监测\nColony-Stimulating Factor, CSF 集落刺激因子\nIntestinal /ˌɪnˈtestɪnəl/ Barrier Function Monitoring 肠屏障功能监测\nContinuous EEG Monitoring 连续性神经电监测\nExtravascular Lung Water Index, EVLWI 血管外肺水指数\nCardiac index 心脏指数\nEnteral Nutrition Tolerance 肠内营养耐受评估\nSedation Depth Monitoring 镇静深度评估\nPain Assessment 疼痛评估\n\n\n\n1. hx - History（病史）\n2. dx - Diagnosis（诊断）\n3. tx - Treatment（治疗）\n4. sx - Symptoms（症状）\n5. fx - Fracture（骨折）\n6. px - Prognosis（预后）\n\n\n\nIntensive Care Unit，ICU 重症监护室\nMultidisciplinary team (MDT) 多学科协作团队\nEnd-of-life care 临终关怀\nEthical decision-making 伦理决策\nEthics Committee Review 伦理委员会审查\nPatient autonomy /ɔːˈtɒnəmi/ 患者自主权\nFutility /fju:’tiliti/ of care 无效医疗\nDo-not-resuscitate (DNR) 放弃心肺复苏\nbrain death 脑死亡\nSurrogate /’sʌrəgət/ decision-making 替代决策\nPalliative /’pælɪətɪv/ care integration 姑息治疗整合\nEnd-of-life discussions 临终讨论\nTrauma team activation 创伤团队启动\nCardiac arrest team 心脏骤停团队\nTransplant ICU 抑制重症监护室\nNeurocritical care 神经重症\n\n\n\nMachine learning in sepsis prediction 机器学习在脓毒症预测中的应用\nGut Microbiota Modulation 肠道菌群调控\nGene Editing 基因编辑技术\nNanomedicine Delivery 纳米药物递送\nMetabolomics /metæˈbɑːləmɪks/ 代谢组学\nProteomics /ˌprəʊtɪˈɒmɪks/ 蛋白组学\nSingle-Cell Sequencing 单细胞测序\nprospective and retrospective 前瞻性和回顾性\nEligibility criteria 纳入标准\nsynthesis 综合\n\n\n\ndeviate /ˈdiːvieɪt/ 偏离\noptimal 最优的\ncomply [kəmˈplaɪ] 遵从，服从\nfungal 真菌的\nregimen 方案、疗程\nanesthetic [ˌænəsˈθetɪk] 麻醉剂、麻醉的"
   },
   {
     "objectID": "blog/learnnote_words/index.html#疾病",
@@ -662,7 +564,7 @@
     "href": "blog/learnnote_words/index.html#科研",
     "title": "我的重症医学单词: 2025年8月27日",
     "section": "",
-    "text": "Machine learning in sepsis prediction 机器学习在脓毒症预测中的应用\nGut Microbiota Modulation 肠道菌群调控\nGene Editing 基因编辑技术\nNanomedicine Delivery 纳米药物递送\nMetabolomics /metæˈbɑːləmɪks/ 代谢组学\nProteomics /ˌprəʊtɪˈɒmɪks/ 蛋白组学\nSingle-Cell Sequencing 单细胞测序"
+    "text": "Machine learning in sepsis prediction 机器学习在脓毒症预测中的应用\nGut Microbiota Modulation 肠道菌群调控\nGene Editing 基因编辑技术\nNanomedicine Delivery 纳米药物递送\nMetabolomics /metæˈbɑːləmɪks/ 代谢组学\nProteomics /ˌprəʊtɪˈɒmɪks/ 蛋白组学\nSingle-Cell Sequencing 单细胞测序\nprospective and retrospective 前瞻性和回顾性\nEligibility criteria 纳入标准\nsynthesis 综合"
   },
   {
     "objectID": "blog/learnnote_words/index.html#基础单词",
@@ -672,452 +574,592 @@
     "text": "deviate /ˈdiːvieɪt/ 偏离\noptimal 最优的\ncomply [kəmˈplaɪ] 遵从，服从\nfungal 真菌的\nregimen 方案、疗程\nanesthetic [ˌænəsˈθetɪk] 麻醉剂、麻醉的"
   },
   {
-    "objectID": "code/code.html",
-    "href": "code/code.html",
-    "title": "代码",
+    "objectID": "blog/blog_introduction_en/index.html",
+    "href": "blog/blog_introduction_en/index.html",
+    "title": "5min英文自我介绍（PPT）",
     "section": "",
-    "text": "ggehr\n\n\nggplot2 extension to EHR data\n\n\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n无匹配项"
+    "text": "5min英文PPT\n下载PPT \nGood morning, professors.\nMy name is Liu Aoqi, and I am currently studying Clinical Medicine at Zhengzhou University. It is a great honor to be here.\nI’d like to share my story in six parts.\nFirst, some basic information.\nI’m Han Chinese, born on October 1, 2002, in Zhoukou, Henan Province.\nSecond, my academic performance.\nI have consistently achieved high academic results with an average GPA of 3.8 out of 4.0, ranking 12th out of 572 students in my major, which places me in the top 2.09%. I’ve excelled in 38 core courses such as Pathophysiology /ˈpæθəʊfɪzɪˈɒlədʒi/, Pharmacology /ˌfɑːməˈkɒlədʒi/, and Internal Medicine.\nThird, my English ability.\nI scored 565 on the CET-4 and 520 on the CET-6.\nIn addition, I have received several awards, including the National Inspirational Scholarship, first-class scholarship and the “merit student” title for two years.\nFourth, my research and competition experience.\nI’ve taken part in several projects, including the Undergraduate Innovation and Entrepreneurship Training Program, the “Challenge Cup”, the China International College Students Innovation Competition, and the National Medical Innovation Competition.\nOne of my projects was about investigating asthma regulation in mice and I learned experimental techniques such as PCR and Western Blot.\nI was especially excited to join a summer training class, where I listened to lectures from top scientists, and our group won first prize in a literature presentation competition.\nWe know lactate plays a critical role in tumors, and a new modification called protein lactylation is important — but the enzyme /ˈenzaɪm/ that adds it wasn’t clear. Recently, some studies suggested AARS1 might be that enzyme. So, I analyzed data to see how AARS1 is related to clinical relevance, hallmarks and lactate metabolism. I found that AARS1 is highly expressed in many cancers, linked to higher lactate levels, and affects the survival of patients. Finally, We also used qPCR and Western Blot to confirm our findings.\nI also worked on a project called “ZhiHui·HaoYun” — a test kit to predict embryo implantation potential. My main job was to build the single-cell data analysis pipeline. I combined data from RNA-seq, ATAC-seq, and CNV, and used the results to train a random forest model to predict embryo quality, which has currently been granted two software copyrights, and I’ve learned the basic workflow of single-cell data analysis.\nI also participated in a national university student medical innovation competition and won the silver award in the national finals.\nFifth, my practical experiences.\nDuring my clinical internship, I also visited the ICU at the First Affiliated /əˈfɪlieɪtɪd/ Hospital of Zhengzhou University, which really sparked my interest in critical care medicine.\nSixth, my skills.\nI’m good at using R for data cleaning, analysis, and visualization. And I am also familiar with Python for data analysis and the basic operations of Linux servers.\nClinically, I’ve mastered CPR, wound dressing, and four major puncture techniques. I’ll keep improving these skills for both clinical work and research.\nFinally, my future goals.\nMy dream is to study at Union Hospital. Before starting graduate school, I plan to:\n\nReview clinical knowledge, improve my medical English, and read more papers,\nLearn more about bioinformatics, experimental techniques, and improve programming abilities\nkeep a healthy lifestyle\n\nI’m particularly interested in studying the mechanisms and therapies for sepsis and septic shock. In my fifth year, I plan to read 3 papers per week and learn from their methods. Then download and analyze the data. Finally, verify the results and publish the paper.\nHere’s my study plan after enrollment:\n\nYear 1: Get good grades, improve my CET-6 (target: 600+), read papers, and start research.\nYear 2: prepare for the Medical Licensing Exam, and publish innovative papers.\nYear 3: prepare for PhD applications.\nIf I get the chance to do a PhD, I hope to lead my own project and publish high-impact papers.\n\nIn the long run, I want to work in the ICU of a three-A hospital. And if possible, I hope to work at West China Hospital.\nThat’s all for my introduction."
   },
   {
-    "objectID": "code/qtwAcademic/index.html",
-    "href": "code/qtwAcademic/index.html",
-    "title": "qtwAcademic",
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "笔记",
     "section": "",
-    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
+    "text": "日志\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n面试——非专业问题\n\n\n2025/8/31\n\n\n\n\n\n\n5min英文自我介绍（PPT）\n\n\n2025/8/31\n\n\n\n\n\n\n5min中文自我介绍（PPT）\n\n\n2025/8/31\n\n\n\n\n\n\n无匹配项\n\n\n\n学习笔记\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n我的重症医学单词: 2025年8月27日\n\n\n2025/8/27\n\n\n\n\n\n\n无匹配项\n\n\n\n阅读\n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n行为对态度的影响\n\n\n2025/8/30\n\n\n\n\n\n\n无匹配项"
   },
   {
-    "objectID": "icu/icu.html",
-    "href": "icu/icu.html",
-    "title": "ICU",
+    "objectID": "about_me.html",
+    "href": "about_me.html",
+    "title": "刘奥奇",
     "section": "",
-    "text": "这是ICU专业知识."
+    "text": "邮箱\n  \n  \n    \n     laq12345\n  \n\n\n\n我很神秘，所以这里什么都没有\n如果想了解我，这里肯定是不行了\n不过不要难过，我依然爱着你，我的爱是平等而不匮乏的"
   },
   {
-    "objectID": "icu/icu.html#前言",
-    "href": "icu/icu.html#前言",
-    "title": "ICU",
+    "objectID": "blog/blog_interview_non_professional/index.html",
+    "href": "blog/blog_interview_non_professional/index.html",
+    "title": "面试——非专业问题",
     "section": "",
-    "text": "这是ICU专业知识."
+    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
   },
   {
-    "objectID": "icu/icu.html#选择先前的笔记",
-    "href": "icu/icu.html#选择先前的笔记",
-    "title": "ICU",
-    "section": "选择先前的笔记",
-    "text": "选择先前的笔记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n标题\n\n\n\n日期\n\n\n\n\n\n\n\n\n腹腔间隔室综合征（ACS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性心衰\n\n\n2025-08-30\n\n\n\n\n\n\n心源性休克\n\n\n2025-08-30\n\n\n\n\n\n\n心肺复苏\n\n\n2025-08-30\n\n\n\n\n\n\n多器官功能障碍综合症（MODS）\n\n\n2025-08-30\n\n\n\n\n\n\n急性肺血栓栓塞\n\n\n2025-08-30\n\n\n\n\n\n\n呼吸衰竭\n\n\n2025-08-30\n\n\n\n\n\n\n过敏性休克\n\n\n2025-08-30\n\n\n\n\n\n\n谵妄\n\n\n2025-08-30\n\n\n\n\n\n\n高血压急症\n\n\n2025-08-30\n\n\n\n\n\n\n低钾血症和高钾血症\n\n\n2025-08-30\n\n\n\n\n\n\n糖尿病酮症酸中毒与高渗高血糖综合征\n\n\n2025-08-30\n\n\n\n\n\n\n重症监测（外总）\n\n\n2025-08-30\n\n\n\n\n\n\n垂体危象\n\n\n2025-08-30\n\n\n\n\n\n\n镇痛与镇静\n\n\n2025-08-30\n\n\n\n\n\n\n甲亢危象\n\n\n2025-08-30\n\n\n\n\n\n\n机械通气\n\n\n2025-08-30\n\n\n\n\n\n\n急性肝衰竭\n\n\n2025-08-29\n\n\n\n\n\n\n重症急性胰腺炎\n\n\n2025-08-29\n\n\n\n\n\n\n重症社区获得性肺炎（CAP）\n\n\n2025-08-29\n\n\n\n\n\n\n弥散性血管内凝血\n\n\n2025-08-29\n\n\n\n\n\n\n医院获得性肺炎（HAP）\n\n\n2025-08-29\n\n\n\n\n\n\n颅内压增高\n\n\n2025-08-29\n\n\n\n\n\n\n急性肾损伤\n\n\n2025-08-28\n\n\n\n\n\n\nARDS\n\n\n2025-08-28\n\n\n\n\n\n\nCOPD急性加重\n\n\n2025-08-28\n\n\n\n\n\n\n哮喘急性发作\n\n\n2025-08-28\n\n\n\n\n\n\n脓毒症与感染性休克\n\n\n2025-08-28\n\n\n\n\n\n\n休克\n\n\n2025-08-28\n\n\n\n\n\n\n无匹配项"
-  },
-  {
-    "objectID": "icu/icu_ALF/index.html",
-    "href": "icu/icu_ALF/index.html",
-    "title": "急性肝衰竭",
+    "objectID": "blog/blog_interview_non_professional/index.html#关于自己",
+    "href": "blog/blog_interview_non_professional/index.html#关于自己",
+    "title": "面试——非专业问题",
     "section": "",
-    "text": "肝衰竭的定义与分类"
+    "text": "1. 承认压力的普遍性，展现成熟心态\n\n“我认为在学习和科研中遇到压力是非常正常的，尤其是在面对重要任务、时间紧张或挑战性目标时。我不会回避压力，反而认为适度的压力是推动我成长和进步的动力。”\n\n2. 说明你如何识别和分析压力源（体现自我觉察）\n\n“当我感到压力时，我首先会停下来反思：压力来自哪里？是任务量太大？时间安排不合理？还是对结果的不确定性？明确压力源是解决问题的第一步。”\n\n3. 分享具体、有效的应对策略（重点！要具体）\n\n“针对不同的压力，我会采取不同的应对方式：\n\n时间管理：我会重新梳理任务优先级，使用待办清单或时间管理工具（如番茄工作法），把大任务拆解成小目标，一步步完成，避免拖延带来的累积压力。\n主动沟通：如果压力来自团队合作或导师期望，我会主动与同学或老师沟通，寻求建议或调整方案，而不是独自硬扛。\n调节身心：我也会通过运动（如跑步、跳绳）、听音乐或短暂冥想来放松大脑，保持清晰的思维。充足的睡眠和规律作息对我来说也很重要。\n积极心理暗示：我会提醒自己过去的成功经验，增强信心，告诉自己‘这个挑战我有能力应对。\n\n\n5. 总结升华\n\n“所以，我认为面对压力，关键不是逃避，而是理性分析、科学应对，并从中学习如何更好地管理自己。我相信这种能力也能帮助我在未来的研究生阶段应对更复杂的挑战。”\n\n\n\n\n\n\n\n\n“老师，我完全理解临床医学研究生，尤其是专硕阶段的工作确实非常辛苦——临床轮转任务重、科研压力大、节假日少，甚至经常需要熬夜值班。这些我都有心理准备，也认真了解过身边师兄师姐的经历。”\n\n\n“但我想说，’苦’是外在的体验，而我选择这条路，是因为我热爱医学、敬畏生命。在本科实习期间，看到老师和值班医生抢救病人，我深受触动。”\n\n\n“我也清楚，专硕阶段是临床能力打基础的关键时期。辛苦的背后，是大量动手操作的机会、是与患者直接沟通的成长、是逐步建立临床思维的过程。这些‘苦，在我看来是成长的必经之路，而不是单纯的消耗。”\n\n\n“当然，光有热情不够。我也在努力提升自己的抗压能力和时间管理能力。比如通过规律作息、阶段性复盘、与导师同学沟通协作等方式，让自己在高强度工作中保持效率和初心。”\n\n\n“所以，如果能有幸进入这里学习，我不仅‘能坚持’，更会主动适应、积极投入，把每一个挑战当作提升专业能力的机会。因为我始终记得自己学医的初心：治病救人，做一个有温度、有能力的医生。”\n\n\n\n\n\n\n\n\n\n“是的，我认为自己能够很好地融入团队，并为团队目标贡献力量。我始终相信，科研和临床工作都不是一个人的战斗，良好的团队协作是成功的关键。”\n\n\n“在本科期间，我参与过多个团队项目，比如全国大学生医学创新大赛。在项目中，我的主要工作是负责项目的单细胞数据分析流程和预测模型的构建，需要和不同背景的同学密切配合。我们定期开会沟通进度，遇到意见分歧时，我会主动倾听他人想法。\n\n\n“我也注重责任与沟通。比如在任务分工中，我会主动承担自己擅长的部分，同时也会关注队友的进度，如果发现有人遇到困难，我会主动提供帮助。我认为团队的成功比个人表现更重要。”\n\n\n“当然，我也意识到良好的相处不仅靠热情，更需要尊重、包容和有效沟通。我性格比较踏实、耐心，愿意倾听，也乐于分享自己的思路，这让我在团队中通常能建立信任关系。”\n\n\n“如果未来有幸进入贵校学习，我也希望能尽快融入课题组，和导师、师兄师姐、同门保持良好沟通，做一个靠谱、积极、有贡献的团队成员。”\n\n\n\n\n\n\n\n\n\n“老师，我认为挫折是成长过程中不可避免的一部分，尤其是在科研和学习中。面对挫折，我不会逃避，而是通过情绪调节、理性分析和行动调整三个步骤来逐步克服。”\n\n\n“比如在本科期间，我参与了一个国创项目，负责项目的单细胞数据分析流程的构建。但我最初对相关知识了解太少，也没有使用过Linux服务器，对这些新事物感到茫然。”\n\n\n“但我很快意识到，情绪解决不了问题。于是：\n\n我先调整心态：通过运动和与朋友倾诉释放压力，也提醒自己‘失败是科研常态’，避免陷入自我否定；\n我系统复盘：重新检查记录，反复练习基础操作；\n我主动求助：向导师和实验室的师兄请教；\n我调整方案：查找相关资料，更换更合适的方法。”\n\n\n\n“这次经历让我明白，挫折不是能力的否定，而是改进的信号。关键是要从‘情绪反应’转向‘问题解决’，把挫折当作一次系统性排查和提升的机会。”\n\n\n“所以，我克服挫折的方式不是靠‘硬扛’，而是：\n\n接纳情绪，但不被情绪主导\n拆解问题，找到根源\n主动沟通，借助外力\n迭代尝试，持续优化\n\n\n\n我相信，这种‘在失败中学习’的能力，正是研究生阶段最需要的素质之一。”"
   },
   {
-    "objectID": "icu/icu_ALF/index.html#分类",
-    "href": "icu/icu_ALF/index.html#分类",
-    "title": "急性肝衰竭",
+    "objectID": "blog/blog_introduction_zh/index.html",
+    "href": "blog/blog_introduction_zh/index.html",
+    "title": "5min中文自我介绍（PPT）",
     "section": "",
-    "text": "肝衰竭的定义与分类"
+    "text": "5min中文PPT\n下载PPT \n各位老师好，我是郑州大学临床医学专业的学生刘奥奇。华西一直是我心向往之的医学殿堂，能参加这次预推免并向各位老师介绍自己，我倍感荣幸。\n接下来我将从以下六个方面进行介绍。\n首先是基本信息。我是汉族，2002年10月1日出生于河南省周口市，目前就读于郑州大学临床医学专业。\n学业成绩是我本科阶段的突出亮点。本科前8个学期，我的平均绩点为3.8（满绩4.0），在专业572人中排名第12，占比约2.09%。38门核心课程成绩在90分以上，其中15门更是达到95分以上，像病理生理学、药理学及内科学等重要核心课均取得了高分。\n英语能力方面，我的四级总分565分，六级总分520分。\n入学至今，我连续两年获评郑州大学三好学生称号，国家励志奖学金、郑州大学一等奖学金等。\n科研竞赛方面。我参与过大学生创新创业训练计划项目、北京脑举行的暑期培训营、挑战杯、中国国际大学生创新大赛以及大学生医学创新大赛等多个项目。\n大二时，我加入了一项大创项目，主要研究小鼠中哮喘的调控机制，在此期间我熟练掌握了PCR、Western Blot等实验技术。\n由于对科学研究很感兴趣，我报名参加了北京脑神经与认知科学暑期培训班，聆听了许多大佬的讲座，了解到了很多前沿的科学知识，并且我们小组最终在文献汇报比赛中拿到了一等奖。\n之后，我借助公共数据库，研究了AARS1作为乳酰基转移酶在肿瘤的临床相关性、肿瘤特征及乳酸代谢中的作用，发现AARS1在肿瘤中广泛高表达，且与乳酸代谢增强密切相关，影响患者生存。最后我们通过Western Blot和qPCR对结果进行了验证。\n我还参与了一项“中国国际大学生创新大赛”项目，我们项目名称为“智绘·好孕”，是一款植入前胚胎植入潜能检测试剂盒。我的主要工作是负责项目的单细胞数据分析流程的构建，包括整合RNA-seq、ATAC-seq和CNV数据，同时利用获取的特征基因构建随机森林模型，用于预测胚胎细胞的植入潜能。目前，相关内容已申请两项软著，我也在此过程中掌握了单细胞数据分析的基本流程。\n我参加了全国大学生医学创新大赛，并获全国总决赛银奖。\n实践经历方面，实习期间我跟随临床老师学到了不少知识，还在郑大一附院老师的带领下参观了ICU病房，这让我对重症医学领域产生了浓厚兴趣。此外，我参加过校运会仪仗队，和队员们一起夺得一等奖。\n技能上，我已经熟练地掌握了使用R语言和Python数据分析，我从老师那里借了服务器账号练习Linux技能，现已足够熟悉Linux服务器的基本操作方法。\n另外，我还比较熟练地掌握了CPR、换药术和四大穿刺等临床技能。未来我会继续努力，将这些技能熟练应用到临床和科研工作中。\n关于未来，我希望能在华西医院深造，并且制定了详细的计划。入学前，学习上要继续巩固临床知识、提升专业英语水平、研读文献、学习重症医学教材及生信和实验知识；技能上要熟练掌握各类临床技能，精进编程能力；生活上要保持健康习惯，坚持锻炼，阅读课外书等。\n我目前比较感兴趣的研究方向为脓毒症与感染性休克的调节机制及治疗策略。计划在大五期间，每周阅读3篇高质量文献，用Zotero建立文献管理库，总结高分文章的研究思路与方法，确定研究方向，再从公共数据库下载合适的数据集进行分析，然后整理、优化并验证结果，最后得出结论并撰写论文。若有机会，还会尝试开展循证医学研究。\n入学后的计划也已制定：研一要取得优异的学业成绩，争取奖学金，继续备考六级，争取考到600分以上；积极阅读文献、参与科研并发表论文；努力学习临床知识，掌握临床技能。研二继续学习专业知识，磨练临床技能，考取执业医师证书，同时尝试发表更具创新性的论文。研三要在ICU学习中向各位老师请教，掌握临床技能并考取相关证书，同时准备申博材料，争取读博机会。若能顺利读博，希望能独立开展课题，发表更高水平的论文。最终，我希望能在三甲医院的重症医学科就业，若有机会，非常渴望能留在华西医院工作。\n以上就是我的个人介绍，感谢老师们的聆听！"
   },
   {
-    "objectID": "icu/icu_ALF/index.html#分期",
-    "href": "icu/icu_ALF/index.html#分期",
-    "title": "急性肝衰竭",
-    "section": "分期",
-    "text": "分期\n\n早期\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n黄疸进行性加深（TB&gt;171μmmol/L或每日上升≥17.1μmmol/L）\n有出血倾向，凝血酶原活动度（PTA）为30%~40%\n未出现肝性脑病和明显腹水\n\n\n\n中期\n\n出现II度以下肝性脑病和明显腹水\n出血倾向明显，PTA为20%~30%\n\n\n\n晚期\n\n有难治性并发症，如肝肾综合征、上消化道大出血、严重感染和难以纠正的电解质紊乱\n出现II度以上肝性脑病\n有严重出血倾向，PTA&lt;20%"
-  },
-  {
-    "objectID": "icu/icu_ALF/index.html#临床诊断",
-    "href": "icu/icu_ALF/index.html#临床诊断",
-    "title": "急性肝衰竭",
-    "section": "临床诊断",
-    "text": "临床诊断\n\n急性肝衰竭\n\n急性起病2周内出现II度及以上肝性脑病并有以下表现者：\n\n极度乏力，并有明显厌食、腹胀、恶心、呕吐等严重消化道症状\n短期内黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n肝脏进行性缩小\n\n\n\n\n亚急性肝衰竭\n\n起病较急，15天~26周出现以下表现者：\n\n极度乏力，有明显消化道症状\n黄疸进行性加深\n出血倾向明显，PTA&lt;40%并排除其他原因\n\n\n\n\n慢加急性肝衰竭\n\n在慢性肝病的基础上，短期内发生急性肝功能失代偿的主要临床表现\n\n\n\n慢性肝衰竭\n\n在肝硬化基础上，肝功能进行性减退和失代偿\n\n有腹水或其他门脉高压表现\n可有肝性脑病\n血清总胆红素升高，白蛋白明显降低\n有凝血功能障碍，PTA&lt;40%"
-  },
-  {
-    "objectID": "icu/icu_ALF/index.html#治疗",
-    "href": "icu/icu_ALF/index.html#治疗",
-    "title": "急性肝衰竭",
-    "section": "治疗",
-    "text": "治疗\n\n一般处理原则\n\n卧床休息、清淡饮食\n加强病情监护\n\n\n\n内科综合治疗\n\n病因治疗\n\n抗病毒治疗\n\n\n对乙酰氨基酚：活性炭，N-NAC\n\n\n毒蕈中毒：洗胃，活性炭，N-NAC\n\n\n威尔逊病：降低血铜、减少溶血、白蛋白透析和血浆置换\n\n\n自身免疫性肝炎：糖皮质激素\n\n\n妊娠期急性脂肪肝：尽早结束妊娠\n\n\n\n保肝治疗\n甘草酸苷类，还原性谷胱甘肽\n\n\n免疫调节与抗感染治疗\n自免肝、乙醇中毒：肾上腺皮质激素\n\n\n并发症处理与器官支持\n\n循环支持：去甲肾上腺素维持MAP&gt;65mmHg，存在心功能不全给予多巴酚丁胺等正性肌力药\n\n\n呼吸支持：III度以上肝性脑病给予气管插管，防止误吸\n\n\n肝性脑病与脑水肿：\n\nII度以上肝性脑病转入ICU监测与治疗\nIII度以上肝性脑病需气管插管和机械通气\n甘露醇降低颅压\n巴比妥镇静→减少氧耗，预防癫痫\n\n\n\n急性肾损伤和肝肾综合征：\n\n尽量避免肾毒性药物和非甾体抗炎药\n尽早CRRT\n\n\n\n凝血功能障碍和出血：\n\n适当补充血小板和凝血因子\n质子泵抑制剂预防应激性溃疡\n\n\n\n防止低血糖和营养支持\n\n\n防治感染"
-  },
-  {
-    "objectID": "icu/icu_AP/index.html",
-    "href": "icu/icu_AP/index.html",
-    "title": "重症急性胰腺炎",
+    "objectID": "blog/readnote_20240606_bad_pharma/index.html",
+    "href": "blog/readnote_20240606_bad_pharma/index.html",
+    "title": "行为对态度的影响",
     "section": "",
-    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+    "text": "一、 行为影响态度的证据\n文章开篇通过几个生动的案例（如催眠、大脑电极刺激、裂脑患者实验）引出核心观点：人们会为自己的行为寻找合理的解释，从而改变自己的态度。随后，文章列举了多种行为影响态度的具体表现：\n\n角色扮演 (Role-Playing):\n\n当人们扮演一个新角色（如狱卒、囚犯、奴隶主、教师）时，最初可能感觉虚假，但随着时间推移，行为会逐渐内化，态度也随之改变。\n斯坦福监狱实验是经典例证：大学生在扮演狱卒和囚犯几天后，就完全进入了角色，表现出与角色相符的残酷或崩溃行为，说明环境和角色对个体态度的强大塑造力。\n奴隶制对奴隶主的影响：弗雷德里克·道格拉斯的回忆揭示了，长期扮演“主人”角色会腐蚀一个人的善良本性，使其变得残暴。\n\n言语变成信念 (Saying Becomes Believing):\n\n当人们为了取悦听众而说出与自己真实想法不符的观点时，如果缺乏外部借口（如被迫或受贿），他们往往会开始相信自己所说的话。\n海曼的例子：他最初不相信手相术，但为了赚钱而假装相信，最终自己也信了。\n实验证明，调整言语以迎合听众后，人们会更喜欢听众喜欢的人或事，并扭曲记忆以符合自己的言论。\n\n登门槛现象 (Foot-in-the-Door Phenomenon):\n\n先提出一个微不足道的请求（小要求），待对方答应后，再提出一个更大的请求，成功率会大大提高。\n经典实验：先让居民在窗前放一个“安全驾驶”的小标志，两周后再请求在院子里放一个大而丑陋的标志，同意率远高于直接提出大请求。\n原因是：一旦人们做出（即使是微小的）承诺，为了保持行为的一致性，他们会调整自己的态度，认为自己是一个“乐于助人”或“支持安全驾驶”的人，从而更愿意答应后续的更大请求。\n\n邪恶行为与道德行为的塑造作用:\n\n邪恶行为：一个微小的恶行（如说一个小谎）可能会引发更大的恶行，因为人们需要为自己的行为辩护，从而调整态度，认为自己的行为是正确的，甚至贬低受害者（“我们不仅伤害我们不喜欢的人，也变得不喜欢我们伤害的人”）。这解释了种族灭绝、战争暴行等如何逐步升级。\n道德行为：相反，主动的、非强制的道德行为也会塑造积极态度。例如，帮助他人会增强对受助者的好感；为恋人祈祷会增加对恋人的承诺；本杰明·富兰克林通过让对手帮一个小忙，成功将其转化为朋友。\n\n种族间的行为与态度:\n\n立法强制的种族融合行为（如废除学校种族隔离）虽然最初可能不被所有人接受，但长期来看，这些行为会改变人们的种族态度，使支持率上升，歧视减少。这证明了“你无法为道德立法”的假设是错误的，行为可以间接影响态度。\n\n\n\n\n二、 行为影响态度的原因：三种理论解释\n文章接着探讨了行为为何能影响态度，介绍了三种主要理论：\n\n自我表露理论 (Self-Presentation Theory):\n\n人们为了在他人面前维持一致、正面的形象，会调整自己的态度以匹配自己的行为。这是一种印象管理策略，有时可能只是“假装”态度改变了。\n\n认知失调理论 (Cognitive Dissonance Theory):\n\n当我们的行为与态度不一致时，会产生一种心理上的不适感（失调）。为了减少这种不适，我们会改变态度来合理化自己的行为。\n理由不足效应 (Insufficient Justification): 当行为缺乏强有力的外部理由（如高额报酬）时，失调感更强，因此人们更需要通过改变内在态度来为自己辩护。例如，在费斯廷格的实验中，只得到1美元报酬而说谎的学生，比得到20美元的学生更倾向于相信自己说的内容是真实的，因为他们缺乏“为钱说谎”这样的外部借口。\n该理论强调了责任和选择的重要性：当人们认为行为是自愿且自己负责时，失调感最强，态度改变也最显著。\n\n自我知觉理论 (Self-Perception Theory):\n\n当我们的态度不明确时，我们会像观察他人一样观察自己的行为，并据此推断自己的真实态度。例如，如果我发现自己经常微笑，我可能会推断“我一定是个快乐的人”。\n该理论能解释过度合理化效应 (Overjustification Effect)：当为一项本身有趣的事情提供外部报酬时，人们会将自己的行为归因于报酬（外在动机），从而削弱了原有的兴趣（内在动机）。例如，给喜欢画画的孩子报酬后，他们可能将画画视为换取报酬的工作，而非乐趣。\n\n\n\n\n三、 理论比较与结论\n\n认知失调理论更适用于解释当行为与已有的、明确的态度发生冲突时，人们为减少心理不适而进行的自我辩解。\n自我知觉理论更适用于解释当态度本身模糊或尚未形成时，人们如何通过观察自己的行为来形成态度。\n自我表露理论则解释了人们为了社会形象而进行的表面态度调整。\n\n\n\n\n四、 后记与启示\n文章最后强调，理解“行为影响态度”这一原理具有重要的实践意义。它告诉我们，改变自己并不总是从“想通”开始，而是可以从“行动”开始。通过主动采取期望的行为（如假装写作、强迫自己微笑、做出承诺），我们可以在不知不觉中改变自己的内在态度和习惯，实现自我成长。正如斯多噶派哲学家埃皮克提图所言：“要想养成某种习惯，那就去付诸行动。”"
   },
   {
-    "objectID": "icu/icu_AP/index.html#诊断",
-    "href": "icu/icu_AP/index.html#诊断",
-    "title": "重症急性胰腺炎",
+    "objectID": "code/ggehr/index.html",
+    "href": "code/ggehr/index.html",
+    "title": "ggehr",
     "section": "",
-    "text": "急性胰腺炎的诊断标准\n\n\n\n\n\n\n\n\n\n\n\n\n亚特兰大修订版"
+    "text": "ggehr (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.\nggehr package helps you make visualize EHR data, so that you can\n\nhave an overview of the mixed type information related to a patient;\nvisually identify the errors in data recording.\n\nLearn more about ggehr"
   },
   {
-    "objectID": "icu/icu_AP/index.html#并发症",
-    "href": "icu/icu_AP/index.html#并发症",
-    "title": "重症急性胰腺炎",
-    "section": "并发症",
-    "text": "并发症\n\n急性胰腺炎局部并发症\n\n急性胰周液体积聚\n胰腺假性囊肿\n急性坏死物积聚\n包裹性坏死\n感染性胰腺坏死"
-  },
-  {
-    "objectID": "icu/icu_AP/index.html#治疗",
-    "href": "icu/icu_AP/index.html#治疗",
-    "title": "重症急性胰腺炎",
-    "section": "治疗",
-    "text": "治疗\n\n两大任务：\n\n寻找并去除病因\n控制炎症\n\n\n监护\nAPACHE II评分评估病情，APACHE II≥8为SAP高危人群\n\n\n器官支持\n\n液体复苏\n迅速纠正组织缺氧，维持水电解质酸碱平衡\n\n\n呼吸功能\n吸氧，正压机械通气\n\n\n肠功能维护\n导泻及口服抗生素\n\n\n连续性血液净化\n\n\n\n减少胰液分泌\n\n禁食\n\n\n生长抑素\n\n\n\n控制炎症\n\n液体复苏\n\n\n生长抑素\n\n\n早期肠内营养\n\n\n\n镇痛\n哌替啶。吗啡、阿托品不宜使用。\n\n\n急诊内镜去除病因\n\n\n预防和抗感染\n\n\n早期肠内营养\n\n\n择期内镜、腹腔镜去除病因\n\n\n胰腺局部并发症\n\n胰腺假性囊肿\n\n&lt;4cm囊肿，自行吸收\n\n&gt;6cm或多发囊肿，观察6~8周后，无缩小和吸收趋势，则需引流\n\n\n胰腺脓肿处理"
-  },
-  {
-    "objectID": "icu/icu_asthma/index.html",
-    "href": "icu/icu_asthma/index.html",
-    "title": "哮喘急性发作",
-    "section": "",
-    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
-  },
-  {
-    "objectID": "icu/icu_asthma/index.html#治疗",
-    "href": "icu/icu_asthma/index.html#治疗",
-    "title": "哮喘急性发作",
-    "section": "",
-    "text": "持续雾化吸入SABA，联合雾化吸入短效抗胆碱药、激素混悬液以及静脉茶碱类药物，吸氧\n及早静脉应用激素\npH&lt;7.20且合并代谢性酸中毒，适当补碱\n机械通气：呼吸肌疲劳、PaCO2≥45mmHg，意识改变"
-  },
-  {
-    "objectID": "icu/icu_CGS/index.html",
-    "href": "icu/icu_CGS/index.html",
-    "title": "心源性休克",
-    "section": "",
-    "text": "心源性休克诊断标准"
-  },
-  {
-    "objectID": "icu/icu_CGS/index.html#诊断",
-    "href": "icu/icu_CGS/index.html#诊断",
-    "title": "心源性休克",
-    "section": "",
-    "text": "心源性休克诊断标准"
-  },
-  {
-    "objectID": "icu/icu_CGS/index.html#治疗",
-    "href": "icu/icu_CGS/index.html#治疗",
-    "title": "心源性休克",
-    "section": "治疗",
-    "text": "治疗\n\n原发病紧急治疗\n\n溶栓\n无法行PCI的AMI3h内，最晚12h溶栓\n\n\n经皮冠状动脉介入术（PCI）\nSTEMI若适宜尽可能做\n\n\n冠状动脉旁路移植术（CABG）\n\n\n\n\n药物治疗\n\n正性肌力药\n一线策略：多巴酚丁胺和去甲肾上腺素\n二线策略：左西孟旦\n\n多巴酚丁胺\n多巴胺\n地高辛\n异丙肾上腺素\n去甲肾上腺素\n肾上腺素\n磷酸二酯酶抑制剂\n钙增敏剂：左西孟旦\n\n\n\n血管舒张药\n\n硝普纳\n硝酸甘油\n\n\n\n机械循环支持\n\n主动脉内球囊反搏（IABG）\n体外膜肺氧合（ECMO）\n经皮左心室辅助装置（PL-VAD）"
-  },
-  {
-    "objectID": "icu/icu_CPR/index.html",
-    "href": "icu/icu_CPR/index.html",
-    "title": "心肺复苏",
-    "section": "",
-    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
-  },
-  {
-    "objectID": "icu/icu_CPR/index.html#基本生命支持bls",
-    "href": "icu/icu_CPR/index.html#基本生命支持bls",
-    "title": "心肺复苏",
-    "section": "",
-    "text": "确保环境安全\n拍打双肩并呼救\n让周围人打120并获取AED\n检查呼吸和大动脉搏动，10s不能判断，立即CPR\n\n\n\n\n\n\n\nCPR顺序为CAB即首先胸外按压30次，再开放气道进行通气"
-  },
-  {
-    "objectID": "icu/icu_CPR/index.html#高级生命支持",
-    "href": "icu/icu_CPR/index.html#高级生命支持",
-    "title": "心肺复苏",
-    "section": "高级生命支持",
-    "text": "高级生命支持\n\n呼吸支持：人工气道，首选气管插管\n恢复和维持自主循环：高质量CPR+电除颤或肾上腺素\nCPR期间的监测：心电图、呼气末CO2，冠状动脉灌注压、ScvO2\n药物治疗\n\n缩血管药物：肾上腺素、血管加压素\n抗心律失常药：胺碘酮、利多卡因、硫酸镁"
-  },
-  {
-    "objectID": "icu/icu_CPR/index.html#复苏后治疗",
-    "href": "icu/icu_CPR/index.html#复苏后治疗",
-    "title": "心肺复苏",
-    "section": "复苏后治疗",
-    "text": "复苏后治疗\n\n优化通气氧合\n维持血流动力学稳定\n脑复苏：\n\n低温治疗\n改善脑血流灌注：脱水、低温、肾上腺皮质激素\n药物治疗：激素"
-  },
-  {
-    "objectID": "icu/icu_DIC/index.html",
-    "href": "icu/icu_DIC/index.html",
-    "title": "弥散性血管内凝血",
-    "section": "",
-    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
-  },
-  {
-    "objectID": "icu/icu_DIC/index.html#发病机制",
-    "href": "icu/icu_DIC/index.html#发病机制",
-    "title": "弥散性血管内凝血",
-    "section": "",
-    "text": "内皮细胞损伤\n凝血途径活化\n血小板活化和聚集\n\n\n\n\n抗凝血酶III（AT-III），蛋白质C（PC），组织因子途径抑制剂（TFPI）\n\n\n\n纤溶酶原激活物抑制剂-1（PAI-1）\n凝血酶激活的纤溶抑制物（TAFI）"
-  },
-  {
-    "objectID": "icu/icu_DIC/index.html#分期",
-    "href": "icu/icu_DIC/index.html#分期",
-    "title": "弥散性血管内凝血",
-    "section": "分期",
-    "text": "分期\n\n临床前期：前DIC\n早期DIC：初发性高凝期\n中期DIC：消耗性低凝期\n晚期DIC：继发性纤溶亢进期"
-  },
-  {
-    "objectID": "icu/icu_DIC/index.html#治疗",
-    "href": "icu/icu_DIC/index.html#治疗",
-    "title": "弥散性血管内凝血",
-    "section": "治疗",
-    "text": "治疗\n\n病因治疗\n控制感染，治疗肿瘤等\n\n\n抗凝治疗\n肝素、重组人血栓调节蛋白\n\n\n替代治疗\n血小板和凝血因子\n有明显出血且血小板&lt;50x109/L，输注血小板\n无出血倾向者血小板&lt;20x109/L，输注血小板\n\n\n抗纤溶治疗\n纤溶明显时，氨甲环酸\n\n\n支持治疗"
-  },
-  {
-    "objectID": "icu/icu_hypertensive_emergency/index.html",
-    "href": "icu/icu_hypertensive_emergency/index.html",
-    "title": "高血压急症",
-    "section": "",
-    "text": "高血压急症是指原发性或继发性高血压病人，在某些诱因作用下，血压突然明显升高(一般超过180/120mmHg),伴有进行性心、脑、肾等重要靶器官功能不全的表现。\n高血压亚急症是指虽然血压明显升高，但不伴进行性靶器官损害"
-  },
-  {
-    "objectID": "icu/icu_hypertensive_emergency/index.html#定义",
-    "href": "icu/icu_hypertensive_emergency/index.html#定义",
-    "title": "高血压急症",
-    "section": "",
-    "text": "高血压急症是指原发性或继发性高血压病人，在某些诱因作用下，血压突然明显升高(一般超过180/120mmHg),伴有进行性心、脑、肾等重要靶器官功能不全的表现。\n高血压亚急症是指虽然血压明显升高，但不伴进行性靶器官损害"
-  },
-  {
-    "objectID": "icu/icu_hypertensive_emergency/index.html#治疗",
-    "href": "icu/icu_hypertensive_emergency/index.html#治疗",
-    "title": "高血压急症",
-    "section": "治疗",
-    "text": "治疗"
-  },
-  {
-    "objectID": "icu/icu_ICP/index.html",
-    "href": "icu/icu_ICP/index.html",
-    "title": "颅内压增高",
-    "section": "",
-    "text": "正常颅内压范围70~200mmHg"
-  },
-  {
-    "objectID": "icu/icu_ICP/index.html#治疗",
-    "href": "icu/icu_ICP/index.html#治疗",
-    "title": "颅内压增高",
-    "section": "治疗",
-    "text": "治疗\n\n一般治疗\n\n观察监测：神志、瞳孔、血压、呼吸、脉搏、体温变化\n频繁呕吐：禁食防吸入性肺炎，适度补液\n轻泻剂：严禁高位灌肠\n气管切开：昏迷、咳痰困难，应行气管切开\n\n\n\n病因治疗\n紧急抢救或手术\n\n\n药物治疗降低颅内压\n\n口服药物：氢氯噻嗪、乙酰唑胺\n静脉注射：20%甘露醇、呋塞米\n\n\n\n糖皮质激素\n减轻脑水肿\n\n\n脑脊液体外引流\n\n\n巴比妥治疗\n降低脑代谢，减少氧耗\n\n\n过度换气\nPCO2每下降1mmHg，脑血流递减2%\n\n\n对症治疗\n镇痛、镇静、抗癫痫"
-  },
-  {
-    "objectID": "icu/icu_MODS/index.html",
-    "href": "icu/icu_MODS/index.html",
-    "title": "多器官功能障碍综合症（MODS）",
-    "section": "",
-    "text": "早期目标导向治疗：6h内达到复苏目标\n\nCVP≥8~12mmHg\nMAP&gt;65mmHg\n尿量&gt;0.5ml/(kg·h)\nScvO2&gt;70%\n\n\n\n\n机械通气：纠正低氧血症\n\n\n\n连续性静脉-静脉血液滤过（CVVH）或人工肝治疗\n\n\n\n凝血功能障碍：补充凝血因子和血小板\nDIC：肝素抗凝\n\n\n\n\n\n\n清除坏死组织、修复或切除受损器官、引流感染病灶或积液\n\n\n\n1h内开始抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗"
-  },
-  {
-    "objectID": "icu/icu_MODS/index.html#治疗",
-    "href": "icu/icu_MODS/index.html#治疗",
-    "title": "多器官功能障碍综合症（MODS）",
-    "section": "",
-    "text": "早期目标导向治疗：6h内达到复苏目标\n\nCVP≥8~12mmHg\nMAP&gt;65mmHg\n尿量&gt;0.5ml/(kg·h)\nScvO2&gt;70%\n\n\n\n\n机械通气：纠正低氧血症\n\n\n\n连续性静脉-静脉血液滤过（CVVH）或人工肝治疗\n\n\n\n凝血功能障碍：补充凝血因子和血小板\nDIC：肝素抗凝\n\n\n\n\n\n\n清除坏死组织、修复或切除受损器官、引流感染病灶或积液\n\n\n\n1h内开始抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗"
-  },
-  {
-    "objectID": "icu/icu_pituitary_crisis/index.html",
-    "href": "icu/icu_pituitary_crisis/index.html",
-    "title": "垂体危象",
-    "section": "",
-    "text": "纠正低血糖：50%葡萄糖溶液静注，继以5%葡萄糖氯化钠溶液静滴\n大剂量肾上腺皮质激素应用\n纠正水电解质紊乱\n纠正休克\n去除诱因：抗感染等"
-  },
-  {
-    "objectID": "icu/icu_pituitary_crisis/index.html#治疗",
-    "href": "icu/icu_pituitary_crisis/index.html#治疗",
-    "title": "垂体危象",
-    "section": "",
-    "text": "纠正低血糖：50%葡萄糖溶液静注，继以5%葡萄糖氯化钠溶液静滴\n大剂量肾上腺皮质激素应用\n纠正水电解质紊乱\n纠正休克\n去除诱因：抗感染等"
-  },
-  {
-    "objectID": "icu/icu_RF/index.html",
-    "href": "icu/icu_RF/index.html",
-    "title": "呼吸衰竭",
-    "section": "",
-    "text": "在海平面、静息状态下、呼吸空气的条件下，PaO2&lt;60mmHg，伴或不伴PaCO2&gt;50mmHg。"
-  },
-  {
-    "objectID": "icu/icu_RF/index.html#定义",
-    "href": "icu/icu_RF/index.html#定义",
-    "title": "呼吸衰竭",
-    "section": "",
-    "text": "在海平面、静息状态下、呼吸空气的条件下，PaO2&lt;60mmHg，伴或不伴PaCO2&gt;50mmHg。"
-  },
-  {
-    "objectID": "icu/icu_RF/index.html#分类",
-    "href": "icu/icu_RF/index.html#分类",
-    "title": "呼吸衰竭",
-    "section": "分类",
-    "text": "分类\n\n\n\n\n\n\n\n呼吸衰竭的分类"
-  },
-  {
-    "objectID": "icu/icu_RF/index.html#治疗",
-    "href": "icu/icu_RF/index.html#治疗",
-    "title": "呼吸衰竭",
-    "section": "治疗",
-    "text": "治疗"
-  },
-  {
-    "objectID": "icu/icu_sepsis/index.html",
-    "href": "icu/icu_sepsis/index.html",
-    "title": "脓毒症与感染性休克",
-    "section": "",
-    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
-  },
-  {
-    "objectID": "icu/icu_sepsis/index.html#定义",
-    "href": "icu/icu_sepsis/index.html#定义",
-    "title": "脓毒症与感染性休克",
-    "section": "",
-    "text": "脓毒症\n\n\n\n感染情况下宿主失调的反应所致的危及生命的器官功能不全。\n\n\n\n\n\n\n\n\n脓毒症休克\n\n\n\n脓毒症合并严重的循环障碍和细胞代谢紊乱时，称为脓毒症休克。"
-  },
-  {
-    "objectID": "icu/icu_sepsis/index.html#诊断",
-    "href": "icu/icu_sepsis/index.html#诊断",
-    "title": "脓毒症与感染性休克",
-    "section": "诊断",
-    "text": "诊断\n\n\n\n\n\n\n\n脓毒症诊断\n\n\n\n怀疑感染+序贯器官衰竭评分（SOFA）大于等于2\n\n\n\n\n\n\n\n\n脓毒症休克诊断\n\n\n\n在脓毒症的基础上出现了经充分的液体复苏后仍需使用血管活性药物治疗，和/或发生低血压（MAP≤65mmHg）和/或高乳酸血症（乳酸值&gt;2mmHg）\n\n\n\nSIRS：\n出现下列两种或两种以上情况，确诊SIRS：\n\n体温&gt;38℃或&lt;36℃\n心率&gt;90次/min\n呼吸频率&gt;20次/min，或PCO2&lt;32mmHg\nWBC&gt;12x109或&lt;4x109，或未成熟中性粒细胞&gt;0.10"
-  },
-  {
-    "objectID": "icu/icu_sepsis/index.html#治疗",
-    "href": "icu/icu_sepsis/index.html#治疗",
-    "title": "脓毒症与感染性休克",
-    "section": "治疗",
-    "text": "治疗\n\n初始液体复苏\n\n容量状态评估\n\n传统监测\n\n精神状态：脑组织灌注和全身情况\n皮肤粘膜温度和色泽：体表灌注情况\n血压：收缩压&lt;90mmHg，脉压＜20mmHg，休克存在\n脉率\n\n早期：脉率加快，血压正常\n失代偿期：脉率加快，血压下降\n好转：脉率恢复，血压正常或低于正常\n\\(\\text{休克指数} = \\frac{\\text{脉率}}{\\text{收缩压}}\\) 休克指数≈0.5无休克，＞1.0~1.5有休克，＞2.0严重休克\n\n尿量：休克早期尿量＜25ml/h，&gt;30ml/h表示休克已好转\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪\n\n\n\n\n\n\n初始复苏策略\n\n早期目标导向治疗（EDGT）：\n\n在6h内达到复苏目标：\n\nCVP≥8~12cmH2O\nMAP＞65mmHg\n尿量＞0.5ml/(kg·h)\nScvO2＞70%\n\n\n\n\n脓毒症相关低血压治疗\n脓毒症相关低血压患者在最初3h内给予30ml/kg的晶体液输注的液体复苏\n\n\n\n复苏液体选择\n不推荐人工胶体，晶体液和白蛋白是推荐常用液体\n\n\n\n血管活性药物\n去甲肾上腺素，肾上腺素，血管加压素\n\n\n休克复苏集束化策略\n\n测定血乳酸浓度\n乳酸水平&gt;2mmol/L，应在2~4h内再次测量，将乳酸降至正常水平\n\n\n抗生素\n\n1h内启动静脉抗生素治疗\n早期经验性广谱抗生素治疗\n致病菌和药敏结果明确→针对性抗生素治疗\n\n\n\n感染源控制\n\n及时控制感染源\n静脉导管感染→拔除导管\n\n\n\n静脉补液\n\n\n\n升压药\n初始液体复苏后血压仍未恢复，应在1h内使用升压药物使MAP&gt;65mmHg\n\n\n\n辅助治疗\n\n血流动力学不稳定，静脉给予氢化可的松\nHb＜70g/L，输血\n高血糖→胰岛素→血糖上限＜10mmol/L\n肝素预防血栓\nPPI预防应激性溃疡\n肠内营养\n机械通气患者采用肺保护性通气策略"
-  },
-  {
-    "objectID": "icu/icu_thyroid_crisis/index.html",
-    "href": "icu/icu_thyroid_crisis/index.html",
-    "title": "甲亢危象",
-    "section": "",
-    "text": "感染\n应激\n不适当停用含碘药物\n甲亢未被控制而行手术"
-  },
-  {
-    "objectID": "icu/icu_thyroid_crisis/index.html#诱因",
-    "href": "icu/icu_thyroid_crisis/index.html#诱因",
-    "title": "甲亢危象",
-    "section": "",
-    "text": "感染\n应激\n不适当停用含碘药物\n甲亢未被控制而行手术"
-  },
-  {
-    "objectID": "icu/icu_thyroid_crisis/index.html#临床表现",
-    "href": "icu/icu_thyroid_crisis/index.html#临床表现",
-    "title": "甲亢危象",
-    "section": "临床表现",
-    "text": "临床表现\n上吐下泻、高热大汗、谵妄昏迷"
-  },
-  {
-    "objectID": "icu/icu_thyroid_crisis/index.html#治疗",
-    "href": "icu/icu_thyroid_crisis/index.html#治疗",
-    "title": "甲亢危象",
-    "section": "治疗",
-    "text": "治疗\n\n针对诱因治疗\n抗甲状腺药物：丙硫氧嘧啶\n碘剂\nβ2受体阻断剂\n糖皮质激素\n腹膜透析、血液透析、血浆置换\n降温：物理降温"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "dev/short_bio.html",
+    "href": "dev/short_bio.html",
     "title": "笑面狐",
     "section": "",
-    "text": "邮箱\n  \n  \n    \n     laq12345\n  \n\n  \n  \n欢迎来到我的个人主页。我的主页很无聊，随意看看吧！"
+    "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
   },
   {
-    "objectID": "information/in_zh/index.html",
-    "href": "information/in_zh/index.html",
-    "title": "免费的编程中文书籍",
+    "objectID": "icu/icu_ACS/index.html",
+    "href": "icu/icu_ACS/index.html",
+    "title": "腹腔间隔室综合征（ACS）",
     "section": "",
-    "text": "一个很全的编程教程大全\n包括了各种语言以及软件的教程，Python和R也在内，我还看到了李东风教授的R语言教程，膜拜\n国外程序员在stackoverflow 推荐的程序员必读书籍，中文版。 stackoverflow上的程序员应该阅读的非编程类书籍有哪些？ 中文版 github上的一个流行的编程书籍索引中文版"
+    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
   },
   {
-    "objectID": "research/cheatsheet_pkgdev/index.html",
-    "href": "research/cheatsheet_pkgdev/index.html",
-    "title": "Pkg Dev at CSIDS",
+    "objectID": "icu/icu_ACS/index.html#定义",
+    "href": "icu/icu_ACS/index.html#定义",
+    "title": "腹腔间隔室综合征（ACS）",
     "section": "",
-    "text": "Rstat"
+    "text": "正常腹腔压力（IAP）：5~7mmHg\n腹腔高压症（IAH）为腹腔压力出现持续或反复的病理性升高≥12mmHg\n腹腔间隔室综合征（ACS）为腹腔压力出现持续升高≥20mmHg（伴或不伴有腹腔灌注压&lt;60mmHg），并出现由此导致的新发器官功能障碍/衰竭。\n\n腹腔压力分级\n\n\n分级\nIAP/mmHg\n\n\n\n\nI级\n12~15\n\n\nII级\n16~20\n\n\nIII级\n21~25\n\n\nIV级\n&gt;25\n\n\n\nACS的基本矛盾为急剧扩大的腹腔内脏器体积和腹腔容积之间的冲突\n金标准：经膀胱测压"
   },
   {
-    "objectID": "research/literature_chengyisong_20240215/index.html",
-    "href": "research/literature_chengyisong_20240215/index.html",
-    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
-    "section": "",
-    "text": "脓毒症是全球第三大死因，抗生素治疗对改善预后至关重要。\n当前抗生素的使用依赖医生经验，容易导致用药不足或过度，增加耐药风险。\n尽管强化学习（RL）已被用于脓毒症的液体复苏、升压药等治疗决策，但尚无研究将其用于抗生素组合和疗程的推荐。\n现有AI模型缺乏与临床知识的融合，可能导致决策偏离医学常识。\n\n\n\n\n开发一个个性化、可解释、符合临床指南的抗生素用药推荐系统，解决：\n\n何时开始和停止抗生素？\n选择哪种抗生素组合？\n如何平衡疗效与用药时长？\n\n\n\n\n提出 Sepsis Anti-infection Deep Q-Network (SAI-DQN) 模型，基于深度Q网络（DQN）框架，将治疗过程建模为马尔可夫决策过程（MDP）。\n\n\n\n状态空间（State Space）：\n\n包括患者的人口统计学特征、37项实验室指标、15项生命体征。\n特别纳入微生物培养结果（共2047种细菌-抗生素敏感性组合），形成高维稀疏输入。\n\n动作空间（Action Space）：\n\n动作为每日的抗生素组合选择。\n使用K-means聚类将历史用药序列聚为30类，作为可选动作。\n\n数据来源：\n\n主数据集：MIMIC-IV（9982名脓毒症患者）。\n外部验证集：eICU 数据库（11,070名患者）。\n\n缺失值处理：\n\n采用混合插补法（前向填充 + K近邻），兼顾个体趋势与临床合理性。\n\n\n\n\n\n设计了四个奖励函数，将医学知识融入强化学习训练过程，提升模型的可解释性和临床一致性：\n\n\n\n\n\n\n\n\n奖励函数\n设计目的\n具体设置\n\n\n\n\nR1\n学习患者长期预后\n90天存活：+100；死亡：-100\n\n\nR2\n鼓励改善病情\nSOFA评分下降：+10；上升：-10\n\n\nR3\n缩短抗生素使用时间\n用药 &gt;9天：-10（鼓励合理缩短疗程）\n\n\nR4\n融合真实临床用药模式\n基于真实数据状态转移的Q值 × 0.1\n\n\n\n\n✅ 这是首次在脓毒症抗生素推荐中引入“用药时长”作为优化目标之一。\n\n\n\n\n\n\n模型性能评估：\n\n使用加权重要性采样（WIS） 评估策略价值，SAI-DQN 的决策价值显著高于临床实际决策。\n\n预测效果：\n\n在测试集中，模型推荐的抗生素组合可使 79.07% 的患者获得良好预后。\n\n可解释性分析：\n\n模型推荐的用药路径符合临床实践，能根据患者状态动态调整。\n例如：在感染未控制时持续用药，在病情好转后及时停药。\n\n\n\n\n\n\n首次将深度强化学习应用于脓毒症抗生素组合推荐。\n首次关注抗生素“使用时长”问题，通过奖励函数鼓励合理缩短疗程，减少滥用。\n将临床指南和医学知识融入奖励函数，提升模型的可解释性和临床一致性。\n整合微生物培养数据，实现更精准的个体化推荐。\n\n\n\n\nSAI-DQN 模型能够：\n\n生成符合临床知识的个性化抗生素用药方案；\n在提升患者预后的同时，减少不必要的长期用药；\n为临床医生提供可解释的决策支持工具，助力抗感染治疗的精准化。\n\n\n\n该研究为AI在复杂临床决策中的应用提供了新范式——不仅仅是“预测最佳动作”，更要“符合医学逻辑”。未来可扩展至其他多药联合治疗场景，推动AI从“黑箱”走向“白箱”医疗决策。"
+    "objectID": "icu/icu_ACS/index.html#治疗",
+    "href": "icu/icu_ACS/index.html#治疗",
+    "title": "腹腔间隔室综合征（ACS）",
+    "section": "治疗",
+    "text": "治疗\n\n\n非手术治疗\n\n排空腔内容物：\n胃肠减压、新斯的明等促胃肠动力药，灌肠导泻，纤维结肠镜\n\n\n排除腹腔内游离液体\n积极引流\n\n\n改善腹壁顺应性\n镇静、镇痛、肌松，适当体位\n\n\n优化液体治疗\n防止血容量不足的同时，避免过度液体复苏的发生\n内环境相对稳定时，应移除体内过多液体，可适当应用利尿剂维持液体零平衡或负平衡，当腹腔高压合并肾功能损害时应用持续肾脏替代治疗（CRRT）\n\n\n优化全身及局部灌注\n监测SvO2，ScvO2，血乳酸、PvaCO2等\n\n\n\n腹腔减压术\n当以上非手术治疗方法应用后腹腔压力仍大于20mmHg，同时伴随新发的脏器功能障碍，即应考虑行腹腔开放减压术"
   },
   {
-    "objectID": "research/literature_chengyisong_20240215/index.html#背景",
-    "href": "research/literature_chengyisong_20240215/index.html#背景",
-    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
-    "section": "",
-    "text": "脓毒症是全球第三大死因，抗生素治疗对改善预后至关重要。\n当前抗生素的使用依赖医生经验，容易导致用药不足或过度，增加耐药风险。\n尽管强化学习（RL）已被用于脓毒症的液体复苏、升压药等治疗决策，但尚无研究将其用于抗生素组合和疗程的推荐。\n现有AI模型缺乏与临床知识的融合，可能导致决策偏离医学常识。"
+    "objectID": "icu/icu_AKI/index.html#临床表现",
+    "href": "icu/icu_AKI/index.html#临床表现",
+    "title": "急性肾损伤",
+    "section": "临床表现",
+    "text": "临床表现"
   },
   {
-    "objectID": "research/literature_chengyisong_20240215/index.html#研究目标",
-    "href": "research/literature_chengyisong_20240215/index.html#研究目标",
-    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
-    "section": "",
-    "text": "开发一个个性化、可解释、符合临床指南的抗生素用药推荐系统，解决：\n\n何时开始和停止抗生素？\n选择哪种抗生素组合？\n如何平衡疗效与用药时长？"
+    "objectID": "icu/icu_AKI/index.html#诊断",
+    "href": "icu/icu_AKI/index.html#诊断",
+    "title": "急性肾损伤",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n\n\n\n定义\n\n\n\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\n\n\nKDIGO诊断标准\n\n\n\n\n\n\n\n\n\n\n\n诊断标准与分期\n\n\n\n\n\n\nAKIN诊断标准\n\n\n\n\n\nKDIGO诊断标准"
   },
   {
-    "objectID": "research/literature_chengyisong_20240215/index.html#方法sai-dqn-模型",
-    "href": "research/literature_chengyisong_20240215/index.html#方法sai-dqn-模型",
-    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
-    "section": "",
-    "text": "提出 Sepsis Anti-infection Deep Q-Network (SAI-DQN) 模型，基于深度Q网络（DQN）框架，将治疗过程建模为马尔可夫决策过程（MDP）。\n\n\n\n状态空间（State Space）：\n\n包括患者的人口统计学特征、37项实验室指标、15项生命体征。\n特别纳入微生物培养结果（共2047种细菌-抗生素敏感性组合），形成高维稀疏输入。\n\n动作空间（Action Space）：\n\n动作为每日的抗生素组合选择。\n使用K-means聚类将历史用药序列聚为30类，作为可选动作。\n\n数据来源：\n\n主数据集：MIMIC-IV（9982名脓毒症患者）。\n外部验证集：eICU 数据库（11,070名患者）。\n\n缺失值处理：\n\n采用混合插补法（前向填充 + K近邻），兼顾个体趋势与临床合理性。\n\n\n\n\n\n设计了四个奖励函数，将医学知识融入强化学习训练过程，提升模型的可解释性和临床一致性：\n\n\n\n\n\n\n\n\n奖励函数\n设计目的\n具体设置\n\n\n\n\nR1\n学习患者长期预后\n90天存活：+100；死亡：-100\n\n\nR2\n鼓励改善病情\nSOFA评分下降：+10；上升：-10\n\n\nR3\n缩短抗生素使用时间\n用药 &gt;9天：-10（鼓励合理缩短疗程）\n\n\nR4\n融合真实临床用药模式\n基于真实数据状态转移的Q值 × 0.1\n\n\n\n\n✅ 这是首次在脓毒症抗生素推荐中引入“用药时长”作为优化目标之一。"
+    "objectID": "icu/icu_AKI/index.html#治疗",
+    "href": "icu/icu_AKI/index.html#治疗",
+    "title": "急性肾损伤",
+    "section": "治疗",
+    "text": "治疗\n\n早期病因干预治疗\n营养支持治疗：优先肠内营养，酌情限制水分、钠盐、钾盐摄入\n并发症治疗\n肾脏替代治疗\n\n严重的代谢性酸中毒（pH＜7.2）\n高钾血症（K+＞6.5mmol/L或出现严重心律失常）\n严重肺水肿（利尿剂无效）\n严重的尿毒症症状（脑病、心包炎、癫痫发作）\n\n恢复期治疗：维持水电解质酸碱平衡、控制氮质血症"
   },
   {
-    "objectID": "research/literature_chengyisong_20240215/index.html#实验结果",
-    "href": "research/literature_chengyisong_20240215/index.html#实验结果",
-    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
+    "objectID": "icu/icu_allergic_shock/index.html",
+    "href": "icu/icu_allergic_shock/index.html",
+    "title": "过敏性休克",
     "section": "",
-    "text": "模型性能评估：\n\n使用加权重要性采样（WIS） 评估策略价值，SAI-DQN 的决策价值显著高于临床实际决策。\n\n预测效果：\n\n在测试集中，模型推荐的抗生素组合可使 79.07% 的患者获得良好预后。\n\n可解释性分析：\n\n模型推荐的用药路径符合临床实践，能根据患者状态动态调整。\n例如：在感染未控制时持续用药，在病情好转后及时停药。"
+    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
   },
   {
-    "objectID": "research/literature_chengyisong_20240215/index.html#主要贡献",
-    "href": "research/literature_chengyisong_20240215/index.html#主要贡献",
-    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
+    "objectID": "icu/icu_allergic_shock/index.html#治疗",
+    "href": "icu/icu_allergic_shock/index.html#治疗",
+    "title": "过敏性休克",
     "section": "",
-    "text": "首次将深度强化学习应用于脓毒症抗生素组合推荐。\n首次关注抗生素“使用时长”问题，通过奖励函数鼓励合理缩短疗程，减少滥用。\n将临床指南和医学知识融入奖励函数，提升模型的可解释性和临床一致性。\n整合微生物培养数据，实现更精准的个体化推荐。"
+    "text": "立即脱离可疑过敏原\n平卧位、保持呼吸道通畅，吸氧，喷雾使用沙丁胺醇缓解支气管痉挛\n\n\n\n\n\n首选肾上腺素\n休克不好转，及早使用糖皮质激素\n及时补充血容量，恢复有效循环\n顽固性低血压，使用升压药物，常用间羟胺、去甲肾上腺素\n\n\n\n\n\n心搏骤停：立即胸外按压\n严重喉头水肿，气管切开术\n无法缓解的气管痉挛，气管插管、辅助人工呼吸\n\n\n\n\n肺水肿、脑水肿、代谢性酸中毒等"
   },
   {
-    "objectID": "research/literature_chengyisong_20240215/index.html#结论",
-    "href": "research/literature_chengyisong_20240215/index.html#结论",
-    "title": "Clinical knowledge-guided deep reinforcement learning for sepsis antibiotic dosing recommendations",
+    "objectID": "icu/icu_ARDS/index.html",
+    "href": "icu/icu_ARDS/index.html",
+    "title": "ARDS",
     "section": "",
-    "text": "SAI-DQN 模型能够：\n\n生成符合临床知识的个性化抗生素用药方案；\n在提升患者预后的同时，减少不必要的长期用药；\n为临床医生提供可解释的决策支持工具，助力抗感染治疗的精准化。\n\n\n\n该研究为AI在复杂临床决策中的应用提供了新范式——不仅仅是“预测最佳动作”，更要“符合医学逻辑”。未来可扩展至其他多药联合治疗场景，推动AI从“黑箱”走向“白箱”医疗决策。"
+    "text": "ARDS"
   },
   {
-    "objectID": "research/literature_kangyan_20250703/index.html",
-    "href": "research/literature_kangyan_20250703/index.html",
-    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
+    "objectID": "icu/icu_ARDS/index.html#定义",
+    "href": "icu/icu_ARDS/index.html#定义",
+    "title": "ARDS",
     "section": "",
-    "text": "机械通气的挑战\n\n机械通气是治疗呼吸衰竭的关键手段，但辅助过度可能导致呼吸机诱导的膈肌功能障碍（Ventilator-Induced Diaphragm Dysfunction, VIDD），辅助不足引起膈肌过度用力损伤。\n过强通气：过度辅助导致膈肌萎缩和无力；过弱通气：患者需过度努力呼吸，引发肺部高应激、肺泡过度扩张或异步性呼吸。\n\n现有监测方法的局限性\n\n直接方法：如食管压（Pes）、跨膈压（Pdi）需侵入性操作，存在操作风险，操作复杂。\n间接方法：如呼气末阻断法（PMI）、膈肌超声等依赖专业人员操作，且在复杂病理状态下（如ARDS、COPD）准确性受限。\n需求：开发一种非侵入性、实时、床旁可用的呼吸努力监测技术（N-Pmus），以优化机械通气参数，预防肺和膈肌损伤。\n\n\n\n\n\n\n\n1. 算法开发：基于呼吸系统运动方程，构建无创实时呼吸肌压力监测算法（N-Pmus），通过生理合理的三次多项式函数建模呼吸肌压力（Pmus）波形，减少未知变量，采用迭代最小二乘法求解超定方程组。 2. 实验设置：使用 ASL5000 呼吸模拟器与 SV800 呼吸机，模拟 3 类临床场景（正常、限制性、阻塞性），涵盖不同呼吸肌压力强度（3-30 cmH₂O）、上升/释放相位，共 270 个场景，对比 N-Pmus 与 ASL5000 设定的 Pmus（ASL5000-Pmus）。\n\n\n\n1. 研究设计：单中心前瞻性观察研究，于 2023 年在四川大学华西医院 ICU 开展，纳入 23 例机械通气患者（8 例 ARDS、8 例 COPD、7 例其他呼吸衰竭）。 2. 监测与对比：患者经鼻插入食道气囊导管监测食道压，计算食道压衍生的 Pmus（Pmusₑₛₒ），同时记录 N-Pmus，对比二者相关性与一致性；此外还分析呼吸肌压力时间乘积（N-PTPmus 与 PTPmusₑₛₒ）的关联。 3. 统计方法：采用线性混合效应模型分析相关性（计算边际 R² 和条件 R²），通过 Bland-Altman 分析评估一致性（计算偏差与 95%一致性界限）， subgroups 分析涵盖疾病类型、通气模式、呼吸努力强度。\n\n\n\n\n\n\nN-Pmus 与 ASL5000-Pmus 相关性极高：\n\n边际 R²=0.993，条件 R²=0.997；\n偏差为-0.23 cmH₂O，95%一致性界限为-1.51 至 1.04 cmH₂O；\n限制性、阻塞性亚组均保持高相关性（边际 R²&gt;0.988，条件 R²&gt;0.992）。\n\n\n\n\n\nN-Pmus 与 Pmusₑₛₒ 对比\n\n聚合数据（每患者 2-4 个稳定呼吸段，每段 20 个呼吸周期）：边际 R²=0.97，条件 R²=0.971，偏差-0.2 cmH₂O，95%一致性界限-2.22 至 1.83 cmH₂O；\n单周期数据：边际 R²=0.884，条件 R²=0.952，偏差-0.23 cmH₂O，95%一致性界限-2.33 至 1.88 cmH₂O。\n\nN-PTPmus 与 PTPmusₑₛₒ 对比：边际 R²=0.861，条件 R²=0.907，偏差-0.18 cmH₂O·s，95%一致性界限-2.45 至 2.08 cmH₂O·s。\n亚组分析结果\n\n疾病类型：ARDS 亚组相关性最高（边际 R²=0.955），COPD 亚组（边际 R²=0.822）、其他疾病亚组（边际 R²=0.876）稍低；\n通气模式：容量辅助控制通气（V-A/C）相关性最高（边际 R²=0.978），压力辅助控制（P-A/C）、压力支持（PSV）、同步间歇指令通气（SIMV）均保持良好一致性；\n呼吸努力强度：高努力组（Pmusₑₛₒ&gt;10 cmH₂O）相关性最高（边际 R²=0.895），低努力组（&lt;4 cmH₂O，边际 R²=0.611）、正常努力组（4-10 cmH₂O，边际 R²=0.628）稍低。\n\n\n\n\n\n\n1. 核心结论：N-Pmus 作为新型无创实时呼吸努力监测方法，与模拟实验金标准（ASL5000-Pmus）及临床金标准（Pmusₑₛₒ）均具有高相关性与良好一致性，且在不同疾病类型、通气模式、呼吸努力强度下均稳定有效。\n2. 临床意义：解决了现有监测方法的有创性、复杂性问题，可实现床旁实时监测，为机械通气参数精准调整提供依据，有望减少呼吸机相关肺损伤（P-SILI）与膈肌功能障碍（VIDD），改善患者预后。\n\n\n\n1. 食道压虽为胸膜压的近似指标，但在某些病理状态下可能无法完全反映真实胸腔内压力，且胸壁顺应性可能受通气模式影响；\n2. 研究为单中心、小样本（23 例）、短期观察，缺乏健康人群及特殊人群（如腹腔高压）数据；\n3. 未评估跨膈肌压力（Pdi），需后续多中心、大样本、长期研究进一步验证。"
+    "text": "ARDS"
   },
   {
-    "objectID": "research/literature_kangyan_20250703/index.html#背景",
-    "href": "research/literature_kangyan_20250703/index.html#背景",
-    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
-    "section": "",
-    "text": "机械通气的挑战\n\n机械通气是治疗呼吸衰竭的关键手段，但辅助过度可能导致呼吸机诱导的膈肌功能障碍（Ventilator-Induced Diaphragm Dysfunction, VIDD），辅助不足引起膈肌过度用力损伤。\n过强通气：过度辅助导致膈肌萎缩和无力；过弱通气：患者需过度努力呼吸，引发肺部高应激、肺泡过度扩张或异步性呼吸。\n\n现有监测方法的局限性\n\n直接方法：如食管压（Pes）、跨膈压（Pdi）需侵入性操作，存在操作风险，操作复杂。\n间接方法：如呼气末阻断法（PMI）、膈肌超声等依赖专业人员操作，且在复杂病理状态下（如ARDS、COPD）准确性受限。\n需求：开发一种非侵入性、实时、床旁可用的呼吸努力监测技术（N-Pmus），以优化机械通气参数，预防肺和膈肌损伤。"
+    "objectID": "icu/icu_ARDS/index.html#诊断",
+    "href": "icu/icu_ARDS/index.html#诊断",
+    "title": "ARDS",
+    "section": "诊断",
+    "text": "诊断\n病理特征：肺水肿和透明膜形成\n病理生理学特征：肺容积减少、肺顺应性降低、严重的通气/血流比例失衡\n分期：渗出期、增生期、纤维化期\n临床表现：呼吸窘迫、难治性低氧血症\n影像学表现：双肺弥漫渗出性改变\n\n\n\n\n\n\nARDS的柏林诊断标准"
   },
   {
-    "objectID": "research/literature_kangyan_20250703/index.html#方法",
-    "href": "research/literature_kangyan_20250703/index.html#方法",
-    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
-    "section": "",
-    "text": "1. 算法开发：基于呼吸系统运动方程，构建无创实时呼吸肌压力监测算法（N-Pmus），通过生理合理的三次多项式函数建模呼吸肌压力（Pmus）波形，减少未知变量，采用迭代最小二乘法求解超定方程组。 2. 实验设置：使用 ASL5000 呼吸模拟器与 SV800 呼吸机，模拟 3 类临床场景（正常、限制性、阻塞性），涵盖不同呼吸肌压力强度（3-30 cmH₂O）、上升/释放相位，共 270 个场景，对比 N-Pmus 与 ASL5000 设定的 Pmus（ASL5000-Pmus）。\n\n\n\n1. 研究设计：单中心前瞻性观察研究，于 2023 年在四川大学华西医院 ICU 开展，纳入 23 例机械通气患者（8 例 ARDS、8 例 COPD、7 例其他呼吸衰竭）。 2. 监测与对比：患者经鼻插入食道气囊导管监测食道压，计算食道压衍生的 Pmus（Pmusₑₛₒ），同时记录 N-Pmus，对比二者相关性与一致性；此外还分析呼吸肌压力时间乘积（N-PTPmus 与 PTPmusₑₛₒ）的关联。 3. 统计方法：采用线性混合效应模型分析相关性（计算边际 R² 和条件 R²），通过 Bland-Altman 分析评估一致性（计算偏差与 95%一致性界限）， subgroups 分析涵盖疾病类型、通气模式、呼吸努力强度。"
+    "objectID": "icu/icu_ARDS/index.html#治疗",
+    "href": "icu/icu_ARDS/index.html#治疗",
+    "title": "ARDS",
+    "section": "治疗",
+    "text": "治疗\n\n病因治疗\n纠正感染等\n\n\n肺保护性通气策略\n\n小潮气量通气：6~8ml/kg\n控制平台压：不超过30~35cmH2O，必要时，允许性高碳酸血症\nPEEP：应用防止肺泡塌陷的最低PEEP，从5cmH2O逐渐增加至合适水平，维持PaO2＞60mmHg，FiO2＜0.6。一般PEEP水平为8~18cmH2。\n\n\n\n挽救性治疗\n\n肺复张实施：纠正低氧血症，保证PEEP\n肌松药使用：中重度ARDS，减轻肺损伤\n俯卧位通气：改善通气-血流比例失衡\n高频通气：保持肺泡开放，改善氧合\nECMO\n\n\n\n\nECMO治疗指征\n\n\n\n\n液体管理\n限制液体入量，保持肺脏处于相对干的状态，即液体出入量维持轻度负平衡\n\n\n营养支持与监护\n补充足够的营养\n\n\n其他治疗\n糖皮质激素"
   },
   {
-    "objectID": "research/literature_kangyan_20250703/index.html#结果",
-    "href": "research/literature_kangyan_20250703/index.html#结果",
-    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
+    "objectID": "icu/icu_CAP/index.html",
+    "href": "icu/icu_CAP/index.html",
+    "title": "重症社区获得性肺炎（CAP）",
     "section": "",
-    "text": "N-Pmus 与 ASL5000-Pmus 相关性极高：\n\n边际 R²=0.993，条件 R²=0.997；\n偏差为-0.23 cmH₂O，95%一致性界限为-1.51 至 1.04 cmH₂O；\n限制性、阻塞性亚组均保持高相关性（边际 R²&gt;0.988，条件 R²&gt;0.992）。\n\n\n\n\n\nN-Pmus 与 Pmusₑₛₒ 对比\n\n聚合数据（每患者 2-4 个稳定呼吸段，每段 20 个呼吸周期）：边际 R²=0.97，条件 R²=0.971，偏差-0.2 cmH₂O，95%一致性界限-2.22 至 1.83 cmH₂O；\n单周期数据：边际 R²=0.884，条件 R²=0.952，偏差-0.23 cmH₂O，95%一致性界限-2.33 至 1.88 cmH₂O。\n\nN-PTPmus 与 PTPmusₑₛₒ 对比：边际 R²=0.861，条件 R²=0.907，偏差-0.18 cmH₂O·s，95%一致性界限-2.45 至 2.08 cmH₂O·s。\n亚组分析结果\n\n疾病类型：ARDS 亚组相关性最高（边际 R²=0.955），COPD 亚组（边际 R²=0.822）、其他疾病亚组（边际 R²=0.876）稍低；\n通气模式：容量辅助控制通气（V-A/C）相关性最高（边际 R²=0.978），压力辅助控制（P-A/C）、压力支持（PSV）、同步间歇指令通气（SIMV）均保持良好一致性；\n呼吸努力强度：高努力组（Pmusₑₛₒ&gt;10 cmH₂O）相关性最高（边际 R²=0.895），低努力组（&lt;4 cmH₂O，边际 R²=0.611）、正常努力组（4-10 cmH₂O，边际 R²=0.628）稍低。"
+    "text": "社区获得性肺炎（CAP）"
   },
   {
-    "objectID": "research/literature_kangyan_20250703/index.html#结论与意义",
-    "href": "research/literature_kangyan_20250703/index.html#结论与意义",
-    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
+    "objectID": "icu/icu_CAP/index.html#定义",
+    "href": "icu/icu_CAP/index.html#定义",
+    "title": "重症社区获得性肺炎（CAP）",
     "section": "",
-    "text": "1. 核心结论：N-Pmus 作为新型无创实时呼吸努力监测方法，与模拟实验金标准（ASL5000-Pmus）及临床金标准（Pmusₑₛₒ）均具有高相关性与良好一致性，且在不同疾病类型、通气模式、呼吸努力强度下均稳定有效。\n2. 临床意义：解决了现有监测方法的有创性、复杂性问题，可实现床旁实时监测，为机械通气参数精准调整提供依据，有望减少呼吸机相关肺损伤（P-SILI）与膈肌功能障碍（VIDD），改善患者预后。"
+    "text": "社区获得性肺炎（CAP）"
   },
   {
-    "objectID": "research/literature_kangyan_20250703/index.html#局限性",
-    "href": "research/literature_kangyan_20250703/index.html#局限性",
-    "title": "Respiratory effort monitoring: a novel, bedside, non-invasive, real-time method.",
+    "objectID": "icu/icu_CAP/index.html#诊断",
+    "href": "icu/icu_CAP/index.html#诊断",
+    "title": "重症社区获得性肺炎（CAP）",
+    "section": "诊断",
+    "text": "诊断\n\nCAP诊断标准重症CAP诊断标准"
+  },
+  {
+    "objectID": "icu/icu_CAP/index.html#治疗",
+    "href": "icu/icu_CAP/index.html#治疗",
+    "title": "重症社区获得性肺炎（CAP）",
+    "section": "治疗",
+    "text": "治疗\n\n经验性抗菌药物治疗\n\n无铜绿假单胞菌感染因素：\n单用β内酰胺类或联合大环内酯类或氟喹诺酮类\n\n\n有铜绿假单胞菌感染因素\n抗铜绿假单胞菌的β内酰胺类、光谱青霉素/β内酰胺酶抑制剂、碳青霉烯类的一种联合呼吸氟喹诺酮类或氨基糖苷类\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症\n\n\n\n治疗效果评估\n抗感染治疗48~72h对治疗效果进行评估。"
+  },
+  {
+    "objectID": "icu/icu_COPD/index.html",
+    "href": "icu/icu_COPD/index.html",
+    "title": "COPD急性加重",
     "section": "",
-    "text": "1. 食道压虽为胸膜压的近似指标，但在某些病理状态下可能无法完全反映真实胸腔内压力，且胸壁顺应性可能受通气模式影响；\n2. 研究为单中心、小样本（23 例）、短期观察，缺乏健康人群及特殊人群（如腹腔高压）数据；\n3. 未评估跨膈肌压力（Pdi），需后续多中心、大样本、长期研究进一步验证。"
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+  },
+  {
+    "objectID": "icu/icu_COPD/index.html#治疗",
+    "href": "icu/icu_COPD/index.html#治疗",
+    "title": "COPD急性加重",
+    "section": "",
+    "text": "确定急性加重的原因及病情的严重程度，根据病情的严重程度决定门诊或住院治疗\n支气管扩张剂\n\nβ2肾上腺素受体激动剂：沙丁胺醇\n抗胆碱药：异丙托溴铵\n茶碱类药物：氨茶碱\n\n低流量吸氧\n抗生素\n糖皮质激素\n机械通气：呼吸衰竭→机械通气\n其他治疗：合理补液，保证充足的热量和营养"
+  },
+  {
+    "objectID": "icu/icu_delirium/index.html",
+    "href": "icu/icu_delirium/index.html",
+    "title": "谵妄",
+    "section": "",
+    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
+  },
+  {
+    "objectID": "icu/icu_delirium/index.html#预防",
+    "href": "icu/icu_delirium/index.html#预防",
+    "title": "谵妄",
+    "section": "",
+    "text": "治疗基础疾病：脓毒症、ARDS\n避免引起谵妄的药物：苯二氮卓类和抗胆碱能药\n非药物措施：早期活动、改善睡眠、积极交流、预防脱水\n药物预防：氟哌啶醇、右美托咪定\n镇痛：阿片类（主要，但大量增加发生率），非甾体抗炎药\n镇静：右美托咪定\n改善睡眠"
+  },
+  {
+    "objectID": "icu/icu_delirium/index.html#治疗",
+    "href": "icu/icu_delirium/index.html#治疗",
+    "title": "谵妄",
+    "section": "治疗",
+    "text": "治疗\n\n非药物治疗\n药物治疗\n\n抗精神病药：氟哌啶醇、齐哌西酮\n右美托咪定\n苯二氮卓类：乙醇或苯二氮卓戒断首选"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html",
+    "href": "icu/icu_HAP/index.html",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "",
+    "text": "医院获得性肺炎（HAP）"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#定义",
+    "href": "icu/icu_HAP/index.html#定义",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "",
+    "text": "医院获得性肺炎（HAP）"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#诊断",
+    "href": "icu/icu_HAP/index.html#诊断",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "诊断",
+    "text": "诊断\n\n\n\n医院获得性肺炎的诊断标准"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#治疗",
+    "href": "icu/icu_HAP/index.html#治疗",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "治疗",
+    "text": "治疗\n\n一、核心治疗：抗感染治疗\n需根据患者是否存在多重耐药菌（MDR）感染风险，选择初始经验性用药，后续根据细菌培养+药敏结果调整为目标性用药。\n\n无MDR感染风险患者（初始经验性用药）\n覆盖常见敏感菌（如肺炎克雷伯菌、大肠埃希菌、流感嗜血杆菌等），推荐药物：\n\n头孢菌素类：如头孢他啶、头孢吡肟；\n青霉素类复方制剂：如哌拉西林-他唑巴坦；\n氟喹诺酮类：如左氧氟沙星、莫西沙星（需注意药物敏感性及患者基础疾病禁忌）。\n\n\n\n有MDR感染风险患者（初始经验性用药）\n需额外覆盖MDR菌（如耐甲氧西林金黄色葡萄球菌MRSA、产超广谱β-内酰胺酶ESBLs菌、铜绿假单胞菌等），推荐联合用药方案：\n\n抗MRSA药物：如万古霉素、利奈唑胺；\n抗铜绿假单胞菌药物（选1种）：如头孢他啶、头孢吡肟、哌拉西林-他唑巴坦、碳青霉烯类（亚胺培南、美罗培南）；\n必要时加用氨基糖苷类（如阿米卡星）或氟喹诺酮类，增强抗铜绿假单胞菌效果。\n\n\n\n目标性用药\n待痰培养、支气管肺泡灌洗液培养等病原学结果回报后，根据“药敏试验”选择敏感抗生素，避免广谱用药，减少耐药性及药物不良反应。\n\n\n用药疗程\n\n常规HAP：疗程通常为7天；\n抗感染治疗48~72h对治疗效果进行评估。\n合并MDR菌感染、免疫功能低下、治疗反应差者：可延长至10-14天，需结合临床症状（发热、咳嗽咳痰）、影像学（胸片/CT）、炎症指标（血常规、CRP、PCT）动态评估，避免过度治疗。\n\n\n\n\n肺部物理治疗\n\n气道湿化\n痰液引流\n\n\n\n机械通气\n\n无创机械通气：中低度低氧，神智清醒\n有创机械通气：严重低氧血症"
+  },
+  {
+    "objectID": "icu/icu_HAP/index.html#预防",
+    "href": "icu/icu_HAP/index.html#预防",
+    "title": "医院获得性肺炎（HAP）",
+    "section": "预防",
+    "text": "预防\n\n预防误吸：半卧位，合理喂食\n减少上呼吸道和消化道病原菌定植：氯己定护理\n积极治疗基础疾病\n加强患者管理：对免疫抑制患者进行保护性隔离；耐药菌感染患者进行接触隔离措施；加强医务人员手卫生和无菌操作"
+  },
+  {
+    "objectID": "icu/icu_hypokalemia_hyperkalemia/index.html",
+    "href": "icu/icu_hypokalemia_hyperkalemia/index.html",
+    "title": "低钾血症和高钾血症",
+    "section": "",
+    "text": "口服补钾\n\n\n\n每天补钾3~6g（40~80mmol）。\n补钾浓度不超过3g/L（40mmol/L），补钾速度不超过20mmol/h。\n伴有休克的病人，应先恢复血容量，待尿量超过40ml/h再静脉补钾"
+  },
+  {
+    "objectID": "icu/icu_hypokalemia_hyperkalemia/index.html#低钾血症",
+    "href": "icu/icu_hypokalemia_hyperkalemia/index.html#低钾血症",
+    "title": "低钾血症和高钾血症",
+    "section": "",
+    "text": "口服补钾\n\n\n\n每天补钾3~6g（40~80mmol）。\n补钾浓度不超过3g/L（40mmol/L），补钾速度不超过20mmol/h。\n伴有休克的病人，应先恢复血容量，待尿量超过40ml/h再静脉补钾"
+  },
+  {
+    "objectID": "icu/icu_hypokalemia_hyperkalemia/index.html#高钾血症",
+    "href": "icu/icu_hypokalemia_hyperkalemia/index.html#高钾血症",
+    "title": "低钾血症和高钾血症",
+    "section": "高钾血症",
+    "text": "高钾血症\n\n停用一切含钾药物和食物\n对抗K+心肌毒性作用：10%葡萄糖酸钙静注\n促进K+转入细胞内：10%葡萄糖+胰岛素\n纠酸：5%NaCO3静注\n促进K+从肾排出：呋塞米，噻嗪类\n促进K+从消化道排出：口服阳离子交换树脂\n透析"
+  },
+  {
+    "objectID": "icu/icu_ketoacidosis/index.html",
+    "href": "icu/icu_ketoacidosis/index.html",
+    "title": "糖尿病酮症酸中毒与高渗高血糖综合征",
+    "section": "",
+    "text": "糖尿病酮症酸中毒高渗高血糖综合征\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDKA与HHS的实验室检查\n\n\n\n\n\n\n\n\n糖尿病酮症酸中毒、低血糖昏迷、高渗高血糖综合征和乳酸酸中毒的鉴别诊断"
+  },
+  {
+    "objectID": "icu/icu_ketoacidosis/index.html#诊断",
+    "href": "icu/icu_ketoacidosis/index.html#诊断",
+    "title": "糖尿病酮症酸中毒与高渗高血糖综合征",
+    "section": "",
+    "text": "糖尿病酮症酸中毒高渗高血糖综合征\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDKA与HHS的实验室检查\n\n\n\n\n\n\n\n\n糖尿病酮症酸中毒、低血糖昏迷、高渗高血糖综合征和乳酸酸中毒的鉴别诊断"
+  },
+  {
+    "objectID": "icu/icu_ketoacidosis/index.html#治疗",
+    "href": "icu/icu_ketoacidosis/index.html#治疗",
+    "title": "糖尿病酮症酸中毒与高渗高血糖综合征",
+    "section": "治疗",
+    "text": "治疗\n\nDKAHHS"
+  },
+  {
+    "objectID": "icu/icu_monitor/index.html",
+    "href": "icu/icu_monitor/index.html",
+    "title": "重症监测（外总）",
+    "section": "",
+    "text": "循环监测"
+  },
+  {
+    "objectID": "icu/icu_monitor/index.html#循环监测",
+    "href": "icu/icu_monitor/index.html#循环监测",
+    "title": "重症监测（外总）",
+    "section": "",
+    "text": "循环监测"
+  },
+  {
+    "objectID": "icu/icu_monitor/index.html#呼吸监测",
+    "href": "icu/icu_monitor/index.html#呼吸监测",
+    "title": "重症监测（外总）",
+    "section": "呼吸监测",
+    "text": "呼吸监测\n\n\n\n呼吸监测"
+  },
+  {
+    "objectID": "icu/icu_PTE/index.html",
+    "href": "icu/icu_PTE/index.html",
+    "title": "急性肺血栓栓塞",
+    "section": "",
+    "text": "疑诊和确诊"
+  },
+  {
+    "objectID": "icu/icu_PTE/index.html#诊断",
+    "href": "icu/icu_PTE/index.html#诊断",
+    "title": "急性肺血栓栓塞",
+    "section": "",
+    "text": "疑诊和确诊"
+  },
+  {
+    "objectID": "icu/icu_PTE/index.html#治疗",
+    "href": "icu/icu_PTE/index.html#治疗",
+    "title": "急性肺血栓栓塞",
+    "section": "治疗",
+    "text": "治疗"
+  },
+  {
+    "objectID": "icu/icu_sedation_analgesia/index.html",
+    "href": "icu/icu_sedation_analgesia/index.html",
+    "title": "镇痛与镇静",
+    "section": "",
+    "text": "减轻疼痛和不适\n改善睡眠、诱导遗忘\n减轻焦虑、躁动和谵妄\n降低代谢、氧耗"
+  },
+  {
+    "objectID": "icu/icu_sedation_analgesia/index.html#目的",
+    "href": "icu/icu_sedation_analgesia/index.html#目的",
+    "title": "镇痛与镇静",
+    "section": "",
+    "text": "减轻疼痛和不适\n改善睡眠、诱导遗忘\n减轻焦虑、躁动和谵妄\n降低代谢、氧耗"
+  },
+  {
+    "objectID": "icu/icu_sedation_analgesia/index.html#治疗",
+    "href": "icu/icu_sedation_analgesia/index.html#治疗",
+    "title": "镇痛与镇静",
+    "section": "治疗",
+    "text": "治疗\n\n非药物治疗\n\n适宜的体位、环境\n\n\n寻找诱因、纠正紊乱的生理状况\n\n\n\n镇痛治疗\n\n阿片类：吗啡、芬太尼、瑞芬太尼、舒芬太尼\n\n\n局麻药：丁哌卡因、罗哌卡因\n\n\n其他镇痛药：曲马多、NSAIDs\n\n\n\n镇静治疗\n\n苯二氮卓类：咪达唑仑、地西泮、劳拉西泮\n\n\n丙泊酚\n\n\nα2受体激动剂：右美托咪定"
+  },
+  {
+    "objectID": "icu/icu_sedation_analgesia/index.html#监测",
+    "href": "icu/icu_sedation_analgesia/index.html#监测",
+    "title": "镇痛与镇静",
+    "section": "监测",
+    "text": "监测\n\n呼吸功能\n\n血氧饱和度、PaO2、PaCO2等\n\n\n\n循环功能\n\n监测低血压\n\n\n\n谵妄\n\n氟哌啶醇和右美托咪定治疗"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html",
+    "href": "icu/icu_shock/index.html",
+    "title": "休克",
+    "section": "",
+    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#分类",
+    "href": "icu/icu_shock/index.html#分类",
+    "title": "休克",
+    "section": "",
+    "text": "低血容量性休克\n感染性休克\n过敏性休克\n神经源性休克\n心源性休克\n\n\n\n\n\n低血容量性休克\n分布性休克\n\n感染性休克\n过敏性休克\n神经源性休克\n内分泌性休克\n\n心源性休克\n梗阻性休克\n混合性休克"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#临床表现",
+    "href": "icu/icu_shock/index.html#临床表现",
+    "title": "休克",
+    "section": "临床表现",
+    "text": "临床表现"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#监测",
+    "href": "icu/icu_shock/index.html#监测",
+    "title": "休克",
+    "section": "监测",
+    "text": "监测\n\n一般监测\n\n精神状态：脑组织灌注和全身情况\n皮肤粘膜温度和色泽：体表灌注情况\n血压：收缩压&lt;90mmHg，脉压＜20mmHg，休克存在\n脉率\n\n早期：脉率加快，血压正常\n失代偿期：脉率加快，血压下降\n好转：脉率恢复，血压正常或低于正常\n\\(\\text{休克指数} = \\frac{\\text{脉率}}{\\text{收缩压}}\\) 休克指数≈0.5无休克，＞1.0~1.5有休克，＞2.0严重休克\n\n尿量：休克早期尿量＜25ml/h，&gt;30ml/h表示休克已好转"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#特殊监测外总",
+    "href": "icu/icu_shock/index.html#特殊监测外总",
+    "title": "休克",
+    "section": "特殊监测（外总）",
+    "text": "特殊监测（外总）\n\n\n\n休克的特殊监测（外总）\n\n\n\n血流动力学监测\n\n前负荷指标：\n\n容量负荷：\n\n左心室舒张末期容积\n右心室舒张末期容积\n胸腔内血容量\n全心舒张末容积\n\n压力负荷：\n\n中心静脉压\n肺动脉楔压\n\n\n容量反应性评估：\n\n容量负荷试验\n被动抬腿实验\n每搏变异度\n\n心脏射血：\n\n每搏输出量（SV）\n射血分数（EF）\n心排血量（CO）\n心脏指数（CI）\n\n心脏后负荷：\n\n体循环阻力（SVR）\n肺循环阻力（PVR）\n\n微循环监测：\n\n间接指标：\n\n乳酸与乳酸清除率\nScvO2和SvO2\n胃黏膜pH值（pHi）和PCO2\n\n直接指标：\n\n活体微循环显微镜\n激光多普勒血流仪\n舌下正交偏振光谱成像\n旁流暗场成像\n组织氧合近红外线光谱仪"
+  },
+  {
+    "objectID": "icu/icu_shock/index.html#治疗",
+    "href": "icu/icu_shock/index.html#治疗",
+    "title": "休克",
+    "section": "治疗",
+    "text": "治疗\n\n紧急治疗\n\n处理原发伤病\n体位：头和躯干抬高20°~30°，下肢抬高15°~20°\n\n补充血容量：首选晶体液，大量液体复苏联合胶体液，必要时成分输血（Hb＜70g/L）\n积极处理原发疾病：及时施行手术\n纠正酸碱平衡失调：宁酸毋碱\n血管活性药物\n\n血管收缩剂：多巴胺、去甲肾上腺素、间羟胺\n血管扩张剂：\n\nα受体拮抗剂：酚妥拉明，酚苄明\n抗胆碱药：阿托品，东莨菪碱，山莨菪碱\n\n强心药：多巴胺、多巴酚丁胺、强心苷类\n\n治疗DIC改善微循环：肝素抗凝\n糖皮质激素与其他药物的使用：感染性休克或其他严重休克，大剂量短期应用"
+  },
+  {
+    "objectID": "icu/icu_ventilation/index.html",
+    "href": "icu/icu_ventilation/index.html",
+    "title": "机械通气",
+    "section": "",
+    "text": "控制通气（CMV）\n辅助控制通气（AV）\n间歇指令通气（IMV）\n同步间歇指令通气（SIMV）\n压力控制通气（PCV）\n压力支持通气（PSV）\n持续气道正压通气（CPAP）"
+  },
+  {
+    "objectID": "icu/icu_ventilation/index.html#分类",
+    "href": "icu/icu_ventilation/index.html#分类",
+    "title": "机械通气",
+    "section": "",
+    "text": "控制通气（CMV）\n辅助控制通气（AV）\n间歇指令通气（IMV）\n同步间歇指令通气（SIMV）\n压力控制通气（PCV）\n压力支持通气（PSV）\n持续气道正压通气（CPAP）"
+  },
+  {
+    "objectID": "icu/icu_ventilation/index.html#并发症",
+    "href": "icu/icu_ventilation/index.html#并发症",
+    "title": "机械通气",
+    "section": "并发症",
+    "text": "并发症\n\n通气不足\n过度通气\n人机不协调\n呼吸及相关肺损伤\n呼吸及相关肺炎"
+  },
+  {
+    "objectID": "icu/icu_ventilation/index.html#撤机",
+    "href": "icu/icu_ventilation/index.html#撤机",
+    "title": "机械通气",
+    "section": "撤机",
+    "text": "撤机\n\n机械通气撤机前评估\n\n导致呼吸衰竭的因素是否去除\n患者全身情况是否好转\n患者呼吸功能改善状况\n\n\n\n自主呼吸实验（SBT）\nT管法：保持FiO2不变，患者处于完全自主呼吸状态\n低水平PSV法：通气模式改为PSV，压力支持水平维持在510cmH2O，FiO2~不变\n低水平CPAP法：通气模式改为CPAP，保持PEEP为5cmH2O，FiO2维持不变\n\n\n影响撤机的原因\n\n自主呼吸能力下降\n通气需求增加\n心功能不全\n其他因素：电解质紊乱、营养不良、贫血\n\n\n\n人工气道去除\n\n气道通畅程度\n气道保护能力\n气道分泌物"
+  },
+  {
+    "objectID": "information/information.html",
+    "href": "information/information.html",
+    "title": "资料",
+    "section": "",
+    "text": "资料\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        标题\n      \n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n免费的编程中文书籍\n\n\nfree-programming-books-zh_CN，是一个很全的编程教程库\n\n\n\n\n\n2025年8月31日\n\n\n\n\n\n无匹配项"
+  },
+  {
+    "objectID": "misc/literature.html",
+    "href": "misc/literature.html",
+    "title": "笑面狐",
+    "section": "",
+    "text": "antibiotics stewardship\ninfections (community, hospital)\nelectronic health records\nquality assurance: prescripton and use"
+  },
+  {
+    "objectID": "misc/literature.html#ab-x-ehr",
+    "href": "misc/literature.html#ab-x-ehr",
+    "title": "笑面狐",
+    "section": "AB x EHR",
+    "text": "AB x EHR\nMoehring 2021, EHR identify AB use among hospitalized patients\nReenggli 2021: assess EHR conversion into AB stewardship indicators\nCairns 2021: integrate AB stewardship with EHR in australia\nJenkins 2022: AB stewardship using electornic prescribing systems, review of intervention and outcome measures\nKuijpers 2024, excessive length of AB duration for HAI, support AB stewardship high relevance"
+  },
+  {
+    "objectID": "misc/literature.html#ehr-doctor-experience-system-design",
+    "href": "misc/literature.html#ehr-doctor-experience-system-design",
+    "title": "笑面狐",
+    "section": "EHR doctor experience, system design",
+    "text": "EHR doctor experience, system design\nOstrer 2023, real time benefit tools must be designed to serve both clinicians and patients. mentions burden\nKawamoto 2019 Association of EHR add-on app for neonatal bilirubin management, physician efficiency and care quality. Good system and add-on can save clinician time and improve patient care.\nTsai 2020, EHR implementation, barriers to adoption and use high relevance\nOverhage 2020, time spent using EHR\n\nburnout\nTajirian 2020, influence of EHR on physician burnout high relevance\nKhairat 2020, EHR use with physician fatigue and efficiency\nKroth 2019, factors of EHR design and use for physician stress and burnout high relevance\nMelnick 2020, EHR usability, task load and burnout high relevance\nHilliard 2020, factors associated with burnout\nMore on this topic\nhttps://www.sciencedirect.com/science/article/abs/pii/S0897189718301356\nhttps://journals.sagepub.com/doi/full/10.1177/20552076231220241\nhttps://jamanetwork.com/journals/jamanetworkopen/article-abstract/2778909\n\n\nDesign\nGascon 2013 the process of designing a EHR lab request module\nTorres 2017, effect of EHR design on documentation and compliance high relevance"
+  },
+  {
+    "objectID": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
+    "href": "misc/literature.html#ehr-data-quality-use-for-prediction-model-development",
+    "title": "笑面狐",
+    "section": "EHR data quality, use for prediction model development",
+    "text": "EHR data quality, use for prediction model development\n\nerror\nbell 2020\nhttps://www.sciencedirect.com/science/article/abs/pii/S2213076420300439\nLi 2024, comparison of error reporting systems. 82% undetected, 90% had no corresponding incident report, some errors not reported at all\nWestbrook 2020, changes in medication administration error rates, associated with EHR\nGildon 2019, impact of EHR on prescribing errors in pediatric clinics. introduction is relevant for pointing out the need for well designed system\nGinzburg 2018, use clinical decision support within EHR to reduce incorrect prescribing for acute sinusitis. shows prompt for physicians to fill in reason for why AB is required high relevance\n\n\nbias\nGianfrancesco 2018, potential biases in ML algorithms using EHR data. Existing EHR disparities should not be amplified by thoughtless or excess reliance on machines.\nAgniel 2018, biases in EHR due to process within the healthcare system. healthcare processes must be addressed in the analysis of observational health data, context is important. high relevance\nBower, biases in EHR based surveillance of cardiovascular disease risk\nHarding2024, addressing common sources of bias in type 2 diabetes following covid, using EHR\nBica 2020, current and future methods to address underlying challenges from EHR to treatment effects mid relevance to manuscript, but important to myself\nDesai 2020, prediction using admin EHR, hear failure"
+  },
+  {
+    "objectID": "misc/literature.html#ab-stewardship-not-so-relevant",
+    "href": "misc/literature.html#ab-stewardship-not-so-relevant",
+    "title": "笑面狐",
+    "section": "AB stewardship (not so relevant)",
+    "text": "AB stewardship (not so relevant)\nRenggli 2021: consumption of anti-meticillin resistant staphylococcus aureus antibiotics in Swiss hospitals is associateed with antibiotic stewardship measures\nVaughn 2021: AB overuse and stewardship at hospital discharge\nGraber 2019: electronic tools to decrease AB use"
+  },
+  {
+    "objectID": "research/li_ Hannah_Moreira_20250901/index.html",
+    "href": "research/li_ Hannah_Moreira_20250901/index.html",
+    "title": "How Effective Is the Early Management Bundle for Severe Sepsis/Septic Shock?",
+    "section": "",
+    "text": "这篇文章是一篇发表于《美国医学会杂志·内科学》（JAMA Internal Medicine）的特邀评论，题为《早期严重脓毒症/脓毒性休克管理包的有效性如何？》，作者是 Hannah Moreira 和 Richard Sinert。文章主要围绕美国医疗保险和医疗补助服务中心（CMS）推行的“严重脓毒症/脓毒性休克早期管理包”（SEP-1）的有效性和适用性进行了评述和反思。\n以下是文章的主要内容总结：\n\n\n\n\n脓毒症是导致死亡的重要原因。2001年，Rivers 等人提出“早期目标导向治疗”（EGDT），显著降低了脓毒性休克患者的死亡率（从49.7%降至30.5%），推动了脓毒症的早期干预。\n2002年，“拯救脓毒症运动”（Surviving Sepsis Campaign）启动，倡导早期识别和治疗。\n2015年10月，美国CMS采纳了SEP-1质量指标，作为衡量医院对脓毒症管理质量的标准。\n\n\n\n\n\n\n几乎在SEP-1推行的同时，三项大型随机对照试验（ProCESS、ARISE、ProMISe）发现：EGDT与常规治疗相比，并未带来显著的生存优势。\n因此，最终版的SEP-1去除了EGDT中侵入性监测的要求，但保留了液体复苏量和乳酸监测等指标，而这些指标缺乏充分的循证医学支持。\n\n\n\n\n\n\nBaghdadi 等人对加州大学4家医院的6404名脓毒症患者进行回顾性分析，发现：\n\n接受完整SEP-1集束化治疗的患者，与仅接受部分措施的患者相比，死亡率和使用血管活性药物的天数并无显著差异。\n不同类型患者对SEP-1各组成部分的反应不同：\n\n社区起病的脓毒症患者：多项SEP-1措施与较好预后相关。\n医院内起病的脓毒症患者：只有早期使用抗生素与死亡率下降有关。\n\n\n\n\n\n\n\n\nRhee 等人的研究显示：\n\n★★★在死亡或转入临终关怀的患者中，52.8%存在脓毒症，其中34.9%脓毒症是直接死因。\n脓毒症相关死亡中，22.7%存在管理不当（如抗生素延迟），但仅有3.7%被认为是可能预防的。\n多数患者有严重基础疾病（如晚期癌症、心衰、痴呆等），即使优化治疗也难以改变结局。\n40.3%死于脓毒症的患者符合临终关怀条件。\n\n\n\n\n\n\n\n“一刀切”的脓毒症管理包（如SEP-1）并不适用于所有患者。\n脓毒症治疗应个体化，尤其应区分社区起病与医院内起病的患者。\n应将重点放在真正处于脓毒性休克的患者身上，强调：\n\n早期使用抗生素\n尊重医生临床判断，灵活决定液体输注量和乳酸监测的必要性\n\n\n\n\n\n\n作者认为，随着证据的演变，脓毒症的管理不应再机械执行SEP-1这类标准化捆绑式措施。政策制定者（如CMS）应重新评估SEP-1的价值，推动更加个体化、基于临床判断的脓毒症救治策略，以真正改善患者预后，避免对终末期患者进行无效或过度治疗。"
+  },
+  {
+    "objectID": "research/li_ Hannah_Moreira_20250901/index.html#早期严重脓毒症脓毒性休克集束化治疗的有效性如何moreira2020",
+    "href": "research/li_ Hannah_Moreira_20250901/index.html#早期严重脓毒症脓毒性休克集束化治疗的有效性如何moreira2020",
+    "title": "How Effective Is the Early Management Bundle for Severe Sepsis/Septic Shock?",
+    "section": "",
+    "text": "这篇文章是一篇发表于《美国医学会杂志·内科学》（JAMA Internal Medicine）的特邀评论，题为《早期严重脓毒症/脓毒性休克管理包的有效性如何？》，作者是 Hannah Moreira 和 Richard Sinert。文章主要围绕美国医疗保险和医疗补助服务中心（CMS）推行的“严重脓毒症/脓毒性休克早期管理包”（SEP-1）的有效性和适用性进行了评述和反思。\n以下是文章的主要内容总结：\n\n\n\n\n脓毒症是导致死亡的重要原因。2001年，Rivers 等人提出“早期目标导向治疗”（EGDT），显著降低了脓毒性休克患者的死亡率（从49.7%降至30.5%），推动了脓毒症的早期干预。\n2002年，“拯救脓毒症运动”（Surviving Sepsis Campaign）启动，倡导早期识别和治疗。\n2015年10月，美国CMS采纳了SEP-1质量指标，作为衡量医院对脓毒症管理质量的标准。\n\n\n\n\n\n\n几乎在SEP-1推行的同时，三项大型随机对照试验（ProCESS、ARISE、ProMISe）发现：EGDT与常规治疗相比，并未带来显著的生存优势。\n因此，最终版的SEP-1去除了EGDT中侵入性监测的要求，但保留了液体复苏量和乳酸监测等指标，而这些指标缺乏充分的循证医学支持。\n\n\n\n\n\n\nBaghdadi 等人对加州大学4家医院的6404名脓毒症患者进行回顾性分析，发现：\n\n接受完整SEP-1集束化治疗的患者，与仅接受部分措施的患者相比，死亡率和使用血管活性药物的天数并无显著差异。\n不同类型患者对SEP-1各组成部分的反应不同：\n\n社区起病的脓毒症患者：多项SEP-1措施与较好预后相关。\n医院内起病的脓毒症患者：只有早期使用抗生素与死亡率下降有关。\n\n\n\n\n\n\n\n\nRhee 等人的研究显示：\n\n★★★在死亡或转入临终关怀的患者中，52.8%存在脓毒症，其中34.9%脓毒症是直接死因。\n脓毒症相关死亡中，22.7%存在管理不当（如抗生素延迟），但仅有3.7%被认为是可能预防的。\n多数患者有严重基础疾病（如晚期癌症、心衰、痴呆等），即使优化治疗也难以改变结局。\n40.3%死于脓毒症的患者符合临终关怀条件。\n\n\n\n\n\n\n\n“一刀切”的脓毒症管理包（如SEP-1）并不适用于所有患者。\n脓毒症治疗应个体化，尤其应区分社区起病与医院内起病的患者。\n应将重点放在真正处于脓毒性休克的患者身上，强调：\n\n早期使用抗生素\n尊重医生临床判断，灵活决定液体输注量和乳酸监测的必要性\n\n\n\n\n\n\n作者认为，随着证据的演变，脓毒症的管理不应再机械执行SEP-1这类标准化捆绑式措施。政策制定者（如CMS）应重新评估SEP-1的价值，推动更加个体化、基于临床判断的脓毒症救治策略，以真正改善患者预后，避免对终末期患者进行无效或过度治疗。"
+  },
+  {
+    "objectID": "research/li_chengyisong_20221205/index.html",
+    "href": "research/li_chengyisong_20221205/index.html",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "",
+    "text": "急性肾损伤（AKI）是急性胰腺炎患者在重症监护病房（ICU）中常见的严重并发症。\n发生AKI的急性胰腺炎患者死亡率显著高于未发生者。\n目前AKI的诊断依赖血清肌酐升高或尿量减少，但这些指标出现时肾脏损害已发生，缺乏早期预警能力。\n\n\n\n\n\n建立基于机器学习算法和传统逻辑回归（LR）模型的预测模型，仅使用患者进入ICU时常规采集的临床变量，预测其后续是否会发生AKI。\n比较不同模型的预测性能，评估机器学习在该场景下的优势。\n\n\n\n\n\n研究设计与数据来源：\n\n回顾性队列研究，数据来自四川大学华西医院ICU 2015年12月至2019年12月收治的急性胰腺炎患者。\n纳入标准：确诊为急性胰腺炎、年龄≥18岁、入住ICU。\n排除标准：\n\n入ICU时已诊断AKI；\n有慢性肾病史；\n胰腺肿瘤、外伤或慢性胰腺炎；\n年龄&lt;18岁。\n\n\n诊断标准：\n\n急性胰腺炎：符合以下三项中至少两项：\n\n典型腹痛；\n淀粉酶或脂肪酶升高至正常上限3倍以上；\n影像学支持。\n\nAKI：依据KDIGO指南，基于血清肌酐变化或尿量定义。\n\n数据划分与模型训练：\n\n将数据按7:3比例分为训练集（70%）和测试集（30%），避免样本重复使用。\n采用10折交叉验证优化模型稳定性。\n使用网格搜索（Grid Search）进行超参数调优。\n\n建模方法：\n\n传统模型：逻辑回归（Logistic Regression, LR）\n\n先进行单变量分析筛选P&lt;0.05的变量；\n再进行多变量逐步回归（forward stepwise），构建最终LR模型；\n建立预测列线图（Nomogram）。\n\n机器学习模型：\n\n选择三种集成学习算法：梯度提升（GB）、随机森林（RF）、极端梯度提升（XGB）。\n这些模型具有较高预测精度且具备一定可解释性。\n\n\n模型评估指标：\n\n主要指标：AUC（曲线下面积）\n其他指标：\n\n净重分类改善指数（NRI）\n综合判别改善指数（IDI）\n决策曲线分析（DCA）——评估临床实用性\n\n\n\n\n\n\n\n患者基本情况：\n\n共纳入488例患者，其中151例（30.9%）发生AKI。\nAKI组患者白细胞、中性粒细胞、肌酐、尿酸、BNP、D-二聚体、PCT、CRP等炎症和器官功能指标更高，ICU住院时间更长，28天死亡率更高。\n\n多变量分析结果（LR模型）：\n\n独立预测因子包括：\n\n血清肌酐（OR=1.004, P&lt;0.001）\n前降钙素（PCT）（OR=1.024, P=0.004）\n自然对数转换的BNP（Ln BNP）（OR=1.010, P=0.013）\n\n\n模型性能比较（AUC）：\n\n逻辑回归（LR）：0.763\n梯度提升（GB）：0.828\n随机森林（RF）：0.812\n极端梯度提升（XGB）：0.809\n所有机器学习模型AUC均高于LR，但差异未达到统计学显著性（P&gt;0.05）\n\n其他评估指标：\n\nNRI 和 IDI：所有机器学习模型均表现出显著的净重分类和判别能力提升（P&lt;0.05）。\n决策曲线分析（DCA）：\n\n当阈值概率低于约0.4时，机器学习模型的净收益明显优于LR模型。\n表明在临床决策中，机器学习模型能更准确识别高风险患者。\n\n\n\n\n\n\n决策曲线\n\n\n\n特征重要性分析（以GB模型为例）：\n\nSHAP值分析显示最重要的前5个预测变量为：\n\n血清肌酐\n尿酸\n前降钙素（PCT）\n凝血酶时间（TT）\nBNP\n\n提示这些指标在预测AKI中具有关键作用。\n\n\n\n\n\n\n本研究成功构建了三种机器学习模型（GB、RF、XGB）和一个传统逻辑回归模型，用于预测急性胰腺炎患者入住ICU后发生AKI的风险。\n尽管机器学习模型在AUC上的提升未达统计学显著性，但在净重分类（NRI/IDI）和临床净收益（DCA）方面显著优于传统LR模型。\n因此，机器学习方法整体上优于传统建模方式，具备更强的临床应用潜力。\n\n\n\n\n\n单中心回顾性研究，样本量相对较小（n=488），可能影响模型泛化能力。\n缺乏外部验证数据集，限制了模型的普适性。\n部分重要临床变量缺失，如：\n\n尿量动态变化\n合并症\n慢性用药情况\n治疗干预信息\n\n仅使用入ICU时的数据进行预测，未考虑时间序列变化；\n\n且未明确AKI诊断的具体时间，因此无法评估“提前预测”的时间窗口。"
+  },
+  {
+    "objectID": "research/li_chengyisong_20221205/index.html#背景",
+    "href": "research/li_chengyisong_20221205/index.html#背景",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "",
+    "text": "急性肾损伤（AKI）是急性胰腺炎患者在重症监护病房（ICU）中常见的严重并发症。\n发生AKI的急性胰腺炎患者死亡率显著高于未发生者。\n目前AKI的诊断依赖血清肌酐升高或尿量减少，但这些指标出现时肾脏损害已发生，缺乏早期预警能力。"
+  },
+  {
+    "objectID": "research/li_chengyisong_20221205/index.html#目的",
+    "href": "research/li_chengyisong_20221205/index.html#目的",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "",
+    "text": "建立基于机器学习算法和传统逻辑回归（LR）模型的预测模型，仅使用患者进入ICU时常规采集的临床变量，预测其后续是否会发生AKI。\n比较不同模型的预测性能，评估机器学习在该场景下的优势。"
+  },
+  {
+    "objectID": "research/li_chengyisong_20221205/index.html#研究方法",
+    "href": "research/li_chengyisong_20221205/index.html#研究方法",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "",
+    "text": "研究设计与数据来源：\n\n回顾性队列研究，数据来自四川大学华西医院ICU 2015年12月至2019年12月收治的急性胰腺炎患者。\n纳入标准：确诊为急性胰腺炎、年龄≥18岁、入住ICU。\n排除标准：\n\n入ICU时已诊断AKI；\n有慢性肾病史；\n胰腺肿瘤、外伤或慢性胰腺炎；\n年龄&lt;18岁。\n\n\n诊断标准：\n\n急性胰腺炎：符合以下三项中至少两项：\n\n典型腹痛；\n淀粉酶或脂肪酶升高至正常上限3倍以上；\n影像学支持。\n\nAKI：依据KDIGO指南，基于血清肌酐变化或尿量定义。\n\n数据划分与模型训练：\n\n将数据按7:3比例分为训练集（70%）和测试集（30%），避免样本重复使用。\n采用10折交叉验证优化模型稳定性。\n使用网格搜索（Grid Search）进行超参数调优。\n\n建模方法：\n\n传统模型：逻辑回归（Logistic Regression, LR）\n\n先进行单变量分析筛选P&lt;0.05的变量；\n再进行多变量逐步回归（forward stepwise），构建最终LR模型；\n建立预测列线图（Nomogram）。\n\n机器学习模型：\n\n选择三种集成学习算法：梯度提升（GB）、随机森林（RF）、极端梯度提升（XGB）。\n这些模型具有较高预测精度且具备一定可解释性。\n\n\n模型评估指标：\n\n主要指标：AUC（曲线下面积）\n其他指标：\n\n净重分类改善指数（NRI）\n综合判别改善指数（IDI）\n决策曲线分析（DCA）——评估临床实用性"
+  },
+  {
+    "objectID": "research/li_chengyisong_20221205/index.html#结果",
+    "href": "research/li_chengyisong_20221205/index.html#结果",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "",
+    "text": "患者基本情况：\n\n共纳入488例患者，其中151例（30.9%）发生AKI。\nAKI组患者白细胞、中性粒细胞、肌酐、尿酸、BNP、D-二聚体、PCT、CRP等炎症和器官功能指标更高，ICU住院时间更长，28天死亡率更高。\n\n多变量分析结果（LR模型）：\n\n独立预测因子包括：\n\n血清肌酐（OR=1.004, P&lt;0.001）\n前降钙素（PCT）（OR=1.024, P=0.004）\n自然对数转换的BNP（Ln BNP）（OR=1.010, P=0.013）\n\n\n模型性能比较（AUC）：\n\n逻辑回归（LR）：0.763\n梯度提升（GB）：0.828\n随机森林（RF）：0.812\n极端梯度提升（XGB）：0.809\n所有机器学习模型AUC均高于LR，但差异未达到统计学显著性（P&gt;0.05）\n\n其他评估指标：\n\nNRI 和 IDI：所有机器学习模型均表现出显著的净重分类和判别能力提升（P&lt;0.05）。\n决策曲线分析（DCA）：\n\n当阈值概率低于约0.4时，机器学习模型的净收益明显优于LR模型。\n表明在临床决策中，机器学习模型能更准确识别高风险患者。\n\n\n\n\n\n\n决策曲线\n\n\n\n特征重要性分析（以GB模型为例）：\n\nSHAP值分析显示最重要的前5个预测变量为：\n\n血清肌酐\n尿酸\n前降钙素（PCT）\n凝血酶时间（TT）\nBNP\n\n提示这些指标在预测AKI中具有关键作用。"
+  },
+  {
+    "objectID": "research/li_chengyisong_20221205/index.html#结论",
+    "href": "research/li_chengyisong_20221205/index.html#结论",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "",
+    "text": "本研究成功构建了三种机器学习模型（GB、RF、XGB）和一个传统逻辑回归模型，用于预测急性胰腺炎患者入住ICU后发生AKI的风险。\n尽管机器学习模型在AUC上的提升未达统计学显著性，但在净重分类（NRI/IDI）和临床净收益（DCA）方面显著优于传统LR模型。\n因此，机器学习方法整体上优于传统建模方式，具备更强的临床应用潜力。"
+  },
+  {
+    "objectID": "research/li_chengyisong_20221205/index.html#局限性",
+    "href": "research/li_chengyisong_20221205/index.html#局限性",
+    "title": "Machine learning for the prediction of acute kidney injury in patients with acute pancreatitis admitted to the intensive care unit",
+    "section": "",
+    "text": "单中心回顾性研究，样本量相对较小（n=488），可能影响模型泛化能力。\n缺乏外部验证数据集，限制了模型的普适性。\n部分重要临床变量缺失，如：\n\n尿量动态变化\n合并症\n慢性用药情况\n治疗干预信息\n\n仅使用入ICU时的数据进行预测，未考虑时间序列变化；\n\n且未明确AKI诊断的具体时间，因此无法评估“提前预测”的时间窗口。"
+  },
+  {
+    "objectID": "research/li_kangyan_20240330/index.html",
+    "href": "research/li_kangyan_20240330/index.html",
+    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "section": "",
+    "text": "多重耐药鲍曼不动杆菌（MDR Acinetobacter baumannii）是神经外科术后颅内感染的主要致病菌，其高死亡率（高达71%）和传统抗生素（如替加环素，TGC）的血脑屏障（BBB）渗透性差，限制了治疗效果。\n因此，开发一种能高效递送抗生素至脑部的靶向递送系统至关重要。\n\n\n\n\n双靶向纳米载体设计：\n\n开发了一种核-壳结构纳米颗粒（Aβ11/T80@CSs），通过Aβ11肽（靶向血脑屏障的低密度脂蛋白受体相关蛋白1，LRP1）和Tween 80（增强纳米颗粒在脑内皮细胞的积累）双重修饰，提高药物在脑部的靶向性。\n使用mPEG-PLGA/PLGA材料包裹水溶性替加环素（TGC），解决其半衰期短和血脑屏障渗透性差的问题。\n\n\n\n\n\n\n\n\n核-壳结构纳米颗粒（Aβ11/T80@CSs）\n\n\n\n\n\n\n核心成分：mPEG-PLGA/PLGA包裹水溶性替加环素（TGC），解决其半衰期短和血脑屏障渗透性差的问题。\n壳层修饰：\n\nAβ11肽：靶向血脑屏障上的低密度脂蛋白受体相关蛋白1（LRP1），促进纳米颗粒跨膜转运。\nTween 80：表面活性剂，通过改变纳米颗粒表面电荷和疏水性，增强其在脑内皮细胞的积累。\n\n优势：双靶向策略显著提高药物在脑部的富集效率。\n\n\n\n\n\n关键性能验证：\n\n体外实验：\n\n纳米颗粒粒径约158 nm，包封效率达84.2%，并能通过透析法实现持续药物释放（12小时内释放80%以上）。\n在bEnd.3脑内皮细胞模型中，Aβ11/T80@CSs的细胞摄取率比单靶向或未修饰组高3.9倍，且跨膜转运能力显著增强。\n\n体内实验：\n\n在MDR鲍曼不动杆菌颅内感染大鼠模型中，Aβ11/T80@CSs-TGC组的脑脊液（CSF）抗菌率高达90%，显著优于游离TGC组（抗菌率不足50%）。\n药代动力学分析显示，纳米颗粒可延长TGC的血浆半衰期（AUC_0-8h为游离TGC的2.5倍），并降低其清除率（CL降低2.76倍）。\n\n\n安全性评估：\n\n溶血率：&lt;5%（与阳性对照相比），表明纳米颗粒对红细胞无显著毒性。\n细胞毒性和组织病理学：bEnd.3细胞存活率&gt;80%，且对心、肝、脾、肺、肾等器官无明显病理损伤，证明其生物相容性良好。\n\n\n\n\n\n\n解决临床难题：\n\n首次提出Aβ11/T80双靶向策略，成功克服血脑屏障，为颅内感染治疗提供新思路。\n纳米颗粒的高效递送使TGC在脑部达到有效浓度，显著抑制MDR鲍曼不动杆菌的生长。\n\n技术突破：\n\n核-壳纳米颗粒的稳定性和可控释放特性（12小时内持续释放80%药物）为水溶性抗生素的脑靶向递送提供了可行方案。\n\n临床转化潜力：\n\n研究为脑靶向纳米载体系统在颅内感染及其他中枢神经系统疾病中的应用奠定了基础，未来可通过优化靶向配体或联合其他抗生素进一步开发。\n\n\n\n\n\n\n局限性：\n\n目前仅在动物模型中验证，需进一步开展临床试验评估人体安全性和疗效。\n纳米颗粒的长期毒性及在复杂病理环境下的稳定性需深入研究。\n\n未来方向：\n\n探索Aβ11/T80双靶向系统在其他耐药菌（如铜绿假单胞菌、耐药革兰氏阳性菌）颅内感染中的应用。\n结合基因治疗或免疫调节策略，开发多功能纳米药物递送平台。\n\n\n\n\n\n本研究通过双靶向纳米颗粒设计，成功解决了替加环素在颅内感染治疗中的血脑屏障难题，显著提升了药物疗效和安全性。这一成果为耐药菌引起的中枢神经系统感染提供了创新的治疗策略，并推动了纳米医学在临床转化中的应用。"
+  },
+  {
+    "objectID": "research/li_kangyan_20240330/index.html#背景",
+    "href": "research/li_kangyan_20240330/index.html#背景",
+    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "section": "",
+    "text": "多重耐药鲍曼不动杆菌（MDR Acinetobacter baumannii）是神经外科术后颅内感染的主要致病菌，其高死亡率（高达71%）和传统抗生素（如替加环素，TGC）的血脑屏障（BBB）渗透性差，限制了治疗效果。\n因此，开发一种能高效递送抗生素至脑部的靶向递送系统至关重要。"
+  },
+  {
+    "objectID": "research/li_kangyan_20240330/index.html#研究创新点",
+    "href": "research/li_kangyan_20240330/index.html#研究创新点",
+    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "section": "",
+    "text": "双靶向纳米载体设计：\n\n开发了一种核-壳结构纳米颗粒（Aβ11/T80@CSs），通过Aβ11肽（靶向血脑屏障的低密度脂蛋白受体相关蛋白1，LRP1）和Tween 80（增强纳米颗粒在脑内皮细胞的积累）双重修饰，提高药物在脑部的靶向性。\n使用mPEG-PLGA/PLGA材料包裹水溶性替加环素（TGC），解决其半衰期短和血脑屏障渗透性差的问题。\n\n\n\n\n\n\n\n\n核-壳结构纳米颗粒（Aβ11/T80@CSs）\n\n\n\n\n\n\n核心成分：mPEG-PLGA/PLGA包裹水溶性替加环素（TGC），解决其半衰期短和血脑屏障渗透性差的问题。\n壳层修饰：\n\nAβ11肽：靶向血脑屏障上的低密度脂蛋白受体相关蛋白1（LRP1），促进纳米颗粒跨膜转运。\nTween 80：表面活性剂，通过改变纳米颗粒表面电荷和疏水性，增强其在脑内皮细胞的积累。\n\n优势：双靶向策略显著提高药物在脑部的富集效率。\n\n\n\n\n\n关键性能验证：\n\n体外实验：\n\n纳米颗粒粒径约158 nm，包封效率达84.2%，并能通过透析法实现持续药物释放（12小时内释放80%以上）。\n在bEnd.3脑内皮细胞模型中，Aβ11/T80@CSs的细胞摄取率比单靶向或未修饰组高3.9倍，且跨膜转运能力显著增强。\n\n体内实验：\n\n在MDR鲍曼不动杆菌颅内感染大鼠模型中，Aβ11/T80@CSs-TGC组的脑脊液（CSF）抗菌率高达90%，显著优于游离TGC组（抗菌率不足50%）。\n药代动力学分析显示，纳米颗粒可延长TGC的血浆半衰期（AUC_0-8h为游离TGC的2.5倍），并降低其清除率（CL降低2.76倍）。\n\n\n安全性评估：\n\n溶血率：&lt;5%（与阳性对照相比），表明纳米颗粒对红细胞无显著毒性。\n细胞毒性和组织病理学：bEnd.3细胞存活率&gt;80%，且对心、肝、脾、肺、肾等器官无明显病理损伤，证明其生物相容性良好。"
+  },
+  {
+    "objectID": "research/li_kangyan_20240330/index.html#研究意义与贡献",
+    "href": "research/li_kangyan_20240330/index.html#研究意义与贡献",
+    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "section": "",
+    "text": "解决临床难题：\n\n首次提出Aβ11/T80双靶向策略，成功克服血脑屏障，为颅内感染治疗提供新思路。\n纳米颗粒的高效递送使TGC在脑部达到有效浓度，显著抑制MDR鲍曼不动杆菌的生长。\n\n技术突破：\n\n核-壳纳米颗粒的稳定性和可控释放特性（12小时内持续释放80%药物）为水溶性抗生素的脑靶向递送提供了可行方案。\n\n临床转化潜力：\n\n研究为脑靶向纳米载体系统在颅内感染及其他中枢神经系统疾病中的应用奠定了基础，未来可通过优化靶向配体或联合其他抗生素进一步开发。"
+  },
+  {
+    "objectID": "research/li_kangyan_20240330/index.html#局限性与展望",
+    "href": "research/li_kangyan_20240330/index.html#局限性与展望",
+    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "section": "",
+    "text": "局限性：\n\n目前仅在动物模型中验证，需进一步开展临床试验评估人体安全性和疗效。\n纳米颗粒的长期毒性及在复杂病理环境下的稳定性需深入研究。\n\n未来方向：\n\n探索Aβ11/T80双靶向系统在其他耐药菌（如铜绿假单胞菌、耐药革兰氏阳性菌）颅内感染中的应用。\n结合基因治疗或免疫调节策略，开发多功能纳米药物递送平台。"
+  },
+  {
+    "objectID": "research/li_kangyan_20240330/index.html#结论",
+    "href": "research/li_kangyan_20240330/index.html#结论",
+    "title": "Dual-targeting tigecycline nanoparticles for treating intracranial infections caused by multidrug-resistant Acinetobacter baumannii",
+    "section": "",
+    "text": "本研究通过双靶向纳米颗粒设计，成功解决了替加环素在颅内感染治疗中的血脑屏障难题，显著提升了药物疗效和安全性。这一成果为耐药菌引起的中枢神经系统感染提供了创新的治疗策略，并推动了纳米医学在临床转化中的应用。"
+  },
+  {
+    "objectID": "research/li_Lucas_20250901/index.html",
+    "href": "research/li_Lucas_20250901/index.html",
+    "title": "Machine learning for the prediction of sepsis: a systematic review and meta-analysis of diagnostic test accuracy",
+    "section": "",
+    "text": "这篇文章是一篇关于机器学习在脓毒症预测中的应用的系统性综述和诊断试验准确性荟萃分析，发表于《Intensive Care Medicine》（2020年），由Lucas M. Fleuren等人完成。\n以下是该文章的核心内容总结：\n\n\n\n评估机器学习模型在医院环境中对脓毒症、严重脓毒症或脓毒性休克进行实时预测（即“右对齐”模型）的性能，并通过系统性回顾和荟萃分析识别影响模型表现的关键因素。\n\n\n\n\n\n文献检索：在PubMed、Embase和Scopus数据库中检索截至2019年9月的研究。\n纳入标准：\n\n研究对象为成人患者；\n使用监督式机器学习模型；\n目标是实时预测脓毒症（右对齐模型）；\n包括ICU、急诊科（ED）和普通病房等各类医院环境。\n\n质量评估：\n\n使用QUADAS-2工具评估偏倚风险；\n使用GRADE方法评估证据质量。\n\n数据分析：\n\n提取130个模型进行合成分析；\n对报告了AUROC（受试者工作特征曲线下面积）的模型进行荟萃分析，探索影响性能的因素。\n\n\n\n\n\n\n\n\n\n共纳入28项研究，涵盖130个机器学习模型。\n多数研究集中在重症监护室（ICU，54%），其次是普通病房（25%）和急诊科（14%）。\n常用数据来源包括MIMIC数据库和医院内部数据集。\n\n\n\n\n不同场景下的最佳预测性能如下：\n\n\n\n场景\n预测目标\nAUROC范围\n\n\n\n\nICU\n脓毒症\n0.68 – 0.99\n\n\n普通住院环境\n脓毒症\n0.96 – 0.98\n\n\n急诊科（ED）\n脓毒症\n0.87 – 0.97\n\n\nICU\n脓毒性休克\n0.83 – 0.96\n\n\n普通住院环境\n脓毒性休克\n0.86 – 0.94\n\n\n\n\n⚠️ 注意：由于各研究对“脓毒症”的定义不一致（如使用SIRS、SOFA、ICD编码、抗生素使用等），难以进行统一的荟萃分析。\n\n\n\n\n\n只有3篇研究（11%） 实现了临床部署，结果混合：\n\n有的显示能缩短ICU转科时间或降低死亡率；\n有的未显示出明显优势。\n\n多数模型仍停留在回顾性验证阶段，缺乏前瞻性临床试验支持。\n\n\n\n\n以下因素对模型性能影响最大： - 体温数据 - 实验室检查值（如乳酸、白细胞计数等） - 模型类型（如神经网络、集成方法等优于传统模型）\n\n\n\n\n\n\n机器学习模型在回顾性数据上表现良好，能够提前准确预测脓毒症的发生。\n尽管优于传统评分系统（如SIRS），但由于研究间异质性高（定义、数据、方法不同），无法得出整体性能的综合估计。\n当前大多数模型尚未经过充分的临床验证，从“数据”到“床边”的转化仍然不足。\n需要标准化报告规范、统一的脓毒症定义以及更多前瞻性临床研究来评估这些模型对患者结局的实际影响。\n\n\n\n\n\n\n回顾性研究表明，机器学习模型可以较准确地预测脓毒症和脓毒性休克的发生。然而，必须开展更多床旁前瞻性研究，以评估这些模型是否真正改善患者的临床结局。\n\n\n\n\n\n\n缺乏统一的脓毒症定义；\n多数研究存在高偏倚风险（如未说明数据划分、伦理审批等）；\n很少公开代码或数据，可重复性差；\n建议未来研究应：\n\n遵循标准化报告指南；\n开展真实世界前瞻性试验；\n注重临床实用性而非仅追求高AUROC。\n\n\n\n\n\n\n\n机器学习在脓毒症预测方面潜力巨大，但目前仍处于“实验室阶段”，距离广泛临床应用还有很长的路要走。"
+  },
+  {
+    "objectID": "research/li_Lucas_20250901/index.html#机器学习在脓毒症预测中的应用的系统性综述和诊断试验准确性荟萃分析fleuren2020",
+    "href": "research/li_Lucas_20250901/index.html#机器学习在脓毒症预测中的应用的系统性综述和诊断试验准确性荟萃分析fleuren2020",
+    "title": "Machine learning for the prediction of sepsis: a systematic review and meta-analysis of diagnostic test accuracy",
+    "section": "",
+    "text": "这篇文章是一篇关于机器学习在脓毒症预测中的应用的系统性综述和诊断试验准确性荟萃分析，发表于《Intensive Care Medicine》（2020年），由Lucas M. Fleuren等人完成。\n以下是该文章的核心内容总结：\n\n\n\n评估机器学习模型在医院环境中对脓毒症、严重脓毒症或脓毒性休克进行实时预测（即“右对齐”模型）的性能，并通过系统性回顾和荟萃分析识别影响模型表现的关键因素。\n\n\n\n\n\n文献检索：在PubMed、Embase和Scopus数据库中检索截至2019年9月的研究。\n纳入标准：\n\n研究对象为成人患者；\n使用监督式机器学习模型；\n目标是实时预测脓毒症（右对齐模型）；\n包括ICU、急诊科（ED）和普通病房等各类医院环境。\n\n质量评估：\n\n使用QUADAS-2工具评估偏倚风险；\n使用GRADE方法评估证据质量。\n\n数据分析：\n\n提取130个模型进行合成分析；\n对报告了AUROC（受试者工作特征曲线下面积）的模型进行荟萃分析，探索影响性能的因素。\n\n\n\n\n\n\n\n\n\n共纳入28项研究，涵盖130个机器学习模型。\n多数研究集中在重症监护室（ICU，54%），其次是普通病房（25%）和急诊科（14%）。\n常用数据来源包括MIMIC数据库和医院内部数据集。\n\n\n\n\n不同场景下的最佳预测性能如下：\n\n\n\n场景\n预测目标\nAUROC范围\n\n\n\n\nICU\n脓毒症\n0.68 – 0.99\n\n\n普通住院环境\n脓毒症\n0.96 – 0.98\n\n\n急诊科（ED）\n脓毒症\n0.87 – 0.97\n\n\nICU\n脓毒性休克\n0.83 – 0.96\n\n\n普通住院环境\n脓毒性休克\n0.86 – 0.94\n\n\n\n\n⚠️ 注意：由于各研究对“脓毒症”的定义不一致（如使用SIRS、SOFA、ICD编码、抗生素使用等），难以进行统一的荟萃分析。\n\n\n\n\n\n只有3篇研究（11%） 实现了临床部署，结果混合：\n\n有的显示能缩短ICU转科时间或降低死亡率；\n有的未显示出明显优势。\n\n多数模型仍停留在回顾性验证阶段，缺乏前瞻性临床试验支持。\n\n\n\n\n以下因素对模型性能影响最大： - 体温数据 - 实验室检查值（如乳酸、白细胞计数等） - 模型类型（如神经网络、集成方法等优于传统模型）\n\n\n\n\n\n\n机器学习模型在回顾性数据上表现良好，能够提前准确预测脓毒症的发生。\n尽管优于传统评分系统（如SIRS），但由于研究间异质性高（定义、数据、方法不同），无法得出整体性能的综合估计。\n当前大多数模型尚未经过充分的临床验证，从“数据”到“床边”的转化仍然不足。\n需要标准化报告规范、统一的脓毒症定义以及更多前瞻性临床研究来评估这些模型对患者结局的实际影响。\n\n\n\n\n\n\n回顾性研究表明，机器学习模型可以较准确地预测脓毒症和脓毒性休克的发生。然而，必须开展更多床旁前瞻性研究，以评估这些模型是否真正改善患者的临床结局。\n\n\n\n\n\n\n缺乏统一的脓毒症定义；\n多数研究存在高偏倚风险（如未说明数据划分、伦理审批等）；\n很少公开代码或数据，可重复性差；\n建议未来研究应：\n\n遵循标准化报告指南；\n开展真实世界前瞻性试验；\n注重临床实用性而非仅追求高AUROC。\n\n\n\n\n\n\n\n机器学习在脓毒症预测方面潜力巨大，但目前仍处于“实验室阶段”，距离广泛临床应用还有很长的路要走。"
   },
   {
     "objectID": "research/workshop_PCR/index.html",
