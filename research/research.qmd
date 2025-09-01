@@ -9,7 +9,7 @@ listing:
     image-height: 250px
     fields: [title, description, type, date]
     contents: 
-      - "literature_*/index.qmd"
+      - "li_*/index.qmd"
     type: table
     grid-item-border: false
     sort-ui: true
