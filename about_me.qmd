@@ -17,9 +17,13 @@ about:
     - icon: github
       text: laq12345
       href: https://github.com/laq12345
-#    - icon: linkedin
-#      text: Chi Zhang
-#      href: https://www.linkedin.com/in/chizapoth/
+    - icon: tencent-qq
+      text: QQ
+      href: misc/info/qq.png
+      target: _blank 
+    - icon: hospital
+      text: 郑州大学
+      href: https://www.zzu.edu.cn/
 fig-align: center
 ---
 

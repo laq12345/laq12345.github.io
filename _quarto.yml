@@ -43,9 +43,6 @@ website:
 
 
     right: 
-      - icon: journal-richtext
-        href: misc/info/resume.pdf
-        target: _blank 
       - icon: github
         href: https://github.com/laq12345
         target: _blank

@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-image','listing-title','listing-description','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -176,11 +176,6 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../misc/info/resume.pdf" target="_blank"> <i class="bi bi-journal-richtext" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/laq12345" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
@@ -209,7 +204,7 @@ window.Quarto = {
   <li><a href="#资料" id="toc-资料" class="nav-link active" data-scroll-target="#资料">资料</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/information/information.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></nav>
-    </div>
+    <h5 class="quarto-listing-category-title">分类</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">全部 <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -277,6 +272,7 @@ window.Quarto = {
 <div class="listing-date">
 2025年8月31日
 </div>
+<div class="listing-reading-time">1 分钟</div>
 </a>
 </div>
 </div>

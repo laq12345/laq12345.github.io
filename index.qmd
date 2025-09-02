@@ -4,19 +4,9 @@ lang: zh
 image: misc/info/favicon.jpg
 about:
   id: hero-heading
-  template: trestles
+  template: jolla
   image-width: 12em
   image-shape: round
-  links:
-    - icon: mailbox
-      text: 邮箱
-      href: mailto:2713874272@qq.com
-    - icon: github
-      text: laq12345
-      href: https://github.com/laq12345
-#    - icon: linkedin
-#      text: Chi Zhang
-#      href: https://www.linkedin.com/in/chizapoth/
 fig-align: center
 ---
 

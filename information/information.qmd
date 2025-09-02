@@ -6,13 +6,16 @@ listing:
     max-description-length: 800
     image-height: 200px
     image-align: right
-    fields: [date, image, title, description]
+    fields: [date, image, title, description, reading-time]
     contents:
       - "in_*/index.qmd"
     type: default
+    image-placeholder: "misc/info/favivon.jpg"
+    categories: true
     sort: false
     sort-ui: true
     filter-ui: true
+    page-size: 25
 ---
 
 ### 资料

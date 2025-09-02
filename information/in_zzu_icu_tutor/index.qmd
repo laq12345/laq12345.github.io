@@ -1,0 +1,27 @@
+---
+title: "郑州大学第一附属医院ICU的各位老师的信息"
+lang: zh
+date: "2025-09-02"
+description: "记录ICU的各位老师的联系方式等信息，url：https://m.youlai.cn/yyk/hospindex/1163/hospdeptexpert_43578.html"
+image: "images\paste-1.png"
+---
+
+## [ICU的各位老师们](https://m.youlai.cn/yyk/hospindex/1163/hospdeptexpert_43578.html)
+
+::: {#fig-icu layout-nrow="2"}
+![](images/paste-1.png)
+
+![](images/paste-2.png)
+
+![](images/paste-3.png)
+
+![](images/paste-4.png)
+:::
+
+### 邮箱：
+
+**孙同文**：suntongwen\@163.com
+
+**杜玉明**：dyming027\@sohu.com
+
+**孙荣青**：rongqing.sun\@126.com
