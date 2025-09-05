@@ -486,6 +486,20 @@ Eligibility criteria 纳入标准
 
 synthesis 综合
 
+atrophy 萎缩
+
+Autophagy 自噬
+
+dedifferentiation 去分化
+
+autocrine 自分泌
+
+paracrine 旁分泌
+
+ureteral 肾小管的
+
+degeneration 变性
+
 ## 基础单词
 
 deviate */ˈdiːvieɪt/* 偏离

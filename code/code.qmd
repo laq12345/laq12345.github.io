@@ -5,10 +5,9 @@ listing:
   - id: codes
     max-description-length: 80
     image-height: 290px
-    fields: [image, title, description]
+    fields: [image, title, description,date]
     contents: 
-      - ggehr
-      - qtwAcademic
+      - "p_*/index.qmd"
     type: grid
     grid-item-border: false
     sort-ui: false

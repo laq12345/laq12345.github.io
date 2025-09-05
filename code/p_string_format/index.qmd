@@ -1,0 +1,280 @@
+---
+title: "字符串格式化"
+description: "字符串的格式化方法"
+date: "2025-09-05"
+categories: [Python,string]
+image: "../image/py.jpg"
+---
+
+Python 提供了多种字符串格式化的方法，每种方法都有其特点和适用场景。以下是目前最主流和常用的几种字符串格式化方式的详细介绍：
+
+## 四种方法
+
+### 1. f-string (Formatted String Literals) - 推荐（Python 3.6+）
+
+f-string 是目前最推荐、最高效且最简洁的字符串格式化方法。它在字符串前加上 `f` 或 `F`，并在大括号 `{}` 中直接嵌入表达式。
+
+**基本语法：**
+
+``` python
+f"字符串内容 {变量或表达式} 更多内容"
+```
+
+**示例：**
+
+``` python
+name = "Alice"
+age = 30
+score = 95.5
+
+# 基本用法
+message = f"Hello, {name}! You are {age} years old."
+print(message)  # 输出: Hello, Alice! You are 30 years old.
+
+# 可以直接计算
+calculation = f"Next year you will be {age + 1} years old."
+print(calculation)  # 输出: Next year you will be 31 years old.
+
+# 格式化数字（保留小数位）
+result = f"Your score is {score:.2f}"
+print(result)  # 输出: Your score is 95.50
+
+# 调用函数
+greeting = f"Hello, {name.upper()}!"
+print(greeting)  # 输出: Hello, ALICE!
+```
+
+**优点：** \* **性能最好**：编译时解析，运行时直接使用。 \* **语法简洁**：代码可读性强。 \* **功能强大**：支持表达式、函数调用、格式化等。
+
+------------------------------------------------------------------------
+
+### 2. `.format()` 方法（Python 2.7+, 3.x）
+
+这是在 f-string 出现之前最推荐的方法，使用 `str.format()` 方法进行格式化。
+
+**基本语法：**
+
+``` python
+"字符串内容 {位置或名称} 更多内容".format(值1, 值2, ...)
+```
+
+**示例：**
+
+``` python
+name = "Bob"
+age = 25
+
+# 按位置
+message1 = "Hello, {}! You are {} years old.".format(name, age)
+print(message1)  # 输出: Hello, Bob! You are 25 years old.
+
+# 指定位置（索引从0开始）
+message2 = "Hello, {0}! You are {1} years old. Welcome, {0}!".format(name, age)
+print(message2)  # 输出: Hello, Bob! You are 25 years old. Welcome, Bob!
+
+# 使用关键字参数
+message3 = "Hello, {name}! You are {age} years old.".format(name="Charlie", age=35)
+print(message3)  # 输出: Hello, Charlie! You are 35 years old.
+
+# 混合使用
+message4 = "Hello, {0}! You are {age} years old.".format("David", age=40)
+print(message4)  # 输出: Hello, David! You are 40 years old.
+
+# 格式化数字
+pi = 3.14159
+formatted_pi = "Pi is approximately {:.2f}".format(pi)
+print(formatted_pi)  # 输出: Pi is approximately 3.14
+```
+
+**优点：** \* 功能强大，灵活性高。 \* 在 Python 3.6 之前是首选方法。
+
+------------------------------------------------------------------------
+
+### 3. % 格式化（旧式格式化）
+
+这是 Python 早期使用的格式化方法，类似于 C 语言的 `printf`。
+
+**基本语法：**
+
+``` python
+"字符串内容 %s %d %f" % (值1, 值2, 值3)
+```
+
+**常用占位符：** \* `%s`：字符串 \* `%d`：整数 \* `%f`：浮点数 \* `%.2f`：保留两位小数的浮点数
+
+**示例：**
+
+``` python
+name = "Eve"
+age = 28
+height = 1.75
+
+message = "Hello, %s! You are %d years old and %.2f meters tall." % (name, age, height)
+print(message)  # 输出: Hello, Eve! You are 28 years old and 1.75 meters tall.
+```
+
+**缺点：** \* 语法相对繁琐，容易出错（如括号和逗号）。 \* 类型不安全，如果类型不匹配会报错。 \* 性能不如 f-string 和 `.format()`。
+
+**注意：** 官方已不推荐使用此方法，建议使用 f-string 或 `.format()`。
+
+------------------------------------------------------------------------
+
+### 4. Template Strings（模板字符串）
+
+适用于需要安全替换的场景，比如用户输入的模板。
+
+**基本语法：**
+
+``` python
+from string import Template
+
+template = Template("Hello, $name! You are $age years old.")
+result = template.substitute(name="Frank", age=33)
+```
+
+**示例：**
+
+``` python
+from string import Template
+
+# 定义模板
+t = Template("Hello, $name! Welcome to $place.")
+
+# 填充数据
+result = t.substitute(name="Grace", place="Python World")
+print(result)  # 输出: Hello, Grace! Welcome to Python World.
+
+# 也可以使用字典
+data = {"name": "Henry", "place": "the party"}
+result2 = t.substitute(data)
+print(result2)  # 输出: Hello, Henry! Welcome to the party.
+```
+
+**优点：** \* **安全性高**：不会执行任意代码，适合处理不受信任的输入。 \* 语法简单。
+
+**缺点：** \* 功能相对有限，不支持复杂的表达式。
+
+------------------------------------------------------------------------
+
+### 总结与建议
+
+| 方法          | 推荐程度   | 适用场景                             |
+|:--------------|:-----------|:-------------------------------------|
+| **f-string**  | ⭐⭐⭐⭐⭐ | **绝大多数情况下的首选**，简洁高效。 |
+| **.format()** | ⭐⭐⭐⭐   | 需要向后兼容旧版本 Python 时使用。   |
+| **% 格式化**  | ⭐         | 不推荐，仅用于维护旧代码。           |
+| **Template**  | ⭐⭐⭐     | 需要安全替换用户提供的模板时。       |
+
+**最佳实践：** \* **新项目一律使用 f-string**，它是最现代、最高效的方式。 \* 理解 `.format()` 的用法，以便阅读旧代码。 \* 避免使用 `%` 格式化。 \* 在需要安全性的场景下考虑 `Template`。
+
+## %格式化
+
+虽然它已被 f-string 和 `.format()` 方法取代，不再推荐用于新代码，但理解它对于阅读和维护旧代码仍然非常重要。
+
+------------------------------------------------------------------------
+
+### `%` 格式化的基本语法
+
+``` python
+"格式化字符串 %占位符" % (值1, 值2, ...)
+```
+
+-   **格式化字符串**：包含普通文本和 `%` 开头的**占位符**。
+-   **%**：连接符，左边是格式化字符串，右边是要插入的值（可以是单个值或元组）。
+-   **占位符**：定义了值的类型和格式。
+
+------------------------------------------------------------------------
+
+### 常用的占位符
+
+| 占位符 | 含义 | 示例 |
+|:-----------------------|:-----------------------|:-----------------------|
+| `%s` | 字符串 (String) | `"Name: %s" % "Alice"` |
+| `%d` | 有符号十进制整数 (Decimal) | `"Age: %d" % 30` |
+| `%f` | 浮点数 (Float) | `"Price: %f" % 9.99` |
+| `%x` | 十六进制整数 (小写) | `"%x" % 255` → `ff` |
+| `%X` | 十六进制整数 (大写) | `"%X" % 255` → `FF` |
+| `%o` | 八进制整数 | `"%o" % 64` → `100` |
+| `%e` | 科学计数法 (小写) | `"%e" % 1000` → `1.000000e+03` |
+| `%E` | 科学计数法 (大写) | `"%E" % 1000` → `1.000000E+03` |
+| `%g` | 根据值自动选择 `%f` 或 `%e` | `"%g" % 0.0001` → `0.0001` |
+| `%G` | 根据值自动选择 `%f` 或 `%E` | `"%G" % 1000000` → `1e+06` |
+| `%%` | 字面意义上的 `%` 符号 | `"Discount: %d%%" % 10` → `Discount: 10%` |
+
+------------------------------------------------------------------------
+
+### 格式化修饰符
+
+占位符可以包含修饰符来控制输出的格式：
+
+``` python
+%[flags][width][.precision]type
+```
+
+-   **`flags`** (可选标志):
+
+    -   `-`：左对齐（默认是右对齐）。
+    -   `+`：为数字显示正负号。
+    -   `0`：用 `0` 填充空白（通常与 `width` 一起使用）。
+    -   空格：为正数预留一个空格位置。
+    -   `#`：为八进制加 `0o`，十六进制加 `0x` 或 `0X`。
+
+-   **`width`** (可选宽度): 指定最小字段宽度。如果内容不足，用空格填充。
+
+-   **`.precision`** (可选精度): 对于浮点数，指定小数点后的位数；对于字符串，指定最大字符数。
+
+-   **`type`** (类型): 上面表格中的类型字符（`s`, `d`, `f` 等）。
+
+------------------------------------------------------------------------
+
+### 详细示例
+
+``` python
+name = "Alice"
+age = 30
+price = 19.99
+pi = 3.1415926
+large_num = 1234567.89
+
+# 1. 基本用法
+print("Hello, %s!" % name)  # Hello, Alice!
+
+# 2. 多个值 (必须使用元组)
+print("Name: %s, Age: %d" % (name, age))  # Name: Alice, Age: 30
+
+# 3. 浮点数格式化
+print("Price: %.2f" % price)      # Price: 19.99 (保留2位小数)
+print("Pi: %.4f" % pi)            # Pi: 3.1416 (保留4位小数，自动四舍五入)
+print("Pi: %.0f" % pi)            # Pi: 3 (不保留小数)
+
+# 4. 指定宽度 (右对齐)
+print("Name: %10s" % name)        # Name:      Alice (总宽10，右对齐)
+print("Age: %5d" % age)           # Age:    30 (总宽5，右对齐)
+
+# 5. 左对齐
+print("Name: %-10s End" % name)   # Name: Alice      End
+
+# 6. 填充零
+print("Age: %05d" % age)          # Age: 00030
+
+# 7. 显示正负号
+print("Temp: %+d" % age)          # Temp: +30
+print("Temp: %+d" % -age)         # Temp: -30
+
+# 8. 字符串截断
+long_name = "Alexander"
+print("Short: %.5s" % long_name)  # Short: Alexa (最多5个字符)
+
+# 9. 使用字典 (更清晰，推荐)
+person = {"name": "Bob", "age": 25, "city": "NYC"}
+print("Name: %(name)s, Age: %(age)d, City: %(city)s" % person)
+# Name: Bob, Age: 25, City: NYC
+
+# 10. 科学计数法
+print("Large: %e" % large_num)    # Large: 1.234568e+06
+print("Large: %.2E" % large_num)  # Large: 1.23E+06
+
+# 11. 显示百分号
+discount = 15
+print("Discount: %d%%" % discount) # Discount: 15%
+```

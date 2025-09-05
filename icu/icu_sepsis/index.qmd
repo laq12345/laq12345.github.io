@@ -26,7 +26,7 @@ lightbox: true
 
 ![](images/paste-1.png)
 
-::: callout-important
+::: {.callout-important icon="false"}
 ## 脓毒症诊断
 
 怀疑感染+序贯器官衰竭评分（SOFA）大于等于2

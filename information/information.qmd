@@ -3,8 +3,8 @@ title: "资料"
 lang: zh
 listing:
   - id: opensource
-    max-description-length: 800
-    image-height: 200px
+#    max-description-length: 500
+#    image-height: 200px
     image-align: right
     fields: [date, image, title, description, reading-time]
     contents:
