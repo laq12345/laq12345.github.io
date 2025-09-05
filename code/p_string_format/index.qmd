@@ -4,6 +4,7 @@ description: "字符串的格式化方法"
 date: "2025-09-05"
 categories: [Python,string]
 image: "../image/py.jpg"
+code-overflow: scroll
 ---
 
 Python 提供了多种字符串格式化的方法，每种方法都有其特点和适用场景。以下是目前最主流和常用的几种字符串格式化方式的详细介绍：
