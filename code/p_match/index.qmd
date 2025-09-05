@@ -1,0 +1,252 @@
+---
+title: "模式匹配"
+description: "match的用法"
+date: "2025-09-05"
+categories: [Python,match]
+image: "../image/py.jpg"
+code-overflow: scroll
+---
+
+在Python中，`match` 是一个用于模式匹配（Pattern Matching）的语句，它是在 **Python 3.10** 版本中引入的新特性，被称为 **Structural Pattern Matching**（结构化模式匹配），通常也被称为 `match-case` 语句。它的语法灵感来自于其他语言（如 Rust、Scala）中的 `match` 或 `switch` 语句，但功能更强大。
+
+---
+
+## 一、基本语法
+
+```python
+match subject:
+    case pattern1:
+        # 执行代码块1
+        ...
+    case pattern2:
+        # 执行代码块2
+        ...
+    case _:
+        # 默认情况（可选）
+        ...
+```
+
+- `subject`：要匹配的值。
+- `case` 后面是**模式（pattern）**，用于匹配 `subject` 的结构或值。
+- `_` 是通配符，表示“匹配任何情况”，通常作为默认分支。
+
+---
+
+## 二、基本用法示例
+
+### 1. 简单值匹配（类似 switch）
+
+```python
+def http_status(status):
+    match status:
+        case 200:
+            return "OK"
+        case 404:
+            return "Not Found"
+        case 500:
+            return "Server Error"
+        case _:
+            return "Unknown status"
+
+print(http_status(404))  # 输出: Not Found
+```
+
+> ⚠️ 注意：与传统 `switch` 不同的是，`match-case` 不需要 `break`，也不会“穿透”到下一个 `case`。
+
+---
+
+### 2. 多个值匹配（使用 `|`）
+
+```python
+def describe_permission(code):
+    match code:
+        case "read" | "r":
+            return "只读权限"
+        case "write" | "w":
+            return "写权限"
+        case "read write" | "r w":
+            return "读写权限"
+        case _:
+            return "未知权限"
+
+print(describe_permission("r"))  # 输出: 只读权限
+```
+
+---
+
+## 三、结构化模式匹配（核心功能）
+
+`match` 的强大之处在于可以解构数据结构。
+
+### 1. 匹配元组、列表
+
+```python
+def handle_point(point):
+    match point:
+        case (0, 0):
+            print("原点")
+        case (x, 0):
+            print(f"X轴上的点，x={x}")
+        case (0, y):
+            print(f"Y轴上的点，y={y}")
+        case (x, y):
+            print(f"普通点，x={x}, y={y}")
+        case _:
+            print("无效点")
+
+handle_point((3, 4))   # 输出: 普通点，x=3, y=4
+handle_point((0, 5))   # 输出: Y轴上的点，y=5
+```
+
+> 支持列表 `[]`，但通常建议使用元组 `()`。
+
+---
+
+### 2. 匹配对象（类实例）
+
+```python
+class Point:
+    __match_args__ = ('x', 'y')  # 定义位置参数匹配顺序
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+def location(point):
+    match point:
+        case Point(0, 0):
+            return "原点"
+        case Point(0, y):
+            return f"Y轴，y={y}"
+        case Point(x, 0):
+            return f"X轴，x={x}"
+        case Point(x, y) if x == y:
+            return f"在 y=x 线上，x={x}"
+        case Point(x, y):
+            return f"点({x}, {y})"
+        case _:
+            return "不是点"
+
+p1 = Point(3, 3)
+print(location(p1))  # 输出: 在 y=x 线上，x=3
+```
+
+> `__match_args__` 是关键，它定义了类在模式匹配中如何按位置参数进行匹配。
+
+---
+
+### 3. 嵌套结构匹配
+
+```python
+def process_data(data):
+    match data:
+        case ['error', code, message]:
+            print(f"错误: {code}, {message}")
+        case ['success', {'name': name, 'age': age}]:
+            print(f"成功: {name}, {age}岁")
+        case ['login', username, password]:
+            print(f"登录: {username}")
+        case _:
+            print("未知数据格式")
+
+process_data(['success', {'name': 'Alice', 'age': 25}])
+# 输出: 成功: Alice, 25岁
+```
+
+---
+
+### 4. 使用 `if` 进行条件匹配（Guard）
+
+```python
+def check_number(n):
+    match n:
+        case x if x < 0:
+            return "负数"
+        case 0:
+            return "零"
+        case x if x % 2 == 0:
+            return "正偶数"
+        case x if x % 2 == 1:
+            return "正奇数"
+        case _:
+            return "其他"
+
+print(check_number(-5))  # 输出: 负数
+print(check_number(4))   # 输出: 正偶数
+```
+
+---
+
+### 5. 通配符与变量绑定
+
+```python
+def greet(event):
+    match event:
+        case {'action': 'greet', 'name': str(name)}:
+            print(f"你好, {name}!")
+        case {'action': 'greet', 'name': name}:
+            print(f"名字不是字符串: {name}")
+        case {'action': action, 'time': t}:
+            print(f"动作: {action}, 时间: {t}")
+        case _:
+            print("未知事件")
+
+greet({'action': 'greet', 'name': 'Bob'})  # 输出: 你好, Bob!
+```
+
+- `str(name)`：确保 `name` 是字符串类型，并将其值绑定到变量 `name`。
+- `action`：直接绑定值。
+
+---
+
+## 四、注意事项与限制
+
+1. **仅支持 Python 3.10+**
+   - 低版本会报语法错误。
+
+2. **不会“穿透”**
+   - 匹配成功后自动跳出，无需 `break`。
+
+3. **模式是从上到下匹配**
+   - 第一个匹配的 `case` 被执行，后面的忽略。
+
+4. **变量绑定**
+   - 在 `case` 中使用的变量会被绑定到对应值，作用域仅限于该 `case` 块。
+
+5. **不支持 `or`，使用 `|`**
+   - 正确：`case 1 | 2:`
+   - 错误：`case 1 or 2:`
+
+---
+
+## 五、与 `if-elif-else` 的对比
+
+| 特性 | `match-case` | `if-elif-else` |
+|------|-------------|----------------|
+| 可读性 | 高（尤其结构解构） | 一般 |
+| 性能 | 通常更快（编译器优化） | 逐条判断 |
+| 功能 | 支持结构解构、类型匹配 | 仅条件判断 |
+| 版本要求 | Python 3.10+ | 所有版本 |
+
+---
+
+## 六、适用场景
+
+- 解析复杂数据结构（如 JSON、API 响应）
+- 状态机处理
+- 命令行参数解析
+- 路由分发（如 Web 框架）
+- 枚举类型处理
+
+---
+
+## 总结
+
+`match-case` 是 Python 3.10 引入的强大工具，超越了传统 `switch` 语句，支持：
+
+- 值匹配
+- 类型匹配
+- 结构解构
+- 条件守卫（`if`）
+- 通配符和变量绑定
+
+它让代码更清晰、简洁，尤其适合处理复杂数据结构。如果你使用的是 Python 3.10 或更高版本，强烈推荐在合适场景中使用 `match` 语句替代冗长的 `if-elif` 链。
