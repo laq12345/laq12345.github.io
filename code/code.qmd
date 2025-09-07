@@ -8,6 +8,7 @@ listing:
     fields: [image, title, description,date]
     contents: 
       - "p_*/index.qmd"
+      - "q_*/index.qmd"
     type: grid
     grid-item-border: false
     sort-ui: false

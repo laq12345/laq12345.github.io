@@ -1,19 +1,9 @@
 [
   {
-    "listing": "/blog/blog.html",
+    "listing": "/information/information.html",
     "items": [
-      "/blog/blog_interview_non_professional/index.html",
-      "/blog/blog_introduction_en/index.html",
-      "/blog/blog_introduction_zh/index.html",
-      "/blog/readnote_20240606_bad_pharma/index.html",
-      "/blog/learnnote_words/index.html"
-    ]
-  },
-  {
-    "listing": "/code/code.html",
-    "items": [
-      "/code/p_string_format/index.html",
-      "/code/p_match/index.html"
+      "/information/in_zh/index.html",
+      "/information/in_zzu_icu_tutor/index.html"
     ]
   },
   {
@@ -52,10 +42,23 @@
     ]
   },
   {
-    "listing": "/information/information.html",
+    "listing": "/blog/blog.html",
     "items": [
-      "/information/in_zh/index.html",
-      "/information/in_zzu_icu_tutor/index.html"
+      "/blog/blog_interview_non_professional/index.html",
+      "/blog/blog_introduction_en/index.html",
+      "/blog/blog_introduction_zh/index.html",
+      "/blog/readnote_20240606_bad_pharma/index.html",
+      "/blog/learnnote_researchwords/index.html",
+      "/blog/learnnote_sepsis/index.html",
+      "/blog/learnnote_words/index.html"
+    ]
+  },
+  {
+    "listing": "/code/code.html",
+    "items": [
+      "/code/q_style/index.html",
+      "/code/p_string_format/index.html",
+      "/code/p_match/index.html"
     ]
   },
   {
@@ -71,6 +74,7 @@
       "/research/li_Lucas_20250901/index.html",
       "/research/li_zhongyanjun_20220818/index.html",
       "/research/li_Zhangdongshan_20250905/index.html",
+      "/research/li_zhongyanjun_20250907/index.html",
       "/research/li_kangyan_20250703/index.html",
       "/research/workshop_PCR/index.html",
       "/research/workshop_WB/index.html",

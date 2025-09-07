@@ -1,0 +1,126 @@
+---
+title: "style"
+description: "quarto中span的style的color用于定义字体颜色"
+date: "2025-09-07"
+categories: [quarto,span]
+image: "../image/quarto_icon.svg"
+code-overflow: scroll
+---
+
+# Quarto 中 span 的 style 属性支持的颜色单词清单
+
+在 Quarto 的`span`元素中，`style`属性通过`color`（文本色）或`background-color`（背景色）定义颜色时，支持**CSS 标准颜色单词**—— 这些单词是预定义的颜色名称，无需手动输入十六进制（#XXX）或 RGB 值，直接使用英文单词即可生效。以下是完整分类与说明：
+
+## 一、CSS 标准颜色单词分类（共 147 个，含常用与扩展）
+
+CSS 颜色单词分为 “基础颜色”“扩展颜色”“特殊颜色” 三类，其中基础颜色兼容性最高（支持 HTML、PDF、Word 所有输出格式），扩展颜色在 HTML 中完全支持，PDF/Word 需依赖渲染引擎兼容（通常主流扩展颜色均支持）。
+
+### 1. 基础颜色（16 个，最常用且全格式兼容）
+
+这类颜色是 CSS1 标准定义的核心颜色，所有 Quarto 输出格式（HTML/PDF/Word）均完美支持，适合日常文档样式设计：
+
+| 颜色单词 | 对应的颜色描述 | Quarto 代码示例（span 应用） |
+|--------------|--------------|---------------------------------------------|
+| `black` | [纯黑]{style="color: black;"} | `<span style="color: black;">纯黑文本</span>` |
+| `white` | [纯白]{style="color: white;"} | `<span style="background-color: white;">白色背景</span>` |
+| `red` | [纯红]{style="color: red;"} | `<span style="color: red;">红色文本</span>` |
+| `green` | [纯绿]{style="color: green;"} | `<span style="color: green;">绿色文本</span>` |
+| `blue` | [纯蓝]{style="color: blue;"} | `<span style="background-color: blue; color: white;">蓝底白字</span>` |
+| `yellow` | [纯黄]{style="color: yellow;"} | `<span style="color: yellow; background-color: black;">黑底黄字</span>` |
+| `cyan` | [青色（蓝绿色）]{style="color: cyan;"} | `<span style="color: cyan;">青色文本</span>` |
+| `magenta` | [品红色（洋红色）]{style="color: magenta"} | `<span style="color: magenta;">品红色文本</span>` |
+| `gray` | [灰色（中灰）]{style="color: gray;"} | `<span style="color: gray;">灰色文本</span>` |
+| `grey` | [灰色（与 gray 同义，英式拼写）]{style="color: grey;"} | `<span style="background-color: grey;">灰色背景</span>` |
+| `silver` | [银色（浅灰）]{style="color: silver"} | `<span style="color: silver;">银色文本</span>` |
+| `maroon` | [褐红色（深红）]{style="color: maroon"} | `<span style="color: maroon;">褐红色文本</span>` |
+| `olive` | [橄榄绿（黄绿）]{style="color: olive"} | `<span style="color: olive;">橄榄绿文本</span>` |
+| `purple` | [紫色（深紫）]{style="color: purple;"} | `<span style="background-color: purple; color: white;">紫底白字</span>` |
+| `teal` | [青绿色（深 cyan）]{style="color: teal;"} | `<span style="color: teal;">青绿色文本</span>` |
+| `navy` | [藏蓝色（深蓝）]{style="color: navy;"} | `<span style="color: navy;">藏蓝色文本</span>` |
+
+### 2. 扩展颜色（131 个，HTML 全支持，PDF/Word 主流兼容）
+
+这类颜色是 CSS3 标准新增的扩展名称，涵盖更多细分色调（如浅红、深绿、天蓝等），适合需要更丰富色彩的场景。以下是高频使用的 30 个（完整 131 个可参考 CSS 官方文档）：
+
+| 颜色单词 | 颜色描述 | 适用场景 |
+|------------|------------|------------|
+| `lightred` | [浅红色]{style="color: lightred;"} | 温和警告文本 |
+| `darkred` | [深红色]{style="color: darkred;"} | 强调性危险提示 |
+| `lightgreen` | [浅绿色]{style="color: lightgreen;"} | 温和成功提示 |
+| `darkgreen` | [深绿色]{style="color: darkgreen;"} | 正式成功标识 |
+| `lightblue` | [浅蓝色（天蓝）]{style="color: lightblue;"} | 普通提示文本 |
+| `darkblue` | [深蓝色（接近藏蓝）]{style="color: darkblue;"} | 正式标题或重点 |
+| `lightyellow` | [浅黄色]{style="color: lightyellow;"} | 轻微提示背景 |
+| `lightcyan` | [浅青色]{style="color: lightcyan; background-color: navy;"} | 清新风格文本 |
+| `lightmagenta` | [浅品红色]{style="color: lightmagenta;"} | 活泼风格标注 |
+| `magenta` | [品红色]{style="color: magenta;"} |  |
+| `darkgray` | [深灰色]{style="color: darkgray;"} | 次要注释文本 |
+| `darkgrey` | [深灰色（英式拼写）]{style="color: darkgrey;"} | 同 darkgray |
+| `lightgray` | [浅灰色]{style="color: lightgray;"} | 轻微区分的文本 |
+| `lightgrey` | [浅灰色（英式拼写）]{style="color: lightgrey;"} | 同 lightgray |
+| `coral` | [珊瑚色（橙红）]{style="color: coral;"} | 醒目但不刺眼的强调 |
+| `tomato` | [番茄色（亮红）]{style="color: tomato;"} | 紧急但非危险的提示 |
+| `orange` | [橙色]{style="color: orange;"} | 警示或重点突出 |
+| `gold` | [金色]{style="color: gold;"} | 荣誉或重要数据标识 |
+| `brown` | [棕色]{style="color: brown"} | 复古风格文本或标注 |
+| `tan` | [棕褐色（浅棕）]{style="color: tan;"} | 温和的区分文本 |
+| `khaki` | [卡其色（浅黄绿）]{style="color: khaki;"} | 中性提示背景 |
+| `lavender` | [薰衣草色（浅紫）]{style="color: lavender;"} | 柔和的重点标注 |
+| `violet` | [紫罗兰色（亮紫）]{style="color: violet;"} | 活泼的强调文本 |
+| `pink` | [粉色]{style="color: pink;"} | 柔和的提示或女性向内容 |
+| `fuchsia` | [紫红色（与 magenta 近义）]{style="color: fuchsia;"} | 醒目强调 |
+| `aqua` | [水色（与 cyan 近义）]{style="color: aqua;"} | 清新风格文本 |
+| `lime` | [酸橙绿（亮绿）]{style="color: lime;"} | 鲜明的成功提示 |
+| `indigo` | [靛蓝色（深蓝紫）]{style="color: indigo;"} | 正式且醒目的重点 |
+| `salmon` | [三文鱼色（橙粉）]{style="color: salmon"} | 温和的警示或标注 |
+| `beige` | [米色（浅黄褐）]{style="color: beige;"} | 中性、柔和的背景 |
+| `plum` | [李子色（深紫粉）]{style="color: plum;"} | 优雅的强调文本 |
+
+### 3. 特殊颜色（2 个，透明与当前颜色）
+
+这类颜色不代表具体色调，而是功能型颜色，用于特殊场景：
+
+| 颜色单词 | 功能说明 | 适用场景 | 代码示例 |
+|-----------|-----------|-----------|----------------------------------------|
+| `transparent` | 透明色（文本或背景完全透明） | 需叠加显示的文本或背景 | `<span style="background-color: transparent; color: red;">透明背景红色文本</span>` |
+| `currentColor` | 继承当前文本颜色（背景色与文本色一致） | 统一风格的背景填充 | `<span style="color: blue; background-color: currentColor; color: white;">蓝底白字（背景继承文本色）</span>` |
+
+## 二、使用注意事项（结合 Quarto 输出特性）
+
+1.  **大小写不敏感，但建议小写**：
+
+    CSS 颜色单词对大小写不敏感（如`Red`/`red`/`RED`效果一致），但 Quarto 文档中建议统一用小写（如`color: red`），符合 Markdown 语法简洁性原则。
+
+2.  **输出格式兼容性差异**：
+
+-   **HTML**：支持所有 147 个颜色单词，无限制；
+
+-   **PDF**（依赖 LaTeX 渲染）：基础 16 色完全支持，扩展颜色中 “常见色调”（如`orange`/`pink`/`brown`）支持，小众扩展色（如`chartreuse`/`thistle`）可能显示为相近基础色；
+
+-   **Word**：基础 16 色 + 主流扩展色（约 50 个）支持，极小众扩展色可能被自动转为 “自动颜色”（黑色），建议在 Word 输出前测试小众颜色。
+
+1.  **与十六进制 / RGB 颜色的选择逻辑**：
+
+-   若需 “标准色”（如纯红、纯蓝），优先用颜色单词（语法更简洁，如`color: red`比`color: #FF0000`更易读）；
+
+-   若需 “自定义色”（如特定品牌色、渐变色），再用十六进制（`#2E86AB`）或 RGB（`rgb(46, 134, 171)`），例如：
+
+```         
+\<!-- 自定义蓝色，比单词blue更柔和 -->
+
+\<span style="color: #2E86AB;">自定义柔和蓝色文本\</span>
+```
+
+1.  **避免与 Quarto 内置类冲突**：
+
+    Quarto 内置 Bootstrap 类（如`.text-primary`对应蓝色，`.text-danger`对应红色）已优化颜色适配，若仅需基础强调色，可优先用类（`[红色文本]{.text-danger}`），而非手动写`span style="color: red"`—— 类会自动适配输出格式，兼容性更强。
+
+## 三、常用颜色单词应用示例（覆盖多场景）
+
+| 场景需求 | Quarto 代码示例 | 输出效果说明 |
+|------------|------------------------------------------------|------------|
+| 紧急警告文本 | `<span style="color: darkred; font-weight: bold;">紧急警告：数据异常</span>` | 加粗深红色文本，醒目且正式 |
+| 成功提示文本 | `<span style="color: green; background-color: lightgreen; padding: 0 3px;">操作成功</span>` | 绿色文本 + 浅绿背景，温和提示 |
+| 重点数据标注 | `<span style="color: gold; background-color: darkblue; padding: 0 2px;">95%</span>` | 金色数据 + 深蓝背景，突出关键指标 |
+| 次要注释文本 | `<span style="color: lightgray; font-style: italic;">注：该数据为2024年统计</span>` | 浅灰色斜体，区分正文与注释 |
+| 多色对比文本 | `实验组：<span style="color: blue;">82分</span> vs 对照组：<span style="color: red;">65分</span>` | 蓝红对比，清晰区分两组数据 |

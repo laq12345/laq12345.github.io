@@ -38,7 +38,27 @@ Renal */ˈriːnl/* failure 肾衰竭
 
 Acute Kidney Injury (AKI) 急性肾损伤
 
+Acute Liver Failure (ALF)急性肝衰竭
+
+Hepatic Encephalopathy (HE) 肝性脑病
+
+Severe Acute Pancreatitis (SAP) 重症急性胰腺炎
+
+Gastrointestinal Bleeding (GIB) 消化道出血
+
 Encephalopathy */enˌsefəˈlɒpəθi; enˌkefəˈlɒpəθi/* 脑病
+
+Increased Intracranial Pressure (ICP) 颅内压升高
+
+Status Epilepticus (SE) 癫痫持续状态
+
+Subarachnoid Hemorrhage (SAH) 蛛网膜下腔出血
+
+Intracerebral Hemorrhage (ICH) 脑出血
+
+Traumatic Brain Injury (TBI) 创伤性脑损伤
+
+Cerebral Edema 脑水肿
 
 Disseminated /dɪˈsemɪneɪtɪd/ Intravascular /ˌɪntrəˈvæskjʊlə(r)/ Coagulation /kəʊˌæɡjuˈleɪʃ(ə)n/ (DIC) 弥散性血管内凝血
 
@@ -48,6 +68,12 @@ sepsis 脓毒症
 
 septic shock感染性休克
 
+Cardiogenic Shock (CS) 心源性休克
+
+Hypovolemic Shock 低血容量性休克
+
+Distributive Shock 分布性休克
+
 Delirium */dɪˈlɪriəm; dɪˈlɪəriəm/* 谵妄
 
 SIRS 全身炎症反应综合征
@@ -55,6 +81,8 @@ SIRS 全身炎症反应综合征
 Organ dysfunction 器官功能障碍
 
 Multiple Organ Dysfunction Syndrome, MODS 多器官功能障碍综合征
+
+Systemic Inflammatory Response Syndrome (SIRS) 全身炎症反应综合征
 
 Deep vein thrombosis */θrɒmˈbəʊsɪs/* (DVT) 深静脉血栓
 
@@ -82,6 +110,8 @@ hospital-acquired infection 医院获得性感染
 
 Catheter-related bloodstream infection (CRBSI) 导管相关血流感染
 
+Catheter-Associated Urinary Tract Infection (CAUTI) 导管相关尿道感染
+
 Ventilator-associated pneumonia */njuːˈməʊniə/* (VAP) 呼吸机相关肺炎
 
 Multidrug-resistant organism (MDRO) 多重耐药菌
@@ -94,9 +124,31 @@ Non-ST elevation */,elɪ'veɪʃ(ə)n/* myocardial */,maɪəʊ'kɑːdɪəl/* infa
 
 Post-ICU Syndrome, PICS ICU后综合征
 
+Stress Ulcer Bleeding (SUB) 应激性溃疡出血
+
+Malnutrition 营养不良
+
+Post-Intubation Laryngeal Stenosis (PILS) 插管后喉狭窄
+
+Hypokalemia / Hyperkalemia 低钾血症/高钾血症
+
+Hypocalcemia / Hypercalcemia 低钙血症/高钙血症
+
+Hypernatremia / Hyponatremia 低钠血症/高钠血症
+
+Metabolic Acidosis (MA) 代谢性酸中毒
+
+Respiratory Alkalosis (RA) 呼吸性碱中毒
+
+Rhabdomyolysis (RM) */ræbdəʊmaɪˈəʊlɪsɪs/* 横纹肌溶解综合征
+
+ICU-Acquired Weakness (ICU-AW) ICU获得性衰弱
+
+Acute Gastrointestinal Injury (AGI) 急性胃肠损伤
+
 ## 急救与复苏
 
-CPR 心肺复苏
+Cardiopulmonary Resuscitation (CPR) 心肺复苏
 
 AED 自动体外除颤器
 
@@ -108,6 +160,16 @@ ACLS 高级心血管支持
 
 Non-invasive ventilation (NIV) 无创通气
 
+Synchronized Intermittent */ˌɪntəˈmɪtənt/* Mandatory Ventilation (SIMV) 同步间歇指令通气
+
+Assist-Control Ventilation (ACV) 辅助控制通气
+
+Positive End-Expiratory Pressure (PEEP) 呼气末正压
+
+Bi-level Positive Airway Pressure (BiPAP) 双水平气道正压通气
+
+Continuous Positive Airway Pressure (CPAP) 持续气道正压通气
+
 Prone */prəʊn/* Positioning 俯卧位通气
 
 Airway Management 气道管理
@@ -115,6 +177,14 @@ Airway Management 气道管理
 High-Flow Oxygen Therapy 高流量氧疗
 
 Weaning from Mechanical Ventilation 机械通气脱机
+
+Endotracheal Intubation (ETI) 气管插管
+
+Rapid Sequence Intubation (RSI) 快速顺序诱导插管
+
+Tracheostomy (Trach) 气管切开
+
+Laryngeal Mask Airway (LMA) 喉罩
 
 Nebulizer */'nebjulaizə/* Therapy 雾化吸入治疗
 
@@ -134,7 +204,11 @@ Renal replacement therapy (RRT) 肾脏替代治疗
 
 Continuous Renal Replacement Therapy (CRRT) 连续性肾脏替代治疗
 
+Continuous Veno-Venous Hemofiltration (CVVH) 连续性静脉-静脉血液滤过
+
 Extracorporeal Membrane Oxygenation (ECMO) 体外膜肺氧合
+
+Extracorporeal Carbon Dioxide Removal (ECCO₂R) 体外CO~2~清除
 
 Intra-Aortic */eɪˈɔːtɪk/* Balloon Pump (IABP) 主动脉球囊反搏
 
@@ -216,9 +290,17 @@ Dressing Change 敷料更换
 
 IV Access Maintenance 静脉通路维护
 
+Enteral Nutrition (EN) 肠内营养
+
+Parenteral Nutrition (PN) 肠外营养
+
+Return of Spontaneous Circulation (ROSC) 自主循环恢复
+
 ## 仪器设备
 
 Ventilator 呼吸机
+
+Flexible Bronchoscope (FB) 纤维支气管镜
 
 Bedside monitor 床旁监护仪
 
@@ -231,6 +313,8 @@ Infusion pump/Microinfusion pump 输液泵/微量泵
 Cooling blanket 降温毯
 
 Point-of-care ultrasound 床旁超声
+
+Bedside Ultrasound (BSU) 床旁超声
 
 Arterial */ɑː'tɪərɪəl/* line 动脉导管
 
@@ -252,9 +336,19 @@ Swan-Ganz Catheter 右心导管
 
 Weaning */wiːn/* from ventilator 撤机
 
+Bag-Valve-Mask (BVM) 球囊面罩
+
+Thromboelastography (TEG) 血栓弹力图
+
 ## 药物
 
 antibiotics */,æntɪbaɪ'ɒtɪks/* 抗生素
+
+Broad-Spectrum Antibiotics 广谱抗生素
+
+Targeted Antibiotics 靶向抗生素
+
+Antifungal Agents 抗真菌药
 
 Ciprofloxacin */,siprəu'flɔksəsin/* 环丙沙星
 
@@ -293,6 +387,8 @@ Vasoactive */ˌveɪzəʊˈæktɪv/* Drugs 血管活性药物
 Vasopressors */ˌveɪzəʊˈpresə(r)/* 血管活性药物
 
 Vasopressin */ˌvæsəʊˈpresɪn/* 血管加压素
+
+Desmopressin (DDAVP) 去氨加压素
 
 Epinephrine */ˌepɪˈnefrɪn/* 肾上腺素
 
@@ -336,19 +432,37 @@ Warfarin */'wɔːfərɪn/* 华法林
 
 Succinylcholine 琥珀酰胆碱
 
+Proton Pump Inhibitors (PPIs) 质子泵抑制剂
+
 ## 监测
+
+Arterial Catheterization (A-line) 动脉置管
+
+Pulmonary Artery Catheter (PAC) 肺动脉导管
 
 Arterial */ɑːˈtɪəriəl/* blood gas，ABG 动脉血气分析
 
+Mean Arterial Pressure (MAP) 平均动脉压
+
+Partial Pressure of Arterial Carbon Dioxide (PaCO₂) 动脉血二氧化碳分压
+
+Partial Pressure of Arterial Oxygen (PaO₂) 动脉血氧分压
+
 Endotracheal */ˌendəʊˈtreɪkɪəl/* intubation 气管插管
+
+Airway Resistance (Raw) 气道阻力
 
 Vital signs monitoring 生命体征监测
 
 Hemodynamic monitoring 血流动力学监测
 
+Invasive Blood Pressure (IBP) 有创动脉压
+
 Procalcitonin (PCT) 降钙素原
 
 Sequential Organ Failure Assessment (SOFA) 序贯器官衰竭评估
+
+Blood Glucose (BG) 血糖
 
 Lactic acid/lactate 乳酸
 
@@ -390,9 +504,11 @@ Fluid challenge 液体冲击试验
 
 Mixed venous oxygen saturation (SvO₂) 混合静脉血氧饱和度
 
-Oxygenation index 氧合指数
+Fraction of Inspired Oxygen (FiO₂) 吸入氧浓度
 
-PaO₂/FiO₂ 氧合指数
+Oxygenation Index (PaO₂/FiO₂) 氧合指数
+
+Pulse Oximetry (SpO₂) 脉搏血氧饱和度
 
 End-Tidal Carbon Dioxide, ETCO₂ 呼气末二氧化碳
 
@@ -415,6 +531,8 @@ Enteral Nutrition Tolerance 肠内营养耐受评估
 Sedation Depth Monitoring 镇静深度评估
 
 Pain Assessment 疼痛评估
+
+Prothrombin Time (PT) / Activated Partial Thromboplastin Time (APTT) 凝血酶原时间/活化部分凝血活酶时间
 
 ## 常用缩写
 

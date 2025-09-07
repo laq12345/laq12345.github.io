@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="刘奥奇">
+<meta name="dcterms.date" content="2025-08-27">
+<meta name="description" content="脓毒症的详细总结和前沿研究">
+
+<title>脓毒症(sepsis) – 笑面狐</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../misc/info/favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-697f85932ebbc297d1513306f70c8937.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">笑面狐</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../information/information.html"> 
+<span class="menu-text">资料</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research/research.html"> 
+<span class="menu-text">科研</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../code/code.html"> 
+<span class="menu-text">代码</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../icu/icu.html"> 
+<span class="menu-text">ICU</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/blog.html"> 
+<span class="menu-text">笔记</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about_me.html"> 
+<span class="menu-text">关于</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laq12345" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:2713874272@qq.com"> <i class="bi bi-mailbox2-flag" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#脓毒症的调节机制与治疗策略从基础研究到临床实践" id="toc-脓毒症的调节机制与治疗策略从基础研究到临床实践" class="nav-link active" data-scroll-target="#脓毒症的调节机制与治疗策略从基础研究到临床实践">脓毒症的调节机制与治疗策略：从基础研究到临床实践</a>
+  <ul class="collapse">
+  <li><a href="#一脓毒症概述" id="toc-一脓毒症概述" class="nav-link" data-scroll-target="#一脓毒症概述">一、脓毒症概述</a></li>
+  <li><a href="#二脓毒症的调节机制研究进展" id="toc-二脓毒症的调节机制研究进展" class="nav-link" data-scroll-target="#二脓毒症的调节机制研究进展">二、脓毒症的调节机制研究进展</a></li>
+  <li><a href="#三脓毒症的治疗策略" id="toc-三脓毒症的治疗策略" class="nav-link" data-scroll-target="#三脓毒症的治疗策略">三、脓毒症的治疗策略</a></li>
+  <li><a href="#四脓毒症研究的前沿领域" id="toc-四脓毒症研究的前沿领域" class="nav-link" data-scroll-target="#四脓毒症研究的前沿领域">四、脓毒症研究的前沿领域</a></li>
+  <li><a href="#五脓毒症研究的挑战与展望" id="toc-五脓毒症研究的挑战与展望" class="nav-link" data-scroll-target="#五脓毒症研究的挑战与展望">五、脓毒症研究的挑战与展望</a></li>
+  <li><a href="#六总结" id="toc-六总结" class="nav-link" data-scroll-target="#六总结">六、总结</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/blog/learnnote_sepsis/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">脓毒症(sepsis)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Learning</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>脓毒症的详细总结和前沿研究</p>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>刘奥奇 </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 27, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="脓毒症的调节机制与治疗策略从基础研究到临床实践" class="level1">
+<h1>脓毒症的调节机制与治疗策略：从基础研究到临床实践</h1>
+<section id="一脓毒症概述" class="level2">
+<h2 class="anchored" data-anchor-id="一脓毒症概述">一、脓毒症概述</h2>
+<section id="定义与流行病学特征" class="level3">
+<h3 class="anchored" data-anchor-id="定义与流行病学特征">1.1 定义与流行病学特征</h3>
+<p>脓毒症 (Sepsis) 是一种由感染引发的危及生命的器官功能障碍综合征，其定义经历了多次演变。根据最新的 Sepsis-3.0 定义，脓毒症被定义<a href="http://d.wanfangdata.com.cn/periodical/zgjjyx202408007">(3)</a>为 “<span style="color: darkred;">由宿主对感染反应失调引起的危及生命的器官功能障碍</span>”。这一定义相较于之前的 Sepsis-2.0 更加精准，强调了感染导致的宿主反应<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>失调而非单纯的全身炎症反应综合征 (SIRS)。</p>
+<p>脓毒症是全球范围内的重要健康挑战，具有极高的发病率和死亡率。据统计，全球每年约<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>有 4900 万例脓毒症病例，导致约 1100 万人死亡，占全球总死亡人数的 19.7%。脓毒症的发病率在不同地区和人群中存在显著差异，在美国<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112931889">(7)</a>，脓毒症的发病率从 2000 年的 3.3/1000 人年上升到 2019 年的 6.9/1000 人年。在我国，脓毒症同样是一个严重的公共卫生<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112931889">(7)</a>问题，北京协和医院 ICU 收治的重症感染患者中，脓毒症患者占比高达 38.0%。</p>
+<p>脓毒症的流行病学特征呈现出明显的人群差异。研究表明<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>，脓毒症在老年人群、男性和某些种族群体中更为常见且更为严重。此外，社会经济地位低下、地理位置偏远以及存在基础疾病也会增加脓毒症的<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>发病风险和死亡风险。值得注意的是，脓毒症发病率存在季节性变化，冬季月份发病率较高。</p>
+<p>在我国不同地区，脓毒症的流行病学特征也存在<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a>差异。安徽省二级以上医院 ICU 的调查显示，脓毒症患者占 ICU 总患者的 18.5%，28 天病死率高达 41.4%。而在北京协和医院，脓<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112931889">(7)</a>毒症患者的总 28 天病死率为 4.9%，这一差异可能与医疗资源、患者人群和诊断标准的不同有关。</p>
+</section>
+<section id="病理生理机制" class="level3">
+<h3 class="anchored" data-anchor-id="病理生理机制">1.2 病理生理机制</h3>
+<p>脓毒症的病理生理机制极为复杂，涉及多个系统和层面的异常。其核心特征是宿主对感染的免疫反应失调，导致<span style="color: red;"><strong>过度炎症反应与免疫抑制并存</strong></span>，最终<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>引起多器官功能障碍。</p>
+<p><strong>炎症反应失调</strong>是脓毒症发病的关键环节。在脓毒症早期，病原体相关分子模式 (PAMPs) 和损伤相关分子模式 (DAMPs) 被宿主的模式识别受体 (PRRs) 识别，激活下游信号通路，如 NF-κB 通路，导致大量促炎细胞因子 (如 TNF-α、<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>IL-1β、IL-6) 的释放，形成 “细胞因子风暴”。这一过程最初是为了清除病原体，但过度的炎症反应会导致组织损伤和器官功能障碍。</p>
+<p>随着疾病进展，脓毒症患者常从过度炎症期进入<strong>免疫抑制期</strong>。这一阶段的特征是促炎细胞因子减少，抗炎细胞因子 (如 IL-10、<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>TGF-β) 增加，免疫细胞功能障碍，表现为单核细胞 HLA-DR 表达下调、T 细胞凋亡增加等。这种免疫抑制状态使患者易受继发感染，导致<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a><span style="color: green;"><strong><em>持续性炎症、免疫抑制和分解代谢综合征 (PICS)</em></strong></span>。</p>
+<p><span style="color: red;"><strong>凝血功能障碍</strong></span>是脓毒症的另一个重要特征。脓毒症时，凝血系统被异常激活<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>，同时抗凝系统受到抑制，导致微血栓形成和弥散性血管内凝血 (DIC)。凝血功能障碍与炎症反应相互促进，进一步加重器官损伤。</p>
+<p>此外<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>，脓毒症还涉及<span style="color: blue;"><strong>内皮细胞功能障碍</strong>、<strong>代谢紊乱</strong>和<strong>肠道屏障功能受损</strong></span>等多个方面。内皮细胞损伤导致血管通透性增加和微循环<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>障碍；代谢紊乱表现为胰岛素抵抗和高血糖；肠道屏障功能受损则促进细菌和内毒素移位，加剧全身炎症反应。</p>
+<p>近年来，研究发现<strong>肠道菌群失调</strong>在脓毒症的发生发展中扮演重要角色。脓毒症患者常表现为肠道菌群多样性降低，有益菌 (如厚壁菌门) 减少，而条件致病菌 (如变形菌<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>门) 增加。这种<span style="color: navy;">菌群失调会导致肠道通透性增加，促进细菌移位和全身炎症反应</span>，影响脓毒症的预后。</p>
+</section>
+</section>
+<section id="二脓毒症的调节机制研究进展" class="level2">
+<h2 class="anchored" data-anchor-id="二脓毒症的调节机制研究进展">二、脓毒症的调节机制研究进展</h2>
+<section id="炎症与免疫调节机制" class="level3">
+<h3 class="anchored" data-anchor-id="炎症与免疫调节机制">2.1 炎症与免疫调节机制</h3>
+<p>脓毒症的炎症与免疫调节机制极为复杂，涉及多种细胞类型和信号通路的相互作用。深入理解这些机制对于开发有效的脓毒症治疗策略至关重要。</p>
+<p><strong>细胞因子网络</strong>在脓毒症的炎症反应中起核心作用。促炎细胞因子如 TNF-α、IL<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>-1β 和 IL-6 是脓毒症早期炎症反应的主要介质，它们通过激活 NF-κB 等转录因子，促进炎症级联反应。研究表明，TNF-α 不仅通过<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>促进炎症反应保护宿主，同时也诱导脓毒症中血管内皮细胞凋亡。全基因组 CRISPR/Cas9 筛选发现，NLR 家族成员 X1 (NLRX1)、肿瘤坏死因子受体超家族成员 1A (TNFRSF1A)、B 细胞淋巴瘤 2 (BCL2) 和 Bcl2 相关死亡启动子 (BAD) 缺陷可有效抑制<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>TNF-α 的细胞毒性。</p>
+<p>然而，过度的炎症反应会导致组织损伤和器官功能障碍。因此，体内存在复杂的<strong>抗炎机制</strong>来平衡炎症反应。<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>IL-10 是一种重要的抗炎细胞因子，它可以抑制巨噬细胞和树突状细胞的功能，减少促炎细胞因子的产生。此外，调节性 T 细胞 (Tregs<a href="https://www.semanticscholar.org/paper/Advances-and-Challenges-in-Sepsis-Management:-Tools-Santacroce-D%E2%80%99Angerio/0331d49d105b06867dad3c23d8723922ceed75cb">(43)</a>) 也在脓毒症的免疫调节中发挥重要作用，它们通过抑制效应 T 细胞的活性，减轻过度炎症反应。</p>
+<p>近年来，研究发现<strong>炎症小体</strong>在脓毒症<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>的发病机制中起关键作用。炎症小体是一种高分子量蛋白复合物，主要激活炎症性胱天蛋白酶和 IL-1 家族细胞因子。NLRP3 炎症小体是研究最广泛的炎症小体之一，它的激活涉及多种成分，如细胞膜受体 (P2×7R、panx-1)、细胞质介质 (ROS、TXNIP) 和内在元件<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a><a href="https://typeset.io/pdf/nanodevices-for-the-efficient-codelivery-of-crispr-cas9-26pyybp7.pdf">(42)</a>(NLRPs 和 AIM2)。GSDMD 是炎症小体下游的关键蛋白，参与细胞焦亡过程，是炎症性细胞死亡的重要执行者。</p>
+<p><strong>细胞死亡机制<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a></strong>在脓毒症的病理过程中也扮演重要角色。脓毒症时，多种细胞死亡途径被激活，包括凋亡、坏死性凋亡和细胞焦亡。坏死性凋亡是当凋亡被阻断时的一种后备细胞死亡程序，通过使用 CRISPR/Cas9 技术，在坏死性凋亡敏感细胞系中敲除 Ripk3 和 Mlk1 以及双敲除 Ripk<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>3/Mlk1 可以广泛阻断对坏死性凋亡的易感性。此外，泛素网络通过调节炎症信号传导的强度和持续时间，在脓毒症发病机制中起基础作用。</p>
+<p>单细胞 RNA 测序技术的应用为脓毒症的免疫调节机制提供了新的视角。研究发现，脓毒症患者的中性粒细胞可分为多个亚群，其中两个新的<a href="https://www.semanticscholar.org/paper/Integrated-multi-omics-and-artificial-intelligence-Xu-Tao/ae452ae74902ccab04358cf71cbee762c56c93e1">(37)</a>亚群在脓毒症中显著增加。这些中性粒细胞亚群在分化晚期富集，与炎症反应和免疫调节密切相关。hdWGCNA 分析揭示了三个不同的模块 (<a href="https://www.semanticscholar.org/paper/Integrated-multi-omics-and-artificial-intelligence-Xu-Tao/ae452ae74902ccab04358cf71cbee762c56c93e1">(37)</a>绿松石、棕色和蓝色模块) 与这两个中性粒细胞亚群密切相关。此外，通过整合多组学数据和人工智能方法，研究人员鉴定了 8 个关键基因 (ALPL、ACTB、CD177、GAPDH、SLC25A37、S100A8、S100A9 和 STXBP2)，这些基因在脓毒症中性粒细胞<a href="https://www.semanticscholar.org/paper/Integrated-multi-omics-and-artificial-intelligence-Xu-Tao/ae452ae74902ccab04358cf71cbee762c56c93e1">(37)</a>的功能和调控中起重要作用。</p>
+</section>
+<section id="凝血与纤溶系统调节" class="level3">
+<h3 class="anchored" data-anchor-id="凝血与纤溶系统调节">2.2 凝血与纤溶系统调节</h3>
+<p>凝血功能障碍是脓毒症的重要特征，与炎症反应相互作用，共同促进<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>脓毒症的进展和器官功能障碍。</p>
+<p>在脓毒症状态下，<strong>凝血系统被异常激活</strong>，表现为组织因子表达增加、凝血酶生成增多和纤维蛋白沉积<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>。同时，<strong>抗凝系统受到抑制</strong>，包括抗凝血酶 Ⅲ、蛋白 C 和蛋白 S 的水平降低。这种凝血 - 抗凝平衡的破坏导致微血栓形成和弥散性血管内凝血 (DIC)，进一步加重组织缺血和器官损伤。</p>
+<p>研究表明，脓毒症相关性肝损伤患者的凝血指标如部分凝血活酶时间 (APTT) 明显延长<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>，血小板 (PLT) 明显减少，表明这些患者处于高凝状态。这种高凝状态使脓毒症持续进展，最终可能导致难治性休克和多脏器功能衰竭。</p>
+<p><strong>凝血与炎症的相互作用</strong>是脓毒症病理生理的重要特征。促炎细胞因子如 TNF-α 和 IL-1β 可以诱导内皮细胞表达组织因子，激活外<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>源性凝血途径。同时，凝血酶也可以通过蛋白酶激活受体 (PARs) 促进炎症反应，形成炎症 - 凝血恶性循环。</p>
+<p>脓毒症时，<strong>纤溶系统也*受到抑制</strong>，表现为纤溶酶原激活物抑制剂 - 1 (PAI-1) 水平升高，组织型纤溶酶原激活物 (t-PA) 水平降低。这种纤溶抑制状态进一步促进微血栓形成和器官损伤。</p>
+<p>近年来，研究发现<strong>凝血因子在脓毒症的免疫调节中也发挥重要作用</strong>。例如，凝血酶可以通过 PARs 调节<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>免疫细胞的功能，影响炎症反应的强度和持续时间。此外，抗凝血酶 Ⅲ 不仅具有抗凝作用，还具有抗炎和保护内皮细胞的功能。</p>
+<p>在脓毒症相关性肝损伤的研究中，KEGG 通路富集分析发现多个与凝血和免疫相关的信号通路，如嘌呤代谢、卟啉和叶绿素代谢、氮代谢、FoxO 信号通路、<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>Hippo 信号通路和 p53 信号通路。这些通路的异常与脓毒症患者的凝血功能障碍和免疫失调密切相关。</p>
+</section>
+<section id="代谢与能量调节机制" class="level3">
+<h3 class="anchored" data-anchor-id="代谢与能量调节机制">2.3 代谢与能量调节机制</h3>
+<p>脓毒症患者常表现出明显的代谢紊乱和能量代谢障碍，这些异常在脓毒症的发生发展和预后中起重要作用。</p>
+<p><span style="color: tomato;"><strong>胰岛素抵抗</strong></span>是脓<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>毒症最常见的代谢异常之一。脓毒症时，尽管血糖水平升高，但胰岛素的降糖作用减弱，导致高血糖和葡萄糖利用障碍。这种胰岛素抵抗与炎症因子<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>(如 TNF-α、IL-6) 的作用、胰岛素信号通路的抑制以及肝脏葡萄糖生成增加有关。</p>
+<p>脓毒症还会导致<span style="color: tomato;"><strong>蛋白质代谢异常</strong></span>，表现<a href="https://www.cqvip.com/doc/degree/3339499026">(19)</a>为肌肉蛋白分解增加和负氮平衡。研究表明，脓毒症患者肌肉组织中蛋白分解相关基因表达上调，同时蛋白合成相关基因表达下调。这种蛋白质代谢紊乱导致肌肉萎缩和功能障碍，影响患者的预后。</p>
+<p><span style="color: tomato;"><strong>脂肪酸代谢</strong></span>在脓毒症时也发生显著变化。脓毒症患者常表现为<strong>脂肪分解增加和脂肪酸<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>氧化增强</strong>，但<strong>脂肪酸的利用效率降低</strong>。这种代谢变化与肉碱缺乏、线粒体功能障碍以及激素敏感性脂肪酶活性增加有关。</p>
+<p><span style="color: tomato;"><strong>线粒体功能障碍</strong></span><a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a> 是脓毒症代谢异常的重要机制。脓毒症时，线粒体结构和功能受损，导致 ATP 生成减少和氧化应激增加。单细胞 RNA 测序研究发现，脓毒症<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>患者的单核细胞中存在线粒体功能障碍，表现为 ATP 生成减少和氧化磷酸化相关基因表达下调。</p>
+<p><span style="color: tomato;"><strong>代谢重编程</strong></span>是脓毒症免疫细胞功能<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>障碍的重要机制。研究表明，脓毒症时，<span style="color: darkred;">免疫细胞从氧化磷酸化向糖酵解转变</span>，导致<strong>能量生成效率降低和乳酸产生增加</strong>。这种代谢重编程与免疫细胞功能障碍和脓毒症的免疫抑制状态密切相关。</p>
+<p>在脓毒症研究中，<strong>多组学技术</strong>为深入理解代谢调节机制提供了新的视角。通过整合基因组<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_ekx-e202304008">(33)</a>、转录组、蛋白质组和代谢组数据，研究人员发现脓毒症患者存在多种代谢通路的异常，包括糖代谢、氨基酸代谢和脂质代谢。这些代谢异常不仅反映了脓毒症的病理生理过程，也为脓毒症的诊断和治疗提供了新的靶点。</p>
+</section>
+<section id="肠道菌群与脓毒症" class="level3">
+<h3 class="anchored" data-anchor-id="肠道菌群与脓毒症">2.4 肠道菌群与脓毒症</h3>
+<p>近年来，<strong>肠道菌群失调</strong>被认为是脓毒症发生发展的重要因素之一。脓毒症患者常表现为<span style="color: darkred;"><strong>肠道菌群多样性降低，有益菌减少，条件致病菌增加</strong></span>，这种菌群失调与脓毒症<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>的严重程度和预后密切相关。</p>
+<p>研究发现，脓毒症患者的肠道菌群组成与健康人相比存在显著差异。在门水平上，脓毒症患者肠道菌群中变形菌<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>门 (Proteobacteria) 的比例明显增加，而厚壁菌门 (Firmicutes) 的比例显著降低。在属水平上，脓毒症患者肠道中肠杆菌属 (Escherichia-Shigella) 和肠球菌属 (Enterococcus) 等条件致病菌的丰度增加，而乳酸杆菌属 (L<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>actobacillus) 等有益菌的丰度降低。</p>
+<p>这种肠道菌群失调会导致<strong>肠道屏障功能受损</strong>，表现为紧密连接蛋白表达减少、肠<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>通透性增加和细菌移位风险升高。研究表明，脓毒症患者血清中 D - 乳酸和二胺氧化酶 (DAO) 水平升高，提示肠屏障功能受损和细菌移位。</p>
+<p><a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a><strong>肠道菌群失调还会影响全身免疫反应</strong>。正常情况下，肠道菌群通过与免疫系统的相互作用，促进免疫耐受和免疫防御的平衡。但在脓毒症<a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>状态下，菌群失调会导致促炎细胞因子增加和抗炎细胞因子减少，加剧全身炎症反应。</p>
+<p>此外，肠道菌群还参与<strong>短链脂肪酸 (SCFAs)</strong><a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>的产生，如乙酸、丙酸和丁酸。这些短链脂肪酸对维持肠道屏障功能、调节免疫反应和提供能量具有重要作用。研究发现，脓毒症患者肠道中短链<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>脂肪酸的水平明显降低，这可能与肠道菌群失调和膳食纤维摄入减少有关。</p>
+<p><strong>抗生素使用</strong>是导致脓毒症患者肠道菌群失调的重要因素。<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>脓毒症患者通常需要接受长期、广谱抗生素治疗，这会抑制敏感微生物，促进耐药菌生长，最终导致肠道菌群失调。研究表明，抗生素使用增加了<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>肠道细菌移位的风险，可能增加全身感染的易感性。</p>
+<p>近年来，<strong>粪菌移植 (FMT)和短链脂肪酸补充</strong>被认为是改善脓毒症患者肠道菌群失调的潜在策略。研究发现，在抗生素诱导的肠道菌群失调小鼠模型中，粪菌移植和短链脂肪酸补充可以恢复肠道菌群多样性，改善肠道<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>屏障功能，降低脓毒症的严重程度和死亡率。具体来说，粪菌移植和短链脂肪酸补充可以增加肠道中厚壁菌门的丰度，降低变形菌门的比例，恢复肠道菌群的平衡。此外，它们还可以增加肠道紧密连接蛋白 Occludin 的表达，降低促炎细胞因子的水平，抑制 NLRP3 炎症小体和细胞<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>焦亡，从而发挥对脓毒症的保护作用。</p>
+</section>
+</section>
+<section id="三脓毒症的治疗策略" class="level2">
+<h2 class="anchored" data-anchor-id="三脓毒症的治疗策略">三、脓毒症的治疗策略</h2>
+<section id="抗感染治疗" class="level3">
+<h3 class="anchored" data-anchor-id="抗感染治疗">3.1 抗感染治疗</h3>
+<p>抗感染治疗是脓毒症治疗的基石，包括<span style="color: purple;"><strong>抗生素治疗</strong></span>和<span style="color: purple;"><strong>感染源控制</strong></span>两个方面。</p>
+<p><strong>抗生素治疗</strong>是脓毒症治疗的关键。<strong>早期、恰当的抗生素治疗可以显著改善脓毒症患者的预后</strong>。根据 2021 年 Surviving Sepsis Campaign 指南，对于可能患有脓毒性休克或高度怀疑脓毒症的成人患者，应立即<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>给予抗生素，理想情况下在识别后 1 小时内。对于可能患有无休克脓毒症的成人患者，建议快速评估急性疾病感染性与非感染性原因的可能性，如果<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>仍担心感染，在首次识别脓毒症后 3 小时内给予抗生素。</p>
+<p>在抗生素选择方面，应根据感染部位、可能的病原体和当地耐药情况选择合适的抗生素。对于耐甲氧西林金黄色葡萄球菌 (MRSA) 高风险的脓毒症患者，建议使用具有 MRSA 覆盖的经验性抗生素；对于 MRSA 低风险的患者，则<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>不建议使用具有 MRSA 覆盖的经验性抗生素。对于多药耐药 (MDR) 病原体高风险的脓毒症患者，建议使用两种具有革兰阴性菌覆盖的抗生素<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>进行经验性治疗；对于 MDR 病原体低风险的患者，则不建议使用两种革兰阴性菌药物进行经验性治疗。</p>
+<p>近年来，<strong>抗生素给药策略</strong>的优化受到越来越多的关注。研究表明，延长输注 β- 内酰胺类抗生素 (如美罗培南) 可以提高药物在病原体最低抑菌浓度 (MIC) 以上的时间比例<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>(% fT&gt;MIC)，从而增强抗菌效果。Meta 分析显示，<strong>与短期输注 (≤1 小时) 相比，美罗培南延长输注 (≥3 小时) 可降低脓毒症患者的死亡率</strong> (24.4% vs 29.2%；RR=0.85，95% CI=0.76-0.95，P=0.005)，提高临床治愈率 (73.<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>0% vs 53.6%；RR=1.35，95%CI=1.25-1.47，P&lt;0.00001)。</p>
+<p><strong>感染源控制</strong>是脓毒症治疗<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>的另一个关键环节。应快速确定或排除需要紧急控制感染源的特定解剖学感染诊断，并在医学和后勤上切实可行时立即实施所需的感染源控制干预<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>措施。感染源控制的方法包括手术引流、清创、移除可能的感染装置等。研究表明，<strong>及时、有效的感染源控制可以显著改善脓毒症患者的预后</strong>。</p>
+<p>此外，<strong>抗生素降阶梯治疗</strong>和<strong>疗程优化</strong>也是脓毒症抗生素治疗的重要策略。对于初始诊断为脓毒症且感染源控制充分的成人患者，<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>建议使用较短疗程的抗生素治疗，而不是较长疗程。对于初始诊断为脓毒症但最佳治疗疗程不明确的成人患者，建议使用降钙素原 (PCT) 和临床<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>评估来决定何时停用抗生素，而不是仅临床评估。</p>
+</section>
+<section id="液体复苏与血流动力学支持" class="level3">
+<h3 class="anchored" data-anchor-id="液体复苏与血流动力学支持">3.2 液体复苏与血流动力学支持</h3>
+<p>液体复苏和血流动力学支持是脓毒症治疗的重要组成部分，旨在改善组织灌注和氧供，预防和治疗休克。</p>
+<p><strong>初始液体复苏</strong>是脓毒症治疗的关键第一步。根据 2021 年 Surv<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>iving Sepsis Campaign 指南，建议在<span style="color: magenta;"><strong>复苏的前 3 小时内至少给予 30 mL/kg 的静脉晶体液</strong></span>。液体选择方面，晶体液<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>被推荐为复苏的一线液体，而平衡晶体液 (如乳酸林格氏液) 可能优于生理盐水。对于接受大量晶体液的脓毒症患者，可考虑使用白蛋白作为补充<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>。</p>
+<p>然而，近年来对于脓毒症液体复苏的策略存在争议。一些研究表明，限制性液体策略可能优于开放性液体策略，尤其是在复苏后期。但目前<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>的证据尚不足以对初始复苏后的限制性与开放性液体策略给出明确推荐。</p>
+<p><strong>血管活性药物</strong>的使用是脓毒症血流动力学支持的重要组成部分<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>。对于脓毒性休克患者，<span style="color: darkred;"><strong>去甲肾上腺素</strong></span><strong>被推荐为一线血管活性药物</strong>。目标平均动脉压 (MAP) 通常设定为 65 mmHg，但对于有高血压病史<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>的患者，可能需要更高的目标。如果去甲肾上腺素治疗后 MAP 仍不足，可考虑添加<span style="color: darkred;">血管加压素或肾上腺素</span>。</p>
+<p><strong>正性肌力药物</strong>在脓毒症<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>治疗中也有一定作用。对于尽管容量状态和动脉血压充足但仍有持续低灌注的心脏功能障碍患者，可考虑加用多巴酚丁胺或改用肾上腺素。多巴酚<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>丁胺可以增加心输出量和氧输送，改善组织灌注和氧合。</p>
+<p><strong>血流动力学监测</strong>对于指导脓毒症的液体复苏和血管活性药物治疗至关重要。<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_QKBJBD20252025011700004519">(26)</a>传统的监测指标包括心率、血压、尿量和中心静脉压 (CVP) 等。近年来，<strong>动态血流动力学指标</strong>如每搏量变异度 (SVV)、脉压变异<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>度 (PPV) 和被动抬腿试验等被推荐用于指导液体复苏，因为它们能更好地预测液体反应性。</p>
+<p>此外，<strong>氧疗和机械通气</strong>也是脓毒症呼吸<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>支持的重要组成部分。对于<strong>脓毒症诱导的低氧性呼吸衰竭患者，建议使用高流量鼻氧而非无创通气</strong>。对于脓毒症诱导的 <strong>ARDS 患者，建议使用低潮<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>气量 (6 mL/kg) 和限制平台压 (≤30 cm H2O) 的肺保护策略</strong>。</p>
+</section>
+<section id="免疫调节治疗" class="level3">
+<h3 class="anchored" data-anchor-id="免疫调节治疗">3.3 免疫调节治疗</h3>
+<p>鉴于脓毒症的核心特征是宿主免疫反应失调，<strong>免疫调节治疗</strong>成为脓毒症治疗的重要研究方向。尽管目前尚无特效的免疫调节药物，但一些治疗策略已显示出一定的临床益处。</p>
+<p><strong>糖皮质激素</strong>是研究最广泛的免疫调节药物之一。糖皮质激素具有强大的抗炎作用，可以抑制先天免疫反应和内皮细胞活化。然而，关于糖皮质激素在脓毒症中的应用一直存在争议。2021 年 Surviving Sepsis Campaign 指南对脓毒性休克<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>患者推荐弱推荐使用氢化可的松。近期研究，包括 CAPE-COD 试验，显示严重社区获得性肺炎患者接受氢化可的松治疗后死亡率降低。这些在特定患者群体中的有希望的数据可能也会导致糖皮质激素治疗在脓毒症患者亚组中的复兴。</p>
+<p><strong>维生素 C</strong>作为一种抗氧化剂和免疫调节剂，近年来在脓毒症治疗中受到关注。维生素 C 可以抑制 NF-κB 激活和 HMGB1 释放，增强趋化作用和吞噬作用。然而，关于维生素 C 在脓毒症<a href="https://www.mdpi.com/1648-9144/60/3/464/pdf?version=1710229197">(15)</a>中应用的研究结果并不一致。一项研究显示，与安慰剂组相比，维生素 C 组在调整不同混杂因素后，死亡率和持续性器官功能障碍没有差异。然而<a href="https://www.mdpi.com/1648-9144/60/3/464/pdf?version=1710229197">(15)</a>，另一项研究发现，在 SOFA 评分≥9 的脓毒症患者中，使用维生素 C 作为辅助治疗可降低 46% 的死亡风险。</p>
+<p><strong>益生菌和肠道菌群调节</strong><a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a> 是另一种有前景的免疫调节策略。如前所述，脓毒症患者常存在肠道菌群失调，这与脓毒症的严重程度和预后密切相关。通过补充益生菌、益生<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>元或进行粪菌移植，可以改善肠道菌群平衡，增强肠道屏障功能，调节全身免疫反应。研究表明，粪菌移植和短链脂肪酸补充可以恢复抗生素诱导<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>的肠道菌群失调小鼠的肠道菌群平衡，改善肠道屏障功能，降低脓毒症的死亡率。</p>
+<p><strong>细胞因子吸附</strong>是一种新兴的脓毒症治疗方法。这种方法通过特殊的吸附柱，可以清除血液中的促炎细胞因子和其他炎症介质。一项研究评估了耦合血浆过滤和吸附在脓毒性休克患者中的应用，发现这种方法对 IL-6 水平和血管加压素需求没有影响，但死亡率风险比增加。另一项研究发现，细胞因子吸附对严重疾病患者的死亡率没有显著影响。</p>
+<p><strong>免疫球蛋白</strong>在脓毒症治疗中也有一定应用。静脉注射免疫球蛋白 (IVIG) 含有多种抗体，可以中和病原体和毒素，调节免疫反应。然而，关于 IVIG 在脓毒症中应用的随机对照试验结果并不一致，因此目前不推荐常规使用。</p>
+<p><strong>干细胞治疗</strong>是脓毒症免疫调节治疗的另一个研究热点。间充质干细胞 (MSCs) 具有抗炎、免疫调节和组织修复作用。研究表明，MSCs 可以减轻脓毒症动物模型的炎症反应和器官损伤，改善生存率。然而，目前关于 MSCs 在脓毒症患者中应用的临床研究结果仍有限，需要更多的随机对照试验来评估其安全性和有效性。</p>
+</section>
+<section id="多器官功能支持与并发症防治" class="level3">
+<h3 class="anchored" data-anchor-id="多器官功能支持与并发症防治">3.4 多器官功能支持与并发症防治</h3>
+<p>脓毒症常导致多器官功能障碍，因此多器官功能支持和并发症防治是脓毒症治疗的重要组成部分。</p>
+<p><strong>呼吸功能支持</strong>是脓毒症治疗的关键。脓毒症是急性呼吸窘迫综合征 (ARDS) 的主要原因之一，约 50% 的脓毒症患者<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>会发展为 ARDS。对于脓毒症诱导的呼吸衰竭患者，应根据低氧程度和呼吸功选择合适的呼吸支持方式，包括鼻导管吸氧、高流量鼻氧、无创通气<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>或有创机械通气。对于需要<strong>机械通气的患者，应采用<span style="color: darkblue;">肺保护策略</span></strong>，包括低潮气量 (6 mL/kg 理想体重)、限制平台压 (≤30 cm H2<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a><a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a>O) 和适当的 PEEP。</p>
+<p><strong>肾功能支持</strong>在脓毒症治疗中也非常重要。脓毒症是急性肾损伤 (AKI) 的主要原因之一，发生率高达 50<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a>%。对于脓毒症相关 AKI 患者，应<strong>避免使用肾毒性药物</strong>，维持足够的血容量和肾灌注压。对于需要肾脏替代治疗的患者，应根据患者的具体情况<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a>选择合适的模式和时机。</p>
+<p><strong>心血管功能支持</strong>是脓毒症治疗的核心。脓毒症诱导的心肌功能障碍是血流动力学不稳定的主要原因之一，与<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>脓毒性休克患者的不良预后相关。对于充分液体复苏后仍持续低灌注的患者，以及基于怀疑或测量到的低心输出量和升高的心脏充盈压的心肌功能<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>障碍患者，可以使用正性肌力药物治疗。<strong>多巴酚丁胺和肾上腺素</strong>是最常用的正性肌力药物。</p>
+<p><strong>神经系统支持</strong>主要包括控制谵妄和预防惊厥<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a>。脓毒症患者常出现谵妄，这与不良预后相关。应避免使用苯二氮䓬类药物，除非用于控制惊厥或酒精戒断。对于躁动或谵妄的患者，可考虑使用<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a>右美托咪定或氟哌啶醇。</p>
+<p><strong>代谢支持</strong>是脓毒症治疗的重要组成部分。脓毒症患者常存在高血糖和胰岛素抵抗，应密切监测血糖水平，必要<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a>时使用胰岛素控制血糖。营养支持应在血流动力学稳定后尽早开始，首选肠内营养。对于无法耐受肠内营养的患者，可考虑肠外营养。</p>
+<p><strong>凝血功能异常的处理</strong>也是脓毒症治疗的重要方面。脓毒症患者常出现凝血功能异常，严重时可导致 DIC。对于 DIC 患者，应根据具体情况补充<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>血小板、新鲜冰冻血浆和冷沉淀等血液制品。对于存在血栓形成风险的患者，可考虑使用低剂量肝素进行血栓预防。</p>
+</section>
+<section id="中医药治疗脓毒症的研究进展" class="level3">
+<h3 class="anchored" data-anchor-id="中医药治疗脓毒症的研究进展"><span style="color: grey;">3.5 中医药治疗脓毒症的研究进展</span></h3>
+<p>中医药在脓毒症治疗中的应用近年来受到越来越多的关注。一些中药和中药复方在脓毒症的实验研究和临床应用中显示<a href="https://rs.yiigle.com/cmaid/1540050">(20)</a>出一定的疗效。</p>
+<p><strong>清热解毒类中药</strong>是脓毒症治疗中最常用的一类中药。这类中药具有抗菌、抗病毒、抗炎和免疫调节作用。研究表明，<a href="https://rs.yiigle.com/cmaid/1540050">(20)</a>黄芩对内毒素 “二次打击” 脓毒症大鼠具有保护作用，可改善肠道菌群失调，减轻肠黏膜屏障损伤，降低炎症反应，保护内皮细胞功能。具体来说<a href="https://rs.yiigle.com/cmaid/1540050">(20)</a>，黄芩可以增加脓毒症大鼠肠道中厚壁菌门和乳酸杆菌属的丰度，降低拟杆菌门的比例，改善肠道菌群平衡。同时，黄芩还可以降低血清 D - 乳酸<a href="https://rs.yiigle.com/cmaid/1540050">(20)</a>和 Fn 水平，减轻肠黏膜屏障损伤。此外，黄芩还可以降低肠道组织中 NF-κB 的表达，减轻炎症反应。</p>
+<p><strong>活血化瘀类中药</strong>在脓毒症<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>治疗中也有一定应用。这类中药可以改善微循环，抑制血小板聚集，降低血液黏稠度，促进纤维蛋白溶解。研究表明，活血化瘀中药可以改善脓毒症<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a><a href="https://rs.yiigle.com/cmaid/1540050">(20)</a>患者的凝血功能障碍，降低 DIC 的发生率。</p>
+<p><strong>扶正固脱类中药</strong>如参附注射液、生脉注射液等，具有抗休克、改善微循环和增强免疫力<a href="https://rs.yiigle.com/cmaid/1540050">(20)</a>的作用。研究表明，这些中药可以改善脓毒症患者的血流动力学状态，提高生存率。</p>
+<p><strong>通腑泻下类中药</strong>在脓毒症治疗中也有独特优势。<a href="https://rs.yiigle.com/cmaid/1540050">(20)</a>这类中药可以促进肠道蠕动，减轻肠胀气，改善肠道血液循环，减少细菌和内毒素移位。研究表明，通腑泻下中药可以降低脓毒症患者的腹内压，<a href="https://rs.yiigle.com/cmaid/1540050">(20)</a>改善肠道屏障功能，减轻全身炎症反应。</p>
+<p><strong>中药注射液</strong>如血必净注射液、热毒宁注射液等，在脓毒症治疗中也有一定应用。这些注射液<a href="https://rs.yiigle.com/cmaid/1540050">(20)</a>具有抗炎、抗菌、抗氧化和免疫调节作用。研究表明，血必净注射液可以降低脓毒症患者的炎症因子水平，改善器官功能，提高生存率。</p>
+</section>
+</section>
+<section id="四脓毒症研究的前沿领域" class="level2">
+<h2 class="anchored" data-anchor-id="四脓毒症研究的前沿领域">四、脓毒症研究的前沿领域</h2>
+<section id="多组学技术在脓毒症研究中的应用" class="level3">
+<h3 class="anchored" data-anchor-id="多组学技术在脓毒症研究中的应用">4.1 多组学技术在脓毒症研究中的应用</h3>
+<p><strong>多组学技术</strong>是指综合应用基因组学、转录组学<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>、蛋白质组学、代谢组学和表观基因组学等技术，从多个层面研究生物系统的方法。这些技术在脓毒症研究中具有广阔的应用前景，为脓毒症的早期诊断、分型和治疗提供了新的视角。</p>
+<p><strong>基因组学</strong>研究可以揭示脓毒症的遗传易感性和分子机制。通过全基因组关联研究 (GWAS)，研究人员发现了多个与脓毒症易感性和预后相关的基因位点。例如，一项研究通过整合 GWAS 和表达数量性状位点 (eQTL) 数据，发现了 76 个通过基于摘要数据的孟德尔随机化 (SMR) 测试的基因。这些基因在脓毒症患者和健康个体之间表现出差异表达，代表了脓毒症的潜在治疗靶点。</p>
+<p><strong>转录组学</strong>是研究脓毒症分子机制的重要工具。通过高通量 mRNA 测序，研究人员发现脓毒症患者中<strong>与抗炎细胞因子和抑制性<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>信号分子相关的基因表达增加</strong>，而促炎细胞因子和介质 (如 TLRs) 的表达下调。单细胞 RNA 测序 (scRNA-seq) 技术的应用进一步<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a><strong>揭示了脓毒症中免疫细胞的异质性</strong>。研究发现，脓毒症患者的外周血单核细胞可以分为四种不同的单核细胞状态 (MS1-4)。MS1 细胞 (CD<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>14-) 的特征是抵抗素、花生四烯酸 5 - 脂氧合酶激活蛋白和白介素 - 1 受体 2 (IL1R2) 的高水平表达。MS2 细胞表达高水平的 II 类<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>主要组织相容性复合体 (MHC-II)，MS3 细胞是非经典 CD16 高单核细胞，MS4 细胞表现出低 II 类 MHC 和细胞因子表达。</p>
+<p><strong>蛋白质组学</strong>研究可以揭示脓毒症患者血液和组织中蛋白质表达的变化。通过质谱分析，研究人员发现脓毒症患者存在多种蛋白质的异常表达，<a href="https://rs.yiigle.com/cmaid/1535087">(28)</a>包括<strong>炎症因子、凝血因子和免疫调节因子</strong>。这些蛋白质不仅可以作为脓毒症的生物标志物，还可以为脓毒症的治疗提供新的靶点。</p>
+<p><strong>代谢组学</strong>研究可以揭示脓毒症患者体内代谢物的变化。通过气相色谱 - 质谱联用 (GC-MS) 和液相色谱 - 质谱联用 (LC-MS) 等技术，研究<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_ekx-e202304008">(33)</a>人员发现脓毒症患者存在多种代谢通路的异常，包括糖代谢、氨基酸代谢和脂质代谢。这些代谢异常不仅反映了脓毒症的病理生理过程，也为脓毒症的诊断和治疗提供了新的视角。</p>
+<p><strong>表观基因组学</strong>研究可以揭示脓毒症中基因表达调控的表观遗传机制。研究表明，脓毒症患者存在 DNA<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>甲基化、组蛋白修饰和非编码 RNA 表达的异常，这些表观遗传变化与脓毒症的免疫功能障碍和预后密切相关。例如，脓毒症患者的单核细胞中存在<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>DNA 甲基化模式的改变，导致促炎基因表达增加和抗炎基因表达减少。</p>
+<p><strong>多组学整合分析</strong>是脓毒症研究的前沿方向。通过整合基因组<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_ekx-e202304008">(33)</a>、转录组、蛋白质组和代谢组数据，研究人员可以从系统生物学角度理解脓毒症的复杂机制。例如，一项研究通过整合 GWAS 和 eQTL 数据，发现肠道菌群与脓毒症之间存在因果关系，某些细菌分类群的丰度增加与脓毒症风险增加相关。另一项研究通过多组学分析发现，肠道菌群可能通过谷氨酸和脂质代谢途径影响脓毒症的发生发展。</p>
+</section>
+<section id="人工智能在脓毒症研究中的应用" class="level3">
+<h3 class="anchored" data-anchor-id="人工智能在脓毒症研究中的应用">4.2 人工智能在脓毒症研究中的应用</h3>
+<p><strong>人工智能 (AI)和机器学习 (ML)</strong>技术在脓毒症研究中具有广阔的应用前景，为脓毒症的早期诊断、预后预测和治疗决策提供了新的方法。</p>
+<p><strong>脓毒症的早期<span style="color: magenta;">诊断</span></strong><a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>是提高脓毒症生存率的关键。传统的脓毒症诊断方法如血培养和炎症标志物存在敏感性和特异性不足的问题。机器学习算法可以通过分析大量<a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>的临床数据，发现潜在的模式和关联，提高脓毒症的早期诊断准确性。例如，NAVOY 是一种实时脓毒症预测算法，它使用 4 小时的常规收集的<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a><a href="https://arxiv.org/pdf/2502.09467">(4)</a>实验室值和临床参数作为输入，能够在脓毒症发作前三小时识别有风险的患者。另一项研究使用机器学习方法开发了一种脓毒症预测模型，其准确性<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>高于传统的预警系统。</p>
+<p><strong>脓毒症的<span style="color: magenta;">分型</span></strong>是实现个体化治疗的基础。脓毒症是一种高度异质性的疾病，不同患者可能表现出不同的临床特征<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>和预后。机器学习算法可以通过分析大量的临床和生物学数据，识别脓毒症的不同亚型，为个体化治疗提供依据。例如，一项研究使用无监督聚类<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>算法对脓毒症患者进行分型，发现了两种脓毒症反应特征 (SRS1 和 SRS2)。SRS1 与较差的预后相关，富含与细胞死亡和免疫耗竭相关<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>的转录本。另一项研究使用机器学习方法识别了脓毒症的四种不同亚型，每种亚型具有不同的临床特征和预后。</p>
+<p><strong>脓毒症的<span style="color: magenta;">预后预测</span></strong>是<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>临床决策的重要依据。传统的预后评分系统如 SOFA 和 APACHE II 存在一定的局限性。机器学习算法可以通过分析大量的临床数据，建立<a href="https://arxiv.org/pdf/2502.09467">(4)</a>更准确的预后预测模型。例如，一项研究使用随机森林算法开发了一种脓毒症预后预测模型，其准确性高于传统的评分系统。另一项研究使用深度学习<a href="https://arxiv.org/pdf/2502.09467">(4)</a>方法对脓毒症患者的电子健康记录 (EHR) 进行分析，建立了一种预测 28 天死亡率的模型，其 AUC 达到 0.89。</p>
+<p><strong>脓毒症的<span style="color: magenta;">治疗决策</span>支持</strong>是人工智能应用的另一个重要领域。脓毒症的治疗涉及抗生素选择、液体复苏、血管活性药物使用等多个方面，决策复杂。强化学习 (RL<a href="https://arxiv.org/pdf/2503.16433">(9)</a>) 算法可以通过模拟临床决策过程，为脓毒症的治疗提供个性化的建议。例如，一项研究提出了医疗决策 Transformer (MeDT) 框架<a href="https://arxiv.org/pdf/2407.19380">(13)</a>，这是一种基于目标条件强化学习范式的脓毒症治疗推荐系统。MeDT 使用决策 Transformer 架构学习药物剂量推荐策略，在离线训练<a href="https://arxiv.org/pdf/2407.19380">(13)</a>期间，MeDT 利用收集的治疗轨迹预测每个时间步的给药治疗，结合已知的治疗结果、目标 acuity 分数、过去的治疗决策以及当前和<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>过去的医疗状态。</p>
+<p><strong>多组学数据分析</strong>是人工智能在脓毒症研究中的另一个重要应用。多组学数据具有高维度、复杂和噪声大的特点，传统<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>的统计方法难以有效分析。机器学习算法可以通过特征选择、降维和模式识别等方法，从多组学数据中提取有价值的信息。例如，PENCIL 是<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>一种使用拒绝学习 (LWR) 策略的预测工具，可以高效地从单细胞数据中选择信息特征并识别细胞亚群。PENCIL 能够在一小时内分析一百<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>万个细胞，并已用于基于免疫细胞亚群和临床变量识别对免疫检查点阻断治疗有反应的癌症患者。另一种创新方法是 Stabl，这是一种机器学习<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>方法，提供了一个统一的框架，用于监督学习，以识别各种单组学和多组学数据集中的稀疏、可靠的生物标志物集。从数据集中的 1400-35<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>,000 个特征开始，它推断出 4-34 个推定的生物标志物。</p>
+</section>
+<section id="基因编辑技术在脓毒症研究中的应用" class="level3">
+<h3 class="anchored" data-anchor-id="基因编辑技术在脓毒症研究中的应用">4.3 基因编辑技术在脓毒症研究中的应用</h3>
+<p><strong>基因编辑技术</strong>特别是<strong>CRISPR/Cas9 系统</strong>在脓毒症研究中具有广阔的应用前景，为脓毒症的机制研究和治疗提供了新的工具和策略。</p>
+<p><strong>CRISPR/Cas9 系统</strong>是一种革命性的基因编辑技术，它利用向导 RNA (sgRNA) 引导 Cas9 核酸酶到特定的基因组序列<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>，产生 DNA 双链断裂，从而实现基因敲除、敲入或碱基编辑。这一技术具有高效、精确和操作简便的特点，已被广泛应用于脓毒症研究。</p>
+<p>在<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>脓毒症机制研究方面，CRISPR/Cas9 技术被用于<strong>基因功能筛选</strong>和<strong>基因敲除</strong>，以揭示脓毒症相关基因的功能和信号通路。例如，研究人员在人脐静脉内皮细胞 (HUVECs) 中进行了全基因组 CRISPR/Cas9 敲除筛选，发现 NLR 家族成员 X1 (NLRX1)、肿瘤坏死因子受体超家族成员 1A (TNFRSF1A)、B 细胞淋巴瘤 2 (BCL2) 和 Bcl2 相关死亡启动子 (BAD) 缺陷可有效<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>抑制 TNF-α 的细胞毒性。这一发现揭示了 NLRX1 是脓毒症期间 TNF-α 诱导的血管内皮细胞凋亡的潜在调节剂。另一项研究通过全基因组<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>CRISPR/Cas9 筛选，确定了自噬基因是 IFNγ 反应期间骨髓细胞存活的核心介质。</p>
+<p>在脓毒症治疗研究方面，CRISPR/Cas<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>9 技术被用于<strong>基因治疗</strong>和<strong>细胞治疗</strong>的探索。例如，研究人员使用 CRISPR/Cas9 技术修饰小鼠诱导多能干细胞 (iPS<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>Cs)，在 Ccl2 基因座中插入抗炎分子 (如 IL-1Ra 或嵌合人 sTNFR1 - 小鼠 IgG)。当这些 iPSCs 在单层培养并分化为工程<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>软骨组织后，插入的抗炎分子可以减轻 IL-1 和 TNF-α 的炎症作用，使工程软骨组织对 IL-1 和 TNF-α 的病理生理作用具有抵抗力。<a href="https://www.semanticscholar.org/paper/CRISPR-Cas9-System:-A-Revolutionary-Tool-in-the-Ekwebelem-Aleke/ac0110da15ef73487bbc746ccc62d477deec16f9">(32)</a>这一策略可能为脓毒症的治疗提供新的思路。</p>
+<p>此外，CRISPR/Cas9 技术还被用于<strong>靶向清除病原体</strong>和<strong>抗生素耐药基因</strong>的研究。例如，研究人员设计了能够靶向肠出血性大肠杆菌 (EHEC) 和肠致病性大肠杆菌 (EPEC) 的 eae 基因、沙门氏菌的 ssaN 基因<a href="https://www.semanticscholar.org/paper/Engineering-conjugative-CRISPR-Cas9-systems-for-the-Sheng-Wu/1a2ead0e0bd2fbf8db29ad4b157fccd16b7ab374">(36)</a>以及 blaCMY-2 抗生素耐药基因的 CRISPR/Cas9 系统。这些系统可以通过接合性质粒传递，在体外和体内实验中显示出对目标病原体<a href="https://www.semanticscholar.org/paper/Engineering-conjugative-CRISPR-Cas9-systems-for-the-Sheng-Wu/1a2ead0e0bd2fbf8db29ad4b157fccd16b7ab374">(36)</a>的有效清除和抗生素耐药质粒的消除。这一策略可能为脓毒症的抗感染治疗提供新的方法。</p>
+<p><strong>纳米技术</strong>与 CRISPR/Cas9 的结合<a href="https://typeset.io/pdf/nanodevices-for-the-efficient-codelivery-of-crispr-cas9-26pyybp7.pdf">(42)</a>为脓毒症治疗提供了新的可能性。研究人员开发了能够同时递送 CRISPR/Cas9 基因编辑机器和释放药物的纳米颗粒。例如，介孔二氧化<a href="https://typeset.io/pdf/nanodevices-for-the-efficient-codelivery-of-crispr-cas9-26pyybp7.pdf">(42)</a>硅纳米颗粒 (MSNs) 能够递送 CRISPR/Cas9 机器以编辑 GSDMD (一种参与炎症性细胞死亡的关键蛋白)，同时负载抗炎药物 VX-765 (GSDMD45CRISPR-VX-MSNs)。这些纳米颗粒允许高负载量和 CRISPR/Cas9 质粒保护，从而实现 CRIS<a href="https://typeset.io/pdf/nanodevices-for-the-efficient-codelivery-of-crispr-cas9-26pyybp7.pdf">(42)</a>PR/Cas9 和药物在细胞中的可控共递送。纳米颗粒通过下调炎症性细胞死亡来展示 GSDMD 基因编辑，并通过共递送 VX-765 实现降低<a href="https://typeset.io/pdf/nanodevices-for-the-efficient-codelivery-of-crispr-cas9-26pyybp7.pdf">(42)</a>炎症反应的联合效果。</p>
+</section>
+<section id="肠道菌群调节与脓毒症治疗" class="level3">
+<h3 class="anchored" data-anchor-id="肠道菌群调节与脓毒症治疗">4.4 肠道菌群调节与脓毒症治疗</h3>
+<p><strong>肠道菌群</strong>在脓毒症的发生发展和预后中发挥重要作用，因此<strong>肠道菌群调节</strong>成为脓毒症治疗的一个新兴研究方向。</p>
+<p><strong>肠道菌群失调</strong>是脓毒症的重要特征之一。脓毒症患者常表现为肠道菌群<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>多样性降低，有益菌减少，条件致病菌增加。这种菌群失调会导致肠道屏障功能受损，细菌和内毒素移位，加剧全身炎症反应，影响脓毒症的预后<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>。</p>
+<p>基于这一认识，<strong>肠道菌群调节策略</strong>被提出用于脓毒症的治疗。这些策略包括益生菌补充、益生元应用、粪菌移植和短链脂肪酸补充<a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>等。</p>
+<p><strong>益生菌</strong>是一类对宿主有益的活性微生物，主要包括乳酸菌、双歧杆菌和酵母菌等。益生菌可以通过竞争排斥、产生抗菌物质和调节<a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>免疫反应等机制，改善肠道菌群平衡，增强肠道屏障功能，减轻全身炎症反应。研究表明，益生菌补充可以降低脓毒症患者的感染发生率和死亡率<a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>。</p>
+<p><strong>益生元</strong>是一类不能被人体消化吸收但能选择性促进肠道有益菌生长的物质，主要包括膳食纤维、低聚糖和多糖等。益生元可以为肠道<a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>有益菌提供营养，促进其生长和代谢，改善肠道菌群平衡。研究表明，益生元补充可以增加脓毒症患者肠道中短链脂肪酸的水平，改善肠道屏障功能<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>，减轻全身炎症反应。</p>
+<p><strong>粪菌移植 (FMT)</strong>是一种将健康人粪便中的功能菌群移植到患者肠道内，重建患者肠道菌群平衡的治疗方法<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>。研究表明，粪菌移植可以有效恢复抗生素诱导的肠道菌群失调小鼠的肠道菌群平衡，改善肠道屏障功能，降低脓毒症的死亡率。具体来说，粪菌<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>移植可以增加肠道中厚壁菌门和乳酸杆菌属的丰度，降低变形菌门的比例，恢复肠道菌群的平衡。同时，粪菌移植还可以增加肠道紧密连接蛋白 Oc<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>cludin 的表达，改善肠道屏障功能。此外，粪菌移植还可以降低促炎细胞因子的水平，抑制 NLRP3 炎症小体和细胞焦亡，减轻全身炎症<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>反应。</p>
+<p><strong>短链脂肪酸 (SCFAs)</strong>是肠道菌群发酵膳食纤维产生的一类小分子有机酸，主要包括乙酸、丙酸和丁酸。短链脂肪酸对维持<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>肠道屏障功能、调节免疫反应和提供能量具有重要作用。研究表明，脓毒症患者肠道中短链脂肪酸的水平明显降低，补充短链脂肪酸可以改善脓毒症<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>的预后。具体来说，短链脂肪酸补充可以增加肠道中厚壁菌门的丰度，降低变形菌门的比例，恢复肠道菌群平衡。同时，短链脂肪酸补充还可以增加<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>肠道紧密连接蛋白 Occludin 的表达，<strong>改善肠道屏障功能</strong>。此外，短链脂肪酸补充还可以降低促炎细胞因子的水平，抑制 NLRP3 炎症小<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a><a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>体和细胞焦亡，减轻全身炎症反应。</p>
+<p><strong>肠道菌群代谢产物</strong>如短链脂肪酸、色氨酸代谢产物和次级胆汁酸等，在脓毒症的发生发展中也发挥<a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>重要作用。这些代谢产物可以通过调节肠道屏障功能、免疫反应和能量代谢，影响脓毒症的预后。研究表明，补充这些代谢产物可以改善脓毒症的预后。</p>
+</section>
+</section>
+<section id="五脓毒症研究的挑战与展望" class="level2">
+<h2 class="anchored" data-anchor-id="五脓毒症研究的挑战与展望">五、脓毒症研究的挑战与展望</h2>
+<section id="脓毒症研究面临的挑战" class="level3">
+<h3 class="anchored" data-anchor-id="脓毒症研究面临的挑战">5.1 脓毒症研究面临的挑战</h3>
+<p>尽管近年来脓毒症研究取得了显著进展，但仍面临许多挑战，限制了脓毒症的早期诊断和有效治疗。</p>
+<p><strong>脓毒症的异质性</strong>是研究面临的主要挑战之一。脓毒症是一种高度异质性的疾病，不同<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>患者可能表现出不同的临床特征、病理生理机制和预后。这种异质性使得很难找到一种普遍适用的诊断和治疗方法。例如，脓毒症患者的免疫反应<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>可能表现为过度炎症或免疫抑制，或者两者的混合，这使得免疫调节治疗变得复杂。此外，脓毒症的病因多样，包括细菌、病毒、真菌等不同病原体<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_ekx-e202304008">(33)</a>感染，不同病原体引起的脓毒症可能具有不同的病理生理机制和治疗反应。</p>
+<p><strong>脓毒症的病理生理复杂性</strong>也是研究面临的重要挑战。脓毒症<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>涉及炎症、免疫、凝血、代谢、内皮功能等多个系统的异常，这些系统之间相互作用，形成复杂的网络。这种复杂性使得很难确定单一的治疗靶点，也增加了临床试验设计的难度。例如，抗炎治疗可能在抑制过度炎症反应的同时，增加继发感染的风险；而免疫刺激治疗可能在增强免疫功能的<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>同时，加剧炎症反应。</p>
+<p><strong>脓毒症的诊断标准</strong>也是研究面临的挑战之一。尽管 Sepsis-3.0 定义提供了更精确的临床标准，但在<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a><a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>临床实践中，脓毒症的早期识别仍然困难。传统的诊断指标如 SIRS 标准缺乏特异性，而新的指标如 qSOFA 的敏感性又不足。此外，脓毒症<a href="https://rs.yiigle.com/cmaid/1535087">(28)</a>的诊断通常依赖于临床表现和实验室检查，缺乏特异性的生物标志物。</p>
+<p><strong>脓毒症的临床试验设计</strong>也面临诸多挑战。脓毒症是一种进展迅速的疾病，需要早期干预，但早期识别困难，导致临床试验的入组延迟。此外，脓毒症的异质性使得很难将患者纳入统一的治疗方案中，导致临床试验的结果不一致。例如，许多针对特定分子靶点的临床试验未能显示出预期的疗效，部分原因是患者群体的异质性。</p>
+<p><strong>脓毒症的动物模型</strong>也是研究面临的挑战之一。目前常用的脓毒症动物模型如盲肠结扎穿孔 (CLP) 模型和内毒素血症模型，虽然能够模拟脓毒症的某些特征，但与<a href="https://www.cqvip.com/doc/degree/3339499026">(19)</a>人类脓毒症仍存在差异。这些差异可能导致动物实验结果难以转化到临床实践中。</p>
+<p><strong>脓毒症的医疗资源限制</strong>也是一个重要挑战。脓毒症<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a><a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>的治疗需要大量的医疗资源，包括 ICU 床位、先进的监测设备和昂贵的药物。在资源有限的地区，脓毒症的发病率和死亡率更高，而研究资源也更为有限。这限制了脓毒症研究的广度和深度，也影响了研究成果的推广和应用。</p>
+</section>
+<section id="脓毒症研究的未来方向" class="level3">
+<h3 class="anchored" data-anchor-id="脓毒症研究的未来方向">5.2 脓毒症研究的未来方向</h3>
+<p>尽管面临诸多挑战，脓毒症研究仍有许多充满希望的未来方向，包括精准医学、多组学整合、人工智能应用、微生物组研究和新型治疗策略等。</p>
+<p><strong>精准医学</strong><a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>是脓毒症研究的重要未来方向。脓毒症的异质性要求我们根据患者的个体特征，制定个性化的诊断和治疗方案。未来的研究应致力于开发更精确<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>的脓毒症分型方法，识别不同亚型的分子特征和治疗反应，实现精准治疗。例如，基于基因表达、蛋白质组学和代谢组学数据的脓毒症分型，可能<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a><a href="https://arxiv.org/pdf/2502.09467">(4)</a>有助于识别特定亚型的治疗靶点。此外，个体化的风险预测模型和治疗决策支持系统，可能有助于提高脓毒症的早期识别和治疗效果。</p>
+<p><strong>多组学技术的整合应用</strong>将为脓毒症研究提供新的视角。通过整合基因组、转录组、蛋白质组、代谢组和表观基因组等多组学数据，可以从系统生物学<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_ekx-e202304008">(33)</a>角度理解脓毒症的复杂机制。未来的研究应致力于开发更高效的多组学数据分析方法，识别脓毒症相关的关键分子和通路，发现新的生物标志物和<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>治疗靶点。例如，单细胞 RNA 测序技术可以揭示脓毒症中免疫细胞的异质性，为免疫调节治疗提供新的思路。</p>
+<p><strong>人工智能和机器学习</strong><a href="https://arxiv.org/pdf/2502.09467">(4)</a>在脓毒症研究中具有广阔的应用前景。这些技术可以分析大量复杂的临床和生物学数据，发现潜在的模式和关联，提高脓毒症的早期诊断准确性和<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>预后预测精度。未来的研究应致力于开发更先进的机器学习算法，整合多源数据，建立更精确的脓毒症预测和分类模型。此外，基于强化学习的治疗<a href="https://arxiv.org/pdf/2407.19380">(13)</a>决策支持系统可能为脓毒症的个性化治疗提供新的方法。</p>
+<p><strong>微生物组研究</strong>将为脓毒症的预防和治疗提供新的策略。肠道菌群失调在脓毒症<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf">(25)</a>的发生发展中起重要作用，调节肠道菌群可能成为脓毒症治疗的新方向。未来的研究应进一步探索肠道菌群与脓毒症的关系，开发更有效的肠道菌群<a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf">(29)</a>调节策略，如益生菌、益生元、粪菌移植和短链脂肪酸补充等。此外，微生物组的代谢产物如短链脂肪酸、色氨酸代谢产物等，可能成为脓毒症治疗的新靶点。</p>
+<p><strong>新型治疗策略</strong>的开发也是脓毒症研究的重要方向。尽管传统的治疗方法如抗生素、液体复苏和器官支持治疗已经显著降低<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>了脓毒症的死亡率，但仍有很大的改进空间。未来的研究应致力于开发新的治疗策略，如靶向特定炎症通路的药物、调节免疫代谢的药物、改善微循环<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>的药物和促进组织修复的药物等。此外，基于细胞的治疗如干细胞治疗和免疫细胞治疗，以及基于基因编辑的治疗如 CRISPR/Cas9 技术<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/">(31)</a>，可能为脓毒症的治疗提供新的途径。</p>
+<p><strong>脓毒症的预防</strong>也是未来研究的重要方向。脓毒症的预防可能比治疗更为有效，但目前关于脓毒症<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>预防的研究相对较少。未来的研究应致力于识别脓毒症的高危人群，开发有效的预防策略，如疫苗接种、感染控制措施和健康管理等。此外，针对<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>脓毒症长期后遗症的研究也应受到更多关注，以提高脓毒症幸存者的生活质量。</p>
+</section>
+<section id="脓毒症研究对未来临床实践的影响" class="level3">
+<h3 class="anchored" data-anchor-id="脓毒症研究对未来临床实践的影响">5.3 脓毒症研究对未来临床实践的影响</h3>
+<p>脓毒症研究的进展将对未来的临床实践产生深远影响，包括早期诊断、个体化治疗、多学科协作和长期随访等方面。</p>
+<p><strong>脓毒症的早期诊断</strong>将更加<a href="https://rs.yiigle.com/cmaid/1535087">(28)</a>准确和及时。随着新型生物标志物和诊断技术的发展，脓毒症的早期识别将变得更加容易。例如，基于多组学数据的生物标志物组合可能提供更高<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>的诊断准确性；而基于人工智能的预测模型可能在脓毒症临床表现出现前数小时甚至数天预测疾病的发生。这些进展将使脓毒症的早期干预成为可能<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>，提高患者的生存率。</p>
+<p><strong>脓毒症的治疗将更加个体化</strong>。随着对脓毒症异质性认识的加深和精准医学的发展，脓毒症的治疗将更加个体化<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>。医生将根据患者的基因特征、免疫状态、代谢特征等因素，制定个性化的治疗方案。例如，对于过度炎症型脓毒症患者，可能采用抗炎治疗；而<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)(21)</a>对于免疫抑制型脓毒症患者，可能采用免疫刺激治疗。此外，基于药物基因组学的个体化用药将优化抗生素和其他药物的选择和剂量，提高治疗效果<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a>，减少不良反应。</p>
+<p><strong>多学科协作</strong>将成为脓毒症治疗的标准模式。脓毒症涉及多个系统的功能障碍，需要多学科团队的协作治疗。未来的<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027">(8)</a>脓毒症治疗将更加注重多学科协作，包括重症医学、感染病学、免疫学、药理学、营养学等多个领域的专家共同参与治疗决策。这种协作模式将提高脓毒症的整体治疗水平，改善患者的预后。</p>
+<p><strong>脓毒症的长期随访</strong>将受到更多关注。随着脓毒症生存率的提高，脓毒症幸存者的长期预后<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>和生活质量问题日益突出。未来的临床实践将更加注重脓毒症幸存者的长期随访，关注其身体功能、认知功能、心理健康等方面的恢复情况。此外，针对脓毒症长期后遗症的康复治疗和支持性治疗也将得到发展，提高脓毒症幸存者的生活质量。</p>
+<p><strong>脓毒症的预防</strong>将成为临床实践的重要<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>组成部分。随着对脓毒症危险因素和发病机制认识的加深，脓毒症的预防将变得更加重要。未来的临床实践将更加注重脓毒症的预防，包括对高危<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>人群的筛查和干预、感染的早期识别和治疗、抗菌药物的合理使用等。这些预防措施将有助于降低脓毒症的发病率和死亡率。</p>
+<p><strong>医疗资源的*优化配置</strong>也是未来临床实践面临的重要问题。脓毒症的治疗需要大量的医疗资源，在资源有限的地区，脓毒症的预后更差。未来的临床实践将<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>更加注重医疗资源的优化配置，开发适合不同资源条件的脓毒症诊断和治疗方案。例如，在资源有限的地区，可以推广基于临床表现的简化诊断标准和低成本的治疗方案，提高脓毒症的救治率。</p>
+</section>
+</section>
+<section id="六总结" class="level2">
+<h2 class="anchored" data-anchor-id="六总结">六、总结</h2>
+<p>脓毒症是一种由感染引发的危及生命的器官功能障碍综合征，具有高发病率<a href="http://d.wanfangdata.com.cn/periodical/zgjjyx202408007">(3)</a><a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/">(2)</a>和高死亡率的特点。尽管近年来脓毒症的研究取得了显著进展，但仍面临许多挑战，包括异质性、病理生理复杂性、诊断标准和临床试验设计等问题<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013">(1)</a>。</p>
+<p>脓毒症的调节机制涉及多个方面，包括炎症与免疫调节、凝血功能障碍、代谢紊乱和肠道菌群失调等。这些机制相互作用，形成复杂的网络<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(10)</a>，影响脓毒症的发生发展和预后。深入理解这些机制对于开发有效的脓毒症治疗策略至关重要。</p>
+<p>脓毒症的治疗策略包括抗感染治疗、液体复苏<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>与血流动力学支持、免疫调节治疗、多器官功能支持和中医药治疗等。这些策略在临床实践中取得了一定的效果，但仍有改进的空间。例如，抗生素<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf">(16)</a>的优化使用、液体复苏的个体化、免疫调节治疗的精准应用等，都需要进一步研究。</p>
+<p>脓毒症研究的前沿领域包括多组学技术、人工智能、基因<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>编辑和肠道菌群调节等。这些领域的进展为脓毒症的早期诊断、分型和治疗提供了新的思路和方法。例如，多组学技术可以揭示脓毒症的分子特征<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>；人工智能可以提高脓毒症的预测准确性；基因编辑技术可以靶向特定的致病基因；肠道菌群调节可以改善脓毒症的预后。</p>
+<p>脓毒症研究的未来<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002">(21)</a>方向包括精准医学、多组学整合、人工智能应用、新型治疗策略和预防研究等。这些方向将有助于提高脓毒症的早期诊断率、个体化治疗水平和整体<a href="https://rs.yiigle.com/cmaid/1535087">(28)</a>预后。</p>
+<p>脓毒症研究对未来临床实践的影响将体现在早期诊断、个体化治疗、多学科协作、长期随访和预防等方面。这些影响将有助于提高脓毒症的救治水平，改善患者的预后和生活质量。</p>
+<p>总之，尽管脓毒症研究面临诸多挑战，但随着多学科协作和技术创新，脓毒症的早期诊断和有效治疗有望取得突破性进展，为脓毒症患者带来更好的预后和生活质量。</p>
+<p><strong>参考资料</strong></p>
+<p>[1] 脓毒症相关性急性肝损伤的流行病学特点及致病因素分析<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013" class="uri">https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_jzyx202202013</a></p>
+<p>[2] Definition and Epidemiology of Sepsis<a href="https://ouci.dntb.gov.ua/en/works/lm8JoZO4/" class="uri">https://ouci.dntb.gov.ua/en/works/lm8JoZO4/</a></p>
+<p>[3] 关于脓毒症认识的历史回顾 <a href="http://d.wanfangdata.com.cn/periodical/zgjjyx202408007" class="uri">http://d.wanfangdata.com.cn/periodical/zgjjyx202408007</a></p>
+<p>[4] Just Trial Once: Ongoing Causal Validation of Machine Learning Models<a href="https://arxiv.org/pdf/2502.09467" class="uri">https://arxiv.org/pdf/2502.09467</a></p>
+<p>[5] 中国西南地区某大型三甲综合医院脓毒症住院患者的流行病学分析<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112667052" class="uri">http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112667052</a></p>
+<p>[6] Epidemiology of sepsis and septic shock<a href="https://www.researchgate.net/profile/Matthieu-Legrand/publication/348748292_Epidemiology_of_sepsis_and_septic_shock/links/605b8fd8a6fdccbfea048e1a/Epidemiology-of-sepsis-and-septic-shock.pdf" class="uri">https://www.researchgate.net/profile/Matthieu-Legrand/publication/348748292_Epidemiology_of_sepsis_and_septic_shock/links/605b8fd8a6fdccbfea048e1a/Epidemiology-of-sepsis-and-septic-shock.pdf</a></p>
+<p>[7] 脓毒症患者诊治现状 Diagnosis and Treatment Status of Sepsis Patients<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112931889" class="uri">http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112931889</a></p>
+<p>[8] 安徽省ICU脓毒症流行病学特点及预后影响因素<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027" class="uri">http://m.qikan.cqvip.com/Article/ArticleDetail?id=7113466027</a></p>
+<p>[9] The Application of MATEC (Multi-AI Agent Team Care) Framework in Sepsis Care<a href="https://arxiv.org/pdf/2503.16433" class="uri">https://arxiv.org/pdf/2503.16433</a></p>
+<p>[10] advances and challenges in sepsis management: modern tools and future directions<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002" class="uri">https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002</a></p>
+<p>[11] Reinforced Sequential Decision-Making for Sepsis Treatment: The POSNEGDM Framework with Mortality Classifier and Transformer<a href="https://arxiv.org/pdf/2403.07309" class="uri">https://arxiv.org/pdf/2403.07309</a></p>
+<p>[12] Individualized Multi-Treatment Response Curves Estimation using RBF-net with Shared Neurons<a href="https://arxiv.org/pdf/2401.16571" class="uri">https://arxiv.org/pdf/2401.16571</a></p>
+<p>[13] Empowering Clinicians with Medical Decision Transformers: A Framework for Sepsis Treatment<a href="https://arxiv.org/pdf/2407.19380" class="uri">https://arxiv.org/pdf/2407.19380</a></p>
+<p>[14] Optimizing sepsis treatment strategies via a reinforcement learning model<a href="https://link.springer.com/article/10.1007/s13534-023-00343-2" class="uri">https://link.springer.com/article/10.1007/s13534-023-00343-2</a></p>
+<p>[15] Intravenous Vitamin C as an Add-on Therapy for the Treatment of Sepsis in an Intensive Care Unit: A Prospective Cohort Study<a href="https://www.mdpi.com/1648-9144/60/3/464/pdf?version=1710229197" class="uri">https://www.mdpi.com/1648-9144/60/3/464/pdf?version=1710229197</a></p>
+<p>[16] Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021<a href="https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf" class="uri">https://www.thesilverfridge.com/s/Surviving_Sepsis_Campaign__International21.pdf</a></p>
+<p>[17] A Conservative Q-Learning approach for handling distribution shift in sepsis treatment strategies<a href="https://arxiv.org/pdf/2203.13884" class="uri">https://arxiv.org/pdf/2203.13884</a></p>
+<p>[18] Lights and Shadows of Sepsis Management: Challenges and Future Perspectives<a href="https://pubmed.ncbi.nlm.nih.gov/37298376/" class="uri">https://pubmed.ncbi.nlm.nih.gov/37298376/</a></p>
+<p>[19] 转录因子ZBED6在猪骨骼肌生长和脓毒症肌萎缩中的作用及机制研究 <a href="https://www.cqvip.com/doc/degree/3339499026" class="uri">https://www.cqvip.com/doc/degree/3339499026</a></p>
+<p>[20] 黄芩对内毒素”二次打击”脓毒症大鼠肠道菌群及屏障功能的影响<a href="https://rs.yiigle.com/cmaid/1540050" class="uri">https://rs.yiigle.com/cmaid/1540050</a></p>
+<p>[21] advances and challenges in sepsis management: modern tools and future directions<a href="https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002" class="uri">https://www.mdpi.com/2073-4409/13/5/439/pdf?version=1709600002</a></p>
+<p>[22] 基于多组学的脓毒症分型及精准治疗研究进展<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7200319571" class="uri">http://m.qikan.cqvip.com/Article/ArticleDetail?id=7200319571</a></p>
+<p>[23] On-Site Fluorescent Detection of Sepsis-Inducing Bacteria using a Graphene-Oxide CRISPR-Cas12a (GO-CRISPR) System<a href="https://www.semanticscholar.org/paper/On-Site-Fluorescent-Detection-of-Sepsis-Inducing-a-Kasputis-He/1699273def4a08f28d5ce6eb6ef1583c580cf9bc" class="uri">https://www.semanticscholar.org/paper/On-Site-Fluorescent-Detection-of-Sepsis-Inducing-a-Kasputis-He/1699273def4a08f28d5ce6eb6ef1583c580cf9bc</a></p>
+<p>[24] 基于CRISPR/Cas9构建伪结核棒状杆菌cp40敲除株及其生物学特性与致病性研究 Biological characteristics and pathogenicity of Corynebacterium pseudotuberculosis cp40-deleted strains constructed by CRISPR/Cas9<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112572597" class="uri">http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112572597</a></p>
+<p>[25] Fecal microbiota transplantation and short-chain fatty acids reduce sepsis mortality by remodeling antibiotic-induced gut microbiota disturbances<a href="https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf" class="uri">https://typeset.io/pdf/fecal-microbiota-transplantation-and-short-chain-fatty-acids-1calpcb4.pdf</a></p>
+<p>[26] 目标导向护理对脓毒症患者循环功能、肠道菌群的影响<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_QKBJBD20252025011700004519" class="uri">https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_QKBJBD20252025011700004519</a></p>
+<p>[27] Compartmentalization of the inflammatory response during bacterial sepsis and severe COVID-19<a href="https://www.semanticscholar.org/paper/Compartmentalization-of-the-inflammatory-response-Cavaillon-Chousterman/166e2d749201885771ed63a4a6b8b25edc516fb6" class="uri">https://www.semanticscholar.org/paper/Compartmentalization-of-the-inflammatory-response-Cavaillon-Chousterman/166e2d749201885771ed63a4a6b8b25edc516fb6</a></p>
+<p>[28] 脓毒症生物标志物：过去、现在和未来<a href="https://rs.yiigle.com/cmaid/1535087" class="uri">https://rs.yiigle.com/cmaid/1535087</a></p>
+<p>[29] The Role of Gut Microbiota in the Clinical Outcome of Septic Patients: State of the Art and Future Perspectives<a href="https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf" class="uri">https://typeset.io/pdf/the-role-of-gut-microbiota-in-the-clinical-outcome-of-septic-2fqacfyd.pdf</a></p>
+<p>[30] 脓毒症内表型——随时间和空间变化<a href="https://www.cqvip.com/doc/journal/3339284289" class="uri">https://www.cqvip.com/doc/journal/3339284289</a></p>
+<p>[31] Application of CRISPR/Cas9 technology in sepsis research<a href="https://pubmed.ncbi.nlm.nih.gov/32058568/" class="uri">https://pubmed.ncbi.nlm.nih.gov/32058568/</a></p>
+<p>[32] CRISPR-Cas9 System: A Revolutionary Tool in the Fight Against Antimicrobial Resistance<a href="https://www.semanticscholar.org/paper/CRISPR-Cas9-System:-A-Revolutionary-Tool-in-the-Ekwebelem-Aleke/ac0110da15ef73487bbc746ccc62d477deec16f9" class="uri">https://www.semanticscholar.org/paper/CRISPR-Cas9-System:-A-Revolutionary-Tool-in-the-Ekwebelem-Aleke/ac0110da15ef73487bbc746ccc62d477deec16f9</a></p>
+<p>[33] Multilevel omics for the discovery of biomarkers in pediatric sepsis<a href="https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_ekx-e202304008" class="uri">https://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_ekx-e202304008</a></p>
+<p>[34] 组学用于脓毒症诊断、治疗及预后评估的研究进展 Advances in omics for diagnosis,treatment and prognosis evaluation of sepsis<a href="http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112462701" class="uri">http://m.qikan.cqvip.com/Article/ArticleDetail?id=7112462701</a></p>
+<p>[35] CRISPR/Cas9 therapeutics: progress and prospects<a href="https://www.nature.com/articles/s41392-023-01309-7.pdf" class="uri">https://www.nature.com/articles/s41392-023-01309-7.pdf</a></p>
+<p>[36] Engineering conjugative CRISPR-Cas9 systems for the targeted control of enteric pathogens and antibiotic resistance<a href="https://www.semanticscholar.org/paper/Engineering-conjugative-CRISPR-Cas9-systems-for-the-Sheng-Wu/1a2ead0e0bd2fbf8db29ad4b157fccd16b7ab374" class="uri">https://www.semanticscholar.org/paper/Engineering-conjugative-CRISPR-Cas9-systems-for-the-Sheng-Wu/1a2ead0e0bd2fbf8db29ad4b157fccd16b7ab374</a></p>
+<p>[37] Integrated multi-omics and artificial intelligence to explore new neutrophils clusters and potential biomarkers in sepsis with experimental validation<a href="https://www.semanticscholar.org/paper/Integrated-multi-omics-and-artificial-intelligence-Xu-Tao/ae452ae74902ccab04358cf71cbee762c56c93e1" class="uri">https://www.semanticscholar.org/paper/Integrated-multi-omics-and-artificial-intelligence-Xu-Tao/ae452ae74902ccab04358cf71cbee762c56c93e1</a></p>
+<p>[38] Delivery of CRISPR-Cas tools for in vivo genome editing therapy: Trends and challenges<a href="https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/275836/1/j.jconrel.2022.01.013.pdf" class="uri">https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/275836/1/j.jconrel.2022.01.013.pdf</a></p>
+<p>[39] 神经介素U激活的2型固有淋巴细胞在脓毒症急性肺损伤中的作用机制研究 <a href="https://www.cqvip.com/doc/degree/2417826965" class="uri">https://www.cqvip.com/doc/degree/2417826965</a></p>
+<p>[40] Bayesian Learning of Clinically Meaningful Sepsis Phenotypes in Northern Tanzania<a href="https://arxiv.org/pdf/2405.01746" class="uri">https://arxiv.org/pdf/2405.01746</a></p>
+<p>[41] 成人脓毒症分型研究进展 Research progress on phenotyping of adult sepsis<a href="http://d.wanfangdata.com.cn/periodical/jfjyxzz202309017" class="uri">http://d.wanfangdata.com.cn/periodical/jfjyxzz202309017</a></p>
+<p>[42] Nanodevices for the Efficient Codelivery of CRISPR-Cas9 Editing Machinery and an Entrapped Cargo: A Proposal for Dual Anti-Inflammatory Therapy<a href="https://typeset.io/pdf/nanodevices-for-the-efficient-codelivery-of-crispr-cas9-26pyybp7.pdf" class="uri">https://typeset.io/pdf/nanodevices-for-the-efficient-codelivery-of-crispr-cas9-26pyybp7.pdf</a></p>
+<p>[43] Advances and Challenges in Sepsis Management: Modern Tools and Future Directions<a href="https://www.semanticscholar.org/paper/Advances-and-Challenges-in-Sepsis-Management:-Tools-Santacroce-D%E2%80%99Angerio/0331d49d105b06867dad3c23d8723922ceed75cb" class="uri">https://www.semanticscholar.org/paper/Advances-and-Challenges-in-Sepsis-Management:-Tools-Santacroce-D%E2%80%99Angerio/0331d49d105b06867dad3c23d8723922ceed75cb</a></p>
+<p>[44] CRISPR-based therapeutics: current challenges and future applications<a href="http://www-cell-com-443.webvpn.b.bimuchachong.com/trends/pharmacological-sciences/pdf/S0165-6147(21)00215-7.pdf" class="uri">http://www-cell-com-443.webvpn.b.bimuchachong.com/trends/pharmacological-sciences/pdf/S0165-6147(21)00215-7.pdf</a></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/laq12345\.netlify\.app");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025, Liu Aoqi</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/blog/learnnote_sepsis/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laq12345/laq12345.github.io">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
