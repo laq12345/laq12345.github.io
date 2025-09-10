@@ -28,19 +28,17 @@ I’d like to share my story in six parts.
 I’m Han Chinese, born on **October 1, 2002**, in **Zhoukou, Henan Province.**
 
 **Second, my academic performance.**\
-I have consistently achieved high academic results with an average GPA of **3.8** out of **4.0**, ranking **12th** out of 572 **students** in my major, which places me in the top **2.09%**. I’ve excelled in **38** core courses such as Pathophysiology /ˈpæθəʊfɪzɪˈɒlədʒi/, Pharmacology /ˌfɑːməˈkɒlədʒi/, and Internal Medicine.
+I have consistently achieved high academic results with an average GPA of **3.8** out of **4.0**, ranking **11th** out of 572 **students** in my major, which places me in the top **2%**. I’ve excelled in **39** core courses such as Pathophysiology /ˈpæθəʊfɪzɪˈɒlədʒi/, Pharmacology /ˌfɑːməˈkɒlədʒi/, and Internal Medicine.
 
 **Third, my English ability.**\
 I scored **565 on the CET-4** and **520 on the CET-6**.
 
-In addition, I have received several awards, including **the National Inspirational Scholarship**, **first-class scholarship** and the "**merit student**" title for two years.
+In addition, I have received several awards, including **the National Inspirational Scholarship**, **first-class scholarship** and the "**merit student**" title.
 
 **Fourth, my research and competition experience.**\
-I’ve been involved in several projects, including the **Undergraduate Innovation and Entrepreneurship Training Program**, the **"Challenge Cup"**, the **China International College Students Innovation Competition**, and the **National Medical Innovation Competition**.
+I’ve been involved in several projects. One of my projects was about investigating asthma regulation in mice and I learned experimental techniques such as **PCR** and **Western Blot**.
 
-One of my projects was about investigating asthma regulation in mice and I learned experimental techniques such as **PCR** and **Western Blot**.
-
-I was especially excited to join a summer training class, where I listened to lectures from top scientists, and our group won **first prize** in a literature presentation competition.
+I was especially excited to join a summer training class, where I listened to lectures from top scientists, and our group won the **first prize** in a literature presentation competition.
 
 We know lactate plays a critical role in cancers, and a new modification called **protein lactylation** is important — but the enzyme */ˈenzaɪm/* wasn’t clear. Recently, some studies suggested **AARS1** might be that enzyme. So, I analyzed data to see how AARS1 is related to clinical relevance, hallmarks and lactate metabolism. I found that **AARS1 is highly expressed in many cancers**, linked to higher lactate levels, and affects the survival of patients. Finally, We also used **qPCR** and **Western Blot** to confirm our findings.
 
@@ -56,7 +54,7 @@ I’m good at using **R** for data cleaning, analysis, and visualization. And I 
 Clinically, I’ve mastered **CPR** and **wound dressing**. I’ll keep improving these skills for both clinical work and research.
 
 **Finally, my future goals.**\
-My dream is to study at **West China Hospital**. Before starting graduate school, I plan to:
+Before starting graduate school, I plan to:
 
 -   Review clinical knowledge, improve medical English, and read more papers,
 
