@@ -16,7 +16,7 @@ format:
 
 ### 5min英文PPT
 
-<a href="https://github.com/laq12345/laq12345.github.io/tree/main/resource/introduction.pptx" download="自我介绍.pptx" class="btn btn-outline-primary">下载PPT </a>
+<a href="https://github.com/laq12345/laq12345.github.io/tree/main/resource/" download="自我介绍.pptx" class="btn btn-outline-primary">下载PPT </a>
 
 Good morning, professors.
 
@@ -28,7 +28,7 @@ I’d like to share my story in six parts.
 I’m Han Chinese, born on **October 1, 2002**, in **Zhoukou, Henan Province.**
 
 **Second, my academic performance.**\
-I have consistently achieved high academic results with an average GPA of **3.8** out of **4.0**, ranking **11th** out of 572 **students** in my major, which places me in the top **2%**. I’ve excelled in **39** core courses such as Pathophysiology /ˈpæθəʊfɪzɪˈɒlədʒi/, Pharmacology /ˌfɑːməˈkɒlədʒi/, and Internal Medicine.
+I have consistently achieved high academic results with an average GPA of **3.8** out of **4.0**, ranking **11th** out of 572 **students** in my major, which places me in the top **2%**. I’ve excelled in **40** core courses such as Pathophysiology /ˈpæθəʊfɪzɪˈɒlədʒi/, Pharmacology /ˌfɑːməˈkɒlədʒi/, and Internal Medicine.
 
 **Third, my English ability.**\
 I scored **565 on the CET-4** and **520 on the CET-6**.
