@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="PEP 8是 Python 官方推荐的代码风格指南，旨在为 Python 社区提供统一、清晰、可读性强的编码规范。">
+
+<title>PEP8 – 笑面狐</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../misc/info/favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-716c107b9b55d002a184c11025d9a7fa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">笑面狐</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="搜索"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="展开或折叠导航栏" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../information/information.html"> 
+<span class="menu-text">资料</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research/research.html"> 
+<span class="menu-text">科研</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../code/code.html"> 
+<span class="menu-text">代码</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../icu/icu.html"> 
+<span class="menu-text">ICU</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/blog.html"> 
+<span class="menu-text">笔记</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about_me.html"> 
+<span class="menu-text">关于</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laq12345" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:2713874272@qq.com"> <i class="bi bi-mailbox2-flag" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#一pep-8-核心原则" id="toc-一pep-8-核心原则" class="nav-link active" data-scroll-target="#一pep-8-核心原则">一、PEP 8 核心原则</a></li>
+  <li><a href="#二pep-8-主要规范详解" id="toc-二pep-8-主要规范详解" class="nav-link" data-scroll-target="#二pep-8-主要规范详解">二、PEP 8 主要规范详解</a>
+  <ul class="collapse">
+  <li><a href="#缩进indentation" id="toc-缩进indentation" class="nav-link" data-scroll-target="#缩进indentation">1. 缩进（Indentation）</a></li>
+  <li><a href="#行长度line-length" id="toc-行长度line-length" class="nav-link" data-scroll-target="#行长度line-length">2. 行长度（Line Length）</a></li>
+  <li><a href="#空行blank-lines" id="toc-空行blank-lines" class="nav-link" data-scroll-target="#空行blank-lines">3. 空行（Blank Lines）</a></li>
+  <li><a href="#导入imports" id="toc-导入imports" class="nav-link" data-scroll-target="#导入imports">4. 导入（Imports）</a></li>
+  <li><a href="#空格whitespace" id="toc-空格whitespace" class="nav-link" data-scroll-target="#空格whitespace">5. 空格（Whitespace）</a></li>
+  <li><a href="#命名规范naming-conventions" id="toc-命名规范naming-conventions" class="nav-link" data-scroll-target="#命名规范naming-conventions">6. 命名规范（Naming Conventions）</a></li>
+  <li><a href="#注释comments" id="toc-注释comments" class="nav-link" data-scroll-target="#注释comments">7. 注释（Comments）</a></li>
+  <li><a href="#文档字符串docstrings" id="toc-文档字符串docstrings" class="nav-link" data-scroll-target="#文档字符串docstrings">8. 文档字符串（Docstrings）</a></li>
+  <li><a href="#编程建议programming-recommendations" id="toc-编程建议programming-recommendations" class="nav-link" data-scroll-target="#编程建议programming-recommendations">9. 编程建议（Programming Recommendations）</a></li>
+  </ul></li>
+  <li><a href="#三工具支持" id="toc-三工具支持" class="nav-link" data-scroll-target="#三工具支持">三、工具支持</a></li>
+  <li><a href="#四总结pep-8-关键要点速查表" id="toc-四总结pep-8-关键要点速查表" class="nav-link" data-scroll-target="#四总结pep-8-关键要点速查表">四、总结：PEP 8 关键要点速查表</a></li>
+  <li><a href="#五结语" id="toc-五结语" class="nav-link" data-scroll-target="#五结语">五、结语</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/code/p_PEP8/index.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">PEP8</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Python</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    PEP 8是 Python 官方推荐的代码风格指南，旨在为 Python 社区提供统一、清晰、可读性强的编码规范。
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">发布于</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2025年9月25日</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PEP 8</strong> 是 Python 官方推荐的<strong>代码风格指南</strong>（Style Guide for Python Code），全称为 <em>PEP 8 – Style Guide for Python Code</em>。它由 Guido van Rossum（Python 之父）、Barry Warsaw 和 Nick Coghlan 共同编写，旨在为 Python 社区提供统一、清晰、可读性强的编码规范。</p>
+<p>遵循 PEP 8 不仅有助于提高代码可读性，还能促进团队协作和代码维护。虽然 Python 解释器不会强制要求你遵守 PEP 8，但在正式项目、开源项目或团队开发中，通常都会严格遵循这一规范。</p>
+<hr>
+<section id="一pep-8-核心原则" class="level2">
+<h2 class="anchored" data-anchor-id="一pep-8-核心原则">一、PEP 8 核心原则</h2>
+<p>PEP 8 的核心目标是：</p>
+<blockquote class="blockquote">
+<p><strong>“代码被读的次数远多于被写的次数，因此可读性至关重要。”</strong></p>
+</blockquote>
+<p>主要原则包括：</p>
+<ul>
+<li>一致性</li>
+<li>可读性</li>
+<li>简洁性</li>
+<li>易于维护</li>
+</ul>
+<hr>
+</section>
+<section id="二pep-8-主要规范详解" class="level2">
+<h2 class="anchored" data-anchor-id="二pep-8-主要规范详解">二、PEP 8 主要规范详解</h2>
+<section id="缩进indentation" class="level3">
+<h3 class="anchored" data-anchor-id="缩进indentation">1. 缩进（Indentation）</h3>
+<ul>
+<li>使用 <strong>4 个空格</strong> 进行缩进。</li>
+<li><strong>禁止混合使用空格和制表符（Tab）</strong>。</li>
+<li>每级缩进用 4 个空格，不要用 Tab，除非你确定编辑器配置正确。</li>
+</ul>
+<p>✅ 正确：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-0" index="0" total="18">if True:
+    print("Hello")
+    for i in range(3):
+        print(i)</code></pre>
+<p>❌ 错误（使用 Tab 或 2 个空格）：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-1" index="1" total="18">if True:
+  print("Hello")  # 只有 2 个空格</code></pre>
+<blockquote class="blockquote">
+<p>📌 建议：在编辑器中设置将 Tab 转换为 4 个空格。</p>
+</blockquote>
+<hr>
+</section>
+<section id="行长度line-length" class="level3">
+<h3 class="anchored" data-anchor-id="行长度line-length">2. 行长度（Line Length）</h3>
+<ul>
+<li>每行代码不应超过 <strong>79 个字符</strong>（用于代码）。</li>
+<li>注释和文档字符串建议不超过 <strong>72 个字符</strong>。</li>
+<li>超长行应使用括号、方括号或花括号进行<strong>隐式续行</strong>，或使用反斜杠 <code>\</code>（不推荐）。</li>
+</ul>
+<p>✅ 推荐方式（使用括号隐式续行）：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-2" index="2" total="18">long_variable_name = (
+    some_function(first_arg, second_arg)
+    + another_function(third_arg, fourth_arg)
+)</code></pre>
+<p>❌ 不推荐：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-3" index="3" total="18">long_variable_name = some_function(first_arg, second_arg) + \
+                     another_function(third_arg, fourth_arg)</code></pre>
+<hr>
+</section>
+<section id="空行blank-lines" class="level3">
+<h3 class="anchored" data-anchor-id="空行blank-lines">3. 空行（Blank Lines）</h3>
+<ul>
+<li>顶层函数和类定义之间用 <strong>两个空行</strong> 分隔。</li>
+<li>类内部的方法之间用 <strong>一个空行</strong> 分隔。</li>
+<li>可适当使用空行分隔逻辑块，增强可读性。</li>
+</ul>
+<p>✅ 示例：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-4" index="4" total="18">def first_function():
+    pass
+
+
+def second_function():
+    pass
+
+
+class MyClass:
+    def method_one(self):
+        pass
+
+    def method_two(self):
+        pass</code></pre>
+<hr>
+</section>
+<section id="导入imports" class="level3">
+<h3 class="anchored" data-anchor-id="导入imports">4. 导入（Imports）</h3>
+<ul>
+<li>每行一个 import（不要 <code>import sys, os</code>）。</li>
+<li>导入语句应放在文件顶部，在模块注释和文档字符串之后。</li>
+<li>导入顺序建议为：
+<ol type="1">
+<li>标准库</li>
+<li>第三方库</li>
+<li>本地应用/库模块</li>
+</ol></li>
+<li>每组之间用一个空行分隔。</li>
+</ul>
+<p>✅ 正确：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-5" index="5" total="18">import os
+import sys
+
+import requests
+import numpy as np
+
+from mypackage import mymodule</code></pre>
+<p>❌ 错误：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-6" index="6" total="18">import os, sys
+from mypackage import mymodule, requests</code></pre>
+<blockquote class="blockquote">
+<p>⚠️ 避免使用 <code>from module import *</code>，会污染命名空间。</p>
+</blockquote>
+<hr>
+</section>
+<section id="空格whitespace" class="level3">
+<h3 class="anchored" data-anchor-id="空格whitespace">5. 空格（Whitespace）</h3>
+<section id="正确使用空格的场景" class="level4">
+<h4 class="anchored" data-anchor-id="正确使用空格的场景">✅ 正确使用空格的场景：</h4>
+<ul>
+<li>二元操作符（如 <code>=</code>, <code>==</code>, <code>+</code>, <code>-</code>, <code>in</code>, <code>is</code>）<strong>前后加空格</strong>：
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-7" index="7" total="18">x = 1
+if x == 1:
+    total = a + b</code></pre></li>
+<li>函数参数、逗号、冒号后加空格：
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-8" index="8" total="18">def func(a, b, c):
+    return a, b, c</code></pre></li>
+</ul>
+</section>
+<section id="避免使用空格的场景" class="level4">
+<h4 class="anchored" data-anchor-id="避免使用空格的场景">❌ 避免使用空格的场景：</h4>
+<ul>
+<li>紧跟括号、方括号、花括号：
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-9" index="9" total="18">spam(ham[1], {eggs: 2})  # 正确
+spam( ham[ 1 ], { eggs: 2 } )  # 错误</code></pre></li>
+<li>在赋值时，不要为了对齐而使用多余空格：
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-10" index="10" total="18"># 不推荐
+x             = 1
+long_variable = 2
+
+# 推荐
+x = 1
+long_variable = 2</code></pre></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="命名规范naming-conventions" class="level3">
+<h3 class="anchored" data-anchor-id="命名规范naming-conventions">6. 命名规范（Naming Conventions）</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 38%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>类型</th>
+<th>命名规则</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>函数、变量、模块</td>
+<td><code>lowercase</code> 或 <code>lower_case_with_underscores</code></td>
+<td><code>my_function</code>, <code>count</code></td>
+</tr>
+<tr class="even">
+<td>常量</td>
+<td><code>UPPER_CASE_WITH_UNDERSCORES</code></td>
+<td><code>MAX_CONNECTIONS</code>, <code>PI</code></td>
+</tr>
+<tr class="odd">
+<td>类名</td>
+<td><code>CapitalizedWords</code>（驼峰式，又称 PascalCase）</td>
+<td><code>MyClass</code>, <code>HttpClient</code></td>
+</tr>
+<tr class="even">
+<td>类的私有成员</td>
+<td><code>_single_leading_underscore</code>（约定为“内部使用”）</td>
+<td><code>_private_var</code></td>
+</tr>
+<tr class="odd">
+<td>特殊方法（魔法方法）</td>
+<td><code>__double_leading_and_trailing_underscore__</code></td>
+<td><code>__init__</code>, <code>__str__</code></td>
+</tr>
+<tr class="even">
+<td>避免的名称</td>
+<td>不要使用 <code>l</code>（小写 L）、<code>O</code>（大写 o）、<code>I</code>（大写 i），容易与数字混淆</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="注释comments" class="level3">
+<h3 class="anchored" data-anchor-id="注释comments">7. 注释（Comments）</h3>
+<ul>
+<li>注释应是完整的句子，首字母大写。</li>
+<li>注释与代码保持同步，避免过时注释。</li>
+<li>使用 <code>#</code> 后跟一个空格写注释。</li>
+<li>块注释：对一段代码进行解释，每行以 <code>#</code> 和空格开头。</li>
+<li>行内注释：与代码在同一行，<strong>前面至少两个空格</strong>，且尽量少用。</li>
+</ul>
+<p>✅ 正确：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-11" index="11" total="18"># This is a block comment explaining the next line.
+x = 1
+
+x = 1  # This is an inline comment (use sparingly)</code></pre>
+<p>❌ 错误：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-12" index="12" total="18">x = 1 #no space after #</code></pre>
+<hr>
+</section>
+<section id="文档字符串docstrings" class="level3">
+<h3 class="anchored" data-anchor-id="文档字符串docstrings">8. 文档字符串（Docstrings）</h3>
+<ul>
+<li>所有公共模块、函数、类、方法都应有 docstring。</li>
+<li>使用 <code>"""三重双引号"""</code>。</li>
+<li>遵循 <a href="https://peps.python.org/pep-0257/">PEP 257</a> 的 docstring 惯例。</li>
+</ul>
+<p>✅ 示例：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-13" index="13" total="18">def add(a, b):
+    """
+    Return the sum of two numbers.
+
+    Args:
+        a (int): The first number.
+        b (int): The second number.
+
+    Returns:
+        int: The sum of a and b.
+    """
+    return a + b</code></pre>
+<hr>
+</section>
+<section id="编程建议programming-recommendations" class="level3">
+<h3 class="anchored" data-anchor-id="编程建议programming-recommendations">9. 编程建议（Programming Recommendations）</h3>
+<ul>
+<li>使用 <code>is not</code> 而不是 <code>not ... is</code>：
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-14" index="14" total="18">if x is not None:  # 推荐
+    pass</code></pre></li>
+<li>比较 <code>None</code> 时使用 <code>is</code> 或 <code>is not</code>，不要用 <code>==</code>：
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-15" index="15" total="18">if x is None:
+    pass</code></pre></li>
+<li>使用 <code>isinstance()</code> 而不是类型比较：
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-16" index="16" total="18">if isinstance(obj, str):  # 推荐
+    pass</code></pre></li>
+<li>使用 <code>join()</code> 拼接字符串，而不是 <code>+</code>（尤其在循环中）。</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="三工具支持" class="level2">
+<h2 class="anchored" data-anchor-id="三工具支持">三、工具支持</h2>
+<p>你可以使用以下工具自动检查和格式化代码是否符合 PEP 8：</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>工具</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>pycodestyle</code>（原 <code>pep8</code>）</td>
+<td>检查代码是否符合 PEP 8 规范</td>
+</tr>
+<tr class="even">
+<td><code>flake8</code></td>
+<td>结合 <code>pycodestyle</code> 和 <code>pyflakes</code>，功能更强大</td>
+</tr>
+<tr class="odd">
+<td><code>autopep8</code></td>
+<td>自动格式化代码以符合 PEP 8</td>
+</tr>
+<tr class="even">
+<td><code>black</code></td>
+<td>更严格的代码格式化工具（不完全兼容 PEP 8，但更自动化）</td>
+</tr>
+<tr class="odd">
+<td><code>isort</code></td>
+<td>自动整理 import 语句顺序</td>
+</tr>
+</tbody>
+</table>
+<p>📌 示例：使用 <code>pycodestyle</code> 检查文件</p>
+<pre style="background: none"><code class="language-bash" data-language="bash" identifier="0066933ab3904f41abfffd4df84b4a52-17" index="17" total="18">pip install pycodestyle
+pycodestyle my_script.py</code></pre>
+<hr>
+</section>
+<section id="四总结pep-8-关键要点速查表" class="level2">
+<h2 class="anchored" data-anchor-id="四总结pep-8-关键要点速查表">四、总结：PEP 8 关键要点速查表</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>项目</th>
+<th>规范</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>缩进</td>
+<td>4 个空格</td>
+</tr>
+<tr class="even">
+<td>行长度</td>
+<td>79 字符（代码），72 字符（注释）</td>
+</tr>
+<tr class="odd">
+<td>命名</td>
+<td>小写加下划线（函数/变量），大写驼峰（类），大写（常量）</td>
+</tr>
+<tr class="even">
+<td>导入</td>
+<td>每行一个，分组排列，不使用 <code>*</code></td>
+</tr>
+<tr class="odd">
+<td>空行</td>
+<td>类/函数间2行，方法间1行</td>
+</tr>
+<tr class="even">
+<td>空格</td>
+<td>操作符前后加空格，括号内不加</td>
+</tr>
+<tr class="odd">
+<td>注释</td>
+<td>清晰、同步、合理使用</td>
+</tr>
+<tr class="even">
+<td>字符串引号</td>
+<td>单双引号均可，但保持一致</td>
+</tr>
+<tr class="odd">
+<td>表达式</td>
+<td>避免在 <code>if</code> 中使用 <code>== True</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="五结语" class="level2">
+<h2 class="anchored" data-anchor-id="五结语">五、结语</h2>
+<p>虽然 PEP 8 是官方标准，但在实际开发中，<strong>一致性</strong>比“绝对正确”更重要。如果你在一个团队中工作，应遵循团队的编码规范（可能是 PEP 8 的变体，如 Google Python Style Guide 或使用 <code>black</code> 格式化）。</p>
+<p>但作为 Python 开发者，<strong>理解并掌握 PEP 8 是基本功</strong>，它能帮助你写出更专业、更易维护的代码。</p>
+<blockquote class="blockquote">
+<p>📚 官方文档：<a href="https://peps.python.org/pep-0008/" class="uri">https://peps.python.org/pep-0008/</a></p>
+</blockquote>
+<p>建议收藏并时常查阅，养成良好的编码习惯！</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/laq12345\.netlify\.app");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025, Liu Aoqi</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/code/p_PEP8/index.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laq12345/laq12345.github.io">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

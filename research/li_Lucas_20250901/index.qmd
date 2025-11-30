@@ -2,7 +2,7 @@
 title: "Machine learning for the prediction of sepsis: a systematic review and meta-analysis of diagnostic test accuracy"
 lang: zh
 date: "2025-09-01"
-description: "Fleuren Lucas M.2020年3月发表于Intensive Care Med，机器学习在脓毒症预测中的应用的系统性综述和诊断试验准确性荟萃分析"
+description: ""
 categories: [meta-analysis, machine learning]
 type: meta-analysis
 bibliography: references.bib

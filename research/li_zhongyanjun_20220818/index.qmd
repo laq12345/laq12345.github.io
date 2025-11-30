@@ -2,7 +2,7 @@
 title: "Novel 1-hydroxy phenothiazinium-based derivative protects against bacterial sepsis by inhibiting AAK1-mediated LPS internalization and caspase-11 signaling"
 lang: zh
 date: "2022-8-18"
-description: "钟燕军通讯，钟燕军于2022年8月18日发表于Cell Death and Disease，doi：10.1038/s41419-022-05151-7"
+description: "doi：10.1038/s41419-022-05151-7"
 categories: [original research]
 type: article
 bibliography: references.bib

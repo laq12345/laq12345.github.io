@@ -2,7 +2,7 @@
 title: "DsbA-L mediated renal tubulointerstitial fibrosis in UUO mice"
 lang: zh
 date: "2025-09-04"
-description: "张东山于2020年9月18日发表于Nature communications，doi：10.1038/s41467-020-18304-z"
+description: "doi：10.1038/s41467-020-18304-z"
 categories: [article]
 type: article
 bibliography: references.bib

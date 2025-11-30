@@ -2,7 +2,7 @@
 title: "Prolonged versus short-term infusion of meropenem for the treatment of sepsis: a systematic review and meta-analysis"
 lang: zh
 date: "2022-8-18"
-description: "钟燕军的一篇文章"
+description: ""
 categories: [original research]
 type: article
 ---

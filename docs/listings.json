@@ -1,9 +1,29 @@
 [
   {
-    "listing": "/information/information.html",
+    "listing": "/code/code.html",
     "items": [
-      "/information/in_zh/index.html",
-      "/information/in_zzu_icu_tutor/index.html"
+      "/code/p_error/index.html",
+      "/code/p_PEP8/index.html",
+      "/code/p_with/index.html",
+      "/code/p__init__/index.html",
+      "/code/p_T&F/index.html",
+      "/code/p_copy/index.html",
+      "/code/q_style/index.html",
+      "/code/p_string_format/index.html",
+      "/code/p_else/index.html",
+      "/code/p_match/index.html",
+      "/code/p_Walrus/index.html",
+      "/code/p_unpacking/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/blog.html",
+    "items": [
+      "/blog/blog_interview_non_professional/index.html",
+      "/blog/readnote_20240606_bad_pharma/index.html",
+      "/blog/learnnote_researchwords/index.html",
+      "/blog/learnnote_sepsis/index.html",
+      "/blog/learnnote_words/index.html"
     ]
   },
   {
@@ -42,23 +62,10 @@
     ]
   },
   {
-    "listing": "/blog/blog.html",
+    "listing": "/information/information.html",
     "items": [
-      "/blog/blog_interview_non_professional/index.html",
-      "/blog/blog_introduction_en/index.html",
-      "/blog/blog_introduction_zh/index.html",
-      "/blog/readnote_20240606_bad_pharma/index.html",
-      "/blog/learnnote_researchwords/index.html",
-      "/blog/learnnote_sepsis/index.html",
-      "/blog/learnnote_words/index.html"
-    ]
-  },
-  {
-    "listing": "/code/code.html",
-    "items": [
-      "/code/q_style/index.html",
-      "/code/p_string_format/index.html",
-      "/code/p_match/index.html"
+      "/information/in_QQ/index.html",
+      "/information/in_zh/index.html"
     ]
   },
   {
@@ -76,6 +83,8 @@
       "/research/li_Zhangdongshan_20250905/index.html",
       "/research/li_zhongyanjun_20250907/index.html",
       "/research/li_kangyan_20250703/index.html",
+      "/research/li_shangyou_thymosin_α1/index.html",
+      "/research/li_shangyou_ Viral_sepsis/index.html",
       "/research/workshop_PCR/index.html",
       "/research/workshop_WB/index.html",
       "/research/workshop_singlecell/index.html",

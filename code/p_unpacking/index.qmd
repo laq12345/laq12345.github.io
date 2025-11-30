@@ -1,0 +1,165 @@
+---
+title: "解包"
+lang: zh
+description: "可迭代对象（如列表、元组、字符串、字典等）中的元素逐个取出，并赋值给多个变量，或者在函数调用时将数据结构“展开”为独立的参数"
+date: "2025-09-25"
+categories: [Python]
+image: "../image/py.jpg"
+code-overflow: scroll
+---
+
+在 Python 中，“解包”（Unpacking）是一项非常强大且常用的功能。它允许你将**可迭代对象**（如列表、元组、字符串、字典等）中的元素**逐个取出**，并赋值给多个变量，或者在函数调用时将数据结构“展开”为独立的参数。
+
+解包不仅使代码更加简洁、易读，还能提高效率，是 Python 风格编程（Pythonic）的重要体现之一。
+
+***
+
+### 一、基本解包（赋值解包）
+
+这是最常见和基础的解包形式，用于将一个可迭代对象的元素分别赋值给多个变量。
+
+#### 1. 元组和列表解包
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-0" index="0" total="15"># 元组解包
+coordinates = (10, 20, 30)
+x, y, z = coordinates
+print(x, y, z)  # 输出: 10 20 30
+
+# 列表解包
+colors = ['red', 'green', 'blue']
+first, second, third = colors
+print(first)  # 输出: red</code></pre>
+
+> ⚠️ 注意：变量数量必须与可迭代对象的元素数量一致，否则会抛出 `ValueError`。
+
+#### 2. 字符串解包
+
+字符串也是可迭代的，因此也可以解包：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-1" index="1" total="15">a, b, c = 'xyz'
+print(a, b, c)  # 输出: x y z</code></pre>
+
+***
+
+### 二、扩展解包（使用 `*` 操作符）
+
+Python 3 引入了“扩展解包”，使用星号 `*` 来捕获多余的元素。
+
+#### 1. 使用 `*` 收集剩余元素
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-2" index="2" total="15">numbers = [1, 2, 3, 4, 5]
+a, *b, c = numbers
+print(a)    # 1
+print(b)    # [2, 3, 4]
+print(c)    # 5</code></pre>
+
+* `*b` 会收集中间的所有元素，返回一个列表。
+* `*` 可以出现在任意位置（开头、中间、结尾）。
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-3" index="3" total="15">*a, b, c = [1, 2, 3, 4, 5]
+print(a)  # [1, 2, 3]</code></pre>
+
+#### 2. 合并列表或元组（使用 `*` 在字面量中）
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-4" index="4" total="15">list1 = [1, 2]
+list2 = [3, 4]
+combined = [*list1, *list2, 5, 6]
+print(combined)  # [1, 2, 3, 4, 5, 6]</code></pre>
+
+***
+
+### 三、字典解包（使用 `**` 操作符）
+
+用于将字典的键值对“展开”，常用于函数调用或合并字典。
+
+#### 1. 函数参数中的字典解包
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-5" index="5" total="15">def greet(name, age):
+    print(f"Hello {name}, you are {age} years old.")
+
+person = {'name': 'Alice', 'age': 25}
+greet(**person)  # 等价于 greet(name='Alice', age=25)</code></pre>
+
+> 注意：字典的键必须与函数参数名一致，否则会报错。
+
+#### 2. 合并字典
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-6" index="6" total="15">dict1 = {'a': 1, 'b': 2}
+dict2 = {'c': 3, 'd': 4}
+merged = {**dict1, **dict2}
+print(merged)  # {'a': 1, 'b': 2, 'c': 3, 'd': 4}</code></pre>
+
+从 Python 3.9 开始，还可以使用 `|` 操作符合并字典：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-7" index="7" total="15">merged = dict1 | dict2</code></pre>
+
+***
+
+### 四、函数参数中的解包
+
+在调用函数时，可以使用 `*` 和 `**` 将列表/元组或字典作为参数传入。
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-8" index="8" total="15">def add(a, b, c):
+    return a + b + c
+
+args = [1, 2, 3]
+result = add(*args)  # 等价于 add(1, 2, 3)
+print(result)  # 6
+
+kwargs = {'a': 1, 'b': 2, 'c': 3}
+result = add(**kwargs)
+print(result)  # 6</code></pre>
+
+***
+
+### 五、嵌套解包
+
+可以对嵌套的数据结构进行解包：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-9" index="9" total="15">data = ('Alice', (25, 'Engineer'), 'NYC')
+name, (age, job), city = data
+print(name, age, job, city)  # Alice 25 Engineer NYC</code></pre>
+
+***
+
+### 六、忽略不需要的值
+
+使用下划线 `_` 表示不关心的变量：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-10" index="10" total="15">data = (1, 2, 3, 4, 5)
+a, _, b, *_, c = data
+print(a, b, c)  # 1 3 5</code></pre>
+
+***
+
+### 七、实际应用场景
+
+1. **交换变量值**（无需临时变量）：
+   <pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-11" index="11" total="15">a, b = b, a</code></pre>
+
+2. **遍历字典的键值对**：
+   <pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-12" index="12" total="15">for key, value in my_dict.items():
+       print(key, value)</code></pre>
+
+3. **处理函数返回的多个值**：
+   <pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-13" index="13" total="15">def get_name_age():
+       return "Bob", 30
+
+   name, age = get_name_age()</code></pre>
+
+4. **简化复杂数据提取**：
+   <pre style="background: none"><code class="language-python" data-language="python" identifier="e8f3bccf7b044c118cae8ff7a868423a-14" index="14" total="15">records = [('Alice', 25), ('Bob', 30)]
+   for name, age in records:
+       print(name, age)</code></pre>
+
+***
+
+### 总结
+
+| 解包类型     | 操作符 | 用途                         |
+|------------|-------|----------------------------|
+| 基本解包     | `=`   | 将可迭代对象元素赋值给多个变量         |
+| 扩展解包     | `*`   | 收集多余元素，或展开列表/元组         |
+| 字典解包     | `**`  | 展开字典用于函数调用或合并字典        |
+| 函数调用解包 | `*`, `**` | 将列表/字典作为位置参数或关键字参数传入 |
+

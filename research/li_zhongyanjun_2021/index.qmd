@@ -2,7 +2,7 @@
 title: "Blocking Msr1 by berberine alkaloids inhibits caspase-11dependent coagulation in bacterial sepsis"
 lang: zh
 date: "2021-2-28"
-description: "重要，钟燕军一作，高分，钟燕军于2021年2月28日发表于Signal Transduction and Targeted Therapy，doi：10.1038/s41392-021-00483-w"
+description: "doi：10.1038/s41392-021-00483-w"
 categories: [original research]
 type: article
 bibliography: references.bib

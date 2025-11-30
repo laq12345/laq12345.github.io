@@ -2,7 +2,7 @@
 title: "How Effective Is the Early Management Bundle for Severe Sepsis/Septic Shock?"
 lang: zh
 date: "2025-09-01"
-description: "Moreira2020年5月1日发表于JAMA Intern Med, 早期严重脓毒症/脓毒性休克集束化治疗的有效性如何？"
+description: ""
 categories: [therapy]
 type: Commentary
 bibliography: references.bib

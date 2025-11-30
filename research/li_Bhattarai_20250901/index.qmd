@@ -2,7 +2,7 @@
 title: "Association of copeptin levels with patient prognosis and survival in sepsis syndromes: a meta-analysis."
 lang: zh
 date: "2025-09-01"
-description: "Bhattarai Abhinav2024-04-01发表于Int J Surg，和肽素水平与败血症综合征患者预后和生存的关系：一项荟萃分析，doi：10.1097/JS9.0000000000001069"
+description: "doi：10.1097/JS9.0000000000001069"
 categories: [meta-analysis, systematic review, sepsis]
 type: meta-analysis
 bibliography: references.bib

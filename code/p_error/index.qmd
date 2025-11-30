@@ -1,0 +1,188 @@
+---
+title: "Error"
+description: "Python中各种error的含义"
+date: "2025-09-20"
+categories: [Python]
+image: "../image/py.jpg"
+code-overflow: scroll
+---
+
+Python 中的错误（Errors）是程序执行过程中出现问题时引发的异常（Exceptions）。理解常见的错误类型对于调试和编写健壮的代码至关重要。Python 的异常体系以 `BaseException` 为根，大部分我们处理的异常都继承自 `Exception`。
+
+以下是 Python 中**最常见和最重要的错误类型**的详细介绍：
+
+------------------------------------------------------------------------
+
+### 1. [`SyntaxError`]{style="color: darkred;"}：语法错误
+
+-   **原因**：代码不符合 Python 语法规则。
+-   **何时发生**：在代码**解析阶段**（编译前）就会被发现，程序甚至无法开始运行。
+-   **常见场景**：
+    -   缺少冒号 `:`（如 `if condition` 后面没加 `:`）
+    -   括号不匹配（`(` 和 `)` 不配对）
+    -   字符串引号不闭合
+    -   使用了非法的变量名（如 `class = "math"`，`class` 是关键字）
+-   **示例**： `python     # SyntaxError: invalid syntax     if True         print("Hello")`
+
+------------------------------------------------------------------------
+
+### 2. [`IndentationError`]{style="color: darkred;"}：缩进错误
+
+-   **原因**：Python 依赖缩进来定义代码块，缩进不正确会导致此错误。
+-   **子类型**：
+    -   [`TabError`]{style="color: darkred;"}：混用了 Tab 和空格进行缩进。
+-   **常见场景**：
+    -   函数体、循环体、条件块内没有正确缩进。
+    -   同一代码块中使用了不一致的缩进量。
+-   **示例**： `python     def my_func():     print("This is not indented")  # IndentationError`
+
+------------------------------------------------------------------------
+
+### 3. [`NameError`]{style="color: darkred;"}：名称错误
+
+-   **原因**：尝试访问一个**未定义**的变量或函数名。
+-   **常见场景**：
+    -   变量名拼写错误。
+    -   在定义之前就使用了变量（作用域问题）。
+    -   忘记导入模块或从模块中导入特定名称。
+-   **示例**： `python     print(undefined_variable)  # NameError: name 'undefined_variable' is not defined`
+
+------------------------------------------------------------------------
+
+### 4. [`TypeError`]{style="color: darkred;"}：类型错误
+
+-   **原因**：对**不支持该操作的数据类型**进行了操作。
+-   **非常常见**，尤其是在动态类型语言中。
+-   **常见场景**：
+    -   将字符串和整数相加（`"hello" + 5`）。
+    -   尝试对不可迭代对象使用 `for` 循环。
+    -   调用非函数类型的对象。
+    -   给函数传递了错误类型的参数。
+-   **示例**： `python     "hello" + 5  # TypeError: can only concatenate str (not "int") to str     len(123)     # TypeError: object of type 'int' has no len()`
+
+------------------------------------------------------------------------
+
+### 5. [`AttributeError`]{style="color: darkred;"}：属性错误
+
+-   **原因**：尝试访问对象的某个**不存在的属性或方法**。
+-   **常见场景**：
+    -   对象没有你试图调用的方法。
+    -   拼错了方法名或属性名。
+    -   模块中没有你要导入的函数/类。
+-   **示例**： `python     my_list = [1, 2, 3]     my_list.appnd(4)  # AttributeError: 'list' object has no attribute 'appnd'     # 应该是 append`
+
+------------------------------------------------------------------------
+
+### 6. [`KeyError`]{style="color: darkred;"}：键错误
+
+-   **原因**：尝试从字典（`dict`）中访问一个**不存在的键**。
+-   **仅适用于字典**。
+-   **解决方法**：使用 `.get()` 方法或先检查键是否存在。
+-   **示例**： `python     my_dict = {"name": "Alice"}     print(my_dict["age"])  # KeyError: 'age'`
+
+------------------------------------------------------------------------
+
+### 7. [`IndexError`]{style="color: darkred;"}：索引错误
+
+-   **原因**：尝试访问序列（如列表、元组、字符串）中**超出其范围的索引**。
+-   **常见于列表操作**。
+-   **示例**： `python     my_list = [10, 20, 30]     print(my_list[5])  # IndexError: list index out of range`
+
+------------------------------------------------------------------------
+
+### 8. [`ValueError`]{style="color: darkred;"}：值错误
+
+-   **原因**：函数接收到**类型正确但值不合适**的参数。
+-   **与 `TypeError` 的区别**：`TypeError` 是类型不对，`ValueError` 是类型对但值无效。
+-   **常见场景**：
+    -   `int("hello")` —— 字符串不能转换为整数。
+    -   `list.remove(x)` 但 `x` 不在列表中。
+-   **示例**： `python     int("abc")  # ValueError: invalid literal for int() with base 10: 'abc'`
+
+------------------------------------------------------------------------
+
+### 9. [`ImportError`]{style="color: darkred;"} / [`ModuleNotFoundError`]{style="color: darkred;"}：导入错误
+
+-   [**`ImportError`**]{style="color: darkred;"}：基本的导入错误，当 `import` 语句无法找到模块或无法加载时抛出。
+-   [**`ModuleNotFoundError`**]{style="color: darkred;"}：[`ImportError`]{style="color: darkred;"} 的子类，当指定的模块**找不到**时更具体地抛出（Python 3.6+）。
+-   **常见场景**：
+    -   模块名拼写错误。
+    -   模块不在 `PYTHONPATH` 或当前目录。
+    -   包结构错误。
+-   **示例**： `python     import non_existent_module  # ModuleNotFoundError: No module named 'non_existent_module'`
+
+------------------------------------------------------------------------
+
+### 10. [`FileNotFoundError`]{style="color: darkred;"}：文件未找到错误
+
+-   **原因**：尝试打开一个**不存在的文件**。
+-   [**`OSError`**]{style="color: darkred;"} **的子类**，专门用于文件操作。
+-   **示例**： `python     open("missing_file.txt", "r")  # FileNotFoundError: [Errno 2] No such file or directory`
+
+------------------------------------------------------------------------
+
+### 11. [`ZeroDivisionError`]{style="color: darkred;"}：除零错误
+
+-   **原因**：尝试将一个数**除以零**。
+-   [**`ArithmeticError`**]{style="color: darkred;"} **的子类**。
+-   **示例**： `python     10 / 0  # ZeroDivisionError: division by zero`
+
+------------------------------------------------------------------------
+
+### 12. [`OSError`]{style="color: darkred;"}：操作系统错误
+
+-   **原因**：与操作系统交互时发生的错误（如文件、目录、权限、磁盘空间等）。
+-   **是一个大类**，包含许多子类，如：
+    -   [`FileNotFoundError`]{style="color: darkred;"}
+    -   [`PermissionError`]{style="color: darkred;"}：权限不足。
+    -   [`IsADirectoryError`]{style="color: darkred;"}：把目录当文件操作了。
+    -   [`ConnectionError`]{style="color: darkred;"}：网络连接问题（部分子类）。
+-   **示例**： `python     open("/root/protected_file", "w")  # PermissionError (属于 OSError)`
+
+------------------------------------------------------------------------
+
+### 13. [`KeyboardInterrupt`]{style="color: darkred;"}：键盘中断
+
+-   **原因**：用户按下 `Ctrl+C` 中断程序执行。
+-   **虽然是异常，但通常不视为“错误”**，而是正常的程序终止方式之一。
+
+------------------------------------------------------------------------
+
+### 如何处理这些错误？
+
+使用 `try...except` 语句来捕获和处理异常：
+
+``` python
+try:
+    value = int(input("Enter a number: "))
+    result = 10 / value
+except ValueError:
+    print("That's not a valid number!")
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+except Exception as e:
+    print(f"An unexpected error occurred: {e}")
+else:
+    print(f"Result is {result}")
+finally:
+    print("Execution finished.")
+```
+
+------------------------------------------------------------------------
+
+### 总结表
+
+| 错误类型 | 主要原因 |
+|:-----------------------------------|:-----------------------------------|
+| [`SyntaxError`]{style="color: darkred;"} | 代码语法错误 |
+| [`IndentationError`]{style="color: darkred;"} | 缩进不正确 |
+| [`NameError`]{style="color: darkred;"} | 名称未定义 |
+| [`TypeError`]{style="color: darkred;"} | 操作不支持的数据类型 |
+| [`AttributeError`]{style="color: darkred;"} | 访问不存在的属性/方法 |
+| [`KeyError`]{style="color: darkred;"} | 字典中键不存在 |
+| [`IndexError`]{style="color: darkred;"} | 索引超出序列范围 |
+| [`ValueError`]{style="color: darkred;"} | 参数值不合适 |
+| [`ImportError`]{style="color: darkred;"} / [`ModuleNotFoundError`]{style="color: darkred;"} | 模块导入失败 |
+| [`FileNotFoundError`]{style="color: darkred;"} | 文件不存在 |
+| [`ZeroDivisionError`]{style="color: darkred;"} | 除以零 |
+| [`OSError`]{style="color: darkred;"} | 操作系统相关错误 |

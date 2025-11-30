@@ -2,7 +2,7 @@
 title: "PRDM16 suppresses ferroptosis toprotect against sepsis-associated acute kidney injury bytargeting the NRF2/GPX4 axis"
 lang: zh
 date: "2025-09-05"
-description: "张东山于2024年12月发表于Redox Biol，doi：10.1016/j.redox.2024.103417"
+description: "doi：10.1016/j.redox.2024.103417"
 categories: [article]
 type: article
 bibliography: references.bib

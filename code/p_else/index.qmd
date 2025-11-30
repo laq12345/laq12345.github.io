@@ -1,0 +1,104 @@
+---
+title: "循环中的else"
+lang: zh
+description: "Python循环中的else语句在循环未被break等终止，正常完成循环后执行"
+date: "2025-09-24"
+categories: [Python]
+image: "../image/py.jpg"
+code-overflow: scroll
+---
+
+在 Python 中，循环（`for` 或 `while`）可以搭配 `else` 语句使用，这是 Python 特有的语法结构，其作用与条件判断中的 `else` 有所不同。
+
+### 循环中 `else` 的核心逻辑：
+
+**当循环正常执行完毕（没有被 `break` 语句中断）时，才会执行 `else` 块中的代码。**
+
+### 语法结构：
+
+``` python
+# for 循环搭配 else
+for 变量 in 可迭代对象:
+    循环体
+else:
+    循环正常结束后执行的代码
+
+# while 循环搭配 else
+while 条件:
+    循环体
+else:
+    循环正常结束后执行的代码
+```
+
+### 示例说明：
+
+#### 1. 循环正常结束（执行 `else`）
+
+``` python
+for i in range(3):
+    print(i)
+else:
+    print("循环正常结束")  # 会执行，因为循环自然结束
+
+# 输出：
+# 0
+# 1
+# 2
+# 循环正常结束
+```
+
+#### 2. 循环被 `break` 中断（不执行 `else`）
+
+``` python
+for i in range(3):
+    print(i)
+    if i == 1:
+        break  # 中断循环
+else:
+    print("循环正常结束")  # 不会执行，因为循环被break打断
+
+# 输出：
+# 0
+# 1
+```
+
+#### 3. `while` 循环的例子
+
+``` python
+n = 3
+while n > 0:
+    print(n)
+    n -= 1
+    if n == 1:
+        break  # 中断循环
+else:
+    print("循环正常结束")  # 不会执行
+
+# 输出：
+# 3
+# 2
+```
+
+### 典型应用场景：
+
+常用于「查找某元素」的逻辑中，当循环结束仍未找到目标时，通过 `else` 块处理“未找到”的情况，避免使用额外的标志变量。
+
+例如，检查列表中是否存在偶数：
+
+``` python
+numbers = [1, 3, 5, 7]
+for num in numbers:
+    if num % 2 == 0:
+        print(f"找到偶数：{num}")
+        break
+else:
+    print("列表中没有偶数")  # 循环正常结束（未找到），执行else
+
+# 输出：列表中没有偶数
+```
+
+### 关键点总结：
+
+-   循环的 `else` 与 `if-else` 无关，仅与循环是否被 `break` 中断有关
+-   只要循环完整执行完毕（没有 `break`），就会触发 `else`
+-   适用于需要区分“循环正常结束”和“循环被强制中断”的场景

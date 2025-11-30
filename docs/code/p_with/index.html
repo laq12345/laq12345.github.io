@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="with用于简化资源的管理和异常处理">
+
+<title>With – 笑面狐</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../misc/info/favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4931ad3a4f610300299060d87ad9de1f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-716c107b9b55d002a184c11025d9a7fa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">笑面狐</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="搜索"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="展开或折叠导航栏" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../information/information.html"> 
+<span class="menu-text">资料</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research/research.html"> 
+<span class="menu-text">科研</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../code/code.html"> 
+<span class="menu-text">代码</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../icu/icu.html"> 
+<span class="menu-text">ICU</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/blog.html"> 
+<span class="menu-text">笔记</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about_me.html"> 
+<span class="menu-text">关于</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laq12345" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:2713874272@qq.com"> <i class="bi bi-mailbox2-flag" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#一with-的基本语法" id="toc-一with-的基本语法" class="nav-link active" data-scroll-target="#一with-的基本语法">一、<code>with</code> 的基本语法</a></li>
+  <li><a href="#二with-的执行流程" id="toc-二with-的执行流程" class="nav-link" data-scroll-target="#二with-的执行流程">二、<code>with</code> 的执行流程</a></li>
+  <li><a href="#三常见应用场景" id="toc-三常见应用场景" class="nav-link" data-scroll-target="#三常见应用场景">三、常见应用场景</a></li>
+  <li><a href="#四自定义上下文管理器" id="toc-四自定义上下文管理器" class="nav-link" data-scroll-target="#四自定义上下文管理器">四、自定义上下文管理器</a></li>
+  <li><a href="#五with-的优势" id="toc-五with-的优势" class="nav-link" data-scroll-target="#五with-的优势">五、<code>with</code> 的优势</a></li>
+  <li><a href="#六注意事项" id="toc-六注意事项" class="nav-link" data-scroll-target="#六注意事项">六、注意事项</a></li>
+  <li><a href="#总结" id="toc-总结" class="nav-link" data-scroll-target="#总结">总结</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/code/p_with/index.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">With</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Python</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    with用于简化资源的管理和异常处理
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">发布于</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2025年9月23日</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>在Python中，<code>with</code> 语句是一个非常重要的语法特性，它用于<strong>简化资源的管理和异常处理</strong>。其核心目的是确保资源（如文件、网络连接、数据库连接、锁等）在使用完毕后能够被正确地清理和释放，即使在使用过程中发生错误也不例外。</p>
+<p><code>with</code> 语句依赖于 <strong>上下文管理器（Context Manager）</strong> 协议。一个对象要成为上下文管理器，必须实现 <code>__enter__()</code> 和 <code>__exit__()</code> 这两个特殊方法。</p>
+<hr>
+<section id="一with-的基本语法" class="level3">
+<h3 class="anchored" data-anchor-id="一with-的基本语法">一、<code>with</code> 的基本语法</h3>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="7788f2b2ba2b45849de55f889805be1f-0" index="0" total="9">with 表达式 as 变量:
+    代码块</code></pre>
+<ul>
+<li><code>表达式</code>：通常是一个返回上下文管理器对象的表达式。</li>
+<li><code>as 变量</code>：可选，用于接收 <code>__enter__()</code> 方法的返回值。</li>
+<li><code>代码块</code>：在 <code>with</code> 块中执行的操作。</li>
+</ul>
+<hr>
+</section>
+<section id="二with-的执行流程" class="level3">
+<h3 class="anchored" data-anchor-id="二with-的执行流程">二、<code>with</code> 的执行流程</h3>
+<p>当执行 <code>with</code> 语句时，Python 会自动调用以下方法：</p>
+<ol type="1">
+<li><p><strong>调用 <code>__enter__()</code> 方法</strong>：</p>
+<ul>
+<li>获取资源（如打开文件）。</li>
+<li>返回值赋给 <code>as</code> 后的变量（如果有的话）。</li>
+</ul></li>
+<li><p><strong>执行 <code>with</code> 块中的代码</strong>。</p></li>
+<li><p><strong>无论代码是否发生异常，都会调用 <code>__exit__()</code> 方法</strong>：</p>
+<ul>
+<li>释放资源（如关闭文件）。</li>
+<li>可以处理异常（返回 <code>True</code> 表示异常已被处理，不向外传播）。</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="三常见应用场景" class="level3">
+<h3 class="anchored" data-anchor-id="三常见应用场景">三、常见应用场景</h3>
+<section id="文件操作最常见" class="level4">
+<h4 class="anchored" data-anchor-id="文件操作最常见">1. 文件操作（最常见）</h4>
+<p>在没有 <code>with</code> 时，需要手动关闭文件：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="7788f2b2ba2b45849de55f889805be1f-1" index="1" total="9">f = open('test.txt', 'r')
+try:
+    content = f.read()
+    print(content)
+finally:
+    f.close()  # 必须手动关闭</code></pre>
+<p>使用 <code>with</code> 后，文件会自动关闭：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="7788f2b2ba2b45849de55f889805be1f-2" index="2" total="9">with open('test.txt', 'r') as f:
+    content = f.read()
+    print(content)
+# 文件在此处自动关闭，即使发生异常也会关闭</code></pre>
+</section>
+<section id="线程锁" class="level4">
+<h4 class="anchored" data-anchor-id="线程锁">2. 线程锁</h4>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="7788f2b2ba2b45849de55f889805be1f-3" index="3" total="9">import threading
+
+lock = threading.Lock()
+
+with lock:
+    # 自动获取锁
+    print("临界区操作")
+    # 自动释放锁</code></pre>
+<p>等价于：</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="7788f2b2ba2b45849de55f889805be1f-4" index="4" total="9">lock.acquire()
+try:
+    print("临界区操作")
+finally:
+    lock.release()</code></pre>
+</section>
+<section id="数据库连接" class="level4">
+<h4 class="anchored" data-anchor-id="数据库连接">3. 数据库连接</h4>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="7788f2b2ba2b45849de55f889805be1f-5" index="5" total="9">import sqlite3
+
+with sqlite3.connect('example.db') as conn:
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM users")
+    print(cursor.fetchall())
+# 连接自动提交（如果操作成功）或回滚（如果异常），并关闭</code></pre>
+<hr>
+</section>
+</section>
+<section id="四自定义上下文管理器" class="level3">
+<h3 class="anchored" data-anchor-id="四自定义上下文管理器">四、自定义上下文管理器</h3>
+<p>你可以通过定义类来创建自己的上下文管理器。</p>
+<section id="方法一实现-__enter__-和-__exit__" class="level4">
+<h4 class="anchored" data-anchor-id="方法一实现-__enter__-和-__exit__">方法一：实现 <code>__enter__</code> 和 <code>__exit__</code></h4>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="7788f2b2ba2b45849de55f889805be1f-6" index="6" total="9">class MyContext:
+    def __enter__(self):
+        print("进入上下文")
+        return "资源句柄"
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        print("退出上下文，清理资源")
+        if exc_type is not None:
+            print(f"捕获到异常: {exc_value}")
+        return False  # 不抑制异常
+
+# 使用
+with MyContext() as resource:
+    print(resource)
+    # raise ValueError("测试异常")</code></pre>
+</section>
+<section id="方法二使用-contextlib.contextmanager-装饰器" class="level4">
+<h4 class="anchored" data-anchor-id="方法二使用-contextlib.contextmanager-装饰器">方法二：使用 <code>contextlib.contextmanager</code> 装饰器</h4>
+<p>通过生成器函数定义上下文管理器，更简洁。</p>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="7788f2b2ba2b45849de55f889805be1f-7" index="7" total="9">from contextlib import contextmanager
+
+@contextmanager
+def my_context():
+    print("进入上下文")
+    try:
+        yield "资源句柄"
+    except Exception as e:
+        print(f"处理异常: {e}")
+        # 可选择是否重新抛出
+    finally:
+        print("退出上下文，清理资源")
+
+# 使用
+with my_context() as resource:
+    print(resource)</code></pre>
+<hr>
+</section>
+</section>
+<section id="五with-的优势" class="level3">
+<h3 class="anchored" data-anchor-id="五with-的优势">五、<code>with</code> 的优势</h3>
+<ol type="1">
+<li><strong>自动资源管理</strong>：无需手动调用 <code>close()</code> 或 <code>release()</code>。</li>
+<li><strong>异常安全</strong>：即使发生异常，<code>__exit__</code> 也会执行，确保资源释放。</li>
+<li><strong>代码简洁</strong>：减少 <code>try...finally</code> 的模板代码。</li>
+<li><strong>可读性强</strong>：清晰地表达“获取-使用-释放”的资源生命周期。</li>
+</ol>
+<hr>
+</section>
+<section id="六注意事项" class="level3">
+<h3 class="anchored" data-anchor-id="六注意事项">六、注意事项</h3>
+<ul>
+<li><code>with</code> 块结束后，资源通常会被释放，变量仍然存在但可能已无效（如文件对象已关闭）。</li>
+<li>多个上下文管理器可以一起使用：</li>
+</ul>
+<pre style="background: none"><code class="language-python" data-language="python" identifier="7788f2b2ba2b45849de55f889805be1f-8" index="8" total="9">with open('in.txt') as f1, open('out.txt', 'w') as f2:
+    f2.write(f1.read())</code></pre>
+<hr>
+</section>
+<section id="总结" class="level3">
+<h3 class="anchored" data-anchor-id="总结">总结</h3>
+<p><code>with</code> 语句是 Python 中实现<strong>确定性资源管理</strong>（Deterministic Resource Management）的最佳实践。它通过上下文管理器协议，让资源的获取和释放变得安全、简洁、优雅。无论是文件操作、锁、数据库连接，还是自定义资源，都应该优先使用 <code>with</code> 语句来管理。</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/laq12345\.netlify\.app");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025, Liu Aoqi</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/laq12345/laq12345.github.io/edit/main/code/p_with/index.qmd" class="toc-action"><i class="bi bi-github"></i>编辑该页面</a></li><li><a href="https://github.com/laq12345/laq12345.github.io/issues/new" class="toc-action"><i class="bi empty"></i>反馈问题</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/laq12345/laq12345.github.io">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,39 +1,78 @@
 ---
-title: "刘奥奇"
+title: "关于我"
+subtitle: |
+  我的学业、工作与生活
 lang: zh
 image: misc/info/favicon.jpg
-page-layout: article
-format: 
-  html:
-    linestretch: 1.7
-about:
-  id: hero-heading
-  template: jolla
-  image-shape: round
-  links:
-    - icon: mailbox
-      text: 邮箱
-      href: mailto:2713874272@qq.com
-    - icon: github
-      text: laq12345
-      href: https://github.com/laq12345
-    - icon: tencent-qq
-      text: QQ
-      href: misc/info/qq.png
-      target: _blank 
-    - icon: hospital
-      text: 郑州大学
-      href: https://www.zzu.edu.cn/
-fig-align: center
 ---
 
-::: {#hero-heading}
+## {{< fa graduation-cap >}} 学业
 
-:::
+### {{< fa school >}} 郑州大学
 
-我很神秘，所以这里什么都没有
+我就读于郑州大学临床医学专业，现如今我已经大四了。这四年时光里我刻苦学习，不曾懈怠。如今我的所有专业课都已经学完了，最终的获得了11/572的成绩，并成功获得了理想学校待录取通知给我的大学时光画了一个圆满的句号。
 
-如果想了解我，这里肯定是不行了
+<img class="img-styling" src="misc/images/zzu.jpg" alt="我的母校郑州大学，我在主校区学习两年半，后来搬到河医又学习了一年半" width="100%">
 
-不过不要难过，我依然爱着你，我的爱是平等而不匮乏的
+### {{< fa dna >}} 重症医学
+
+接下来我的中心或许会放在重症医学知识的学习上，我已经看完了研究生教材，但是总觉得写的很难懂，我买了一本实用重症医学参考书，或许可以学一学。
+
+
+## {{< fa hand-holding-medical >}} 工作
+
+### {{< fa hospital >}} 实习
+
+我目前正在郑州大学第二附属医院实习，大概实习一年时间，在这一年时间里希望能够继续进步，继续努力，学习更多临床知识。
+
+```{r}
+#| label: setup-map
+#| eval: true
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-align: "center"
+#| out-width: "100%"
+
+library(leaflet)
+
+# 创建地图，使用高德地图作为底图（适合中国大陆）
+map <- leaflet() %>%
+  
+  # 高德地图瓦片（街道图）
+  addTiles(
+    urlTemplate = "https://webrd02.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=7&x={x}&y={y}&z={z}",
+    options = tileOptions(minZoom = 3, maxZoom = 18),
+    attribution = "© 高德地图"
+  ) %>%
+  
+  # 定位到郑州大学第二附属医院
+  setView(lng = 113.67, lat = 34.769, zoom = 15) %>%
+  
+  # 可选：添加比例尺
+  addScaleBar(position = "bottomleft", options = scaleBarOptions(imperial = TRUE))
+
+# 输出地图
+map
+```
+
+## {{< fa chalkboard >}} 爱好
+
+我目前正在学习各种编程知识，我计划在未来的一年时间里持续学习。
+
+### {{< fa brands python >}} Python
+
+Python是我这一年里的学习重点，我打算掌握Python编程的基本技能，能够自主写一些脚本服务于日常工作和生活。
+
+其次是学习Pandas、NumPy，这是我通向数据科学的必经之路，目前Pandas已经学完了，但是真正运用自如还需要坚持练习。NumPy还需要更深入地学习，这是我接下来深入学习机器学习算法的基础。
+
+最后我还会从学习机器学习算法，从Scikit-Learn和PyTorch开始。
+
+### {{< fa brands r-project >}} R
+
+R语言是我最初接触的编程语言，这是我开启编程知识学习大门的基石，我觉得我最近有点属于学习，不知道我的数据分析和可视化能力退步了多少，接下来我的学习重心或许会放在Seruat、Signic等单细胞数据分析库的学习。
+
+### {{< fa brands linux >}} Linux
+
+Linux我觉得我也应该多花费时间学习一下，目前已经租了一台长期的服务器，我的工作重心或许会放在Vim技能训练和Shell脚本的编写上。
 

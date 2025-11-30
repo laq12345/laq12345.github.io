@@ -7,7 +7,7 @@ listing:
   - id: literature
     max-description-length: 500
     image-height: 250px
-    fields: [title, description, type, date]
+    fields: [title, type, date]
     contents: 
       - "li_*/index.qmd"
     type: table

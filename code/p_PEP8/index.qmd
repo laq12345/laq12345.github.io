@@ -1,0 +1,278 @@
+---
+title: "PEP8"
+lang: zh
+description: "PEP 8是 Python 官方推荐的代码风格指南，旨在为 Python 社区提供统一、清晰、可读性强的编码规范。"
+date: "2025-09-25"
+categories: [Python]
+image: "../image/py.jpg"
+code-overflow: scroll
+---
+
+**PEP 8** 是 Python 官方推荐的**代码风格指南**（Style Guide for Python Code），全称为 *PEP 8 – Style Guide for Python Code*。它由 Guido van Rossum（Python 之父）、Barry Warsaw 和 Nick Coghlan 共同编写，旨在为 Python 社区提供统一、清晰、可读性强的编码规范。
+
+遵循 PEP 8 不仅有助于提高代码可读性，还能促进团队协作和代码维护。虽然 Python 解释器不会强制要求你遵守 PEP 8，但在正式项目、开源项目或团队开发中，通常都会严格遵循这一规范。
+
+***
+
+## 一、PEP 8 核心原则
+
+PEP 8 的核心目标是：
+
+> **“代码被读的次数远多于被写的次数，因此可读性至关重要。”**
+
+主要原则包括：
+
+* 一致性
+* 可读性
+* 简洁性
+* 易于维护
+
+***
+
+## 二、PEP 8 主要规范详解
+
+### 1. 缩进（Indentation）
+
+* 使用 **4 个空格** 进行缩进。
+* **禁止混合使用空格和制表符（Tab）**。
+* 每级缩进用 4 个空格，不要用 Tab，除非你确定编辑器配置正确。
+
+✅ 正确：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-0" index="0" total="18">if True:
+    print("Hello")
+    for i in range(3):
+        print(i)</code></pre>
+
+❌ 错误（使用 Tab 或 2 个空格）：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-1" index="1" total="18">if True:
+  print("Hello")  # 只有 2 个空格</code></pre>
+
+> 📌 建议：在编辑器中设置将 Tab 转换为 4 个空格。
+
+***
+
+### 2. 行长度（Line Length）
+
+* 每行代码不应超过 **79 个字符**（用于代码）。
+* 注释和文档字符串建议不超过 **72 个字符**。
+* 超长行应使用括号、方括号或花括号进行**隐式续行**，或使用反斜杠 `\`（不推荐）。
+
+✅ 推荐方式（使用括号隐式续行）：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-2" index="2" total="18">long_variable_name = (
+    some_function(first_arg, second_arg)
+    + another_function(third_arg, fourth_arg)
+)</code></pre>
+
+❌ 不推荐：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-3" index="3" total="18">long_variable_name = some_function(first_arg, second_arg) + \
+                     another_function(third_arg, fourth_arg)</code></pre>
+
+***
+
+### 3. 空行（Blank Lines）
+
+* 顶层函数和类定义之间用 **两个空行** 分隔。
+* 类内部的方法之间用 **一个空行** 分隔。
+* 可适当使用空行分隔逻辑块，增强可读性。
+
+✅ 示例：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-4" index="4" total="18">def first_function():
+    pass
+
+
+def second_function():
+    pass
+
+
+class MyClass:
+    def method_one(self):
+        pass
+
+    def method_two(self):
+        pass</code></pre>
+
+***
+
+### 4. 导入（Imports）
+
+* 每行一个 import（不要 `import sys, os`）。
+* 导入语句应放在文件顶部，在模块注释和文档字符串之后。
+* 导入顺序建议为：
+  1. 标准库
+  2. 第三方库
+  3. 本地应用/库模块
+* 每组之间用一个空行分隔。
+
+✅ 正确：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-5" index="5" total="18">import os
+import sys
+
+import requests
+import numpy as np
+
+from mypackage import mymodule</code></pre>
+
+❌ 错误：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-6" index="6" total="18">import os, sys
+from mypackage import mymodule, requests</code></pre>
+
+> ⚠️ 避免使用 `from module import *`，会污染命名空间。
+
+***
+
+### 5. 空格（Whitespace）
+
+#### ✅ 正确使用空格的场景：
+
+* 二元操作符（如 `=`, `==`, `+`, `-`, `in`, `is`）**前后加空格**：
+  <pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-7" index="7" total="18">x = 1
+  if x == 1:
+      total = a + b</code></pre>
+
+* 函数参数、逗号、冒号后加空格：
+  <pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-8" index="8" total="18">def func(a, b, c):
+      return a, b, c</code></pre>
+
+#### ❌ 避免使用空格的场景：
+
+* 紧跟括号、方括号、花括号：
+  <pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-9" index="9" total="18">spam(ham[1], {eggs: 2})  # 正确
+  spam( ham[ 1 ], { eggs: 2 } )  # 错误</code></pre>
+
+* 在赋值时，不要为了对齐而使用多余空格：
+  <pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-10" index="10" total="18"># 不推荐
+  x             = 1
+  long_variable = 2
+
+  # 推荐
+  x = 1
+  long_variable = 2</code></pre>
+
+***
+
+### 6. 命名规范（Naming Conventions）
+
+| 类型               | 命名规则                     | 示例                    |
+|--------------------|----------------------------|-------------------------|
+| 函数、变量、模块     | `lowercase` 或 `lower_case_with_underscores` | `my_function`, `count` |
+| 常量               | `UPPER_CASE_WITH_UNDERSCORES` | `MAX_CONNECTIONS`, `PI` |
+| 类名               | `CapitalizedWords`（驼峰式，又称 PascalCase） | `MyClass`, `HttpClient` |
+| 类的私有成员         | `_single_leading_underscore`（约定为“内部使用”） | `_private_var` |
+| 特殊方法（魔法方法） | `__double_leading_and_trailing_underscore__` | `__init__`, `__str__` |
+| 避免的名称          | 不要使用 `l`（小写 L）、`O`（大写 o）、`I`（大写 i），容易与数字混淆 | |
+
+***
+
+### 7. 注释（Comments）
+
+* 注释应是完整的句子，首字母大写。
+* 注释与代码保持同步，避免过时注释。
+* 使用 `#` 后跟一个空格写注释。
+* 块注释：对一段代码进行解释，每行以 `#` 和空格开头。
+* 行内注释：与代码在同一行，**前面至少两个空格**，且尽量少用。
+
+✅ 正确：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-11" index="11" total="18"># This is a block comment explaining the next line.
+x = 1
+
+x = 1  # This is an inline comment (use sparingly)</code></pre>
+
+❌ 错误：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-12" index="12" total="18">x = 1 #no space after #</code></pre>
+
+***
+
+### 8. 文档字符串（Docstrings）
+
+* 所有公共模块、函数、类、方法都应有 docstring。
+* 使用 `"""三重双引号"""`。
+* 遵循 [PEP 257](https://peps.python.org/pep-0257/) 的 docstring 惯例。
+
+✅ 示例：
+
+<pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-13" index="13" total="18">def add(a, b):
+    """
+    Return the sum of two numbers.
+
+    Args:
+        a (int): The first number.
+        b (int): The second number.
+
+    Returns:
+        int: The sum of a and b.
+    """
+    return a + b</code></pre>
+
+***
+
+### 9. 编程建议（Programming Recommendations）
+
+* 使用 `is not` 而不是 `not ... is`：
+  <pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-14" index="14" total="18">if x is not None:  # 推荐
+      pass</code></pre>
+
+* 比较 `None` 时使用 `is` 或 `is not`，不要用 `==`：
+  <pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-15" index="15" total="18">if x is None:
+      pass</code></pre>
+
+* 使用 `isinstance()` 而不是类型比较：
+  <pre style="background: none"><code class="language-python" data-language="python" identifier="0066933ab3904f41abfffd4df84b4a52-16" index="16" total="18">if isinstance(obj, str):  # 推荐
+      pass</code></pre>
+
+* 使用 `join()` 拼接字符串，而不是 `+`（尤其在循环中）。
+
+***
+
+## 三、工具支持
+
+你可以使用以下工具自动检查和格式化代码是否符合 PEP 8：
+
+| 工具 | 用途 |
+|------|------|
+| `pycodestyle`（原 `pep8`） | 检查代码是否符合 PEP 8 规范 |
+| `flake8` | 结合 `pycodestyle` 和 `pyflakes`，功能更强大 |
+| `autopep8` | 自动格式化代码以符合 PEP 8 |
+| `black` | 更严格的代码格式化工具（不完全兼容 PEP 8，但更自动化） |
+| `isort` | 自动整理 import 语句顺序 |
+
+📌 示例：使用 `pycodestyle` 检查文件
+
+<pre style="background: none"><code class="language-bash" data-language="bash" identifier="0066933ab3904f41abfffd4df84b4a52-17" index="17" total="18">pip install pycodestyle
+pycodestyle my_script.py</code></pre>
+
+***
+
+## 四、总结：PEP 8 关键要点速查表
+
+| 项目 | 规范 |
+|------|------|
+| 缩进 | 4 个空格 |
+| 行长度 | 79 字符（代码），72 字符（注释） |
+| 命名 | 小写加下划线（函数/变量），大写驼峰（类），大写（常量） |
+| 导入 | 每行一个，分组排列，不使用 `*` |
+| 空行 | 类/函数间2行，方法间1行 |
+| 空格 | 操作符前后加空格，括号内不加 |
+| 注释 | 清晰、同步、合理使用 |
+| 字符串引号 | 单双引号均可，但保持一致 |
+| 表达式 | 避免在 `if` 中使用 `== True` |
+
+***
+
+## 五、结语
+
+虽然 PEP 8 是官方标准，但在实际开发中，**一致性**比“绝对正确”更重要。如果你在一个团队中工作，应遵循团队的编码规范（可能是 PEP 8 的变体，如 Google Python Style Guide 或使用 `black` 格式化）。
+
+但作为 Python 开发者，**理解并掌握 PEP 8 是基本功**，它能帮助你写出更专业、更易维护的代码。
+
+> 📚 官方文档：<https://peps.python.org/pep-0008/>
+
+建议收藏并时常查阅，养成良好的编码习惯！

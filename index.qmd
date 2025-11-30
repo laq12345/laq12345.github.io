@@ -1,16 +1,68 @@
 ---
-title: "笑面狐"
+title: "刘奥奇"
 lang: zh
-image: misc/info/favicon.jpg
+image: misc\info\white.jpg
 about:
   id: hero-heading
-  template: jolla
+  template: trestles
   image-width: 12em
-  image-shape: round
+  image-shape: rounded
+  links:
+    - icon: mailbox
+      text: 邮箱
+      href: mailto:laqlkw@163.com
+    - icon: github
+      text: laq12345
+      href: https://github.com/laq12345/laq12345.github.io
+    - icon: tencent-qq
+      text: '2713874272'
+      href: https://laq12345.netlify.app/information/in_QQ/
+    - icon: hospital
+      text: 郑州大学
+      href: https://www.zzu.edu.cn/
 fig-align: center
 ---
 
 ::: {#hero-heading}
 
-欢迎来到我的个人主页。我的主页很无聊，随意看看吧！
+您好！
+
+我是一名**临床医学**专业的学生。
+
+过去的4年里我就读于**郑州大学**临床医学专业，目前在医院实习。
+
+我对**重症医学**领域很感兴趣，未来我也将从事这一方向，努力称为一名优秀的ICU医生。
+
+我目前对**Python**很感兴趣，最近也一直在学习相关编程知识。同时我也在练习我的数据分析技能，我熟练掌握使用R语言分析数据、熟悉Python数据分析。
+
+<style>
+.custom-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #355E3B;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+}
+
+.custom-btn:hover {
+  background-color: #355E3B;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+</style>
+
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://laq12345.netlify.app/about_me.html" 
+     class="custom-btn"
+     target="_blank">
+    关于我
+  </a>
+</div>
+
 :::
